@@ -434,21 +434,43 @@ def ensure_sources(root: Path, manifest: dict) -> None:
         ensure_upstream_checkout(root)
     repair_samples(root, manifest)
     states = source_state(root, manifest)
-    missing_models = states[UPSTREAM] != "ready" or any(
-        states[name] != "ready" for name in manifest["pretrained_weights"]
-    )
-    missing_samples = any(
-        states[f"data/raw/urfall/{name}"] != "ready" for name in manifest["sample_sequences"]
-    )
-    if missing_models or missing_samples:
+    for attempt in range(1, 4):
+        missing_models = states[UPSTREAM] != "ready" or any(
+            states[name] != "ready" for name in manifest["pretrained_weights"]
+        )
+        missing_samples = any(
+            states[f"data/raw/urfall/{name}"] != "ready" for name in manifest["sample_sequences"]
+        )
+        if not missing_models and not missing_samples:
+            break
         arguments = ["fetch-assets", "--config", DEMO_CONFIG]
         if missing_models:
             arguments.append("--models")
         if missing_samples:
             arguments += ["--dataset", "urfall-cam0-rgb", "--limit-per-class", "1"]
-        print("Preparing pretrained models and the two demo sequences...", flush=True)
-        run_cli(root, arguments)
-        repair_samples(root, manifest)
+        print(
+            f"Preparing pretrained models and the two demo sequences (attempt {attempt}/3)...",
+            flush=True,
+        )
+        try:
+            run_cli(root, arguments)
+        except subprocess.CalledProcessError as exc:
+            states = source_state(root, manifest)
+            refuse_mismatches(states)
+            repair_samples(root, manifest)
+            states = source_state(root, manifest)
+            refuse_mismatches(states)
+            if all(state == "ready" for state in states.values()):
+                break
+            if attempt == 3:
+                raise SetupError(
+                    "Source download failed after 3 attempts. Check the network and "
+                    "rerun start.cmd; completed resources were preserved."
+                ) from exc
+            print("Source download was interrupted; retrying incomplete resources...", flush=True)
+        else:
+            repair_samples(root, manifest)
+            break
     states = source_state(root, manifest)
     refuse_mismatches(states)
     missing = [name for name, state in states.items() if state != "ready"]

@@ -299,6 +299,91 @@ def test_incomplete_sample_is_repaired_without_overwriting_existing_rgb(tmp_path
     assert old.read_bytes() == b"changed"
 
 
+def test_source_download_retries_only_incomplete_resources(tmp_path, monkeypatch):
+    model = "weights/pretrained/model"
+    manifest = {
+        "pretrained_weights": {model: {}},
+        "sample_sequences": {"adl-05": {}, "fall-02": {}},
+    }
+    states = {
+        quickstart.UPSTREAM: "ready",
+        model: "missing",
+        "data/raw/urfall/adl-05": "missing",
+        "data/raw/urfall/fall-02": "missing",
+    }
+    monkeypatch.setattr(quickstart, "source_state", lambda *_: states.copy())
+    monkeypatch.setattr(quickstart, "repair_samples", lambda *_: None)
+    calls = []
+    completed_mtime = None
+
+    def fetch(_root, arguments):
+        nonlocal completed_mtime
+        calls.append(arguments)
+        if len(calls) == 1:
+            completed = write_file(tmp_path, model, b"completed model")
+            completed_mtime = completed.stat().st_mtime_ns
+            states[model] = "ready"
+            states["data/raw/urfall/fall-02"] = "ready"
+            raise subprocess.CalledProcessError(2, arguments)
+        assert "--models" not in arguments
+        states["data/raw/urfall/adl-05"] = "ready"
+
+    monkeypatch.setattr(quickstart, "run_cli", fetch)
+    quickstart.ensure_sources(tmp_path, manifest)
+    assert len(calls) == 2 and "--models" in calls[0]
+    assert calls[1] == [
+        "fetch-assets",
+        "--config",
+        quickstart.DEMO_CONFIG,
+        "--dataset",
+        "urfall-cam0-rgb",
+        "--limit-per-class",
+        "1",
+    ]
+    assert (tmp_path / model).read_bytes() == b"completed model"
+    assert (tmp_path / model).stat().st_mtime_ns == completed_mtime
+
+
+def test_source_download_stops_after_three_failed_attempts(tmp_path, monkeypatch):
+    manifest = {"pretrained_weights": {}, "sample_sequences": {"adl-05": {}}}
+    states = {quickstart.UPSTREAM: "ready", "data/raw/urfall/adl-05": "missing"}
+    monkeypatch.setattr(quickstart, "source_state", lambda *_: states.copy())
+    monkeypatch.setattr(quickstart, "repair_samples", lambda *_: None)
+    calls = []
+
+    def fail(_root, arguments):
+        calls.append(arguments)
+        raise subprocess.CalledProcessError(2, arguments)
+
+    monkeypatch.setattr(quickstart, "run_cli", fail)
+    with pytest.raises(quickstart.SetupError, match="3 attempts.*rerun start.cmd"):
+        quickstart.ensure_sources(tmp_path, manifest)
+    assert len(calls) == 3
+    assert all("--models" not in arguments for arguments in calls)
+
+
+def test_changed_resource_aborts_download_retry_without_overwrite(tmp_path, monkeypatch):
+    model = "weights/pretrained/model"
+    existing = write_file(tmp_path, model, b"old model")
+    manifest = {"pretrained_weights": {model: {}}, "sample_sequences": {"adl-05": {}}}
+    states = {quickstart.UPSTREAM: "ready", model: "ready", "data/raw/urfall/adl-05": "missing"}
+    monkeypatch.setattr(quickstart, "source_state", lambda *_: states.copy())
+    monkeypatch.setattr(quickstart, "repair_samples", lambda *_: None)
+    calls = []
+
+    def fail_after_external_edit(_root, arguments):
+        calls.append(arguments)
+        existing.write_bytes(b"external edit")
+        states[model] = "mismatch"
+        raise subprocess.CalledProcessError(2, arguments)
+
+    monkeypatch.setattr(quickstart, "run_cli", fail_after_external_edit)
+    with pytest.raises(quickstart.SetupError, match="preserved"):
+        quickstart.ensure_sources(tmp_path, manifest)
+    assert len(calls) == 1
+    assert existing.read_bytes() == b"external edit"
+
+
 def test_upstream_uses_a_staged_shallow_pinned_checkout(tmp_path, monkeypatch):
     root = tmp_path / "clone"
     root.mkdir()
