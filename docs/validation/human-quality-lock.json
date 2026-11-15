@@ -1,0 +1,96 @@
+{
+  "created_at": "2026-09-18T09:00:26.932469+00:00",
+  "baseline": "ur-sample-human-s1-001",
+  "candidates": [
+    {
+      "run": "ur-human-flip-001",
+      "kind": "flip_tta"
+    },
+    {
+      "run": "ur-human-patterns-001",
+      "kind": "sequence_patterns"
+    }
+  ],
+  "pilot_ids": [
+    "adl-11",
+    "adl-31",
+    "adl-40",
+    "adl-04",
+    "adl-35",
+    "adl-37",
+    "fall-09",
+    "fall-19",
+    "fall-29",
+    "fall-25",
+    "fall-18",
+    "fall-30"
+  ],
+  "coarse_intervals": {
+    "fall-09": {
+      "normal_until_ms": 4304,
+      "fall_phase_ms": [
+        4604,
+        5506
+      ]
+    },
+    "fall-19": {
+      "normal_until_ms": 1167,
+      "fall_phase_ms": [
+        1468,
+        2369
+      ]
+    },
+    "fall-29": {
+      "normal_until_ms": 1735,
+      "fall_phase_ms": [
+        2035,
+        2936
+      ]
+    },
+    "fall-25": {
+      "normal_until_ms": 1568,
+      "fall_phase_ms": [
+        1868,
+        2802
+      ]
+    },
+    "fall-18": {
+      "normal_until_ms": 400,
+      "fall_phase_ms": [
+        800,
+        1601
+      ]
+    },
+    "fall-30": {
+      "normal_until_ms": 800,
+      "fall_phase_ms": [
+        1334,
+        1902
+      ]
+    }
+  },
+  "missed": [
+    "fall-19",
+    "fall-18",
+    "fall-30"
+  ],
+  "targets": {
+    "operational_accuracy": 0.9,
+    "sequence_accuracy": 0.9,
+    "sequence_fall_f1": 0.87
+  },
+  "flip_rule": "Original FastPose17 heatmaps plus horizontally flipped crop forward; inverse horizontal flip and fixed COCO left/right channel permutation, arithmetic mean before COCO13 cut/decode/NMS. Same current image only, no heatmap shift or confidence boost. Optional and off by default.",
+  "pilot_gate": "All12 retain a legal K3 score; six ADL mean valid-window coverage >=95% baseline; three originally missed Fall coarse phases total current-pose-good endpoints >=max(baseline+3,ceil(1.10*baseline)), and their total valid phase windows >=baseline. Finite genuine512 features. No Accuracy selection during pilot. Training flip only if gate passes.",
+  "patterns_rule": "Fit fixed KMeans8 on all Train-only standardized512D features, random_state42,n_init10,max_iter300,algorithm lloyd; cap K only for synthetic datasets smaller than8. Within each Train sequence each occupied cluster gets equal sampling mass, each sequence retains equal total mass. Replacement, number of draws per epoch unchanged. Store Train assignments/centers/counts/weights in frozen sources. No action labels or Validation/Test clustering.",
+  "fixed": "Original UR split; same weights, quality .2/9/.8, original30/stride1, K3. AE128/32 seed42 wd.001 max100epochs patience10 noise0. TrainADL scaler/AE; normal Validation checkpoint; Validation balanced_sequence_accuracy threshold, fewerFP then higherthreshold.",
+  "selection": "Eligible rows ranked operational_accuracy, sequence_fall_f1, end_to_end_fall_recall, fewer FP; baseline wins ties.",
+  "guard": "No Accuracy/F1 regression, no extra unknown or early coarse event; at least baseline2 coarse phase-hit sequences. Every newly detected original FN must have a valid current-pose visible suspected_fall window inside its prelocked coarse fall phase.",
+  "stop": "Exactly these two independent candidates, no combination or further settings/seeds after results. Flip only trains after pilot gate; patterns uses original feature cache. Maximum200 AE epochs. Test once only if selected Validation targets and timing guard pass; no post-Test tuning.",
+  "normal_visual_diagnosis": "adl35 Validation shows push-up-like ground activity, adl31 Train similar ground exercise, adl40 Train ground exercise, adl11 Train sitting-to-reclining. Not absent normal activity in Train. Action-head counts are predictions, not labels.",
+  "before_sha256": "9c58b3482a0243bb9e81ebe57fcd78f90d2ce8ac361f2f6ec3a2c5258fc9bab7",
+  "extra_source_sha256": "8cd74cbc4dc23016d7a846eb840b26dca804d4f840a1ee8d6c4e6aeeb8fa7958",
+  "diagnosis_sha256": "ff81877c0c55da568452af7ead4c81034e8ec5fa184bb30a67871d07adb87fbf",
+  "phase_diagnosis_sha256": "23951f469b691b16a077ec85e7a962b4b7dff660bb38439168a2cab0c6d8292b",
+  "historical_test_seen": true,
+  "repeated_validation_not_independent": true
+}

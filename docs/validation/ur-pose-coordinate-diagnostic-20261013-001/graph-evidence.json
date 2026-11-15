@@ -1,0 +1,250 @@
+{
+  "tier": 2,
+  "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+  "coverage": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"project\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly\",\"signal\":\"best_effort\",\"indexed_at\":\"2026-10-13T06:24:14Z\",\"metadata\":{\"generation\":\"2026-10-13T06:24:14Z\",\"index_mode\":\"full\",\"recorded_at\":\"2026-10-13T06:24:16Z\",\"recording_status\":\"complete\",\"ignored_files_stored\":116,\"ignored_files_total\":116,\"hash_records_complete\":true,\"coverage_version\":3,\"generation_matches\":true},\"paths\":[{\"requested_path\":\"src/fall_detect/evaluation/pose_coordinates.py\",\"path\":\"src/fall_detect/evaluation/pose_coordinates.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"scripts/pose_coordinate_diagnostic.py\",\"path\":\"scripts/pose_coordinate_diagnostic.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"scripts/verify_pose_coordinate_diagnostic.py\",\"path\":\"scripts/verify_pose_coordinate_diagnostic.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"tests/test_pose_coordinates.py\",\"path\":\"tests/test_pose_coordinates.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]}],\"scopes\":[],\"caveat\":\"Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable.\"}"
+      }
+    ],
+    "structuredContent": {
+      "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+      "signal": "best_effort",
+      "indexed_at": "2026-10-13T06:24:14Z",
+      "metadata": {
+        "generation": "2026-10-13T06:24:14Z",
+        "index_mode": "full",
+        "recorded_at": "2026-10-13T06:24:16Z",
+        "recording_status": "complete",
+        "ignored_files_stored": 116,
+        "ignored_files_total": 116,
+        "hash_records_complete": true,
+        "coverage_version": 3,
+        "generation_matches": true
+      },
+      "paths": [
+        {
+          "requested_path": "src/fall_detect/evaluation/pose_coordinates.py",
+          "path": "src/fall_detect/evaluation/pose_coordinates.py",
+          "status": "no_recorded_issue",
+          "freshness": "metadata_match",
+          "recommended_action": "use_graph_with_best_effort_caveat",
+          "coverage": []
+        },
+        {
+          "requested_path": "scripts/pose_coordinate_diagnostic.py",
+          "path": "scripts/pose_coordinate_diagnostic.py",
+          "status": "no_recorded_issue",
+          "freshness": "metadata_match",
+          "recommended_action": "use_graph_with_best_effort_caveat",
+          "coverage": []
+        },
+        {
+          "requested_path": "scripts/verify_pose_coordinate_diagnostic.py",
+          "path": "scripts/verify_pose_coordinate_diagnostic.py",
+          "status": "no_recorded_issue",
+          "freshness": "metadata_match",
+          "recommended_action": "use_graph_with_best_effort_caveat",
+          "coverage": []
+        },
+        {
+          "requested_path": "tests/test_pose_coordinates.py",
+          "path": "tests/test_pose_coordinates.py",
+          "status": "no_recorded_issue",
+          "freshness": "metadata_match",
+          "recommended_action": "use_graph_with_best_effort_caveat",
+          "coverage": []
+        }
+      ],
+      "scopes": [],
+      "caveat": "Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable."
+    },
+    "isError": false
+  },
+  "initialCoverage": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"project\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly\",\"signal\":\"best_effort\",\"indexed_at\":\"2026-10-13T05:54:33Z\",\"metadata\":{\"generation\":\"2026-10-13T05:54:33Z\",\"index_mode\":\"full\",\"recorded_at\":\"2026-10-13T05:54:35Z\",\"recording_status\":\"complete\",\"ignored_files_stored\":84,\"ignored_files_total\":84,\"hash_records_complete\":true,\"coverage_version\":3,\"generation_matches\":true},\"paths\":[{\"requested_path\":\"src/fall_detect/skeleton/windows.py\",\"path\":\"src/fall_detect/skeleton/windows.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/skeleton/preprocessing.py\",\"path\":\"src/fall_detect/skeleton/preprocessing.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/models/stgcn.py\",\"path\":\"src/fall_detect/models/stgcn.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/models/weights.py\",\"path\":\"src/fall_detect/models/weights.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/data/cache.py\",\"path\":\"src/fall_detect/data/cache.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/pipeline.py\",\"path\":\"src/fall_detect/pipeline.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/contracts.py\",\"path\":\"src/fall_detect/contracts.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/training/experiment.py\",\"path\":\"src/fall_detect/training/experiment.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/detection/events.py\",\"path\":\"src/fall_detect/detection/events.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/evaluation/frame_review.py\",\"path\":\"src/fall_detect/evaluation/frame_review.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"scripts/fall19_review.py\",\"path\":\"scripts/fall19_review.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"scripts/render_pose_resolution.py\",\"path\":\"scripts/render_pose_resolution.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/config.py\",\"path\":\"src/fall_detect/config.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/evaluation/annotation_amendment.py\",\"path\":\"src/fall_detect/evaluation/annotation_amendment.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"outputs/ur-fall19-human-amendment-20261013-001/derived-annotation.json\",\"path\":\"outputs/ur-fall19-human-amendment-20261013-001/derived-annotation.json\",\"status\":\"excluded\",\"freshness\":\"not_tracked\",\"recommended_action\":\"read_source_and_reindex\",\"coverage\":[{\"path\":\"outputs\",\"kind\":\"not_indexed_dir\",\"detail\":\"excluded subtree\",\"match\":\"ancestor\"}]},{\"requested_path\":\"runs/ur-isotropic-wide-20261012-001/dataset-index.json\",\"path\":\"runs/ur-isotropic-wide-20261012-001/dataset-index.json\",\"status\":\"excluded\",\"freshness\":\"not_tracked\",\"recommended_action\":\"read_source_and_reindex\",\"coverage\":[{\"path\":\"runs\",\"kind\":\"not_indexed_dir\",\"detail\":\"excluded subtree\",\"match\":\"ancestor\"}]}],\"scopes\":[],\"caveat\":\"Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable.\"}"
+      }
+    ],
+    "structuredContent": {
+      "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+      "signal": "best_effort",
+      "indexed_at": "2026-10-13T05:54:33Z",
+      "metadata": {
+        "generation": "2026-10-13T05:54:33Z",
+        "index_mode": "full",
+        "recorded_at": "2026-10-13T05:54:35Z",
+        "recording_status": "complete",
+        "ignored_files_stored": 84,
+        "ignored_files_total": 84,
+        "hash_records_complete": true,
+        "coverage_version": 3,
+        "generation_matches": true
+      },
+      "paths": [
+        {
+          "requested_path": "src/fall_detect/skeleton/windows.py",
+          "path": "src/fall_detect/skeleton/windows.py",
+          "status": "no_recorded_issue",
+          "freshness": "metadata_match",
+          "recommended_action": "use_graph_with_best_effort_caveat",
+          "coverage": []
+        },
+        {
+          "requested_path": "src/fall_detect/skeleton/preprocessing.py",
+          "path": "src/fall_detect/skeleton/preprocessing.py",
+          "status": "no_recorded_issue",
+          "freshness": "metadata_match",
+          "recommended_action": "use_graph_with_best_effort_caveat",
+          "coverage": []
+        },
+        {
+          "requested_path": "src/fall_detect/models/stgcn.py",
+          "path": "src/fall_detect/models/stgcn.py",
+          "status": "no_recorded_issue",
+          "freshness": "metadata_match",
+          "recommended_action": "use_graph_with_best_effort_caveat",
+          "coverage": []
+        },
+        {
+          "requested_path": "src/fall_detect/models/weights.py",
+          "path": "src/fall_detect/models/weights.py",
+          "status": "no_recorded_issue",
+          "freshness": "metadata_match",
+          "recommended_action": "use_graph_with_best_effort_caveat",
+          "coverage": []
+        },
+        {
+          "requested_path": "src/fall_detect/data/cache.py",
+          "path": "src/fall_detect/data/cache.py",
+          "status": "no_recorded_issue",
+          "freshness": "metadata_match",
+          "recommended_action": "use_graph_with_best_effort_caveat",
+          "coverage": []
+        },
+        {
+          "requested_path": "src/fall_detect/pipeline.py",
+          "path": "src/fall_detect/pipeline.py",
+          "status": "no_recorded_issue",
+          "freshness": "metadata_match",
+          "recommended_action": "use_graph_with_best_effort_caveat",
+          "coverage": []
+        },
+        {
+          "requested_path": "src/fall_detect/contracts.py",
+          "path": "src/fall_detect/contracts.py",
+          "status": "no_recorded_issue",
+          "freshness": "metadata_match",
+          "recommended_action": "use_graph_with_best_effort_caveat",
+          "coverage": []
+        },
+        {
+          "requested_path": "src/fall_detect/training/experiment.py",
+          "path": "src/fall_detect/training/experiment.py",
+          "status": "no_recorded_issue",
+          "freshness": "metadata_match",
+          "recommended_action": "use_graph_with_best_effort_caveat",
+          "coverage": []
+        },
+        {
+          "requested_path": "src/fall_detect/detection/events.py",
+          "path": "src/fall_detect/detection/events.py",
+          "status": "no_recorded_issue",
+          "freshness": "metadata_match",
+          "recommended_action": "use_graph_with_best_effort_caveat",
+          "coverage": []
+        },
+        {
+          "requested_path": "src/fall_detect/evaluation/frame_review.py",
+          "path": "src/fall_detect/evaluation/frame_review.py",
+          "status": "no_recorded_issue",
+          "freshness": "metadata_match",
+          "recommended_action": "use_graph_with_best_effort_caveat",
+          "coverage": []
+        },
+        {
+          "requested_path": "scripts/fall19_review.py",
+          "path": "scripts/fall19_review.py",
+          "status": "no_recorded_issue",
+          "freshness": "metadata_match",
+          "recommended_action": "use_graph_with_best_effort_caveat",
+          "coverage": []
+        },
+        {
+          "requested_path": "scripts/render_pose_resolution.py",
+          "path": "scripts/render_pose_resolution.py",
+          "status": "no_recorded_issue",
+          "freshness": "metadata_match",
+          "recommended_action": "use_graph_with_best_effort_caveat",
+          "coverage": []
+        },
+        {
+          "requested_path": "src/fall_detect/config.py",
+          "path": "src/fall_detect/config.py",
+          "status": "no_recorded_issue",
+          "freshness": "metadata_match",
+          "recommended_action": "use_graph_with_best_effort_caveat",
+          "coverage": []
+        },
+        {
+          "requested_path": "src/fall_detect/evaluation/annotation_amendment.py",
+          "path": "src/fall_detect/evaluation/annotation_amendment.py",
+          "status": "no_recorded_issue",
+          "freshness": "metadata_match",
+          "recommended_action": "use_graph_with_best_effort_caveat",
+          "coverage": []
+        },
+        {
+          "requested_path": "outputs/ur-fall19-human-amendment-20261013-001/derived-annotation.json",
+          "path": "outputs/ur-fall19-human-amendment-20261013-001/derived-annotation.json",
+          "status": "excluded",
+          "freshness": "not_tracked",
+          "recommended_action": "read_source_and_reindex",
+          "coverage": [
+            {
+              "path": "outputs",
+              "kind": "not_indexed_dir",
+              "detail": "excluded subtree",
+              "match": "ancestor"
+            }
+          ]
+        },
+        {
+          "requested_path": "runs/ur-isotropic-wide-20261012-001/dataset-index.json",
+          "path": "runs/ur-isotropic-wide-20261012-001/dataset-index.json",
+          "status": "excluded",
+          "freshness": "not_tracked",
+          "recommended_action": "read_source_and_reindex",
+          "coverage": [
+            {
+              "path": "runs",
+              "kind": "not_indexed_dir",
+              "detail": "excluded subtree",
+              "match": "ancestor"
+            }
+          ]
+        }
+      ],
+      "scopes": [],
+      "caveat": "Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable."
+    },
+    "isError": false
+  },
+  "scoreSearch": {
+    "content": [
+      {
+        "type": "text",
+        "text": "total: 8\nresults: 8  (rows: name label lines in out; qn = group prefix + \".\" + name)\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-flip-legacy-source.src.fall_detect.training.experiment (docs/validation/human-flip-legacy-source/src/fall_detect/training/experiment.py):\n  Scorer Class 382-433 31 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-flip-legacy-source.src.fall_detect.training.experiment.Scorer (docs/validation/human-flip-legacy-source/src/fall_detect/training/experiment.py):\n  score Method 424-433 25 3\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-residual-legacy-source.src.fall_detect.training.experiment (docs/validation/human-residual-legacy-source/src/fall_detect/training/experiment.py):\n  Scorer Class 378-418 2 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-residual-legacy-source.src.fall_detect.training.experiment.Scorer (docs/validation/human-residual-legacy-source/src/fall_detect/training/experiment.py):\n  score Method 413-418 2 3\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-short20-isotropic-20261012-prior-source.src.fall_detect.training.experiment (docs/validation/ur-short20-isotropic-20261012-prior-source/src/fall_detect/training/experiment.py):\n  Scorer Class 389-440 10 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-short20-isotropic-20261012-prior-source.src.fall_detect.training.experiment.Scorer (docs/validation/ur-short20-isotropic-20261012-prior-source/src/fall_detect/training/experiment.py):\n  score Method 431-440 2 3\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.training.experiment (src/fall_detect/training/experiment.py):\n  Scorer Class 411-462 20 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.training.experiment.Scorer (src/fall_detect/training/experiment.py):\n  score Method 453-462 31 3\nhas_more: false\n"
+      }
+    ],
+    "isError": false
+  },
+  "notes": [
+    "Graph coverage best effort; ignored cache/run/raw read directly.",
+    "Incorrect guessed resampling.py path rejected; exact graph resolved CausalResampler to skeleton/windows.py.",
+    "Sham and Train/Validation control parity exact; no Test cache decoded."
+  ]
+}

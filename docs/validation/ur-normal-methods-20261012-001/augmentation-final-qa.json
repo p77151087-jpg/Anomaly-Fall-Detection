@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "prior_388_artifacts_unchanged": true,
+  "prior_final_qa_sha256": "6e4985bfd056c6620838d3f6d7e54dd3d39bc887e43d43193c235233c41153cc",
+  "augmentation_provenance_sha256": "4a32fea760cb90c9352b69720d799acb8ec8ba05245afe40f59865acb2bf5e77",
+  "supplement_report_sha256": "b2546b0fe707bcf7c02a8c4d682aefdc5379c32f8c74aa467e3b1c65bd949edd",
+  "supplement_source_sha256": "77bcc00b55fea2bba1d2f4d01c50ff20fc248b973ffe1db3c2f47101ab442ef1",
+  "epochs_replayed": 40,
+  "new_training_epochs": 0,
+  "noisy_rows_saved": 145520,
+  "all_40_arrays_sha_verified": true,
+  "post_training_rng_replay_not_original_forward_capture": true
+}

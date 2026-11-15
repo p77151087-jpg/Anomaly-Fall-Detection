@@ -1,0 +1,32 @@
+{
+  "returncode": 1,
+  "output": "Traceback (most recent call last):\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\build_shoulder_demo_gallery.py\", line 127, in <module>\n    main()\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\build_shoulder_demo_gallery.py\", line 23, in main\n    require(not destination.exists(), \"Gallery exists; choose a new version\")\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\validate_shoulder_demo.py\", line 31, in require\n    raise ContractError(message)\nfall_detect.io_utils.ContractError: Gallery exists; choose a new version\n",
+  "unchanged": {
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\adl-01.mp4": "65c8624d391c39bd1d970a653c10a94cfe38a8c4fb765e8f8d20d22d1fbe51b3",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\adl-04.mp4": "69a8cbcf02ad2c37caa25d6393f618610529da27981642bb4157af5d9ebbd61d",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\adl-16.mp4": "5d52f26ce25afed9f6fc07313d85613c281c79ed37bf88ecb2959b4405edb748",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\adl-18.mp4": "f0e48378d66f64cc2797c1dbd68da0a250ab69a028da98fafbf2e641005b3e60",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\adl-20.mp4": "67e8624211eaea170aa4f0cb186620a1d359379fc77aabbb093adf7eadc6010e",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\adl-23.mp4": "3043a0670e2e84745027243ffa33049dec4600be1e40a19ee2e3bd1487475957",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\adl-35.mp4": "70e1a22954f5e56278ec4743cec83d5ba6927689a46af7201c9d9eb68ca1ab3e",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\adl-37.mp4": "bbca3a95f096a048746ea215b0e27becdfdb8494233e1ec0204316b768565404",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\fall-02.mp4": "71160e530eb14e5e6f90c8177ecefa74f650acb994815ab3a19f996554ac7b00",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\fall-06.mp4": "d3d017cf1e410f540b2ba74fef75f8a301bf291b63bfbf8860f2ff046c6f86b6",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\fall-07.mp4": "591ac7124e95fef99ec6a93e2911d612ae71b554cf0d5d3734b1b5914e84353d",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\fall-08.mp4": "2ff13a1bcb4ada0b7cc60bb5175750bfa17b3c3552c9eb66b37e0d39e6fdb9dc",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\fall-09.mp4": "a00d5d8bb21e10ef52690ad253c638714f25593058c9f0f0637f314388078d3d",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\fall-11.mp4": "f0e0a201b15013ee97df82582cfc27c4790cd6427eb9a479436c86781f8466c9",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\fall-13.mp4": "6b0c012a927b8c4fb6c6cf59e39ecc0e8db40cdfb4f786380c905a41d320ce9d",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\fall-14.mp4": "713815c7cee144d3515383e186d50fea4fcfd6ba8a74600d89f003547384016f",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\fall-16.mp4": "7296029c25395d8e1859ad29e66b56e1309a9e821d065d01443b0eddbf355b99",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\fall-18.mp4": "656c7742e789f3253a0c37d60a29fa1ae8d981861ae0ac3efcb751f2cad4d9f1",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\fall-19-first-alert.png": "16487f9d2ce864a696a7ca5066d54d5cac3a8c52f3f7ad060415a939cafa50d6",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\fall-19.mp4": "f68d3229c472ffb9000d8f96825c0cca63da088dff63112151c998de89b28656",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\fall-22.mp4": "013d5d194234edde1c667f6c5b92e39b71b49bf7352f68a83a29f52ea05f8823",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\fall-25.mp4": "becdc4d776250d20667c60897c4b4d75ad4448b91600fa9f15c6a27365cb3e11",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\fall-29.mp4": "248d5f0753d016bf94569fc3fafb60364bcb92371270aca7ac283587664da271",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\fall-30.mp4": "8fd33899996e31e21796c1dfae5886d787543b81c9c22be576cb10d6e41608a6",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\index.html": "07762baee542a0c0c0dac8c6a8debf65ab18cb597a5a3fba6e4b49dab09b781c",
+    "outputs\\ur-shoulder-demo-20261112-001\\gallery\\verification.json": "b7431b36fcfea215d2be89e826f9560d8e3ac473f9146acb679e5c8223581638"
+  }
+}

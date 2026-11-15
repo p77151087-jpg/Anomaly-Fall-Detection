@@ -1,0 +1,225 @@
+{
+  "source_kind": "real_feature_smoke",
+  "test_scored": false,
+  "rows": [
+    {
+      "sequence_id": "adl-05",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "before": {
+        "features": 30,
+        "evaluable": true,
+        "window_coverage": 1.0,
+        "legal_event_windows": 28,
+        "quality_counts": {
+          "valid": 30
+        }
+      },
+      "after": {
+        "features": 30,
+        "evaluable": true,
+        "window_coverage": 1.0,
+        "legal_event_windows": 28,
+        "quality_counts": {
+          "valid": 30
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "before": {
+        "features": 9,
+        "evaluable": true,
+        "window_coverage": 1.0,
+        "legal_event_windows": 7,
+        "quality_counts": {
+          "valid": 9
+        }
+      },
+      "after": {
+        "features": 9,
+        "evaluable": true,
+        "window_coverage": 1.0,
+        "legal_event_windows": 7,
+        "quality_counts": {
+          "valid": 9
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "before": {
+        "features": 24,
+        "evaluable": true,
+        "window_coverage": 1.0,
+        "legal_event_windows": 22,
+        "quality_counts": {
+          "valid": 24
+        }
+      },
+      "after": {
+        "features": 24,
+        "evaluable": true,
+        "window_coverage": 1.0,
+        "legal_event_windows": 22,
+        "quality_counts": {
+          "valid": 24
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "before": {
+        "features": 30,
+        "evaluable": true,
+        "window_coverage": 0.625,
+        "legal_event_windows": 26,
+        "quality_counts": {
+          "no_person": 1,
+          "track_gap": 97,
+          "valid": 30
+        }
+      },
+      "after": {
+        "features": 41,
+        "evaluable": true,
+        "window_coverage": 0.8541666666666666,
+        "legal_event_windows": 39,
+        "quality_counts": {
+          "track_gap": 26,
+          "valid": 41
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "before": {
+        "features": 9,
+        "evaluable": true,
+        "window_coverage": 0.5294117647058824,
+        "legal_event_windows": 7,
+        "quality_counts": {
+          "valid": 9,
+          "track_gap": 61
+        }
+      },
+      "after": {
+        "features": 11,
+        "evaluable": true,
+        "window_coverage": 0.6470588235294118,
+        "legal_event_windows": 9,
+        "quality_counts": {
+          "valid": 11,
+          "track_gap": 93
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "before": {
+        "features": 3,
+        "evaluable": true,
+        "window_coverage": 0.375,
+        "legal_event_windows": 1,
+        "quality_counts": {
+          "valid": 3,
+          "track_gap": 30
+        }
+      },
+      "after": {
+        "features": 4,
+        "evaluable": true,
+        "window_coverage": 0.5,
+        "legal_event_windows": 2,
+        "quality_counts": {
+          "valid": 4,
+          "track_gap": 25
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "before": {
+        "features": 5,
+        "evaluable": true,
+        "window_coverage": 0.3333333333333333,
+        "legal_event_windows": 3,
+        "quality_counts": {
+          "valid": 5,
+          "track_gap": 36
+        }
+      },
+      "after": {
+        "features": 5,
+        "evaluable": true,
+        "window_coverage": 0.3333333333333333,
+        "legal_event_windows": 3,
+        "quality_counts": {
+          "valid": 5,
+          "track_gap": 85
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "before": {
+        "features": 10,
+        "evaluable": true,
+        "window_coverage": 0.7142857142857143,
+        "legal_event_windows": 8,
+        "quality_counts": {
+          "valid": 10,
+          "track_gap": 28
+        }
+      },
+      "after": {
+        "features": 10,
+        "evaluable": true,
+        "window_coverage": 0.7142857142857143,
+        "legal_event_windows": 8,
+        "quality_counts": {
+          "valid": 10,
+          "track_gap": 37
+        }
+      }
+    }
+  ],
+  "feature_ratios": {
+    "ADL": 1.118279569892473,
+    "Fall": 1.1111111111111112
+  },
+  "evaluable_regression": false,
+  "gate_passed": false,
+  "accuracy_not_measured": true,
+  "source_index_sha256": "e235c07ce1de28a8ee8ec402db584af91c4fe511a0b57f526b3b1edf5766efd6"
+}

@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-09-17T10:12:25.169018+00:00",
+  "frozen_runs_verified": [
+    "caucafall-extension-001",
+    "caucafall-extension-001-balanced",
+    "caucafall-timestamp-001",
+    "caucafall-yolo11-001",
+    "caucafall-yolo11-jitter-001",
+    "le2i-extension-001",
+    "le2i-long-002",
+    "le2i-long-002-balanced",
+    "le2i-seqbalanced-001",
+    "le2i-seqbalanced-001-balanced",
+    "le2i-seqcompact-001",
+    "le2i-seqcompact-001-balanced",
+    "le2i-timing-001",
+    "le2i-timing-balanced-001",
+    "openpose18-baseline-001",
+    "openpose18-rotation-001"
+  ],
+  "candidate_pretest_hashes_unchanged": true,
+  "caucafall_raw_video_hashes_verified": 100,
+  "pytest": {
+    "passed": 132,
+    "skipped": 1,
+    "warnings": 12,
+    "evidence": "pytest-target95-final.xml"
+  },
+  "ruff": "passed",
+  "format": "passed",
+  "compileall": "passed",
+  "loss_ui": {
+    "run": "caucafall-yolo11-jitter-001",
+    "epochs": 100,
+    "best_epoch": 95,
+    "best_val_normal_loss": 0.14955932966870988,
+    "train_usable_sequences": 92,
+    "train_total_sequences": 92,
+    "train_windows": 6096,
+    "val_normal_usable_sequences": 22,
+    "val_normal_total_sequences": 22,
+    "val_normal_windows": 1026,
+    "curves_visually_verified": true
+  },
+  "video_previews_visually_verified": true
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\���j�M��\fall-detection-anomaly\scripts\verify_human_optimization.py", line 228, in <module>
+    main(parser.parse_args().write)
+  File "C:\���j�M��\fall-detection-anomaly\scripts\verify_human_optimization.py", line 45, in main
+    check(metrics == row["validation"], "Recomputed Validation differs")
+  File "C:\���j�M��\fall-detection-anomaly\scripts\verify_human_optimization.py", line 31, in check
+    raise ContractError(message)
+fall_detect.io_utils.ContractError: Recomputed Validation differs

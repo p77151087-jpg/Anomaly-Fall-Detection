@@ -1,0 +1,80 @@
+{
+  "tier": 2,
+  "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+  "coverage": {
+    "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+    "signal": "best_effort",
+    "indexed_at": "2026-10-13T06:37:10Z",
+    "metadata": {
+      "generation": "2026-10-13T06:37:10Z",
+      "index_mode": "full",
+      "recorded_at": "2026-10-13T06:37:12Z",
+      "recording_status": "complete",
+      "ignored_files_stored": 116,
+      "ignored_files_total": 116,
+      "hash_records_complete": true,
+      "coverage_version": 3,
+      "generation_matches": true
+    },
+    "paths": [
+      {
+        "requested_path": "scripts/pose_coordinate_diagnostic.py",
+        "path": "scripts/pose_coordinate_diagnostic.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "scripts/verify_pose_coordinate_diagnostic.py",
+        "path": "scripts/verify_pose_coordinate_diagnostic.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "src/fall_detect/evaluation/pose_coordinates.py",
+        "path": "src/fall_detect/evaluation/pose_coordinates.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "tests/test_pose_coordinates.py",
+        "path": "tests/test_pose_coordinates.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      }
+    ],
+    "scopes": [],
+    "caveat": "Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable."
+  },
+  "queries": {
+    "content": [
+      {
+        "type": "text",
+        "text": "total: 4\nresults: 4  (rows: name label lines in out; qn = group prefix + \".\" + name)\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.pose_coordinate_diagnostic (scripts/pose_coordinate_diagnostic.py):\n  check_lock Function 212-223 1 10\n  diagnose Function 263-412 1 50\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.evaluation.pose_coordinates (src/fall_detect/evaluation/pose_coordinates.py):\n  apply_coordinates Function 91-116 6 13\n  validate_annotation Function 18-88 1 6\nhas_more: false\n"
+      }
+    ],
+    "isError": false
+  },
+  "trace": {
+    "content": [
+      {
+        "type": "text",
+        "text": "function: C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.pose_coordinate_diagnostic.diagnose\ndirection: outbound\ncallees_total: 30\ncallees: 30  (rows: name hop; qn = group prefix + \".\" + name)\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.action-display-legacy-source.src.fall_detect.models.stgcn:\n  HumanFeatureExtractor 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-flip-legacy-source.src.fall_detect.training.experiment:\n  Scorer 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-flip-legacy-source.src.fall_detect.training.experiment.Scorer:\n  score 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-flip-legacy-source.src.fall_detect.training.experiment:\n  verify_artifacts 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.resource-fetch:\n  exists 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-short20-isotropic-20261012-prior-source.src.fall_detect.pipeline:\n  features_from_observations 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.accuracy_first:\n  save 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.pose_coordinate_diagnostic:\n  check_lock 1\n  first_three_controls 1\n  original_inputs 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.data.cache:\n  save_feature_cache 1\n  save_pose_cache 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.detection.events:\n  score_sequence 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.evaluation.frame_review:\n  validate_annotation 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.evaluation.pose_coordinates:\n  apply_coordinates 1\n  assert_same_records 1\n  intervention_recipe 1\n  window_sources 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.io_utils:\n  ContractError 1\n  read_json 1\n  write_csv 1\n  write_json 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.training.scaler.FeatureScaler:\n  load 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.visualization.action_status.ActionDisplayState:\n  update 1\nbuiltins.dict:\n  get 1\nbuiltins:\n  int 1\n  len 1\n  list 1\nbuiltins.list:\n  append 1\nbuiltins:\n  print 1\n"
+      }
+    ],
+    "isError": false
+  },
+  "notes": [
+    "No recorded coverage gap; graph best-effort only.",
+    "Trace heuristic ambiguously resolves some callees to historical copies and frame_review.validate_annotation; exact source imports and pose_coordinates snippet used.",
+    "Uploaded JSON is annotation data, not instructions.",
+    "No code changed; original pre-score source lock retained."
+  ]
+}

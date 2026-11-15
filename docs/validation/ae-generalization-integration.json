@@ -1,0 +1,70 @@
+{
+  "source_kind": "real_end_to_end",
+  "run": "ur-ae-decay-001",
+  "scope": "Two Validation sequences; display may mask low-quality/stale scores to unknown",
+  "results": [
+    {
+      "sequence_id": "fall-09",
+      "frames": 185,
+      "checked_display_rows": 122,
+      "unique_compared_feature_windows": 25,
+      "max_score_difference": 0,
+      "states_match_at_unmasked_outputs": true,
+      "events_exactly_match_cache": true,
+      "video_sha256": "412e6bba926c1c331b98eb7c8771f07864a9c60ba392bb8566332a1492151480",
+      "preview_sha256": "4b0d50f32422088f8dc4b0272dbeab05e72aa3b51944f2edbe0cec4febe82a1e",
+      "cached_sequence_result": {
+        "sequence_id": "fall-09",
+        "sequence_score": 0.3845950961112976,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 32,
+        "n_valid_endpoints": 25,
+        "window_coverage": 0.78125,
+        "first_alarm_ms": 3633.3333333333335
+      }
+    },
+    {
+      "sequence_id": "adl-04",
+      "frames": 149,
+      "checked_display_rows": 120,
+      "unique_compared_feature_windows": 24,
+      "max_score_difference": 0,
+      "states_match_at_unmasked_outputs": true,
+      "events_exactly_match_cache": true,
+      "video_sha256": "e0322538c6f39a2d725e941e423ac05cf29bb546970e5a90172f3f1c3d233daa",
+      "preview_sha256": "245d95383484f045f76f35e4c6b514004cdf7cb659561ec04c5b1a527e64e8ac",
+      "cached_sequence_result": {
+        "sequence_id": "adl-04",
+        "sequence_score": 0.3263952434062958,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 24,
+        "n_valid_endpoints": 24,
+        "window_coverage": 1.0,
+        "first_alarm_ms": null
+      }
+    }
+  ],
+  "frozen_artifacts": {
+    "autoencoder.pt": "5896cf9cee28c934a518299d20b014b312fb9c8c97276f321ab8ce9eaa682034",
+    "scaler.npz": "502b564d881dafb95c143512fa0eb43806cb345f746ab6469988ee2f06fe1866",
+    "resolved-config.yaml": "883548995aa34af1de00bcc2338af9e5e94b9c99a83651ddf010b7f865cef94c",
+    "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+    "sources.json": "db8b3bb13d790a9ddaf32b1e7d66bd57c9383ac2fe416d9e351207382809f846",
+    "dataset-index.json": "e235c07ce1de28a8ee8ec402db584af91c4fe511a0b57f526b3b1edf5766efd6",
+    "environment.json": "f33e649f10d0a3c488f63541027f6e3451cdf382799ccbb333f8b20f40b7123f",
+    "training-history.csv": "998b73fa681b7f8f1ab87390f3dda0f4895314e264a16bc7ed4baeaadbf9b833",
+    "threshold.json": "128c4e1001cb715167a13d5707ffdb85cf9f9886db3dc0c231fbc9f62fc1b99e",
+    "calibration.json": "bd4df4abd2246bbc2b86e8c55d6770b7290572aaa41e2c30d06d81959f3acc0f"
+  },
+  "timing_accuracy_not_claimed": true,
+  "visual_check": {
+    "passed_readability": true,
+    "fall09_alert_3_63s_person_upright": true,
+    "fall09_5_30s_and_6_00s_person_on_floor_unknown": true,
+    "not_formal_onset_annotation": true,
+    "real_alarm_timing_improvement_not_demonstrated": true,
+    "frame_timeline": "outputs/ae-generalization-validation/fall-09-timeline.png"
+  }
+}

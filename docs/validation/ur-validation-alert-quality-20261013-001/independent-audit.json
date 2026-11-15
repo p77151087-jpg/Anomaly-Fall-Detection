@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "method": "Independent CSV counts, direct NPZ confidence checks, bisect past-only time mapping, direct per-track triples and event spans; no model/features loaded",
+  "sequence_rows": 23,
+  "window_records": 2917,
+  "event_records": 14,
+  "source_frame_pose_rows": 3576,
+  "causal_sample_rows": 3377,
+  "confusion_matrix_ADL_Fall_by_normal_fall_unknown": [
+    [
+      8,
+      0,
+      0
+    ],
+    [
+      1,
+      14,
+      0
+    ]
+  ],
+  "exact_human_time_gt": 0,
+  "test_artifacts_loaded": 0,
+  "new_inference_training_calibration": 0,
+  "review_transport": {
+    "images": 218,
+    "page_bytes": 207300,
+    "all_images_original_png_hash_match": true,
+    "human_answers_prefilled": false
+  }
+}

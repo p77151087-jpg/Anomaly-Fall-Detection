@@ -1,0 +1,10 @@
+{
+  "validated": true,
+  "origin": "human_self_reported",
+  "reviewer": "唐懷毅",
+  "reviewed_frames": 100,
+  "identity_independently_verified": false,
+  "used_for_training": false,
+  "used_for_calibration": false,
+  "scope": "Validation diagnosis only; not complete independent ground truth"
+}

@@ -1,0 +1,500 @@
+{
+  "schema_version": 1,
+  "protocol_id": "urfall-cam0-rgb-sequence-v1",
+  "seed": 42,
+  "numpy_version": "2.4.6",
+  "subject_independent": false,
+  "sequences": [
+    {
+      "sequence_id": "adl-33",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-08",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-40",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-19",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-05",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-17",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-26",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-29",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-21",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-25",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-11",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-28",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-31",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-30",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-12",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-13",
+      "split": "test",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-15",
+      "split": "test",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-39",
+      "split": "test",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-03",
+      "split": "test",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-34",
+      "split": "test",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-02",
+      "split": "test",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-14",
+      "split": "test",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "adl-09",
+      "split": "test",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-10",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-27",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-04",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-23",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-15",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-21",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-20",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-12",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-03",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-01",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-26",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-28",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-24",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-05",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    },
+    {
+      "sequence_id": "fall-17",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb"
+    }
+  ],
+  "split_hash": "0b9a0f0cf3609c478afcbbe028130c7d519e26b573135fbd739c074c68bc93c5"
+}

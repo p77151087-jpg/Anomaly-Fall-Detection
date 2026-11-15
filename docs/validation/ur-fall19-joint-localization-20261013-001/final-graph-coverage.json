@@ -1,0 +1,93 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"project\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly\",\"signal\":\"best_effort\",\"indexed_at\":\"2026-10-13T08:23:10Z\",\"metadata\":{\"generation\":\"2026-10-13T08:23:10Z\",\"index_mode\":\"full\",\"recorded_at\":\"2026-10-13T08:23:31Z\",\"recording_status\":\"complete\",\"ignored_files_stored\":117,\"ignored_files_total\":117,\"hash_records_complete\":true,\"coverage_version\":3,\"generation_matches\":true},\"paths\":[{\"requested_path\":\"scripts/localize_fall19_joints.py\",\"path\":\"scripts/localize_fall19_joints.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"scripts/verify_joint_localization_outputs.py\",\"path\":\"scripts/verify_joint_localization_outputs.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"scripts/verify_joint_localization_ui.cjs\",\"path\":\"scripts/verify_joint_localization_ui.cjs\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"tests/test_joint_localization.py\",\"path\":\"tests/test_joint_localization.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/visualization/joint_localization_review.html\",\"path\":\"src/fall_detect/visualization/joint_localization_review.html\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"docs/ur-fall19-joint-localization-20261013.md\",\"path\":\"docs/ur-fall19-joint-localization-20261013.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"docs/current-progress.md\",\"path\":\"docs/current-progress.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"docs/acceptance-results.md\",\"path\":\"docs/acceptance-results.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]}],\"scopes\":[],\"caveat\":\"Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable.\"}"
+    }
+  ],
+  "structuredContent": {
+    "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+    "signal": "best_effort",
+    "indexed_at": "2026-10-13T08:23:10Z",
+    "metadata": {
+      "generation": "2026-10-13T08:23:10Z",
+      "index_mode": "full",
+      "recorded_at": "2026-10-13T08:23:31Z",
+      "recording_status": "complete",
+      "ignored_files_stored": 117,
+      "ignored_files_total": 117,
+      "hash_records_complete": true,
+      "coverage_version": 3,
+      "generation_matches": true
+    },
+    "paths": [
+      {
+        "requested_path": "scripts/localize_fall19_joints.py",
+        "path": "scripts/localize_fall19_joints.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "scripts/verify_joint_localization_outputs.py",
+        "path": "scripts/verify_joint_localization_outputs.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "scripts/verify_joint_localization_ui.cjs",
+        "path": "scripts/verify_joint_localization_ui.cjs",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "tests/test_joint_localization.py",
+        "path": "tests/test_joint_localization.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "src/fall_detect/visualization/joint_localization_review.html",
+        "path": "src/fall_detect/visualization/joint_localization_review.html",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "docs/ur-fall19-joint-localization-20261013.md",
+        "path": "docs/ur-fall19-joint-localization-20261013.md",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "docs/current-progress.md",
+        "path": "docs/current-progress.md",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "docs/acceptance-results.md",
+        "path": "docs/acceptance-results.md",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      }
+    ],
+    "scopes": [],
+    "caveat": "Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable."
+  },
+  "isError": false
+}

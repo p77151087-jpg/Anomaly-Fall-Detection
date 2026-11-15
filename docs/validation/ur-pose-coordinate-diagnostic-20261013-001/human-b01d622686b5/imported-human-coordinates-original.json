@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "diagnostic_id": "ur-pose-coordinate-diagnostic-20261013-001",
+  "sequence_id": "fall-19",
+  "split": "validation",
+  "source_hash": "ae2284af07a0e0e147adfa498bc8e4c2b0ac60201bb875d219ebb43aa9a31c01",
+  "base_recipe_hash": "713ee59a0853f20641cb7f664df2920359baa0734807acfa5cf86fb87a4e2f5b",
+  "pose_array_sha256": "9f793ef74565c96209cb379a48750b34cf49573b714b339e1e91957ac76ef0b3",
+  "pose_metadata_sha256": "1a5457a5be06592ac22e9bc160eb16adc20dce3d1a29cf9e3dae47c23452988f",
+  "author_kind": "human_self_reported",
+  "human_confirmed": true,
+  "coordinate_basis": "original_RGB_visible_elbow_estimate; not joint ground truth",
+  "points": [
+    {
+      "source_frame_id": 44,
+      "track_id": 1,
+      "joint_index": 3,
+      "joint_name": "left_elbow",
+      "timestamp_ms": 1434,
+      "frame_size_wh": [
+        640,
+        480
+      ],
+      "image_sha256": "23e8e824c0d52b5ecbff0901fa2ad88fe62215b5862b0378c9fae9b52c8deb92",
+      "original_xy": [
+        377.0285949707031,
+        315.8395080566406
+      ],
+      "original_confidence": 0.5177968740463257,
+      "visibility": "visible",
+      "xy": [
+        376.8224299065421,
+        315.6846473029046
+      ]
+    },
+    {
+      "source_frame_id": 45,
+      "track_id": 1,
+      "joint_index": 3,
+      "joint_name": "left_elbow",
+      "timestamp_ms": 1468,
+      "frame_size_wh": [
+        640,
+        480
+      ],
+      "image_sha256": "554f8f8410e9a00f250723d23bfef4f203f62264487b49b14f75cfff55a9874e",
+      "original_xy": [
+        375.394775390625,
+        324.1820068359375
+      ],
+      "original_confidence": 0.6465577483177185,
+      "visibility": "visible",
+      "xy": [
+        374.82866043613706,
+        323.65145228215766
+      ]
+    },
+    {
+      "source_frame_id": 46,
+      "track_id": 1,
+      "joint_index": 3,
+      "joint_name": "left_elbow",
+      "timestamp_ms": 1501,
+      "frame_size_wh": [
+        640,
+        480
+      ],
+      "image_sha256": "e3de1b4cb79feb36fd1960ce716dea95e16acd0b0ebef7c11746d4a457caa1c0",
+      "original_xy": [
+        377.3612060546875,
+        346.6085205078125
+      ],
+      "original_confidence": 0.5920396447181702,
+      "visibility": "visible",
+      "xy": [
+        376.8224299065421,
+        345.56016597510376
+      ]
+    },
+    {
+      "source_frame_id": 47,
+      "track_id": 1,
+      "joint_index": 3,
+      "joint_name": "left_elbow",
+      "timestamp_ms": 1534,
+      "frame_size_wh": [
+        640,
+        480
+      ],
+      "image_sha256": "4b3b2dcdc937094d2b0a9ebee5b3af699a0d1d0760e8006c2b55004af29fb15f",
+      "original_xy": [
+        377.4921875,
+        357.9652099609375
+      ],
+      "original_confidence": 0.294945627450943,
+      "visibility": "visible",
+      "xy": [
+        376.8224299065421,
+        357.5103734439834
+      ]
+    },
+    {
+      "source_frame_id": 48,
+      "track_id": 1,
+      "joint_index": 3,
+      "joint_name": "left_elbow",
+      "timestamp_ms": 1568,
+      "frame_size_wh": [
+        640,
+        480
+      ],
+      "image_sha256": "ac6cc8f30b3cae852bea7f6b3813e55ebab8ff6328946a536ddda75ebc5f8a92",
+      "original_xy": [
+        378.92474365234375,
+        382.42236328125
+      ],
+      "original_confidence": 0.5916571021080017,
+      "visibility": "visible",
+      "xy": [
+        379.8130841121495,
+        381.41078838174275
+      ]
+    },
+    {
+      "source_frame_id": 49,
+      "track_id": 1,
+      "joint_index": 3,
+      "joint_name": "left_elbow",
+      "timestamp_ms": 1601,
+      "frame_size_wh": [
+        640,
+        480
+      ],
+      "image_sha256": "41e3ee40098a69da4be493378508827fb7f3ca68e40638482bf2e5bd5b808830",
+      "original_xy": [
+        377.49237060546875,
+        407.5081787109375
+      ],
+      "original_confidence": 0.774042010307312,
+      "visibility": "visible",
+      "xy": [
+        375.82560601635515,
+        408.298755186722
+      ]
+    },
+    {
+      "source_frame_id": 50,
+      "track_id": 1,
+      "joint_index": 3,
+      "joint_name": "left_elbow",
+      "timestamp_ms": 1635,
+      "frame_size_wh": [
+        640,
+        480
+      ],
+      "image_sha256": "8ea0586135f1d9298d0bc3a5cf304a2673cbe2dfade82fbb3e6269fa365ddde6",
+      "original_xy": [
+        378.57586669921875,
+        417.82794189453125
+      ],
+      "original_confidence": 0.7715873718261719,
+      "visibility": "visible",
+      "xy": [
+        377.81931464174454,
+        417.2614715702801
+      ]
+    },
+    {
+      "source_frame_id": 51,
+      "track_id": 1,
+      "joint_index": 3,
+      "joint_name": "left_elbow",
+      "timestamp_ms": 1668,
+      "frame_size_wh": [
+        640,
+        480
+      ],
+      "image_sha256": "f383b385d7a4891316d2bf645a9a5805b4032992c0b9975e5350cd1ce0ef500b",
+      "original_xy": [
+        379.30517578125,
+        427.9075012207031
+      ],
+      "original_confidence": 0.6283373236656189,
+      "visibility": "not_visible_or_uncertain",
+      "xy": null
+    }
+  ],
+  "reviewer": "唐懷毅",
+  "reviewed_frame_ids": [
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "reviewed_at": "2026-10-13T06:53:11.301Z",
+  "parent_proposal_sha256": "965f7ede5d3ad2d94be31c41b6622e91228c89875fad768babcafcb266df65b8"
+}

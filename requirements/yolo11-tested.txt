@@ -1,0 +1,8 @@
+# Optional YOLO11 pose adapter; install into the existing project .venv.
+# Existing torch 2.8.0+cu128 / torchvision 0.23.0+cu128 are retained.
+# OpenCV is already provided by opencv-python-headless; do not install a second cv2 wheel.
+ultralytics==8.3.228
+ultralytics-thop==2.0.18
+psutil==7.0.0
+polars==1.35.2
+polars-runtime-32==1.35.2

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>三段 Validation 時間與骨架覆核</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f4f6fa;color:#192938;font:16px/1.65 system-ui,"Microsoft JhengHei",sans-serif}
+main{max-width:1180px;margin:auto;padding:24px}h1{font-size:26px;margin:0}h2{font-size:20px;margin:0}p{margin:8px 0}.muted{color:#586978}.card{background:white;border:1px solid #d7e0e8;border-radius:12px;padding:20px;margin-top:16px}.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.two{display:grid;grid-template-columns:minmax(0,640px) 1fr;gap:20px}.tabs button{min-width:120px}.active{background:#14547a;color:white}button,select,input,textarea{font:inherit;border:1px solid #99aebe;border-radius:6px;padding:7px 10px}button{cursor:pointer;background:#eef3f8}button:disabled{opacity:.4;cursor:default}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #edbb4c}canvas{width:100%;background:#e8edf1;display:block}input[type=range]{width:100%;padding:0}input[type=number]{width:90px}textarea{width:100%;height:64px}.field{margin:16px 0;border-bottom:1px solid #e2e8ec;padding-bottom:12px}.note{background:#fff8df;padding:12px;border-radius:6px}.error{color:#a31f23}#message{min-height:27px}.tag{font-weight:600;color:#14547a}.small{font-size:14px}label{cursor:pointer}@media(max-width:950px){.two{grid-template-columns:1fr}main{padding:12px}}
+</style>
+<main>
+<h1>只看三段，各記一筆</h1>
+<p>看原影像，標出「失去穩定、開始下墜」與「身體落地」時刻的最早／最晚可能影格，再評估整段骨架。兩個數字是<strong>單一時刻的不確定範圍</strong>，不是整段姿態階段。若看不清或不在片段內，就選不可確認／片段外。</p>
+<p class="muted small">只用既有 Validation。沒有新模型推論。原圖與原 Pose 觀測分開顯示；信心高不能代表位置正確。這是本人自述覆核，尚不是多人獨立時間真值。AE 分數、預期警示時刻與 AI 答案不在覆核頁顯示。</p>
+<div class="card row tabs" id="tabs"></div>
+<section class="card two">
+ <div>
+  <h2 id="clipTitle"></h2><p id="clipSpan" class="muted small"></p>
+  <canvas id="viewer" width="640" height="480" aria-label="原始影像與可選骨架觀測"></canvas>
+  <p id="frameLabel" class="tag"></p><input id="slider" type="range" min="0" value="0" aria-label="目前原始影格">
+  <div class="row"><button id="prev">上一幀</button><button id="play">播放</button><button id="next">下一幀</button><label>速度 <select id="speed"><option value="1">正常</option><option value="0.5">半速</option><option value="0.25">四分之一</option></select></label></div>
+  <p><label><input id="overlay" type="checkbox"> 顯示原骨架觀測（13 個點；半透明點為低信心）</label></p>
+  <p class="note small">先關骨架看原片確認時間，再開骨架判斷位置。沒有骨架或被遮擋時，保留未知，無需補畫任何關節。</p>
+ </div>
+ <div>
+  <div class="field"><strong>1. 跌倒開始時刻</strong><p class="small muted">首次失去穩定並開始下墜；前面的走路／彎腰不直接算跌倒。</p>
+   <select id="onsetStatus" aria-label="開始時刻狀態"><option value="">請選擇</option><option value="bounded">可標最早／最晚範圍</option><option value="uncertain">看不清，不能確認</option><option value="outside_clip">關鍵时刻不在片段內</option></select>
+   <div class="row"><label>最早 <input id="onsetLo" type="number" aria-label="開始最早原始影格"></label><button data-mark="onsetLo">用目前幀</button></div>
+   <div class="row"><label>最晚 <input id="onsetHi" type="number" aria-label="開始最晚原始影格"></label><button data-mark="onsetHi">用目前幀</button></div>
+  </div>
+  <div class="field"><strong>2. 身體落地時刻</strong><p class="small muted">身體首次落到地面；不是後續已躺好或滾動結束。</p>
+   <select id="impactStatus" aria-label="落地時刻狀態"><option value="">請選擇</option><option value="bounded">可標最早／最晚範圍</option><option value="uncertain">看不清，不能確認</option><option value="outside_clip">關鍵时刻不在片段內</option></select>
+   <div class="row"><label>最早 <input id="impactLo" type="number" aria-label="落地最早原始影格"></label><button data-mark="impactLo">用目前幀</button></div>
+   <div class="row"><label>最晚 <input id="impactHi" type="number" aria-label="落地最晚原始影格"></label><button data-mark="impactHi">用目前幀</button></div>
+  </div>
+  <div class="field"><strong>3. 整段原骨架品質</strong><p class="small muted">開啟骨架後觀察跌倒附近；若多種問題並存，選主要問題，細節寫備註。</p>
+   <select id="quality" aria-label="整段骨架品質"><option value="">請選擇</option><option value="mostly_matches">大多符合人物</option><option value="clear_wrong">有明顯錯點／錯人</option><option value="occluded_or_cropped">主要問題是遮擋／出框</option><option value="missing">主要時段沒有骨架</option><option value="uncertain">無法確認</option></select>
+   <p><textarea id="notes" aria-label="備註" placeholder="可選：哪幾幀有錯點／遮擋、哪個部位、標註不確定的原因"></textarea></p>
+  </div>
+  <label><input id="reviewed" type="checkbox"> 我已親自查看這一段並完成以上判斷</label>
+ </div>
+</section>
+<section class="card"><h2>三段完成後，一次匯出</h2>
+ <p id="progress"></p><div class="row"><label>覆核者 <input id="reviewer" type="text" autocomplete="name"></label><label><input id="attest" type="checkbox"> 以上均為我的本人覆核</label></div>
+ <p class="small muted">本瀏覽器自動保存草稿；也可下載草稿備份。此頁不會上傳或改動專案資料。</p>
+ <div class="row"><button id="draft">下載草稿</button><button id="export" disabled>匯出一份正式 JSON</button></div><p id="message" role="status"></p>
+</section>
+</main>
+<script id="bundle" type="application/json">__BUNDLE__</script>
+<script>
+const bundle=JSON.parse(document.getElementById('bundle').textContent);
+const $=id=>document.getElementById(id);
+const storageKey='validation-timing-review:'+bundle.bundle_sha256;
+let clipIndex=0,frameIndex=0,timer=null,paintVersion=0;
+const fresh=()=>({schema_version:1,bundle_sha256:bundle.bundle_sha256,annotation_origin:'human_self_reported',reviewer:'',human_attested:false,clips:bundle.clips.map(c=>({sequence_id:c.sequence_id,reviewed:false,onset:{status:'',bounds_frame_ids:null},impact:{status:'',bounds_frame_ids:null},skeleton_quality:'',notes:''}))});
+let state=fresh();
+try{const saved=JSON.parse(localStorage.getItem(storageKey));if(saved&&saved.bundle_sha256===bundle.bundle_sha256&&Array.isArray(saved.clips)&&saved.clips.length===3&&saved.clips.every((c,i)=>c.sequence_id===bundle.clips[i].sequence_id))state=saved;}catch(e){}
+function stop(){if(timer!==null)clearTimeout(timer);timer=null;$('play').textContent='播放';}
+function message(text,error=false){$('message').textContent=text;$('message').className=error?'error':'';}
+function checkRow(row,clip){
+ const ids=new Set(clip.frames.map(f=>f.source_frame_id));
+ if(row.reviewed!==true)return '尚未勾選本人查看';
+ for(const key of ['onset','impact']){const mark=row[key];if(!['bounded','uncertain','outside_clip'].includes(mark.status))return '開始與落地均需選擇狀態';
+  if(mark.status==='bounded'){const b=mark.bounds_frame_ids;if(!Array.isArray(b)||b.length!==2||!b.every(v=>Number.isInteger(v)&&ids.has(v))||b[0]>b[1])return '最早／最晚須為此片段內的原影格，且順序正確';}
+  else if(mark.bounds_frame_ids!==null)return '不可確認不能填時間範圍';}
+ if(row.onset.status==='bounded'&&row.impact.status==='bounded'&&row.onset.bounds_frame_ids[0]>row.impact.bounds_frame_ids[1])return '落地不可確定早於開始';
+ if(!['mostly_matches','clear_wrong','occluded_or_cropped','uncertain','missing'].includes(row.skeleton_quality))return '請判斷整段骨架品質';
+ return null;
+}
+function valid(){return state.reviewer.trim().length>0&&state.human_attested===true&&state.clips.every((r,i)=>!checkRow(r,bundle.clips[i]));}
+function persist(){try{localStorage.setItem(storageKey,JSON.stringify(state));}catch(e){message('瀏覽器未能保存草稿，請下載草稿備份。',true);}updateProgress();}
+function updateProgress(){const n=state.clips.filter((r,i)=>!checkRow(r,bundle.clips[i])).length;$('progress').textContent=`已完成 ${n}/3 段。只匯出一個檔案。`;$('export').disabled=!valid();Array.from($('tabs').children).forEach((b,i)=>{b.textContent=bundle.clips[i].sequence_id+(!checkRow(state.clips[i],bundle.clips[i])?' ✓':'');b.className=i===clipIndex?'active':'';});}
+function pull(){const row=state.clips[clipIndex];for(const k of ['onset','impact']){const status=$(k+'Status').value;row[k]={status,bounds_frame_ids:status==='bounded'?[$(k+'Lo').value===''?null:Number($(k+'Lo').value),$(k+'Hi').value===''?null:Number($(k+'Hi').value)]:null};}
+ row.skeleton_quality=$('quality').value;row.notes=$('notes').value;row.reviewed=$('reviewed').checked;state.reviewer=$('reviewer').value;state.human_attested=$('attest').checked;disableBounds();persist();}
+function disableBounds(){for(const k of ['onset','impact']){const enabled=$(k+'Status').value==='bounded';for(const s of ['Lo','Hi']){$(k+s).disabled=!enabled;document.querySelector(`[data-mark="${k+s}"]`).disabled=!enabled;if(!enabled)$(k+s).value='';}}}
+function loadClip(i){stop();clipIndex=i;frameIndex=0;const c=bundle.clips[i],r=state.clips[i];$('clipTitle').textContent=c.sequence_id+'｜第 '+c.frames[0].source_frame_id+'–'+c.frames.at(-1).source_frame_id+' 幀';$('clipSpan').textContent='原始影片時間 '+(c.frames[0].timestamp_ms/1000).toFixed(3)+'–'+(c.frames.at(-1).timestamp_ms/1000).toFixed(3)+' 秒';$('slider').max=c.frames.length-1;
+ for(const k of ['onset','impact']){$(k+'Status').value=r[k].status;for(const [j,s] of ['Lo','Hi'].entries()){$(k+s).value=r[k].bounds_frame_ids?.[j]??'';$(k+s).min=c.frames[0].source_frame_id;$(k+s).max=c.frames.at(-1).source_frame_id;}}
+ $('quality').value=r.skeleton_quality;$('notes').value=r.notes;$('reviewed').checked=r.reviewed;$('reviewer').value=state.reviewer;$('attest').checked=state.human_attested;disableBounds();updateProgress();draw();}
+function draw(){const c=bundle.clips[clipIndex],f=c.frames[frameIndex],version=++paintVersion;$('slider').value=frameIndex;$('prev').disabled=frameIndex===0;$('next').disabled=frameIndex===c.frames.length-1;$('frameLabel').textContent=`原第 ${f.source_frame_id} 幀｜原時間 ${(f.timestamp_ms/1000).toFixed(3)} 秒｜${f.poses.length?'原骨架 track '+f.poses.map(p=>p.track_id).join(', '):'沒有原骨架'}`;
+ const img=new Image();img.onload=()=>{if(version!==paintVersion)return;const canvas=$('viewer'),ctx=canvas.getContext('2d');canvas.width=f.width;canvas.height=f.height;ctx.drawImage(img,0,0);if($('overlay').checked){const edges=[[0,1],[0,2],[1,2],[1,3],[3,5],[2,4],[4,6],[1,7],[2,8],[7,8],[7,9],[9,11],[8,10],[10,12]];for(const p of f.poses){ctx.strokeStyle='#17caee';ctx.lineWidth=2;for(const[a,b]of edges){ctx.globalAlpha=(p.keypoints[a][2]>=.2&&p.keypoints[b][2]>=.2)?1:.35;ctx.beginPath();ctx.moveTo(...p.keypoints[a].slice(0,2));ctx.lineTo(...p.keypoints[b].slice(0,2));ctx.stroke();}p.keypoints.forEach((v,j)=>{ctx.globalAlpha=v[2]>=.2?1:.35;ctx.fillStyle=j%2?'#ffe566':'#ff68aa';ctx.beginPath();ctx.arc(v[0],v[1],3.5,0,2*Math.PI);ctx.fill();});ctx.globalAlpha=1;}}};img.onerror=()=>message('原影像載入失敗；請重新開啟完整HTML。',true);img.src=f.image;}
+function play(){if(timer!==null){stop();return;}if(frameIndex===bundle.clips[clipIndex].frames.length-1)frameIndex=0;$('play').textContent='暫停';const step=()=>{draw();const frames=bundle.clips[clipIndex].frames;if(frameIndex>=frames.length-1){stop();return;}const delay=(frames[frameIndex+1].timestamp_ms-frames[frameIndex].timestamp_ms)/Number($('speed').value);timer=setTimeout(()=>{frameIndex++;step();},delay);};step();}
+function download(value,name){const blob=new Blob([JSON.stringify(value,null,2)],{type:'application/json'}),link=document.createElement('a'),url=URL.createObjectURL(blob);link.href=url;link.download=name;link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+bundle.clips.forEach((c,i)=>{const button=document.createElement('button');button.textContent=c.sequence_id;button.onclick=()=>loadClip(i);$('tabs').append(button);});
+for(const id of ['onsetStatus','onsetLo','onsetHi','impactStatus','impactLo','impactHi','quality','notes','reviewed','reviewer','attest'])$(id).addEventListener('input',pull);
+document.querySelectorAll('[data-mark]').forEach(b=>b.onclick=()=>{const id=b.dataset.mark;if($(id).disabled)return;$(id).value=bundle.clips[clipIndex].frames[frameIndex].source_frame_id;pull();});
+$('prev').onclick=()=>{stop();frameIndex=Math.max(0,frameIndex-1);draw();};$('next').onclick=()=>{stop();frameIndex=Math.min(bundle.clips[clipIndex].frames.length-1,frameIndex+1);draw();};$('slider').oninput=()=>{stop();frameIndex=Number($('slider').value);draw();};$('overlay').onchange=draw;$('play').onclick=play;
+$('draft').onclick=()=>{pull();download({...state,human_attested:false,draft:true},'validation-three-clips-draft.json');message('草稿已下載；正式覆核仍需完成三段及本人確認。');};
+$('export').onclick=()=>{pull();if(!valid()){message('三段尚未完成，或缺覆核者／本人確認。',true);return;}download({...state,exported_at:new Date().toISOString()},'validation-three-clips-human-review.json');message('已匯出一份JSON。請將它交回此對話，才能核對警示時間；模型與正式成績不會自動改變。');};
+loadClip(0);
+</script></html>

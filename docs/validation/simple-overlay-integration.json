@@ -1,0 +1,112 @@
+{
+  "source_kind": "real_end_to_end",
+  "scope": "rendering_and_inference_parity_only",
+  "run": "course-ur-balanced-001",
+  "frozen_artifacts_unchanged": true,
+  "no_new_training_or_accuracy_claim": true,
+  "labels": {
+    "warming_up": "PENDING",
+    "normal": "NORMAL",
+    "suspected_fall": "FALL ALERT",
+    "unknown": "UNKNOWN"
+  },
+  "no_visible_track_ids_or_scores": true,
+  "cases": [
+    {
+      "sequence_id": "adl-04",
+      "split": "validation",
+      "frames": 149,
+      "fps": 30.0,
+      "logs_byte_identical": true,
+      "events_byte_identical": true,
+      "old_video_sha256": "d891463ee64e415f473b327ea266f2ca4cec312b61aa2b0a7bd7941272cda5dd",
+      "video": "C:\\成大專案\\fall-detection-anomaly\\outputs\\simple-status-20260918T095239\\adl-04.mp4",
+      "preview": "C:\\成大專案\\fall-detection-anomaly\\outputs\\simple-status-20260918T095239\\adl-04-preview.mp4",
+      "preview_sha256": "a236a8aca9b4348e158ba4339e236d5fa511fa1d5860479e2f51c2641595098f",
+      "log_sha256": "0c253a411c925fe10b8db263cee1def9336d151f93e17960f002c86ff67f288d"
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation",
+      "frames": 110,
+      "fps": 30.0,
+      "logs_byte_identical": true,
+      "events_byte_identical": true,
+      "old_video_sha256": "21c10527a96f48396e8e9614f698b17e388a983721eedac6124929857cc606ff",
+      "video": "C:\\成大專案\\fall-detection-anomaly\\outputs\\simple-status-20260918T095239\\fall-02.mp4",
+      "preview": "C:\\成大專案\\fall-detection-anomaly\\outputs\\simple-status-20260918T095239\\fall-02-preview.mp4",
+      "preview_sha256": "175648387521a8b4701683175995d9a6a4e55d6e4317bca378af3c5f565bc90d",
+      "log_sha256": "9532ea0d7a3314c9b9ff8003c0cb54a54a84a8b7fb4620ad8abc373b1a2660b9"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation",
+      "frames": 269,
+      "fps": 30.0,
+      "logs_byte_identical": true,
+      "events_byte_identical": true,
+      "old_video_sha256": "f16055c4267f57c5b859a6b794355d59b6edc126136e628c05d351ba38eb4e88",
+      "video": "C:\\成大專案\\fall-detection-anomaly\\outputs\\simple-status-20260918T095239\\adl-20.mp4",
+      "preview": "C:\\成大專案\\fall-detection-anomaly\\outputs\\simple-status-20260918T095239\\adl-20-preview.mp4",
+      "preview_sha256": "3faccf815cdccaa0e513b8dac2cce69bf5f24bd3e265247ffc11d501e973bffb",
+      "log_sha256": "c8cb2f0b02981c280a717999d7f217c01ad1545a5f25f1edfd75da07639ce30b"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation",
+      "frames": 100,
+      "fps": 30.0,
+      "logs_byte_identical": true,
+      "events_byte_identical": true,
+      "old_video_sha256": "61dfe1303a513909687bad7557d2d6640a2529d5049e4b27b2790941d31d510f",
+      "video": "C:\\成大專案\\fall-detection-anomaly\\outputs\\simple-status-20260918T095239\\fall-19.mp4",
+      "preview": "C:\\成大專案\\fall-detection-anomaly\\outputs\\simple-status-20260918T095239\\fall-19-preview.mp4",
+      "preview_sha256": "175ab56f78aa6154c80aa5bb999f7727091ca50fbb23918c20cf9a785f8bb79e",
+      "log_sha256": "4c3d097a7fa86193489971143b3775e09af2355e5e8010d4ac7368deb2dc832c"
+    }
+  ],
+  "screenshots": {
+    "warming_up": {
+      "sequence_id": "adl-04",
+      "frame": 0,
+      "path": "C:\\成大專案\\fall-detection-anomaly\\outputs\\simple-status-20260918T095239\\state-warming_up.png"
+    },
+    "normal": {
+      "sequence_id": "adl-04",
+      "frame": 39,
+      "path": "C:\\成大專案\\fall-detection-anomaly\\outputs\\simple-status-20260918T095239\\state-normal.png"
+    },
+    "suspected_fall": {
+      "sequence_id": "fall-02",
+      "frame": 39,
+      "path": "C:\\成大專案\\fall-detection-anomaly\\outputs\\simple-status-20260918T095239\\state-suspected_fall.png"
+    },
+    "unknown": {
+      "sequence_id": "fall-02",
+      "frame": 70,
+      "path": "C:\\成大專案\\fall-detection-anomaly\\outputs\\simple-status-20260918T095239\\state-unknown.png"
+    }
+  },
+  "graph_status": "transport_closed; source fallback used",
+  "visual_qa": {
+    "reviewed_states": [
+      "warming_up",
+      "normal",
+      "suspected_fall",
+      "unknown"
+    ],
+    "status": "passed",
+    "layout": "No side panel; legible English labels; no visible track IDs; freshness or unavailable hint retained"
+  },
+  "related_tests": {
+    "passed": 5,
+    "junit": "docs/validation/pytest-simple-overlay.xml"
+  },
+  "all_23_previous_frozen_runs_verified": true,
+  "source_sha256": {
+    "src/fall_detect/visualization/simple.py": "1a966a147ca0abc5a92376944fe891ab86c025836b192cc323fe6f6b6d0b9dfa",
+    "src/fall_detect/visualization/video.py": "df87155ad7b4921e6ac000da0109edc8d7b7634062a761aa9290b8df5384a487",
+    "src/fall_detect/cli.py": "8a1811bdbae4e0af3dc5eece4fde961154230576e4f9df7fa83007aec5b904a6",
+    "tests/test_course_results.py": "0e3fca22ab2754c36655527a9e56ca0158708d050661d8176d65d26e3cd7d896"
+  }
+}

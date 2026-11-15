@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\���j�M��\fall-detection-anomaly\scripts\verify_ur_train_shift.py", line 195, in <module>
+    verify(parser.parse_args().write)
+  File "C:\���j�M��\fall-detection-anomaly\scripts\verify_ur_train_shift.py", line 74, in verify
+    check(sources["train_sequence_feature_counts"] == counts, "AE Train counts differ")
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'train_sequence_feature_counts'

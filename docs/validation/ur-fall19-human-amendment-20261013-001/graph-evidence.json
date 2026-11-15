@@ -1,0 +1,720 @@
+{
+  "tier": "Verify (Tier 2)",
+  "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+  "status": {
+    "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+    "nodes": 133765,
+    "edges": 153274,
+    "status": "ready",
+    "root_path": "C:/成大專案/fall-detection-anomaly",
+    "parse_partial": {
+      "files": [],
+      "count": 0,
+      "truncated": false
+    },
+    "skipped": {
+      "files": [],
+      "count": 0,
+      "truncated": false
+    },
+    "not_indexed": {
+      "dirs": [
+        ".git",
+        ".pytest_cache",
+        ".python",
+        ".ruff_cache",
+        ".tools",
+        ".venv",
+        "Ultralytics",
+        "data/cache",
+        "data/raw",
+        "data/retired",
+        "docs/validation/human-isotropic-legacy-source/src/fall_detect/skeleton/__pycache__",
+        "outputs",
+        "runs",
+        "scripts/__pycache__",
+        "src/fall_detect/__pycache__",
+        "src/fall_detect/data/__pycache__",
+        "src/fall_detect/detection/__pycache__",
+        "src/fall_detect/evaluation/__pycache__",
+        "src/fall_detect/models/__pycache__",
+        "src/fall_detect/pose/__pycache__",
+        "src/fall_detect/skeleton/__pycache__",
+        "src/fall_detect/training/__pycache__",
+        "src/fall_detect/visualization/__pycache__",
+        "src/fall_detection_anomaly.egg-info",
+        "tests/__pycache__",
+        "third_party",
+        "weights/pretrained"
+      ],
+      "dirs_count": 27,
+      "files": [
+        {
+          "path": ".artifacts/course-review/current/sample-fall-001-1s.jpg",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/current/sample-fall-001-4s.jpg",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/current/sample-fall-001-5s.jpg",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/current/sample-fall-001-8s.jpg",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/current/sample-walk-001-1s.jpg",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/current/sample-walk-001-4s.jpg",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/current/sample-walk-001-5s.jpg",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/current/sample-walk-001-8s.jpg",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/sample/report-03.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/sample/report-04.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/sample/report-05.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/sample/report-06.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/sample/report-07.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/sample/report-08.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/sample/report-09.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/sample/report-10.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/sample/representative_ADL_a.jpg",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/sample/representative_ADL_n.jpg",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/sample/representative_Fall_a.jpg",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/sample/sample1.gif",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/sample/thermal_000.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/sample/thermal_001.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/sample/thermal_003.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/sample/thermal_005.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/sample/thermal_007.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/sample/thermal_008.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/sample/upstream_gif_000.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/sample/upstream_gif_030.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/sample/upstream_gif_100.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/teacher/slide39-image3.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/teacher/slide40-image20.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/teacher/slide48-image17.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": ".artifacts/course-review/teacher/slide50-image28.gif",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/figures/loss/le2i-extension-001-loss.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/figures/loss/le2i-extension-001-loss.svg",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/figures/loss/loss-side-by-side.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/figures/loss/loss-side-by-side.svg",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/figures/loss/openpose18-baseline-001-loss.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/figures/loss/openpose18-baseline-001-loss.svg",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_sequence_sampling_reads_o0/synthetic-balanced/training-curve.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_sequence_sampling_reads_o1/synthetic-balanced/training-curve.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261012T140837997325Z/confusion-matrix.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261012T140838932169Z/confusion-matrix.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-a/training-curve.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-b/training-curve.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261012T140839841775Z/confusion-matrix.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261012T140840506457Z/confusion-matrix.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-a/training-curve.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-b/training-curve.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261012T140841343777Z/confusion-matrix.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261012T140841969131Z/confusion-matrix.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-a/training-curve.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-b/training-curve.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261012T140842897728Z/confusion-matrix.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261012T140843602892Z/confusion-matrix.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-a/training-curve.png",
+          "reason": "ignored-suffix"
+        },
+        {
+          "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-b/training-curve.png",
+          "reason": "ignored-suffix"
+        }
+      ],
+      "files_count": 57,
+      "truncated": false,
+      "note": "Purposely not indexed — excluded BY DESIGN via gitignore/.cbmignore/skip-lists (see each file's reason). Not an error: change the ignore rules and re-index to include them."
+    }
+  },
+  "search_old": {
+    "content": [
+      {
+        "type": "text",
+        "text": "total: 12\nresults: 12  (rows: name label lines in out; qn = group prefix + \".\" + name)\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.isotropic-refinement-20261012-verification (docs/validation/isotropic-refinement-20261012-verification.json):\n  diagnose Variable 606-609 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.normal-data-support-20261012-source-v1 (docs/validation/normal-data-support-20261012-source-v1.py):\n  diagnose Function 162-276 7 32\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.normal-data-support-20261012-verification (docs/validation/normal-data-support-20261012-verification.json):\n  diagnose Variable 177-177 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.analyze_fall19_annotation (scripts/analyze_fall19_annotation.py):\n  analyze Function 34-112 1 22\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.course_alignment (scripts/course_alignment.py):\n  diagnose Function 37-79 1 22\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.diagnose_normal_methods (scripts/diagnose_normal_methods.py):\n  diagnose Function 19-225 1 43\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.human_ae_refinement (scripts/human_ae_refinement.py):\n  diagnose Function 62-129 0 29\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.human_isotropic_refinement (scripts/human_isotropic_refinement.py):\n  diagnose Function 68-169 1 28\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.human_keyframes (scripts/human_keyframes.py):\n  diagnose Function 96-207 0 28\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.normal_data_support (scripts/normal_data_support.py):\n  diagnose Function 168-282 1 33\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.evaluation.annotation_diagnosis (src/fall_detect/evaluation/annotation_diagnosis.py):\n  diagnose Function 28-162 0 9\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.evaluation.frame_review (src/fall_detect/evaluation/frame_review.py):\n  validate_annotation Function 57-110 9 12\nhas_more: false\n"
+      }
+    ],
+    "isError": false
+  },
+  "base_evidence": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"name\":\"validate_annotation\",\"qualified_name\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.evaluation.frame_review.validate_annotation\",\"label\":\"Function\",\"file_path\":\"C:/成大專案/fall-detection-anomaly/src/fall_detect/evaluation/frame_review.py\",\"start_line\":57,\"end_line\":110,\"source\":\"def validate_annotation(annotation, manifest, manifest_sha256):\\n    \\\"\\\"\\\"Validate an attestation; cannot independently establish a person's identity or GT.\\\"\\\"\\\"\\n    if (\\n        manifest[\\\"split\\\"] != \\\"validation\\\"\\n        or annotation.get(\\\"schema_version\\\") != 1\\n        or annotation.get(\\\"sequence_id\\\") != manifest[\\\"sequence_id\\\"]\\n        or annotation.get(\\\"split\\\") != \\\"validation\\\"\\n        or annotation.get(\\\"manifest_sha256\\\") != manifest_sha256\\n        or annotation.get(\\\"annotation_origin\\\") != \\\"human_self_reported\\\"\\n        or annotation.get(\\\"human_attested\\\") is not True\\n        or not isinstance(annotation.get(\\\"reviewer\\\"), str)\\n        or not annotation[\\\"reviewer\\\"].strip()\\n        or annotation[\\\"reviewer\\\"].strip().lower() in {\\\"ai\\\", \\\"codex\\\", \\\"assistant\\\", \\\"chatgpt\\\"}\\n    ):\\n        raise ContractError(\\\"Requires explicit human self-attestation on this Validation source\\\")\\n    supplied = annotation.get(\\\"frames\\\", [])\\n    if not isinstance(supplied, list) or len(supplied) != len(manifest[\\\"frames\\\"]):\\n        raise ContractError(\\\"All original frames must be reviewed, including uncertainty\\\")\\n    for actual, source in zip(supplied, manifest[\\\"frames\\\"]):\\n        if not isinstance(actual, dict) or (\\n            any(\\n                actual.get(k) != source[k]\\n                for k in [\\\"source_frame_id\\\", \\\"timestamp_ms\\\", \\\"source_sha256\\\"]\\n            )\\n            or actual.get(\\\"reviewed\\\") is not True\\n            or actual.get(\\\"phase\\\") not in PHASES\\n            or actual.get(\\\"visibility\\\") not in VISIBILITY\\n            or actual.get(\\\"pose_check\\\") not in POSE_CHECKS\\n        ):\\n            raise ContractError(\\\"Unreviewed/misaligned frame or invalid label\\\")\\n    ids = {r[\\\"source_frame_id\\\"] for r in manifest[\\\"frames\\\"]}\\n    bounds = []\\n    for name in [\\\"onset_bounds_frame_ids\\\", \\\"impact_bounds_frame_ids\\\"]:\\n        pair = annotation.get(name)\\n        if (\\n            not isinstance(pair, list)\\n            or len(pair) != 2\\n            or any(type(x) is not int or x not in ids for x in pair)\\n            or pair[0] > pair[1]\\n        ):\\n            raise ContractError(\\\"Human time bounds must be ordered original frame IDs\\\")\\n        bounds.append(pair)\\n    if bounds[0][1] > bounds[1][0]:\\n        raise ContractError(\\\"Onset uncertainty must precede impact uncertainty\\\")\\n    return {\\n        \\\"validated\\\": True,\\n        \\\"origin\\\": \\\"human_self_reported\\\",\\n        \\\"reviewer\\\": annotation[\\\"reviewer\\\"].strip(),\\n        \\\"reviewed_frames\\\": len(supplied),\\n        \\\"identity_independently_verified\\\": False,\\n        \\\"used_for_training\\\": False,\\n        \\\"used_for_calibration\\\": False,\\n        \\\"scope\\\": \\\"Validation diagnosis only; not complete independent ground truth\\\",\\n    }\\n\",\"callers\":9,\"callees\":5}"
+          }
+        ],
+        "structuredContent": {
+          "name": "validate_annotation",
+          "qualified_name": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.evaluation.frame_review.validate_annotation",
+          "label": "Function",
+          "file_path": "C:/成大專案/fall-detection-anomaly/src/fall_detect/evaluation/frame_review.py",
+          "start_line": 57,
+          "end_line": 110,
+          "source": "def validate_annotation(annotation, manifest, manifest_sha256):\n    \"\"\"Validate an attestation; cannot independently establish a person's identity or GT.\"\"\"\n    if (\n        manifest[\"split\"] != \"validation\"\n        or annotation.get(\"schema_version\") != 1\n        or annotation.get(\"sequence_id\") != manifest[\"sequence_id\"]\n        or annotation.get(\"split\") != \"validation\"\n        or annotation.get(\"manifest_sha256\") != manifest_sha256\n        or annotation.get(\"annotation_origin\") != \"human_self_reported\"\n        or annotation.get(\"human_attested\") is not True\n        or not isinstance(annotation.get(\"reviewer\"), str)\n        or not annotation[\"reviewer\"].strip()\n        or annotation[\"reviewer\"].strip().lower() in {\"ai\", \"codex\", \"assistant\", \"chatgpt\"}\n    ):\n        raise ContractError(\"Requires explicit human self-attestation on this Validation source\")\n    supplied = annotation.get(\"frames\", [])\n    if not isinstance(supplied, list) or len(supplied) != len(manifest[\"frames\"]):\n        raise ContractError(\"All original frames must be reviewed, including uncertainty\")\n    for actual, source in zip(supplied, manifest[\"frames\"]):\n        if not isinstance(actual, dict) or (\n            any(\n                actual.get(k) != source[k]\n                for k in [\"source_frame_id\", \"timestamp_ms\", \"source_sha256\"]\n            )\n            or actual.get(\"reviewed\") is not True\n            or actual.get(\"phase\") not in PHASES\n            or actual.get(\"visibility\") not in VISIBILITY\n            or actual.get(\"pose_check\") not in POSE_CHECKS\n        ):\n            raise ContractError(\"Unreviewed/misaligned frame or invalid label\")\n    ids = {r[\"source_frame_id\"] for r in manifest[\"frames\"]}\n    bounds = []\n    for name in [\"onset_bounds_frame_ids\", \"impact_bounds_frame_ids\"]:\n        pair = annotation.get(name)\n        if (\n            not isinstance(pair, list)\n            or len(pair) != 2\n            or any(type(x) is not int or x not in ids for x in pair)\n            or pair[0] > pair[1]\n        ):\n            raise ContractError(\"Human time bounds must be ordered original frame IDs\")\n        bounds.append(pair)\n    if bounds[0][1] > bounds[1][0]:\n        raise ContractError(\"Onset uncertainty must precede impact uncertainty\")\n    return {\n        \"validated\": True,\n        \"origin\": \"human_self_reported\",\n        \"reviewer\": annotation[\"reviewer\"].strip(),\n        \"reviewed_frames\": len(supplied),\n        \"identity_independently_verified\": False,\n        \"used_for_training\": False,\n        \"used_for_calibration\": False,\n        \"scope\": \"Validation diagnosis only; not complete independent ground truth\",\n    }\n",
+          "callers": 9,
+          "callees": 5
+        },
+        "isError": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"name\":\"analyze\",\"qualified_name\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.analyze_fall19_annotation.analyze\",\"label\":\"Function\",\"file_path\":\"C:/成大專案/fall-detection-anomaly/scripts/analyze_fall19_annotation.py\",\"start_line\":34,\"end_line\":112,\"source\":\"def analyze(save=False):\\n    if save:\\n        check(not E.exists() and not O.exists(), \\\"Preserve completed/attempted human diagnosis\\\")\\n    parent_qa = ROOT / \\\"docs/validation\\\" / OLD / \\\"final-qa.json\\\"\\n    prior = read_json(parent_qa)[\\\"artifacts\\\"]\\n    if save:\\n        for name, digest in prior.items():\\n            check(sha256(ROOT / name) == digest, f\\\"Preserve parent artifact: {name}\\\")\\n        E.mkdir(parents=True)\\n        for name in MUTABLE:\\n            target = E / \\\"prior-contract\\\" / name\\n            target.parent.mkdir(parents=True, exist_ok=True)\\n            shutil.copyfile(ROOT / name, target)\\n        inputs = [\\n            parent_qa,\\n            IMPORTED / \\\"original-export.json\\\",\\n            IMPORTED / \\\"validation.json\\\",\\n            ROOT / \\\"outputs\\\" / OLD / \\\"source-manifest.json\\\",\\n            ROOT / \\\"outputs\\\" / OLD / \\\"review-data.json\\\",\\n        ]\\n        write_json(\\n            E / \\\"lock.json\\\",\\n            {\\n                \\\"source_hashes\\\": {n: sha256(ROOT / n) for n in SOURCES},\\n                \\\"input_hashes\\\": {p.relative_to(ROOT).as_posix(): sha256(p) for p in inputs},\\n                \\\"scope\\\": \\\"Validation diagnosis only\\\",\\n                \\\"no_fitting\\\": True,\\n                \\\"no_calibration\\\": True,\\n                \\\"no_test\\\": True,\\n            },\\n        )\\n        write_json(\\n            E / \\\"before.json\\\",\\n            {\\n                \\\"assets\\\": {n: h for n, h in prior.items() if n not in MUTABLE},\\n                \\\"original_contracts\\\": {n: prior[n] for n in MUTABLE},\\n                \\\"parent_qa_sha256\\\": sha256(parent_qa),\\n            },\\n        )\\n    lock = read_json(E / \\\"lock.json\\\")\\n    for category in [\\\"source_hashes\\\", \\\"input_hashes\\\"]:\\n        for name, digest in lock[category].items():\\n            check(sha256(ROOT / name) == digest, f\\\"Locked diagnosis input changed: {name}\\\")\\n    annotation = read_json(IMPORTED / \\\"original-export.json\\\")\\n    check(sha256(IMPORTED / \\\"original-export.json\\\") == DIGEST, \\\"Imported source bytes changed\\\")\\n    manifest_path = ROOT / \\\"outputs\\\" / OLD / \\\"source-manifest.json\\\"\\n    validated = validate_annotation(annotation, read_json(manifest_path), sha256(manifest_path))\\n    report = diagnose(annotation, read_json(ROOT / \\\"outputs\\\" / OLD / \\\"review-data.json\\\"))\\n    frame_rows = report.pop(\\\"frame_rows\\\")\\n    window_rows = report.pop(\\\"window_rows\\\")\\n    before = read_json(E / \\\"before.json\\\")\\n    for name, digest in before[\\\"assets\\\"].items():\\n        check(sha256(ROOT / name) == digest, f\\\"Parent artifact changed: {name}\\\")\\n    for name, digest in before[\\\"original_contracts\\\"].items():\\n        check(sha256(E / \\\"prior-contract\\\" / name) == digest, \\\"Prior contract bytes changed\\\")\\n    report.update(\\n        annotation_sha256=DIGEST,\\n        imported_validation=validated,\\n        parent_artifacts_unchanged=len(before[\\\"assets\\\"]),\\n        original_contracts_preserved=len(before[\\\"original_contracts\\\"]),\\n        window_rows=len(window_rows),\\n        human_boundary_semantics=\\\"pending clarification; original ranges retained without reinterpretation\\\",\\n        new_training_epochs=0,\\n        test_feature_reads=0,\\n        new_test_evaluations=0,\\n        evidence_level=\\\"real_feature_smoke: imported human self-report aligned with frozen scores\\\",\\n    )\\n    if save:\\n        O.mkdir(parents=True)\\n        write_csv(O / \\\"human-frame-diagnosis.csv\\\", frame_rows)\\n        write_csv(O / \\\"human-window-diagnosis.csv\\\", window_rows)\\n        write_json(O / \\\"diagnosis.json\\\", report)\\n        write_json(E / \\\"diagnosis.json\\\", report)\\n    else:\\n        check(\\n            read_json(O / \\\"diagnosis.json\\\") == report,\\n            \\\"Published diagnosis differs from recomputation\\\",\\n        )\\n    print(json.dumps(report, ensure_ascii=False, indent=2), flush=True)\\n\",\"callers\":1,\"callees\":12}"
+          }
+        ],
+        "structuredContent": {
+          "name": "analyze",
+          "qualified_name": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.analyze_fall19_annotation.analyze",
+          "label": "Function",
+          "file_path": "C:/成大專案/fall-detection-anomaly/scripts/analyze_fall19_annotation.py",
+          "start_line": 34,
+          "end_line": 112,
+          "source": "def analyze(save=False):\n    if save:\n        check(not E.exists() and not O.exists(), \"Preserve completed/attempted human diagnosis\")\n    parent_qa = ROOT / \"docs/validation\" / OLD / \"final-qa.json\"\n    prior = read_json(parent_qa)[\"artifacts\"]\n    if save:\n        for name, digest in prior.items():\n            check(sha256(ROOT / name) == digest, f\"Preserve parent artifact: {name}\")\n        E.mkdir(parents=True)\n        for name in MUTABLE:\n            target = E / \"prior-contract\" / name\n            target.parent.mkdir(parents=True, exist_ok=True)\n            shutil.copyfile(ROOT / name, target)\n        inputs = [\n            parent_qa,\n            IMPORTED / \"original-export.json\",\n            IMPORTED / \"validation.json\",\n            ROOT / \"outputs\" / OLD / \"source-manifest.json\",\n            ROOT / \"outputs\" / OLD / \"review-data.json\",\n        ]\n        write_json(\n            E / \"lock.json\",\n            {\n                \"source_hashes\": {n: sha256(ROOT / n) for n in SOURCES},\n                \"input_hashes\": {p.relative_to(ROOT).as_posix(): sha256(p) for p in inputs},\n                \"scope\": \"Validation diagnosis only\",\n                \"no_fitting\": True,\n                \"no_calibration\": True,\n                \"no_test\": True,\n            },\n        )\n        write_json(\n            E / \"before.json\",\n            {\n                \"assets\": {n: h for n, h in prior.items() if n not in MUTABLE},\n                \"original_contracts\": {n: prior[n] for n in MUTABLE},\n                \"parent_qa_sha256\": sha256(parent_qa),\n            },\n        )\n    lock = read_json(E / \"lock.json\")\n    for category in [\"source_hashes\", \"input_hashes\"]:\n        for name, digest in lock[category].items():\n            check(sha256(ROOT / name) == digest, f\"Locked diagnosis input changed: {name}\")\n    annotation = read_json(IMPORTED / \"original-export.json\")\n    check(sha256(IMPORTED / \"original-export.json\") == DIGEST, \"Imported source bytes changed\")\n    manifest_path = ROOT / \"outputs\" / OLD / \"source-manifest.json\"\n    validated = validate_annotation(annotation, read_json(manifest_path), sha256(manifest_path))\n    report = diagnose(annotation, read_json(ROOT / \"outputs\" / OLD / \"review-data.json\"))\n    frame_rows = report.pop(\"frame_rows\")\n    window_rows = report.pop(\"window_rows\")\n    before = read_json(E / \"before.json\")\n    for name, digest in before[\"assets\"].items():\n        check(sha256(ROOT / name) == digest, f\"Parent artifact changed: {name}\")\n    for name, digest in before[\"original_contracts\"].items():\n        check(sha256(E / \"prior-contract\" / name) == digest, \"Prior contract bytes changed\")\n    report.update(\n        annotation_sha256=DIGEST,\n        imported_validation=validated,\n        parent_artifacts_unchanged=len(before[\"assets\"]),\n        original_contracts_preserved=len(before[\"original_contracts\"]),\n        window_rows=len(window_rows),\n        human_boundary_semantics=\"pending clarification; original ranges retained without reinterpretation\",\n        new_training_epochs=0,\n        test_feature_reads=0,\n        new_test_evaluations=0,\n        evidence_level=\"real_feature_smoke: imported human self-report aligned with frozen scores\",\n    )\n    if save:\n        O.mkdir(parents=True)\n        write_csv(O / \"human-frame-diagnosis.csv\", frame_rows)\n        write_csv(O / \"human-window-diagnosis.csv\", window_rows)\n        write_json(O / \"diagnosis.json\", report)\n        write_json(E / \"diagnosis.json\", report)\n    else:\n        check(\n            read_json(O / \"diagnosis.json\") == report,\n            \"Published diagnosis differs from recomputation\",\n        )\n    print(json.dumps(report, ensure_ascii=False, indent=2), flush=True)\n",
+          "callers": 1,
+          "callees": 12
+        },
+        "isError": false
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"project\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly\",\"signal\":\"best_effort\",\"indexed_at\":\"2026-10-12T15:38:48Z\",\"metadata\":{\"generation\":\"2026-10-12T15:38:48Z\",\"index_mode\":\"full\",\"recorded_at\":\"2026-10-12T15:38:49Z\",\"recording_status\":\"complete\",\"ignored_files_stored\":57,\"ignored_files_total\":57,\"hash_records_complete\":true,\"coverage_version\":3,\"generation_matches\":true},\"paths\":[{\"requested_path\":\"src/fall_detect/evaluation/annotation_diagnosis.py\",\"path\":\"src/fall_detect/evaluation/annotation_diagnosis.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/evaluation/frame_review.py\",\"path\":\"src/fall_detect/evaluation/frame_review.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"scripts/analyze_fall19_annotation.py\",\"path\":\"scripts/analyze_fall19_annotation.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"tests/test_annotation_diagnosis.py\",\"path\":\"tests/test_annotation_diagnosis.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/io_utils.py\",\"path\":\"src/fall_detect/io_utils.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]}],\"scopes\":[],\"caveat\":\"Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable.\"}"
+          }
+        ],
+        "structuredContent": {
+          "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+          "signal": "best_effort",
+          "indexed_at": "2026-10-12T15:38:48Z",
+          "metadata": {
+            "generation": "2026-10-12T15:38:48Z",
+            "index_mode": "full",
+            "recorded_at": "2026-10-12T15:38:49Z",
+            "recording_status": "complete",
+            "ignored_files_stored": 57,
+            "ignored_files_total": 57,
+            "hash_records_complete": true,
+            "coverage_version": 3,
+            "generation_matches": true
+          },
+          "paths": [
+            {
+              "requested_path": "src/fall_detect/evaluation/annotation_diagnosis.py",
+              "path": "src/fall_detect/evaluation/annotation_diagnosis.py",
+              "status": "no_recorded_issue",
+              "freshness": "metadata_match",
+              "recommended_action": "use_graph_with_best_effort_caveat",
+              "coverage": []
+            },
+            {
+              "requested_path": "src/fall_detect/evaluation/frame_review.py",
+              "path": "src/fall_detect/evaluation/frame_review.py",
+              "status": "no_recorded_issue",
+              "freshness": "metadata_match",
+              "recommended_action": "use_graph_with_best_effort_caveat",
+              "coverage": []
+            },
+            {
+              "requested_path": "scripts/analyze_fall19_annotation.py",
+              "path": "scripts/analyze_fall19_annotation.py",
+              "status": "no_recorded_issue",
+              "freshness": "metadata_match",
+              "recommended_action": "use_graph_with_best_effort_caveat",
+              "coverage": []
+            },
+            {
+              "requested_path": "tests/test_annotation_diagnosis.py",
+              "path": "tests/test_annotation_diagnosis.py",
+              "status": "no_recorded_issue",
+              "freshness": "metadata_match",
+              "recommended_action": "use_graph_with_best_effort_caveat",
+              "coverage": []
+            },
+            {
+              "requested_path": "src/fall_detect/io_utils.py",
+              "path": "src/fall_detect/io_utils.py",
+              "status": "no_recorded_issue",
+              "freshness": "metadata_match",
+              "recommended_action": "use_graph_with_best_effort_caveat",
+              "coverage": []
+            }
+          ],
+          "scopes": [],
+          "caveat": "Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable."
+        },
+        "isError": false
+      }
+    }
+  ],
+  "initial_new_search_with_file_filter": {
+    "content": [
+      {
+        "type": "text",
+        "text": "total: 0\nresults: 0  (rows: name label lines in out; qn = group prefix + \".\" + name)\nhas_more: false\nhint: \"No nodes match this pattern. Check spelling or try a broader regex.\"\n"
+      }
+    ],
+    "isError": false
+  },
+  "new_search": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "total: 3\nresults: 3  (rows: name label lines in out; qn = group prefix + \".\" + name)\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.amend_fall19_annotation (scripts/amend_fall19_annotation.py):\n  amend Function 58-172 1 26\n  clarification Function 36-55 1 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.evaluation.annotation_amendment (src/fall_detect/evaluation/annotation_amendment.py):\n  amend_phase_annotation Function 9-76 2 8\nhas_more: false\n"
+        }
+      ],
+      "isError": false
+    }
+  },
+  "new_initial_coverage": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"project\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly\",\"signal\":\"best_effort\",\"indexed_at\":\"2026-10-12T16:04:43Z\",\"metadata\":{\"generation\":\"2026-10-12T16:04:43Z\",\"index_mode\":\"full\",\"recorded_at\":\"2026-10-12T16:04:54Z\",\"recording_status\":\"complete\",\"ignored_files_stored\":57,\"ignored_files_total\":57,\"hash_records_complete\":true,\"coverage_version\":3,\"generation_matches\":true},\"paths\":[{\"requested_path\":\"src/fall_detect/evaluation/annotation_amendment.py\",\"path\":\"src/fall_detect/evaluation/annotation_amendment.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"scripts/amend_fall19_annotation.py\",\"path\":\"scripts/amend_fall19_annotation.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"tests/test_annotation_amendment.py\",\"path\":\"tests/test_annotation_amendment.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"docs/validation/ur-fall19-human-amendment-20261013-001/independent_check.py\",\"path\":\"docs/validation/ur-fall19-human-amendment-20261013-001/independent_check.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]}],\"scopes\":[],\"caveat\":\"Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable.\"}"
+        }
+      ],
+      "structuredContent": {
+        "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+        "signal": "best_effort",
+        "indexed_at": "2026-10-12T16:04:43Z",
+        "metadata": {
+          "generation": "2026-10-12T16:04:43Z",
+          "index_mode": "full",
+          "recorded_at": "2026-10-12T16:04:54Z",
+          "recording_status": "complete",
+          "ignored_files_stored": 57,
+          "ignored_files_total": 57,
+          "hash_records_complete": true,
+          "coverage_version": 3,
+          "generation_matches": true
+        },
+        "paths": [
+          {
+            "requested_path": "src/fall_detect/evaluation/annotation_amendment.py",
+            "path": "src/fall_detect/evaluation/annotation_amendment.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "scripts/amend_fall19_annotation.py",
+            "path": "scripts/amend_fall19_annotation.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "tests/test_annotation_amendment.py",
+            "path": "tests/test_annotation_amendment.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "docs/validation/ur-fall19-human-amendment-20261013-001/independent_check.py",
+            "path": "docs/validation/ur-fall19-human-amendment-20261013-001/independent_check.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          }
+        ],
+        "scopes": [],
+        "caveat": "Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable."
+      },
+      "isError": false
+    }
+  },
+  "old_outbound_trace": {
+    "content": [
+      {
+        "type": "text",
+        "text": "function: C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.evaluation.annotation_diagnosis.diagnose\ndirection: outbound\ncallees_total: 6\ncallees: 6  (rows: name hop strategy confidence; qn = group prefix + \".\" + name)\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.evaluation.annotation_diagnosis:\n  runs 1 lsp 0.92\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.io_utils:\n  ContractError 1 lsp 0.85\nbuiltins:\n  dict 1 lsp 0.88\nbuiltins.dict:\n  get 1 heuristic 0.38\nbuiltins:\n  len 1 lsp 0.92\nbuiltins.list:\n  append 1 lsp 0.90\n"
+      }
+    ],
+    "isError": false
+  },
+  "new_snippet": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"name\":\"amend_phase_annotation\",\"qualified_name\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.evaluation.annotation_amendment.amend_phase_annotation\",\"label\":\"Function\",\"file_path\":\"C:/成大專案/fall-detection-anomaly/src/fall_detect/evaluation/annotation_amendment.py\",\"start_line\":9,\"end_line\":76,\"source\":\"def amend_phase_annotation(original, manifest, manifest_sha256, original_sha256, data, amendment):\\n    \\\"\\\"\\\"Validate the original export, then derive a separate phase-only schema v2.\\n\\n    This bounded amendment accepts the user's two corrections for fall-19.\\n    The old schema v1 validator is used only on the unchanged original. Its\\n    ordered bounds check cannot establish the semantic meaning of those bounds.\\n    \\\"\\\"\\\"\\n    validate_annotation(original, manifest, manifest_sha256)\\n    if (\\n        original.get(\\\"sequence_id\\\") != \\\"fall-19\\\"\\n        or amendment.get(\\\"schema_version\\\") != 1\\n        or amendment.get(\\\"origin\\\") != \\\"human_text_clarification\\\"\\n        or amendment.get(\\\"human_attested\\\") is not True\\n        or amendment.get(\\\"original_sha256\\\") != original_sha256\\n        or amendment.get(\\\"range_semantics\\\") != \\\"whole_posture_phases\\\"\\n        or amendment.get(\\\"pose_corrections\\\")\\n        != [\\n            {\\\"source_frame_id\\\": 1, \\\"before\\\": \\\"matches_person\\\", \\\"after\\\": \\\"missing\\\"},\\n            {\\\"source_frame_id\\\": 2, \\\"before\\\": \\\"matches_person\\\", \\\"after\\\": \\\"missing\\\"},\\n        ]\\n    ):\\n        raise ContractError(\\\"Requires this source's explicit human phase/pose clarification\\\")\\n    frames = original[\\\"frames\\\"]\\n    ranges = {}\\n    for phase, key in [\\n        (\\\"transition\\\", \\\"onset_bounds_frame_ids\\\"),\\n        (\\\"ground\\\", \\\"impact_bounds_frame_ids\\\"),\\n    ]:\\n        ids = [r[\\\"source_frame_id\\\"] for r in frames if r[\\\"phase\\\"] == phase]\\n        if not ids or ids != list(range(ids[0], ids[-1] + 1)) or original[key] != [ids[0], ids[-1]]:\\n            raise ContractError(\\\"Clarified ranges must match whole contiguous posture phases\\\")\\n        ranges[phase] = [ids[0], ids[-1]]\\n    if len(data[\\\"frames\\\"]) != len(frames) or any(\\n        any(a[k] != b[k] for k in [\\\"source_frame_id\\\", \\\"timestamp_ms\\\", \\\"source_sha256\\\"])\\n        for a, b in zip(frames, data[\\\"frames\\\"])\\n    ):\\n        raise ContractError(\\\"Frozen observations must match the original export\\\")\\n    result = deepcopy(original)\\n    for correction in amendment[\\\"pose_corrections\\\"]:\\n        idx = next(\\n            (\\n                i\\n                for i, r in enumerate(frames)\\n                if r[\\\"source_frame_id\\\"] == correction[\\\"source_frame_id\\\"]\\n            ),\\n            None,\\n        )\\n        if (\\n            idx is None\\n            or frames[idx][\\\"pose_check\\\"] != correction[\\\"before\\\"]\\n            or data[\\\"frames\\\"][idx][\\\"poses\\\"]\\n        ):\\n            raise ContractError(\\\"Only explicitly corrected absent cached poses may change\\\")\\n        result[\\\"frames\\\"][idx][\\\"pose_check\\\"] = correction[\\\"after\\\"]\\n    result.update(\\n        schema_version=2,\\n        original_schema_version=original[\\\"schema_version\\\"],\\n        derived_from_sha256=original_sha256,\\n        amendment_origin=\\\"human_text_clarification\\\",\\n        temporal_semantics=\\\"whole_posture_phases; precise onset and impact not supplied\\\",\\n        phase_ranges_frame_ids=ranges,\\n        onset_bounds_frame_ids=None,\\n        impact_bounds_frame_ids=None,\\n        precise_time_ground_truth=False,\\n        used_for_training=False,\\n        used_for_calibration=False,\\n    )\\n    return result\\n\",\"callers\":2,\"callees\":7}"
+        }
+      ],
+      "structuredContent": {
+        "name": "amend_phase_annotation",
+        "qualified_name": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.evaluation.annotation_amendment.amend_phase_annotation",
+        "label": "Function",
+        "file_path": "C:/成大專案/fall-detection-anomaly/src/fall_detect/evaluation/annotation_amendment.py",
+        "start_line": 9,
+        "end_line": 76,
+        "source": "def amend_phase_annotation(original, manifest, manifest_sha256, original_sha256, data, amendment):\n    \"\"\"Validate the original export, then derive a separate phase-only schema v2.\n\n    This bounded amendment accepts the user's two corrections for fall-19.\n    The old schema v1 validator is used only on the unchanged original. Its\n    ordered bounds check cannot establish the semantic meaning of those bounds.\n    \"\"\"\n    validate_annotation(original, manifest, manifest_sha256)\n    if (\n        original.get(\"sequence_id\") != \"fall-19\"\n        or amendment.get(\"schema_version\") != 1\n        or amendment.get(\"origin\") != \"human_text_clarification\"\n        or amendment.get(\"human_attested\") is not True\n        or amendment.get(\"original_sha256\") != original_sha256\n        or amendment.get(\"range_semantics\") != \"whole_posture_phases\"\n        or amendment.get(\"pose_corrections\")\n        != [\n            {\"source_frame_id\": 1, \"before\": \"matches_person\", \"after\": \"missing\"},\n            {\"source_frame_id\": 2, \"before\": \"matches_person\", \"after\": \"missing\"},\n        ]\n    ):\n        raise ContractError(\"Requires this source's explicit human phase/pose clarification\")\n    frames = original[\"frames\"]\n    ranges = {}\n    for phase, key in [\n        (\"transition\", \"onset_bounds_frame_ids\"),\n        (\"ground\", \"impact_bounds_frame_ids\"),\n    ]:\n        ids = [r[\"source_frame_id\"] for r in frames if r[\"phase\"] == phase]\n        if not ids or ids != list(range(ids[0], ids[-1] + 1)) or original[key] != [ids[0], ids[-1]]:\n            raise ContractError(\"Clarified ranges must match whole contiguous posture phases\")\n        ranges[phase] = [ids[0], ids[-1]]\n    if len(data[\"frames\"]) != len(frames) or any(\n        any(a[k] != b[k] for k in [\"source_frame_id\", \"timestamp_ms\", \"source_sha256\"])\n        for a, b in zip(frames, data[\"frames\"])\n    ):\n        raise ContractError(\"Frozen observations must match the original export\")\n    result = deepcopy(original)\n    for correction in amendment[\"pose_corrections\"]:\n        idx = next(\n            (\n                i\n                for i, r in enumerate(frames)\n                if r[\"source_frame_id\"] == correction[\"source_frame_id\"]\n            ),\n            None,\n        )\n        if (\n            idx is None\n            or frames[idx][\"pose_check\"] != correction[\"before\"]\n            or data[\"frames\"][idx][\"poses\"]\n        ):\n            raise ContractError(\"Only explicitly corrected absent cached poses may change\")\n        result[\"frames\"][idx][\"pose_check\"] = correction[\"after\"]\n    result.update(\n        schema_version=2,\n        original_schema_version=original[\"schema_version\"],\n        derived_from_sha256=original_sha256,\n        amendment_origin=\"human_text_clarification\",\n        temporal_semantics=\"whole_posture_phases; precise onset and impact not supplied\",\n        phase_ranges_frame_ids=ranges,\n        onset_bounds_frame_ids=None,\n        impact_bounds_frame_ids=None,\n        precise_time_ground_truth=False,\n        used_for_training=False,\n        used_for_calibration=False,\n    )\n    return result\n",
+        "callers": 2,
+        "callees": 7
+      },
+      "isError": false
+    }
+  },
+  "new_outbound_trace": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "function: C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.amend_fall19_annotation.amend\ndirection: outbound\ncallees_total: 14\ncallees: 14  (rows: name hop strategy confidence; qn = group prefix + \".\" + name)\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.normal-data-support-20261012-source-v1:\n  diagnose 1 heuristic 0.95\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.resource-fetch:\n  exists 1 heuristic 0.38\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.amend_fall19_annotation:\n  check 1 lsp 0.95\n  clarification 1 lsp 0.95\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.evaluation.annotation_amendment:\n  amend_phase_annotation 1 lsp 0.97\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.io_utils:\n  read_json 1 lsp 0.97\n  sha256 1 lsp 0.97\n  write_csv 1 lsp 0.97\n  write_json 1 lsp 0.97\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.visualization.action_status.ActionDisplayState:\n  update 1 heuristic 0.28\nbuiltins:\n  dict 1 lsp 0.88\n  len 1 lsp 0.92\nbuiltins.list:\n  pop 1 heuristic 0.38\nbuiltins:\n  print 1 lsp 0.92\n"
+        }
+      ],
+      "isError": false
+    }
+  },
+  "final_coverage": {
+    "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+    "signal": "best_effort",
+    "indexed_at": "2026-10-12T16:07:20Z",
+    "metadata": {
+      "generation": "2026-10-12T16:07:20Z",
+      "index_mode": "full",
+      "recorded_at": "2026-10-12T16:08:15Z",
+      "recording_status": "complete",
+      "ignored_files_stored": 57,
+      "ignored_files_total": 57,
+      "hash_records_complete": true,
+      "coverage_version": 3,
+      "generation_matches": true
+    },
+    "paths": [
+      {
+        "requested_path": "src/fall_detect/evaluation/annotation_amendment.py",
+        "path": "src/fall_detect/evaluation/annotation_amendment.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "scripts/amend_fall19_annotation.py",
+        "path": "scripts/amend_fall19_annotation.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "tests/test_annotation_amendment.py",
+        "path": "tests/test_annotation_amendment.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "src/fall_detect/evaluation/annotation_diagnosis.py",
+        "path": "src/fall_detect/evaluation/annotation_diagnosis.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "src/fall_detect/evaluation/frame_review.py",
+        "path": "src/fall_detect/evaluation/frame_review.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "src/fall_detect/io_utils.py",
+        "path": "src/fall_detect/io_utils.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "tests/test_annotation_diagnosis.py",
+        "path": "tests/test_annotation_diagnosis.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "tests/test_frame_review.py",
+        "path": "tests/test_frame_review.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "scripts/analyze_fall19_annotation.py",
+        "path": "scripts/analyze_fall19_annotation.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "docs/validation/ur-fall19-human-amendment-20261013-001/independent_check.py",
+        "path": "docs/validation/ur-fall19-human-amendment-20261013-001/independent_check.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "docs/ur-fall19-human-amendment-20261013.md",
+        "path": "docs/ur-fall19-human-amendment-20261013.md",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_changed",
+        "recommended_action": "read_source_and_reindex",
+        "coverage": []
+      },
+      {
+        "requested_path": "docs/current-progress.md",
+        "path": "docs/current-progress.md",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "docs/acceptance-results.md",
+        "path": "docs/acceptance-results.md",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "outputs/ur-fall19-human-amendment-20261013-001/derived-annotation.json",
+        "path": "outputs/ur-fall19-human-amendment-20261013-001/derived-annotation.json",
+        "status": "excluded",
+        "freshness": "not_tracked",
+        "recommended_action": "read_source_and_reindex",
+        "coverage": [
+          {
+            "path": "outputs",
+            "kind": "not_indexed_dir",
+            "detail": "excluded subtree",
+            "match": "ancestor"
+          }
+        ]
+      },
+      {
+        "requested_path": "outputs/ur-fall19-review-20261012-001/source-manifest.json",
+        "path": "outputs/ur-fall19-review-20261012-001/source-manifest.json",
+        "status": "excluded",
+        "freshness": "not_tracked",
+        "recommended_action": "read_source_and_reindex",
+        "coverage": [
+          {
+            "path": "outputs",
+            "kind": "not_indexed_dir",
+            "detail": "excluded subtree",
+            "match": "ancestor"
+          }
+        ]
+      },
+      {
+        "requested_path": "outputs/ur-fall19-review-20261012-001/review-data.json",
+        "path": "outputs/ur-fall19-review-20261012-001/review-data.json",
+        "status": "excluded",
+        "freshness": "not_tracked",
+        "recommended_action": "read_source_and_reindex",
+        "coverage": [
+          {
+            "path": "outputs",
+            "kind": "not_indexed_dir",
+            "detail": "excluded subtree",
+            "match": "ancestor"
+          }
+        ]
+      }
+    ],
+    "scopes": [],
+    "caveat": "Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable."
+  },
+  "limitations": [
+    "Best effort; no recorded gap is not proof of completeness.",
+    "Initial file-filter query returned 0; exact name query returned 3. No negative structural claim.",
+    "Outbound trace heuristic diagnose/exists/update targets misresolved; exact script import/source and real execution used instead.",
+    "Report metadata changed at final coverage; final full text read directly after edit.",
+    "Outputs/raw/cache/run excluded by design; frozen JSON/CSV and 100 raw RGB hashes verified directly; no Test decoded."
+  ]
+}

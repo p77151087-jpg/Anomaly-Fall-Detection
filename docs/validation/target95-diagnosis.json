@@ -1,0 +1,2686 @@
+{
+  "split_used": [
+    "train",
+    "validation"
+  ],
+  "test_read": false,
+  "sequences": [
+    {
+      "sequence_id": "adl-33",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 200,
+      "no_person": 30,
+      "good_pose_frames": 141,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 24,
+      "valid_features": 15,
+      "quality_counts": {
+        "track_gap": 147,
+        "valid": 15,
+        "low_confidence": 1
+      }
+    },
+    {
+      "sequence_id": "adl-08",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 180,
+      "no_person": 8,
+      "good_pose_frames": 171,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 47.0,
+      "track_ids": 1,
+      "valid_features": 28,
+      "quality_counts": {
+        "track_gap": 2,
+        "valid": 28
+      }
+    },
+    {
+      "sequence_id": "adl-40",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 330,
+      "no_person": 138,
+      "good_pose_frames": 164,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 9,
+      "valid_features": 20,
+      "quality_counts": {
+        "no_person": 9,
+        "track_gap": 72,
+        "valid": 20
+      }
+    },
+    {
+      "sequence_id": "adl-19",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 250,
+      "no_person": 58,
+      "good_pose_frames": 138,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 44.0,
+      "track_ids": 50,
+      "valid_features": 20,
+      "quality_counts": {
+        "no_person": 1,
+        "track_gap": 294,
+        "valid": 20
+      }
+    },
+    {
+      "sequence_id": "adl-05",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 180,
+      "no_person": 0,
+      "good_pose_frames": 179,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 47.0,
+      "track_ids": 8,
+      "valid_features": 30,
+      "quality_counts": {
+        "valid": 30,
+        "track_gap": 34
+      }
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 345,
+      "no_person": 206,
+      "good_pose_frames": 125,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 10,
+      "valid_features": 20,
+      "quality_counts": {
+        "track_gap": 61,
+        "valid": 20,
+        "no_person": 21
+      }
+    },
+    {
+      "sequence_id": "adl-17",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 230,
+      "no_person": 30,
+      "good_pose_frames": 172,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 43.0,
+      "track_ids": 49,
+      "valid_features": 0,
+      "quality_counts": {
+        "track_gap": 283,
+        "low_confidence": 1
+      }
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 230,
+      "no_person": 13,
+      "good_pose_frames": 179,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 47.0,
+      "track_ids": 15,
+      "valid_features": 26,
+      "quality_counts": {
+        "track_gap": 90,
+        "valid": 26,
+        "low_confidence": 5
+      }
+    },
+    {
+      "sequence_id": "adl-26",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 95,
+      "no_person": 0,
+      "good_pose_frames": 95,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 1,
+      "valid_features": 10,
+      "quality_counts": {
+        "track_gap": 4,
+        "valid": 10
+      }
+    },
+    {
+      "sequence_id": "adl-29",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 125,
+      "no_person": 0,
+      "good_pose_frames": 125,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 43.0,
+      "track_ids": 3,
+      "valid_features": 17,
+      "quality_counts": {
+        "track_gap": 15,
+        "valid": 17
+      }
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 240,
+      "no_person": 91,
+      "good_pose_frames": 117,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 42.0,
+      "track_ids": 22,
+      "valid_features": 16,
+      "quality_counts": {
+        "track_gap": 131,
+        "valid": 16,
+        "low_confidence": 6
+      }
+    },
+    {
+      "sequence_id": "adl-21",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 280,
+      "no_person": 83,
+      "good_pose_frames": 173,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 42.0,
+      "track_ids": 29,
+      "valid_features": 0,
+      "quality_counts": {
+        "no_person": 3,
+        "track_gap": 121
+      }
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 340,
+      "no_person": 121,
+      "good_pose_frames": 215,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 2,
+      "valid_features": 26,
+      "quality_counts": {
+        "track_gap": 29,
+        "valid": 26,
+        "no_person": 13
+      }
+    },
+    {
+      "sequence_id": "adl-25",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 110,
+      "no_person": 0,
+      "good_pose_frames": 110,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 1,
+      "valid_features": 13,
+      "quality_counts": {
+        "track_gap": 4,
+        "valid": 13
+      }
+    },
+    {
+      "sequence_id": "adl-11",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 300,
+      "no_person": 8,
+      "good_pose_frames": 209,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 47.0,
+      "track_ids": 51,
+      "valid_features": 0,
+      "quality_counts": {
+        "track_gap": 275
+      }
+    },
+    {
+      "sequence_id": "adl-28",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 85,
+      "no_person": 0,
+      "good_pose_frames": 85,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 43.0,
+      "track_ids": 1,
+      "valid_features": 9,
+      "quality_counts": {
+        "track_gap": 3,
+        "valid": 9
+      }
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 200,
+      "no_person": 46,
+      "good_pose_frames": 117,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 14,
+      "valid_features": 11,
+      "quality_counts": {
+        "track_gap": 87,
+        "valid": 11,
+        "low_confidence": 2
+      }
+    },
+    {
+      "sequence_id": "adl-31",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 250,
+      "no_person": 72,
+      "good_pose_frames": 136,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 43.0,
+      "track_ids": 34,
+      "valid_features": 0,
+      "quality_counts": {
+        "track_gap": 184,
+        "no_person": 4
+      }
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 100,
+      "no_person": 0,
+      "good_pose_frames": 100,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 43.0,
+      "track_ids": 1,
+      "valid_features": 12,
+      "quality_counts": {
+        "track_gap": 3,
+        "valid": 12
+      }
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 180,
+      "no_person": 0,
+      "good_pose_frames": 180,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 47.0,
+      "track_ids": 1,
+      "valid_features": 30,
+      "quality_counts": {
+        "valid": 30
+      }
+    },
+    {
+      "sequence_id": "adl-30",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 400,
+      "no_person": 175,
+      "good_pose_frames": 165,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 39,
+      "valid_features": 19,
+      "quality_counts": {
+        "no_person": 11,
+        "track_gap": 250,
+        "valid": 19
+      }
+    },
+    {
+      "sequence_id": "adl-12",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 250,
+      "no_person": 23,
+      "good_pose_frames": 194,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 42.0,
+      "track_ids": 19,
+      "valid_features": 19,
+      "quality_counts": {
+        "track_gap": 119,
+        "valid": 19,
+        "low_confidence": 5
+      }
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 70,
+      "no_person": 0,
+      "good_pose_frames": 70,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 4,
+      "valid_features": 5,
+      "quality_counts": {
+        "track_gap": 19,
+        "valid": 5
+      }
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 300,
+      "no_person": 2,
+      "good_pose_frames": 267,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 47.0,
+      "track_ids": 16,
+      "valid_features": 0,
+      "quality_counts": {
+        "track_gap": 138
+      }
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 350,
+      "no_person": 107,
+      "good_pose_frames": 233,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 11,
+      "valid_features": 28,
+      "quality_counts": {
+        "track_gap": 85,
+        "valid": 28
+      }
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 220,
+      "no_person": 56,
+      "good_pose_frames": 129,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 43.0,
+      "track_ids": 36,
+      "valid_features": 10,
+      "quality_counts": {
+        "track_gap": 202,
+        "valid": 10,
+        "low_confidence": 3
+      }
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 270,
+      "no_person": 48,
+      "good_pose_frames": 192,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 42.0,
+      "track_ids": 12,
+      "valid_features": 34,
+      "quality_counts": {
+        "no_person": 2,
+        "track_gap": 47,
+        "valid": 34,
+        "low_confidence": 4
+      }
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 150,
+      "no_person": 0,
+      "good_pose_frames": 150,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 47.0,
+      "track_ids": 25,
+      "valid_features": 18,
+      "quality_counts": {
+        "valid": 18,
+        "track_gap": 142
+      }
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 150,
+      "no_person": 7,
+      "good_pose_frames": 142,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 14,
+      "valid_features": 21,
+      "quality_counts": {
+        "track_gap": 76,
+        "valid": 21
+      }
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 240,
+      "no_person": 51,
+      "good_pose_frames": 119,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 43.0,
+      "track_ids": 77,
+      "valid_features": 0,
+      "quality_counts": {
+        "no_person": 1,
+        "track_gap": 366
+      }
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 265,
+      "no_person": 59,
+      "good_pose_frames": 167,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 43.0,
+      "track_ids": 11,
+      "valid_features": 1,
+      "quality_counts": {
+        "track_gap": 81,
+        "no_person": 4,
+        "valid": 1
+      }
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation",
+      "label": 0,
+      "dataset": "urfall",
+      "frames": 280,
+      "no_person": 36,
+      "good_pose_frames": 203,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 31,
+      "valid_features": 16,
+      "quality_counts": {
+        "track_gap": 203,
+        "valid": 16,
+        "low_confidence": 1
+      }
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "frames": 56,
+      "no_person": 0,
+      "good_pose_frames": 31,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 31,
+      "valid_features": 0,
+      "quality_counts": {
+        "track_gap": 106
+      }
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "frames": 100,
+      "no_person": 18,
+      "good_pose_frames": 49,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 45,
+      "valid_features": 1,
+      "quality_counts": {
+        "track_gap": 211,
+        "valid": 1
+      }
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "frames": 55,
+      "no_person": 0,
+      "good_pose_frames": 55,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 15,
+      "valid_features": 2,
+      "quality_counts": {
+        "track_gap": 36,
+        "valid": 2
+      }
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "frames": 65,
+      "no_person": 3,
+      "good_pose_frames": 40,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 19,
+      "valid_features": 0,
+      "quality_counts": {
+        "track_gap": 76
+      }
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "frames": 91,
+      "no_person": 0,
+      "good_pose_frames": 91,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 12,
+      "valid_features": 9,
+      "quality_counts": {
+        "track_gap": 49,
+        "valid": 9
+      }
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "frames": 85,
+      "no_person": 0,
+      "good_pose_frames": 77,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 28,
+      "valid_features": 4,
+      "quality_counts": {
+        "track_gap": 108,
+        "valid": 4,
+        "low_confidence": 16
+      }
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "frames": 99,
+      "no_person": 13,
+      "good_pose_frames": 70,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 37,
+      "valid_features": 5,
+      "quality_counts": {
+        "track_gap": 119,
+        "valid": 5
+      }
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "frames": 61,
+      "no_person": 0,
+      "good_pose_frames": 61,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 42,
+      "valid_features": 2,
+      "quality_counts": {
+        "track_gap": 113,
+        "low_confidence": 5,
+        "valid": 2
+      }
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "frames": 185,
+      "no_person": 0,
+      "good_pose_frames": 153,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 65,
+      "valid_features": 21,
+      "quality_counts": {
+        "track_gap": 217,
+        "valid": 21,
+        "low_confidence": 1
+      }
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "frames": 156,
+      "no_person": 0,
+      "good_pose_frames": 122,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 94,
+      "valid_features": 15,
+      "quality_counts": {
+        "track_gap": 356,
+        "valid": 15,
+        "low_confidence": 1
+      }
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "frames": 130,
+      "no_person": 0,
+      "good_pose_frames": 130,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 27,
+      "valid_features": 11,
+      "quality_counts": {
+        "track_gap": 164,
+        "valid": 11
+      }
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "frames": 85,
+      "no_person": 5,
+      "good_pose_frames": 64,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 24,
+      "valid_features": 5,
+      "quality_counts": {
+        "track_gap": 107,
+        "valid": 5
+      }
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "frames": 100,
+      "no_person": 0,
+      "good_pose_frames": 100,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 69,
+      "valid_features": 7,
+      "quality_counts": {
+        "track_gap": 309,
+        "valid": 7
+      }
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "frames": 110,
+      "no_person": 0,
+      "good_pose_frames": 80,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 55,
+      "valid_features": 7,
+      "quality_counts": {
+        "track_gap": 213,
+        "valid": 7
+      }
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "frames": 70,
+      "no_person": 1,
+      "good_pose_frames": 48,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 34.0,
+      "track_ids": 31,
+      "valid_features": 1,
+      "quality_counts": {
+        "track_gap": 92,
+        "valid": 1
+      }
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_42",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "frames": 159,
+      "no_person": 0,
+      "good_pose_frames": 159,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.00000000000091,
+      "track_ids": 10,
+      "valid_features": 28,
+      "quality_counts": {
+        "valid": 28,
+        "track_gap": 18,
+        "unlabelled_interval": 31
+      }
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_43",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "frames": 718,
+      "no_person": 0,
+      "good_pose_frames": 714,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.00000000000364,
+      "track_ids": 32,
+      "valid_features": 144,
+      "quality_counts": {
+        "unlabelled_interval": 31,
+        "valid": 144,
+        "track_gap": 182
+      }
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_44",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "frames": 133,
+      "no_person": 0,
+      "good_pose_frames": 116,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.00000000000091,
+      "track_ids": 113,
+      "valid_features": 17,
+      "quality_counts": {
+        "valid": 17,
+        "track_gap": 599,
+        "low_confidence": 3
+      }
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_45",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "frames": 215,
+      "no_person": 0,
+      "good_pose_frames": 215,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.00000000000091,
+      "track_ids": 7,
+      "valid_features": 41,
+      "quality_counts": {
+        "valid": 41,
+        "unlabelled_interval": 6,
+        "track_gap": 36
+      }
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_46",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "frames": 292,
+      "no_person": 0,
+      "good_pose_frames": 292,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.00000000000182,
+      "track_ids": 4,
+      "valid_features": 47,
+      "quality_counts": {
+        "valid": 47,
+        "unlabelled_interval": 18,
+        "track_gap": 18
+      }
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_61",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 1314,
+      "no_person": 21,
+      "good_pose_frames": 1279,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.000000000007276,
+      "track_ids": 30,
+      "valid_features": 263,
+      "quality_counts": {
+        "track_gap": 157,
+        "valid": 263,
+        "unlabelled_interval": 67
+      }
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_63",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 596,
+      "no_person": 0,
+      "good_pose_frames": 575,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.00000000000364,
+      "track_ids": 24,
+      "valid_features": 128,
+      "quality_counts": {
+        "valid": 128,
+        "track_gap": 139,
+        "low_confidence": 10
+      }
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_65",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 711,
+      "no_person": 0,
+      "good_pose_frames": 698,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.00000000000364,
+      "track_ids": 43,
+      "valid_features": 160,
+      "quality_counts": {
+        "valid": 160,
+        "track_gap": 263
+      }
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_66",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 298,
+      "no_person": 0,
+      "good_pose_frames": 296,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.00000000000182,
+      "track_ids": 21,
+      "valid_features": 66,
+      "quality_counts": {
+        "valid": 66,
+        "track_gap": 118
+      }
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_67",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 347,
+      "no_person": 36,
+      "good_pose_frames": 285,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.00000000000182,
+      "track_ids": 25,
+      "valid_features": 66,
+      "quality_counts": {
+        "unlabelled_interval": 21,
+        "track_gap": 135,
+        "low_confidence": 2,
+        "valid": 66
+      }
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_69",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 1283,
+      "no_person": 0,
+      "good_pose_frames": 1259,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.000000000007276,
+      "track_ids": 22,
+      "valid_features": 297,
+      "quality_counts": {
+        "low_confidence": 5,
+        "track_gap": 109,
+        "valid": 297
+      }
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_70",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 839,
+      "no_person": 117,
+      "good_pose_frames": 692,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.000000000007276,
+      "track_ids": 31,
+      "valid_features": 124,
+      "quality_counts": {
+        "valid": 124,
+        "track_gap": 136,
+        "unlabelled_interval": 113,
+        "low_confidence": 1
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_10",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "frames": 312,
+      "no_person": 120,
+      "good_pose_frames": 144,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 41.66600000000108,
+      "track_ids": 34,
+      "valid_features": 26,
+      "quality_counts": {
+        "no_person": 12,
+        "track_gap": 151,
+        "valid": 26,
+        "unlabelled_interval": 48
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_13",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "frames": 240,
+      "no_person": 123,
+      "good_pose_frames": 102,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 41.66600000000108,
+      "track_ids": 14,
+      "valid_features": 21,
+      "quality_counts": {
+        "no_person": 6,
+        "track_gap": 80,
+        "valid": 21,
+        "unlabelled_interval": 9
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_24",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "frames": 192,
+      "no_person": 0,
+      "good_pose_frames": 170,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 41.66600000000108,
+      "track_ids": 35,
+      "valid_features": 23,
+      "quality_counts": {
+        "valid": 23,
+        "unlabelled_interval": 17,
+        "track_gap": 168,
+        "low_confidence": 1
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_25",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "frames": 213,
+      "no_person": 0,
+      "good_pose_frames": 193,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 41.66600000000108,
+      "track_ids": 27,
+      "valid_features": 28,
+      "quality_counts": {
+        "unlabelled_interval": 68,
+        "valid": 28,
+        "track_gap": 93,
+        "low_confidence": 5
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_28",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "frames": 216,
+      "no_person": 0,
+      "good_pose_frames": 207,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 41.66600000000108,
+      "track_ids": 32,
+      "valid_features": 35,
+      "quality_counts": {
+        "valid": 35,
+        "track_gap": 185,
+        "unlabelled_interval": 6
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_4",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "frames": 240,
+      "no_person": 8,
+      "good_pose_frames": 151,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 41.66600000000108,
+      "track_ids": 18,
+      "valid_features": 12,
+      "quality_counts": {
+        "valid": 12,
+        "unlabelled_interval": 69,
+        "track_gap": 58,
+        "low_confidence": 13
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_38",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 192,
+      "no_person": 0,
+      "good_pose_frames": 192,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 41.66600000000108,
+      "track_ids": 8,
+      "valid_features": 36,
+      "quality_counts": {
+        "valid": 36,
+        "track_gap": 28,
+        "unlabelled_interval": 6
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_39",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 192,
+      "no_person": 0,
+      "good_pose_frames": 191,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 41.66600000000108,
+      "track_ids": 9,
+      "valid_features": 30,
+      "quality_counts": {
+        "valid": 30,
+        "unlabelled_interval": 28,
+        "track_gap": 33
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_41",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 240,
+      "no_person": 45,
+      "good_pose_frames": 157,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 41.66600000000108,
+      "track_ids": 17,
+      "valid_features": 20,
+      "quality_counts": {
+        "no_person": 4,
+        "track_gap": 70,
+        "low_confidence": 2,
+        "unlabelled_interval": 52,
+        "valid": 20
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_42",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 168,
+      "no_person": 0,
+      "good_pose_frames": 166,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 41.66600000000108,
+      "track_ids": 19,
+      "valid_features": 24,
+      "quality_counts": {
+        "valid": 24,
+        "track_gap": 57,
+        "unlabelled_interval": 59
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_43",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 168,
+      "no_person": 0,
+      "good_pose_frames": 168,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 41.66600000000108,
+      "track_ids": 1,
+      "valid_features": 36,
+      "quality_counts": {
+        "valid": 36
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_44",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 314,
+      "no_person": 0,
+      "good_pose_frames": 312,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 41.66600000000108,
+      "track_ids": 6,
+      "valid_features": 55,
+      "quality_counts": {
+        "unlabelled_interval": 30,
+        "valid": 55,
+        "track_gap": 19
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_45",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 216,
+      "no_person": 0,
+      "good_pose_frames": 216,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 41.66600000000108,
+      "track_ids": 5,
+      "valid_features": 36,
+      "quality_counts": {
+        "valid": 36,
+        "unlabelled_interval": 12,
+        "track_gap": 24
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_46",
+      "split": "validation",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 264,
+      "no_person": 2,
+      "good_pose_frames": 231,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 41.66600000000108,
+      "track_ids": 39,
+      "valid_features": 38,
+      "quality_counts": {
+        "valid": 38,
+        "track_gap": 208,
+        "low_confidence": 3,
+        "unlabelled_interval": 39
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_47",
+      "split": "validation",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 288,
+      "no_person": 0,
+      "good_pose_frames": 279,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 41.66600000000108,
+      "track_ids": 10,
+      "valid_features": 49,
+      "quality_counts": {
+        "valid": 49,
+        "low_confidence": 2,
+        "track_gap": 35,
+        "unlabelled_interval": 34
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_48",
+      "split": "validation",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 240,
+      "no_person": 10,
+      "good_pose_frames": 215,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 41.66600000000108,
+      "track_ids": 31,
+      "valid_features": 34,
+      "quality_counts": {
+        "valid": 34,
+        "track_gap": 119,
+        "unlabelled_interval": 78
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_51",
+      "split": "validation",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 264,
+      "no_person": 8,
+      "good_pose_frames": 234,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 41.66600000000108,
+      "track_ids": 37,
+      "valid_features": 37,
+      "quality_counts": {
+        "unlabelled_interval": 78,
+        "track_gap": 159,
+        "valid": 37
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_52",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 216,
+      "no_person": 8,
+      "good_pose_frames": 192,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 41.66600000000108,
+      "track_ids": 17,
+      "valid_features": 37,
+      "quality_counts": {
+        "valid": 37,
+        "track_gap": 72,
+        "unlabelled_interval": 32
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_53",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 216,
+      "no_person": 63,
+      "good_pose_frames": 135,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 41.66600000000108,
+      "track_ids": 18,
+      "valid_features": 20,
+      "quality_counts": {
+        "unlabelled_interval": 35,
+        "valid": 20,
+        "track_gap": 73,
+        "no_person": 7
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_54",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 216,
+      "no_person": 0,
+      "good_pose_frames": 209,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 41.66600000000108,
+      "track_ids": 3,
+      "valid_features": 31,
+      "quality_counts": {
+        "valid": 31,
+        "unlabelled_interval": 22,
+        "track_gap": 7
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_55",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 216,
+      "no_person": 0,
+      "good_pose_frames": 208,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 41.66600000000108,
+      "track_ids": 1,
+      "valid_features": 37,
+      "quality_counts": {
+        "valid": 37,
+        "unlabelled_interval": 6,
+        "low_confidence": 5
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_56",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 360,
+      "no_person": 1,
+      "good_pose_frames": 336,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 41.66600000000108,
+      "track_ids": 7,
+      "valid_features": 52,
+      "quality_counts": {
+        "valid": 52,
+        "track_gap": 44,
+        "low_confidence": 3,
+        "unlabelled_interval": 20
+      }
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_17",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 506,
+      "no_person": 149,
+      "good_pose_frames": 337,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.00000000000364,
+      "track_ids": 54,
+      "valid_features": 62,
+      "quality_counts": {
+        "unlabelled_interval": 124,
+        "track_gap": 252,
+        "valid": 62
+      }
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_18",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 1052,
+      "no_person": 186,
+      "good_pose_frames": 841,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.000000000007276,
+      "track_ids": 76,
+      "valid_features": 188,
+      "quality_counts": {
+        "unlabelled_interval": 170,
+        "track_gap": 346,
+        "valid": 188,
+        "no_person": 1
+      }
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_19",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 818,
+      "no_person": 121,
+      "good_pose_frames": 653,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.000000000007276,
+      "track_ids": 75,
+      "valid_features": 109,
+      "quality_counts": {
+        "unlabelled_interval": 314,
+        "valid": 109,
+        "track_gap": 217,
+        "low_confidence": 4
+      }
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_24",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 1442,
+      "no_person": 274,
+      "good_pose_frames": 1102,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.000000000007276,
+      "track_ids": 99,
+      "valid_features": 226,
+      "quality_counts": {
+        "unlabelled_interval": 328,
+        "track_gap": 384,
+        "valid": 226,
+        "low_confidence": 4
+      }
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_25",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 376,
+      "no_person": 73,
+      "good_pose_frames": 283,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.00000000000182,
+      "track_ids": 12,
+      "valid_features": 58,
+      "quality_counts": {
+        "valid": 58,
+        "unlabelled_interval": 54,
+        "low_confidence": 1,
+        "track_gap": 37
+      }
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_26",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 1429,
+      "no_person": 293,
+      "good_pose_frames": 1003,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.000000000007276,
+      "track_ids": 107,
+      "valid_features": 198,
+      "quality_counts": {
+        "unlabelled_interval": 161,
+        "track_gap": 589,
+        "low_confidence": 26,
+        "valid": 198
+      }
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_27",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 259,
+      "no_person": 46,
+      "good_pose_frames": 185,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.00000000000182,
+      "track_ids": 13,
+      "valid_features": 40,
+      "quality_counts": {
+        "valid": 40,
+        "low_confidence": 3,
+        "track_gap": 36,
+        "unlabelled_interval": 46
+      }
+    },
+    {
+      "sequence_id": "le2i-Office-video_18",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 766,
+      "no_person": 140,
+      "good_pose_frames": 612,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.00000000000364,
+      "track_ids": 31,
+      "valid_features": 113,
+      "quality_counts": {
+        "unlabelled_interval": 140,
+        "track_gap": 105,
+        "valid": 113
+      }
+    },
+    {
+      "sequence_id": "le2i-Office-video_19",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 329,
+      "no_person": 48,
+      "good_pose_frames": 228,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.00000000000182,
+      "track_ids": 30,
+      "valid_features": 35,
+      "quality_counts": {
+        "unlabelled_interval": 87,
+        "track_gap": 100,
+        "valid": 35,
+        "low_confidence": 12
+      }
+    },
+    {
+      "sequence_id": "le2i-Office-video_20",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 532,
+      "no_person": 29,
+      "good_pose_frames": 448,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.00000000000364,
+      "track_ids": 45,
+      "valid_features": 99,
+      "quality_counts": {
+        "unlabelled_interval": 28,
+        "track_gap": 244,
+        "low_confidence": 7,
+        "valid": 99
+      }
+    },
+    {
+      "sequence_id": "le2i-Office-video_23",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 1146,
+      "no_person": 139,
+      "good_pose_frames": 938,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.000000000007276,
+      "track_ids": 62,
+      "valid_features": 182,
+      "quality_counts": {
+        "unlabelled_interval": 115,
+        "track_gap": 332,
+        "valid": 182,
+        "low_confidence": 13
+      }
+    },
+    {
+      "sequence_id": "le2i-Office-video_24",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 829,
+      "no_person": 17,
+      "good_pose_frames": 800,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.000000000007276,
+      "track_ids": 24,
+      "valid_features": 171,
+      "quality_counts": {
+        "valid": 171,
+        "unlabelled_interval": 50,
+        "track_gap": 96,
+        "low_confidence": 1
+      }
+    },
+    {
+      "sequence_id": "le2i-Office-video_26",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 499,
+      "no_person": 47,
+      "good_pose_frames": 442,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.00000000000364,
+      "track_ids": 42,
+      "valid_features": 96,
+      "quality_counts": {
+        "unlabelled_interval": 46,
+        "track_gap": 212,
+        "valid": 96
+      }
+    },
+    {
+      "sequence_id": "le2i-Office-video_27",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 811,
+      "no_person": 60,
+      "good_pose_frames": 678,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.000000000007276,
+      "track_ids": 43,
+      "valid_features": 120,
+      "quality_counts": {
+        "unlabelled_interval": 115,
+        "track_gap": 179,
+        "valid": 120,
+        "low_confidence": 29
+      }
+    },
+    {
+      "sequence_id": "le2i-Office-video_28",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 505,
+      "no_person": 40,
+      "good_pose_frames": 439,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.00000000000364,
+      "track_ids": 24,
+      "valid_features": 83,
+      "quality_counts": {
+        "unlabelled_interval": 70,
+        "track_gap": 92,
+        "low_confidence": 5,
+        "valid": 83
+      }
+    },
+    {
+      "sequence_id": "le2i-Office-video_29",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 1221,
+      "no_person": 73,
+      "good_pose_frames": 1133,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.000000000007276,
+      "track_ids": 49,
+      "valid_features": 247,
+      "quality_counts": {
+        "valid": 247,
+        "unlabelled_interval": 60,
+        "track_gap": 273,
+        "low_confidence": 1
+      }
+    },
+    {
+      "sequence_id": "le2i-Office-video_30",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 1247,
+      "no_person": 239,
+      "good_pose_frames": 916,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.000000000007276,
+      "track_ids": 121,
+      "valid_features": 190,
+      "quality_counts": {
+        "unlabelled_interval": 215,
+        "track_gap": 612,
+        "low_confidence": 11,
+        "valid": 190
+      }
+    },
+    {
+      "sequence_id": "le2i-Office-video_32",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 544,
+      "no_person": 112,
+      "good_pose_frames": 337,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.00000000000364,
+      "track_ids": 41,
+      "valid_features": 47,
+      "quality_counts": {
+        "unlabelled_interval": 161,
+        "track_gap": 133,
+        "valid": 47,
+        "low_confidence": 21
+      }
+    },
+    {
+      "sequence_id": "le2i-Office-video_33",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "frames": 639,
+      "no_person": 92,
+      "good_pose_frames": 463,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 40.00000000000364,
+      "track_ids": 63,
+      "valid_features": 52,
+      "quality_counts": {
+        "unlabelled_interval": 209,
+        "track_gap": 247,
+        "valid": 52,
+        "low_confidence": 20
+      }
+    },
+    {
+      "sequence_id": "caucafall-S01-Hop",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 182,
+      "no_person": 0,
+      "good_pose_frames": 180,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 2,
+      "valid_features": 49,
+      "quality_counts": {
+        "valid": 49,
+        "track_gap": 7
+      }
+    },
+    {
+      "sequence_id": "caucafall-S01-Kneel",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 219,
+      "no_person": 37,
+      "good_pose_frames": 73,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 58,
+      "valid_features": 11,
+      "quality_counts": {
+        "valid": 11,
+        "track_gap": 352,
+        "low_confidence": 13
+      }
+    },
+    {
+      "sequence_id": "caucafall-S01-Pickupobject",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 117,
+      "no_person": 0,
+      "good_pose_frames": 111,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000091,
+      "track_ids": 5,
+      "valid_features": 24,
+      "quality_counts": {
+        "valid": 24,
+        "track_gap": 32
+      }
+    },
+    {
+      "sequence_id": "caucafall-S01-SitDown",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 187,
+      "no_person": 17,
+      "good_pose_frames": 129,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 20,
+      "valid_features": 26,
+      "quality_counts": {
+        "track_gap": 122,
+        "low_confidence": 3,
+        "valid": 26
+      }
+    },
+    {
+      "sequence_id": "caucafall-S01-Walk",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 242,
+      "no_person": 0,
+      "good_pose_frames": 238,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 12,
+      "valid_features": 67,
+      "quality_counts": {
+        "valid": 67,
+        "track_gap": 51
+      }
+    },
+    {
+      "sequence_id": "caucafall-S03-Hop",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 162,
+      "no_person": 0,
+      "good_pose_frames": 153,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000091,
+      "track_ids": 8,
+      "valid_features": 43,
+      "quality_counts": {
+        "valid": 43,
+        "track_gap": 42
+      }
+    },
+    {
+      "sequence_id": "caucafall-S03-Kneel",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 213,
+      "no_person": 29,
+      "good_pose_frames": 142,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 17,
+      "valid_features": 23,
+      "quality_counts": {
+        "valid": 23,
+        "track_gap": 111
+      }
+    },
+    {
+      "sequence_id": "caucafall-S03-Pickupobject",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 186,
+      "no_person": 66,
+      "good_pose_frames": 100,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 16,
+      "valid_features": 19,
+      "quality_counts": {
+        "valid": 19,
+        "track_gap": 100,
+        "low_confidence": 1
+      }
+    },
+    {
+      "sequence_id": "caucafall-S03-SitDown",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 261,
+      "no_person": 1,
+      "good_pose_frames": 194,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 41,
+      "valid_features": 38,
+      "quality_counts": {
+        "low_confidence": 31,
+        "track_gap": 245,
+        "valid": 38
+      }
+    },
+    {
+      "sequence_id": "caucafall-S03-Walk",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 176,
+      "no_person": 0,
+      "good_pose_frames": 165,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 10,
+      "valid_features": 42,
+      "quality_counts": {
+        "valid": 42,
+        "track_gap": 50,
+        "low_confidence": 5
+      }
+    },
+    {
+      "sequence_id": "caucafall-S04-Hop",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 144,
+      "no_person": 0,
+      "good_pose_frames": 144,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000091,
+      "track_ids": 2,
+      "valid_features": 38,
+      "quality_counts": {
+        "valid": 38,
+        "track_gap": 2
+      }
+    },
+    {
+      "sequence_id": "caucafall-S04-Kneel",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 222,
+      "no_person": 6,
+      "good_pose_frames": 154,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 13,
+      "valid_features": 27,
+      "quality_counts": {
+        "track_gap": 91,
+        "valid": 27,
+        "low_confidence": 9
+      }
+    },
+    {
+      "sequence_id": "caucafall-S04-Pickupobject",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 179,
+      "no_person": 2,
+      "good_pose_frames": 157,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 17,
+      "valid_features": 35,
+      "quality_counts": {
+        "track_gap": 108,
+        "valid": 35,
+        "low_confidence": 6
+      }
+    },
+    {
+      "sequence_id": "caucafall-S04-SitDown",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 199,
+      "no_person": 0,
+      "good_pose_frames": 197,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 23,
+      "valid_features": 49,
+      "quality_counts": {
+        "valid": 49,
+        "track_gap": 132
+      }
+    },
+    {
+      "sequence_id": "caucafall-S04-Walk",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 240,
+      "no_person": 0,
+      "good_pose_frames": 237,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 13,
+      "valid_features": 63,
+      "quality_counts": {
+        "track_gap": 69,
+        "valid": 63
+      }
+    },
+    {
+      "sequence_id": "caucafall-S05-FallBackwards",
+      "split": "validation",
+      "label": 1,
+      "dataset": "caucafall",
+      "frames": 214,
+      "no_person": 0,
+      "good_pose_frames": 202,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 68,
+      "valid_features": 53,
+      "quality_counts": {
+        "valid": 53,
+        "track_gap": 417
+      }
+    },
+    {
+      "sequence_id": "caucafall-S05-FallForward",
+      "split": "validation",
+      "label": 1,
+      "dataset": "caucafall",
+      "frames": 200,
+      "no_person": 27,
+      "good_pose_frames": 113,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 31,
+      "valid_features": 19,
+      "quality_counts": {
+        "valid": 19,
+        "track_gap": 149,
+        "low_confidence": 14
+      }
+    },
+    {
+      "sequence_id": "caucafall-S05-FallLeft",
+      "split": "validation",
+      "label": 1,
+      "dataset": "caucafall",
+      "frames": 247,
+      "no_person": 22,
+      "good_pose_frames": 178,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 104,
+      "valid_features": 31,
+      "quality_counts": {
+        "valid": 31,
+        "track_gap": 660,
+        "low_confidence": 8
+      }
+    },
+    {
+      "sequence_id": "caucafall-S05-FallRight",
+      "split": "validation",
+      "label": 1,
+      "dataset": "caucafall",
+      "frames": 219,
+      "no_person": 3,
+      "good_pose_frames": 208,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 87,
+      "valid_features": 47,
+      "quality_counts": {
+        "valid": 47,
+        "track_gap": 547
+      }
+    },
+    {
+      "sequence_id": "caucafall-S05-FallSitting",
+      "split": "validation",
+      "label": 1,
+      "dataset": "caucafall",
+      "frames": 229,
+      "no_person": 2,
+      "good_pose_frames": 224,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 80,
+      "valid_features": 54,
+      "quality_counts": {
+        "track_gap": 437,
+        "valid": 54,
+        "low_confidence": 5
+      }
+    },
+    {
+      "sequence_id": "caucafall-S05-Hop",
+      "split": "validation",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 122,
+      "no_person": 3,
+      "good_pose_frames": 115,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000091,
+      "track_ids": 6,
+      "valid_features": 22,
+      "quality_counts": {
+        "track_gap": 37,
+        "valid": 22
+      }
+    },
+    {
+      "sequence_id": "caucafall-S05-Kneel",
+      "split": "validation",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 208,
+      "no_person": 1,
+      "good_pose_frames": 174,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 21,
+      "valid_features": 39,
+      "quality_counts": {
+        "valid": 39,
+        "track_gap": 124,
+        "low_confidence": 6
+      }
+    },
+    {
+      "sequence_id": "caucafall-S05-Pickupobject",
+      "split": "validation",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 271,
+      "no_person": 27,
+      "good_pose_frames": 187,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 35,
+      "valid_features": 43,
+      "quality_counts": {
+        "valid": 43,
+        "track_gap": 230,
+        "low_confidence": 2
+      }
+    },
+    {
+      "sequence_id": "caucafall-S05-SitDown",
+      "split": "validation",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 260,
+      "no_person": 0,
+      "good_pose_frames": 212,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 13,
+      "valid_features": 48,
+      "quality_counts": {
+        "track_gap": 72,
+        "valid": 48,
+        "low_confidence": 15
+      }
+    },
+    {
+      "sequence_id": "caucafall-S05-Walk",
+      "split": "validation",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 226,
+      "no_person": 0,
+      "good_pose_frames": 225,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 6,
+      "valid_features": 62,
+      "quality_counts": {
+        "valid": 62,
+        "track_gap": 20
+      }
+    },
+    {
+      "sequence_id": "caucafall-S06-Hop",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 162,
+      "no_person": 2,
+      "good_pose_frames": 143,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000091,
+      "track_ids": 7,
+      "valid_features": 30,
+      "quality_counts": {
+        "valid": 30,
+        "track_gap": 47,
+        "low_confidence": 3
+      }
+    },
+    {
+      "sequence_id": "caucafall-S06-Kneel",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 189,
+      "no_person": 2,
+      "good_pose_frames": 166,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 8,
+      "valid_features": 33,
+      "quality_counts": {
+        "valid": 33,
+        "low_confidence": 8,
+        "track_gap": 40
+      }
+    },
+    {
+      "sequence_id": "caucafall-S06-Pickupobject",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 202,
+      "no_person": 4,
+      "good_pose_frames": 137,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 19,
+      "valid_features": 24,
+      "quality_counts": {
+        "valid": 24,
+        "track_gap": 122,
+        "low_confidence": 16
+      }
+    },
+    {
+      "sequence_id": "caucafall-S06-SitDown",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 189,
+      "no_person": 0,
+      "good_pose_frames": 153,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 13,
+      "valid_features": 32,
+      "quality_counts": {
+        "valid": 32,
+        "track_gap": 71,
+        "low_confidence": 13
+      }
+    },
+    {
+      "sequence_id": "caucafall-S06-Walk",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 266,
+      "no_person": 2,
+      "good_pose_frames": 246,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 33,
+      "valid_features": 61,
+      "quality_counts": {
+        "valid": 61,
+        "track_gap": 201,
+        "low_confidence": 4
+      }
+    },
+    {
+      "sequence_id": "caucafall-S07-Hop",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 198,
+      "no_person": 0,
+      "good_pose_frames": 198,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 10,
+      "valid_features": 47,
+      "quality_counts": {
+        "valid": 47,
+        "track_gap": 57
+      }
+    },
+    {
+      "sequence_id": "caucafall-S07-Kneel",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 202,
+      "no_person": 57,
+      "good_pose_frames": 101,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 46,
+      "valid_features": 13,
+      "quality_counts": {
+        "valid": 13,
+        "track_gap": 255,
+        "low_confidence": 3
+      }
+    },
+    {
+      "sequence_id": "caucafall-S07-Pickupobject",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 153,
+      "no_person": 0,
+      "good_pose_frames": 135,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000091,
+      "track_ids": 29,
+      "valid_features": 27,
+      "quality_counts": {
+        "valid": 27,
+        "track_gap": 184,
+        "low_confidence": 4
+      }
+    },
+    {
+      "sequence_id": "caucafall-S07-SitDown",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 193,
+      "no_person": 0,
+      "good_pose_frames": 180,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 7,
+      "valid_features": 45,
+      "quality_counts": {
+        "valid": 45,
+        "track_gap": 35,
+        "low_confidence": 7
+      }
+    },
+    {
+      "sequence_id": "caucafall-S07-Walk",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 193,
+      "no_person": 0,
+      "good_pose_frames": 177,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 21,
+      "valid_features": 45,
+      "quality_counts": {
+        "low_confidence": 7,
+        "valid": 45,
+        "track_gap": 121
+      }
+    },
+    {
+      "sequence_id": "caucafall-S08-Hop",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 166,
+      "no_person": 0,
+      "good_pose_frames": 165,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 7,
+      "valid_features": 39,
+      "quality_counts": {
+        "valid": 39,
+        "track_gap": 30
+      }
+    },
+    {
+      "sequence_id": "caucafall-S08-Kneel",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 256,
+      "no_person": 67,
+      "good_pose_frames": 143,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 28,
+      "valid_features": 17,
+      "quality_counts": {
+        "valid": 17,
+        "track_gap": 170
+      }
+    },
+    {
+      "sequence_id": "caucafall-S08-Pickupobject",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 266,
+      "no_person": 57,
+      "good_pose_frames": 110,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 90,
+      "valid_features": 17,
+      "quality_counts": {
+        "valid": 17,
+        "track_gap": 585,
+        "no_person": 3,
+        "low_confidence": 2
+      }
+    },
+    {
+      "sequence_id": "caucafall-S08-SitDown",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 212,
+      "no_person": 0,
+      "good_pose_frames": 202,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 16,
+      "valid_features": 53,
+      "quality_counts": {
+        "valid": 53,
+        "track_gap": 84,
+        "low_confidence": 1
+      }
+    },
+    {
+      "sequence_id": "caucafall-S08-Walk",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 216,
+      "no_person": 0,
+      "good_pose_frames": 214,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 17,
+      "valid_features": 59,
+      "quality_counts": {
+        "valid": 59,
+        "track_gap": 98
+      }
+    },
+    {
+      "sequence_id": "caucafall-S10-FallBackwards",
+      "split": "validation",
+      "label": 1,
+      "dataset": "caucafall",
+      "frames": 274,
+      "no_person": 14,
+      "good_pose_frames": 215,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 56,
+      "valid_features": 37,
+      "quality_counts": {
+        "valid": 37,
+        "track_gap": 365,
+        "low_confidence": 10
+      }
+    },
+    {
+      "sequence_id": "caucafall-S10-FallForward",
+      "split": "validation",
+      "label": 1,
+      "dataset": "caucafall",
+      "frames": 243,
+      "no_person": 63,
+      "good_pose_frames": 59,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 62,
+      "valid_features": 4,
+      "quality_counts": {
+        "valid": 4,
+        "track_gap": 398,
+        "low_confidence": 9
+      }
+    },
+    {
+      "sequence_id": "caucafall-S10-FallLeft",
+      "split": "validation",
+      "label": 1,
+      "dataset": "caucafall",
+      "frames": 212,
+      "no_person": 4,
+      "good_pose_frames": 128,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 109,
+      "valid_features": 18,
+      "quality_counts": {
+        "valid": 18,
+        "track_gap": 607,
+        "low_confidence": 11
+      }
+    },
+    {
+      "sequence_id": "caucafall-S10-FallRight",
+      "split": "validation",
+      "label": 1,
+      "dataset": "caucafall",
+      "frames": 202,
+      "no_person": 27,
+      "good_pose_frames": 84,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 26,
+      "valid_features": 11,
+      "quality_counts": {
+        "valid": 11,
+        "low_confidence": 19,
+        "track_gap": 174
+      }
+    },
+    {
+      "sequence_id": "caucafall-S10-FallSitting",
+      "split": "validation",
+      "label": 1,
+      "dataset": "caucafall",
+      "frames": 288,
+      "no_person": 79,
+      "good_pose_frames": 80,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 61,
+      "valid_features": 4,
+      "quality_counts": {
+        "low_confidence": 4,
+        "track_gap": 401,
+        "valid": 4
+      }
+    },
+    {
+      "sequence_id": "caucafall-S10-Hop",
+      "split": "validation",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 248,
+      "no_person": 0,
+      "good_pose_frames": 218,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 30,
+      "valid_features": 48,
+      "quality_counts": {
+        "valid": 48,
+        "track_gap": 196,
+        "low_confidence": 2
+      }
+    },
+    {
+      "sequence_id": "caucafall-S10-Kneel",
+      "split": "validation",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 261,
+      "no_person": 52,
+      "good_pose_frames": 107,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 71,
+      "valid_features": 11,
+      "quality_counts": {
+        "valid": 11,
+        "track_gap": 431
+      }
+    },
+    {
+      "sequence_id": "caucafall-S10-Pickupobject",
+      "split": "validation",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 292,
+      "no_person": 82,
+      "good_pose_frames": 123,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 88,
+      "valid_features": 23,
+      "quality_counts": {
+        "valid": 23,
+        "track_gap": 549,
+        "low_confidence": 9,
+        "no_person": 5
+      }
+    },
+    {
+      "sequence_id": "caucafall-S10-SitDown",
+      "split": "validation",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 234,
+      "no_person": 33,
+      "good_pose_frames": 77,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 32,
+      "valid_features": 9,
+      "quality_counts": {
+        "track_gap": 206,
+        "valid": 9,
+        "low_confidence": 17
+      }
+    },
+    {
+      "sequence_id": "caucafall-S10-Walk",
+      "split": "validation",
+      "label": 0,
+      "dataset": "caucafall",
+      "frames": 224,
+      "no_person": 5,
+      "good_pose_frames": 187,
+      "time_gaps_above_50ms": 0,
+      "time_gap_max": 50.00000000000182,
+      "track_ids": 45,
+      "valid_features": 46,
+      "quality_counts": {
+        "valid": 46,
+        "track_gap": 269,
+        "low_confidence": 3
+      }
+    }
+  ]
+}

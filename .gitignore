@@ -1,0 +1,23 @@
+.venv/
+.tools/
+.python/
+third_party/
+data/raw/
+data/cache/
+data/retired/
+weights/pretrained/
+runs/
+outputs/
+*.egg-info/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+.env
+*.part
+# Local review renders and synthetic test artifacts
+.artifacts/
+# Temporary model weights and caches from validation risk tests
+docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/
+# Ultralytics local runtime settings (not experiment configuration)
+Ultralytics/

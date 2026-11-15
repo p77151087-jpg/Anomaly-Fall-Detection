@@ -1,0 +1,20 @@
+{
+  "reason": "Add correct single-byte-range serving for Chromium seeking; no encoding/model/gate changes. Initial source and source manifest preserved.",
+  "file": "scripts/validation_display_replay.py",
+  "initial_sha256": "29159d16b1b43e9c9bb5a085d2c48cfd8dee36a021fda7071203b945e631f4a8",
+  "final_sha256": "aa586c5499c998bdab28b09fac4b6bdc78f3a31edc9c3e16048d41e909ac4142",
+  "render_build_function_AST_unchanged": true,
+  "video_sha256_before_range_server": {
+    "fall-09-compare.mp4": "55a209b896bf17945505c9bf4fe3045412d070cf4af8f84687a787d43ddf3cfb",
+    "fall-09-demo.mp4": "42edf43db1e1002323cf48cffd2669a062cd13f54c01c075f0a6c20469e00afa",
+    "fall-09-wide.mp4": "653ef82f086a7dd955c7cae67c2362d30142279fbeade6c106decd4a3a00df9f",
+    "fall-18-compare.mp4": "90f72ef1b7fe6d769d1c2b97d6cf1a6c3834379ecb8b8f4c71259ac03cb43c18",
+    "fall-18-demo.mp4": "81bb7d7722da151a5e9b951de0a82a23cd44fa17386b3e07acd9538c7c3662aa",
+    "fall-18-wide.mp4": "cece3ebd34a3dd68b7fdc48944ece050c1d2498c903560b4d0323d8d8fceb205",
+    "fall-30-compare.mp4": "897b3313eb13c6f56c1e2533c1ed9c3c8f4b30868eb7fb58b467d53b38ca8586",
+    "fall-30-demo.mp4": "18bada7e2c371e53f81bca2d37ee2c92479262b994276b5636f5ee9aaf611a23",
+    "fall-30-wide.mp4": "783adc670ba614640d050035ef7210214ae136104665c13ebfb0e850eff4d079"
+  },
+  "range_tests_passed": 16,
+  "new_public_uploads": 0
+}

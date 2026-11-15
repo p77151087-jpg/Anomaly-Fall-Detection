@@ -1,0 +1,411 @@
+........................................................................ [ 24%]
+....................................................F.....F....s........ [ 48%]
+........................................................................ [ 72%]
+........................................................................ [ 96%]
+.........                                                                [100%]
+================================== FAILURES ===================================
+_____________ test_saved_history_verification_and_read_only_http ______________
+
+self = <urllib.request.HTTPHandler object at 0x000001B122BB7350>
+http_class = <class 'http.client.HTTPConnection'>
+req = <urllib.request.Request object at 0x000001B122C17690>, http_conn_args = {}
+
+    def do_open(self, http_class, req, **http_conn_args):
+        """Return an HTTPResponse object for the request, using http_class.
+    
+        http_class must implement the HTTPConnection API from http.client.
+        """
+        host = req.host
+        if not host:
+            raise URLError('no host given')
+    
+        # will parse host:port
+        h = http_class(host, timeout=req.timeout, **http_conn_args)
+        h.set_debuglevel(self._debuglevel)
+    
+        headers = dict(req.unredirected_hdrs)
+        headers.update({k: v for k, v in req.headers.items()
+                        if k not in headers})
+    
+        # TODO(jhylton): Should this be redesigned to handle
+        # persistent connections?
+    
+        # We want to make an HTTP/1.1 request, but the addinfourl
+        # class isn't prepared to deal with a persistent connection.
+        # It will try to read all remaining data from the socket,
+        # which will block while the server waits for the next request.
+        # So make sure the connection gets closed after the (only)
+        # request.
+        headers["Connection"] = "close"
+        headers = {name.title(): val for name, val in headers.items()}
+    
+        if req._tunnel_host:
+            tunnel_headers = {}
+            proxy_auth_hdr = "Proxy-Authorization"
+            if proxy_auth_hdr in headers:
+                tunnel_headers[proxy_auth_hdr] = headers[proxy_auth_hdr]
+                # Proxy-Authorization should not be sent to origin
+                # server.
+                del headers[proxy_auth_hdr]
+            h.set_tunnel(req._tunnel_host, headers=tunnel_headers)
+    
+        try:
+            try:
+>               h.request(req.get_method(), req.selector, req.data, headers,
+                          encode_chunked=req.has_header('Transfer-encoding'))
+
+.python\cpython-3.11-windows-x86_64-none\Lib\urllib\request.py:1348: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.python\cpython-3.11-windows-x86_64-none\Lib\http\client.py:1351: in request
+    self._send_request(method, url, body, headers, encode_chunked)
+.python\cpython-3.11-windows-x86_64-none\Lib\http\client.py:1397: in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+.python\cpython-3.11-windows-x86_64-none\Lib\http\client.py:1346: in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+.python\cpython-3.11-windows-x86_64-none\Lib\http\client.py:1106: in _send_output
+    self.send(msg)
+.python\cpython-3.11-windows-x86_64-none\Lib\http\client.py:1044: in send
+    self.connect()
+.python\cpython-3.11-windows-x86_64-none\Lib\http\client.py:1010: in connect
+    self.sock = self._create_connection(
+.python\cpython-3.11-windows-x86_64-none\Lib\socket.py:863: in create_connection
+    raise exceptions[0]
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+address = ('127.0.0.1', 54851), timeout = <object object at 0x000001B1464A50C0>
+source_address = None, all_errors = False
+
+    def create_connection(address, timeout=_GLOBAL_DEFAULT_TIMEOUT,
+                          source_address=None, *, all_errors=False):
+        """Connect to *address* and return the socket object.
+    
+        Convenience function.  Connect to *address* (a 2-tuple ``(host,
+        port)``) and return the socket object.  Passing the optional
+        *timeout* parameter will set the timeout on the socket instance
+        before attempting to connect.  If no *timeout* is supplied, the
+        global default timeout setting returned by :func:`getdefaulttimeout`
+        is used.  If *source_address* is set it must be a tuple of (host, port)
+        for the socket to bind as a source address before making the connection.
+        A host of '' or port 0 tells the OS to use the default. When a connection
+        cannot be created, raises the last error if *all_errors* is False,
+        and an ExceptionGroup of all errors if *all_errors* is True.
+        """
+    
+        host, port = address
+        exceptions = []
+        for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+            af, socktype, proto, canonname, sa = res
+            sock = None
+            try:
+                sock = socket(af, socktype, proto)
+                if timeout is not _GLOBAL_DEFAULT_TIMEOUT:
+                    sock.settimeout(timeout)
+                if source_address:
+                    sock.bind(source_address)
+>               sock.connect(sa)
+E               PermissionError: [WinError 10013] 嘗試存取通訊端被拒絕，因為存取權限不足。
+
+.python\cpython-3.11-windows-x86_64-none\Lib\socket.py:848: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+tmp_path = WindowsPath('C:/成大專案/fall-detection-anomaly/.pytest_cache/normal-methods-full/test_saved_history_verificatio0')
+
+    def test_saved_history_verification_and_read_only_http(tmp_path):
+        run, rows = completed_run(tmp_path)
+        before = {p.name: sha256(p) for p in run.iterdir()}
+        viewer = LossViewer(tmp_path, port=0, selected=run.name).start(open_browser=False)
+        try:
+>           with urlopen(viewer.url) as response:
+                 ^^^^^^^^^^^^^^^^^^^
+
+tests\test_loss_viewer.py:41: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.python\cpython-3.11-windows-x86_64-none\Lib\urllib\request.py:216: in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.python\cpython-3.11-windows-x86_64-none\Lib\urllib\request.py:519: in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+.python\cpython-3.11-windows-x86_64-none\Lib\urllib\request.py:536: in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+.python\cpython-3.11-windows-x86_64-none\Lib\urllib\request.py:496: in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+.python\cpython-3.11-windows-x86_64-none\Lib\urllib\request.py:1377: in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <urllib.request.HTTPHandler object at 0x000001B122BB7350>
+http_class = <class 'http.client.HTTPConnection'>
+req = <urllib.request.Request object at 0x000001B122C17690>, http_conn_args = {}
+
+    def do_open(self, http_class, req, **http_conn_args):
+        """Return an HTTPResponse object for the request, using http_class.
+    
+        http_class must implement the HTTPConnection API from http.client.
+        """
+        host = req.host
+        if not host:
+            raise URLError('no host given')
+    
+        # will parse host:port
+        h = http_class(host, timeout=req.timeout, **http_conn_args)
+        h.set_debuglevel(self._debuglevel)
+    
+        headers = dict(req.unredirected_hdrs)
+        headers.update({k: v for k, v in req.headers.items()
+                        if k not in headers})
+    
+        # TODO(jhylton): Should this be redesigned to handle
+        # persistent connections?
+    
+        # We want to make an HTTP/1.1 request, but the addinfourl
+        # class isn't prepared to deal with a persistent connection.
+        # It will try to read all remaining data from the socket,
+        # which will block while the server waits for the next request.
+        # So make sure the connection gets closed after the (only)
+        # request.
+        headers["Connection"] = "close"
+        headers = {name.title(): val for name, val in headers.items()}
+    
+        if req._tunnel_host:
+            tunnel_headers = {}
+            proxy_auth_hdr = "Proxy-Authorization"
+            if proxy_auth_hdr in headers:
+                tunnel_headers[proxy_auth_hdr] = headers[proxy_auth_hdr]
+                # Proxy-Authorization should not be sent to origin
+                # server.
+                del headers[proxy_auth_hdr]
+            h.set_tunnel(req._tunnel_host, headers=tunnel_headers)
+    
+        try:
+            try:
+                h.request(req.get_method(), req.selector, req.data, headers,
+                          encode_chunked=req.has_header('Transfer-encoding'))
+            except OSError as err: # timeout error
+>               raise URLError(err)
+E               urllib.error.URLError: <urlopen error [WinError 10013] 嘗試存取通訊端被拒絕，因為存取權限不足。>
+
+.python\cpython-3.11-windows-x86_64-none\Lib\urllib\request.py:1351: URLError
+---------------------------- Captured stdout call -----------------------------
+Loss 檢視畫面：http://127.0.0.1:54851/?run=synthetic-loss
+按 Ctrl+C 關閉檢視服務。
+_______ test_empty_directory_and_new_run_visible_without_server_restart _______
+
+self = <urllib.request.HTTPHandler object at 0x000001B122BB7350>
+http_class = <class 'http.client.HTTPConnection'>
+req = <urllib.request.Request object at 0x000001B12293E910>, http_conn_args = {}
+
+    def do_open(self, http_class, req, **http_conn_args):
+        """Return an HTTPResponse object for the request, using http_class.
+    
+        http_class must implement the HTTPConnection API from http.client.
+        """
+        host = req.host
+        if not host:
+            raise URLError('no host given')
+    
+        # will parse host:port
+        h = http_class(host, timeout=req.timeout, **http_conn_args)
+        h.set_debuglevel(self._debuglevel)
+    
+        headers = dict(req.unredirected_hdrs)
+        headers.update({k: v for k, v in req.headers.items()
+                        if k not in headers})
+    
+        # TODO(jhylton): Should this be redesigned to handle
+        # persistent connections?
+    
+        # We want to make an HTTP/1.1 request, but the addinfourl
+        # class isn't prepared to deal with a persistent connection.
+        # It will try to read all remaining data from the socket,
+        # which will block while the server waits for the next request.
+        # So make sure the connection gets closed after the (only)
+        # request.
+        headers["Connection"] = "close"
+        headers = {name.title(): val for name, val in headers.items()}
+    
+        if req._tunnel_host:
+            tunnel_headers = {}
+            proxy_auth_hdr = "Proxy-Authorization"
+            if proxy_auth_hdr in headers:
+                tunnel_headers[proxy_auth_hdr] = headers[proxy_auth_hdr]
+                # Proxy-Authorization should not be sent to origin
+                # server.
+                del headers[proxy_auth_hdr]
+            h.set_tunnel(req._tunnel_host, headers=tunnel_headers)
+    
+        try:
+            try:
+>               h.request(req.get_method(), req.selector, req.data, headers,
+                          encode_chunked=req.has_header('Transfer-encoding'))
+
+.python\cpython-3.11-windows-x86_64-none\Lib\urllib\request.py:1348: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.python\cpython-3.11-windows-x86_64-none\Lib\http\client.py:1351: in request
+    self._send_request(method, url, body, headers, encode_chunked)
+.python\cpython-3.11-windows-x86_64-none\Lib\http\client.py:1397: in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+.python\cpython-3.11-windows-x86_64-none\Lib\http\client.py:1346: in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+.python\cpython-3.11-windows-x86_64-none\Lib\http\client.py:1106: in _send_output
+    self.send(msg)
+.python\cpython-3.11-windows-x86_64-none\Lib\http\client.py:1044: in send
+    self.connect()
+.python\cpython-3.11-windows-x86_64-none\Lib\http\client.py:1010: in connect
+    self.sock = self._create_connection(
+.python\cpython-3.11-windows-x86_64-none\Lib\socket.py:863: in create_connection
+    raise exceptions[0]
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+address = ('127.0.0.1', 54853), timeout = <object object at 0x000001B1464A50C0>
+source_address = None, all_errors = False
+
+    def create_connection(address, timeout=_GLOBAL_DEFAULT_TIMEOUT,
+                          source_address=None, *, all_errors=False):
+        """Connect to *address* and return the socket object.
+    
+        Convenience function.  Connect to *address* (a 2-tuple ``(host,
+        port)``) and return the socket object.  Passing the optional
+        *timeout* parameter will set the timeout on the socket instance
+        before attempting to connect.  If no *timeout* is supplied, the
+        global default timeout setting returned by :func:`getdefaulttimeout`
+        is used.  If *source_address* is set it must be a tuple of (host, port)
+        for the socket to bind as a source address before making the connection.
+        A host of '' or port 0 tells the OS to use the default. When a connection
+        cannot be created, raises the last error if *all_errors* is False,
+        and an ExceptionGroup of all errors if *all_errors* is True.
+        """
+    
+        host, port = address
+        exceptions = []
+        for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+            af, socktype, proto, canonname, sa = res
+            sock = None
+            try:
+                sock = socket(af, socktype, proto)
+                if timeout is not _GLOBAL_DEFAULT_TIMEOUT:
+                    sock.settimeout(timeout)
+                if source_address:
+                    sock.bind(source_address)
+>               sock.connect(sa)
+E               PermissionError: [WinError 10013] 嘗試存取通訊端被拒絕，因為存取權限不足。
+
+.python\cpython-3.11-windows-x86_64-none\Lib\socket.py:848: PermissionError
+
+During handling of the above exception, another exception occurred:
+
+tmp_path = WindowsPath('C:/成大專案/fall-detection-anomaly/.pytest_cache/normal-methods-full/test_empty_directory_and_new_r0')
+
+    def test_empty_directory_and_new_run_visible_without_server_restart(tmp_path):
+        viewer = LossViewer(tmp_path, port=0).start(open_browser=False)
+        try:
+>           with urlopen(viewer.url + "api/runs") as response:
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_loss_viewer.py:116: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+.python\cpython-3.11-windows-x86_64-none\Lib\urllib\request.py:216: in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.python\cpython-3.11-windows-x86_64-none\Lib\urllib\request.py:519: in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+.python\cpython-3.11-windows-x86_64-none\Lib\urllib\request.py:536: in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+.python\cpython-3.11-windows-x86_64-none\Lib\urllib\request.py:496: in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+.python\cpython-3.11-windows-x86_64-none\Lib\urllib\request.py:1377: in http_open
+    return self.do_open(http.client.HTTPConnection, req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <urllib.request.HTTPHandler object at 0x000001B122BB7350>
+http_class = <class 'http.client.HTTPConnection'>
+req = <urllib.request.Request object at 0x000001B12293E910>, http_conn_args = {}
+
+    def do_open(self, http_class, req, **http_conn_args):
+        """Return an HTTPResponse object for the request, using http_class.
+    
+        http_class must implement the HTTPConnection API from http.client.
+        """
+        host = req.host
+        if not host:
+            raise URLError('no host given')
+    
+        # will parse host:port
+        h = http_class(host, timeout=req.timeout, **http_conn_args)
+        h.set_debuglevel(self._debuglevel)
+    
+        headers = dict(req.unredirected_hdrs)
+        headers.update({k: v for k, v in req.headers.items()
+                        if k not in headers})
+    
+        # TODO(jhylton): Should this be redesigned to handle
+        # persistent connections?
+    
+        # We want to make an HTTP/1.1 request, but the addinfourl
+        # class isn't prepared to deal with a persistent connection.
+        # It will try to read all remaining data from the socket,
+        # which will block while the server waits for the next request.
+        # So make sure the connection gets closed after the (only)
+        # request.
+        headers["Connection"] = "close"
+        headers = {name.title(): val for name, val in headers.items()}
+    
+        if req._tunnel_host:
+            tunnel_headers = {}
+            proxy_auth_hdr = "Proxy-Authorization"
+            if proxy_auth_hdr in headers:
+                tunnel_headers[proxy_auth_hdr] = headers[proxy_auth_hdr]
+                # Proxy-Authorization should not be sent to origin
+                # server.
+                del headers[proxy_auth_hdr]
+            h.set_tunnel(req._tunnel_host, headers=tunnel_headers)
+    
+        try:
+            try:
+                h.request(req.get_method(), req.selector, req.data, headers,
+                          encode_chunked=req.has_header('Transfer-encoding'))
+            except OSError as err: # timeout error
+>               raise URLError(err)
+E               urllib.error.URLError: <urlopen error [WinError 10013] 嘗試存取通訊端被拒絕，因為存取權限不足。>
+
+.python\cpython-3.11-windows-x86_64-none\Lib\urllib\request.py:1351: URLError
+---------------------------- Captured stdout call -----------------------------
+Loss 檢視畫面：http://127.0.0.1:54853/
+按 Ctrl+C 關閉檢視服務。
+============================== warnings summary ===============================
+tests/test_human_quality.py::test_flip_matches_pinned_upstream_and_default_recipe
+  C:\成大專案\fall-detection-anomaly\third_party\human\SPPE\src\utils\img.py:4: DeprecationWarning: scipy.misc is deprecated and will be removed in 2.0.0
+    import scipy.misc
+
+tests/test_models.py::test_pose_crop_decoder_and_nms_against_upstream
+  C:\成大專案\fall-detection-anomaly\third_party\human\SPPE\src\utils\img.py:17: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+    img = np.array(img)
+
+tests/test_models.py::test_pose_crop_decoder_and_nms_against_upstream
+  C:\成大專案\fall-detection-anomaly\third_party\human\pPose_nms.py:48: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    ref_dists = alpha * np.maximum(widths, heights)
+
+tests/test_models.py::test_pose_crop_decoder_and_nms_against_upstream
+tests/test_models.py::test_pose_crop_decoder_and_nms_against_upstream
+tests/test_models.py::test_pose_crop_decoder_and_nms_against_upstream
+tests/test_models.py::test_pose_crop_decoder_and_nms_against_upstream
+  C:\成大專案\fall-detection-anomaly\.venv\Lib\site-packages\numpy\lib\_function_base_impl.py:5382: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+    return conv.wrap(new, to_scalar=False)
+
+tests/test_openpose18.py::test_real_checkpoints_frozen_heads_and_pose_tracking[cpu]
+tests/test_yolo_recipe.py::test_real_yolo_strict_cpu_forward_and_missing_reset
+  C:\成大專案\fall-detection-anomaly\.venv\Lib\site-packages\torch\backends\mkldnn\__init__.py:78: UserWarning: TF32 acceleration on top of oneDNN is available for Intel GPUs. The current Torch version does not have Intel GPU Support. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\Context.cpp:148.)
+    torch._C._set_onednn_allow_tf32(_allow_tf32)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+SKIPPED [1] tests\test_models.py:96: blocked_external_asset: four real pretrained resources are missing
+FAILED tests/test_loss_viewer.py::test_saved_history_verification_and_read_only_http
+FAILED tests/test_loss_viewer.py::test_empty_directory_and_new_run_visible_without_server_restart
+2 failed, 294 passed, 1 skipped, 9 warnings in 54.37s

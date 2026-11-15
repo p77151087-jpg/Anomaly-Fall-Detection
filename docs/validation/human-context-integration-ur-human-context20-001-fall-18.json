@@ -1,0 +1,47 @@
+{
+  "source_kind": "real_end_to_end",
+  "run": "ur-human-context20-001",
+  "adopted": false,
+  "cases": [
+    {
+      "sequence_id": "fall-18",
+      "split": "validation",
+      "outcome": {
+        "sequence_id": "fall-18",
+        "sequence_score": 0.2941383719444275,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 46,
+        "n_valid_endpoints": 26,
+        "window_coverage": 0.5652173913043478,
+        "first_alarm_ms": null
+      },
+      "frames": 65,
+      "compared_windows": 22,
+      "masked_windows": 4,
+      "max_score_difference": 0.0,
+      "legacy_csv_byte_identical": null,
+      "visible_alert_rows": 0,
+      "visible_alert_timestamps_ms": [],
+      "events_match": true,
+      "states_match_where_visible": true,
+      "preview": "C:\\成大專案\\fall-detection-anomaly\\outputs\\human-context-validation\\ur-human-context20-001\\fall-18-preview.mp4",
+      "preview_sha256": "29b6a7310ac84dc09e4ce101754734cebc16bfd346957ad662b68a8bc05d63f1",
+      "events": []
+    }
+  ],
+  "hashes": {
+    "autoencoder.pt": "2d2be7983a4fcf6a78e630e0da946c732f486c8de870d3ec1db3d67db620e9d8",
+    "scaler.npz": "7052598bb5f04cf69a512edcca7e3b70eb515fb8c42b37a8cd07b827932d7302",
+    "resolved-config.yaml": "f3722e097fbbc0b42c7794535b92312c8138b868dd357b15c456a44168ab3d3a",
+    "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+    "sources.json": "aa13f1a2c573b508d5dfb2bdf05bc27f453d03ef6e3efef1445e9a3a516e3df8",
+    "dataset-index.json": "8ec53f8df9aec94ec7f1ebc808aeab51197cefd46c2755ff857c9a04a8d2d9c5",
+    "environment.json": "23d6f9777f255bc537b66c139995feb73eff275bbe90f0a00ee832236f304ab3",
+    "training-history.csv": "aa98260ad37b02d6a5db30fb645e4cd9c8f261df90f20487c4624747cd0ce039",
+    "threshold.json": "8645054cae05a1203f4cd942f4b3ed6769fe9fb07b76db7cf2f536ee3138e875",
+    "calibration.json": "f1201d65fffd56d3368c74404b6527487c5895c5bee89cc4c9de207b579436a7"
+  },
+  "visual_review": "pending",
+  "not_formal_course_film": true
+}

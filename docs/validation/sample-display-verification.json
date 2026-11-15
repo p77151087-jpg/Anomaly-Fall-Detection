@@ -1,0 +1,73 @@
+{
+  "source_kind": "verification_not_accuracy",
+  "integration_sha256": "aed0d5996dd79e95b1886ac1752a53911071b68a1653025d5988c732657cb46e",
+  "tests": {
+    "focused": {
+      "tests": 39,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 39,
+      "sha256": "a767393c0de461fb07f021a0b4e5e96b0c2c3be5592cd0207eabdf02af079586"
+    },
+    "full": {
+      "tests": 233,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 1,
+      "passed": 232,
+      "sha256": "62bf2f70f0e67de018a34f82930df6fb3736859cc69f4fa1d0cc5423e4f166aa"
+    }
+  },
+  "lint_passed": true,
+  "changed_python_format_passed": true,
+  "frames": 888,
+  "ae_scored_frames": 559,
+  "independent_action_frames": 674,
+  "low_quality_classified_frames": 81,
+  "preserved": {
+    "old_runs": 41,
+    "cache_files": 8764,
+    "configs": 44,
+    "manifests": 5,
+    "old_media": 37
+  },
+  "visual_review": {
+    "contacts": [
+      "outputs\\sample-display\\ur-sample-human-s1-001\\fall-09-check.jpg",
+      "outputs\\sample-display\\ur-human-isotropic-001\\adl-35-check.jpg",
+      "outputs\\sample-display\\ur-human-isotropic-001\\fall-09-check.jpg",
+      "outputs\\sample-display\\ur-human-isotropic-001\\fall-19-check.jpg",
+      "outputs\\sample-display\\ur-human-isotropic-001\\fall-18-check.jpg",
+      "outputs\\sample-display\\ur-human-isotropic-001\\fall-30-check.jpg"
+    ],
+    "reviewed": true,
+    "all_videos_fully_decoded": true,
+    "observed_limitations": [
+      "fall-30 still shows STANDING UP during descent",
+      "adl-35 has one FALLING frame at 3.30s without AE event",
+      "fall-18 tracking loss leaves action blank with small hint",
+      "event history is distinct from current AE unknown"
+    ]
+  },
+  "overwrite_refusal": {
+    "existing_demo_exit_code": 1,
+    "completed_integration_exit_code": 1
+  },
+  "new_training_epochs": 0,
+  "new_test_evaluation": false,
+  "ae_metrics_changed": false,
+  "graph": {
+    "tier": "Verify",
+    "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+    "generation": "2026-09-18T10:41:52Z",
+    "changed_paths_coverage": "no_recorded_issue; metadata_match; best effort"
+  },
+  "document_hashes": {
+    "README.md": "9f02abc16ab2e4cd3d6d9ce320aa1eb5b06fb1cb3f4a437628c41bf0892923b3",
+    "Fall_Detection_Codex_Implementation_Spec.md": "4469cb6ac336fff2930c9e9c8c5d9f63d2b25b09e4179164b669b32f01cc1080",
+    "docs/current-progress.md": "213f5dbfb6d8c6cf71631903c397ab84a85236d57322e3d6d2a781b7cc0cf88a",
+    "docs/acceptance-results.md": "713915720df0e7c4a656f9f8dcc886dbdfea2169b780db35c5004f9aacc76b9f",
+    "docs/sample-display.md": "a456db41e4122c37bc1e6fcd92b49a681be07355256d27464113071038d04418"
+  }
+}

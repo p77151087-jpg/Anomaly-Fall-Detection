@@ -1,0 +1,24 @@
+Overriding model.yaml nc=80 with nc=1
+Rebuilding features from verified observed poses: adl-05
+Rebuilding features from verified observed poses: adl-38
+Rebuilding features from verified observed poses: adl-24
+Rebuilding features from verified observed poses: adl-20
+Rebuilding features from verified observed poses: adl-04
+Rebuilding features from verified observed poses: fall-19
+Rebuilding features from verified observed poses: fall-29
+Rebuilding features from verified observed poses: fall-09
+Rebuilding features from verified observed poses: fall-25
+Rebuilding features from verified observed poses: fall-02
+{'pilot': 'ur-stride2-decay-001', 'passed': True}
+Overriding model.yaml nc=80 with nc=1
+Rebuilding features from verified observed poses: adl-05
+Rebuilding features from verified observed poses: adl-38
+Rebuilding features from verified observed poses: adl-24
+Rebuilding features from verified observed poses: adl-20
+Rebuilding features from verified observed poses: adl-04
+Rebuilding features from verified observed poses: fall-19
+Rebuilding features from verified observed poses: fall-29
+Rebuilding features from verified observed poses: fall-09
+Rebuilding features from verified observed poses: fall-25
+Rebuilding features from verified observed poses: fall-02
+{'pilot': 'ur-stride1-decay-001', 'passed': True}

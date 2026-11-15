@@ -1,0 +1,30 @@
+{
+  "preservation_and_inputs": {
+    "chunk_id": "9e7b3f",
+    "wall_time_seconds": 2.3234577,
+    "exit_code": 0,
+    "original_token_count": 797,
+    "output": "{\"verified\": true, \"summary\": [{\"sequence_id\": \"fall-18\", \"model\": \"demo\", \"run\": \"ur-sample-human-s1-001\", \"video_outcome\": \"FN\", \"events\": 0, \"first_event_ms\": null, \"rendered_frames\": 65, \"current_ae_alert_frames\": 0, \"history_recorded_frames\": 0, \"first_history_render_ms\": null, \"first_current_ae_alert_ms\": null, \"action_FALLING_frames\": 6, \"current_ae_states\": {\"unknown\": 26, \"warming_up\": 29, \"normal\": 10}, \"csv_active_frames\": 0, \"masked_csv_active_frames\": 0, \"onset_ms\": [700.0, 1101.0], \"impact_ms\": [1301.0, 1534.0]}, {\"sequence_id\": \"fall-18\", \"model\": \"wide\", \"run\": \"ur-isotropic-wide-20261012-001\", \"video_outcome\": \"TP\", \"events\": 1, \"first_event_ms\": 1433.3333333333335, \"rendered_frames\": 65, \"current_ae_alert_frames\": 0, \"history_recorded_frames\": 22, \"first_history_render_ms\": 1433.3333333333335, \"first_current_ae_alert_ms\": null, \"action_FALLING_frames\": 6, \"current_ae_states\": {\"unknown\": 26, \"warming_up\": 29, \"normal\": 10}, \"csv_active_frames\": 1, \"masked_csv_active_frames\": 1, \"onset_ms\": [700.0, 1101.0], \"impact_ms\": [1301.0, 1534.0]}, {\"sequence_id\": \"fall-09\", \"model\": \"demo\", \"run\": \"ur-sample-human-s1-001\", \"video_outcome\": \"TP\", \"events\": 1, \"first_event_ms\": 5900.0, \"rendered_frames\": 82, \"current_ae_alert_frames\": 8, \"history_recorded_frames\": 8, \"first_history_render_ms\": 5900.0, \"first_current_ae_alert_ms\": 5900.0, \"action_FALLING_frames\": 44, \"current_ae_states\": {\"normal\": 45, \"unknown\": 27, \"warming_up\": 2, \"suspected_fall\": 8}, \"csv_active_frames\": 8, \"masked_csv_active_frames\": 0, \"onset_ms\": [4304.0, 4571.0], \"impact_ms\": [4705.0, 5973.0]}, {\"sequence_id\": \"fall-09\", \"model\": \"wide\", \"run\": \"ur-isotropic-wide-20261012-001\", \"video_outcome\": \"TP\", \"events\": 1, \"first_event_ms\": 5900.0, \"rendered_frames\": 82, \"current_ae_alert_frames\": 8, \"history_recorded_frames\": 8, \"first_history_render_ms\": 5900.0, \"first_current_ae_alert_ms\": 5900.0, \"action_FALLING_frames\": 44, \"current_ae_states\": {\"normal\": 45, \"unknown\": 27, \"warming_up\": 2, \"suspected_fall\": 8}, \"csv_active_frames\": 8, \"masked_csv_active_frames\": 0, \"onset_ms\": [4304.0, 4571.0], \"impact_ms\": [4705.0, 5973.0]}, {\"sequence_id\": \"fall-30\", \"model\": \"demo\", \"run\": \"ur-sample-human-s1-001\", \"video_outcome\": \"FN\", \"events\": 0, \"first_event_ms\": null, \"rendered_frames\": 70, \"current_ae_alert_frames\": 0, \"history_recorded_frames\": 0, \"first_history_render_ms\": null, \"first_current_ae_alert_ms\": null, \"action_FALLING_frames\": 13, \"current_ae_states\": {\"unknown\": 23, \"warming_up\": 29, \"normal\": 18}, \"csv_active_frames\": 0, \"masked_csv_active_frames\": 0, \"onset_ms\": [1167.0, 1534.0], \"impact_ms\": [1635.0, 1868.0]}, {\"sequence_id\": \"fall-30\", \"model\": \"wide\", \"run\": \"ur-isotropic-wide-20261012-001\", \"video_outcome\": \"TP\", \"events\": 1, \"first_event_ms\": 1866.6666666666667, \"rendered_frames\": 70, \"current_ae_alert_frames\": 0, \"history_recorded_frames\": 14, \"first_history_render_ms\": 1866.6666666666667, \"first_current_ae_alert_ms\": null, \"action_FALLING_frames\": 13, \"current_ae_states\": {\"unknown\": 23, \"warming_up\": 29, \"normal\": 18}, \"csv_active_frames\": 1, \"masked_csv_active_frames\": 1, \"onset_ms\": [1167.0, 1534.0], \"impact_ms\": [1635.0, 1868.0]}]}\r\n"
+  },
+  "independent_video_auditor": {
+    "chunk_id": "4c272b",
+    "wall_time_seconds": 7.4890765,
+    "exit_code": 0,
+    "original_token_count": 384,
+    "output": "{\"passed\": true, \"method\": \"Independent original CSV/NPZ causal timeline and every decoded native header glyph/color; pair vs individual panel checks\", \"full_model_grid_frames\": 640, \"saved_window_rows\": 466, \"individual_native_frames_audited\": 434, \"unique_decoded_video_frames\": 651, \"videos\": [{\"sequence_id\": \"fall-18\", \"model\": \"demo\", \"decoded_frames\": 65, \"fps\": 30.0, \"native_pixels_verified\": true}, {\"sequence_id\": \"fall-18\", \"model\": \"wide\", \"decoded_frames\": 65, \"fps\": 30.0, \"native_pixels_verified\": true}, {\"sequence_id\": \"fall-18\", \"model\": \"compare\", \"decoded_frames\": 65, \"fps\": 30, \"native_pixels_verified\": true, \"max_panel_vs_single_mae\": 1.1055881605691056}, {\"sequence_id\": \"fall-09\", \"model\": \"demo\", \"decoded_frames\": 82, \"fps\": 30.0, \"native_pixels_verified\": true}, {\"sequence_id\": \"fall-09\", \"model\": \"wide\", \"decoded_frames\": 82, \"fps\": 30.0, \"native_pixels_verified\": true}, {\"sequence_id\": \"fall-09\", \"model\": \"compare\", \"decoded_frames\": 82, \"fps\": 30, \"native_pixels_verified\": true, \"max_panel_vs_single_mae\": 1.2918724593495936}, {\"sequence_id\": \"fall-30\", \"model\": \"demo\", \"decoded_frames\": 70, \"fps\": 30.0, \"native_pixels_verified\": true}, {\"sequence_id\": \"fall-30\", \"model\": \"wide\", \"decoded_frames\": 70, \"fps\": 30.0, \"native_pixels_verified\": true}, {\"sequence_id\": \"fall-30\", \"model\": \"compare\", \"decoded_frames\": 70, \"fps\": 30, \"native_pixels_verified\": true, \"max_panel_vs_single_mae\": 1.1524009146341463}], \"changed_quality_rules\": false, \"new_model_inference_training\": 0, \"test_access\": 0}\r\n"
+  },
+  "ruff_check": {
+    "chunk_id": "7e17c5",
+    "wall_time_seconds": 0.9881019,
+    "exit_code": 0,
+    "original_token_count": 5,
+    "output": "All checks passed!\n"
+  },
+  "ruff_format_check": {
+    "chunk_id": "f34ed0",
+    "wall_time_seconds": 1.0106698,
+    "exit_code": 0,
+    "original_token_count": 7,
+    "output": "7 files already formatted\n"
+  }
+}

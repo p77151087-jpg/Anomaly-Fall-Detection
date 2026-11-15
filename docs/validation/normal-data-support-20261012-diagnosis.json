@@ -1,0 +1,1578 @@
+{
+  "created_at": "2026-10-12T04:06:57.698171+00:00",
+  "train_audit": [
+    {
+      "sequence_id": "adl-33",
+      "valid_windows": 119,
+      "nonoverlapping_30frame_endpoints": 5,
+      "source_hash": "3d49aadbacfa806aab846412d03bbca27d6cb75953cd58ffa471b3cfaa06565e"
+    },
+    {
+      "sequence_id": "adl-08",
+      "valid_windows": 140,
+      "nonoverlapping_30frame_endpoints": 5,
+      "source_hash": "89e79588108a7197f99a881bff4f65da5e63d199aa4064883d86be0db1c0a015"
+    },
+    {
+      "sequence_id": "adl-40",
+      "valid_windows": 228,
+      "nonoverlapping_30frame_endpoints": 8,
+      "source_hash": "19991c656aeec9813904a217cf5dab8727970fc643467fa8d11def13cd98e39b"
+    },
+    {
+      "sequence_id": "adl-19",
+      "valid_windows": 140,
+      "nonoverlapping_30frame_endpoints": 6,
+      "source_hash": "047efa1f6130d1e4c7de39313c9d2799447e97239b644115c5978886f93cd2ac"
+    },
+    {
+      "sequence_id": "adl-05",
+      "valid_windows": 148,
+      "nonoverlapping_30frame_endpoints": 5,
+      "source_hash": "a09150e1614c34750a82729e1e6510d41d0bc8287ae6cefb6d8c65f2c2c61426"
+    },
+    {
+      "sequence_id": "adl-38",
+      "valid_windows": 158,
+      "nonoverlapping_30frame_endpoints": 6,
+      "source_hash": "239b5392df99d0a50933ac3df4e098de92eda8ce702b643b4d4d800d34e3e80e"
+    },
+    {
+      "sequence_id": "adl-17",
+      "valid_windows": 155,
+      "nonoverlapping_30frame_endpoints": 6,
+      "source_hash": "5310573d2359f13a6595f03f0a964c2f4b42848f2212f72503e53f517028f5de"
+    },
+    {
+      "sequence_id": "adl-06",
+      "valid_windows": 185,
+      "nonoverlapping_30frame_endpoints": 7,
+      "source_hash": "5b09ea44e031fe00afe8f754831c70616962a772dc25aebe26636fb921f87f7d"
+    },
+    {
+      "sequence_id": "adl-26",
+      "valid_windows": 63,
+      "nonoverlapping_30frame_endpoints": 3,
+      "source_hash": "3f8673829d4ed68328b66e00456f23cb269de00137b9c235c2adfef9d530ec2a"
+    },
+    {
+      "sequence_id": "adl-29",
+      "valid_windows": 93,
+      "nonoverlapping_30frame_endpoints": 4,
+      "source_hash": "1dde7f110785d0813ba3e35d9da22152f6cc3e2d1836a5947a4aaa40341c4225"
+    },
+    {
+      "sequence_id": "adl-22",
+      "valid_windows": 139,
+      "nonoverlapping_30frame_endpoints": 5,
+      "source_hash": "90dea8a1b88d1142513f63a1111a7cc2d942195a3f10f29984fc2fb4caf8d1f6"
+    },
+    {
+      "sequence_id": "adl-21",
+      "valid_windows": 188,
+      "nonoverlapping_30frame_endpoints": 7,
+      "source_hash": "4de6eac63b733fefe42c45b82b092f9420b41e18b5554e0872517ac1a6494e4c"
+    },
+    {
+      "sequence_id": "adl-36",
+      "valid_windows": 291,
+      "nonoverlapping_30frame_endpoints": 10,
+      "source_hash": "f0be855e2df74e376cc30ffc800ec648ad315ced115febd3440867705af08cf1"
+    },
+    {
+      "sequence_id": "adl-25",
+      "valid_windows": 78,
+      "nonoverlapping_30frame_endpoints": 3,
+      "source_hash": "34e39a73506229f12e0c6231028356c40c9f7d4287bf51d19023a38537c89c27"
+    },
+    {
+      "sequence_id": "adl-11",
+      "valid_windows": 268,
+      "nonoverlapping_30frame_endpoints": 9,
+      "source_hash": "3fe588dc9cdb825b3440dd1cfc3caf284260f9e0f0010e55e794e04ce3e0e903"
+    },
+    {
+      "sequence_id": "adl-28",
+      "valid_windows": 53,
+      "nonoverlapping_30frame_endpoints": 2,
+      "source_hash": "d5f46f0455bbc2838dcb2aa204db54dfcbadadc46952d5436be0bfee464fb394"
+    },
+    {
+      "sequence_id": "adl-32",
+      "valid_windows": 129,
+      "nonoverlapping_30frame_endpoints": 5,
+      "source_hash": "cfeddd42c0c18a3af4f6de1d2fbacadd1a725415cf76d013ebb032dc98f367d9"
+    },
+    {
+      "sequence_id": "adl-31",
+      "valid_windows": 217,
+      "nonoverlapping_30frame_endpoints": 8,
+      "source_hash": "b716206841a785d8b9469744dcd9757ce29225de957a3a15dcfb02b421cf36ea"
+    },
+    {
+      "sequence_id": "adl-27",
+      "valid_windows": 68,
+      "nonoverlapping_30frame_endpoints": 3,
+      "source_hash": "ad92745a095a5bb7c3c31f19be9e68c51c88ef2b31760798e486044ec6dd888a"
+    },
+    {
+      "sequence_id": "adl-07",
+      "valid_windows": 148,
+      "nonoverlapping_30frame_endpoints": 5,
+      "source_hash": "7b38e51cde3306db10f46c846a94412ab2f8b7915d6e49517a70606dd23f1c26"
+    },
+    {
+      "sequence_id": "adl-30",
+      "valid_windows": 178,
+      "nonoverlapping_30frame_endpoints": 6,
+      "source_hash": "acf9129d83bda7dbd7847f97850d17cea75e550d122cb942bde074ccdb0fd63e"
+    },
+    {
+      "sequence_id": "adl-12",
+      "valid_windows": 146,
+      "nonoverlapping_30frame_endpoints": 6,
+      "source_hash": "f2c35d0f69743d1227cf30735ea2dd71e09e5935d291eef653d5ade6c613b710"
+    },
+    {
+      "sequence_id": "adl-24",
+      "valid_windows": 38,
+      "nonoverlapping_30frame_endpoints": 2,
+      "source_hash": "3c7bf106599377eddd6b4a428f445d847da436e9c4e25f7863fac562f693a519"
+    },
+    {
+      "sequence_id": "adl-10",
+      "valid_windows": 268,
+      "nonoverlapping_30frame_endpoints": 9,
+      "source_hash": "cafa7f3c4c67c21fcc5e9842fc374b8ed6813d3d080ac176c012ac34bcd49b22"
+    }
+  ],
+  "models": [
+    {
+      "run": "ur-human-isotropic-001",
+      "parameter_count": 140064,
+      "train_clean_mean": 0.05681651361479151,
+      "normal_val_mean": 0.11513485589026151,
+      "val_train_ratio": 2.026432960509698,
+      "threshold": 0.4529072046279907,
+      "normal_sequence_scores": [
+        {
+          "sequence_id": "adl-37",
+          "sequence_score": 0.4529072046279907,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 325,
+          "n_valid_endpoints": 296,
+          "window_coverage": 0.9107692307692308,
+          "first_alarm_ms": 2000.0000000000002,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-23",
+          "sequence_score": 0.194449320435524,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 191,
+          "n_valid_endpoints": 168,
+          "window_coverage": 0.8795811518324608,
+          "first_alarm_ms": 1233.3333333333335,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-20",
+          "sequence_score": 0.21520128846168518,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 240,
+          "n_valid_endpoints": 184,
+          "window_coverage": 0.7666666666666667,
+          "first_alarm_ms": 2900.0,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-04",
+          "sequence_score": 0.19555096328258514,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 120,
+          "n_valid_endpoints": 118,
+          "window_coverage": 0.9833333333333333,
+          "first_alarm_ms": 1100.0,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-01",
+          "sequence_score": 0.14276206493377686,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 121,
+          "n_valid_endpoints": 114,
+          "window_coverage": 0.9421487603305785,
+          "first_alarm_ms": 1266.6666666666667,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-16",
+          "sequence_score": 0.15368807315826416,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 211,
+          "n_valid_endpoints": 124,
+          "window_coverage": 0.5876777251184834,
+          "first_alarm_ms": 2666.666666666667,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-18",
+          "sequence_score": 0.24051465094089508,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 235,
+          "n_valid_endpoints": 171,
+          "window_coverage": 0.7276595744680852,
+          "first_alarm_ms": 3166.666666666667,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-35",
+          "sequence_score": 0.41728276014328003,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 254,
+          "n_valid_endpoints": 252,
+          "window_coverage": 0.9921259842519685,
+          "first_alarm_ms": 1100.0,
+          "label": 0
+        }
+      ],
+      "normal_omit_threshold_sensitivity": [
+        {
+          "omitted_normal": "adl-37",
+          "threshold": 0.41728276014328003
+        },
+        {
+          "omitted_normal": "adl-23",
+          "threshold": 0.4529072046279907
+        },
+        {
+          "omitted_normal": "adl-20",
+          "threshold": 0.4529072046279907
+        },
+        {
+          "omitted_normal": "adl-04",
+          "threshold": 0.4529072046279907
+        },
+        {
+          "omitted_normal": "adl-01",
+          "threshold": 0.4529072046279907
+        },
+        {
+          "omitted_normal": "adl-16",
+          "threshold": 0.4529072046279907
+        },
+        {
+          "omitted_normal": "adl-18",
+          "threshold": 0.4529072046279907
+        },
+        {
+          "omitted_normal": "adl-35",
+          "threshold": 0.4529072046279907
+        }
+      ]
+    },
+    {
+      "run": "ur-isotropic-wide-20261012-001",
+      "parameter_count": 296000,
+      "train_clean_mean": 0.056226408126988765,
+      "normal_val_mean": 0.11561636638468015,
+      "val_train_ratio": 2.0562644891624173,
+      "threshold": 0.5341113805770874,
+      "normal_sequence_scores": [
+        {
+          "sequence_id": "adl-37",
+          "sequence_score": 0.43130481243133545,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 325,
+          "n_valid_endpoints": 296,
+          "window_coverage": 0.9107692307692308,
+          "first_alarm_ms": 2000.0000000000002,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-23",
+          "sequence_score": 0.1718352884054184,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 191,
+          "n_valid_endpoints": 168,
+          "window_coverage": 0.8795811518324608,
+          "first_alarm_ms": 1233.3333333333335,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-20",
+          "sequence_score": 0.18222187459468842,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 240,
+          "n_valid_endpoints": 184,
+          "window_coverage": 0.7666666666666667,
+          "first_alarm_ms": 2900.0,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-04",
+          "sequence_score": 0.17383751273155212,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 120,
+          "n_valid_endpoints": 118,
+          "window_coverage": 0.9833333333333333,
+          "first_alarm_ms": 1100.0,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-01",
+          "sequence_score": 0.13784216344356537,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 121,
+          "n_valid_endpoints": 114,
+          "window_coverage": 0.9421487603305785,
+          "first_alarm_ms": 1266.6666666666667,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-16",
+          "sequence_score": 0.14347408711910248,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 211,
+          "n_valid_endpoints": 124,
+          "window_coverage": 0.5876777251184834,
+          "first_alarm_ms": 2666.666666666667,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-18",
+          "sequence_score": 0.24466033279895782,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 235,
+          "n_valid_endpoints": 171,
+          "window_coverage": 0.7276595744680852,
+          "first_alarm_ms": 3166.666666666667,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-35",
+          "sequence_score": 0.5341113805770874,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 254,
+          "n_valid_endpoints": 252,
+          "window_coverage": 0.9921259842519685,
+          "first_alarm_ms": 1100.0,
+          "label": 0
+        }
+      ],
+      "normal_omit_threshold_sensitivity": [
+        {
+          "omitted_normal": "adl-37",
+          "threshold": 0.5341113805770874
+        },
+        {
+          "omitted_normal": "adl-23",
+          "threshold": 0.5341113805770874
+        },
+        {
+          "omitted_normal": "adl-20",
+          "threshold": 0.5341113805770874
+        },
+        {
+          "omitted_normal": "adl-04",
+          "threshold": 0.5341113805770874
+        },
+        {
+          "omitted_normal": "adl-01",
+          "threshold": 0.5341113805770874
+        },
+        {
+          "omitted_normal": "adl-16",
+          "threshold": 0.5341113805770874
+        },
+        {
+          "omitted_normal": "adl-18",
+          "threshold": 0.5341113805770874
+        },
+        {
+          "omitted_normal": "adl-35",
+          "threshold": 0.43130481243133545
+        }
+      ]
+    }
+  ],
+  "learning_curves": [
+    {
+      "name": "subset-42-n8",
+      "subset_seed": 42,
+      "n_train_videos": 8,
+      "train_ids": [
+        "adl-32",
+        "adl-28",
+        "adl-27",
+        "adl-07",
+        "adl-29",
+        "adl-06",
+        "adl-31",
+        "adl-10"
+      ],
+      "status": {
+        "source_kind": "real",
+        "training": "complete",
+        "calibration": "not_run",
+        "epochs": 68,
+        "best_val_normal_loss": 0.22640910829249677
+      },
+      "train_clean_mean": 0.041843597445890474,
+      "normal_val_mean": 0.22640910773383377,
+      "val_train_ratio": 5.410842316476538,
+      "train_windows": 1161,
+      "artifacts": {
+        "autoencoder.pt": "a0ed61d9e9211a99cd3c64e13e36ca2267f6ab38cb44e126bf5a98b0a24d1c88",
+        "scaler.npz": "efa0e24d4d509b168c8080f502c5398702d48a1103a621ac14d6f146d513511f",
+        "resolved-config.yaml": "0c1dfa0fbb4eace494dd0637d180d2062b177884dc346e230ed6baf9ebe250b3",
+        "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+        "sources.json": "248ccb860230aaa5699ea7f11f06479bd5d389ed6565be17c1bae3994cfdc768",
+        "dataset-index.json": "cdd111c3fd7608e3bfdcd71c569fc03206e60e6fd2518ce937306db19a993562",
+        "environment.json": "9639b8b61d05ff43fd2fa5a6df0c96396e3c12acd89a06b7ec194beabad3850e",
+        "training-history.csv": "3a96cb1b3217af8b21967c0be32ed0cfd877c467cb98a81f1891f3e3c15925ba"
+      }
+    },
+    {
+      "name": "subset-42-n16",
+      "subset_seed": 42,
+      "n_train_videos": 16,
+      "train_ids": [
+        "adl-32",
+        "adl-28",
+        "adl-27",
+        "adl-07",
+        "adl-29",
+        "adl-06",
+        "adl-31",
+        "adl-10",
+        "adl-17",
+        "adl-22",
+        "adl-19",
+        "adl-33",
+        "adl-30",
+        "adl-36",
+        "adl-38",
+        "adl-21"
+      ],
+      "status": {
+        "source_kind": "real",
+        "training": "complete",
+        "calibration": "not_run",
+        "epochs": 78,
+        "best_val_normal_loss": 0.12332845545689083
+      },
+      "train_clean_mean": 0.050353144636151585,
+      "normal_val_mean": 0.12332845517886462,
+      "val_train_ratio": 2.4492701711090277,
+      "train_windows": 2529,
+      "artifacts": {
+        "autoencoder.pt": "c85f588008d9b6b40db0e603db32a4bca7183487d3fbce8fbdd60f012bfbed59",
+        "scaler.npz": "ef7ece06e22d87e569590bcd40a6c0faab1d58b2e70fe9c255d8585be122ec08",
+        "resolved-config.yaml": "0c1dfa0fbb4eace494dd0637d180d2062b177884dc346e230ed6baf9ebe250b3",
+        "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+        "sources.json": "949136c91cd2dada889b04884c9aefa9ff53b8061b55e6dba6964119bc66278e",
+        "dataset-index.json": "cdd111c3fd7608e3bfdcd71c569fc03206e60e6fd2518ce937306db19a993562",
+        "environment.json": "70e21cdf935d227d7ec19c3ad036c9f1b156aa66b6365bd02ca84d2ecfd1681b",
+        "training-history.csv": "11db0b784c9df76a3d13ed7b0dcd1fe0ea6922c7af0cd9da4fadf0e7074a4851"
+      }
+    },
+    {
+      "name": "subset-43-n8",
+      "subset_seed": 43,
+      "n_train_videos": 8,
+      "train_ids": [
+        "adl-38",
+        "adl-08",
+        "adl-25",
+        "adl-36",
+        "adl-22",
+        "adl-10",
+        "adl-06",
+        "adl-32"
+      ],
+      "status": {
+        "source_kind": "real",
+        "training": "complete",
+        "calibration": "not_run",
+        "epochs": 39,
+        "best_val_normal_loss": 0.2289416934529968
+      },
+      "train_clean_mean": 0.04693949048981736,
+      "normal_val_mean": 0.2289416935065136,
+      "val_train_ratio": 4.8773791772660635,
+      "train_windows": 1388,
+      "artifacts": {
+        "autoencoder.pt": "e1ca1c6b9ebd921bdf49f954e75e1c1e81a99e0f713ec583daa408851e33a8f7",
+        "scaler.npz": "1bd2941bed204ad3fbea46639ab2cd08bdc5d8dbc818c402e5878aa12ba29d57",
+        "resolved-config.yaml": "0c1dfa0fbb4eace494dd0637d180d2062b177884dc346e230ed6baf9ebe250b3",
+        "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+        "sources.json": "7fea13dce71ce41ac2c163358a77318ea377d53f0565091045cc20237ea28073",
+        "dataset-index.json": "cdd111c3fd7608e3bfdcd71c569fc03206e60e6fd2518ce937306db19a993562",
+        "environment.json": "5ff4c2edd07bdabf5455b6d69a4100b33dbdda8cc5f2ec0af0ce534f0d0582dd",
+        "training-history.csv": "974ea32ee9189832ac3cc09b96e6b992ddb8da1fac9bd750c6f6bbd6890fcf3d"
+      }
+    },
+    {
+      "name": "subset-43-n16",
+      "subset_seed": 43,
+      "n_train_videos": 16,
+      "train_ids": [
+        "adl-38",
+        "adl-08",
+        "adl-25",
+        "adl-36",
+        "adl-22",
+        "adl-10",
+        "adl-06",
+        "adl-32",
+        "adl-40",
+        "adl-27",
+        "adl-26",
+        "adl-17",
+        "adl-24",
+        "adl-21",
+        "adl-12",
+        "adl-07"
+      ],
+      "status": {
+        "source_kind": "real",
+        "training": "complete",
+        "calibration": "not_run",
+        "epochs": 43,
+        "best_val_normal_loss": 0.14878939508545957
+      },
+      "train_clean_mean": 0.05359621635237501,
+      "normal_val_mean": 0.14878939504760624,
+      "val_train_ratio": 2.776117516754761,
+      "train_windows": 2422,
+      "artifacts": {
+        "autoencoder.pt": "5aaec9c87291ea231b42c726a14f842355cee13fd49a56c3bc4ed279b0e97055",
+        "scaler.npz": "1f26afc0ec7b72429a83863dbcca0f4e27482368b072566b06d2961fbde9bce0",
+        "resolved-config.yaml": "0c1dfa0fbb4eace494dd0637d180d2062b177884dc346e230ed6baf9ebe250b3",
+        "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+        "sources.json": "638da53ebd1ede985cc72eac858effb24998096e767fd7b92e9e865b13912d7f",
+        "dataset-index.json": "cdd111c3fd7608e3bfdcd71c569fc03206e60e6fd2518ce937306db19a993562",
+        "environment.json": "2fd2ea5a2745c231ea6f4a6851eeabf1d9409c3866e78eb28fff728be3abaf03",
+        "training-history.csv": "922e3db7b9efc03c6bcce6a3d1f9814f131dbb68da13ae08456045e5bfd7d0e2"
+      }
+    }
+  ],
+  "train_video_count": 24,
+  "train_valid_windows": 3638,
+  "nonoverlapping_endpoints": 135,
+  "feature_accesses": [
+    {
+      "sequence_id": "adl-33",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-08",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-40",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-19",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-05",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-17",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-26",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-29",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-21",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-25",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-11",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-28",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-31",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-30",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-12",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-33",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-08",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-40",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-19",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-05",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-17",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-26",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-29",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-21",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-25",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-11",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-28",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-31",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-30",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-12",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-33",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-08",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-40",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-19",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-05",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-17",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-26",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-29",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-21",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-25",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-11",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-28",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-31",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-30",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-12",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-29",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-28",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-31",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-28",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-29",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-31",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-33",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-19",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-17",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-29",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-21",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-28",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-31",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-30",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-28",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-29",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-31",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-17",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-19",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-33",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-30",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-21",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-08",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-25",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-08",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-25",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-08",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-40",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-17",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-26",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-21",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-25",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-12",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-08",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-25",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-40",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-26",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-17",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-21",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-12",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    }
+  ],
+  "test_feature_arrays_loaded": 0,
+  "new_test_evaluations": 0,
+  "evidence_tier": "real_feature_smoke",
+  "limitations": "Nonoverlapping windows are still from 24 films, not independent people. Two subset orders are a small descriptive learning curve, not a causal proof of how much Test error comes from data scarcity. Validation has been repeatedly viewed; no new blind data."
+}

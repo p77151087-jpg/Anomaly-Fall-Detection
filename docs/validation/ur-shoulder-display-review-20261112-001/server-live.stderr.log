@@ -1,0 +1,9 @@
+127.0.0.1 - - [12/Nov/2026 18:51:43] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [12/Nov/2026 18:51:44] "GET /media/fall-19.mp4 HTTP/1.1" 206 -
+127.0.0.1 - - [12/Nov/2026 18:51:44] code 404, message File not found
+127.0.0.1 - - [12/Nov/2026 18:51:44] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [12/Nov/2026 18:51:44] "GET /media/fall-19.mp4 HTTP/1.1" 206 -
+127.0.0.1 - - [12/Nov/2026 18:52:20] "GET /media/fall-09.mp4 HTTP/1.1" 206 -
+127.0.0.1 - - [12/Nov/2026 18:52:51] "GET /media/fall-09.mp4 HTTP/1.1" 206 -
+127.0.0.1 - - [12/Nov/2026 18:52:51] "GET /media/fall-09.mp4 HTTP/1.1" 206 -
+127.0.0.1 - - [12/Nov/2026 18:52:51] "GET /media/fall-09.mp4 HTTP/1.1" 206 -

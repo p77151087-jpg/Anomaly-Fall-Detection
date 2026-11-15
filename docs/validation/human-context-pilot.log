@@ -1,0 +1,22 @@
+Rebuilding features from verified observed poses: adl-05
+Rebuilding features from verified observed poses: adl-24
+Rebuilding features from verified observed poses: adl-04
+Rebuilding features from verified observed poses: adl-35
+Rebuilding features from verified observed poses: fall-19
+Rebuilding features from verified observed poses: fall-18
+Rebuilding features from verified observed poses: fall-29
+Rebuilding features from verified observed poses: fall-09
+Rebuilding features from verified observed poses: fall-25
+Rebuilding features from verified observed poses: fall-30
+{'pilot': 'ur-human-context20-001', 'gate': True, 'adl_coverage_ratio': 1.0043098580453564, 'phase_ratio': 0.9690721649484536}
+Rebuilding features from verified observed poses: adl-05
+Rebuilding features from verified observed poses: adl-24
+Rebuilding features from verified observed poses: adl-04
+Rebuilding features from verified observed poses: adl-35
+Rebuilding features from verified observed poses: fall-19
+Rebuilding features from verified observed poses: fall-18
+Rebuilding features from verified observed poses: fall-29
+Rebuilding features from verified observed poses: fall-09
+Rebuilding features from verified observed poses: fall-25
+Rebuilding features from verified observed poses: fall-30
+{'pilot': 'ur-human-context15-001', 'gate': True, 'adl_coverage_ratio': 1.0059405023225347, 'phase_ratio': 0.9072164948453608}

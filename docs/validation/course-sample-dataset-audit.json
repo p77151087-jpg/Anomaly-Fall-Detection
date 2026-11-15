@@ -1,0 +1,118 @@
+{
+  "source": "C:\\Users\\Huayi\\Downloads\\AD_project_Sample.zip",
+  "source_sha256": "02ea5eeae3964f4fc7560ac3e462a66f0b83da1efe8bfc929f929510e0cbc200",
+  "nested_zip_sha256": "31e6fda8d264abbaeb4c8807629ca397b4c4c76943c520038ec999e4156638ea",
+  "notebook_sha256": "8a9fa9864d922e721710a0fc8a73068e9a1b5a79b42bc24eeec8fd97bb8c7eca",
+  "files": [
+    "UR_Fall_dataset/ADL/ADL_1_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_10_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_11_a.jpg",
+    "UR_Fall_dataset/ADL/ADL_12_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_13_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_14_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_15_a.jpg",
+    "UR_Fall_dataset/ADL/ADL_16_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_17_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_18_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_19_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_2_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_20_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_21_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_22_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_23_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_24_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_25_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_26_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_27_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_28_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_29_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_3_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_30_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_31_a.jpg",
+    "UR_Fall_dataset/ADL/ADL_32_a.jpg",
+    "UR_Fall_dataset/ADL/ADL_33_a.jpg",
+    "UR_Fall_dataset/ADL/ADL_34_a.jpg",
+    "UR_Fall_dataset/ADL/ADL_35_a.jpg",
+    "UR_Fall_dataset/ADL/ADL_36_a.jpg",
+    "UR_Fall_dataset/ADL/ADL_37_a.jpg",
+    "UR_Fall_dataset/ADL/ADL_38_a.jpg",
+    "UR_Fall_dataset/ADL/ADL_39_a.jpg",
+    "UR_Fall_dataset/ADL/ADL_4_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_40_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_5_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_6_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_7_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_8_n.jpg",
+    "UR_Fall_dataset/ADL/ADL_9_n.jpg",
+    "UR_Fall_dataset/Fall/Fall_1_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_10_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_11_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_12_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_13_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_14_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_15_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_16_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_17_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_18_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_19_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_2_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_20_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_21_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_22_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_23_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_24_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_25_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_26_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_27_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_28_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_29_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_3_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_30_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_4_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_5_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_6_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_7_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_8_a.jpg",
+    "UR_Fall_dataset/Fall/Fall_9_a.jpg"
+  ],
+  "suffix_counts": {
+    ".jpg": 70
+  },
+  "counts": {
+    "ADL_n": 29,
+    "ADL_a": 11,
+    "Fall_a": 30
+  },
+  "notebook_role": "Reads and displays JPG files; counts outcomes by filename suffix. No training or video inference cells.",
+  "notebook_cells": [
+    {
+      "cell_type": "code",
+      "source": "import numpy as np\nimport os\nimport matplotlib.pyplot as plt\n%matplotlib inline"
+    },
+    {
+      "cell_type": "code",
+      "source": "# 將 UR fall dataset 中 ADL 和 Fall 的測試結果的影像依序讀入它的檔名\nimport glob\nADL_path=glob.glob(r'.\\UR_Fall_dataset\\ADL\\*')\nFall_path=glob.glob(r'.\\UR_Fall_dataset\\Fall\\*')\n#ADL_path=glob.glob(r'./UR_Fall_dataset/ADL/*')\n#Fall_path=glob.glob(r'./UR_Fall_dataset/Fall/*')\nprint('number of ADL file=', len(ADL_path))\nprint('number of Fall file=', len(Fall_path))"
+    },
+    {
+      "cell_type": "code",
+      "source": "# 顯示 UR-Fall dataset ADL 影片測試結果的影像\nfor filename in ADL_path:\n    img=plt.imread(filename) \n    plt.figure(figsize=(6,3))\n    plt.imshow(img)\n    plt.axis(\"off\")\n    plt.show()"
+    },
+    {
+      "cell_type": "code",
+      "source": "# 顯示 UR Fall dataset Fall 影片測試結果的影像\nfor filename in Fall_path:\n    img=plt.imread(filename) \n    plt.figure(figsize=(6,3))\n    plt.imshow(img)\n    plt.axis(\"off\")\n    plt.show()"
+    },
+    {
+      "cell_type": "code",
+      "source": "# 計算 Accuracy 和 F1 score\nTN=0\nFP=0\nfor filename in ADL_path:\n    basename=os.path.basename(filename).split('.')[0]\n    if basename[-1]=='n':\n        TN=TN+1\n    elif basename[-1]=='a':\n        FP=FP+1\nprint('TN=', TN)\nprint('FP=', FP)\n\nTP=0\nFN=0\nfor filename in Fall_path:\n    basename=os.path.basename(filename).split('.')[0]\n    if basename[-1]=='n':\n        FN=FN+1\n    elif basename[-1]=='a':\n        TP=TP+1\nprint('TP=', TP)\nprint('FN=', FN)\n\nAccuracy=(TP+TN)/(TP+FN+TN+FP)\nprint('Accuracy=', Accuracy)\nRecall=TP/(TP+FN)\nprint('Recall=', Recall)\nPrecision=TP/(TP+FP)\nprint('Precision=', Precision)\nF1_score=2*Recall*Precision/(Recall+Precision)\nprint('F1 score=', F1_score)"
+    }
+  ],
+  "metrics": {
+    "TP": 30,
+    "TN": 29,
+    "FP": 11,
+    "FN": 0,
+    "accuracy": 0.8428571428571429,
+    "f1": 0.8450704225352113
+  },
+  "split_roles_not_established_by_these_files": true
+}

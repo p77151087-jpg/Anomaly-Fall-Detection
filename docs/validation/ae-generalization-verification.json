@@ -1,0 +1,40 @@
+{
+  "records": [
+    {
+      "run": "course-ur-balanced-001",
+      "validation_recomputed_matches": true,
+      "scaler_identical_to_baseline": true,
+      "frozen_hashes_unchanged": true
+    },
+    {
+      "run": "ur-ae-decay-001",
+      "validation_recomputed_matches": true,
+      "scaler_identical_to_baseline": true,
+      "frozen_hashes_unchanged": true
+    },
+    {
+      "run": "ur-ae-denoise-001",
+      "validation_recomputed_matches": true,
+      "scaler_identical_to_baseline": true,
+      "frozen_hashes_unchanged": true
+    },
+    {
+      "run": "ur-ae-both-001",
+      "validation_recomputed_matches": true,
+      "scaler_identical_to_baseline": true,
+      "frozen_hashes_unchanged": true
+    }
+  ],
+  "old_runs_preserved": 23,
+  "new_frozen_runs": 3,
+  "test_scored": false,
+  "tests": {
+    "passed": 148,
+    "skipped": 1,
+    "xml": "docs/validation/pytest-optimization-final.xml"
+  },
+  "ruff_check": true,
+  "format_files": 70,
+  "validation_rank_winner": "ur-ae-decay-001",
+  "promoted_as_reliable_fall_detector": false
+}

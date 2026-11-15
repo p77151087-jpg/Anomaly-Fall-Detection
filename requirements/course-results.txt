@@ -1,0 +1,5 @@
+# Install only into the project .venv. Existing Torch/pose dependencies stay pinned separately.
+nbformat==5.10.4
+nbclient==0.10.2
+ipykernel==6.30.1
+imageio-ffmpeg==0.6.0

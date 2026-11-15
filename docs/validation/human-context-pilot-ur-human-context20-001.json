@@ -1,0 +1,139 @@
+{
+  "run": "ur-human-context20-001",
+  "index": "C:\\成大專案\\fall-detection-anomaly\\data\\cache\\ur-human-context20-001\\real_feature_smoke\\dataset-index.json",
+  "index_sha256": "98b1ec154c33c24e2c173ac51f7a7d774122ea0ac293917097e01791c16accb5",
+  "stats": [
+    {
+      "sequence_id": "adl-05",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "valid_features": 158,
+      "legal_k3": true,
+      "window_coverage": 0.9875,
+      "legal_phase_windows": null,
+      "pose_sha256": "f4cc606e20b61d592236d07ec1752ef95b55160dc4bccc19d70bbb2921f76f64"
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "valid_features": 48,
+      "legal_k3": true,
+      "window_coverage": 0.9411764705882353,
+      "legal_phase_windows": null,
+      "pose_sha256": "5997f6952aa718938686d98347c81e0d6d7b9127c364b0a4160ade5e99fe3c20"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "valid_features": 128,
+      "legal_k3": true,
+      "window_coverage": 0.9846153846153847,
+      "legal_phase_windows": null,
+      "pose_sha256": "8c7334ccf15cb0bcf7b92b70368874b56f09c86d92e55f49d0dc2bf99fde3458"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "valid_features": 262,
+      "legal_k3": true,
+      "window_coverage": 0.9924242424242424,
+      "legal_phase_windows": null,
+      "pose_sha256": "1bac7ff834a49e4b6d9b03783b246c70182b13e78ad644db83e80eea0cdd08e1"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "valid_features": 33,
+      "legal_k3": true,
+      "window_coverage": 0.4074074074074074,
+      "legal_phase_windows": 9,
+      "pose_sha256": "9f793ef74565c96209cb379a48750b34cf49573b714b339e1e91957ac76ef0b3"
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "valid_features": 26,
+      "legal_k3": true,
+      "window_coverage": 0.5652173913043478,
+      "legal_phase_windows": 23,
+      "pose_sha256": "5a1ae27b89f617174f04e47befae86f23f42427475a1c01ffe42bcd50e4c439f"
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "valid_features": 62,
+      "legal_k3": true,
+      "window_coverage": 0.775,
+      "legal_phase_windows": 21,
+      "pose_sha256": "7569424cfb8d0ba107ce0217c7b00409f94de3d1c1dfab8ce624a65eb24520db"
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "valid_features": 146,
+      "legal_k3": true,
+      "window_coverage": 0.8795180722891566,
+      "legal_phase_windows": 10,
+      "pose_sha256": "233a902f4c613f44cc029ee803b962c719d1b100fff5bb2c9336ab1ff750109f"
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "valid_features": 53,
+      "legal_k3": true,
+      "window_coverage": 0.803030303030303,
+      "legal_phase_windows": 17,
+      "pose_sha256": "0ff82a276828940e49bb1a099960c83dde77b62ae499cc9b8b2b7342810cece1"
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "valid_features": 34,
+      "legal_k3": true,
+      "window_coverage": 0.6666666666666666,
+      "legal_phase_windows": 14,
+      "pose_sha256": "3718059a1ed181719e679400522958e8a40875d96d96199dd659a7c447e1ce35"
+    }
+  ],
+  "adl_coverage_ratio": 1.0043098580453564,
+  "fall_phase_legal_ratio": 0.9690721649484536,
+  "gate_passed": true,
+  "observed_pose_hashes_unchanged": true,
+  "model_load_reports": {
+    "pose": null,
+    "stgcn": {
+      "strict": true,
+      "key_conversion": null,
+      "sha256": "1cac9a6da99d5d67da8ab58ee7633c5e923d85fba668673f028792819750a149"
+    }
+  }
+}

@@ -1,0 +1,1464 @@
+{
+  "tier": "Tier 2",
+  "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+  "best_effort": true,
+  "no_claim_of_full_graph_completeness": true,
+  "limitations": [
+    "raw/cache/runs/outputs/weights/upstream excluded by design; relevant exact artifacts/source read directly",
+    "Heuristic callees for mean/cpu/update/exists can point to historical copies; source imports and direct source used instead",
+    "Initial broad final search had_more=true; narrowed exact code paths all have_more=false, no exhaustive claim based on broad results"
+  ],
+  "queries": {
+    "q_graph_status": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"project\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly\",\"nodes\":134514,\"edges\":154295,\"status\":\"ready\",\"root_path\":\"C:/成大專案/fall-detection-anomaly\",\"parse_partial\":{\"files\":[],\"count\":0,\"truncated\":false},\"skipped\":{\"files\":[],\"count\":0,\"truncated\":false},\"not_indexed\":{\"dirs\":[\".git\",\".pytest_cache\",\".python\",\".ruff_cache\",\".tools\",\".venv\",\"Ultralytics\",\"data/cache\",\"data/raw\",\"data/retired\",\"docs/validation/human-isotropic-legacy-source/src/fall_detect/skeleton/__pycache__\",\"outputs\",\"runs\",\"scripts/__pycache__\",\"src/fall_detect/__pycache__\",\"src/fall_detect/data/__pycache__\",\"src/fall_detect/detection/__pycache__\",\"src/fall_detect/evaluation/__pycache__\",\"src/fall_detect/models/__pycache__\",\"src/fall_detect/pose/__pycache__\",\"src/fall_detect/skeleton/__pycache__\",\"src/fall_detect/training/__pycache__\",\"src/fall_detect/visualization/__pycache__\",\"src/fall_detection_anomaly.egg-info\",\"tests/__pycache__\",\"third_party\",\"weights/pretrained\"],\"dirs_count\":27,\"files\":[{\"path\":\".artifacts/course-review/current/sample-fall-001-1s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/current/sample-fall-001-4s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/current/sample-fall-001-5s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/current/sample-fall-001-8s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/current/sample-walk-001-1s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/current/sample-walk-001-4s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/current/sample-walk-001-5s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/current/sample-walk-001-8s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-03.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-04.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-05.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-06.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-07.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-08.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-09.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-10.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/representative_ADL_a.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/representative_ADL_n.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/representative_Fall_a.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/sample1.gif\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/thermal_000.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/thermal_001.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/thermal_003.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/thermal_005.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/thermal_007.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/thermal_008.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/upstream_gif_000.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/upstream_gif_030.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/upstream_gif_100.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/teacher/slide39-image3.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/teacher/slide40-image20.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/teacher/slide48-image17.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/teacher/slide50-image28.gif\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/figures/loss/le2i-extension-001-loss.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/figures/loss/le2i-extension-001-loss.svg\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/figures/loss/loss-side-by-side.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/figures/loss/loss-side-by-side.svg\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/figures/loss/openpose18-baseline-001-loss.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/figures/loss/openpose18-baseline-001-loss.svg\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_sequence_sampling_reads_o0/synthetic-balanced/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_sequence_sampling_reads_o1/synthetic-balanced/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261012T140837997325Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261012T140838932169Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261012T140839841775Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261012T140840506457Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261012T140841343777Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261012T140841969131Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261012T140842897728Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261012T140843602892Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"}],\"files_count\":57,\"truncated\":false,\"note\":\"Purposely not indexed — excluded BY DESIGN via gitignore/.cbmignore/skip-lists (see each file's reason). Not an error: change the ignore rules and re-index to include them.\"}}"
+        }
+      ],
+      "structuredContent": {
+        "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+        "nodes": 134514,
+        "edges": 154295,
+        "status": "ready",
+        "root_path": "C:/成大專案/fall-detection-anomaly",
+        "parse_partial": {
+          "files": [],
+          "count": 0,
+          "truncated": false
+        },
+        "skipped": {
+          "files": [],
+          "count": 0,
+          "truncated": false
+        },
+        "not_indexed": {
+          "dirs": [
+            ".git",
+            ".pytest_cache",
+            ".python",
+            ".ruff_cache",
+            ".tools",
+            ".venv",
+            "Ultralytics",
+            "data/cache",
+            "data/raw",
+            "data/retired",
+            "docs/validation/human-isotropic-legacy-source/src/fall_detect/skeleton/__pycache__",
+            "outputs",
+            "runs",
+            "scripts/__pycache__",
+            "src/fall_detect/__pycache__",
+            "src/fall_detect/data/__pycache__",
+            "src/fall_detect/detection/__pycache__",
+            "src/fall_detect/evaluation/__pycache__",
+            "src/fall_detect/models/__pycache__",
+            "src/fall_detect/pose/__pycache__",
+            "src/fall_detect/skeleton/__pycache__",
+            "src/fall_detect/training/__pycache__",
+            "src/fall_detect/visualization/__pycache__",
+            "src/fall_detection_anomaly.egg-info",
+            "tests/__pycache__",
+            "third_party",
+            "weights/pretrained"
+          ],
+          "dirs_count": 27,
+          "files": [
+            {
+              "path": ".artifacts/course-review/current/sample-fall-001-1s.jpg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/current/sample-fall-001-4s.jpg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/current/sample-fall-001-5s.jpg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/current/sample-fall-001-8s.jpg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/current/sample-walk-001-1s.jpg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/current/sample-walk-001-4s.jpg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/current/sample-walk-001-5s.jpg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/current/sample-walk-001-8s.jpg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/report-03.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/report-04.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/report-05.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/report-06.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/report-07.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/report-08.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/report-09.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/report-10.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/representative_ADL_a.jpg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/representative_ADL_n.jpg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/representative_Fall_a.jpg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/sample1.gif",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/thermal_000.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/thermal_001.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/thermal_003.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/thermal_005.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/thermal_007.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/thermal_008.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/upstream_gif_000.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/upstream_gif_030.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/upstream_gif_100.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/teacher/slide39-image3.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/teacher/slide40-image20.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/teacher/slide48-image17.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/teacher/slide50-image28.gif",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/figures/loss/le2i-extension-001-loss.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/figures/loss/le2i-extension-001-loss.svg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/figures/loss/loss-side-by-side.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/figures/loss/loss-side-by-side.svg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/figures/loss/openpose18-baseline-001-loss.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/figures/loss/openpose18-baseline-001-loss.svg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_sequence_sampling_reads_o0/synthetic-balanced/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_sequence_sampling_reads_o1/synthetic-balanced/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261012T140837997325Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261012T140838932169Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-a/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-b/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261012T140839841775Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261012T140840506457Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-a/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-b/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261012T140841343777Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261012T140841969131Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-a/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-b/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261012T140842897728Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261012T140843602892Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-a/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-b/training-curve.png",
+              "reason": "ignored-suffix"
+            }
+          ],
+          "files_count": 57,
+          "truncated": false,
+          "note": "Purposely not indexed — excluded BY DESIGN via gitignore/.cbmignore/skip-lists (see each file's reason). Not an error: change the ignore rules and re-index to include them."
+        }
+      },
+      "isError": false
+    },
+    "q_graph_status_final_start": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"project\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly\",\"nodes\":164989,\"edges\":185790,\"status\":\"ready\",\"root_path\":\"C:/成大專案/fall-detection-anomaly\",\"parse_partial\":{\"files\":[],\"count\":0,\"truncated\":false},\"skipped\":{\"files\":[],\"count\":0,\"truncated\":false},\"not_indexed\":{\"dirs\":[\".git\",\".pytest_cache\",\".python\",\".ruff_cache\",\".tools\",\".venv\",\"Ultralytics\",\"data/cache\",\"data/raw\",\"data/retired\",\"docs/validation/human-isotropic-legacy-source/src/fall_detect/skeleton/__pycache__\",\"outputs\",\"runs\",\"scripts/__pycache__\",\"src/fall_detect/__pycache__\",\"src/fall_detect/data/__pycache__\",\"src/fall_detect/detection/__pycache__\",\"src/fall_detect/evaluation/__pycache__\",\"src/fall_detect/models/__pycache__\",\"src/fall_detect/pose/__pycache__\",\"src/fall_detect/skeleton/__pycache__\",\"src/fall_detect/training/__pycache__\",\"src/fall_detect/visualization/__pycache__\",\"src/fall_detection_anomaly.egg-info\",\"tests/__pycache__\",\"third_party\",\"weights/pretrained\"],\"dirs_count\":27,\"files\":[{\"path\":\".artifacts/course-review/current/sample-fall-001-1s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/current/sample-fall-001-4s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/current/sample-fall-001-5s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/current/sample-fall-001-8s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/current/sample-walk-001-1s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/current/sample-walk-001-4s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/current/sample-walk-001-5s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/current/sample-walk-001-8s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-03.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-04.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-05.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-06.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-07.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-08.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-09.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-10.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/representative_ADL_a.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/representative_ADL_n.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/representative_Fall_a.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/sample1.gif\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/thermal_000.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/thermal_001.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/thermal_003.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/thermal_005.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/thermal_007.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/thermal_008.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/upstream_gif_000.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/upstream_gif_030.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/upstream_gif_100.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/teacher/slide39-image3.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/teacher/slide40-image20.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/teacher/slide48-image17.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/teacher/slide50-image28.gif\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_scoped_train_calibrate_ne0/run/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261013T051656195295Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261013T051656803422Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s0/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s0/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261013T051657626259Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261013T051658235090Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s1/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s1/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261013T051659071606Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261013T051659686343Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s2/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s2/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261013T051700382911Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261013T051700849943Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s3/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s3/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/figures/loss/le2i-extension-001-loss.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/figures/loss/le2i-extension-001-loss.svg\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/figures/loss/loss-side-by-side.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/figures/loss/loss-side-by-side.svg\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/figures/loss/openpose18-baseline-001-loss.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/figures/loss/openpose18-baseline-001-loss.svg\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_sequence_sampling_reads_o0/synthetic-balanced/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_sequence_sampling_reads_o1/synthetic-balanced/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261012T140837997325Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261012T140838932169Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261012T140839841775Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261012T140840506457Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261012T140841343777Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261012T140841969131Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261012T140842897728Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261012T140843602892Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-033.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-043.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-044.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-047.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-051.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-054.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-062.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-090.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/transition-pairs.png\",\"reason\":\"ignored-suffix\"}],\"files_count\":83,\"truncated\":false,\"note\":\"Purposely not indexed — excluded BY DESIGN via gitignore/.cbmignore/skip-lists (see each file's reason). Not an error: change the ignore rules and re-index to include them.\"}}"
+        }
+      ],
+      "structuredContent": {
+        "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+        "nodes": 164989,
+        "edges": 185790,
+        "status": "ready",
+        "root_path": "C:/成大專案/fall-detection-anomaly",
+        "parse_partial": {
+          "files": [],
+          "count": 0,
+          "truncated": false
+        },
+        "skipped": {
+          "files": [],
+          "count": 0,
+          "truncated": false
+        },
+        "not_indexed": {
+          "dirs": [
+            ".git",
+            ".pytest_cache",
+            ".python",
+            ".ruff_cache",
+            ".tools",
+            ".venv",
+            "Ultralytics",
+            "data/cache",
+            "data/raw",
+            "data/retired",
+            "docs/validation/human-isotropic-legacy-source/src/fall_detect/skeleton/__pycache__",
+            "outputs",
+            "runs",
+            "scripts/__pycache__",
+            "src/fall_detect/__pycache__",
+            "src/fall_detect/data/__pycache__",
+            "src/fall_detect/detection/__pycache__",
+            "src/fall_detect/evaluation/__pycache__",
+            "src/fall_detect/models/__pycache__",
+            "src/fall_detect/pose/__pycache__",
+            "src/fall_detect/skeleton/__pycache__",
+            "src/fall_detect/training/__pycache__",
+            "src/fall_detect/visualization/__pycache__",
+            "src/fall_detection_anomaly.egg-info",
+            "tests/__pycache__",
+            "third_party",
+            "weights/pretrained"
+          ],
+          "dirs_count": 27,
+          "files": [
+            {
+              "path": ".artifacts/course-review/current/sample-fall-001-1s.jpg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/current/sample-fall-001-4s.jpg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/current/sample-fall-001-5s.jpg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/current/sample-fall-001-8s.jpg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/current/sample-walk-001-1s.jpg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/current/sample-walk-001-4s.jpg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/current/sample-walk-001-5s.jpg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/current/sample-walk-001-8s.jpg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/report-03.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/report-04.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/report-05.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/report-06.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/report-07.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/report-08.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/report-09.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/report-10.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/representative_ADL_a.jpg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/representative_ADL_n.jpg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/representative_Fall_a.jpg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/sample1.gif",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/thermal_000.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/thermal_001.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/thermal_003.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/thermal_005.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/thermal_007.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/thermal_008.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/upstream_gif_000.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/upstream_gif_030.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/sample/upstream_gif_100.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/teacher/slide39-image3.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/teacher/slide40-image20.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/teacher/slide48-image17.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/course-review/teacher/slide50-image28.gif",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/pose-resolution-risk-20261013-001/test_scoped_train_calibrate_ne0/run/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261013T051656195295Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261013T051656803422Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s0/synthetic-run-a/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s0/synthetic-run-b/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261013T051657626259Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261013T051658235090Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s1/synthetic-run-a/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s1/synthetic-run-b/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261013T051659071606Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261013T051659686343Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s2/synthetic-run-a/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s2/synthetic-run-b/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261013T051700382911Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261013T051700849943Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s3/synthetic-run-a/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s3/synthetic-run-b/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/figures/loss/le2i-extension-001-loss.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/figures/loss/le2i-extension-001-loss.svg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/figures/loss/loss-side-by-side.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/figures/loss/loss-side-by-side.svg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/figures/loss/openpose18-baseline-001-loss.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/figures/loss/openpose18-baseline-001-loss.svg",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_sequence_sampling_reads_o0/synthetic-balanced/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_sequence_sampling_reads_o1/synthetic-balanced/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261012T140837997325Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261012T140838932169Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-a/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-b/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261012T140839841775Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261012T140840506457Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-a/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-b/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261012T140841343777Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261012T140841969131Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-a/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-b/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261012T140842897728Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261012T140843602892Z/confusion-matrix.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-a/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-b/training-curve.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-033.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-043.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-044.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-047.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-051.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-054.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-062.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-090.png",
+              "reason": "ignored-suffix"
+            },
+            {
+              "path": "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/transition-pairs.png",
+              "reason": "ignored-suffix"
+            }
+          ],
+          "files_count": 83,
+          "truncated": false,
+          "note": "Purposely not indexed — excluded BY DESIGN via gitignore/.cbmignore/skip-lists (see each file's reason). Not an error: change the ignore rules and re-index to include them."
+        }
+      },
+      "isError": false
+    },
+    "q_graph_search_0": {
+      "content": [
+        {
+          "type": "text",
+          "text": "total: 17\nresults: 17  (rows: name label lines in out; qn = group prefix + \".\" + name)\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.action-display-legacy-source.src.fall_detect.models.stgcn (docs/validation/action-display-legacy-source/src/fall_detect/models/stgcn.py):\n  HumanFeatureExtractor Class 15-50 15 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-context-legacy-source.src.fall_detect.models.stgcn (docs/validation/human-context-legacy-source/src/fall_detect/models/stgcn.py):\n  HumanFeatureExtractor Class 15-46 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-displacement-legacy-source.src.fall_detect.models.stgcn (docs/validation/human-displacement-legacy-source/src/fall_detect/models/stgcn.py):\n  HumanFeatureExtractor Class 15-47 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-flip-legacy-source.src.fall_detect.pose.human (docs/validation/human-flip-legacy-source/src/fall_detect/pose/human.py):\n  HumanPoseBackend Class 82-202 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.normal-data-support-20261012-source-v1 (docs/validation/normal-data-support-20261012-source-v1.py):\n  MirrorExtractor Class 340-359 1 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.pose-recovery-source.yolo (docs/validation/pose-recovery-source/yolo.py):\n  YoloPoseBackend Class 114-172 1 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.sample-display-legacy-source.src.fall_detect.models.stgcn (docs/validation/sample-display-legacy-source/src/fall_detect/models/stgcn.py):\n  HumanFeatureExtractor Class 15-66 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.sample-human-legacy-source.pose_human (docs/validation/sample-human-legacy-source/pose_human.py):\n  HumanPoseBackend Class 58-171 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.normal_data_support (scripts/normal_data_support.py):\n  MirrorExtractor Class 346-365 1 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.ur_train_shift (scripts/ur_train_shift.py):\n  ShiftExtractor Class 178-213 1 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.contracts (src/fall_detect/contracts.py):\n  PoseRecord Class 30-43 13 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.models.openpose_stgcn (src/fall_detect/models/openpose_stgcn.py):\n  OpenPoseFeatureExtractor Class 11-40 2 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.models.stgcn (src/fall_detect/models/stgcn.py):\n  HumanFeatureExtractor Class 15-78 1 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.pose.human (src/fall_detect/pose/human.py):\n  HumanPoseBackend Class 98-220 1 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.pose.lightweight (src/fall_detect/pose/lightweight.py):\n  LightweightPoseBackend Class 87-232 4 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.pose.yolo (src/fall_detect/pose/yolo.py):\n  YoloPoseBackend Class 114-172 1 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_streaming_video (tests/test_streaming_video.py):\n  SyntheticExtractor Class 17-22 3 0\nhas_more: false\n"
+        }
+      ],
+      "isError": false
+    },
+    "q_graph_search_1": {
+      "content": [
+        {
+          "type": "text",
+          "text": "total: 22\nresults: 22  (rows: name label lines in out; qn = group prefix + \".\" + name)\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.action-display-legacy-source.src.fall_detect.models.stgcn (docs/validation/action-display-legacy-source/src/fall_detect/models/stgcn.py):\n  HumanFeatureExtractor Class 15-50 15 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.action-display-legacy-source.src.fall_detect.models.stgcn.HumanFeatureExtractor (docs/validation/action-display-legacy-source/src/fall_detect/models/stgcn.py):\n  extract_features Method 35-50 10 10\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-context-legacy-source.src.fall_detect.models.stgcn (docs/validation/human-context-legacy-source/src/fall_detect/models/stgcn.py):\n  HumanFeatureExtractor Class 15-46 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-context-legacy-source.src.fall_detect.models.stgcn.HumanFeatureExtractor (docs/validation/human-context-legacy-source/src/fall_detect/models/stgcn.py):\n  extract_features Method 33-46 0 9\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-context-legacy-source.src.fall_detect.skeleton.preprocessing (docs/validation/human-context-legacy-source/src/fall_detect/skeleton/preprocessing.py):\n  good_frame Function 30-39 10 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-displacement-legacy-source.src.fall_detect.models.stgcn (docs/validation/human-displacement-legacy-source/src/fall_detect/models/stgcn.py):\n  HumanFeatureExtractor Class 15-47 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-displacement-legacy-source.src.fall_detect.models.stgcn.HumanFeatureExtractor (docs/validation/human-displacement-legacy-source/src/fall_detect/models/stgcn.py):\n  extract_features Method 34-47 0 10\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-displacement-legacy-source.src.fall_detect.skeleton.preprocessing (docs/validation/human-displacement-legacy-source/src/fall_detect/skeleton/preprocessing.py):\n  good_frame Function 30-39 1 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-isotropic-legacy-source.src.fall_detect.skeleton.preprocessing (docs/validation/human-isotropic-legacy-source/src/fall_detect/skeleton/preprocessing.py):\n  good_frame Function 30-39 2 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.sample-display-legacy-source.src.fall_detect.models.stgcn (docs/validation/sample-display-legacy-source/src/fall_detect/models/stgcn.py):\n  HumanFeatureExtractor Class 15-66 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.sample-display-legacy-source.src.fall_detect.models.stgcn.HumanFeatureExtractor (docs/validation/sample-display-legacy-source/src/fall_detect/models/stgcn.py):\n  extract_features Method 35-50 0 10\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-short20-isotropic-20261012-prior-source.src.fall_detect.pipeline (docs/validation/ur-short20-isotropic-20261012-prior-source/src/fall_detect/pipeline.py):\n  prepare Function 221-409 1 41\n  reuse_prepared_sequence Function 183-218 2 12\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.assets (src/fall_detect/assets.py):\n  safe_extract Function 204-224 3 5\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.models.openpose_stgcn (src/fall_detect/models/openpose_stgcn.py):\n  OpenPoseFeatureExtractor Class 11-40 2 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.models.openpose_stgcn.OpenPoseFeatureExtractor (src/fall_detect/models/openpose_stgcn.py):\n  extract_features Method 27-40 1 7\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.models.stgcn (src/fall_detect/models/stgcn.py):\n  HumanFeatureExtractor Class 15-78 1 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.models.stgcn.HumanFeatureExtractor (src/fall_detect/models/stgcn.py):\n  extract_features Method 35-50 0 10\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.pipeline (src/fall_detect/pipeline.py):\n  prepare Function 221-419 3 42\n  reuse_prepared_sequence Function 183-218 1 12\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.pose.lightweight (src/fall_detect/pose/lightweight.py):\n  prepare_image Function 23-37 2 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.skeleton.preprocessing (src/fall_detect/skeleton/preprocessing.py):\n  good_frame Function 30-39 10 1\nhas_more: false\n"
+        }
+      ],
+      "isError": false
+    },
+    "q_graph_search_2": {
+      "content": [
+        {
+          "type": "text",
+          "text": "total: 13\nresults: 13  (rows: name label lines in out; qn = group prefix + \".\" + name)\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.accuracy_first (scripts/accuracy_first.py):\n  pilot Function 93-143 0 20\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.dense_schedule (scripts/dense_schedule.py):\n  pilot Function 183-218 0 14\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.human_context (scripts/human_context.py):\n  pilot Function 198-264 0 17\n  pilot_stats Function 164-195 1 12\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.human_displacement (scripts/human_displacement.py):\n  pilot Function 198-280 0 25\n  pilot_stats Function 164-195 1 12\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.human_isotropic (scripts/human_isotropic.py):\n  pilot Function 117-167 0 26\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.human_quality (scripts/human_quality.py):\n  pilot Function 155-204 0 15\n  pilot_stats Function 129-152 1 13\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.human_residual (scripts/human_residual.py):\n  visible_pose_keys Function 90-114 8 15\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.pose_recovery (scripts/pose_recovery.py):\n  pilot Function 127-193 0 19\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.sample_human (scripts/sample_human.py):\n  pilot Function 115-182 0 20\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.ur_short20_isotropic (scripts/ur_short20_isotropic.py):\n  pilot Function 217-286 0 19\nhas_more: false\n"
+        }
+      ],
+      "isError": false
+    },
+    "q_graph_coverage_initial": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"project\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly\",\"signal\":\"best_effort\",\"indexed_at\":\"2026-10-12T16:10:25Z\",\"metadata\":{\"generation\":\"2026-10-12T16:10:25Z\",\"index_mode\":\"full\",\"recorded_at\":\"2026-10-12T16:10:27Z\",\"recording_status\":\"complete\",\"ignored_files_stored\":57,\"ignored_files_total\":57,\"hash_records_complete\":true,\"coverage_version\":3,\"generation_matches\":true},\"paths\":[{\"requested_path\":\"src/fall_detect/pose/human.py\",\"path\":\"src/fall_detect/pose/human.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/skeleton/preprocessing.py\",\"path\":\"src/fall_detect/skeleton/preprocessing.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/skeleton/windows.py\",\"path\":\"src/fall_detect/skeleton/windows.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/models/stgcn.py\",\"path\":\"src/fall_detect/models/stgcn.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/pipeline.py\",\"path\":\"src/fall_detect/pipeline.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/contracts.py\",\"path\":\"src/fall_detect/contracts.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"scripts/pose_recovery.py\",\"path\":\"scripts/pose_recovery.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"scripts/human_quality.py\",\"path\":\"scripts/human_quality.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"scripts/ur_short20_isotropic.py\",\"path\":\"scripts/ur_short20_isotropic.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"scripts/ur_motion_novelty.py\",\"path\":\"scripts/ur_motion_novelty.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]}],\"scopes\":[],\"caveat\":\"Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable.\"}"
+        }
+      ],
+      "structuredContent": {
+        "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+        "signal": "best_effort",
+        "indexed_at": "2026-10-12T16:10:25Z",
+        "metadata": {
+          "generation": "2026-10-12T16:10:25Z",
+          "index_mode": "full",
+          "recorded_at": "2026-10-12T16:10:27Z",
+          "recording_status": "complete",
+          "ignored_files_stored": 57,
+          "ignored_files_total": 57,
+          "hash_records_complete": true,
+          "coverage_version": 3,
+          "generation_matches": true
+        },
+        "paths": [
+          {
+            "requested_path": "src/fall_detect/pose/human.py",
+            "path": "src/fall_detect/pose/human.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/skeleton/preprocessing.py",
+            "path": "src/fall_detect/skeleton/preprocessing.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/skeleton/windows.py",
+            "path": "src/fall_detect/skeleton/windows.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/models/stgcn.py",
+            "path": "src/fall_detect/models/stgcn.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/pipeline.py",
+            "path": "src/fall_detect/pipeline.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/contracts.py",
+            "path": "src/fall_detect/contracts.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "scripts/pose_recovery.py",
+            "path": "scripts/pose_recovery.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "scripts/human_quality.py",
+            "path": "scripts/human_quality.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "scripts/ur_short20_isotropic.py",
+            "path": "scripts/ur_short20_isotropic.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "scripts/ur_motion_novelty.py",
+            "path": "scripts/ur_motion_novelty.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          }
+        ],
+        "scopes": [],
+        "caveat": "Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable."
+      },
+      "isError": false
+    },
+    "q_snippet_pose": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"name\":\"HumanPoseBackend\",\"qualified_name\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.pose.human.HumanPoseBackend\",\"label\":\"Class\",\"file_path\":\"C:/成大專案/fall-detection-anomaly/src/fall_detect/pose/human.py\",\"start_line\":98,\"end_line\":220,\"source\":\"class HumanPoseBackend:\\n    def __init__(self, config, resources, device):\\n        import_upstream(config)\\n        from Detection.Models import Darknet\\n        from Detection.Utils import ResizePadding, non_max_suppression\\n        from SPPE.src.models.FastPose import FastPose\\n        from SPPE.src.utils.eval import getPrediction\\n        from SPPE.src.utils.img import crop_dets\\n        from Track.Tracker import Detection, Tracker\\n\\n        self.config, self.device = config, device\\n        self.options = config[\\\"pose\\\"]\\n        self.size = self.options[\\\"detector_size\\\"]\\n        self.detector = Darknet(str(project_path(resources[\\\"detector_config\\\"][\\\"local_path\\\"])))\\n        self.pose = FastPose(\\\"resnet50\\\", 17)\\n        self.load_reports = {}\\n        for role, model in [(\\\"detector\\\", self.detector), (\\\"pose\\\", self.pose)]:\\n            entry = resources[role]\\n            self.load_reports[role] = strict_load(\\n                model, project_path(entry[\\\"local_path\\\"]), device, entry[\\\"sha256\\\"]\\n            )\\n        self.resize = ResizePadding(self.size, self.size)\\n        self.nms, self.crop, self.decode = non_max_suppression, crop_dets, getPrediction\\n        self.Tracker, self.Detection = Tracker, Detection\\n        self.reset()\\n\\n    def reset(self):\\n        self.tracker = self.Tracker(\\n            max_age=self.options[\\\"track_max_age\\\"], n_init=self.options[\\\"track_n_init\\\"]\\n        )\\n        self.sequence_id = None\\n        self.forward_verified = False\\n\\n    @torch.inference_mode()\\n    def predict(self, frame):\\n        if self.sequence_id is None:\\n            self.sequence_id = frame.sequence_id\\n        if frame.sequence_id != self.sequence_id:\\n            raise ContractError(\\\"Reset pose tracker before processing a different sequence\\\")\\n        if frame.source_missing:\\n            self.tracker.predict()\\n            self.tracker.update([])\\n            return []\\n        rgb = cv2.cvtColor(frame.image_bgr, cv2.COLOR_BGR2RGB)\\n        scaled = self.resize(rgb)\\n        tensor = (\\n            torch.from_numpy(np.ascontiguousarray(scaled.transpose(2, 0, 1)))\\n            .float()\\n            .div(255)[None]\\n            .to(self.device)\\n        )\\n        predicted = self.detector(tensor)\\n        boxes = self.nms(\\n            predicted, self.options[\\\"detector_confidence\\\"], self.options[\\\"nms_threshold\\\"]\\n        )[0]\\n        detections = []\\n        detector_scores = {}\\n        self.tracker.predict()\\n        if boxes is not None:\\n            boxes = boxes.detach().cpu()\\n            scale = min(self.size / frame.width, self.size / frame.height)\\n            boxes[:, [0, 2]] -= (self.size - scale * frame.width) / 2\\n            boxes[:, [1, 3]] -= (self.size - scale * frame.height) / 2\\n            boxes[:, :4] /= scale\\n            boxes[:, :2] -= 5\\n            boxes[:, 2:4] += 5\\n            boxes[:, [0, 2]] = boxes[:, [0, 2]].clamp(0, frame.width - 1)\\n            boxes[:, [1, 3]] = boxes[:, [1, 3]].clamp(0, frame.height - 1)\\n            keep = (boxes[:, 2] > boxes[:, 0] + 1) & (boxes[:, 3] > boxes[:, 1] + 1)\\n            boxes = boxes[keep]\\n        if self.options.get(\\\"use_track_proposals\\\", False):\\n            boxes = add_track_proposals(\\n                boxes,\\n                self.tracker.tracks,\\n                (frame.width, frame.height),\\n                self.options[\\\"track_max_age\\\"],\\n            )\\n        if boxes is not None and len(boxes):\\n            height, width = self.options[\\\"input_height\\\"], self.options[\\\"input_width\\\"]\\n            crops, corner1, corner2 = self.crop(rgb, boxes[:, :4], height, width)\\n            heatmaps = pose_heatmaps(\\n                self.pose, crops.to(self.device), self.options.get(\\\"flip_tta\\\", False)\\n            ).cpu()[:, COCO17_KEEP, ...]\\n            if not torch.isfinite(heatmaps).all():\\n                raise ContractError(\\\"Non-finite AlphaPose heatmap\\\")\\n            _, xy, confidence = self.decode(\\n                heatmaps,\\n                corner1,\\n                corner2,\\n                height,\\n                width,\\n                heatmaps.shape[-2],\\n                heatmaps.shape[-1],\\n            )\\n            poses = pose_nms_compatible(boxes[:, :4], boxes[:, 4], xy, confidence)\\n            self.forward_verified = True\\n            for pose in poses:\\n                keypoints = torch.cat((pose[\\\"keypoints\\\"], pose[\\\"kp_score\\\"]), dim=1).numpy()\\n                xy = keypoints[:, :2]\\n                box = np.r_[xy.min(axis=0) - 20, xy.max(axis=0) + 20]\\n                detections.append(self.Detection(box, keypoints, float(keypoints[:, 2].mean())))\\n                detector_scores[keypoints.tobytes()] = float(pose[\\\"bbox_score\\\"])\\n        self.tracker.update(detections)\\n        results = []\\n        for track in self.tracker.tracks:\\n            if not track.is_confirmed() or track.time_since_update != 0 or not track.keypoints_list:\\n                continue\\n            keypoints = np.asarray(track.keypoints_list[-1], dtype=np.float32)\\n            results.append(\\n                PoseRecord(\\n                    frame.sequence_id,\\n                    frame.source_frame_id,\\n                    frame.sample_index,\\n                    frame.timestamp_ms,\\n                    track.track_id,\\n                    track.to_tlbr(),\\n                    keypoints,\\n                    (frame.width, frame.height),\\n                    detector_scores.get(keypoints.tobytes(), 0.0),\\n                    \\\"valid\\\" if good_frame(keypoints, self.config[\\\"quality\\\"]) else \\\"low_confidence\\\",\\n                )\\n            )\\n        return results\\n\",\"callers\":1,\"callees\":0}"
+        }
+      ],
+      "structuredContent": {
+        "name": "HumanPoseBackend",
+        "qualified_name": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.pose.human.HumanPoseBackend",
+        "label": "Class",
+        "file_path": "C:/成大專案/fall-detection-anomaly/src/fall_detect/pose/human.py",
+        "start_line": 98,
+        "end_line": 220,
+        "source": "class HumanPoseBackend:\n    def __init__(self, config, resources, device):\n        import_upstream(config)\n        from Detection.Models import Darknet\n        from Detection.Utils import ResizePadding, non_max_suppression\n        from SPPE.src.models.FastPose import FastPose\n        from SPPE.src.utils.eval import getPrediction\n        from SPPE.src.utils.img import crop_dets\n        from Track.Tracker import Detection, Tracker\n\n        self.config, self.device = config, device\n        self.options = config[\"pose\"]\n        self.size = self.options[\"detector_size\"]\n        self.detector = Darknet(str(project_path(resources[\"detector_config\"][\"local_path\"])))\n        self.pose = FastPose(\"resnet50\", 17)\n        self.load_reports = {}\n        for role, model in [(\"detector\", self.detector), (\"pose\", self.pose)]:\n            entry = resources[role]\n            self.load_reports[role] = strict_load(\n                model, project_path(entry[\"local_path\"]), device, entry[\"sha256\"]\n            )\n        self.resize = ResizePadding(self.size, self.size)\n        self.nms, self.crop, self.decode = non_max_suppression, crop_dets, getPrediction\n        self.Tracker, self.Detection = Tracker, Detection\n        self.reset()\n\n    def reset(self):\n        self.tracker = self.Tracker(\n            max_age=self.options[\"track_max_age\"], n_init=self.options[\"track_n_init\"]\n        )\n        self.sequence_id = None\n        self.forward_verified = False\n\n    @torch.inference_mode()\n    def predict(self, frame):\n        if self.sequence_id is None:\n            self.sequence_id = frame.sequence_id\n        if frame.sequence_id != self.sequence_id:\n            raise ContractError(\"Reset pose tracker before processing a different sequence\")\n        if frame.source_missing:\n            self.tracker.predict()\n            self.tracker.update([])\n            return []\n        rgb = cv2.cvtColor(frame.image_bgr, cv2.COLOR_BGR2RGB)\n        scaled = self.resize(rgb)\n        tensor = (\n            torch.from_numpy(np.ascontiguousarray(scaled.transpose(2, 0, 1)))\n            .float()\n            .div(255)[None]\n            .to(self.device)\n        )\n        predicted = self.detector(tensor)\n        boxes = self.nms(\n            predicted, self.options[\"detector_confidence\"], self.options[\"nms_threshold\"]\n        )[0]\n        detections = []\n        detector_scores = {}\n        self.tracker.predict()\n        if boxes is not None:\n            boxes = boxes.detach().cpu()\n            scale = min(self.size / frame.width, self.size / frame.height)\n            boxes[:, [0, 2]] -= (self.size - scale * frame.width) / 2\n            boxes[:, [1, 3]] -= (self.size - scale * frame.height) / 2\n            boxes[:, :4] /= scale\n            boxes[:, :2] -= 5\n            boxes[:, 2:4] += 5\n            boxes[:, [0, 2]] = boxes[:, [0, 2]].clamp(0, frame.width - 1)\n            boxes[:, [1, 3]] = boxes[:, [1, 3]].clamp(0, frame.height - 1)\n            keep = (boxes[:, 2] > boxes[:, 0] + 1) & (boxes[:, 3] > boxes[:, 1] + 1)\n            boxes = boxes[keep]\n        if self.options.get(\"use_track_proposals\", False):\n            boxes = add_track_proposals(\n                boxes,\n                self.tracker.tracks,\n                (frame.width, frame.height),\n                self.options[\"track_max_age\"],\n            )\n        if boxes is not None and len(boxes):\n            height, width = self.options[\"input_height\"], self.options[\"input_width\"]\n            crops, corner1, corner2 = self.crop(rgb, boxes[:, :4], height, width)\n            heatmaps = pose_heatmaps(\n                self.pose, crops.to(self.device), self.options.get(\"flip_tta\", False)\n            ).cpu()[:, COCO17_KEEP, ...]\n            if not torch.isfinite(heatmaps).all():\n                raise ContractError(\"Non-finite AlphaPose heatmap\")\n            _, xy, confidence = self.decode(\n                heatmaps,\n                corner1,\n                corner2,\n                height,\n                width,\n                heatmaps.shape[-2],\n                heatmaps.shape[-1],\n            )\n            poses = pose_nms_compatible(boxes[:, :4], boxes[:, 4], xy, confidence)\n            self.forward_verified = True\n            for pose in poses:\n                keypoints = torch.cat((pose[\"keypoints\"], pose[\"kp_score\"]), dim=1).numpy()\n                xy = keypoints[:, :2]\n                box = np.r_[xy.min(axis=0) - 20, xy.max(axis=0) + 20]\n                detections.append(self.Detection(box, keypoints, float(keypoints[:, 2].mean())))\n                detector_scores[keypoints.tobytes()] = float(pose[\"bbox_score\"])\n        self.tracker.update(detections)\n        results = []\n        for track in self.tracker.tracks:\n            if not track.is_confirmed() or track.time_since_update != 0 or not track.keypoints_list:\n                continue\n            keypoints = np.asarray(track.keypoints_list[-1], dtype=np.float32)\n            results.append(\n                PoseRecord(\n                    frame.sequence_id,\n                    frame.source_frame_id,\n                    frame.sample_index,\n                    frame.timestamp_ms,\n                    track.track_id,\n                    track.to_tlbr(),\n                    keypoints,\n                    (frame.width, frame.height),\n                    detector_scores.get(keypoints.tobytes(), 0.0),\n                    \"valid\" if good_frame(keypoints, self.config[\"quality\"]) else \"low_confidence\",\n                )\n            )\n        return results\n",
+        "callers": 1,
+        "callees": 0
+      },
+      "isError": false
+    },
+    "q_snippet_good": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"name\":\"good_frame\",\"qualified_name\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.skeleton.preprocessing.good_frame\",\"label\":\"Function\",\"file_path\":\"C:/成大專案/fall-detection-anomaly/src/fall_detect/skeleton/preprocessing.py\",\"start_line\":30,\"end_line\":39,\"source\":\"def good_frame(points, quality, joints=13, derived_joints=()):\\n    points = np.asarray(points)\\n    measured = np.ones(joints, dtype=bool)\\n    measured[list(derived_joints)] = False\\n    return (\\n        points.shape == (joints, 3)\\n        and np.isfinite(points).all()\\n        and np.count_nonzero(points[measured, 2] >= quality[\\\"min_joint_confidence\\\"])\\n        >= quality[\\\"min_valid_joints\\\"]\\n    )\\n\",\"callers\":10,\"callees\":1}"
+        }
+      ],
+      "structuredContent": {
+        "name": "good_frame",
+        "qualified_name": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.skeleton.preprocessing.good_frame",
+        "label": "Function",
+        "file_path": "C:/成大專案/fall-detection-anomaly/src/fall_detect/skeleton/preprocessing.py",
+        "start_line": 30,
+        "end_line": 39,
+        "source": "def good_frame(points, quality, joints=13, derived_joints=()):\n    points = np.asarray(points)\n    measured = np.ones(joints, dtype=bool)\n    measured[list(derived_joints)] = False\n    return (\n        points.shape == (joints, 3)\n        and np.isfinite(points).all()\n        and np.count_nonzero(points[measured, 2] >= quality[\"min_joint_confidence\"])\n        >= quality[\"min_valid_joints\"]\n    )\n",
+        "callers": 10,
+        "callees": 1
+      },
+      "isError": false
+    },
+    "q_snippet_extractor": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"name\":\"HumanFeatureExtractor\",\"qualified_name\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.models.stgcn.HumanFeatureExtractor\",\"label\":\"Class\",\"file_path\":\"C:/成大專案/fall-detection-anomaly/src/fall_detect/models/stgcn.py\",\"start_line\":15,\"end_line\":78,\"source\":\"class HumanFeatureExtractor:\\n    feature_dim = 512\\n    recipe_id = RECIPE_ID\\n\\n    def __init__(self, config, resources, device):\\n        import_upstream(config)\\n        from Actionsrecognition.Models import TwoStreamSpatialTemporalGraph\\n\\n        self.model = TwoStreamSpatialTemporalGraph({\\\"strategy\\\": \\\"spatial\\\"}, 7)\\n        entry = resources[\\\"stgcn\\\"]\\n        self.load_report = strict_load(\\n            self.model, project_path(entry[\\\"local_path\\\"]), device, entry[\\\"sha256\\\"]\\n        )\\n        self.device = device\\n        self.tolerance = config[\\\"skeleton\\\"][\\\"span_tolerance\\\"]\\n        self.window_size = config[\\\"skeleton\\\"][\\\"window_size\\\"]\\n        self.normalization = config[\\\"skeleton\\\"].get(\\\"coordinate_normalization\\\", \\\"per_frame\\\")\\n        self.forward_verified = False\\n\\n    @torch.inference_mode()\\n    def extract_features(self, skeleton, frame_size_wh):\\n        points, motion = human_preprocess(\\n            skeleton, frame_size_wh, self.tolerance, self.window_size, self.normalization\\n        )\\n        self.model.eval()\\n        points = torch.from_numpy(points).to(self.device)\\n        motion = torch.from_numpy(motion).to(self.device)\\n        features = concatenate_streams(self.model, points, motion)\\n        if features.shape != (1, self.feature_dim) or not torch.isfinite(features).all():\\n            raise ContractError(\\\"ST-GCN failed to produce finite [1,512] features\\\")\\n        if not self.forward_verified:\\n            original = self.model((points, motion))\\n            reconstructed = torch.sigmoid(self.model.fcn(features))\\n            torch.testing.assert_close(reconstructed, original, atol=1e-6, rtol=1e-5)\\n            self.forward_verified = True\\n        return features.cpu().numpy().astype(np.float32)\\n\\n    @torch.inference_mode()\\n    def action_scores(self, features):\\n        \\\"\\\"\\\"Original seven-class head on raw pooled features; never AE input or evidence.\\\"\\\"\\\"\\n        if self.window_size != 30 or self.normalization != \\\"per_frame\\\":\\n            raise ContractError(\\\"Action display requires original30 per-frame Human features\\\")\\n        values = np.array(features, dtype=np.float32, copy=True)\\n        if values.ndim != 2 or values.shape[1] != self.feature_dim or not len(values):\\n            raise ContractError(\\\"Action head requires raw [N,512] Human features\\\")\\n        if not np.isfinite(values).all():\\n            raise ContractError(\\\"Non-finite action features\\\")\\n        self.model.eval()\\n        scores = torch.sigmoid(self.model.fcn(torch.from_numpy(values).to(self.device)))\\n        if scores.shape != (len(values), 7) or not torch.isfinite(scores).all():\\n            raise ContractError(\\\"Invalid Human action head output\\\")\\n        return scores.cpu().numpy().copy()\\n\\n    @torch.inference_mode()\\n    def classify_observations(self, skeleton, frame_size_wh):\\n        \\\"\\\"\\\"Display-only original30/per-frame forward, independent of the AE recipe.\\\"\\\"\\\"\\n        points, motion = human_preprocess(skeleton, frame_size_wh, self.tolerance, 30, \\\"per_frame\\\")\\n        self.model.eval()\\n        scores = self.model(\\n            (torch.from_numpy(points).to(self.device), torch.from_numpy(motion).to(self.device))\\n        )\\n        if scores.shape != (1, 7) or not torch.isfinite(scores).all():\\n            raise ContractError(\\\"Invalid independent Human action head output\\\")\\n        return scores.cpu().numpy().copy()\\n\",\"callers\":1,\"callees\":0}"
+        }
+      ],
+      "structuredContent": {
+        "name": "HumanFeatureExtractor",
+        "qualified_name": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.models.stgcn.HumanFeatureExtractor",
+        "label": "Class",
+        "file_path": "C:/成大專案/fall-detection-anomaly/src/fall_detect/models/stgcn.py",
+        "start_line": 15,
+        "end_line": 78,
+        "source": "class HumanFeatureExtractor:\n    feature_dim = 512\n    recipe_id = RECIPE_ID\n\n    def __init__(self, config, resources, device):\n        import_upstream(config)\n        from Actionsrecognition.Models import TwoStreamSpatialTemporalGraph\n\n        self.model = TwoStreamSpatialTemporalGraph({\"strategy\": \"spatial\"}, 7)\n        entry = resources[\"stgcn\"]\n        self.load_report = strict_load(\n            self.model, project_path(entry[\"local_path\"]), device, entry[\"sha256\"]\n        )\n        self.device = device\n        self.tolerance = config[\"skeleton\"][\"span_tolerance\"]\n        self.window_size = config[\"skeleton\"][\"window_size\"]\n        self.normalization = config[\"skeleton\"].get(\"coordinate_normalization\", \"per_frame\")\n        self.forward_verified = False\n\n    @torch.inference_mode()\n    def extract_features(self, skeleton, frame_size_wh):\n        points, motion = human_preprocess(\n            skeleton, frame_size_wh, self.tolerance, self.window_size, self.normalization\n        )\n        self.model.eval()\n        points = torch.from_numpy(points).to(self.device)\n        motion = torch.from_numpy(motion).to(self.device)\n        features = concatenate_streams(self.model, points, motion)\n        if features.shape != (1, self.feature_dim) or not torch.isfinite(features).all():\n            raise ContractError(\"ST-GCN failed to produce finite [1,512] features\")\n        if not self.forward_verified:\n            original = self.model((points, motion))\n            reconstructed = torch.sigmoid(self.model.fcn(features))\n            torch.testing.assert_close(reconstructed, original, atol=1e-6, rtol=1e-5)\n            self.forward_verified = True\n        return features.cpu().numpy().astype(np.float32)\n\n    @torch.inference_mode()\n    def action_scores(self, features):\n        \"\"\"Original seven-class head on raw pooled features; never AE input or evidence.\"\"\"\n        if self.window_size != 30 or self.normalization != \"per_frame\":\n            raise ContractError(\"Action display requires original30 per-frame Human features\")\n        values = np.array(features, dtype=np.float32, copy=True)\n        if values.ndim != 2 or values.shape[1] != self.feature_dim or not len(values):\n            raise ContractError(\"Action head requires raw [N,512] Human features\")\n        if not np.isfinite(values).all():\n            raise ContractError(\"Non-finite action features\")\n        self.model.eval()\n        scores = torch.sigmoid(self.model.fcn(torch.from_numpy(values).to(self.device)))\n        if scores.shape != (len(values), 7) or not torch.isfinite(scores).all():\n            raise ContractError(\"Invalid Human action head output\")\n        return scores.cpu().numpy().copy()\n\n    @torch.inference_mode()\n    def classify_observations(self, skeleton, frame_size_wh):\n        \"\"\"Display-only original30/per-frame forward, independent of the AE recipe.\"\"\"\n        points, motion = human_preprocess(skeleton, frame_size_wh, self.tolerance, 30, \"per_frame\")\n        self.model.eval()\n        scores = self.model(\n            (torch.from_numpy(points).to(self.device), torch.from_numpy(motion).to(self.device))\n        )\n        if scores.shape != (1, 7) or not torch.isfinite(scores).all():\n            raise ContractError(\"Invalid independent Human action head output\")\n        return scores.cpu().numpy().copy()\n",
+        "callers": 1,
+        "callees": 0
+      },
+      "isError": false
+    },
+    "q_graph_pose_trace": {
+      "content": [
+        {
+          "type": "text",
+          "text": "function: C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.pose.human.HumanPoseBackend.predict\ndirection: outbound\ncallees_total: 12\ncallees: 12  (rows: name hop strategy confidence; qn = group prefix + \".\" + name)\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.isotropic-refinement-20261012-diagnosis:\n  mean 1 heuristic 0.38\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.target95-yolo-parity:\n  cpu 1 heuristic 0.38\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.contracts:\n  PoseRecord 1 lsp 0.85\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.io_utils:\n  ContractError 1 lsp 0.85\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.pose.human:\n  add_track_proposals 1 lsp 0.90\n  pose_heatmaps 1 lsp 0.85\n  pose_nms_compatible 1 lsp 0.92\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.skeleton.preprocessing:\n  good_frame 1 lsp 0.97\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.visualization.action_status.ActionDisplayState:\n  update 1 heuristic 0.28\nbuiltins.dict:\n  get 1 lsp 0.90\nbuiltins:\n  len 1 lsp 0.92\nbuiltins.list:\n  append 1 lsp 0.90\n"
+        }
+      ],
+      "isError": false
+    },
+    "q_graph_train_search": {
+      "content": [
+        {
+          "type": "text",
+          "text": "total: 13\nresults: 13  (rows: name label lines in out; qn = group prefix + \".\" + name)\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-flip-legacy-source.src.fall_detect.training.experiment (docs/validation/human-flip-legacy-source/src/fall_detect/training/experiment.py):\n  calibrate Function 520-570 15 18\n  load_index Function 31-48 9 7\n  train Function 139-166 17 6\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-residual-legacy-source.src.fall_detect.training.experiment (docs/validation/human-residual-legacy-source/src/fall_detect/training/experiment.py):\n  calibrate Function 503-551 0 18\n  load_index Function 31-48 2 7\n  train Function 139-164 1 6\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-short20-isotropic-20261012-prior-source.src.fall_detect.training.experiment (docs/validation/ur-short20-isotropic-20261012-prior-source/src/fall_detect/training/experiment.py):\n  calibrate Function 527-577 6 18\n  load_index Function 31-48 8 7\n  train Function 139-166 2 6\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.recipes (src/fall_detect/recipes.py):\n  recipe_spec Function 23-24 9 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.training.experiment (src/fall_detect/training/experiment.py):\n  calibrate Function 549-599 13 18\n  load_index Function 31-57 15 9\n  train Function 151-178 19 6\nhas_more: false\n"
+        }
+      ],
+      "isError": false
+    },
+    "q_graph_cache_search": {
+      "content": [
+        {
+          "type": "text",
+          "text": "total: 15\nresults: 15  (rows: name label lines in out; qn = group prefix + \".\" + name)\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.continuity-diagnosis (docs/validation/continuity-diagnosis.json):\n  pose_cache_sha256 Variable 1678-1678 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-context-legacy-source.src.fall_detect.config (docs/validation/human-context-legacy-source/src/fall_detect/config.py):\n  recipe_fingerprint Function 272-309 37 5\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-displacement-legacy-source.src.fall_detect.config (docs/validation/human-displacement-legacy-source/src/fall_detect/config.py):\n  recipe_fingerprint Function 279-318 1 5\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-flip-legacy-source.src.fall_detect.config (docs/validation/human-flip-legacy-source/src/fall_detect/config.py):\n  recipe_fingerprint Function 292-333 1 5\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-isotropic-legacy-source.src.fall_detect.config (docs/validation/human-isotropic-legacy-source/src/fall_detect/config.py):\n  recipe_fingerprint Function 297-340 1 5\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-residual-legacy-source.src.fall_detect.config (docs/validation/human-residual-legacy-source/src/fall_detect/config.py):\n  recipe_fingerprint Function 285-326 1 5\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.pose-recovery-source.config (docs/validation/pose-recovery-source/config.py):\n  recipe_fingerprint Function 267-302 0 5\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.sample-human-legacy-source.config (docs/validation/sample-human-legacy-source/config.py):\n  recipe_fingerprint Function 269-304 2 5\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-motion-novelty-20261012-001.tmp-risk-retry (docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_pose_cache_reload_and_met0):\n  test_pose_cache_reload_and_met0 Folder  0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-motion-novelty-20261012-001.tmp-risk-retry.test_pose_cache_reload_and_met0 (docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_pose_cache_reload_and_met0/synthetic-pose.json):\n  synthetic-pose Module 1-944 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.config (src/fall_detect/config.py):\n  recipe_fingerprint Function 297-340 5 5\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.data.cache (src/fall_detect/data/cache.py):\n  load_pose_cache Function 65-113 28 19\n  save_pose_cache Function 11-62 15 22\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_openpose18 (tests/test_openpose18.py):\n  test_pose_cache_roundtrip_and_empty_shape Function 150-162 0 9\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_training_cache (tests/test_training_cache.py):\n  test_pose_cache_reload_and_metadata_rejection Function 38-46 0 5\nhas_more: false\n"
+        }
+      ],
+      "isError": false
+    },
+    "q_graph_coverage_pipeline": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"project\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly\",\"signal\":\"best_effort\",\"indexed_at\":\"2026-10-12T16:10:25Z\",\"metadata\":{\"generation\":\"2026-10-12T16:10:25Z\",\"index_mode\":\"full\",\"recorded_at\":\"2026-10-12T16:10:27Z\",\"recording_status\":\"complete\",\"ignored_files_stored\":57,\"ignored_files_total\":57,\"hash_records_complete\":true,\"coverage_version\":3,\"generation_matches\":true},\"paths\":[{\"requested_path\":\"src/fall_detect/config.py\",\"path\":\"src/fall_detect/config.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/recipes.py\",\"path\":\"src/fall_detect/recipes.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/data/cache.py\",\"path\":\"src/fall_detect/data/cache.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/data/readers.py\",\"path\":\"src/fall_detect/data/readers.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/training/experiment.py\",\"path\":\"src/fall_detect/training/experiment.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/models/normal_alternatives.py\",\"path\":\"src/fall_detect/models/normal_alternatives.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"scripts/ur_normal_methods.py\",\"path\":\"scripts/ur_normal_methods.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]}],\"scopes\":[],\"caveat\":\"Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable.\"}"
+        }
+      ],
+      "structuredContent": {
+        "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+        "signal": "best_effort",
+        "indexed_at": "2026-10-12T16:10:25Z",
+        "metadata": {
+          "generation": "2026-10-12T16:10:25Z",
+          "index_mode": "full",
+          "recorded_at": "2026-10-12T16:10:27Z",
+          "recording_status": "complete",
+          "ignored_files_stored": 57,
+          "ignored_files_total": 57,
+          "hash_records_complete": true,
+          "coverage_version": 3,
+          "generation_matches": true
+        },
+        "paths": [
+          {
+            "requested_path": "src/fall_detect/config.py",
+            "path": "src/fall_detect/config.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/recipes.py",
+            "path": "src/fall_detect/recipes.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/data/cache.py",
+            "path": "src/fall_detect/data/cache.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/data/readers.py",
+            "path": "src/fall_detect/data/readers.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/training/experiment.py",
+            "path": "src/fall_detect/training/experiment.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/models/normal_alternatives.py",
+            "path": "src/fall_detect/models/normal_alternatives.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "scripts/ur_normal_methods.py",
+            "path": "scripts/ur_normal_methods.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          }
+        ],
+        "scopes": [],
+        "caveat": "Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable."
+      },
+      "isError": false
+    },
+    "q_snippet_recipe": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"name\":\"recipe_fingerprint\",\"qualified_name\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.config.recipe_fingerprint\",\"label\":\"Function\",\"file_path\":\"C:/成大專案/fall-detection-anomaly/src/fall_detect/config.py\",\"start_line\":297,\"end_line\":340,\"source\":\"def recipe_fingerprint(config, weight_hashes):\\n    semantic = {k: deepcopy(config[k]) for k in (\\\"pose\\\", \\\"skeleton\\\", \\\"quality\\\", \\\"features\\\")}\\n    if not semantic[\\\"pose\\\"].get(\\\"flip_tta\\\", False):\\n        semantic[\\\"pose\\\"].pop(\\\"flip_tta\\\", None)\\n    if semantic[\\\"skeleton\\\"].get(\\\"coordinate_normalization\\\", \\\"per_frame\\\") == \\\"per_frame\\\":\\n        semantic[\\\"skeleton\\\"].pop(\\\"coordinate_normalization\\\", None)\\n    if semantic[\\\"skeleton\\\"].get(\\\"temporal_context\\\", \\\"original_30\\\") == \\\"original_30\\\":\\n        semantic[\\\"skeleton\\\"].pop(\\\"temporal_context\\\", None)\\n    if not semantic[\\\"pose\\\"].get(\\\"use_track_proposals\\\", False):\\n        semantic[\\\"pose\\\"].pop(\\\"use_track_proposals\\\", None)\\n    if semantic[\\\"skeleton\\\"].get(\\\"timestamp_tolerance_ms\\\", 0.0) == 0.0:\\n        semantic[\\\"skeleton\\\"].pop(\\\"timestamp_tolerance_ms\\\", None)\\n    if semantic[\\\"pose\\\"].get(\\\"track_gap_tolerance_ms\\\", 0.0) == 0.0:\\n        semantic[\\\"pose\\\"].pop(\\\"track_gap_tolerance_ms\\\", None)\\n    if semantic[\\\"pose\\\"].get(\\\"fallback_detector_confidence\\\", 0.0) == 0.0:\\n        semantic[\\\"pose\\\"].pop(\\\"fallback_detector_confidence\\\", None)\\n    if semantic[\\\"skeleton\\\"].get(\\\"resampling_hold_policy\\\") == \\\"target_interval\\\":\\n        semantic[\\\"skeleton\\\"].pop(\\\"resampling_hold_policy\\\")\\n    # Default [0] is the historical algorithm; preserve old frozen run fingerprints.\\n    if semantic[\\\"pose\\\"].get(\\\"rotation_angles\\\") == [0]:\\n        semantic[\\\"pose\\\"].pop(\\\"rotation_angles\\\")\\n        semantic[\\\"pose\\\"].pop(\\\"rotation_policy\\\", None)\\n    elif semantic[\\\"pose\\\"].get(\\\"rotation_policy\\\") == \\\"always\\\":\\n        semantic[\\\"pose\\\"].pop(\\\"rotation_policy\\\")\\n    temporal = {\\n        k: config[\\\"data\\\"][k]\\n        for k in (\\n            \\\"timestamp_policy\\\",\\n            \\\"fallback_fps\\\",\\n            \\\"camera\\\",\\n            \\\"modality\\\",\\n            \\\"allow_missing_timestamp_tail\\\",\\n        )\\n    }\\n    return fingerprint(\\n        {\\n            \\\"schema_version\\\": 1,\\n            \\\"preprocessing_version\\\": 1,\\n            \\\"upstream_commits\\\": upstream_commits(config),\\n            \\\"config\\\": semantic,\\n            \\\"temporal\\\": temporal,\\n            \\\"weight_hashes\\\": weight_hashes,\\n        }\\n    )\\n\",\"callers\":5,\"callees\":4}"
+        }
+      ],
+      "structuredContent": {
+        "name": "recipe_fingerprint",
+        "qualified_name": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.config.recipe_fingerprint",
+        "label": "Function",
+        "file_path": "C:/成大專案/fall-detection-anomaly/src/fall_detect/config.py",
+        "start_line": 297,
+        "end_line": 340,
+        "source": "def recipe_fingerprint(config, weight_hashes):\n    semantic = {k: deepcopy(config[k]) for k in (\"pose\", \"skeleton\", \"quality\", \"features\")}\n    if not semantic[\"pose\"].get(\"flip_tta\", False):\n        semantic[\"pose\"].pop(\"flip_tta\", None)\n    if semantic[\"skeleton\"].get(\"coordinate_normalization\", \"per_frame\") == \"per_frame\":\n        semantic[\"skeleton\"].pop(\"coordinate_normalization\", None)\n    if semantic[\"skeleton\"].get(\"temporal_context\", \"original_30\") == \"original_30\":\n        semantic[\"skeleton\"].pop(\"temporal_context\", None)\n    if not semantic[\"pose\"].get(\"use_track_proposals\", False):\n        semantic[\"pose\"].pop(\"use_track_proposals\", None)\n    if semantic[\"skeleton\"].get(\"timestamp_tolerance_ms\", 0.0) == 0.0:\n        semantic[\"skeleton\"].pop(\"timestamp_tolerance_ms\", None)\n    if semantic[\"pose\"].get(\"track_gap_tolerance_ms\", 0.0) == 0.0:\n        semantic[\"pose\"].pop(\"track_gap_tolerance_ms\", None)\n    if semantic[\"pose\"].get(\"fallback_detector_confidence\", 0.0) == 0.0:\n        semantic[\"pose\"].pop(\"fallback_detector_confidence\", None)\n    if semantic[\"skeleton\"].get(\"resampling_hold_policy\") == \"target_interval\":\n        semantic[\"skeleton\"].pop(\"resampling_hold_policy\")\n    # Default [0] is the historical algorithm; preserve old frozen run fingerprints.\n    if semantic[\"pose\"].get(\"rotation_angles\") == [0]:\n        semantic[\"pose\"].pop(\"rotation_angles\")\n        semantic[\"pose\"].pop(\"rotation_policy\", None)\n    elif semantic[\"pose\"].get(\"rotation_policy\") == \"always\":\n        semantic[\"pose\"].pop(\"rotation_policy\")\n    temporal = {\n        k: config[\"data\"][k]\n        for k in (\n            \"timestamp_policy\",\n            \"fallback_fps\",\n            \"camera\",\n            \"modality\",\n            \"allow_missing_timestamp_tail\",\n        )\n    }\n    return fingerprint(\n        {\n            \"schema_version\": 1,\n            \"preprocessing_version\": 1,\n            \"upstream_commits\": upstream_commits(config),\n            \"config\": semantic,\n            \"temporal\": temporal,\n            \"weight_hashes\": weight_hashes,\n        }\n    )\n",
+        "callers": 5,
+        "callees": 4
+      },
+      "isError": false
+    },
+    "q_graph_training_trace": {
+      "content": [
+        {
+          "type": "text",
+          "text": "function: C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.training.experiment.train\ndirection: outbound\ncallees_total: 34\ncallees: 34  (rows: name hop; qn = group prefix + \".\" + name)\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.isotropic-refinement-20261012-diagnosis:\n  mean 2\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.resource-fetch:\n  exists 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.target95-yolo-parity:\n  cpu 2\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.config:\n  recipe_fingerprint 2\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.diagnostics:\n  environment_report 2\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.io_utils:\n  ContractError 1\n  atomic_bytes 2\n  read_json 1\n  sha256 2\n  write_csv 2\n  write_json 1\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.models.autoencoder:\n  Autoencoder 2\n  reconstruction_scores 2\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.models.weights:\n  select_device 2\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.pipeline:\n  source_code_hash 2\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.training.experiment:\n  _train 1\n  artifact_hashes 2\n  load_index 2\n  normal_matrix 2\n  save_torch 2\n  train 2\n  training_reconstruction_loss 2\n  training_sampler 2\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.training.patterns:\n  pattern_sampler 2\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.training.scaler.FeatureScaler:\n  fit 2\n  save 2\n  transform 2\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.visualization.reports:\n  training_curve 2\nbuiltins.dict:\n  get 1\nbuiltins:\n  len 2\nbuiltins.list:\n  append 2\nbuiltins:\n  print 2\n  range 2\n  str 2\n"
+        }
+      ],
+      "isError": false
+    },
+    "q_graph_aux_search": {
+      "content": [
+        {
+          "type": "text",
+          "text": "total: 16\nresults: 16  (rows: name label lines in out; qn = group prefix + \".\" + name)\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.le2i-doctor-full (docs/validation/le2i-doctor-full.json):\n  strict_load Variable 80-80 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.openpose18-doctor-core (docs/validation/openpose18-doctor-core.json):\n  strict_load Variable 79-79 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.openpose18-doctor-full (docs/validation/openpose18-doctor-full.json):\n  strict_load Variable 80-80 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.sample-human-lock (docs/validation/sample-human-lock.json):\n  strict_load Variable 173-173 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.target95-doctor (docs/validation/target95-doctor.json):\n  strict_load Variable 83-83 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-motion-novelty-20261012-001.pilot (docs/validation/ur-motion-novelty-20261012-001/pilot.json):\n  strict_load Variable 2-6 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-normal-methods-20261012-001.svm-lock (docs/validation/ur-normal-methods-20261012-001/svm-lock.json):\n  strict_load Variable 2297-2301 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-normal-methods-20261012-001.workflow-before-pose-api-repair (docs/validation/ur-normal-methods-20261012-001/workflow-before-pose-api-repair.py):\n  phases_for Function 95-133 1 2\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.ur_normal_methods (scripts/ur_normal_methods.py):\n  phases_for Function 95-133 4 2\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.backends (src/fall_detect/backends.py):\n  create_backends Function 4-24 7 7\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.models.weights (src/fall_detect/models/weights.py):\n  strict_load Function 49-81 13 8\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.visualization.reports (src/fall_detect/visualization/reports.py):\n  evaluation_report Function 27-124 12 9\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.weights.human-flip-manifest (weights/human-flip-manifest.json):\n  strict_load Variable 100-100 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.weights.openpose18-manifest (weights/openpose18-manifest.json):\n  strict_load Variable 44-44 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.weights.sample-human-manifest (weights/sample-human-manifest.json):\n  strict_load Variable 100-100 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.weights.yolo11-manifest (weights/yolo11-manifest.json):\n  strict_load Variable 47-47 0 0\nhas_more: false\n"
+        }
+      ],
+      "isError": false
+    },
+    "q_graph_aux_coverage": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"project\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly\",\"signal\":\"best_effort\",\"indexed_at\":\"2026-10-13T05:11:30Z\",\"metadata\":{\"generation\":\"2026-10-13T05:11:30Z\",\"index_mode\":\"full\",\"recorded_at\":\"2026-10-13T05:11:31Z\",\"recording_status\":\"complete\",\"ignored_files_stored\":57,\"ignored_files_total\":57,\"hash_records_complete\":true,\"coverage_version\":3,\"generation_matches\":true},\"paths\":[{\"requested_path\":\"src/fall_detect/models/weights.py\",\"path\":\"src/fall_detect/models/weights.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/backends.py\",\"path\":\"src/fall_detect/backends.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/assets.py\",\"path\":\"src/fall_detect/assets.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/evaluation/metrics.py\",\"path\":\"src/fall_detect/evaluation/metrics.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/detection/events.py\",\"path\":\"src/fall_detect/detection/events.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/visualization/reports.py\",\"path\":\"src/fall_detect/visualization/reports.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/training/scaler.py\",\"path\":\"src/fall_detect/training/scaler.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"scripts/human_isotropic_refinement.py\",\"path\":\"scripts/human_isotropic_refinement.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]}],\"scopes\":[],\"caveat\":\"Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable.\"}"
+        }
+      ],
+      "structuredContent": {
+        "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+        "signal": "best_effort",
+        "indexed_at": "2026-10-13T05:11:30Z",
+        "metadata": {
+          "generation": "2026-10-13T05:11:30Z",
+          "index_mode": "full",
+          "recorded_at": "2026-10-13T05:11:31Z",
+          "recording_status": "complete",
+          "ignored_files_stored": 57,
+          "ignored_files_total": 57,
+          "hash_records_complete": true,
+          "coverage_version": 3,
+          "generation_matches": true
+        },
+        "paths": [
+          {
+            "requested_path": "src/fall_detect/models/weights.py",
+            "path": "src/fall_detect/models/weights.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/backends.py",
+            "path": "src/fall_detect/backends.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/assets.py",
+            "path": "src/fall_detect/assets.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/evaluation/metrics.py",
+            "path": "src/fall_detect/evaluation/metrics.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/detection/events.py",
+            "path": "src/fall_detect/detection/events.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/visualization/reports.py",
+            "path": "src/fall_detect/visualization/reports.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/training/scaler.py",
+            "path": "src/fall_detect/training/scaler.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "scripts/human_isotropic_refinement.py",
+            "path": "scripts/human_isotropic_refinement.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          }
+        ],
+        "scopes": [],
+        "caveat": "Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable."
+      },
+      "isError": false
+    },
+    "q_graph_risk_search": {
+      "content": [
+        {
+          "type": "text",
+          "text": "total: 31\nresults: 31  (rows: name label lines in out; qn = group prefix + \".\" + name)\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-motion-novelty-20261012-001.tmp-risk-retry (docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0):\n  test_training_test_isolation_s0 Folder  0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-motion-novelty-20261012-001.tmp-risk-retry (docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1):\n  test_training_test_isolation_s1 Folder  0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-motion-novelty-20261012-001.tmp-risk-retry (docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2):\n  test_training_test_isolation_s2 Folder  0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-motion-novelty-20261012-001.tmp-risk-retry (docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3):\n  test_training_test_isolation_s3 Folder  0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_action_display (tests/test_action_display.py):\n  test_incompatible_recipe_cannot_reuse_seven_class_head Function 149-153 0 4\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_denoising (tests/test_denoising.py):\n  test_regularization_config_is_finite_and_does_not_change_pose_recipe Function 36-48 0 5\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_events_metrics.py (tests/test_events_metrics.py):\n  __file__ File  0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_human_isotropic (tests/test_human_isotropic.py):\n  test_new_recipe_is_explicit_pose_reuse_stays_strict Function 64-86 0 7\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_human_quality (tests/test_human_quality.py):\n  test_flip_matches_pinned_upstream_and_default_recipe Function 35-55 0 12\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_le2i_extension (tests/test_le2i_extension.py):\n  test_historical_recipe_hash_and_new_rotation_isolation Function 162-174 0 9\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_motion_novelty (tests/test_motion_novelty.py):\n  test_scope_and_reconstruction_helpers_reject_test_and_incomplete Function 86-113 0 5\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_normal_methods_scope.py (tests/test_normal_methods_scope.py):\n  __file__ File  0 4\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_normal_methods_scope (tests/test_normal_methods_scope.py):\n  test_scope_cannot_silently_expand_or_shrink Function 39-53 0 6\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_openpose18 (tests/test_openpose18.py):\n  test_recipe_cannot_mix_weights_or_dimensions Function 111-126 0 6\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_pose_fallback (tests/test_pose_fallback.py):\n  test_disabled_fallback_preserves_legacy_recipe_and_rejects_invalid_values Function 38-49 0 5\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_sample_display (tests/test_sample_display.py):\n  test_event_history_matches_actual_k3_transitions_and_survives_unknown Function 112-125 0 8\n  test_genuine_independent_forward_uses_original_recipe_and_preserves_ae Function 161-191 0 16\n  test_non_human_recipe_rejected Function 194-198 0 4\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_source_cadence (tests/test_source_cadence.py):\n  test_pose_reuse_rejects_other_recipe_weight_and_split_changes Function 97-116 0 3\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_streaming_video (tests/test_streaming_video.py):\n  test_batch_and_streaming_share_windows_scores_events Function 25-59 0 31\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_timestamp_tolerance (tests/test_timestamp_tolerance.py):\n  test_bounded_jitter_respects_slower_source_cadence_and_recipe_change Function 112-124 0 9\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_train_validation_scope.py (tests/test_train_validation_scope.py):\n  __file__ File  0 5\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_train_validation_scope (tests/test_train_validation_scope.py):\n  test_prepare_scope_skips_test_source_and_retains_truthful_index Function 76-133 0 11\n  test_scoped_mode_rejects_incomplete_validation_and_forged_test Function 60-73 0 7\n  test_scoped_train_calibrate_never_load_test_and_require_opt_in Function 27-54 0 11\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_training_cache (tests/test_training_cache.py):\n  test_feature_cache_shape_recipe_rows_and_coverage Function 49-64 0 9\n  test_scaler_zero_variance_and_reload Function 28-35 0 5\n  test_training_test_isolation_save_reload_and_frozen_evaluation Function 69-112 0 23\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_yolo_recipe.py (tests/test_yolo_recipe.py):\n  __file__ File  0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_yolo_recipe (tests/test_yolo_recipe.py):\n  test_recipe_isolation_and_bad_pose_rejected Function 46-64 0 6\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.tests.test_yolo_rotation (tests/test_yolo_rotation.py):\n  test_rotation_is_allowed_and_changes_recipe Function 12-19 0 4\nhas_more: false\n"
+        }
+      ],
+      "isError": false
+    },
+    "q_graph_new_search": {
+      "content": [
+        {
+          "type": "text",
+          "text": "total: 354\nresults: 60  (rows: name label lines in out; qn = group prefix + \".\" + name)\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation (docs/validation/pose-recovery-pilot-resolution960.json):\n  pose-recovery-pilot-resolution960 Module 1-265 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001 (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  before Module 1-25154 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.data/raw/le2i/annotations/validation (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  csv Variable 10967-10967 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.docs/validation/ur-fall19-human-amendment-20261013-001/before (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  json Variable 25118-25118 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.docs/validation/ur-fall19-human-amendment-20261013-001/diagnosis (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  json Variable 25119-25119 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.docs/validation/ur-fall19-human-amendment-20261013-001/final-qa (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  json Variable 25120-25120 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.docs/validation/ur-fall19-human-amendment-20261013-001/graph-evidence (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  json Variable 25121-25121 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.docs/validation/ur-fall19-human-amendment-20261013-001/independent-verification (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  json Variable 25122-25122 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.docs/validation/ur-fall19-human-amendment-20261013-001/independent_check (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  py Variable 25123-25123 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.docs/validation/ur-fall19-human-amendment-20261013-001/lock (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  json Variable 25124-25124 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.docs/validation/ur-fall19-human-amendment-20261013-001/prior-contract/docs/acceptance-results (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  md Variable 25129-25129 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.docs/validation/ur-fall19-human-amendment-20261013-001/prior-contract/docs/current-progress (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  md Variable 25130-25130 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.docs/validation/ur-fall19-human-amendment-20261013-001/read-only-recheck (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  json Variable 25125-25125 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.docs/validation/ur-fall19-human-amendment-20261013-001/rejection-check (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  json Variable 25126-25126 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.docs/validation/ur-fall19-human-amendment-20261013-001/source-checks (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  json Variable 25127-25127 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.docs/validation/ur-fall19-human-amendment-20261013-001/synthetic-risk (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  xml Variable 25128-25128 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.docs/validation/ur-fall19-human-review-20261012-001/before (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  json Variable 25131-25131 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.docs/validation/ur-fall19-human-review-20261012-001/diagnosis (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  json Variable 25132-25132 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.docs/validation/ur-fall19-human-review-20261012-001/final-qa (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  json Variable 25133-25133 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.docs/validation/ur-fall19-human-review-20261012-001/graph-evidence (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  json Variable 25134-25134 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.docs/validation/ur-fall19-human-review-20261012-001/independent-verification (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  json Variable 25135-25135 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.docs/validation/ur-fall19-human-review-20261012-001/lock (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  json Variable 25136-25136 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.docs/validation/ur-fall19-human-review-20261012-001/prior-contract/docs/acceptance-results (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  md Variable 25139-25139 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.docs/validation/ur-fall19-human-review-20261012-001/prior-contract/docs/current-progress (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  md Variable 25140-25140 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.docs/validation/ur-fall19-human-review-20261012-001/rejection-check (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  json Variable 25137-25137 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.docs/validation/ur-fall19-human-review-20261012-001/synthetic-risk (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  xml Variable 25138-25138 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.outputs/ae-generalization-validation/adl-04-check (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  png Variable 23664-23664 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.outputs/ae-generalization-validation/adl-04-events (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  csv Variable 23665-23665 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.outputs/ae-generalization-validation/adl-04-preview (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  mp4 Variable 23666-23666 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.outputs/ae-generalization-validation/adl-04 (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  csv Variable 23667-23667 0 0\n  json Variable 23668-23668 0 0\n  mp4 Variable 23669-23669 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.outputs/ae-generalization-validation/fall-09-check (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  png Variable 23670-23670 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.outputs/ae-generalization-validation/fall-09-events (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  csv Variable 23671-23671 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.outputs/ae-generalization-validation/fall-09-preview (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  mp4 Variable 23672-23672 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.outputs/ae-generalization-validation/fall-09-timeline (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  png Variable 23673-23673 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.outputs/ae-generalization-validation/fall-09 (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  csv Variable 23674-23674 0 0\n  json Variable 23675-23675 0 0\n  mp4 Variable 23676-23676 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.outputs/course-ur-validation/confusion-matrix (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  png Variable 23902-23902 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.outputs/course-ur-validation/evaluation-summary (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  md Variable 23903-23903 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.outputs/course-ur-validation/events (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  csv Variable 23904-23904 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.outputs/course-ur-validation/metrics (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  json Variable 23905-23905 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.outputs/course-ur-validation/outcomes-with-unknown (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  csv Variable 23906-23906 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.outputs/course-ur-validation/sequence-results (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  csv Variable 23907-23907 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.outputs/course-ur-validation/window-results (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  csv Variable 23908-23908 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.before.outputs/dense-schedule-validation/adl-04-check (docs/validation/ur-pose-resolution-20261013-001/before.json):\n  png Variable 23909-23909 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001 (docs/validation/ur-pose-resolution-20261013-001/lock.json):\n  lock Module 1-51 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001 (docs/validation/ur-pose-resolution-20261013-001/pilot.json):\n  pilot Module 1-110 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.pilot-pose-panels-v2 (docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/manifest.json):\n  manifest Module 1-25 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001 (docs/validation/ur-pose-resolution-20261013-001/prepare.json):\n  prepare Module 1-739 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.prior-contract (docs/validation/ur-pose-resolution-20261013-001/prior-contract/AGENTS.md):\n  AGENTS Module 1-25 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.prior-contract (docs/validation/ur-pose-resolution-20261013-001/prior-contract/Fall_Detection_Codex_Implementation_Spec.md):\n  Fall_Detection_Codex_Implementation_Spec Module 1-752 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.prior-contract.docs (docs/validation/ur-pose-resolution-20261013-001/prior-contract/docs/acceptance-results.md):\n  acceptance-results Module 1-393 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.prior-contract.docs (docs/validation/ur-pose-resolution-20261013-001/prior-contract/docs/course-alignment-plan.md):\n  course-alignment-plan Module 1-154 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001.prior-contract.docs (docs/validation/ur-pose-resolution-20261013-001/prior-contract/docs/current-progress.md):\n  current-progress Module 1-438 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001 (docs/validation/ur-pose-resolution-20261013-001/synthetic-risk.xml):\n  synthetic-risk Module 1-1 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001 (docs/validation/ur-pose-resolution-20261013-001/visual-decode-before.py):\n  visual-decode-before Module 1-105 0 3\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001 (docs/validation/ur-pose-resolution-20261013-001/visual-decode-failure.json):\n  visual-decode-failure Module 1-7 0 0\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-pose-resolution-20261013-001 (docs/validation/ur-pose-resolution-20261013-001/weights-manifest.json):\n  weights-manifest Module 1-114 0 0\nhas_more: true\n"
+        }
+      ],
+      "isError": false
+    },
+    "q_graph_final_search_0": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "total: 10\nresults: 10  (rows: name label lines in out; qn = group prefix + \".\" + name)\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.ur_pose_resolution (scripts/ur_pose_resolution.py):\n  evaluate_one Function 375-400 1 16\n  exclusive Function 87-95 3 5\n  inventory Function 98-196 0 32\n  prepare_stage Function 244-353 1 25\n  prepared_rows Function 238-241 1 1\n  save Function 69-72 4 3\n  scoped_access Function 200-235 4 5\n  train Function 356-372 6 12\n  validation Function 403-473 0 25\n  verify_lock Function 75-83 4 11\nhas_more: false\n"
+          }
+        ],
+        "isError": false
+      }
+    },
+    "q_graph_final_search_1": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "total: 10\nresults: 10  (rows: name label lines in out; qn = group prefix + \".\" + name)\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.verify_ur_pose_resolution (scripts/verify_ur_pose_resolution.py):\n  audit_result Function 159-246 1 23\n  csv_rows Function 25-27 3 1\n  float_or_none Function 63-64 2 0\n  hand_metrics Function 34-60 2 2\n  independent_events Function 87-140 1 3\n  numerical_scores Function 143-156 2 8\n  parse_windows Function 67-84 1 5\n  ratio Function 30-31 1 0\n  temporal_diagnosis Function 249-350 1 13\n  verify Function 353-471 1 36\nhas_more: false\n"
+          }
+        ],
+        "isError": false
+      }
+    },
+    "q_graph_final_search_2": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "total: 5\nresults: 5  (rows: name label lines in out; qn = group prefix + \".\" + name)\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.evaluation.pose_comparison (src/fall_detect/evaluation/pose_comparison.py):\n  assert_resolution_only Function 19-33 3 2\n  human_phase_summary Function 87-126 2 8\n  paired_pose_rows Function 47-84 3 9\n  resolution_config Function 11-16 3 2\n  scoped_source Function 36-44 2 2\nhas_more: false\n"
+          }
+        ],
+        "isError": false
+      }
+    },
+    "q_graph_final_coverage": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"project\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly\",\"signal\":\"best_effort\",\"indexed_at\":\"2026-10-13T05:35:20Z\",\"metadata\":{\"generation\":\"2026-10-13T05:35:20Z\",\"index_mode\":\"full\",\"recorded_at\":\"2026-10-13T05:35:21Z\",\"recording_status\":\"complete\",\"ignored_files_stored\":83,\"ignored_files_total\":83,\"hash_records_complete\":true,\"coverage_version\":3,\"generation_matches\":true},\"paths\":[{\"requested_path\":\"scripts/ur_pose_resolution.py\",\"path\":\"scripts/ur_pose_resolution.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"scripts/verify_ur_pose_resolution.py\",\"path\":\"scripts/verify_ur_pose_resolution.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/evaluation/pose_comparison.py\",\"path\":\"src/fall_detect/evaluation/pose_comparison.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"scripts/render_pose_resolution.py\",\"path\":\"scripts/render_pose_resolution.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"tests/test_pose_resolution.py\",\"path\":\"tests/test_pose_resolution.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"tests/test_train_validation_scope.py\",\"path\":\"tests/test_train_validation_scope.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"tests/test_training_cache.py\",\"path\":\"tests/test_training_cache.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"tests/test_events_metrics.py\",\"path\":\"tests/test_events_metrics.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"tests/test_human_isotropic.py\",\"path\":\"tests/test_human_isotropic.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/models/autoencoder.py\",\"path\":\"src/fall_detect/models/autoencoder.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"AGENTS.md\",\"path\":\"AGENTS.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"Fall_Detection_Codex_Implementation_Spec.md\",\"path\":\"Fall_Detection_Codex_Implementation_Spec.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"docs/course-alignment-plan.md\",\"path\":\"docs/course-alignment-plan.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"docs/current-progress.md\",\"path\":\"docs/current-progress.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"docs/acceptance-results.md\",\"path\":\"docs/acceptance-results.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"docs/ur-pose-resolution-20261013-plan.md\",\"path\":\"docs/ur-pose-resolution-20261013-plan.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"configs/ur-pose-resolution-20261013-001.yaml\",\"path\":\"configs/ur-pose-resolution-20261013-001.yaml\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]}],\"scopes\":[],\"caveat\":\"Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable.\"}"
+        }
+      ],
+      "structuredContent": {
+        "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+        "signal": "best_effort",
+        "indexed_at": "2026-10-13T05:35:20Z",
+        "metadata": {
+          "generation": "2026-10-13T05:35:20Z",
+          "index_mode": "full",
+          "recorded_at": "2026-10-13T05:35:21Z",
+          "recording_status": "complete",
+          "ignored_files_stored": 83,
+          "ignored_files_total": 83,
+          "hash_records_complete": true,
+          "coverage_version": 3,
+          "generation_matches": true
+        },
+        "paths": [
+          {
+            "requested_path": "scripts/ur_pose_resolution.py",
+            "path": "scripts/ur_pose_resolution.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "scripts/verify_ur_pose_resolution.py",
+            "path": "scripts/verify_ur_pose_resolution.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/evaluation/pose_comparison.py",
+            "path": "src/fall_detect/evaluation/pose_comparison.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "scripts/render_pose_resolution.py",
+            "path": "scripts/render_pose_resolution.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "tests/test_pose_resolution.py",
+            "path": "tests/test_pose_resolution.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "tests/test_train_validation_scope.py",
+            "path": "tests/test_train_validation_scope.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "tests/test_training_cache.py",
+            "path": "tests/test_training_cache.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "tests/test_events_metrics.py",
+            "path": "tests/test_events_metrics.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "tests/test_human_isotropic.py",
+            "path": "tests/test_human_isotropic.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/models/autoencoder.py",
+            "path": "src/fall_detect/models/autoencoder.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "AGENTS.md",
+            "path": "AGENTS.md",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "Fall_Detection_Codex_Implementation_Spec.md",
+            "path": "Fall_Detection_Codex_Implementation_Spec.md",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "docs/course-alignment-plan.md",
+            "path": "docs/course-alignment-plan.md",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "docs/current-progress.md",
+            "path": "docs/current-progress.md",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "docs/acceptance-results.md",
+            "path": "docs/acceptance-results.md",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "docs/ur-pose-resolution-20261013-plan.md",
+            "path": "docs/ur-pose-resolution-20261013-plan.md",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "configs/ur-pose-resolution-20261013-001.yaml",
+            "path": "configs/ur-pose-resolution-20261013-001.yaml",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          }
+        ],
+        "scopes": [],
+        "caveat": "Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable."
+      },
+      "isError": false
+    },
+    "q_graph_snippet_validation": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"name\":\"validation\",\"qualified_name\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.ur_pose_resolution.validation\",\"label\":\"Function\",\"file_path\":\"C:/成大專案/fall-detection-anomaly/scripts/ur_pose_resolution.py\",\"start_line\":403,\"end_line\":473,\"source\":\"def validation():\\n    _, config = verify_lock()\\n    if O.exists() or (E / \\\"validation.json\\\").exists():\\n        raise ContractError(\\\"Validation already completed; no additional calibration\\\")\\n    index = experiment.load_index(C / \\\"dataset-index.json\\\")\\n    audit = []\\n    with exclusive(), scoped_access(index, audit):\\n        experiment.calibrate(RUN)\\n        baseline = evaluate_one(BASE, O / \\\"baseline\\\", audit)\\n        candidate = evaluate_one(RUN, O / \\\"candidate\\\", audit)\\n    old_index = experiment.load_index(BASE / \\\"dataset-index.json\\\")\\n    human = read_json(HUMAN)\\n    all_pose_rows = []\\n    for source in index[\\\"split_manifest\\\"][\\\"sequences\\\"]:\\n        if source[\\\"split\\\"] not in (\\\"train\\\", \\\"validation\\\"):\\n            continue\\n        sid = source[\\\"sequence_id\\\"]\\n        old, _ = load_pose_cache(project_path(old_index[\\\"sequences\\\"][sid][\\\"pose_path\\\"]), {})\\n        new, _ = load_pose_cache(project_path(index[\\\"sequences\\\"][sid][\\\"pose_path\\\"]), {})\\n        all_pose_rows.extend(\\n            paired_pose_rows(\\n                old, new, config[\\\"quality\\\"], human[\\\"frames\\\"] if sid == \\\"fall-19\\\" else None\\n            )\\n        )\\n        if sid == \\\"fall-19\\\":\\n            for result, observations in [(baseline, old), (candidate, new)]:\\n                result[\\\"fall19_human_phases\\\"] = human_phase_summary(\\n                    [w for w in result[\\\"windows\\\"] if w[\\\"sequence_id\\\"] == sid],\\n                    [e for e in result[\\\"events\\\"] if e[\\\"sequence_id\\\"] == sid],\\n                    observations,\\n                    human[\\\"frames\\\"],\\n                    config[\\\"quality\\\"],\\n                )\\n    write_csv(O / \\\"paired-pose-frames.csv\\\", all_pose_rows)\\n    old_rows = {r[\\\"sequence_id\\\"]: r for r in baseline[\\\"rows\\\"]}\\n    changes = [\\n        {\\n            \\\"sequence_id\\\": r[\\\"sequence_id\\\"],\\n            \\\"label\\\": r[\\\"label\\\"],\\n            \\\"old_prediction\\\": old_rows[r[\\\"sequence_id\\\"]][\\\"prediction\\\"],\\n            \\\"new_prediction\\\": r[\\\"prediction\\\"],\\n            \\\"old_alarm_ms\\\": old_rows[r[\\\"sequence_id\\\"]][\\\"first_alarm_ms\\\"],\\n            \\\"new_alarm_ms\\\": r[\\\"first_alarm_ms\\\"],\\n            \\\"old_coverage\\\": old_rows[r[\\\"sequence_id\\\"]][\\\"window_coverage\\\"],\\n            \\\"new_coverage\\\": r[\\\"window_coverage\\\"],\\n        }\\n        for r in candidate[\\\"rows\\\"]\\n    ]\\n    write_csv(O / \\\"video-comparison.csv\\\", changes)\\n    save(\\n        E / \\\"validation.json\\\",\\n        {\\n            \\\"baseline\\\": baseline,\\n            \\\"candidate\\\": candidate,\\n            \\\"video_comparison\\\": changes,\\n            \\\"accesses\\\": audit,\\n            \\\"precise_time_ground_truth\\\": False,\\n            \\\"human_new_pose_verified\\\": False,\\n            \\\"test_feature_reads\\\": 0,\\n            \\\"test_evaluations\\\": 0,\\n            \\\"adoption\\\": \\\"pending independent metrics/time/quality verification; default unchanged\\\",\\n        },\\n    )\\n    print(\\n        {\\n            \\\"baseline\\\": baseline[\\\"metrics\\\"],\\n            \\\"candidate\\\": candidate[\\\"metrics\\\"],\\n            \\\"fall19\\\": candidate[\\\"fall19_human_phases\\\"],\\n        },\\n        flush=True,\\n    )\\n\",\"callers\":0,\"callees\":16}"
+        }
+      ],
+      "structuredContent": {
+        "name": "validation",
+        "qualified_name": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.ur_pose_resolution.validation",
+        "label": "Function",
+        "file_path": "C:/成大專案/fall-detection-anomaly/scripts/ur_pose_resolution.py",
+        "start_line": 403,
+        "end_line": 473,
+        "source": "def validation():\n    _, config = verify_lock()\n    if O.exists() or (E / \"validation.json\").exists():\n        raise ContractError(\"Validation already completed; no additional calibration\")\n    index = experiment.load_index(C / \"dataset-index.json\")\n    audit = []\n    with exclusive(), scoped_access(index, audit):\n        experiment.calibrate(RUN)\n        baseline = evaluate_one(BASE, O / \"baseline\", audit)\n        candidate = evaluate_one(RUN, O / \"candidate\", audit)\n    old_index = experiment.load_index(BASE / \"dataset-index.json\")\n    human = read_json(HUMAN)\n    all_pose_rows = []\n    for source in index[\"split_manifest\"][\"sequences\"]:\n        if source[\"split\"] not in (\"train\", \"validation\"):\n            continue\n        sid = source[\"sequence_id\"]\n        old, _ = load_pose_cache(project_path(old_index[\"sequences\"][sid][\"pose_path\"]), {})\n        new, _ = load_pose_cache(project_path(index[\"sequences\"][sid][\"pose_path\"]), {})\n        all_pose_rows.extend(\n            paired_pose_rows(\n                old, new, config[\"quality\"], human[\"frames\"] if sid == \"fall-19\" else None\n            )\n        )\n        if sid == \"fall-19\":\n            for result, observations in [(baseline, old), (candidate, new)]:\n                result[\"fall19_human_phases\"] = human_phase_summary(\n                    [w for w in result[\"windows\"] if w[\"sequence_id\"] == sid],\n                    [e for e in result[\"events\"] if e[\"sequence_id\"] == sid],\n                    observations,\n                    human[\"frames\"],\n                    config[\"quality\"],\n                )\n    write_csv(O / \"paired-pose-frames.csv\", all_pose_rows)\n    old_rows = {r[\"sequence_id\"]: r for r in baseline[\"rows\"]}\n    changes = [\n        {\n            \"sequence_id\": r[\"sequence_id\"],\n            \"label\": r[\"label\"],\n            \"old_prediction\": old_rows[r[\"sequence_id\"]][\"prediction\"],\n            \"new_prediction\": r[\"prediction\"],\n            \"old_alarm_ms\": old_rows[r[\"sequence_id\"]][\"first_alarm_ms\"],\n            \"new_alarm_ms\": r[\"first_alarm_ms\"],\n            \"old_coverage\": old_rows[r[\"sequence_id\"]][\"window_coverage\"],\n            \"new_coverage\": r[\"window_coverage\"],\n        }\n        for r in candidate[\"rows\"]\n    ]\n    write_csv(O / \"video-comparison.csv\", changes)\n    save(\n        E / \"validation.json\",\n        {\n            \"baseline\": baseline,\n            \"candidate\": candidate,\n            \"video_comparison\": changes,\n            \"accesses\": audit,\n            \"precise_time_ground_truth\": False,\n            \"human_new_pose_verified\": False,\n            \"test_feature_reads\": 0,\n            \"test_evaluations\": 0,\n            \"adoption\": \"pending independent metrics/time/quality verification; default unchanged\",\n        },\n    )\n    print(\n        {\n            \"baseline\": baseline[\"metrics\"],\n            \"candidate\": candidate[\"metrics\"],\n            \"fall19\": candidate[\"fall19_human_phases\"],\n        },\n        flush=True,\n    )\n",
+        "callers": 0,
+        "callees": 16
+      },
+      "isError": false
+    },
+    "q_graph_snippet_evaluate_one": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"name\":\"evaluate_one\",\"qualified_name\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.ur_pose_resolution.evaluate_one\",\"label\":\"Function\",\"file_path\":\"C:/成大專案/fall-detection-anomaly/scripts/ur_pose_resolution.py\",\"start_line\":375,\"end_line\":400,\"source\":\"def evaluate_one(run, output, audit):\\n    scorer = experiment.Scorer(run)\\n    rows, windows, events = [], [], []\\n    with scoped_access(scorer.index, audit):\\n        for source in scorer.index[\\\"split_manifest\\\"][\\\"sequences\\\"]:\\n            if source[\\\"split\\\"] != \\\"validation\\\":\\n                continue\\n            cache = experiment.cache_for(scorer.index, source[\\\"sequence_id\\\"])\\n            summary, sw, se = score_sequence(\\n                cache, scorer.score(cache.features), scorer.threshold[\\\"threshold\\\"]\\n            )\\n            rows.append({**summary, \\\"label\\\": source[\\\"label\\\"]})\\n            windows.extend(sw)\\n            events.extend(se)\\n    if len(rows) != 23:\\n        raise ContractError(\\\"Every original Validation video required\\\")\\n    metrics = {\\\"source_kind\\\": \\\"real\\\", **sequence_metrics(rows)}\\n    evaluation_report(output, metrics, rows, windows, events)\\n    return {\\n        \\\"metrics\\\": metrics,\\n        \\\"rows\\\": rows,\\n        \\\"windows\\\": windows,\\n        \\\"events\\\": events,\\n        \\\"threshold\\\": scorer.threshold[\\\"threshold\\\"],\\n        \\\"run\\\": str(run.relative_to(ROOT)),\\n    }\\n\",\"callers\":1,\"callees\":11}"
+        }
+      ],
+      "structuredContent": {
+        "name": "evaluate_one",
+        "qualified_name": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.ur_pose_resolution.evaluate_one",
+        "label": "Function",
+        "file_path": "C:/成大專案/fall-detection-anomaly/scripts/ur_pose_resolution.py",
+        "start_line": 375,
+        "end_line": 400,
+        "source": "def evaluate_one(run, output, audit):\n    scorer = experiment.Scorer(run)\n    rows, windows, events = [], [], []\n    with scoped_access(scorer.index, audit):\n        for source in scorer.index[\"split_manifest\"][\"sequences\"]:\n            if source[\"split\"] != \"validation\":\n                continue\n            cache = experiment.cache_for(scorer.index, source[\"sequence_id\"])\n            summary, sw, se = score_sequence(\n                cache, scorer.score(cache.features), scorer.threshold[\"threshold\"]\n            )\n            rows.append({**summary, \"label\": source[\"label\"]})\n            windows.extend(sw)\n            events.extend(se)\n    if len(rows) != 23:\n        raise ContractError(\"Every original Validation video required\")\n    metrics = {\"source_kind\": \"real\", **sequence_metrics(rows)}\n    evaluation_report(output, metrics, rows, windows, events)\n    return {\n        \"metrics\": metrics,\n        \"rows\": rows,\n        \"windows\": windows,\n        \"events\": events,\n        \"threshold\": scorer.threshold[\"threshold\"],\n        \"run\": str(run.relative_to(ROOT)),\n    }\n",
+        "callers": 1,
+        "callees": 11
+      },
+      "isError": false
+    },
+    "q_graph_report_repair_coverage": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"project\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly\",\"signal\":\"best_effort\",\"indexed_at\":\"2026-10-13T05:35:20Z\",\"metadata\":{\"generation\":\"2026-10-13T05:35:20Z\",\"index_mode\":\"full\",\"recorded_at\":\"2026-10-13T05:35:21Z\",\"recording_status\":\"complete\",\"ignored_files_stored\":83,\"ignored_files_total\":83,\"hash_records_complete\":true,\"coverage_version\":3,\"generation_matches\":true},\"paths\":[{\"requested_path\":\"src/fall_detect/visualization/reports.py\",\"path\":\"src/fall_detect/visualization/reports.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"runs/ur-pose-resolution-20261013-001/threshold.json\",\"path\":\"runs/ur-pose-resolution-20261013-001/threshold.json\",\"status\":\"excluded\",\"freshness\":\"not_tracked\",\"recommended_action\":\"read_source_and_reindex\",\"coverage\":[{\"path\":\"runs\",\"kind\":\"not_indexed_dir\",\"detail\":\"excluded subtree\",\"match\":\"ancestor\"}]},{\"requested_path\":\"outputs/ur-pose-resolution-20261013-001/baseline/metrics.json\",\"path\":\"outputs/ur-pose-resolution-20261013-001/baseline/metrics.json\",\"status\":\"excluded\",\"freshness\":\"not_tracked\",\"recommended_action\":\"read_source_and_reindex\",\"coverage\":[{\"path\":\"outputs\",\"kind\":\"not_indexed_dir\",\"detail\":\"excluded subtree\",\"match\":\"ancestor\"}]}],\"scopes\":[],\"caveat\":\"Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable.\"}"
+        }
+      ],
+      "structuredContent": {
+        "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+        "signal": "best_effort",
+        "indexed_at": "2026-10-13T05:35:20Z",
+        "metadata": {
+          "generation": "2026-10-13T05:35:20Z",
+          "index_mode": "full",
+          "recorded_at": "2026-10-13T05:35:21Z",
+          "recording_status": "complete",
+          "ignored_files_stored": 83,
+          "ignored_files_total": 83,
+          "hash_records_complete": true,
+          "coverage_version": 3,
+          "generation_matches": true
+        },
+        "paths": [
+          {
+            "requested_path": "src/fall_detect/visualization/reports.py",
+            "path": "src/fall_detect/visualization/reports.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "runs/ur-pose-resolution-20261013-001/threshold.json",
+            "path": "runs/ur-pose-resolution-20261013-001/threshold.json",
+            "status": "excluded",
+            "freshness": "not_tracked",
+            "recommended_action": "read_source_and_reindex",
+            "coverage": [
+              {
+                "path": "runs",
+                "kind": "not_indexed_dir",
+                "detail": "excluded subtree",
+                "match": "ancestor"
+              }
+            ]
+          },
+          {
+            "requested_path": "outputs/ur-pose-resolution-20261013-001/baseline/metrics.json",
+            "path": "outputs/ur-pose-resolution-20261013-001/baseline/metrics.json",
+            "status": "excluded",
+            "freshness": "not_tracked",
+            "recommended_action": "read_source_and_reindex",
+            "coverage": [
+              {
+                "path": "outputs",
+                "kind": "not_indexed_dir",
+                "detail": "excluded subtree",
+                "match": "ancestor"
+              }
+            ]
+          }
+        ],
+        "scopes": [],
+        "caveat": "Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable."
+      },
+      "isError": false
+    }
+  }
+}

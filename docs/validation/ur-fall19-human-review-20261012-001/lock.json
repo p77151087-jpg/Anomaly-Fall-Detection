@@ -1,0 +1,20 @@
+{
+  "source_hashes": {
+    "scripts/analyze_fall19_annotation.py": "d6fccfb4396a8eeb30fd3f57d0528404d910f72b80ac819ff8f0b043e58139c1",
+    "src/fall_detect/evaluation/annotation_diagnosis.py": "d03f83770ad62c7ee5b2e9a486fab79b6c4cfca13dadac09404acfe30b4e3b7a",
+    "tests/test_annotation_diagnosis.py": "1224963384183d630c930b43c692944b75601b1b8cb52a2ce6c5ede5355af0a5",
+    "src/fall_detect/evaluation/frame_review.py": "7c1fd5fd0937ead1693b4998be3f1a2aae0e1e55c1928aa0310563dfa3a08f49",
+    "src/fall_detect/io_utils.py": "5047b7e19a40975675584ea1bdeaaf6b838c8306377e9271b5298c07d5aa98d7"
+  },
+  "input_hashes": {
+    "docs/validation/ur-fall19-review-20261012-001/final-qa.json": "89c78a37055969b5b4abf2e033f6e50fa6f1518578a2b6e8e4023094ed361f73",
+    "docs/validation/ur-fall19-review-20261012-001/human-annotations/f7dbda11fcf42dbcf4f2a203ea0d0c22b70d7fa0b0c7915051be8cc540b88f3c/original-export.json": "f7dbda11fcf42dbcf4f2a203ea0d0c22b70d7fa0b0c7915051be8cc540b88f3c",
+    "docs/validation/ur-fall19-review-20261012-001/human-annotations/f7dbda11fcf42dbcf4f2a203ea0d0c22b70d7fa0b0c7915051be8cc540b88f3c/validation.json": "f1ea2c57b5968745c4bd1157aa6c4a9a59db797e621e12fba4d09364b351c7d4",
+    "outputs/ur-fall19-review-20261012-001/source-manifest.json": "848cd3b58b3e925f491db4652be16dcb0f8e696162d8ac377806a4580a74fa14",
+    "outputs/ur-fall19-review-20261012-001/review-data.json": "1c406d9a051698f6721bd35895a625c904340af6c6f49b1b0d7c4d5c245d3690"
+  },
+  "scope": "Validation diagnosis only",
+  "no_fitting": true,
+  "no_calibration": true,
+  "no_test": true
+}

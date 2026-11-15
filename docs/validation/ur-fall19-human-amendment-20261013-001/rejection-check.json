@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "operation": "repeat --save",
+  "exit_code": 1,
+  "expected_reason": "Preserve completed/attempted amendment",
+  "artifacts_unchanged": 12,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\amend_fall19_annotation.py\", line 180, in <module>\n    amend(parser.parse_args().save)\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\amend_fall19_annotation.py\", line 60, in amend\n    check(not E.exists() and not O.exists(), \"Preserve completed/attempted amendment\")\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\amend_fall19_annotation.py\", line 33, in check\n    raise ContractError(message)\nfall_detect.io_utils.ContractError: Preserve completed/attempted amendment\n"
+}

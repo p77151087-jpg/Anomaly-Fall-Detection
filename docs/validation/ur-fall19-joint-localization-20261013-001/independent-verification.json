@@ -1,0 +1,37 @@
+{
+  "independent_check": true,
+  "passed": true,
+  "joint_rows": 104,
+  "bone_rows": 96,
+  "selected_frames": [
+    44,
+    47,
+    49
+  ],
+  "original_pose_exact": true,
+  "embedded_images_exact": true,
+  "old_artifacts_or_archived_contracts": 343,
+  "refusal_checks": [
+    {
+      "command": [
+        "inspect"
+      ],
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\localize_fall19_joints.py\", line 367, in <module>\n    main()\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\localize_fall19_joints.py\", line 351, in main\n    inspect()\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\localize_fall19_joints.py\", line 215, in inspect\n    raise ValueError(\"Diagnostic directory exists; refuse overwrite\")\nValueError: Diagnostic directory exists; refuse overwrite\n"
+    },
+    {
+      "command": [
+        "package",
+        "--assessment",
+        "C:\\成大專案\\fall-detection-anomaly\\docs\\validation\\ur-fall19-joint-localization-20261013-001\\ai-visual-selection.json"
+      ],
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\localize_fall19_joints.py\", line 367, in <module>\n    main()\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\localize_fall19_joints.py\", line 355, in main\n    package(args.assessment)\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\localize_fall19_joints.py\", line 247, in package\n    raise ValueError(\"Review bundle exists; refuse overwrite\")\nValueError: Review bundle exists; refuse overwrite\n"
+    }
+  ],
+  "protected_outputs_during_refusals": 26,
+  "test_access": "none",
+  "feature_inference": "not_run",
+  "training": "not_run",
+  "real_end_to_end": "not_run"
+}

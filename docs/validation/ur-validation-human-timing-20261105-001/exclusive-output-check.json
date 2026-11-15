@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "actual_repeated_build_exit_code": 1,
+  "reason": "fall_detect.io_utils.ContractError: Preserve completed human timing outputs/QA; refuse overwrite",
+  "output_hashes_unchanged": 11
+}

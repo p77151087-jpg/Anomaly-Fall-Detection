@@ -1,0 +1,77 @@
+{
+  "url": "http://127.0.0.1:8841/index.html",
+  "checks": [
+    {
+      "check": "actual_playback_to_end",
+      "duration": 2.733333,
+      "ended": true,
+      "paused": true,
+      "readyState": 4,
+      "time": 2.733333
+    },
+    {
+      "check": "fall09_first_event_half_speed",
+      "clock": "媒體第 75/82 幀｜原格點 5.900000 秒",
+      "error": null,
+      "height": 820,
+      "playbackRate": 0.5,
+      "time": 2.469999,
+      "width": 1280
+    },
+    {
+      "check": "demo_single_decode",
+      "duration": 2.733333,
+      "error": null,
+      "height": 820,
+      "src": "http://127.0.0.1:8841/videos/fall-09-demo.mp4",
+      "width": 640
+    },
+    {
+      "check": "demo_single_ready_at_event",
+      "currentTime": 2.469999,
+      "error": null,
+      "height": 820,
+      "readyState": 1,
+      "src": "http://127.0.0.1:8841/videos/fall-09-demo.mp4",
+      "width": 640
+    },
+    {
+      "check": "wide_single_ready_at_event",
+      "currentTime": 2.469999,
+      "error": null,
+      "height": 820,
+      "readyState": 1,
+      "src": "http://127.0.0.1:8841/videos/fall-09-wide.mp4",
+      "width": 640
+    },
+    {
+      "check": "fall30_event_ready",
+      "clock": "媒體第 57/70 幀｜原格點 1.866667 秒",
+      "currentTime": 1.87,
+      "error": null,
+      "height": 820,
+      "readyState": 4,
+      "src": "http://127.0.0.1:8841/videos/fall-30-compare.mp4",
+      "width": 1280
+    },
+    {
+      "check": "fall18_final_event_ready",
+      "clock": "媒體第 44/65 幀｜原格點 1.433333 秒",
+      "currentTime": 1.436666,
+      "error": null,
+      "height": 820,
+      "paused": true,
+      "playbackRate": 0.5,
+      "readyState": 4,
+      "seekable": [
+        [
+          0,
+          2.166667
+        ]
+      ],
+      "source": "http://127.0.0.1:8841/videos/fall-18-compare.mp4",
+      "width": 1280
+    }
+  ],
+  "notes": "Metadata readyState=1 snapshots during source swaps were transient; final compare event readyState=4 and all nine actual videos additionally decoded independently."
+}

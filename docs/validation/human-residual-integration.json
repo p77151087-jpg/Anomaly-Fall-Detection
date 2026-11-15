@@ -1,0 +1,93 @@
+{
+  "source_kind": "real_end_to_end",
+  "cases": [
+    {
+      "run": "ur-sample-human-s1-001",
+      "sequence_id": "fall-09",
+      "split": "validation",
+      "frames": 185,
+      "compared_visible_scores": 127,
+      "max_score_difference": 0.0,
+      "events_equal": true,
+      "action_csv_byte_identical": true,
+      "original_ae_csv_byte_identical": true,
+      "first_window_alarm_ms": 5900.0,
+      "first_visible_alarm_ms": 5900.0,
+      "visible_alert_frames": 8,
+      "preview": "outputs\\human-residual-streaming\\ur-sample-human-s1-001\\fall-09-preview.mp4",
+      "contact": "outputs\\human-residual-streaming\\ur-sample-human-s1-001\\fall-09-check.jpg",
+      "files": {
+        "outputs\\human-residual-streaming\\ur-sample-human-s1-001\\fall-09-actions.csv": "4b93521202519ea43d8b95e4867f6895307b1641656c52d8a45f6202e00d5a17",
+        "outputs\\human-residual-streaming\\ur-sample-human-s1-001\\fall-09-check.jpg": "e8c26a5582fa1b062de97036d216f9265e4f6ba536d42c1dc78a6b1ff3c2b618",
+        "outputs\\human-residual-streaming\\ur-sample-human-s1-001\\fall-09-events.csv": "eca518ab714258dcd48f8bcbf93835d514fc9ebc7094d3730ae53821423641bd",
+        "outputs\\human-residual-streaming\\ur-sample-human-s1-001\\fall-09-preview.mp4": "79d1785732a6dcfdab1c5ff339852dcc3023dd64ce6402e1073838e3c7a0a512",
+        "outputs\\human-residual-streaming\\ur-sample-human-s1-001\\fall-09.csv": "423f0034e0ec92944de7cf2d1960f07a091a9a3b37fde86e828aae37faa38720",
+        "outputs\\human-residual-streaming\\ur-sample-human-s1-001\\fall-09.json": "65954c7b8b4cb0c1f0882f11a4e5f638ddda3f6295e4e579f9b6b4d947f9cc98",
+        "outputs\\human-residual-streaming\\ur-sample-human-s1-001\\fall-09.mp4": "0a957b912a1128e4065433ae9d4d450487659cb66049e3921985b78a4e3fc9c5"
+      }
+    },
+    {
+      "run": "ur-human-residual-channel-001",
+      "sequence_id": "fall-09",
+      "split": "validation",
+      "frames": 185,
+      "compared_visible_scores": 127,
+      "max_score_difference": 0.0,
+      "events_equal": true,
+      "action_csv_byte_identical": true,
+      "original_ae_csv_byte_identical": null,
+      "first_window_alarm_ms": 5900.0,
+      "first_visible_alarm_ms": 5900.0,
+      "visible_alert_frames": 8,
+      "preview": "outputs\\human-residual-streaming\\ur-human-residual-channel-001\\fall-09-preview.mp4",
+      "contact": "outputs\\human-residual-streaming\\ur-human-residual-channel-001\\fall-09-check.jpg",
+      "files": {
+        "outputs\\human-residual-streaming\\ur-human-residual-channel-001\\fall-09-actions.csv": "4b93521202519ea43d8b95e4867f6895307b1641656c52d8a45f6202e00d5a17",
+        "outputs\\human-residual-streaming\\ur-human-residual-channel-001\\fall-09-check.jpg": "e8c26a5582fa1b062de97036d216f9265e4f6ba536d42c1dc78a6b1ff3c2b618",
+        "outputs\\human-residual-streaming\\ur-human-residual-channel-001\\fall-09-events.csv": "28f420993bffe870644746091b8befc08d1e39dc61e885e657bd471a2ab9eed8",
+        "outputs\\human-residual-streaming\\ur-human-residual-channel-001\\fall-09-preview.mp4": "79d1785732a6dcfdab1c5ff339852dcc3023dd64ce6402e1073838e3c7a0a512",
+        "outputs\\human-residual-streaming\\ur-human-residual-channel-001\\fall-09.csv": "843a4fbda0b27854a103348da712d44658dd83c7de28c8eebd7753f72bbe8c6e",
+        "outputs\\human-residual-streaming\\ur-human-residual-channel-001\\fall-09.json": "17dfd093730950a5cb87082a8b9ffbe18e86465347ea0252fb8fb68a093f19d3",
+        "outputs\\human-residual-streaming\\ur-human-residual-channel-001\\fall-09.mp4": "0a957b912a1128e4065433ae9d4d450487659cb66049e3921985b78a4e3fc9c5"
+      }
+    },
+    {
+      "run": "ur-human-residual-stream-001",
+      "sequence_id": "fall-09",
+      "split": "validation",
+      "frames": 185,
+      "compared_visible_scores": 127,
+      "max_score_difference": 0.0,
+      "events_equal": true,
+      "action_csv_byte_identical": true,
+      "original_ae_csv_byte_identical": null,
+      "first_window_alarm_ms": 5900.0,
+      "first_visible_alarm_ms": 5900.0,
+      "visible_alert_frames": 8,
+      "preview": "outputs\\human-residual-streaming\\ur-human-residual-stream-001\\fall-09-preview.mp4",
+      "contact": "outputs\\human-residual-streaming\\ur-human-residual-stream-001\\fall-09-check.jpg",
+      "files": {
+        "outputs\\human-residual-streaming\\ur-human-residual-stream-001\\fall-09-actions.csv": "4b93521202519ea43d8b95e4867f6895307b1641656c52d8a45f6202e00d5a17",
+        "outputs\\human-residual-streaming\\ur-human-residual-stream-001\\fall-09-check.jpg": "e8c26a5582fa1b062de97036d216f9265e4f6ba536d42c1dc78a6b1ff3c2b618",
+        "outputs\\human-residual-streaming\\ur-human-residual-stream-001\\fall-09-events.csv": "ab36e3d0396e158408fb3d81b810bdffb294872521aaffe9d712916ee687e791",
+        "outputs\\human-residual-streaming\\ur-human-residual-stream-001\\fall-09-preview.mp4": "79d1785732a6dcfdab1c5ff339852dcc3023dd64ce6402e1073838e3c7a0a512",
+        "outputs\\human-residual-streaming\\ur-human-residual-stream-001\\fall-09.csv": "88faab0b3975c42496c4f6b8111062c123170f7e98ff43eb111813c100dfa32c",
+        "outputs\\human-residual-streaming\\ur-human-residual-stream-001\\fall-09.json": "f5365d936566c8830569ea49095c61b346de75a3ddfa6064b3804b8dffe6d839",
+        "outputs\\human-residual-streaming\\ur-human-residual-stream-001\\fall-09.mp4": "0a957b912a1128e4065433ae9d4d450487659cb66049e3921985b78a4e3fc9c5"
+      }
+    }
+  ],
+  "selected": "ur-sample-human-s1-001",
+  "target_reached": false,
+  "profiles_refitted_train_only": true,
+  "train_sequences": 24,
+  "train_windows": 3638,
+  "old_runs_preserved": 37,
+  "old_cache_files_preserved": 1165,
+  "new_test_scored": false,
+  "accuracy_improved": false,
+  "implementation_sha256": "342ddd82868e234196cfbd04eb011036e11e07c1e563e5de33ba232b3903e9b5",
+  "validation_sha256": "df14b85df1476af2d5492165c807693d8aecd7c53edf3ad4a0277012b073d7d8",
+  "verification_script_sha256": "53372d85fa8f4fe937754028262d211bacdf6e8f36874e27cdd546dba473eb4d",
+  "test_fixture_sha256": "7bc13734b9e8620f6bc283166f7d8224ebc74ba9049b61d0063862aef92b0f18"
+}

@@ -1,0 +1,80 @@
+{
+  "run": "ur-ae-both-001",
+  "status": {
+    "source_kind": "real",
+    "training": "complete",
+    "calibration": "complete",
+    "epochs": 100,
+    "best_val_normal_loss": 0.21892939714512022
+  },
+  "threshold": 0.3313135802745819,
+  "validation": {
+    "metric_unit": "sequence",
+    "TP": 12,
+    "FP": 3,
+    "FN": 3,
+    "TN": 5,
+    "n_total": 23,
+    "n_evaluable": 23,
+    "n_unknown": 0,
+    "sequence_coverage": 1.0,
+    "sequence_accuracy": 0.7391304347826086,
+    "sequence_fall_precision": 0.8,
+    "sequence_fall_recall": 0.8,
+    "sequence_fall_f1": 0.8,
+    "operational_accuracy": 0.7391304347826086,
+    "end_to_end_fall_recall": 0.8,
+    "outcomes_with_unknown": [
+      [
+        5,
+        3,
+        0
+      ],
+      [
+        3,
+        12,
+        0
+      ]
+    ],
+    "outcome_columns": [
+      "normal",
+      "suspected_fall",
+      "unknown"
+    ],
+    "outcome_rows": [
+      "ADL",
+      "Fall"
+    ],
+    "by_class": {
+      "ADL": {
+        "n_total": 8,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "window_coverage": 0.5906432748538012,
+        "n_missing_timelines": 0
+      },
+      "Fall": {
+        "n_total": 15,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "window_coverage": 0.7276995305164319,
+        "n_missing_timelines": 0
+      }
+    },
+    "window_coverage": 0.6432432432432432,
+    "n_missing_timelines": 0,
+    "balanced_sequence_accuracy": 0.7125
+  },
+  "hashes": {
+    "autoencoder.pt": "73bd8c73efeef27795562a288c0c092806ea758b184961d4ce3bacbfaf344c3a",
+    "scaler.npz": "502b564d881dafb95c143512fa0eb43806cb345f746ab6469988ee2f06fe1866",
+    "resolved-config.yaml": "09c2fb7d846358fcdc2676965cb1d2c7a2a6967bc9261b181095bd178dae96b3",
+    "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+    "sources.json": "2dd32cf8ebe7927fc57dc258c5f5ac34901d2cc85231ae3c873658792daa4211",
+    "dataset-index.json": "e235c07ce1de28a8ee8ec402db584af91c4fe511a0b57f526b3b1edf5766efd6",
+    "environment.json": "cded38ed8ba1608e5d9a232ab59ab2727da7db12137134f2ddd1a077b3f5fd62",
+    "training-history.csv": "f93b931a7106b34ed3475917041be299956fb5722f2dd34f2cfd977eddb944fc",
+    "threshold.json": "372e7ccab5809d32f20830ffde791c0d8fc1b0d0a552c75e801d4d53770b9bcf",
+    "calibration.json": "e23decb16ff0bf2a23b5c2c292eac8efad176c27bd591fafbee903455bee5803"
+  }
+}

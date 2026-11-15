@@ -1,0 +1,28 @@
+{
+  "source_kind": "real_feature_smoke",
+  "cases": {
+    "fall-25": {
+      "source_frames": [
+        53,
+        63,
+        71,
+        79
+      ],
+      "observation": "In the inspected frame71, Human pose stayed on the foreground person and did not produce the old background ghost; severe occlusion/out-of-frame ambiguity remains at frame79."
+    },
+    "fall-09": {
+      "source_frames": [
+        110,
+        140,
+        160,
+        180
+      ],
+      "observation": "Inspected Human pose retained more of the lying body than old YOLO at frame180; self-occluded limbs still ambiguous."
+    }
+  },
+  "image_hashes": {
+    "fall-09.jpg": "2296287c0e67e9dbece4f38773949c55e58fbeb8a11d55cdc6304e8e581931b9",
+    "fall-25.jpg": "55bc8ff8ed76269eb8b4409b6d39eff2240927b4ed5f1459f9e0a6d7ad824553"
+  },
+  "limitations": "Qualitative eight-frame inspection, no annotated keypoint accuracy, different skeleton layouts and quality contracts. Not evidence of whole-dataset detection improvement."
+}

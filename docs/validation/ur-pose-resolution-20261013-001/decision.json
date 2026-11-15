@@ -1,0 +1,44 @@
+{
+  "candidate": "ur-pose-resolution-20261013-001",
+  "adopted": false,
+  "default_model": "ur-sample-human-s1-001",
+  "default_model_changed": false,
+  "best_validation_reference": "ur-isotropic-wide-20261012-001",
+  "criteria": {
+    "strict_operational_accuracy_gain": false,
+    "fall_f1_at_least_baseline": false,
+    "all_fall_recall_at_least_baseline": false,
+    "no_normal_false_positive": false,
+    "no_unknown": false,
+    "no_original_tp_regression": false,
+    "fall19_good_event_in_human_transition_or_ground": false,
+    "no_coarse_phase_event_regression": false,
+    "no_coarse_visible_alarm_regression": false,
+    "no_new_coarse_early_events": false
+  },
+  "tp_regressions": [
+    "fall-07",
+    "fall-13",
+    "fall-22",
+    "fall-25",
+    "fall-29"
+  ],
+  "false_positives": [
+    "adl-35"
+  ],
+  "false_negatives": [
+    "fall-19",
+    "fall-13",
+    "fall-29",
+    "fall-07",
+    "fall-25"
+  ],
+  "unknown": [
+    "fall-22"
+  ],
+  "strict_candidate_count": 1,
+  "additional_candidates": 0,
+  "test_status": "unknown; 23 not_prepared; no feature/image decode or evaluation",
+  "reason": "fall-19 remains FN; accuracy, F1, coverage and coarse timing regress",
+  "anomaly_scores_are_probabilities": false
+}

@@ -1,0 +1,9 @@
+# Actual direct core dependencies tested on Windows / Python 3.11.16.
+# Install torch separately using the official CUDA/CPU wheel command in README.
+numpy==2.4.6
+opencv-python-headless==5.0.0.93
+PyYAML==6.0.3
+scikit-learn==1.9.1
+matplotlib==3.11.1
+scipy==1.17.1
+Pillow==12.3.0

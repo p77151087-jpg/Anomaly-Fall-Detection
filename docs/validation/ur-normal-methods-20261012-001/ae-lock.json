@@ -1,0 +1,49 @@
+{
+  "locked_at": "2026-10-12T09:31:37.288084+00:00",
+  "stage1_sha256": "e7689537d8337e9ba4c418d85797fbcd829506988703d0dc90d1a0693827d248",
+  "diagnosis_sha256": "8eacb4493d44784319964af450bc3a15d342a7d4bd131c1c4edea8311a0461e3",
+  "candidates": [
+    {
+      "id": "ur-denoise-wide-methods-20261012-001",
+      "kind": "denoise",
+      "order": 6,
+      "hidden": 256,
+      "latent": 64,
+      "noise_std": 0.1
+    },
+    {
+      "id": "ur-temporal-gru-methods-20261012-001",
+      "kind": "temporal",
+      "order": 7,
+      "hidden": 128,
+      "latent": 64,
+      "steps": 8,
+      "noise_std": 0.0
+    }
+  ],
+  "why": "Contrast normal manifold robustness (denoising) with retained cross-window order (GRU), on unchanged real512D features; controlled hypotheses, not asserted causes.",
+  "architecture": "denoise:512-256-64-256-512 ReLU, linear output; GRU:512->128 ReLU->GRU64, context64+position->GRU128->Linear512",
+  "training_loss": "clean-target MSE; temporal averages all8x512, anomaly score uses current last-step512 MSE",
+  "sampling": "sequence-balanced Train, original24 videos",
+  "seed": 42,
+  "max_epochs": 100,
+  "patience": 10,
+  "min_delta": 1e-06,
+  "batch": 32,
+  "optimizer": "Adam lr.001 wd.001",
+  "noise": "denoise .1 Gaussian standardized features, Train only, on-the-fly dedicated seed42 generator; no Val augmentation",
+  "temporal": "8 consecutive original legal same-track windows, stride1, reset on invalid/gap; no padding/future; original endpoint denominator retained",
+  "calibration": "operational Accuracy, Fall F1, all-Fall Recall, fewer FP, fixed order",
+  "stage1_best": "ur-ocsvm-06-20261012-001",
+  "diagnostic_summary": {
+    "baseline_accuracy": 0.9565217391304348,
+    "baseline_fn": [
+      "fall-19"
+    ],
+    "svm_recovers_fall19": [],
+    "normal_validation_nearest_distance_p50": 0.47615073359764143,
+    "normal_validation_nearest_distance_p95": 0.8229641603350774,
+    "cause_boundary": "Legal windows and low score identify scoring/threshold behavior. Confidence, AI coarse phases and nearest distance do not establish accurate joints, causal representation loss or human onset truth."
+  },
+  "stop": "exactly two candidates; no noise/history/capacity/seed extension"
+}

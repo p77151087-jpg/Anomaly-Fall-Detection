@@ -1,0 +1,78 @@
+{
+  "selected_run": "course-ur-balanced-001",
+  "metrics": {
+    "metric_unit": "sequence",
+    "TP": 7,
+    "FP": 4,
+    "FN": 7,
+    "TN": 4,
+    "n_total": 23,
+    "n_evaluable": 22,
+    "n_unknown": 1,
+    "sequence_coverage": 0.9565217391304348,
+    "sequence_accuracy": 0.5,
+    "sequence_fall_precision": 0.6363636363636364,
+    "sequence_fall_recall": 0.5,
+    "sequence_fall_f1": 0.56,
+    "operational_accuracy": 0.4782608695652174,
+    "end_to_end_fall_recall": 0.4666666666666667,
+    "outcomes_with_unknown": [
+      [
+        4,
+        4,
+        0
+      ],
+      [
+        7,
+        7,
+        1
+      ]
+    ],
+    "outcome_columns": [
+      "normal",
+      "suspected_fall",
+      "unknown"
+    ],
+    "outcome_rows": [
+      "ADL",
+      "Fall"
+    ],
+    "by_class": {
+      "ADL": {
+        "n_total": 8,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "window_coverage": 0.7581699346405228,
+        "n_missing_timelines": 0
+      },
+      "Fall": {
+        "n_total": 15,
+        "n_unknown": 1,
+        "sequence_coverage": 0.9333333333333333,
+        "window_coverage": 0.6094420600858369,
+        "n_missing_timelines": 0
+      }
+    },
+    "window_coverage": 0.6938775510204082,
+    "n_missing_timelines": 0,
+    "protocol_id": "urfall-cam0-rgb-sequence-v1",
+    "split_hash": "0b9a0f0cf3609c478afcbbe028130c7d519e26b573135fbd739c074c68bc93c5",
+    "recipe_hash": "745c11321bbc5d61e70d2ab1474438f8363c96eb6d26b175829a0d302b9584e2",
+    "source_kind": "real",
+    "artifact_hashes": {
+      "autoencoder.pt": "af38f41eac11c2ec805ec8c13be0f3db8bc9d3a94da5e1ec8d8a9dcac3902fa7",
+      "scaler.npz": "502b564d881dafb95c143512fa0eb43806cb345f746ab6469988ee2f06fe1866",
+      "resolved-config.yaml": "2c9bf179b45d635cf18cdd9afb095c08724a6e8db3f1f7989398313c2481f432",
+      "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+      "sources.json": "01d3cdc22ffc2da768e9ecd9ccab793db0a015b144ea003b1afad17fbfc6c8a5",
+      "dataset-index.json": "e235c07ce1de28a8ee8ec402db584af91c4fe511a0b57f526b3b1edf5766efd6",
+      "environment.json": "ddaf66749bd034db089ee855bf7dadd06320a3ef468ae2af96add7125d9b6538",
+      "training-history.csv": "af903895f39bd851b1758fc4ebe080f90183c05f9cf109bb41781634a068b5d1",
+      "threshold.json": "9a2579d7002271648c4fd3914eabbdb3e2cfba295a092ac1d8d24b3ae29ef05c",
+      "calibration.json": "3f906b9720e21461f6e439da87e7fcd91425ccbf139d0f4494a5fe313ee1ee93"
+    },
+    "config_hash": "fa20267591fa880dae95a61021d844bad8753687d117a0327d3444c37f0a5aef"
+  },
+  "output": "C:\\成大專案\\fall-detection-anomaly\\outputs\\course-ur-test",
+  "historical_test_previously_seen": true
+}

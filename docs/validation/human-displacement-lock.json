@@ -1,0 +1,106 @@
+{
+  "created_at": "2026-09-18T06:24:03.557281+00:00",
+  "baseline": "ur-sample-human-s1-001",
+  "candidates": [
+    {
+      "run": "ur-human-displacement-001",
+      "config": "configs\\ur-human-displacement-001.yaml",
+      "size": 30
+    }
+  ],
+  "pilot_ids": [
+    "adl-05",
+    "adl-24",
+    "adl-04",
+    "adl-35",
+    "fall-09",
+    "fall-19",
+    "fall-18",
+    "fall-30",
+    "fall-25",
+    "fall-29"
+  ],
+  "coarse_intervals": {
+    "fall-09": {
+      "upright_until_ms": 4304,
+      "fall_phase_ms": [
+        4604,
+        5506
+      ]
+    },
+    "fall-19": {
+      "upright_until_ms": 1167,
+      "fall_phase_ms": [
+        1468,
+        2369
+      ]
+    },
+    "fall-29": {
+      "upright_until_ms": 1735,
+      "fall_phase_ms": [
+        2035,
+        2936
+      ]
+    },
+    "fall-25": {
+      "upright_until_ms": 1568,
+      "fall_phase_ms": [
+        1868,
+        2802
+      ]
+    },
+    "fall-18": {
+      "upright_until_ms": 400,
+      "fall_phase_ms": [
+        800,
+        1601
+      ]
+    },
+    "fall-30": {
+      "upright_until_ms": 800,
+      "fall_phase_ms": [
+        1334,
+        1902
+      ]
+    }
+  },
+  "diagnosis_sha256": "44dd3b6504e52b8df8720cc453ec1a5be0b722883009cf4df3788e3ec51ec91a",
+  "before_sha256": "88cb5596eaace103347c79727527d7df8dc6f8694bbfad10be6edaddce5fd25b",
+  "source_index": "data/cache/ur-sample-human-s1-001/dataset-index.json",
+  "source_index_sha256": "cd163b0b2eb75044fdfd8127f9e863a06f8039b203a4027a299c7ab11be2e2c6",
+  "hypothesis": "Per-frame normalization removes global displacement (verified synthetic counterfactual). Shared causal-window extrema may preserve early descent for frozen features plus normal-only AE. Improvement is unproven; pretrained normalization distribution changes and pose outliers may hurt.",
+  "fixed": "Original30-frame context and stride1; same observed poses and quality/K3; shared XY min/max over each causal30-frame window only; confidence and 13-to-14 layout unchanged, frozen pretrained512D features, normal-only Train scaler/AE128/32 sequence sampling wd.001 noise0 seed42 max100/patience10; normalVal checkpoint, Validation balanced sequence accuracy calibration.",
+  "pilot_gate": "Exactly identical pose hashes and scheduled valid/invalid records to original30; finite genuine512D features measurably different from per-frame normalization; all10 retain legal K3, unchanged phase coverage. No Test scoring or Accuracy claim in pilot.",
+  "selection": "Baseline and eligible candidates: highest Validation operational Accuracy, then F1, all-Fall recall, fewer FP; ties keep baseline/earlier candidate.",
+  "timing_guard": "At least baseline coarse phase-hit count, no additional early events, no Accuracy/F1 regression or extra unknown. Every newly detected formerly missed case must have an event start inside its prelocked coarse phase. Six Validation cases only, not official timing ground truth.",
+  "targets": {
+    "operational_accuracy": 0.9,
+    "sequence_accuracy": 0.9,
+    "sequence_fall_f1": 0.87
+  },
+  "stop": "One coordinate-normalization candidate and one fixed AE, max100epochs. Failed pilot is not trained. No additional input variants, contexts, seeds, AE or threshold objectives. If it fails, end the current optimization work and report the limitation. Test once on frozen selected model only if Validation targets/timing guard pass; no post-Test tuning.",
+  "historical_test_seen": true,
+  "repeated_validation_not_independent": true,
+  "implementation_sha256": {
+    "src/fall_detect/config.py": "4a7963665855a3b3d36812430ea6fc5bb86a51f3b5b26a9e2f05914993d47c05",
+    "src/fall_detect/models/stgcn.py": "362ae1191c4477c1e30940451bb7aabca2a79a57b8d2d0e66598a3da153d9dd9",
+    "src/fall_detect/skeleton/preprocessing.py": "62ebf71e97757ab879c5c4752e45397fcbc12f4c9b808a590b9487bd0cdf9e43",
+    "src/fall_detect/skeleton/windows.py": "442d0fe912e1101bb76019479f97aa1469717242a057e73df4cafaacc9c045aa",
+    "src/fall_detect/data/pose_reuse.py": "15c55af4fd00cf33de8604c32f284a9cee96ab74f4b040ec2de2f04f6f1de0c1",
+    "src/fall_detect/pipeline.py": "25cc480f9f642f9c2aae64e88b04ecb2f7cb6d6a0ee0d3c979d779816cc72fd0",
+    "src/fall_detect/data/cache.py": "fe877449967604bb94954b5b29c8c71528545e7232e9800d96232da2fc3587fd",
+    "src/fall_detect/detection/events.py": "fd4e26ddd9d370c921d5baccc0c6722b43cb0ffa060354ac8268a71bc6b3705f",
+    "src/fall_detect/training/experiment.py": "c47781dabd21362ab9b7af43afcd47fcc3ab0bafcad46128d3903b8c2bccc77c",
+    "scripts/human_displacement.py": "c6018c9f62e50dc0c0f3d2167184c077d8e897a43661afd7a69d95179a3ff839",
+    "scripts/ae_generalization.py": "76eaecbf2bbc4bc53b81cf0d64607a09f64ff8692a93eeae278c1bb8f8b92622",
+    "scripts/dense_schedule.py": "e7674add2ff2628a7498addbcc1f3583b326c58e301d4b6d1915cc5f1f95af20",
+    "tests/test_human_displacement.py": "6c65b4043e80ba088d71747615c67589fba3d6e9512a243b74e435f83b1df072"
+  },
+  "config_sha256": {
+    "configs\\ur-human-displacement-001.yaml": "49aaabb58578965e0b418d7a5946afa2667cf8e5cc97d2e99260396ddd9e7322"
+  },
+  "coarse_contact_sha256": {
+    "fall-18": "c61b1ec96cc7168e207c6dfc247bdf3649f6fe661178de3d63721451df46b200",
+    "fall-30": "b0e10a9d6746870f7628ad2ddbeb60e27b81d4cd894a77199249d53976432243"
+  }
+}

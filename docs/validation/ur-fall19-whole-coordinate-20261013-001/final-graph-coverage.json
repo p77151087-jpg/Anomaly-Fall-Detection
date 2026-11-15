@@ -1,0 +1,133 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"project\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly\",\"signal\":\"best_effort\",\"indexed_at\":\"2026-10-13T09:02:54Z\",\"metadata\":{\"generation\":\"2026-10-13T09:02:54Z\",\"index_mode\":\"full\",\"recorded_at\":\"2026-10-13T09:02:56Z\",\"recording_status\":\"complete\",\"ignored_files_stored\":133,\"ignored_files_total\":133,\"hash_records_complete\":true,\"coverage_version\":3,\"generation_matches\":true},\"paths\":[{\"requested_path\":\"scripts/whole_pose_coordinate_diagnostic.py\",\"path\":\"scripts/whole_pose_coordinate_diagnostic.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"scripts/verify_whole_pose_coordinate_diagnostic.py\",\"path\":\"scripts/verify_whole_pose_coordinate_diagnostic.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"scripts/audit_whole_pose_outputs.py\",\"path\":\"scripts/audit_whole_pose_outputs.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/evaluation/whole_pose_coordinates.py\",\"path\":\"src/fall_detect/evaluation/whole_pose_coordinates.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"tests/test_whole_pose_coordinates.py\",\"path\":\"tests/test_whole_pose_coordinates.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"docs/ur-fall19-whole-coordinate-20261013-plan.md\",\"path\":\"docs/ur-fall19-whole-coordinate-20261013-plan.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"docs/ur-fall19-whole-coordinate-20261013.md\",\"path\":\"docs/ur-fall19-whole-coordinate-20261013.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"docs/current-progress.md\",\"path\":\"docs/current-progress.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"docs/acceptance-results.md\",\"path\":\"docs/acceptance-results.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"AGENTS.md\",\"path\":\"AGENTS.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"Fall_Detection_Codex_Implementation_Spec.md\",\"path\":\"Fall_Detection_Codex_Implementation_Spec.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"tests/test_events_metrics.py\",\"path\":\"tests/test_events_metrics.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"tests/test_training_cache.py\",\"path\":\"tests/test_training_cache.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]}],\"scopes\":[],\"caveat\":\"Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable.\"}"
+    }
+  ],
+  "structuredContent": {
+    "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+    "signal": "best_effort",
+    "indexed_at": "2026-10-13T09:02:54Z",
+    "metadata": {
+      "generation": "2026-10-13T09:02:54Z",
+      "index_mode": "full",
+      "recorded_at": "2026-10-13T09:02:56Z",
+      "recording_status": "complete",
+      "ignored_files_stored": 133,
+      "ignored_files_total": 133,
+      "hash_records_complete": true,
+      "coverage_version": 3,
+      "generation_matches": true
+    },
+    "paths": [
+      {
+        "requested_path": "scripts/whole_pose_coordinate_diagnostic.py",
+        "path": "scripts/whole_pose_coordinate_diagnostic.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "scripts/verify_whole_pose_coordinate_diagnostic.py",
+        "path": "scripts/verify_whole_pose_coordinate_diagnostic.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "scripts/audit_whole_pose_outputs.py",
+        "path": "scripts/audit_whole_pose_outputs.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "src/fall_detect/evaluation/whole_pose_coordinates.py",
+        "path": "src/fall_detect/evaluation/whole_pose_coordinates.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "tests/test_whole_pose_coordinates.py",
+        "path": "tests/test_whole_pose_coordinates.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "docs/ur-fall19-whole-coordinate-20261013-plan.md",
+        "path": "docs/ur-fall19-whole-coordinate-20261013-plan.md",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "docs/ur-fall19-whole-coordinate-20261013.md",
+        "path": "docs/ur-fall19-whole-coordinate-20261013.md",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "docs/current-progress.md",
+        "path": "docs/current-progress.md",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "docs/acceptance-results.md",
+        "path": "docs/acceptance-results.md",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "AGENTS.md",
+        "path": "AGENTS.md",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "Fall_Detection_Codex_Implementation_Spec.md",
+        "path": "Fall_Detection_Codex_Implementation_Spec.md",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "tests/test_events_metrics.py",
+        "path": "tests/test_events_metrics.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "tests/test_training_cache.py",
+        "path": "tests/test_training_cache.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      }
+    ],
+    "scopes": [],
+    "caveat": "Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable."
+  },
+  "isError": false
+}

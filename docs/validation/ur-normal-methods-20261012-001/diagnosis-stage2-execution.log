@@ -1,0 +1,5 @@
+{'baseline_accuracy': 0.9565217391304348, 'baseline_fn': ['fall-19'], 'svm_recovers_fall19': [], 'normal_validation_nearest_distance_p50': 0.47615073359764143, 'normal_validation_nearest_distance_p95': 0.8229641603350774, 'cause_boundary': 'Legal windows and low score identify scoring/threshold behavior. Confidence, AI coarse phases and nearest distance do not establish accurate joints, causal representation loss or human onset truth.'}
+fall-19 valid 9 FALLING 0 nearest 0.49220965225780783
+fall-18 valid 16 FALLING 6 nearest 0.8162536318382395
+fall-30 valid 16 FALLING 2 nearest 0.8127180591572061
+fall-09 valid 15 FALLING 13 nearest 0.7530327690160193

@@ -1,0 +1,281 @@
+{
+  "source_kind": "real_feature_smoke",
+  "baseline": [
+    {
+      "sequence_id": "adl-05",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "valid_features": 148,
+      "legal_k3": true,
+      "window_coverage": 0.9866666666666667,
+      "legal_phase_windows": null,
+      "pose_sha256": "f4cc606e20b61d592236d07ec1752ef95b55160dc4bccc19d70bbb2921f76f64"
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "valid_features": 38,
+      "legal_k3": true,
+      "window_coverage": 0.926829268292683,
+      "legal_phase_windows": null,
+      "pose_sha256": "5997f6952aa718938686d98347c81e0d6d7b9127c364b0a4160ade5e99fe3c20"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "valid_features": 118,
+      "legal_k3": true,
+      "window_coverage": 0.9833333333333333,
+      "legal_phase_windows": null,
+      "pose_sha256": "8c7334ccf15cb0bcf7b92b70368874b56f09c86d92e55f49d0dc2bf99fde3458"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "valid_features": 252,
+      "legal_k3": true,
+      "window_coverage": 0.9921259842519685,
+      "legal_phase_windows": null,
+      "pose_sha256": "1bac7ff834a49e4b6d9b03783b246c70182b13e78ad644db83e80eea0cdd08e1"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "valid_features": 23,
+      "legal_k3": true,
+      "window_coverage": 0.323943661971831,
+      "legal_phase_windows": 9,
+      "pose_sha256": "9f793ef74565c96209cb379a48750b34cf49573b714b339e1e91957ac76ef0b3"
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "valid_features": 16,
+      "legal_k3": true,
+      "window_coverage": 0.4444444444444444,
+      "legal_phase_windows": 14,
+      "pose_sha256": "5a1ae27b89f617174f04e47befae86f23f42427475a1c01ffe42bcd50e4c439f"
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "valid_features": 54,
+      "legal_k3": true,
+      "window_coverage": 0.7714285714285715,
+      "legal_phase_windows": 23,
+      "pose_sha256": "7569424cfb8d0ba107ce0217c7b00409f94de3d1c1dfab8ce624a65eb24520db"
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "valid_features": 133,
+      "legal_k3": true,
+      "window_coverage": 0.8525641025641025,
+      "legal_phase_windows": 15,
+      "pose_sha256": "233a902f4c613f44cc029ee803b962c719d1b100fff5bb2c9336ab1ff750109f"
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "valid_features": 46,
+      "legal_k3": true,
+      "window_coverage": 0.8214285714285714,
+      "legal_phase_windows": 20,
+      "pose_sha256": "0ff82a276828940e49bb1a099960c83dde77b62ae499cc9b8b2b7342810cece1"
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "valid_features": 26,
+      "legal_k3": true,
+      "window_coverage": 0.6341463414634146,
+      "legal_phase_windows": 16,
+      "pose_sha256": "3718059a1ed181719e679400522958e8a40875d96d96199dd659a7c447e1ce35"
+    }
+  ],
+  "rows": [
+    {
+      "run": "ur-human-displacement-001",
+      "index": "C:\\成大專案\\fall-detection-anomaly\\data\\cache\\ur-human-displacement-001\\real_feature_smoke\\dataset-index.json",
+      "index_sha256": "c69ab7e297fe16d3f9cb11ef758ba756b008ca07d6f735cac62f8b4b8653802e",
+      "stats": [
+        {
+          "sequence_id": "adl-05",
+          "split": "train",
+          "label": 0,
+          "camera": 0,
+          "modality": "rgb",
+          "valid_features": 148,
+          "legal_k3": true,
+          "window_coverage": 0.9866666666666667,
+          "legal_phase_windows": null,
+          "pose_sha256": "f4cc606e20b61d592236d07ec1752ef95b55160dc4bccc19d70bbb2921f76f64"
+        },
+        {
+          "sequence_id": "adl-24",
+          "split": "train",
+          "label": 0,
+          "camera": 0,
+          "modality": "rgb",
+          "valid_features": 38,
+          "legal_k3": true,
+          "window_coverage": 0.926829268292683,
+          "legal_phase_windows": null,
+          "pose_sha256": "5997f6952aa718938686d98347c81e0d6d7b9127c364b0a4160ade5e99fe3c20"
+        },
+        {
+          "sequence_id": "adl-04",
+          "split": "validation",
+          "label": 0,
+          "camera": 0,
+          "modality": "rgb",
+          "valid_features": 118,
+          "legal_k3": true,
+          "window_coverage": 0.9833333333333333,
+          "legal_phase_windows": null,
+          "pose_sha256": "8c7334ccf15cb0bcf7b92b70368874b56f09c86d92e55f49d0dc2bf99fde3458"
+        },
+        {
+          "sequence_id": "adl-35",
+          "split": "validation",
+          "label": 0,
+          "camera": 0,
+          "modality": "rgb",
+          "valid_features": 252,
+          "legal_k3": true,
+          "window_coverage": 0.9921259842519685,
+          "legal_phase_windows": null,
+          "pose_sha256": "1bac7ff834a49e4b6d9b03783b246c70182b13e78ad644db83e80eea0cdd08e1"
+        },
+        {
+          "sequence_id": "fall-19",
+          "split": "validation",
+          "label": 1,
+          "camera": 0,
+          "modality": "rgb",
+          "valid_features": 23,
+          "legal_k3": true,
+          "window_coverage": 0.323943661971831,
+          "legal_phase_windows": 9,
+          "pose_sha256": "9f793ef74565c96209cb379a48750b34cf49573b714b339e1e91957ac76ef0b3"
+        },
+        {
+          "sequence_id": "fall-18",
+          "split": "validation",
+          "label": 1,
+          "camera": 0,
+          "modality": "rgb",
+          "valid_features": 16,
+          "legal_k3": true,
+          "window_coverage": 0.4444444444444444,
+          "legal_phase_windows": 14,
+          "pose_sha256": "5a1ae27b89f617174f04e47befae86f23f42427475a1c01ffe42bcd50e4c439f"
+        },
+        {
+          "sequence_id": "fall-29",
+          "split": "validation",
+          "label": 1,
+          "camera": 0,
+          "modality": "rgb",
+          "valid_features": 54,
+          "legal_k3": true,
+          "window_coverage": 0.7714285714285715,
+          "legal_phase_windows": 23,
+          "pose_sha256": "7569424cfb8d0ba107ce0217c7b00409f94de3d1c1dfab8ce624a65eb24520db"
+        },
+        {
+          "sequence_id": "fall-09",
+          "split": "validation",
+          "label": 1,
+          "camera": 0,
+          "modality": "rgb",
+          "valid_features": 133,
+          "legal_k3": true,
+          "window_coverage": 0.8525641025641025,
+          "legal_phase_windows": 15,
+          "pose_sha256": "233a902f4c613f44cc029ee803b962c719d1b100fff5bb2c9336ab1ff750109f"
+        },
+        {
+          "sequence_id": "fall-25",
+          "split": "validation",
+          "label": 1,
+          "camera": 0,
+          "modality": "rgb",
+          "valid_features": 46,
+          "legal_k3": true,
+          "window_coverage": 0.8214285714285714,
+          "legal_phase_windows": 20,
+          "pose_sha256": "0ff82a276828940e49bb1a099960c83dde77b62ae499cc9b8b2b7342810cece1"
+        },
+        {
+          "sequence_id": "fall-30",
+          "split": "validation",
+          "label": 1,
+          "camera": 0,
+          "modality": "rgb",
+          "valid_features": 26,
+          "legal_k3": true,
+          "window_coverage": 0.6341463414634146,
+          "legal_phase_windows": 16,
+          "pose_sha256": "3718059a1ed181719e679400522958e8a40875d96d96199dd659a7c447e1ce35"
+        }
+      ],
+      "adl_coverage_ratio": 1.0,
+      "fall_phase_legal_ratio": 1.0,
+      "gate_passed": true,
+      "observed_pose_hashes_unchanged": true,
+      "scheduled_records_identical": true,
+      "feature_max_abs_differences": {
+        "adl-05": 1.8551044464111328,
+        "adl-24": 2.2697012424468994,
+        "adl-04": 2.7346208095550537,
+        "adl-35": 3.5738637447357178,
+        "fall-09": 4.691465377807617,
+        "fall-19": 3.4280431270599365,
+        "fall-18": 2.9119958877563477,
+        "fall-30": 3.1301472187042236,
+        "fall-25": 3.2709686756134033,
+        "fall-29": 3.3440518379211426
+      },
+      "model_load_reports": {
+        "pose": null,
+        "stgcn": {
+          "strict": true,
+          "key_conversion": null,
+          "sha256": "1cac9a6da99d5d67da8ab58ee7633c5e923d85fba668673f028792819750a149"
+        }
+      }
+    }
+  ],
+  "test_scored": false,
+  "accuracy_not_measured": true
+}

@@ -1,0 +1,702 @@
+[
+  {
+    "sequence_id": "caucafall-S01-FallBackwards",
+    "fps": 20.0,
+    "frames": 125,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S01-FallForward",
+    "fps": 20.0,
+    "frames": 190,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S01-FallLeft",
+    "fps": 20.0,
+    "frames": 86,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S01-FallRight",
+    "fps": 20.0,
+    "frames": 114,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S01-FallSitting",
+    "fps": 20.0,
+    "frames": 182,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S01-Hop",
+    "fps": 20.0,
+    "frames": 182,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S01-Kneel",
+    "fps": 20.0,
+    "frames": 219,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S01-Pickupobject",
+    "fps": 20.0,
+    "frames": 117,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S01-SitDown",
+    "fps": 20.0,
+    "frames": 187,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S01-Walk",
+    "fps": 20.0,
+    "frames": 242,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S02-FallBackwards",
+    "fps": 20.0,
+    "frames": 119,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S02-FallForward",
+    "fps": 20.0,
+    "frames": 106,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S02-FallLeft",
+    "fps": 20.0,
+    "frames": 109,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S02-FallRight",
+    "fps": 20.0,
+    "frames": 146,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S02-FallSitting",
+    "fps": 20.0,
+    "frames": 157,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S02-Hop",
+    "fps": 20.0,
+    "frames": 171,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S02-Kneel",
+    "fps": 20.0,
+    "frames": 130,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S02-Pickupobject",
+    "fps": 20.0,
+    "frames": 166,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S02-SitDown",
+    "fps": 20.0,
+    "frames": 112,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S02-Walk",
+    "fps": 20.0,
+    "frames": 244,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S03-FallBackwards",
+    "fps": 20.0,
+    "frames": 166,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S03-FallForward",
+    "fps": 20.0,
+    "frames": 153,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S03-FallLeft",
+    "fps": 20.0,
+    "frames": 171,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S03-FallRight",
+    "fps": 20.0,
+    "frames": 220,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S03-FallSitting",
+    "fps": 20.0,
+    "frames": 202,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S03-Hop",
+    "fps": 20.0,
+    "frames": 162,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S03-Kneel",
+    "fps": 20.0,
+    "frames": 213,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S03-Pickupobject",
+    "fps": 20.0,
+    "frames": 186,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S03-SitDown",
+    "fps": 20.0,
+    "frames": 261,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S03-Walk",
+    "fps": 20.0,
+    "frames": 176,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S04-FallBackwards",
+    "fps": 20.0,
+    "frames": 192,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S04-FallForward",
+    "fps": 20.0,
+    "frames": 168,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S04-FallLeft",
+    "fps": 20.0,
+    "frames": 162,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S04-FallRight",
+    "fps": 20.0,
+    "frames": 150,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S04-FallSitting",
+    "fps": 20.0,
+    "frames": 198,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S04-Hop",
+    "fps": 20.0,
+    "frames": 144,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S04-Kneel",
+    "fps": 20.0,
+    "frames": 222,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S04-Pickupobject",
+    "fps": 20.0,
+    "frames": 179,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S04-SitDown",
+    "fps": 20.0,
+    "frames": 199,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S04-Walk",
+    "fps": 20.0,
+    "frames": 240,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S05-FallBackwards",
+    "fps": 20.0,
+    "frames": 214,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S05-FallForward",
+    "fps": 20.0,
+    "frames": 200,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S05-FallLeft",
+    "fps": 20.0,
+    "frames": 247,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S05-FallRight",
+    "fps": 20.0,
+    "frames": 219,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S05-FallSitting",
+    "fps": 20.0,
+    "frames": 229,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S05-Hop",
+    "fps": 20.0,
+    "frames": 122,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S05-Kneel",
+    "fps": 20.0,
+    "frames": 208,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S05-Pickupobject",
+    "fps": 20.0,
+    "frames": 271,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S05-SitDown",
+    "fps": 20.0,
+    "frames": 260,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S05-Walk",
+    "fps": 20.0,
+    "frames": 226,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S06-FallBackwards",
+    "fps": 20.0,
+    "frames": 234,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S06-FallForward",
+    "fps": 20.0,
+    "frames": 202,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S06-FallLeft",
+    "fps": 20.0,
+    "frames": 229,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S06-FallRight",
+    "fps": 20.0,
+    "frames": 229,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S06-FallSitting",
+    "fps": 20.0,
+    "frames": 248,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S06-Hop",
+    "fps": 20.0,
+    "frames": 162,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S06-Kneel",
+    "fps": 20.0,
+    "frames": 189,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S06-Pickupobject",
+    "fps": 20.0,
+    "frames": 202,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S06-SitDown",
+    "fps": 20.0,
+    "frames": 189,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S06-Walk",
+    "fps": 20.0,
+    "frames": 266,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S07-FallBackwards",
+    "fps": 20.0,
+    "frames": 252,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S07-FallForward",
+    "fps": 20.0,
+    "frames": 162,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S07-FallLeft",
+    "fps": 20.0,
+    "frames": 212,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S07-FallRight",
+    "fps": 20.0,
+    "frames": 166,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S07-FallSitting",
+    "fps": 20.0,
+    "frames": 207,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S07-Hop",
+    "fps": 20.0,
+    "frames": 198,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S07-Kneel",
+    "fps": 20.0,
+    "frames": 202,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S07-Pickupobject",
+    "fps": 20.0,
+    "frames": 153,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S07-SitDown",
+    "fps": 20.0,
+    "frames": 193,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S07-Walk",
+    "fps": 20.0,
+    "frames": 193,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S08-FallBackwards",
+    "fps": 20.0,
+    "frames": 212,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S08-FallForward",
+    "fps": 20.0,
+    "frames": 122,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S08-FallLeft",
+    "fps": 20.0,
+    "frames": 202,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S08-FallRight",
+    "fps": 20.0,
+    "frames": 229,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S08-FallSitting",
+    "fps": 20.0,
+    "frames": 234,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S08-Hop",
+    "fps": 20.0,
+    "frames": 166,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S08-Kneel",
+    "fps": 20.0,
+    "frames": 256,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S08-Pickupobject",
+    "fps": 20.0,
+    "frames": 266,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S08-SitDown",
+    "fps": 20.0,
+    "frames": 212,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S08-Walk",
+    "fps": 20.0,
+    "frames": 216,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S09-FallBackwards",
+    "fps": 20.0,
+    "frames": 252,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S09-FallForward",
+    "fps": 20.0,
+    "frames": 148,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S09-FallLeft",
+    "fps": 20.0,
+    "frames": 207,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S09-FallRight",
+    "fps": 20.0,
+    "frames": 189,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S09-FallSitting",
+    "fps": 20.0,
+    "frames": 216,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S09-Hop",
+    "fps": 20.0,
+    "frames": 212,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S09-Kneel",
+    "fps": 20.0,
+    "frames": 216,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S09-Pickupobject",
+    "fps": 20.0,
+    "frames": 220,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S09-SitDown",
+    "fps": 20.0,
+    "frames": 238,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S09-Walk",
+    "fps": 20.0,
+    "frames": 234,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S10-FallBackwards",
+    "fps": 20.0,
+    "frames": 274,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S10-FallForward",
+    "fps": 20.0,
+    "frames": 243,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S10-FallLeft",
+    "fps": 20.0,
+    "frames": 212,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S10-FallRight",
+    "fps": 20.0,
+    "frames": 202,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S10-FallSitting",
+    "fps": 20.0,
+    "frames": 288,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S10-Hop",
+    "fps": 20.0,
+    "frames": 248,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S10-Kneel",
+    "fps": 20.0,
+    "frames": 261,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S10-Pickupobject",
+    "fps": 20.0,
+    "frames": 292,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S10-SitDown",
+    "fps": 20.0,
+    "frames": 234,
+    "width": 720,
+    "height": 480
+  },
+  {
+    "sequence_id": "caucafall-S10-Walk",
+    "fps": 20.0,
+    "frames": 224,
+    "width": 720,
+    "height": 480
+  }
+]

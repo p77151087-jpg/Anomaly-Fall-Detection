@@ -1,0 +1,794 @@
+{
+  "sequences": [
+    {
+      "sequence_id": "adl-33",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-08",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-40",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-19",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-05",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-17",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-26",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-29",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-21",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-25",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-11",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-28",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-31",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-30",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-12",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation",
+      "label": 0,
+      "onset_uncertainty_ms": null,
+      "settled_uncertainty_ms": null,
+      "core_descent_ms": null,
+      "possible_descent_ms": null,
+      "annotation_method": "source ADL label; sampled visual normal-activity check",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation",
+      "label": 1,
+      "source_frame_ids": [
+        16,
+        21,
+        31,
+        36
+      ],
+      "onset_uncertainty_ms": [
+        500.0,
+        667.0
+      ],
+      "settled_uncertainty_ms": [
+        1001.0,
+        1167.0
+      ],
+      "core_descent_ms": [
+        667.0,
+        1001.0
+      ],
+      "possible_descent_ms": [
+        500.0,
+        1167.0
+      ],
+      "annotation_method": "AI visual sampled onset/descent/settling brackets",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation",
+      "label": 1,
+      "source_frame_ids": [
+        37,
+        46,
+        55,
+        64
+      ],
+      "onset_uncertainty_ms": [
+        1201.0,
+        1501.0
+      ],
+      "settled_uncertainty_ms": [
+        1801.0,
+        2102.0
+      ],
+      "core_descent_ms": [
+        1501.0,
+        1801.0
+      ],
+      "possible_descent_ms": [
+        1201.0,
+        2102.0
+      ],
+      "annotation_method": "AI visual sampled onset/descent/settling brackets",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation",
+      "label": 1,
+      "source_frame_ids": [
+        26,
+        30,
+        45,
+        50
+      ],
+      "onset_uncertainty_ms": [
+        834.0,
+        967.0
+      ],
+      "settled_uncertainty_ms": [
+        1468.0,
+        1635.0
+      ],
+      "core_descent_ms": [
+        967.0,
+        1468.0
+      ],
+      "possible_descent_ms": [
+        834.0,
+        1635.0
+      ],
+      "annotation_method": "AI visual sampled onset/descent/settling brackets",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation",
+      "label": 1,
+      "source_frame_ids": [
+        24,
+        30,
+        42,
+        48
+      ],
+      "onset_uncertainty_ms": [
+        767.0,
+        967.0
+      ],
+      "settled_uncertainty_ms": [
+        1368.0,
+        1568.0
+      ],
+      "core_descent_ms": [
+        967.0,
+        1368.0
+      ],
+      "possible_descent_ms": [
+        767.0,
+        1568.0
+      ],
+      "annotation_method": "AI visual sampled onset/descent/settling brackets",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation",
+      "label": 1,
+      "source_frame_ids": [
+        34,
+        42,
+        75,
+        83
+      ],
+      "onset_uncertainty_ms": [
+        1101.0,
+        1368.0
+      ],
+      "settled_uncertainty_ms": [
+        2469.0,
+        2736.0
+      ],
+      "core_descent_ms": [
+        1368.0,
+        2469.0
+      ],
+      "possible_descent_ms": [
+        1101.0,
+        2736.0
+      ],
+      "annotation_method": "AI visual sampled onset/descent/settling brackets",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation",
+      "label": 1,
+      "source_frame_ids": [
+        47,
+        54,
+        70,
+        77
+      ],
+      "onset_uncertainty_ms": [
+        1535.0,
+        1768.0
+      ],
+      "settled_uncertainty_ms": [
+        2302.0,
+        2536.0
+      ],
+      "core_descent_ms": [
+        1768.0,
+        2302.0
+      ],
+      "possible_descent_ms": [
+        1535.0,
+        2536.0
+      ],
+      "annotation_method": "AI visual sampled onset/descent/settling brackets",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation",
+      "label": 1,
+      "source_frame_ids": [
+        54,
+        63,
+        72,
+        81
+      ],
+      "onset_uncertainty_ms": [
+        1768.0,
+        2068.0
+      ],
+      "settled_uncertainty_ms": [
+        2369.0,
+        2669.0
+      ],
+      "core_descent_ms": [
+        2068.0,
+        2369.0
+      ],
+      "possible_descent_ms": [
+        1768.0,
+        2669.0
+      ],
+      "annotation_method": "AI visual sampled onset/descent/settling brackets",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation",
+      "label": 1,
+      "source_frame_ids": [
+        28,
+        34,
+        39,
+        45
+      ],
+      "onset_uncertainty_ms": [
+        900.0,
+        1101.0
+      ],
+      "settled_uncertainty_ms": [
+        1268.0,
+        1468.0
+      ],
+      "core_descent_ms": [
+        1101.0,
+        1268.0
+      ],
+      "possible_descent_ms": [
+        900.0,
+        1468.0
+      ],
+      "annotation_method": "AI visual sampled onset/descent/settling brackets",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation",
+      "label": 1,
+      "source_frame_ids": [
+        118,
+        135,
+        168,
+        185
+      ],
+      "onset_uncertainty_ms": [
+        3904.0,
+        4471.0
+      ],
+      "settled_uncertainty_ms": [
+        5572.0,
+        6139.0
+      ],
+      "core_descent_ms": [
+        4471.0,
+        5572.0
+      ],
+      "possible_descent_ms": [
+        3904.0,
+        6139.0
+      ],
+      "annotation_method": "AI visual sampled onset/descent/settling brackets",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation",
+      "label": 1,
+      "source_frame_ids": [
+        86,
+        100,
+        142,
+        156
+      ],
+      "onset_uncertainty_ms": [
+        2836.0,
+        3303.0
+      ],
+      "settled_uncertainty_ms": [
+        4705.0,
+        5172.0
+      ],
+      "core_descent_ms": [
+        3303.0,
+        4705.0
+      ],
+      "possible_descent_ms": [
+        2836.0,
+        5172.0
+      ],
+      "annotation_method": "AI visual sampled onset/descent/settling brackets",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation",
+      "label": 1,
+      "source_frame_ids": [
+        48,
+        60,
+        107,
+        118
+      ],
+      "onset_uncertainty_ms": [
+        1568.0,
+        1968.0
+      ],
+      "settled_uncertainty_ms": [
+        3537.0,
+        3904.0
+      ],
+      "core_descent_ms": [
+        1968.0,
+        3537.0
+      ],
+      "possible_descent_ms": [
+        1568.0,
+        3904.0
+      ],
+      "annotation_method": "AI visual sampled onset/descent/settling brackets",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation",
+      "label": 1,
+      "source_frame_ids": [
+        47,
+        54,
+        70,
+        77
+      ],
+      "onset_uncertainty_ms": [
+        1534.0,
+        1768.0
+      ],
+      "settled_uncertainty_ms": [
+        2302.0,
+        2536.0
+      ],
+      "core_descent_ms": [
+        1768.0,
+        2302.0
+      ],
+      "possible_descent_ms": [
+        1534.0,
+        2536.0
+      ],
+      "annotation_method": "AI visual sampled onset/descent/settling brackets",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation",
+      "label": 1,
+      "source_frame_ids": [
+        28,
+        37,
+        64,
+        73
+      ],
+      "onset_uncertainty_ms": [
+        900.0,
+        1201.0
+      ],
+      "settled_uncertainty_ms": [
+        2102.0,
+        2402.0
+      ],
+      "core_descent_ms": [
+        1201.0,
+        2102.0
+      ],
+      "possible_descent_ms": [
+        900.0,
+        2402.0
+      ],
+      "annotation_method": "AI visual sampled onset/descent/settling brackets",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation",
+      "label": 1,
+      "source_frame_ids": [
+        51,
+        60,
+        90,
+        100
+      ],
+      "onset_uncertainty_ms": [
+        1668.0,
+        1968.0
+      ],
+      "settled_uncertainty_ms": [
+        2969.0,
+        3303.0
+      ],
+      "core_descent_ms": [
+        1968.0,
+        2969.0
+      ],
+      "possible_descent_ms": [
+        1668.0,
+        3303.0
+      ],
+      "annotation_method": "AI visual sampled onset/descent/settling brackets",
+      "human_reviewed": false
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation",
+      "label": 1,
+      "source_frame_ids": [
+        32,
+        39,
+        51,
+        57
+      ],
+      "onset_uncertainty_ms": [
+        1034.0,
+        1268.0
+      ],
+      "settled_uncertainty_ms": [
+        1668.0,
+        1868.0
+      ],
+      "core_descent_ms": [
+        1268.0,
+        1668.0
+      ],
+      "possible_descent_ms": [
+        1034.0,
+        1868.0
+      ],
+      "annotation_method": "AI visual sampled onset/descent/settling brackets",
+      "human_reviewed": false
+    }
+  ],
+  "test_annotations": 0,
+  "official_ground_truth": false,
+  "sampling_uncertainty_preserved": true
+}

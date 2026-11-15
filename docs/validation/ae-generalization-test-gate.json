@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "rejected_before_reading_test_features": true,
+  "returncode": 1,
+  "message": "Validation gate failed; no Test scoring",
+  "before_test_record_created": false
+}

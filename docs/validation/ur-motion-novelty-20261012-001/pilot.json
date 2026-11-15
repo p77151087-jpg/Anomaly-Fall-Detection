@@ -1,0 +1,65 @@
+{
+  "strict_load": {
+    "strict": true,
+    "key_conversion": null,
+    "sha256": "1cac9a6da99d5d67da8ab58ee7633c5e923d85fba668673f028792819750a149"
+  },
+  "head_parity": true,
+  "samples": [
+    {
+      "sequence_id": "adl-05",
+      "row_index": 0,
+      "sample_index": 31,
+      "track_id": 1,
+      "start_ms": 66.66666666666667,
+      "end_ms": 1033.3333333333335,
+      "available_at_ms": 1033.3333333333335,
+      "frame_size_wh": [
+        640,
+        480
+      ],
+      "quality": "valid",
+      "feature_max_abs": 0.0,
+      "feature_dim": 512,
+      "motion_dim": 90,
+      "finite": true
+    },
+    {
+      "sequence_id": "adl-06",
+      "row_index": 0,
+      "sample_index": 44,
+      "track_id": 1,
+      "start_ms": 500.00000000000006,
+      "end_ms": 1466.6666666666667,
+      "available_at_ms": 1466.6666666666667,
+      "frame_size_wh": [
+        640,
+        480
+      ],
+      "quality": "valid",
+      "feature_max_abs": 0.0,
+      "feature_dim": 512,
+      "motion_dim": 90,
+      "finite": true
+    },
+    {
+      "sequence_id": "fall-19",
+      "row_index": 0,
+      "sample_index": 31,
+      "track_id": 1,
+      "start_ms": 66.66666666666667,
+      "end_ms": 1033.3333333333335,
+      "available_at_ms": 1033.3333333333335,
+      "frame_size_wh": [
+        640,
+        480
+      ],
+      "quality": "valid",
+      "feature_max_abs": 0.0,
+      "feature_dim": 512,
+      "motion_dim": 90,
+      "finite": true
+    }
+  ],
+  "evidence_tier": "real_feature_smoke"
+}

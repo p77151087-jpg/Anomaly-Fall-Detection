@@ -1,0 +1,419 @@
+[
+  {
+    "source": {
+      "sequence_id": "le2i-Home_02-video_46",
+      "split": "validation",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 5,
+      "original_video": "Home_02/video_46",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (46).avi",
+      "source_sha256": "54983faff96ddc5b7fa95bef51ab04b413b85bd3bf2e499f097a61c175c8bba2",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 10.98681,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          3340.97
+        ],
+        [
+          3341.0,
+          9715.970000000001
+        ],
+        [
+          9716.0,
+          10986.81
+        ]
+      ]
+    },
+    "row": {
+      "status": "prepared",
+      "source_hash": "5ce9664e777f62c2b6a99e3d833133384ccd28d91f40230076963c588fafb799",
+      "feature_path": "data\\cache\\le2i-extension-selective\\features\\le2i-Home_02-video_46-dcc96e9e9a58b801dd1809fba29222585c4c7191e465c8e026683886e0b4b88f.npz",
+      "pose_path": "data\\cache\\le2i-extension-selective\\poses\\le2i-Home_02-video_46-dcc96e9e9a58b801dd1809fba29222585c4c7191e465c8e026683886e0b4b88f.npz",
+      "valid_features": 0,
+      "n_samples": 329,
+      "quality_counts": {
+        "track_gap": 249,
+        "unlabelled_interval": 39
+      }
+    },
+    "source_delta_min": 41.66599999999835,
+    "source_delta_max": 41.66600000000108,
+    "source_delta_median": 41.66600000000017,
+    "resampled_missing": 65,
+    "resampled_total": 329,
+    "first_missing": [
+      6,
+      11,
+      16,
+      21,
+      26,
+      31,
+      36,
+      41,
+      46,
+      51,
+      56,
+      61,
+      66,
+      71,
+      76,
+      81,
+      86,
+      91,
+      96,
+      101
+    ],
+    "frames_no_pose": 2,
+    "frames_quality_person": 231,
+    "largest_tracks": [
+      [
+        5,
+        207
+      ],
+      [
+        0,
+        34
+      ],
+      [
+        38,
+        21
+      ],
+      [
+        27,
+        3
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        15,
+        2
+      ]
+    ]
+  },
+  {
+    "source": {
+      "sequence_id": "le2i-Home_02-video_47",
+      "split": "validation",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 5,
+      "original_video": "Home_02/video_47",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (47).avi",
+      "source_sha256": "fdc2a365b9f3608a1de43d8b42084aa69268ec8895c8ddd9ac8e2fa0ac411432",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7,
+        8
+      ],
+      "annotation_end_seconds": 12.0,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          3340.97
+        ],
+        [
+          3341.0,
+          8632.64
+        ],
+        [
+          8633.0,
+          11382.64
+        ],
+        [
+          11383.0,
+          12000.0
+        ]
+      ]
+    },
+    "row": {
+      "status": "prepared",
+      "source_hash": "b3617679241b25f2d2303849ff33280057180c9330ea1053c0d923283e71dc3b",
+      "feature_path": "data\\cache\\le2i-extension-selective\\features\\le2i-Home_02-video_47-3d9e21e3487e4a94e06d27e46a2b51c15275ba1845158d32bca271e453767929.npz",
+      "pose_path": "data\\cache\\le2i-extension-selective\\poses\\le2i-Home_02-video_47-3d9e21e3487e4a94e06d27e46a2b51c15275ba1845158d32bca271e453767929.npz",
+      "valid_features": 0,
+      "n_samples": 359,
+      "quality_counts": {
+        "track_gap": 86,
+        "unlabelled_interval": 34
+      }
+    },
+    "source_delta_min": 41.66599999999835,
+    "source_delta_max": 41.66600000000108,
+    "source_delta_median": 41.66600000000017,
+    "resampled_missing": 71,
+    "resampled_total": 359,
+    "first_missing": [
+      6,
+      11,
+      16,
+      21,
+      26,
+      31,
+      36,
+      41,
+      46,
+      51,
+      56,
+      61,
+      66,
+      71,
+      76,
+      81,
+      86,
+      91,
+      96,
+      101
+    ],
+    "frames_no_pose": 0,
+    "frames_quality_person": 279,
+    "largest_tracks": [
+      [
+        0,
+        288
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ]
+  },
+  {
+    "source": {
+      "sequence_id": "le2i-Home_02-video_48",
+      "split": "validation",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 5,
+      "original_video": "Home_02/video_48",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (48).avi",
+      "source_sha256": "e09249d07aa21bb8aa92912c733c2696dd4c14c1aac5d0d9e2de2a8e19f9526d",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 10.0,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          1257.64
+        ],
+        [
+          1258.0,
+          7215.97
+        ],
+        [
+          7216.0,
+          10000.0
+        ]
+      ]
+    },
+    "row": {
+      "status": "prepared",
+      "source_hash": "36f8ba73be38cc96335be031fe81975575ba19046c0029748027f586e880d671",
+      "feature_path": "data\\cache\\le2i-extension-selective\\features\\le2i-Home_02-video_48-6c1f0f26ee5ffd55712a89c1cd00067c5a26a8a5f6beb1d601fa1b03a5769f48.npz",
+      "pose_path": "data\\cache\\le2i-extension-selective\\poses\\le2i-Home_02-video_48-6c1f0f26ee5ffd55712a89c1cd00067c5a26a8a5f6beb1d601fa1b03a5769f48.npz",
+      "valid_features": 0,
+      "n_samples": 299,
+      "quality_counts": {
+        "track_gap": 153,
+        "unlabelled_interval": 78
+      }
+    },
+    "source_delta_min": 41.66599999999835,
+    "source_delta_max": 41.66600000000108,
+    "source_delta_median": 41.66600000000017,
+    "resampled_missing": 59,
+    "resampled_total": 299,
+    "first_missing": [
+      6,
+      11,
+      16,
+      21,
+      26,
+      31,
+      36,
+      41,
+      46,
+      51,
+      56,
+      61,
+      66,
+      71,
+      76,
+      81,
+      86,
+      91,
+      96,
+      101
+    ],
+    "frames_no_pose": 10,
+    "frames_quality_person": 215,
+    "largest_tracks": [
+      [
+        0,
+        200
+      ],
+      [
+        30,
+        30
+      ],
+      [
+        19,
+        5
+      ],
+      [
+        15,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ]
+  },
+  {
+    "source": {
+      "sequence_id": "le2i-Home_02-video_51",
+      "split": "validation",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 5,
+      "original_video": "Home_02/video_51",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (51).avi",
+      "source_sha256": "55cd15108b675d4ec510d9f29b2cc2482a1613763bb182b7eb775bfd6e75977c",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        4,
+        7,
+        9
+      ],
+      "annotation_end_seconds": 10.98097,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          715.97
+        ],
+        [
+          716.0,
+          7111.81
+        ],
+        [
+          7112.0,
+          10980.97
+        ]
+      ]
+    },
+    "row": {
+      "status": "prepared",
+      "source_hash": "16e3fe4fa05eab3e4ba3d03b7a62b43c6893911b4e9321f4b9313385790cf595",
+      "feature_path": "data\\cache\\le2i-extension-selective\\features\\le2i-Home_02-video_51-d37c83ecbe4ad9a2fc4cff3fd957198d4aba37d323fe7df0cdd96f8ad4c90433.npz",
+      "pose_path": "data\\cache\\le2i-extension-selective\\poses\\le2i-Home_02-video_51-d37c83ecbe4ad9a2fc4cff3fd957198d4aba37d323fe7df0cdd96f8ad4c90433.npz",
+      "valid_features": 0,
+      "n_samples": 329,
+      "quality_counts": {
+        "unlabelled_interval": 78,
+        "track_gap": 196
+      }
+    },
+    "source_delta_min": 41.66599999999835,
+    "source_delta_max": 41.66600000000108,
+    "source_delta_median": 41.66600000000017,
+    "resampled_missing": 65,
+    "resampled_total": 329,
+    "first_missing": [
+      6,
+      11,
+      16,
+      21,
+      26,
+      31,
+      36,
+      41,
+      46,
+      51,
+      56,
+      61,
+      66,
+      71,
+      76,
+      81,
+      86,
+      91,
+      96,
+      101
+    ],
+    "frames_no_pose": 8,
+    "frames_quality_person": 234,
+    "largest_tracks": [
+      [
+        8,
+        146
+      ],
+      [
+        36,
+        60
+      ],
+      [
+        0,
+        23
+      ],
+      [
+        30,
+        16
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        3,
+        4
+      ]
+    ]
+  }
+]

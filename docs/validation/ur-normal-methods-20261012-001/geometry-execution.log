@@ -1,0 +1,1 @@
+{'percentiles': {'raw': {'p50': 0.4104607642903015, 'p95': 1.8446754460881536}, 'pooled': {'p50': 0.47615073359764143, 'p95': 0.8229641603350774}}, 'longest_supporting_run': 0, 'self_supervised_supported': False}

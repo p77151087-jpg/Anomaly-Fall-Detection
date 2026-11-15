@@ -1,0 +1,172 @@
+{
+  "created_utc": "2026-09-17T06:48:08.093734+00:00",
+  "source_kind": "real_feature_smoke",
+  "test_used": false,
+  "config": {
+    "project": {
+      "name": "fall-detection-anomaly",
+      "seed": 42
+    },
+    "runtime": {
+      "device": "auto",
+      "num_workers": 0,
+      "torch_threads": 4
+    },
+    "data": {
+      "dataset": "urfall_le2i",
+      "raw_dir": "data/raw",
+      "manifest_dir": "data/manifests/le2i-extension",
+      "cache_dir": "data/cache/le2i-source-interval",
+      "camera": 0,
+      "modality": "rgb",
+      "protocol_id": "urfall-plus-le2i-cs-sequence-v1",
+      "split_seed": 42,
+      "adl_counts": [
+        24,
+        8,
+        8
+      ],
+      "fall_counts": [
+        0,
+        15,
+        15
+      ],
+      "timestamp_policy": "prefer_source",
+      "fallback_fps": 30,
+      "allow_missing_timestamp_tail": true
+    },
+    "pose": {
+      "backend": "lightweight_openpose",
+      "weights_manifest": "weights/openpose18-manifest.json",
+      "upstream_dir": "third_party/lightweight_openpose",
+      "backbone": "mobilenet_v1",
+      "input_height": 256,
+      "input_width": 192,
+      "detector_size": 384,
+      "detector_confidence": 0.45,
+      "nms_threshold": 0.2,
+      "track_max_age": 30,
+      "track_n_init": 3,
+      "track_similarity_joints": 3,
+      "refinement_stages": 3,
+      "inference_refinement_stage": 1,
+      "rotation_angles": [
+        0,
+        -90,
+        90
+      ],
+      "rotation_policy": "low_quality"
+    },
+    "skeleton": {
+      "recipe_id": "lightweight_openpose18_stgcn_kinetics_v1",
+      "target_fps": 30,
+      "window_size": 30,
+      "stride": 5,
+      "missing_frame_policy": "invalidate_window",
+      "span_tolerance": 1e-08,
+      "resampling_hold_policy": "source_interval"
+    },
+    "quality": {
+      "min_joint_confidence": 0.2,
+      "min_valid_joints": 12,
+      "min_good_frame_ratio": 0.8
+    },
+    "features": {
+      "backend": "stgcn_kinetics",
+      "expected_dim": 256,
+      "frozen": true,
+      "upstream_dir": "third_party/stgcn"
+    },
+    "autoencoder": {
+      "hidden_dim": 128,
+      "latent_dim": 32,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "max_epochs": 100,
+      "patience": 10,
+      "min_delta": 1e-06
+    },
+    "calibration": {
+      "split": "validation",
+      "objective": "sequence_fall_f1",
+      "comparison": "gt",
+      "consecutive_windows": 3
+    },
+    "evaluation": {
+      "split": "test",
+      "metric_unit": "sequence"
+    },
+    "demo": {
+      "display": false,
+      "output_dir": "outputs/demo",
+      "score_hold_stride_multiplier": 2
+    }
+  },
+  "recipe_hash": "1b590fe1fc141258103fc1a40991ff366eb04fba9773165fa5cf8afca2d036ba",
+  "selection": "Correct known source-FPS upsampling defect; no quality thresholds or pose/tracking parameters changed",
+  "pilot": {
+    "le2i-Home_02-video_46": {
+      "status": "prepared",
+      "source_hash": "5ce9664e777f62c2b6a99e3d833133384ccd28d91f40230076963c588fafb799",
+      "feature_path": "data\\cache\\le2i-source-interval\\real_feature_smoke\\features\\le2i-Home_02-video_46-7b1c54e64f3cd580eb81da416b5ab0d663852a790e6642a055e2ba9b4cd9e4f0.npz",
+      "pose_path": "data\\cache\\le2i-source-interval\\real_feature_smoke\\poses\\le2i-Home_02-video_46-7b1c54e64f3cd580eb81da416b5ab0d663852a790e6642a055e2ba9b4cd9e4f0.npz",
+      "valid_features": 38,
+      "n_samples": 329,
+      "quality_counts": {
+        "valid": 38,
+        "track_gap": 208,
+        "low_confidence": 3,
+        "unlabelled_interval": 39
+      }
+    },
+    "le2i-Home_02-video_47": {
+      "status": "prepared",
+      "source_hash": "b3617679241b25f2d2303849ff33280057180c9330ea1053c0d923283e71dc3b",
+      "feature_path": "data\\cache\\le2i-source-interval\\real_feature_smoke\\features\\le2i-Home_02-video_47-21c34ecbcac8fc52b1f433fd69fb8d54ffcc6c9481d38393d8bf84c81b883468.npz",
+      "pose_path": "data\\cache\\le2i-source-interval\\real_feature_smoke\\poses\\le2i-Home_02-video_47-21c34ecbcac8fc52b1f433fd69fb8d54ffcc6c9481d38393d8bf84c81b883468.npz",
+      "valid_features": 49,
+      "n_samples": 359,
+      "quality_counts": {
+        "valid": 49,
+        "low_confidence": 2,
+        "track_gap": 35,
+        "unlabelled_interval": 34
+      }
+    },
+    "le2i-Home_02-video_48": {
+      "status": "prepared",
+      "source_hash": "36f8ba73be38cc96335be031fe81975575ba19046c0029748027f586e880d671",
+      "feature_path": "data\\cache\\le2i-source-interval\\real_feature_smoke\\features\\le2i-Home_02-video_48-35fd4235c43414d1cd5d2324ff2cdf490e0dbb70506d18a357bf319242fec628.npz",
+      "pose_path": "data\\cache\\le2i-source-interval\\real_feature_smoke\\poses\\le2i-Home_02-video_48-35fd4235c43414d1cd5d2324ff2cdf490e0dbb70506d18a357bf319242fec628.npz",
+      "valid_features": 34,
+      "n_samples": 299,
+      "quality_counts": {
+        "valid": 34,
+        "track_gap": 119,
+        "unlabelled_interval": 78
+      }
+    },
+    "le2i-Home_02-video_51": {
+      "status": "prepared",
+      "source_hash": "16e3fe4fa05eab3e4ba3d03b7a62b43c6893911b4e9321f4b9313385790cf595",
+      "feature_path": "data\\cache\\le2i-source-interval\\real_feature_smoke\\features\\le2i-Home_02-video_51-5d8de0cfa528ec32bd68845fc549a5c59aa608324b4ce746668ea68c441d7f10.npz",
+      "pose_path": "data\\cache\\le2i-source-interval\\real_feature_smoke\\poses\\le2i-Home_02-video_51-5d8de0cfa528ec32bd68845fc549a5c59aa608324b4ce746668ea68c441d7f10.npz",
+      "valid_features": 37,
+      "n_samples": 329,
+      "quality_counts": {
+        "unlabelled_interval": 78,
+        "track_gap": 159,
+        "valid": 37
+      }
+    }
+  },
+  "planned_run": "le2i-timing-001",
+  "test_evaluation_planned": false,
+  "verification": {
+    "pose_forward": false,
+    "pose_observations_reused": true,
+    "feature_forward": true,
+    "device": "cuda",
+    "refreshed": false
+  }
+}

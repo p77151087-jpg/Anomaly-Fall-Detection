@@ -1,0 +1,101 @@
+{
+  "evidence": "independent CSV and completed artifact audit; no inference",
+  "matrix_rows": [
+    "ADL",
+    "Fall"
+  ],
+  "matrix_columns": [
+    "normal",
+    "suspected_fall",
+    "unknown"
+  ],
+  "confusion_matrix": [
+    [
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      15,
+      0
+    ]
+  ],
+  "n_total": 23,
+  "n_decidable": 23,
+  "accuracy": 1.0,
+  "fall_f1": 1.0,
+  "manual_time_checks": [
+    {
+      "sequence_id": "fall-18",
+      "first_alarm_ms": 1300.0,
+      "human_impact_bounds_ms": [
+        1301.0,
+        1534.0
+      ],
+      "before_earliest_impact": true,
+      "margin_to_earliest_ms": 1.0
+    },
+    {
+      "sequence_id": "fall-09",
+      "first_alarm_ms": 4566.666666666667,
+      "human_impact_bounds_ms": [
+        4705.0,
+        5973.0
+      ],
+      "before_earliest_impact": true,
+      "margin_to_earliest_ms": 138.33333333333303
+    },
+    {
+      "sequence_id": "fall-30",
+      "first_alarm_ms": 1566.6666666666667,
+      "human_impact_bounds_ms": [
+        1635.0,
+        1868.0
+      ],
+      "before_earliest_impact": true,
+      "margin_to_earliest_ms": 68.33333333333326
+    }
+  ],
+  "coarse_diagnostic_only": [
+    {
+      "sequence_id": "fall-09",
+      "event_start_hit": false,
+      "current_alert_inside_phase": true,
+      "early_event_starts": 0
+    },
+    {
+      "sequence_id": "fall-19",
+      "event_start_hit": true,
+      "current_alert_inside_phase": true,
+      "early_event_starts": 0
+    },
+    {
+      "sequence_id": "fall-29",
+      "event_start_hit": true,
+      "current_alert_inside_phase": true,
+      "early_event_starts": 0
+    },
+    {
+      "sequence_id": "fall-25",
+      "event_start_hit": true,
+      "current_alert_inside_phase": true,
+      "early_event_starts": 0
+    },
+    {
+      "sequence_id": "fall-18",
+      "event_start_hit": true,
+      "current_alert_inside_phase": true,
+      "early_event_starts": 0
+    },
+    {
+      "sequence_id": "fall-30",
+      "event_start_hit": true,
+      "current_alert_inside_phase": true,
+      "early_event_starts": 0
+    }
+  ],
+  "synthetic_passed": 71,
+  "protected_artifacts": 215,
+  "test_access": false
+}

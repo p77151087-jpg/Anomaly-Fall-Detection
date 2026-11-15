@@ -1,0 +1,83 @@
+{
+  "id": "ur-fall19-whole-coordinate-20261013-001",
+  "pass": true,
+  "formal_wide_validation_independently_recomputed": {
+    "matrix_true_normal_fall_by_pred_normal_fall_unknown": [
+      [
+        8,
+        0,
+        0
+      ],
+      [
+        1,
+        14,
+        0
+      ]
+    ],
+    "all_accuracy": 0.9565217391304348,
+    "all_denominator": 23,
+    "decidable_accuracy": 0.9565217391304348,
+    "decidable_denominator": 23,
+    "fall_precision": 1.0,
+    "fall_recall": 0.9333333333333333,
+    "all_fall_recall": 0.9333333333333333,
+    "fall_f1": 0.9655172413793104,
+    "unknown": 0,
+    "false_positives": 0,
+    "false_negatives": 1,
+    "historical_csv_sha256": "ab85b313a35616edab748bc6ba7237bcb8b8b42a806c89c5f286b6453c841285"
+  },
+  "formal_csv_unchanged_from_prior_locked_inventory": true,
+  "controlled_fall19_prediction_unchanged": true,
+  "k3_delta": 0.012595713138580322,
+  "k3_delta_percent": 9.35534860926619,
+  "raw_max_delta": -0.00010421872138977051,
+  "remaining_k3_threshold_gap": 0.38687917590141296,
+  "repeated_actions_refused": [
+    {
+      "args": [
+        "prepare",
+        "--human-review",
+        "C:\\成大專案\\fall-detection-anomaly\\outputs\\ur-fall19-whole-coordinate-20261013-001\\human-review-original.json"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\whole_pose_coordinate_diagnostic.py\", line 352, in <module>\n    prepare(args.human_review)\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\whole_pose_coordinate_diagnostic.py\", line 80, in prepare\n    raise ContractError(\"Stage exists; use status/verify. Never overwrite\")\nfall_detect.io_utils.ContractError: Stage exists; use status/verify. Never overwrite\n"
+    },
+    {
+      "args": [
+        "diagnose"
+      ],
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\whole_pose_coordinate_diagnostic.py\", line 356, in <module>\n    diagnose()\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\whole_pose_coordinate_diagnostic.py\", line 210, in diagnose\n    raise ContractError(\"Inference stage exists; never overwrite or rerun\")\nfall_detect.io_utils.ContractError: Inference stage exists; never overwrite or rerun\n"
+    }
+  ],
+  "output_cache_files_unchanged": {
+    "outputs/ur-fall19-whole-coordinate-20261013-001/annotation-audit.json": "e3e066ff47305d32c547f70a30b2ea4e945c49f131d3d18e4d648a81c01061ac",
+    "outputs/ur-fall19-whole-coordinate-20261013-001/corrections.csv": "46a66fb7c55f794a430c11a34beddac874034068c2e30fa05d3e780a68e390a1",
+    "outputs/ur-fall19-whole-coordinate-20261013-001/human-review-original.json": "9b4f3216924a04896578187249f85d7dab4d855068e961620816d516a38f7429",
+    "outputs/ur-fall19-whole-coordinate-20261013-001/k3-comparison.png": "7cdf5ae281b6a4f38601cdcd5fbea2ea60778c53da7b0f8914a9fe246e3cda3e",
+    "outputs/ur-fall19-whole-coordinate-20261013-001/inference/cached-events.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "outputs/ur-fall19-whole-coordinate-20261013-001/inference/cached-scores.npy": "12932af74940d281f43f684d3b565162c26610247fdb27c2ad5a7e704cc37862",
+    "outputs/ur-fall19-whole-coordinate-20261013-001/inference/cached-windows.csv": "28990a3505eeccf601a0439ed80590e4c028db54153e27290ecb5327c789f6aa",
+    "outputs/ur-fall19-whole-coordinate-20261013-001/inference/causal-window-sources.json": "c10bc8def5be7f0caed7dce94e770c2aa8c6e0159ba00ff028dc1701ba37c3f9",
+    "outputs/ur-fall19-whole-coordinate-20261013-001/inference/intervention-events.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "outputs/ur-fall19-whole-coordinate-20261013-001/inference/intervention-scores.npy": "151a50b0e7f5f2e84ab9fe0e3593e2e6e25ac263cdb6f2a3248c5e1c75fa3984",
+    "outputs/ur-fall19-whole-coordinate-20261013-001/inference/intervention-windows.csv": "075e30c34e9f0a8ed9562f49c4b3425b8d1e5e991b7e12e7335e006ff5109070",
+    "outputs/ur-fall19-whole-coordinate-20261013-001/inference/sham-events.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "outputs/ur-fall19-whole-coordinate-20261013-001/inference/sham-scores.npy": "12932af74940d281f43f684d3b565162c26610247fdb27c2ad5a7e704cc37862",
+    "outputs/ur-fall19-whole-coordinate-20261013-001/inference/sham-windows.csv": "28990a3505eeccf601a0439ed80590e4c028db54153e27290ecb5327c789f6aa",
+    "outputs/ur-fall19-whole-coordinate-20261013-001/inference/summary.json": "7739b1240c67ddb3656619fc4e9b2af57e43a90e0fc4ff6c2799b553c19f86bf",
+    "outputs/ur-fall19-whole-coordinate-20261013-001/inference/window-deltas.csv": "14e2a0b666049c2c3ce4ae02991a54a33efedeca82a7486965dbadcda85f717c",
+    "data/cache/ur-fall19-whole-coordinate-20261013-001/derived-pose.json": "5f5d957cac092ef395661ddbd1c86a8b26bd61c6a56834dc2dad30fb48a71e80",
+    "data/cache/ur-fall19-whole-coordinate-20261013-001/derived-pose.npz": "9f4472af79209d1ed1a2955ce361fbe0b5da3a4927258330b6528efcadac4fa4",
+    "data/cache/ur-fall19-whole-coordinate-20261013-001/intervention-features.json": "8d7ae95b96e2c2e4a9f8554f28abec084e332bb946360c0fc8d4367ecde154e2",
+    "data/cache/ur-fall19-whole-coordinate-20261013-001/intervention-features.npz": "206b2fdc31d3e0eb679548ff1968300d971670626f0b525d56b3a74911432bc0",
+    "data/cache/ur-fall19-whole-coordinate-20261013-001/sham-features.json": "760678336f33678fa44a6ae96cc711a43963f87b77e169f570d84d203e7bcec0",
+    "data/cache/ur-fall19-whole-coordinate-20261013-001/sham-features.npz": "4c339fa8c88ca8f9c429a3da50e3667a538f23c8e158b855d96ea47a21d41845"
+  },
+  "test": "not_loaded_not_evaluated",
+  "candidate_added": false,
+  "figure_phase_basis": "whole human posture phases; not onset/impact truth"
+}

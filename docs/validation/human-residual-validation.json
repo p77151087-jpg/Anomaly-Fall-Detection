@@ -1,0 +1,1234 @@
+{
+  "source_kind": "real_end_to_end",
+  "rows": [
+    {
+      "run": "ur-sample-human-s1-001",
+      "status": {
+        "source_kind": "real",
+        "training": "complete",
+        "calibration": "complete",
+        "epochs": 38,
+        "best_val_normal_loss": 0.13753476824426075
+      },
+      "threshold": 0.6880183815956116,
+      "validation": {
+        "metric_unit": "sequence",
+        "TP": 12,
+        "FP": 0,
+        "FN": 3,
+        "TN": 8,
+        "n_total": 23,
+        "n_evaluable": 23,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "sequence_accuracy": 0.8695652173913043,
+        "sequence_fall_precision": 1.0,
+        "sequence_fall_recall": 0.8,
+        "sequence_fall_f1": 0.8888888888888888,
+        "operational_accuracy": 0.8695652173913043,
+        "end_to_end_fall_recall": 0.8,
+        "outcomes_with_unknown": [
+          [
+            8,
+            0,
+            0
+          ],
+          [
+            3,
+            12,
+            0
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8408956982911019,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8489634748272458,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.8439114391143911,
+        "n_missing_timelines": 0,
+        "balanced_sequence_accuracy": 0.9
+      },
+      "hashes": {
+        "autoencoder.pt": "96a9deea163c80055f08c0b7001f1b7445db45d3bda3714df2604f2339d55afb",
+        "scaler.npz": "d6660ddb8b6e37729257b3fc4fc62505a2ef77d9a2558de9d06b8716b7a0529c",
+        "resolved-config.yaml": "661b983db7c3147c76a36cec1561180555970444e88309cf246445c1fefcd484",
+        "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+        "sources.json": "dd7c73ba557a57846b2021c82443787cc12131434c3637265b8f590bceb58837",
+        "dataset-index.json": "cd163b0b2eb75044fdfd8127f9e863a06f8039b203a4027a299c7ab11be2e2c6",
+        "environment.json": "d9c1f980cf8c7059656da59eaeebfc4627be9abfd1e8080fcf946aeca8d33361",
+        "training-history.csv": "78afc3939783e3246a1a05ad03a02040ea20f91668e790f9e8cf4a5aabb93873",
+        "threshold.json": "6f8514180fa8ea073048d99b2998ebc871838e3a35e37d7633ac8b9be5bfb05a",
+        "calibration.json": "ea97fa7959d5f38593ab8d9bf286ce23ba5850d87695d69cce6816869c3ead78"
+      },
+      "predictions": [
+        {
+          "sequence_id": "adl-37",
+          "sequence_score": 0.5142660140991211,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 325,
+          "n_valid_endpoints": 296,
+          "window_coverage": 0.9107692307692308,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-23",
+          "sequence_score": 0.1775120049715042,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 191,
+          "n_valid_endpoints": 168,
+          "window_coverage": 0.8795811518324608,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-20",
+          "sequence_score": 0.32214099168777466,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 240,
+          "n_valid_endpoints": 184,
+          "window_coverage": 0.7666666666666667,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-04",
+          "sequence_score": 0.26237407326698303,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 120,
+          "n_valid_endpoints": 118,
+          "window_coverage": 0.9833333333333333,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-01",
+          "sequence_score": 0.11863476037979126,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 121,
+          "n_valid_endpoints": 114,
+          "window_coverage": 0.9421487603305785,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-16",
+          "sequence_score": 0.3044395446777344,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 211,
+          "n_valid_endpoints": 124,
+          "window_coverage": 0.5876777251184834,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-18",
+          "sequence_score": 0.2651086151599884,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 235,
+          "n_valid_endpoints": 171,
+          "window_coverage": 0.7276595744680852,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-35",
+          "sequence_score": 0.6880183815956116,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 254,
+          "n_valid_endpoints": 252,
+          "window_coverage": 0.9921259842519685,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "fall-22",
+          "sequence_score": 1.9360584020614624,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 27,
+          "n_valid_endpoints": 25,
+          "window_coverage": 0.9259259259259259,
+          "first_alarm_ms": 1366.6666666666667,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-19",
+          "sequence_score": 0.12460747361183167,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 71,
+          "n_valid_endpoints": 23,
+          "window_coverage": 0.323943661971831,
+          "first_alarm_ms": null,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-16",
+          "sequence_score": 0.8306578397750854,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 26,
+          "n_valid_endpoints": 24,
+          "window_coverage": 0.9230769230769231,
+          "first_alarm_ms": 1800.0000000000002,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-18",
+          "sequence_score": 0.24229730665683746,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 36,
+          "n_valid_endpoints": 16,
+          "window_coverage": 0.4444444444444444,
+          "first_alarm_ms": null,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-08",
+          "sequence_score": 1.8944499492645264,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 62,
+          "n_valid_endpoints": 60,
+          "window_coverage": 0.967741935483871,
+          "first_alarm_ms": 2433.3333333333335,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-13",
+          "sequence_score": 2.079084873199463,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 56,
+          "n_valid_endpoints": 54,
+          "window_coverage": 0.9642857142857143,
+          "first_alarm_ms": 2366.666666666667,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-29",
+          "sequence_score": 1.9478466510772705,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 70,
+          "n_valid_endpoints": 54,
+          "window_coverage": 0.7714285714285715,
+          "first_alarm_ms": 2633.3333333333335,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-14",
+          "sequence_score": 1.1411210298538208,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 32,
+          "n_valid_endpoints": 30,
+          "window_coverage": 0.9375,
+          "first_alarm_ms": 1833.3333333333335,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-09",
+          "sequence_score": 1.8518779277801514,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 156,
+          "n_valid_endpoints": 133,
+          "window_coverage": 0.8525641025641025,
+          "first_alarm_ms": 5900.0,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-07",
+          "sequence_score": 5.466111660003662,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 127,
+          "n_valid_endpoints": 125,
+          "window_coverage": 0.984251968503937,
+          "first_alarm_ms": 3866.666666666667,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-11",
+          "sequence_score": 1.0813806056976318,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 101,
+          "n_valid_endpoints": 96,
+          "window_coverage": 0.9504950495049505,
+          "first_alarm_ms": 3200.0,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-25",
+          "sequence_score": 2.4257869720458984,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 56,
+          "n_valid_endpoints": 46,
+          "window_coverage": 0.8214285714285714,
+          "first_alarm_ms": 2466.666666666667,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-06",
+          "sequence_score": 2.760422945022583,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 71,
+          "n_valid_endpoints": 69,
+          "window_coverage": 0.971830985915493,
+          "first_alarm_ms": 1766.6666666666667,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-02",
+          "sequence_score": 2.572862148284912,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 81,
+          "n_valid_endpoints": 79,
+          "window_coverage": 0.9753086419753086,
+          "first_alarm_ms": 2733.3333333333335,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-30",
+          "sequence_score": 0.32566606998443604,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 41,
+          "n_valid_endpoints": 26,
+          "window_coverage": 0.6341463414634146,
+          "first_alarm_ms": null,
+          "label": 1
+        }
+      ],
+      "phases": [
+        {
+          "sequence_id": "fall-19",
+          "prediction": 0,
+          "phase_event_starts": [],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": []
+        },
+        {
+          "sequence_id": "fall-18",
+          "prediction": 0,
+          "phase_event_starts": [],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": []
+        },
+        {
+          "sequence_id": "fall-29",
+          "prediction": 1,
+          "phase_event_starts": [
+            2633.3333333333335
+          ],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": [
+            2700.0,
+            2733.3333333333335
+          ]
+        },
+        {
+          "sequence_id": "fall-09",
+          "prediction": 1,
+          "phase_event_starts": [],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": []
+        },
+        {
+          "sequence_id": "fall-25",
+          "prediction": 1,
+          "phase_event_starts": [
+            2466.666666666667
+          ],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": [
+            2500.0
+          ]
+        },
+        {
+          "sequence_id": "fall-30",
+          "prediction": 0,
+          "phase_event_starts": [],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": []
+        }
+      ],
+      "phase_hits": 2,
+      "early_events": 0,
+      "visible_phase_hits": 2,
+      "fn": [
+        "fall-19",
+        "fall-18",
+        "fall-30"
+      ],
+      "fp": [],
+      "exports": {
+        "outputs\\human-residual-validation\\ur-sample-human-s1-001\\events.csv": "ae8c112135c9cb9de865a170d4f9efd142f9a06ef020010431a90e1dd6e698f6",
+        "outputs\\human-residual-validation\\ur-sample-human-s1-001\\metrics.json": "c31c50c95b2a4e665360aad422d35f962b89403e2a522395920350a696361f89",
+        "outputs\\human-residual-validation\\ur-sample-human-s1-001\\sequences.csv": "44c53e6139625adae349b266c876385fb4382e0189eaecc8c2ac331f22df0410",
+        "outputs\\human-residual-validation\\ur-sample-human-s1-001\\windows.csv": "a1daa5dbc29c8e5fd07eefb117906e7727db1054de490e26bcaf145b9b434b80"
+      },
+      "guard_passed": true
+    },
+    {
+      "run": "ur-human-residual-channel-001",
+      "status": {
+        "source_kind": "real",
+        "training": "complete",
+        "calibration": "complete",
+        "epochs": 38,
+        "best_val_normal_loss": 0.13753476824426075,
+        "training_reused_from": "ur-sample-human-s1-001",
+        "additional_epochs": 0,
+        "residual_fit": "complete"
+      },
+      "threshold": 0.49582237005233765,
+      "validation": {
+        "metric_unit": "sequence",
+        "TP": 11,
+        "FP": 0,
+        "FN": 4,
+        "TN": 8,
+        "n_total": 23,
+        "n_evaluable": 23,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "sequence_accuracy": 0.8260869565217391,
+        "sequence_fall_precision": 1.0,
+        "sequence_fall_recall": 0.7333333333333333,
+        "sequence_fall_f1": 0.8461538461538461,
+        "operational_accuracy": 0.8260869565217391,
+        "end_to_end_fall_recall": 0.7333333333333333,
+        "outcomes_with_unknown": [
+          [
+            8,
+            0,
+            0
+          ],
+          [
+            4,
+            11,
+            0
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8408956982911019,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8489634748272458,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.8439114391143911,
+        "n_missing_timelines": 0,
+        "balanced_sequence_accuracy": 0.8666666666666667
+      },
+      "hashes": {
+        "autoencoder.pt": "96a9deea163c80055f08c0b7001f1b7445db45d3bda3714df2604f2339d55afb",
+        "scaler.npz": "d6660ddb8b6e37729257b3fc4fc62505a2ef77d9a2558de9d06b8716b7a0529c",
+        "resolved-config.yaml": "6486af681c55fa8aef9c037eb4aa6a6689ed07598e7cf3105a9f5d57d098db5f",
+        "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+        "sources.json": "f23b58378a527f1759f9332f2a7532317afea35ab9e9383d52a22009cbbc318f",
+        "dataset-index.json": "cd163b0b2eb75044fdfd8127f9e863a06f8039b203a4027a299c7ab11be2e2c6",
+        "environment.json": "d9c1f980cf8c7059656da59eaeebfc4627be9abfd1e8080fcf946aeca8d33361",
+        "training-history.csv": "78afc3939783e3246a1a05ad03a02040ea20f91668e790f9e8cf4a5aabb93873",
+        "threshold.json": "003efebdc908c3f35ef3d5e337a8f7495a1e9ecf557276807120806e91195758",
+        "calibration.json": "54d33cebb708620cd6d7f40eb0b1a23ed13950bf27fc44b4545ab3599923f029",
+        "residual-profile.json": "00fb8de95be8c4b39e83a0f229415431870ae17ab54be9d1f1eb2961075402bb"
+      },
+      "predictions": [
+        {
+          "sequence_id": "adl-37",
+          "sequence_score": 0.3454233705997467,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 325,
+          "n_valid_endpoints": 296,
+          "window_coverage": 0.9107692307692308,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-23",
+          "sequence_score": 0.11569627374410629,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 191,
+          "n_valid_endpoints": 168,
+          "window_coverage": 0.8795811518324608,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-20",
+          "sequence_score": 0.2218761295080185,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 240,
+          "n_valid_endpoints": 184,
+          "window_coverage": 0.7666666666666667,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-04",
+          "sequence_score": 0.11628308892250061,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 120,
+          "n_valid_endpoints": 118,
+          "window_coverage": 0.9833333333333333,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-01",
+          "sequence_score": 0.08107563853263855,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 121,
+          "n_valid_endpoints": 114,
+          "window_coverage": 0.9421487603305785,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-16",
+          "sequence_score": 0.18445909023284912,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 211,
+          "n_valid_endpoints": 124,
+          "window_coverage": 0.5876777251184834,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-18",
+          "sequence_score": 0.19265992939472198,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 235,
+          "n_valid_endpoints": 171,
+          "window_coverage": 0.7276595744680852,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-35",
+          "sequence_score": 0.49582237005233765,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 254,
+          "n_valid_endpoints": 252,
+          "window_coverage": 0.9921259842519685,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "fall-22",
+          "sequence_score": 1.2377278804779053,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 27,
+          "n_valid_endpoints": 25,
+          "window_coverage": 0.9259259259259259,
+          "first_alarm_ms": 1400.0,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-19",
+          "sequence_score": 0.07212153822183609,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 71,
+          "n_valid_endpoints": 23,
+          "window_coverage": 0.323943661971831,
+          "first_alarm_ms": null,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-16",
+          "sequence_score": 0.4189649820327759,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 26,
+          "n_valid_endpoints": 24,
+          "window_coverage": 0.9230769230769231,
+          "first_alarm_ms": null,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-18",
+          "sequence_score": 0.1496523916721344,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 36,
+          "n_valid_endpoints": 16,
+          "window_coverage": 0.4444444444444444,
+          "first_alarm_ms": null,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-08",
+          "sequence_score": 1.1072126626968384,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 62,
+          "n_valid_endpoints": 60,
+          "window_coverage": 0.967741935483871,
+          "first_alarm_ms": 2466.666666666667,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-13",
+          "sequence_score": 1.5727508068084717,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 56,
+          "n_valid_endpoints": 54,
+          "window_coverage": 0.9642857142857143,
+          "first_alarm_ms": 2400.0,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-29",
+          "sequence_score": 1.4044219255447388,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 70,
+          "n_valid_endpoints": 54,
+          "window_coverage": 0.7714285714285715,
+          "first_alarm_ms": 2633.3333333333335,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-14",
+          "sequence_score": 0.7442153692245483,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 32,
+          "n_valid_endpoints": 30,
+          "window_coverage": 0.9375,
+          "first_alarm_ms": 1866.6666666666667,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-09",
+          "sequence_score": 1.0333284139633179,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 156,
+          "n_valid_endpoints": 133,
+          "window_coverage": 0.8525641025641025,
+          "first_alarm_ms": 5900.0,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-07",
+          "sequence_score": 4.208662986755371,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 127,
+          "n_valid_endpoints": 125,
+          "window_coverage": 0.984251968503937,
+          "first_alarm_ms": 3900.0000000000005,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-11",
+          "sequence_score": 0.5718783140182495,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 101,
+          "n_valid_endpoints": 96,
+          "window_coverage": 0.9504950495049505,
+          "first_alarm_ms": 3400.0000000000005,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-25",
+          "sequence_score": 1.3165031671524048,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 56,
+          "n_valid_endpoints": 46,
+          "window_coverage": 0.8214285714285714,
+          "first_alarm_ms": 2500.0,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-06",
+          "sequence_score": 1.6893534660339355,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 71,
+          "n_valid_endpoints": 69,
+          "window_coverage": 0.971830985915493,
+          "first_alarm_ms": 1800.0000000000002,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-02",
+          "sequence_score": 1.7219874858856201,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 81,
+          "n_valid_endpoints": 79,
+          "window_coverage": 0.9753086419753086,
+          "first_alarm_ms": 2733.3333333333335,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-30",
+          "sequence_score": 0.16953487694263458,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 41,
+          "n_valid_endpoints": 26,
+          "window_coverage": 0.6341463414634146,
+          "first_alarm_ms": null,
+          "label": 1
+        }
+      ],
+      "phases": [
+        {
+          "sequence_id": "fall-19",
+          "prediction": 0,
+          "phase_event_starts": [],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": []
+        },
+        {
+          "sequence_id": "fall-18",
+          "prediction": 0,
+          "phase_event_starts": [],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": []
+        },
+        {
+          "sequence_id": "fall-29",
+          "prediction": 1,
+          "phase_event_starts": [
+            2633.3333333333335
+          ],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": [
+            2700.0,
+            2733.3333333333335
+          ]
+        },
+        {
+          "sequence_id": "fall-09",
+          "prediction": 1,
+          "phase_event_starts": [],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": []
+        },
+        {
+          "sequence_id": "fall-25",
+          "prediction": 1,
+          "phase_event_starts": [
+            2500.0
+          ],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": [
+            2500.0
+          ]
+        },
+        {
+          "sequence_id": "fall-30",
+          "prediction": 0,
+          "phase_event_starts": [],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": []
+        }
+      ],
+      "phase_hits": 2,
+      "early_events": 0,
+      "visible_phase_hits": 2,
+      "fn": [
+        "fall-19",
+        "fall-16",
+        "fall-18",
+        "fall-30"
+      ],
+      "fp": [],
+      "exports": {
+        "outputs\\human-residual-validation\\ur-human-residual-channel-001\\events.csv": "f31a92704ba167b8a80fe4ab97f6e8d2e180b8e5b76e422e83900710243dbfbe",
+        "outputs\\human-residual-validation\\ur-human-residual-channel-001\\metrics.json": "94184aeecfaa2f82127d7c3a954c04f7e2424d500a388632f9e2ef559bdae85e",
+        "outputs\\human-residual-validation\\ur-human-residual-channel-001\\sequences.csv": "73f85853c85312e941590af77aac04d8742204b134b2fc4accf18c160ca78e76",
+        "outputs\\human-residual-validation\\ur-human-residual-channel-001\\windows.csv": "31a03ab7c95b3028fe480583eebdeea8ab8d9b54e35aea2c3e5d9d6e4fa617e6"
+      },
+      "guard_passed": false
+    },
+    {
+      "run": "ur-human-residual-stream-001",
+      "status": {
+        "source_kind": "real",
+        "training": "complete",
+        "calibration": "complete",
+        "epochs": 38,
+        "best_val_normal_loss": 0.13753476824426075,
+        "training_reused_from": "ur-sample-human-s1-001",
+        "additional_epochs": 0,
+        "residual_fit": "complete"
+      },
+      "threshold": 0.5750731825828552,
+      "validation": {
+        "metric_unit": "sequence",
+        "TP": 12,
+        "FP": 0,
+        "FN": 3,
+        "TN": 8,
+        "n_total": 23,
+        "n_evaluable": 23,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "sequence_accuracy": 0.8695652173913043,
+        "sequence_fall_precision": 1.0,
+        "sequence_fall_recall": 0.8,
+        "sequence_fall_f1": 0.8888888888888888,
+        "operational_accuracy": 0.8695652173913043,
+        "end_to_end_fall_recall": 0.8,
+        "outcomes_with_unknown": [
+          [
+            8,
+            0,
+            0
+          ],
+          [
+            3,
+            12,
+            0
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8408956982911019,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8489634748272458,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.8439114391143911,
+        "n_missing_timelines": 0,
+        "balanced_sequence_accuracy": 0.9
+      },
+      "hashes": {
+        "autoencoder.pt": "96a9deea163c80055f08c0b7001f1b7445db45d3bda3714df2604f2339d55afb",
+        "scaler.npz": "d6660ddb8b6e37729257b3fc4fc62505a2ef77d9a2558de9d06b8716b7a0529c",
+        "resolved-config.yaml": "4bb0e326e79aa600d293f0ee7e6014e8e30353ec9faa02633b2d8cba0ad16426",
+        "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+        "sources.json": "fa226acb6128bfa5e013bc31e35b1d49561752754d99a2fb3118709353a29d4d",
+        "dataset-index.json": "cd163b0b2eb75044fdfd8127f9e863a06f8039b203a4027a299c7ab11be2e2c6",
+        "environment.json": "d9c1f980cf8c7059656da59eaeebfc4627be9abfd1e8080fcf946aeca8d33361",
+        "training-history.csv": "78afc3939783e3246a1a05ad03a02040ea20f91668e790f9e8cf4a5aabb93873",
+        "threshold.json": "6057a0c2861e862d92ca55d1559f896e2e11f3fea3adcaa7f24ece22d41c6ba8",
+        "calibration.json": "b3bc4a1498d50908943b0b6578b4725cf85c646d4d39a266902dc0063008c6f7",
+        "residual-profile.json": "2f726287422359c61b0b602d49c8710a1d9b7005bc14f579095a3175a2c19640"
+      },
+      "predictions": [
+        {
+          "sequence_id": "adl-37",
+          "sequence_score": 0.5643067359924316,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 325,
+          "n_valid_endpoints": 296,
+          "window_coverage": 0.9107692307692308,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-23",
+          "sequence_score": 0.175846666097641,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 191,
+          "n_valid_endpoints": 168,
+          "window_coverage": 0.8795811518324608,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-20",
+          "sequence_score": 0.3387993276119232,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 240,
+          "n_valid_endpoints": 184,
+          "window_coverage": 0.7666666666666667,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-04",
+          "sequence_score": 0.2379193753004074,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 120,
+          "n_valid_endpoints": 118,
+          "window_coverage": 0.9833333333333333,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-01",
+          "sequence_score": 0.11443488299846649,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 121,
+          "n_valid_endpoints": 114,
+          "window_coverage": 0.9421487603305785,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-16",
+          "sequence_score": 0.29735440015792847,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 211,
+          "n_valid_endpoints": 124,
+          "window_coverage": 0.5876777251184834,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-18",
+          "sequence_score": 0.28859567642211914,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 235,
+          "n_valid_endpoints": 171,
+          "window_coverage": 0.7276595744680852,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-35",
+          "sequence_score": 0.5750731825828552,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 254,
+          "n_valid_endpoints": 252,
+          "window_coverage": 0.9921259842519685,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "fall-22",
+          "sequence_score": 1.5698485374450684,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 27,
+          "n_valid_endpoints": 25,
+          "window_coverage": 0.9259259259259259,
+          "first_alarm_ms": 1366.6666666666667,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-19",
+          "sequence_score": 0.10974832624197006,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 71,
+          "n_valid_endpoints": 23,
+          "window_coverage": 0.323943661971831,
+          "first_alarm_ms": null,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-16",
+          "sequence_score": 0.6597062349319458,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 26,
+          "n_valid_endpoints": 24,
+          "window_coverage": 0.9230769230769231,
+          "first_alarm_ms": 1800.0000000000002,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-18",
+          "sequence_score": 0.22727727890014648,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 36,
+          "n_valid_endpoints": 16,
+          "window_coverage": 0.4444444444444444,
+          "first_alarm_ms": null,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-08",
+          "sequence_score": 1.5625231266021729,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 62,
+          "n_valid_endpoints": 60,
+          "window_coverage": 0.967741935483871,
+          "first_alarm_ms": 2433.3333333333335,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-13",
+          "sequence_score": 1.7682687044143677,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 56,
+          "n_valid_endpoints": 54,
+          "window_coverage": 0.9642857142857143,
+          "first_alarm_ms": 2366.666666666667,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-29",
+          "sequence_score": 1.5951213836669922,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 70,
+          "n_valid_endpoints": 54,
+          "window_coverage": 0.7714285714285715,
+          "first_alarm_ms": 2633.3333333333335,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-14",
+          "sequence_score": 0.9511906504631042,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 32,
+          "n_valid_endpoints": 30,
+          "window_coverage": 0.9375,
+          "first_alarm_ms": 1833.3333333333335,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-09",
+          "sequence_score": 1.6090245246887207,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 156,
+          "n_valid_endpoints": 133,
+          "window_coverage": 0.8525641025641025,
+          "first_alarm_ms": 5900.0,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-07",
+          "sequence_score": 4.680221080780029,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 127,
+          "n_valid_endpoints": 125,
+          "window_coverage": 0.984251968503937,
+          "first_alarm_ms": 3866.666666666667,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-11",
+          "sequence_score": 0.9014793634414673,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 101,
+          "n_valid_endpoints": 96,
+          "window_coverage": 0.9504950495049505,
+          "first_alarm_ms": 3200.0,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-25",
+          "sequence_score": 1.8237602710723877,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 56,
+          "n_valid_endpoints": 46,
+          "window_coverage": 0.8214285714285714,
+          "first_alarm_ms": 2466.666666666667,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-06",
+          "sequence_score": 2.2750420570373535,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 71,
+          "n_valid_endpoints": 69,
+          "window_coverage": 0.971830985915493,
+          "first_alarm_ms": 1766.6666666666667,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-02",
+          "sequence_score": 2.130500555038452,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 81,
+          "n_valid_endpoints": 79,
+          "window_coverage": 0.9753086419753086,
+          "first_alarm_ms": 2733.3333333333335,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-30",
+          "sequence_score": 0.2752772569656372,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 41,
+          "n_valid_endpoints": 26,
+          "window_coverage": 0.6341463414634146,
+          "first_alarm_ms": null,
+          "label": 1
+        }
+      ],
+      "phases": [
+        {
+          "sequence_id": "fall-19",
+          "prediction": 0,
+          "phase_event_starts": [],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": []
+        },
+        {
+          "sequence_id": "fall-18",
+          "prediction": 0,
+          "phase_event_starts": [],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": []
+        },
+        {
+          "sequence_id": "fall-29",
+          "prediction": 1,
+          "phase_event_starts": [
+            2633.3333333333335
+          ],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": [
+            2700.0,
+            2733.3333333333335
+          ]
+        },
+        {
+          "sequence_id": "fall-09",
+          "prediction": 1,
+          "phase_event_starts": [],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": []
+        },
+        {
+          "sequence_id": "fall-25",
+          "prediction": 1,
+          "phase_event_starts": [
+            2466.666666666667
+          ],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": [
+            2500.0
+          ]
+        },
+        {
+          "sequence_id": "fall-30",
+          "prediction": 0,
+          "phase_event_starts": [],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": []
+        }
+      ],
+      "phase_hits": 2,
+      "early_events": 0,
+      "visible_phase_hits": 2,
+      "fn": [
+        "fall-19",
+        "fall-18",
+        "fall-30"
+      ],
+      "fp": [],
+      "exports": {
+        "outputs\\human-residual-validation\\ur-human-residual-stream-001\\events.csv": "d62d408f4cc6c6c9d4dd5ffa380a0579e3f753702bb9a3975b020a23e166c9db",
+        "outputs\\human-residual-validation\\ur-human-residual-stream-001\\metrics.json": "c31c50c95b2a4e665360aad422d35f962b89403e2a522395920350a696361f89",
+        "outputs\\human-residual-validation\\ur-human-residual-stream-001\\sequences.csv": "6696198465ad44581cad70b110294b90ffed4c82e978a27cccb16a75c86f5c23",
+        "outputs\\human-residual-validation\\ur-human-residual-stream-001\\windows.csv": "0c7939e22179b5ef1fe0c6f91babdefb1ce53d01afcebe85b7d0d1a1494b868b"
+      },
+      "guard_passed": true
+    }
+  ],
+  "selected": "ur-sample-human-s1-001",
+  "raw_metric_winner": "ur-sample-human-s1-001",
+  "target_reached": false,
+  "test_scored": false,
+  "historical_test_seen": true,
+  "repeated_validation_not_independent": true,
+  "new_ae_epochs": 0,
+  "coarse_timing_is_not_ground_truth_accuracy": true
+}

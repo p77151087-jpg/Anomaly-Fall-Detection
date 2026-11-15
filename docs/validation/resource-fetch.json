@@ -1,0 +1,48 @@
+{
+  "models": [
+    {
+      "role": "detector",
+      "exists": false
+    },
+    {
+      "role": "detector_config",
+      "exists": false
+    },
+    {
+      "role": "pose",
+      "exists": false
+    },
+    {
+      "role": "stgcn",
+      "exists": false
+    }
+  ],
+  "dataset": [
+    {
+      "sequence_id": "adl-05",
+      "status": "downloaded"
+    },
+    {
+      "sequence_id": "fall-02",
+      "status": "downloaded"
+    }
+  ],
+  "errors": [
+    {
+      "role": "detector",
+      "error": "Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1obEbWBSm9bXeg10FriJ7R2cGLRsg-AfP\n\nbut Gdown can't. Please check connections and permissions."
+    },
+    {
+      "role": "detector_config",
+      "error": "Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=19sPzBZjAjuJQ3emRteHybm2SG25w9Wn5\n\nbut Gdown can't. Please check connections and permissions."
+    },
+    {
+      "role": "pose",
+      "error": "Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1IPfCDRwCmQDnQy94nT1V-_NVtTEi4VmU\n\nbut Gdown can't. Please check connections and permissions."
+    },
+    {
+      "role": "stgcn",
+      "error": "Failed to retrieve file url:\n\n\tCannot retrieve the public link of the file. You may need to change\n\tthe permission to 'Anyone with the link', or have had many accesses.\n\tCheck FAQ in https://github.com/wkentaro/gdown?tab=readme-ov-file#faq.\n\nYou may still be able to access the file from the browser:\n\n\thttps://drive.google.com/uc?id=1mQQ4JHe58ylKbBqTjuKzpwN2nwKOWJ9u\n\nbut Gdown can't. Please check connections and permissions."
+    }
+  ]
+}

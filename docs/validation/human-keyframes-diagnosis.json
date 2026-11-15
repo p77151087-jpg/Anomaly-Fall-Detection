@@ -1,0 +1,1476 @@
+{
+  "evidence": "real_feature_smoke",
+  "official_ground_truth": false,
+  "annotations_sha256": "5eb533b0e9bcbb0882a84d4db5c668fc4a4763e4c5198b6b617fce6faefab7a6",
+  "summary": [
+    {
+      "sequence_id": "fall-19",
+      "observations": 100,
+      "out_of_image_joint_observations": 21,
+      "confident_out_of_image_joint_observations": 1,
+      "last_good_pose_ms": 1668.0,
+      "good_frame_extents": [
+        {
+          "frame_id": 3,
+          "timestamp_ms": 66.0,
+          "pixel_bbox_aspect": 0.3027353584766388,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 4,
+          "timestamp_ms": 100.0,
+          "pixel_bbox_aspect": 0.302706241607666,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 5,
+          "timestamp_ms": 133.0,
+          "pixel_bbox_aspect": 0.30279111862182617,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 6,
+          "timestamp_ms": 166.0,
+          "pixel_bbox_aspect": 0.30258607864379883,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 7,
+          "timestamp_ms": 200.0,
+          "pixel_bbox_aspect": 0.30268004536628723,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 8,
+          "timestamp_ms": 233.0,
+          "pixel_bbox_aspect": 0.3069923520088196,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 9,
+          "timestamp_ms": 266.0,
+          "pixel_bbox_aspect": 0.3149752616882324,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 10,
+          "timestamp_ms": 300.0,
+          "pixel_bbox_aspect": 0.30701932311058044,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 11,
+          "timestamp_ms": 333.0,
+          "pixel_bbox_aspect": 0.31462204456329346,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 12,
+          "timestamp_ms": 367.0,
+          "pixel_bbox_aspect": 0.31628698110580444,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 13,
+          "timestamp_ms": 400.0,
+          "pixel_bbox_aspect": 0.3299497365951538,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 14,
+          "timestamp_ms": 433.0,
+          "pixel_bbox_aspect": 0.337478369474411,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 15,
+          "timestamp_ms": 467.0,
+          "pixel_bbox_aspect": 0.33292391896247864,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 16,
+          "timestamp_ms": 500.0,
+          "pixel_bbox_aspect": 0.32113802433013916,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 17,
+          "timestamp_ms": 533.0,
+          "pixel_bbox_aspect": 0.3206775486469269,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 18,
+          "timestamp_ms": 567.0,
+          "pixel_bbox_aspect": 0.3119775652885437,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 19,
+          "timestamp_ms": 600.0,
+          "pixel_bbox_aspect": 0.30045634508132935,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 20,
+          "timestamp_ms": 634.0,
+          "pixel_bbox_aspect": 0.31685155630111694,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 21,
+          "timestamp_ms": 667.0,
+          "pixel_bbox_aspect": 0.30520686507225037,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 22,
+          "timestamp_ms": 700.0,
+          "pixel_bbox_aspect": 0.31702494621276855,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 23,
+          "timestamp_ms": 734.0,
+          "pixel_bbox_aspect": 0.322773277759552,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 24,
+          "timestamp_ms": 767.0,
+          "pixel_bbox_aspect": 0.3214806318283081,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 25,
+          "timestamp_ms": 800.0,
+          "pixel_bbox_aspect": 0.32569342851638794,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 26,
+          "timestamp_ms": 834.0,
+          "pixel_bbox_aspect": 0.3164369761943817,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 27,
+          "timestamp_ms": 867.0,
+          "pixel_bbox_aspect": 0.3381456434726715,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 28,
+          "timestamp_ms": 900.0,
+          "pixel_bbox_aspect": 0.34178635478019714,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 29,
+          "timestamp_ms": 934.0,
+          "pixel_bbox_aspect": 0.34221914410591125,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 30,
+          "timestamp_ms": 967.0,
+          "pixel_bbox_aspect": 0.3448926508426666,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 31,
+          "timestamp_ms": 1001.0,
+          "pixel_bbox_aspect": 0.35336294770240784,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 32,
+          "timestamp_ms": 1034.0,
+          "pixel_bbox_aspect": 0.36629948019981384,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 33,
+          "timestamp_ms": 1067.0,
+          "pixel_bbox_aspect": 0.37419044971466064,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 34,
+          "timestamp_ms": 1101.0,
+          "pixel_bbox_aspect": 0.37430518865585327,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 35,
+          "timestamp_ms": 1134.0,
+          "pixel_bbox_aspect": 0.3898583948612213,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 36,
+          "timestamp_ms": 1167.0,
+          "pixel_bbox_aspect": 0.3848009705543518,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 37,
+          "timestamp_ms": 1201.0,
+          "pixel_bbox_aspect": 0.3974992036819458,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 38,
+          "timestamp_ms": 1234.0,
+          "pixel_bbox_aspect": 0.4215586483478546,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 39,
+          "timestamp_ms": 1268.0,
+          "pixel_bbox_aspect": 0.42004361748695374,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 40,
+          "timestamp_ms": 1301.0,
+          "pixel_bbox_aspect": 0.4461647570133209,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 41,
+          "timestamp_ms": 1334.0,
+          "pixel_bbox_aspect": 0.4931764304637909,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 42,
+          "timestamp_ms": 1368.0,
+          "pixel_bbox_aspect": 0.5349106788635254,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 43,
+          "timestamp_ms": 1401.0,
+          "pixel_bbox_aspect": 0.6163232922554016,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 44,
+          "timestamp_ms": 1434.0,
+          "pixel_bbox_aspect": 0.6050444841384888,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 45,
+          "timestamp_ms": 1468.0,
+          "pixel_bbox_aspect": 0.5299209952354431,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 46,
+          "timestamp_ms": 1501.0,
+          "pixel_bbox_aspect": 0.4750007390975952,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 47,
+          "timestamp_ms": 1534.0,
+          "pixel_bbox_aspect": 0.5434781908988953,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 48,
+          "timestamp_ms": 1568.0,
+          "pixel_bbox_aspect": 0.4580502212047577,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 49,
+          "timestamp_ms": 1601.0,
+          "pixel_bbox_aspect": 0.6337945461273193,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 50,
+          "timestamp_ms": 1635.0,
+          "pixel_bbox_aspect": 0.8313116431236267,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 51,
+          "timestamp_ms": 1668.0,
+          "pixel_bbox_aspect": 0.7893950343132019,
+          "normalized_bbox_aspect": 1.0
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-18",
+      "observations": 65,
+      "out_of_image_joint_observations": 10,
+      "confident_out_of_image_joint_observations": 6,
+      "last_good_pose_ms": 1368.0,
+      "good_frame_extents": [
+        {
+          "frame_id": 3,
+          "timestamp_ms": 66.0,
+          "pixel_bbox_aspect": 0.5060979723930359,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 4,
+          "timestamp_ms": 100.0,
+          "pixel_bbox_aspect": 0.5007056593894958,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 5,
+          "timestamp_ms": 133.0,
+          "pixel_bbox_aspect": 0.506697952747345,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 6,
+          "timestamp_ms": 166.0,
+          "pixel_bbox_aspect": 0.5179309248924255,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 7,
+          "timestamp_ms": 200.0,
+          "pixel_bbox_aspect": 0.5120059251785278,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 8,
+          "timestamp_ms": 233.0,
+          "pixel_bbox_aspect": 0.4830513000488281,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 9,
+          "timestamp_ms": 266.0,
+          "pixel_bbox_aspect": 0.5229663252830505,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 10,
+          "timestamp_ms": 300.0,
+          "pixel_bbox_aspect": 0.49918216466903687,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 11,
+          "timestamp_ms": 333.0,
+          "pixel_bbox_aspect": 0.5118798613548279,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 12,
+          "timestamp_ms": 367.0,
+          "pixel_bbox_aspect": 0.49492812156677246,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 13,
+          "timestamp_ms": 400.0,
+          "pixel_bbox_aspect": 0.5079137086868286,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 14,
+          "timestamp_ms": 433.0,
+          "pixel_bbox_aspect": 0.5121925473213196,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 15,
+          "timestamp_ms": 467.0,
+          "pixel_bbox_aspect": 0.5365533828735352,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 16,
+          "timestamp_ms": 500.0,
+          "pixel_bbox_aspect": 0.5613629817962646,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 17,
+          "timestamp_ms": 533.0,
+          "pixel_bbox_aspect": 0.6100452542304993,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 18,
+          "timestamp_ms": 567.0,
+          "pixel_bbox_aspect": 0.6462770700454712,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 19,
+          "timestamp_ms": 600.0,
+          "pixel_bbox_aspect": 0.6634833216667175,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 20,
+          "timestamp_ms": 634.0,
+          "pixel_bbox_aspect": 0.7138478755950928,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 21,
+          "timestamp_ms": 667.0,
+          "pixel_bbox_aspect": 0.743344783782959,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 22,
+          "timestamp_ms": 700.0,
+          "pixel_bbox_aspect": 0.7745563387870789,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 23,
+          "timestamp_ms": 734.0,
+          "pixel_bbox_aspect": 0.8393553495407104,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 24,
+          "timestamp_ms": 767.0,
+          "pixel_bbox_aspect": 0.854447066783905,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 25,
+          "timestamp_ms": 800.0,
+          "pixel_bbox_aspect": 1.2633538246154785,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 26,
+          "timestamp_ms": 834.0,
+          "pixel_bbox_aspect": 0.9170179963111877,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 27,
+          "timestamp_ms": 867.0,
+          "pixel_bbox_aspect": 0.9493181109428406,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 28,
+          "timestamp_ms": 900.0,
+          "pixel_bbox_aspect": 0.9820544719696045,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 29,
+          "timestamp_ms": 934.0,
+          "pixel_bbox_aspect": 0.9920096397399902,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 30,
+          "timestamp_ms": 967.0,
+          "pixel_bbox_aspect": 0.9607032537460327,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 31,
+          "timestamp_ms": 1001.0,
+          "pixel_bbox_aspect": 0.9692076444625854,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 32,
+          "timestamp_ms": 1034.0,
+          "pixel_bbox_aspect": 0.9911032319068909,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 33,
+          "timestamp_ms": 1067.0,
+          "pixel_bbox_aspect": 1.0130794048309326,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 34,
+          "timestamp_ms": 1101.0,
+          "pixel_bbox_aspect": 1.1063041687011719,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 35,
+          "timestamp_ms": 1134.0,
+          "pixel_bbox_aspect": 1.205398678779602,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 36,
+          "timestamp_ms": 1167.0,
+          "pixel_bbox_aspect": 1.2295658588409424,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 37,
+          "timestamp_ms": 1201.0,
+          "pixel_bbox_aspect": 1.2203645706176758,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 38,
+          "timestamp_ms": 1234.0,
+          "pixel_bbox_aspect": 1.1320858001708984,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 39,
+          "timestamp_ms": 1268.0,
+          "pixel_bbox_aspect": 1.2580646276474,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 40,
+          "timestamp_ms": 1301.0,
+          "pixel_bbox_aspect": 1.5185189247131348,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 41,
+          "timestamp_ms": 1334.0,
+          "pixel_bbox_aspect": 2.045454502105713,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 42,
+          "timestamp_ms": 1368.0,
+          "pixel_bbox_aspect": 1.4838711023330688,
+          "normalized_bbox_aspect": 1.0
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-30",
+      "observations": 70,
+      "out_of_image_joint_observations": 34,
+      "confident_out_of_image_joint_observations": 17,
+      "last_good_pose_ms": 1635.0,
+      "good_frame_extents": [
+        {
+          "frame_id": 3,
+          "timestamp_ms": 66.0,
+          "pixel_bbox_aspect": 0.41719383001327515,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 4,
+          "timestamp_ms": 100.0,
+          "pixel_bbox_aspect": 0.4116058349609375,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 5,
+          "timestamp_ms": 133.0,
+          "pixel_bbox_aspect": 0.42294418811798096,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 6,
+          "timestamp_ms": 166.0,
+          "pixel_bbox_aspect": 0.41585496068000793,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 7,
+          "timestamp_ms": 200.0,
+          "pixel_bbox_aspect": 0.402386873960495,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 8,
+          "timestamp_ms": 233.0,
+          "pixel_bbox_aspect": 0.4061422646045685,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 9,
+          "timestamp_ms": 266.0,
+          "pixel_bbox_aspect": 0.4158460199832916,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 10,
+          "timestamp_ms": 300.0,
+          "pixel_bbox_aspect": 0.4313904345035553,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 11,
+          "timestamp_ms": 333.0,
+          "pixel_bbox_aspect": 0.44614022970199585,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 12,
+          "timestamp_ms": 367.0,
+          "pixel_bbox_aspect": 0.45092859864234924,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 13,
+          "timestamp_ms": 400.0,
+          "pixel_bbox_aspect": 0.450888067483902,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 14,
+          "timestamp_ms": 433.0,
+          "pixel_bbox_aspect": 0.4460192322731018,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 15,
+          "timestamp_ms": 467.0,
+          "pixel_bbox_aspect": 0.4561033844947815,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 16,
+          "timestamp_ms": 500.0,
+          "pixel_bbox_aspect": 0.44440239667892456,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 17,
+          "timestamp_ms": 533.0,
+          "pixel_bbox_aspect": 0.4500986635684967,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 18,
+          "timestamp_ms": 567.0,
+          "pixel_bbox_aspect": 0.4608035981655121,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 19,
+          "timestamp_ms": 600.0,
+          "pixel_bbox_aspect": 0.4489183723926544,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 20,
+          "timestamp_ms": 634.0,
+          "pixel_bbox_aspect": 0.48308876156806946,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 21,
+          "timestamp_ms": 667.0,
+          "pixel_bbox_aspect": 0.5052400231361389,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 22,
+          "timestamp_ms": 700.0,
+          "pixel_bbox_aspect": 0.5555479526519775,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 23,
+          "timestamp_ms": 734.0,
+          "pixel_bbox_aspect": 0.5997795462608337,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 24,
+          "timestamp_ms": 767.0,
+          "pixel_bbox_aspect": 0.6203179359436035,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 25,
+          "timestamp_ms": 800.0,
+          "pixel_bbox_aspect": 0.6572030186653137,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 26,
+          "timestamp_ms": 834.0,
+          "pixel_bbox_aspect": 0.6890088319778442,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 27,
+          "timestamp_ms": 867.0,
+          "pixel_bbox_aspect": 0.6929423213005066,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 28,
+          "timestamp_ms": 900.0,
+          "pixel_bbox_aspect": 0.7044785022735596,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 29,
+          "timestamp_ms": 934.0,
+          "pixel_bbox_aspect": 0.7016310691833496,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 30,
+          "timestamp_ms": 967.0,
+          "pixel_bbox_aspect": 0.7171873450279236,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 31,
+          "timestamp_ms": 1001.0,
+          "pixel_bbox_aspect": 0.7306631207466125,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 32,
+          "timestamp_ms": 1034.0,
+          "pixel_bbox_aspect": 0.7651959657669067,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 33,
+          "timestamp_ms": 1067.0,
+          "pixel_bbox_aspect": 0.7240818738937378,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 34,
+          "timestamp_ms": 1101.0,
+          "pixel_bbox_aspect": 0.7365114092826843,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 35,
+          "timestamp_ms": 1134.0,
+          "pixel_bbox_aspect": 0.7424594163894653,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 36,
+          "timestamp_ms": 1167.0,
+          "pixel_bbox_aspect": 0.7384512424468994,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 37,
+          "timestamp_ms": 1201.0,
+          "pixel_bbox_aspect": 0.75617915391922,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 38,
+          "timestamp_ms": 1234.0,
+          "pixel_bbox_aspect": 0.7614374160766602,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 39,
+          "timestamp_ms": 1268.0,
+          "pixel_bbox_aspect": 0.8307154774665833,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 40,
+          "timestamp_ms": 1301.0,
+          "pixel_bbox_aspect": 0.888041079044342,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 41,
+          "timestamp_ms": 1334.0,
+          "pixel_bbox_aspect": 0.939321756362915,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 42,
+          "timestamp_ms": 1368.0,
+          "pixel_bbox_aspect": 1.0335414409637451,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 43,
+          "timestamp_ms": 1401.0,
+          "pixel_bbox_aspect": 1.0206811428070068,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 44,
+          "timestamp_ms": 1434.0,
+          "pixel_bbox_aspect": 1.0738563537597656,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 45,
+          "timestamp_ms": 1468.0,
+          "pixel_bbox_aspect": 1.1538461446762085,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 46,
+          "timestamp_ms": 1501.0,
+          "pixel_bbox_aspect": 1.3529412746429443,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 47,
+          "timestamp_ms": 1534.0,
+          "pixel_bbox_aspect": 1.1749999523162842,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 48,
+          "timestamp_ms": 1568.0,
+          "pixel_bbox_aspect": 1.3636366128921509,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 49,
+          "timestamp_ms": 1601.0,
+          "pixel_bbox_aspect": 1.2162162065505981,
+          "normalized_bbox_aspect": 1.0
+        },
+        {
+          "frame_id": 50,
+          "timestamp_ms": 1635.0,
+          "pixel_bbox_aspect": 1.9999996423721313,
+          "normalized_bbox_aspect": 1.0
+        }
+      ]
+    }
+  ],
+  "reviewed": [
+    {
+      "sequence_id": "fall-19",
+      "frame_id": 36,
+      "phase": "before_clear_descent",
+      "visibility": "Whole body in image; face and hip centers approximate under hair/clothing.",
+      "approximate_visible_regions": {
+        "nose": [
+          350,
+          205,
+          15
+        ],
+        "left_shoulder": [
+          375,
+          227,
+          18
+        ],
+        "right_shoulder": [
+          319,
+          227,
+          18
+        ],
+        "left_wrist": [
+          369,
+          280,
+          16
+        ],
+        "right_wrist": [
+          310,
+          295,
+          16
+        ],
+        "left_ankle": [
+          357,
+          380,
+          16
+        ],
+        "right_ankle": [
+          335,
+          398,
+          16
+        ]
+      },
+      "timestamp_ms": 1167.0,
+      "source": "data\\raw\\urfall\\fall-19\\fall-19-cam0-rgb\\fall-19-cam0-rgb-036.png",
+      "source_sha256": "4f5a0150ae166d8a41b98220ec5c62cf4d92a4a3a83754cf8a7d121c31d34789",
+      "review_image": "outputs\\human-keyframes\\fall-19-f36-review.png",
+      "comparisons": [
+        {
+          "joint": "nose",
+          "pose_xy": [
+            349.94683837890625,
+            201.35292053222656
+          ],
+          "confidence": 0.7731096744537354,
+          "distance_from_approximate_center_px": 3.6474669021407027,
+          "inside_review_region": true
+        },
+        {
+          "joint": "left_shoulder",
+          "pose_xy": [
+            370.7574462890625,
+            215.3000030517578
+          ],
+          "confidence": 0.918546736240387,
+          "distance_from_approximate_center_px": 12.445448588904542,
+          "inside_review_region": true
+        },
+        {
+          "joint": "right_shoulder",
+          "pose_xy": [
+            327.08795166015625,
+            217.45555114746094
+          ],
+          "confidence": 0.8842382431030273,
+          "distance_from_approximate_center_px": 12.510454266562764,
+          "inside_review_region": true
+        },
+        {
+          "joint": "left_wrist",
+          "pose_xy": [
+            375.3601989746094,
+            274.98895263671875
+          ],
+          "confidence": 0.9171743392944336,
+          "distance_from_approximate_center_px": 8.097081367608338,
+          "inside_review_region": true
+        },
+        {
+          "joint": "right_wrist",
+          "pose_xy": [
+            308.62701416015625,
+            288.81719970703125
+          ],
+          "confidence": 0.9191757440567017,
+          "distance_from_approximate_center_px": 6.333412159266591,
+          "inside_review_region": true
+        },
+        {
+          "joint": "left_ankle",
+          "pose_xy": [
+            361.5313720703125,
+            371.89190673828125
+          ],
+          "confidence": 0.791387677192688,
+          "distance_from_approximate_center_px": 9.288407246688594,
+          "inside_review_region": true
+        },
+        {
+          "joint": "right_ankle",
+          "pose_xy": [
+            336.2843017578125,
+            392.42706298828125
+          ],
+          "confidence": 0.8496313095092773,
+          "distance_from_approximate_center_px": 5.719008475400695,
+          "inside_review_region": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-19",
+      "frame_id": 46,
+      "phase": "descent",
+      "visibility": "Strong blur; face and leg-joint positions uncertain/occluded. Both arms remain partly visible.",
+      "approximate_visible_regions": {
+        "left_shoulder": [
+          374,
+          312,
+          22
+        ],
+        "right_shoulder": [
+          319,
+          315,
+          22
+        ],
+        "left_wrist": [
+          375,
+          407,
+          22
+        ],
+        "right_wrist": [
+          349,
+          433,
+          25
+        ]
+      },
+      "timestamp_ms": 1501.0,
+      "source": "data\\raw\\urfall\\fall-19\\fall-19-cam0-rgb\\fall-19-cam0-rgb-046.png",
+      "source_sha256": "e3de1b4cb79feb36fd1960ce716dea95e16acd0b0ebef7c11746d4a457caa1c0",
+      "review_image": "outputs\\human-keyframes\\fall-19-f46-review.png",
+      "comparisons": [
+        {
+          "joint": "left_shoulder",
+          "pose_xy": [
+            375.30438232421875,
+            303.09576416015625
+          ],
+          "confidence": 0.5160197615623474,
+          "distance_from_approximate_center_px": 8.999268255769035,
+          "inside_review_region": true
+        },
+        {
+          "joint": "right_shoulder",
+          "pose_xy": [
+            325.15582275390625,
+            310.97393798828125
+          ],
+          "confidence": 0.6737984418869019,
+          "distance_from_approximate_center_px": 7.355496522989781,
+          "inside_review_region": true
+        },
+        {
+          "joint": "left_wrist",
+          "pose_xy": [
+            372.11663818359375,
+            391.63494873046875
+          ],
+          "confidence": 0.5350549817085266,
+          "distance_from_approximate_center_px": 15.633252248960657,
+          "inside_review_region": true
+        },
+        {
+          "joint": "right_wrist",
+          "pose_xy": [
+            351.5948486328125,
+            429.7462158203125
+          ],
+          "confidence": 0.6473363041877747,
+          "distance_from_approximate_center_px": 4.161772568893398,
+          "inside_review_region": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-19",
+      "frame_id": 56,
+      "phase": "landing",
+      "visibility": "Head/nose and parts of arms outside bottom edge; body partly visible but joint identities uncertain. No precise coordinates assigned.",
+      "approximate_visible_regions": {},
+      "timestamp_ms": 1835.0,
+      "source": "data\\raw\\urfall\\fall-19\\fall-19-cam0-rgb\\fall-19-cam0-rgb-056.png",
+      "source_sha256": "ed91e1147a5f5a1a7900ded44a006443562c28f259a7455ac6afbd7f0cd4c1fd",
+      "review_image": "outputs\\human-keyframes\\fall-19-f56-review.png",
+      "comparisons": []
+    },
+    {
+      "sequence_id": "fall-18",
+      "frame_id": 16,
+      "phase": "lean_from_sitting",
+      "visibility": "Near-side left arm/leg visible; far-side joints overlap; hip centers concealed by clothing.",
+      "approximate_visible_regions": {
+        "nose": [
+          407,
+          247,
+          16
+        ],
+        "left_shoulder": [
+          476,
+          269,
+          20
+        ],
+        "left_elbow": [
+          489,
+          332,
+          18
+        ],
+        "left_wrist": [
+          428,
+          368,
+          20
+        ],
+        "left_knee": [
+          426,
+          374,
+          18
+        ],
+        "left_ankle": [
+          480,
+          451,
+          18
+        ]
+      },
+      "timestamp_ms": 500.0,
+      "source": "data\\raw\\urfall\\fall-18\\fall-18-cam0-rgb\\fall-18-cam0-rgb-016.png",
+      "source_sha256": "cdaa517b7d55a4cb97b6564ccbafa092414f1448b4a703aa84bbdecfec69b8b5",
+      "review_image": "outputs\\human-keyframes\\fall-18-f16-review.png",
+      "comparisons": [
+        {
+          "joint": "nose",
+          "pose_xy": [
+            409.67022705078125,
+            251.77719116210938
+          ],
+          "confidence": 0.90944904088974,
+          "distance_from_approximate_center_px": 5.472811699854094,
+          "inside_review_region": true
+        },
+        {
+          "joint": "left_shoulder",
+          "pose_xy": [
+            469.302490234375,
+            263.5357360839844
+          ],
+          "confidence": 0.7591413259506226,
+          "distance_from_approximate_center_px": 8.643773319824662,
+          "inside_review_region": true
+        },
+        {
+          "joint": "left_elbow",
+          "pose_xy": [
+            488.71490478515625,
+            335.04132080078125
+          ],
+          "confidence": 0.8758910298347473,
+          "distance_from_approximate_center_px": 3.0546540712151855,
+          "inside_review_region": true
+        },
+        {
+          "joint": "left_wrist",
+          "pose_xy": [
+            440.9059143066406,
+            361.2557067871094
+          ],
+          "confidence": 0.7989369630813599,
+          "distance_from_approximate_center_px": 14.561871961797827,
+          "inside_review_region": true
+        },
+        {
+          "joint": "left_knee",
+          "pose_xy": [
+            426.3255615234375,
+            375.93109130859375
+          ],
+          "confidence": 0.7512090802192688,
+          "distance_from_approximate_center_px": 1.958342142647517,
+          "inside_review_region": true
+        },
+        {
+          "joint": "left_ankle",
+          "pose_xy": [
+            485.9243469238281,
+            443.29180908203125
+          ],
+          "confidence": 0.7428004741668701,
+          "distance_from_approximate_center_px": 9.721835922382546,
+          "inside_review_region": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-18",
+      "frame_id": 31,
+      "phase": "descent",
+      "visibility": "Near left wrist approaches bottom border, lower leg partly overlaps chair. Far shoulder and far leg uncertain.",
+      "approximate_visible_regions": {
+        "nose": [
+          309,
+          316,
+          18
+        ],
+        "left_shoulder": [
+          377,
+          328,
+          22
+        ],
+        "left_elbow": [
+          371,
+          398,
+          22
+        ],
+        "left_wrist": [
+          318,
+          467,
+          18
+        ],
+        "left_knee": [
+          400,
+          399,
+          20
+        ],
+        "left_ankle": [
+          474,
+          446,
+          18
+        ]
+      },
+      "timestamp_ms": 1001.0,
+      "source": "data\\raw\\urfall\\fall-18\\fall-18-cam0-rgb\\fall-18-cam0-rgb-031.png",
+      "source_sha256": "71bbad884c355e6728716f09ebe11786d87a2a7ecfc61960b4bf72a001b91c5a",
+      "review_image": "outputs\\human-keyframes\\fall-18-f31-review.png",
+      "comparisons": [
+        {
+          "joint": "nose",
+          "pose_xy": [
+            314.17462158203125,
+            327.2569580078125
+          ],
+          "confidence": 0.9290324449539185,
+          "distance_from_approximate_center_px": 12.389342682599331,
+          "inside_review_region": true
+        },
+        {
+          "joint": "left_shoulder",
+          "pose_xy": [
+            370.0732421875,
+            327.372802734375
+          ],
+          "confidence": 0.670066237449646,
+          "distance_from_approximate_center_px": 6.955095269156079,
+          "inside_review_region": true
+        },
+        {
+          "joint": "left_elbow",
+          "pose_xy": [
+            367.41888427734375,
+            400.9100341796875
+          ],
+          "confidence": 0.7402151823043823,
+          "distance_from_approximate_center_px": 4.61440015018261,
+          "inside_review_region": true
+        },
+        {
+          "joint": "left_wrist",
+          "pose_xy": [
+            328.2822570800781,
+            463.25848388671875
+          ],
+          "confidence": 0.7965055704116821,
+          "distance_from_approximate_center_px": 10.941835014601525,
+          "inside_review_region": true
+        },
+        {
+          "joint": "left_knee",
+          "pose_xy": [
+            399.6049499511719,
+            402.443115234375
+          ],
+          "confidence": 0.8137869238853455,
+          "distance_from_approximate_center_px": 3.4657044101112136,
+          "inside_review_region": true
+        },
+        {
+          "joint": "left_ankle",
+          "pose_xy": [
+            477.86627197265625,
+            442.29644775390625
+          ],
+          "confidence": 0.7526500225067139,
+          "distance_from_approximate_center_px": 5.353910552679538,
+          "inside_review_region": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-18",
+      "frame_id": 46,
+      "phase": "landing",
+      "visibility": "Face/nose and much of upper body outside bottom edge. Shoes visible, but left/right ankle identity uncertain. No coordinates assigned.",
+      "approximate_visible_regions": {},
+      "timestamp_ms": 1501.0,
+      "source": "data\\raw\\urfall\\fall-18\\fall-18-cam0-rgb\\fall-18-cam0-rgb-046.png",
+      "source_sha256": "a6573ee558d064038d923954ac21776107604b2747f701d5f110b015ea7e6fe9",
+      "review_image": "outputs\\human-keyframes\\fall-18-f46-review.png",
+      "comparisons": []
+    },
+    {
+      "sequence_id": "fall-30",
+      "frame_id": 36,
+      "phase": "descent_onset",
+      "visibility": "Most body visible; far arm and hips uncertain through overlap/clothes.",
+      "approximate_visible_regions": {
+        "nose": [
+          323,
+          265,
+          18
+        ],
+        "left_shoulder": [
+          393,
+          271,
+          22
+        ],
+        "left_elbow": [
+          436,
+          329,
+          20
+        ],
+        "left_wrist": [
+          402,
+          389,
+          22
+        ],
+        "left_ankle": [
+          433,
+          450,
+          18
+        ]
+      },
+      "timestamp_ms": 1167.0,
+      "source": "data\\raw\\urfall\\fall-30\\fall-30-cam0-rgb\\fall-30-cam0-rgb-036.png",
+      "source_sha256": "7a8a44269f492c830307124f26a7c23df1f3de279257aaa1c23c471d45357998",
+      "review_image": "outputs\\human-keyframes\\fall-30-f36-review.png",
+      "comparisons": [
+        {
+          "joint": "nose",
+          "pose_xy": [
+            329.1338195800781,
+            271.29400634765625
+          ],
+          "confidence": 0.9077556133270264,
+          "distance_from_approximate_center_px": 8.788529942219402,
+          "inside_review_region": true
+        },
+        {
+          "joint": "left_shoulder",
+          "pose_xy": [
+            391.74737548828125,
+            266.9864196777344
+          ],
+          "confidence": 0.6933051347732544,
+          "distance_from_approximate_center_px": 4.204508909567974,
+          "inside_review_region": true
+        },
+        {
+          "joint": "left_elbow",
+          "pose_xy": [
+            436.6539306640625,
+            324.8930969238281
+          ],
+          "confidence": 0.8919031023979187,
+          "distance_from_approximate_center_px": 4.1586389829451695,
+          "inside_review_region": true
+        },
+        {
+          "joint": "left_wrist",
+          "pose_xy": [
+            411.0458984375,
+            383.18341064453125
+          ],
+          "confidence": 0.9032424092292786,
+          "distance_from_approximate_center_px": 10.75457996723802,
+          "inside_review_region": true
+        },
+        {
+          "joint": "left_ankle",
+          "pose_xy": [
+            439.0920104980469,
+            443.50933837890625
+          ],
+          "confidence": 0.6547998189926147,
+          "distance_from_approximate_center_px": 8.901757140466858,
+          "inside_review_region": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-30",
+      "frame_id": 46,
+      "phase": "descent",
+      "visibility": "Motion blur; left wrist has passed bottom edge. Right arm remains visible; hip and far leg partly occluded.",
+      "approximate_visible_regions": {
+        "nose": [
+          282,
+          339,
+          22
+        ],
+        "left_shoulder": [
+          353,
+          324,
+          24
+        ],
+        "left_elbow": [
+          366,
+          413,
+          22
+        ],
+        "right_elbow": [
+          247,
+          388,
+          22
+        ],
+        "right_wrist": [
+          217,
+          441,
+          22
+        ]
+      },
+      "timestamp_ms": 1501.0,
+      "source": "data\\raw\\urfall\\fall-30\\fall-30-cam0-rgb\\fall-30-cam0-rgb-046.png",
+      "source_sha256": "beef7c9352f7cedf5e1244c8ebeb7d252bfaedf8b8b70e7ece165c4a26c59982",
+      "review_image": "outputs\\human-keyframes\\fall-30-f46-review.png",
+      "comparisons": [
+        {
+          "joint": "nose",
+          "pose_xy": [
+            285.6041564941406,
+            350.21978759765625
+          ],
+          "confidence": 0.8336840271949768,
+          "distance_from_approximate_center_px": 11.784463406145273,
+          "inside_review_region": true
+        },
+        {
+          "joint": "left_shoulder",
+          "pose_xy": [
+            343.3973083496094,
+            332.437255859375
+          ],
+          "confidence": 0.6494006514549255,
+          "distance_from_approximate_center_px": 12.782760788227229,
+          "inside_review_region": true
+        },
+        {
+          "joint": "left_elbow",
+          "pose_xy": [
+            365.6254577636719,
+            416.9042053222656
+          ],
+          "confidence": 0.7680454850196838,
+          "distance_from_approximate_center_px": 3.922129661956742,
+          "inside_review_region": true
+        },
+        {
+          "joint": "right_elbow",
+          "pose_xy": [
+            250.0391082763672,
+            385.7847900390625
+          ],
+          "confidence": 0.8311929106712341,
+          "distance_from_approximate_center_px": 3.7607624607943877,
+          "inside_review_region": true
+        },
+        {
+          "joint": "right_wrist",
+          "pose_xy": [
+            218.91970825195312,
+            443.5779724121094
+          ],
+          "confidence": 0.85898756980896,
+          "distance_from_approximate_center_px": 3.2142217612065838,
+          "inside_review_region": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-30",
+      "frame_id": 56,
+      "phase": "landing",
+      "visibility": "Head/nose and most arms beyond bottom edge; shoulders clipped; legs visible but identity uncertain. No coordinates assigned.",
+      "approximate_visible_regions": {},
+      "timestamp_ms": 1835.0,
+      "source": "data\\raw\\urfall\\fall-30\\fall-30-cam0-rgb\\fall-30-cam0-rgb-056.png",
+      "source_sha256": "01560bdd1669608b2d1f8853fead2a1486621a2ac4f3975bb4b36d5002f839fc",
+      "review_image": "outputs\\human-keyframes\\fall-30-f56-review.png",
+      "comparisons": []
+    }
+  ],
+  "proven": "Legacy per-frame independent X/Y scaling maps every nondegenerate joint bounding box to aspect ratio 1, removing its original aspect. Low-confidence coordinates participate. Out-of-frame joint coordinates can retain high model confidence.",
+  "hypothesis": "Preserving pixel aspect ratio may improve separation before pose quality disappears; not proved by geometry or this visual audit.",
+  "limits": "Nine approximate visual reviews, not independent or official keypoint GT; overlays were also inspected. Visibility is uncertain under blur and occlusion; no hidden joint coordinates fabricated. No Test or Accuracy calculation in this audit."
+}

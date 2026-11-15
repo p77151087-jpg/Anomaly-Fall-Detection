@@ -1,0 +1,183 @@
+{
+  "source_kind": "real_feature_smoke",
+  "candidates": [
+    {
+      "run": "ur-stride2-decay-001",
+      "index": "C:\\成大專案\\fall-detection-anomaly\\data\\cache\\ur-stride2-decay-001\\real_feature_smoke\\dataset-index.json",
+      "index_sha256": "8da0247a45bab2f5333c99ecbb0c4972de6cb50b9395e64c0038700af7b9e699",
+      "parity": [
+        {
+          "sequence_id": "adl-05",
+          "before_features": 30,
+          "after_features": 75,
+          "shared_windows": 15,
+          "max_abs_difference": 0.0,
+          "pose_arrays_unchanged": true
+        },
+        {
+          "sequence_id": "adl-24",
+          "before_features": 9,
+          "after_features": 21,
+          "shared_windows": 5,
+          "max_abs_difference": 0.0,
+          "pose_arrays_unchanged": true
+        },
+        {
+          "sequence_id": "adl-38",
+          "before_features": 28,
+          "after_features": 70,
+          "shared_windows": 14,
+          "max_abs_difference": 0.0,
+          "pose_arrays_unchanged": true
+        },
+        {
+          "sequence_id": "adl-04",
+          "before_features": 24,
+          "after_features": 60,
+          "shared_windows": 12,
+          "max_abs_difference": 0.0,
+          "pose_arrays_unchanged": true
+        },
+        {
+          "sequence_id": "adl-20",
+          "before_features": 30,
+          "after_features": 76,
+          "shared_windows": 15,
+          "max_abs_difference": 0.0,
+          "pose_arrays_unchanged": true
+        },
+        {
+          "sequence_id": "fall-02",
+          "before_features": 9,
+          "after_features": 21,
+          "shared_windows": 5,
+          "max_abs_difference": 0.0,
+          "pose_arrays_unchanged": true
+        },
+        {
+          "sequence_id": "fall-09",
+          "before_features": 25,
+          "after_features": 62,
+          "shared_windows": 13,
+          "max_abs_difference": 0.0,
+          "pose_arrays_unchanged": true
+        },
+        {
+          "sequence_id": "fall-19",
+          "before_features": 5,
+          "after_features": 12,
+          "shared_windows": 3,
+          "max_abs_difference": 0.0,
+          "pose_arrays_unchanged": true
+        },
+        {
+          "sequence_id": "fall-29",
+          "before_features": 10,
+          "after_features": 24,
+          "shared_windows": 5,
+          "max_abs_difference": 0.0,
+          "pose_arrays_unchanged": true
+        },
+        {
+          "sequence_id": "fall-25",
+          "before_features": 9,
+          "after_features": 23,
+          "shared_windows": 5,
+          "max_abs_difference": 0.0,
+          "pose_arrays_unchanged": true
+        }
+      ],
+      "gate_passed": true
+    },
+    {
+      "run": "ur-stride1-decay-001",
+      "index": "C:\\成大專案\\fall-detection-anomaly\\data\\cache\\ur-stride1-decay-001\\real_feature_smoke\\dataset-index.json",
+      "index_sha256": "9be0321af2e129abcc78f28315e840d1c10fc6a8f2485227c41f21e2753a157c",
+      "parity": [
+        {
+          "sequence_id": "adl-05",
+          "before_features": 30,
+          "after_features": 150,
+          "shared_windows": 30,
+          "max_abs_difference": 0.0,
+          "pose_arrays_unchanged": true
+        },
+        {
+          "sequence_id": "adl-24",
+          "before_features": 9,
+          "after_features": 41,
+          "shared_windows": 9,
+          "max_abs_difference": 0.0,
+          "pose_arrays_unchanged": true
+        },
+        {
+          "sequence_id": "adl-38",
+          "before_features": 28,
+          "after_features": 140,
+          "shared_windows": 28,
+          "max_abs_difference": 0.0,
+          "pose_arrays_unchanged": true
+        },
+        {
+          "sequence_id": "adl-04",
+          "before_features": 24,
+          "after_features": 120,
+          "shared_windows": 24,
+          "max_abs_difference": 0.0,
+          "pose_arrays_unchanged": true
+        },
+        {
+          "sequence_id": "adl-20",
+          "before_features": 30,
+          "after_features": 153,
+          "shared_windows": 30,
+          "max_abs_difference": 0.0,
+          "pose_arrays_unchanged": true
+        },
+        {
+          "sequence_id": "fall-02",
+          "before_features": 9,
+          "after_features": 42,
+          "shared_windows": 9,
+          "max_abs_difference": 0.0,
+          "pose_arrays_unchanged": true
+        },
+        {
+          "sequence_id": "fall-09",
+          "before_features": 25,
+          "after_features": 123,
+          "shared_windows": 25,
+          "max_abs_difference": 0.0,
+          "pose_arrays_unchanged": true
+        },
+        {
+          "sequence_id": "fall-19",
+          "before_features": 5,
+          "after_features": 24,
+          "shared_windows": 5,
+          "max_abs_difference": 0.0,
+          "pose_arrays_unchanged": true
+        },
+        {
+          "sequence_id": "fall-29",
+          "before_features": 10,
+          "after_features": 48,
+          "shared_windows": 10,
+          "max_abs_difference": 0.0,
+          "pose_arrays_unchanged": true
+        },
+        {
+          "sequence_id": "fall-25",
+          "before_features": 9,
+          "after_features": 45,
+          "shared_windows": 9,
+          "max_abs_difference": 0.0,
+          "pose_arrays_unchanged": true
+        }
+      ],
+      "gate_passed": true
+    }
+  ],
+  "test_scored": false,
+  "accuracy_not_measured": true
+}

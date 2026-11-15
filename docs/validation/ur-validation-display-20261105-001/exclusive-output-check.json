@@ -1,0 +1,18 @@
+{
+  "checks": [
+    {
+      "command": "build",
+      "exit_code": 1,
+      "expected_refusal": true,
+      "message": "Traceback (most recent call last):\n  File \"C:\\\u6210\u5927\u5c08\u6848\\fall-detection-anomaly\\scripts\\validation_display_replay.py\", line 654, in <module>\n    main()\n  File \"C:\\\u6210\u5927\u5c08\u6848\\fall-detection-anomaly\\scripts\\validation_display_replay.py\", line 638, in main\n    build()\n  File \"C:\\\u6210\u5927\u5c08\u6848\\fall-detection-anomaly\\scripts\\validation_display_replay.py\", line 294, in build\n    raise ContractError(\"Preserve existing display replay outputs/QA; refuse overwrite\")\nfall_detect.io_utils.ContractError: Preserve existing display replay outputs/QA; refuse overwrite\n"
+    },
+    {
+      "command": "gallery",
+      "exit_code": 1,
+      "expected_refusal": true,
+      "message": "Traceback (most recent call last):\n  File \"C:\\\u6210\u5927\u5c08\u6848\\fall-detection-anomaly\\scripts\\build_validation_display_gallery.py\", line 50, in <module>\n    main()\n  File \"C:\\\u6210\u5927\u5c08\u6848\\fall-detection-anomaly\\scripts\\build_validation_display_gallery.py\", line 11, in main\n    raise replay.ContractError(\"Preserve existing video gallery\")\nfall_detect.io_utils.ContractError: Preserve existing video gallery\n"
+    }
+  ],
+  "artifact_count": 30,
+  "before_after_identical": true
+}

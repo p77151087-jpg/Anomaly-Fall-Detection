@@ -1,0 +1,533 @@
+{
+  "evidence_tier": "real_end_to_end",
+  "source_kind": "real",
+  "test_evaluation_performed": false,
+  "scope": "Two Validation sources only; fresh strict-weight pose/ST-GCN/AE inference",
+  "demos": {
+    "le2i-Home_02-video_47": {
+      "metadata": {
+        "codec": "mp4v",
+        "frames": 359,
+        "fps": 30.0,
+        "size_wh": [
+          320,
+          240
+        ],
+        "duration_ms": 11966.666666666666,
+        "decoded_verified": true,
+        "source_kind": "real",
+        "run": "C:\\成大專案\\fall-detection-anomaly\\runs\\le2i-timing-balanced-001",
+        "source": "C:\\成大專案\\fall-detection-anomaly\\data\\raw\\le2i\\videos\\Home_02\\Home_02\\Videos\\video (47).avi",
+        "recipe_hash": "1b590fe1fc141258103fc1a40991ff366eb04fba9773165fa5cf8afca2d036ba",
+        "threshold": {
+          "schema_version": 1,
+          "threshold": 0.4929388761520386,
+          "comparison": "gt",
+          "consecutive_windows": 3,
+          "split": "validation",
+          "objective": "balanced_sequence_accuracy",
+          "protocol_id": "urfall-plus-le2i-cs-sequence-v1",
+          "split_hash": "a6454c4389e4a8ef7b161920088dd290489dd9e361b24b1afab56507bf11e4b8",
+          "recipe_hash": "1b590fe1fc141258103fc1a40991ff366eb04fba9773165fa5cf8afca2d036ba",
+          "feature_hashes": {
+            "adl-37": "1f9142b6093c092aff41db985976c88b371aab3e783640daa23d4c5027dbff0a",
+            "adl-23": "5f7840d4a2802726385ac5917df46dbbe9852a1faf847a7c01c726c7142614a0",
+            "adl-20": "fa89f5322ac72a6bb9434a14780e8a3d8598fd63e0d955c06f31c2ca8e150188",
+            "adl-04": "34ef2787413742c1a877fa668f7ce65725b7257dffe37259c511366eef802061",
+            "adl-01": "3a1a21267247ab44646383b03fca267f0d744cdef81add4cdc2ccba95c09def6",
+            "adl-16": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+            "adl-18": "bf2a797f3d8ee5d2f505d34d08440a746e0d4f88794d00d223a7e2ef77964b5d",
+            "adl-35": "ac16e63d1128b62ec2c7c08d3cd49a6e943594788fe64d2aae8119c460d0366f",
+            "fall-22": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+            "fall-19": "6ae8aec373ebce475352dbbfc54df2ce433d981acebb6dadcc18ced4c4236e73",
+            "fall-16": "0bdc5712ab7b6a53a8b094a382927457cad9fbad28a8ca94d36095514a70fc6c",
+            "fall-18": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+            "fall-08": "d4304ee8d34ccd4bef078c0d61d8963594fd9a73e88bd455f8d261584d85685d",
+            "fall-13": "0f8a83b174be38536ce36f601e83f80e0fab6d54cc7a39027d64b053a0380c2b",
+            "fall-29": "ee681f89eaa04c36b7e536903537570729566581c03de250efd2cc83799f046b",
+            "fall-14": "baadba66a016560aa3b0fc3a763e71e86e206a80be5b0d5cb7a92ff6edc3d535",
+            "fall-09": "265666d2206b8ff12b6d5f3dfcc9190169ebd92d9f457ac9194e25a79378f9c1",
+            "fall-07": "1b946cd4080d48f236cda457df4b82966ffa2a346328cde2a76c717eecbc78da",
+            "fall-11": "f2a87fb7eab192af609c7a2e404cbcd38d081abf9ffd70ba958bcd255b58ad5d",
+            "fall-25": "cd4671d273133df1918ccbe32350925c93cedb7e63c1aa88336d823b81e07687",
+            "fall-06": "ef571b93382418acf6e824756dab9a92f702dea0dbb430a6595e9c0d9045f459",
+            "fall-02": "1758e5f1a33c2989393f7c89e3b64060598891ad039fcc4213f13f962b8e8a3a",
+            "fall-30": "ae96917dabebf812cbac94c959c6266c223b458372958f1a0479503b1822f86c",
+            "le2i-Coffee_room_01-video_42": "f5d61f57513f38a5052b1b2e708b68c107baa2e366f2b50bf79c8030b3648d36",
+            "le2i-Coffee_room_01-video_43": "d3b048a5fc63dcf8fea4aedf03d568b2025d7ea8b41d76b22a6c9f7179b0842b",
+            "le2i-Coffee_room_01-video_44": "4941e4958379c0a73034ead35e4433ac5135978a6ed5b1394c426980e7af6197",
+            "le2i-Coffee_room_01-video_45": "d1a8f206c23f5f030c5262ae5749cd3aebf159361c904a2bdf03b38c0d82cc4f",
+            "le2i-Coffee_room_01-video_46": "b9c888f68c2e816a5ab4d96ab2c4cb3c2a28b149e48ff0e2f2527fee73df119a",
+            "le2i-Home_01-video_10": "081373cdcd8677e9846b887fd2ca6522601a5f1521ef03456fd0dad7981eb52f",
+            "le2i-Home_01-video_13": "a7d6c9d81d6c4a107ea927aa3ffa66923780bcbca39d01506db6d0e3388543f9",
+            "le2i-Home_01-video_24": "693abf562da7d67ae545384e12843cc2ab4e707200b67cb7663715d62fcf8ce9",
+            "le2i-Home_01-video_25": "c42534eb9fe7ff1421621765829f243eb990165a801aec421a44506f85e2a9de",
+            "le2i-Home_01-video_28": "68c8a5cd568e171763b98d48abc8df7d23530fa23b4c4f725a00b6b0a2c2d370",
+            "le2i-Home_01-video_4": "fa34bdf886b6bfaa6c330ccd1a29ee64e00e5723b5e7bac9560c491f44025af6",
+            "le2i-Home_02-video_46": "1a5c6efc6feeebb7606b192e7e291872b60a55a139f6bcb68249b895bfaa54e2",
+            "le2i-Home_02-video_47": "aeea34dc23c1994ad3944aef9ba4f9ccc816a53a71bcbfea32f59197cf19a5e4",
+            "le2i-Home_02-video_48": "693639967ae574f08d6b5134624ffc45807967d2db2b3c9f532317f08fa95ac4",
+            "le2i-Home_02-video_51": "ed079e36c98cbecc46434960ea3c478df383561a06d9b5cf6d986b19830b0e07"
+          },
+          "model_sha256": "b19ee3b108a9d1651a6c70bef75fe5d9b2db24ff3b5dd5bac432d7fd1fbe7bad",
+          "scaler_sha256": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990"
+        },
+        "config": {
+          "project": {
+            "name": "fall-detection-anomaly",
+            "seed": 42
+          },
+          "runtime": {
+            "device": "auto",
+            "num_workers": 0,
+            "torch_threads": 4
+          },
+          "data": {
+            "dataset": "urfall_le2i",
+            "raw_dir": "data/raw",
+            "manifest_dir": "data/manifests/le2i-extension",
+            "cache_dir": "data/cache/le2i-source-interval",
+            "camera": 0,
+            "modality": "rgb",
+            "protocol_id": "urfall-plus-le2i-cs-sequence-v1",
+            "split_seed": 42,
+            "adl_counts": [
+              24,
+              8,
+              8
+            ],
+            "fall_counts": [
+              0,
+              15,
+              15
+            ],
+            "timestamp_policy": "prefer_source",
+            "fallback_fps": 30,
+            "allow_missing_timestamp_tail": true
+          },
+          "pose": {
+            "backend": "lightweight_openpose",
+            "weights_manifest": "weights/openpose18-manifest.json",
+            "upstream_dir": "third_party/lightweight_openpose",
+            "backbone": "mobilenet_v1",
+            "input_height": 256,
+            "input_width": 192,
+            "detector_size": 384,
+            "detector_confidence": 0.45,
+            "nms_threshold": 0.2,
+            "track_max_age": 30,
+            "track_n_init": 3,
+            "track_similarity_joints": 3,
+            "refinement_stages": 3,
+            "inference_refinement_stage": 1,
+            "rotation_angles": [
+              0,
+              -90,
+              90
+            ],
+            "rotation_policy": "low_quality"
+          },
+          "skeleton": {
+            "recipe_id": "lightweight_openpose18_stgcn_kinetics_v1",
+            "target_fps": 30,
+            "window_size": 30,
+            "stride": 5,
+            "missing_frame_policy": "invalidate_window",
+            "span_tolerance": 1e-08,
+            "resampling_hold_policy": "source_interval"
+          },
+          "quality": {
+            "min_joint_confidence": 0.2,
+            "min_valid_joints": 12,
+            "min_good_frame_ratio": 0.8
+          },
+          "features": {
+            "backend": "stgcn_kinetics",
+            "expected_dim": 256,
+            "frozen": true,
+            "upstream_dir": "third_party/stgcn"
+          },
+          "autoencoder": {
+            "hidden_dim": 128,
+            "latent_dim": 32,
+            "learning_rate": 0.001,
+            "batch_size": 32,
+            "max_epochs": 100,
+            "patience": 10,
+            "min_delta": 1e-06
+          },
+          "calibration": {
+            "split": "validation",
+            "objective": "balanced_sequence_accuracy",
+            "comparison": "gt",
+            "consecutive_windows": 3
+          },
+          "evaluation": {
+            "split": "test",
+            "metric_unit": "sequence"
+          },
+          "demo": {
+            "display": false,
+            "output_dir": "outputs/demo",
+            "score_hold_stride_multiplier": 2
+          }
+        },
+        "processing_fps": 57.54706793119327,
+        "video_grid_fps": 30
+      },
+      "sequence_result": {
+        "sequence_id": "le2i-Home_02-video_47",
+        "sequence_score": 0.4141365587711334,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 66,
+        "n_valid_endpoints": 49,
+        "window_coverage": 0.7424242424242424,
+        "first_alarm_ms": null
+      },
+      "shared_valid_endpoints": 48,
+      "max_raw_score_difference": 0.0,
+      "states_equal": false,
+      "states_equal_count": 44,
+      "events_equal": true,
+      "cached_events": [],
+      "live_events": [],
+      "preview": "outputs\\real_end_to_end\\le2i-timing-normal47.png",
+      "hidden_scored_endpoints": [
+        {
+          "sample_index": 39,
+          "track_id": 0,
+          "reason": "low_confidence"
+        }
+      ],
+      "annotation_scope_note": "Le2i cache enforces labelled intervals; unlabelled gaps remain unknown, raw demo has no annotation gating. Current low-confidence poses may suppress visible scores even when a 30-frame window meets its 80% quality rule.",
+      "state_differences": [
+        {
+          "sample_index": 134,
+          "cached_state": "warming_up",
+          "cached_reason": "insufficient_consecutive_windows",
+          "demo_state": "normal",
+          "demo_reason": ""
+        },
+        {
+          "sample_index": 139,
+          "cached_state": "warming_up",
+          "cached_reason": "insufficient_consecutive_windows",
+          "demo_state": "normal",
+          "demo_reason": ""
+        },
+        {
+          "sample_index": 289,
+          "cached_state": "warming_up",
+          "cached_reason": "insufficient_consecutive_windows",
+          "demo_state": "normal",
+          "demo_reason": ""
+        },
+        {
+          "sample_index": 294,
+          "cached_state": "warming_up",
+          "cached_reason": "insufficient_consecutive_windows",
+          "demo_state": "normal",
+          "demo_reason": ""
+        }
+      ]
+    },
+    "fall-02": {
+      "metadata": {
+        "codec": "mp4v",
+        "frames": 110,
+        "fps": 30.0,
+        "size_wh": [
+          640,
+          480
+        ],
+        "duration_ms": 3666.6666666666665,
+        "decoded_verified": true,
+        "source_kind": "real",
+        "run": "C:\\成大專案\\fall-detection-anomaly\\runs\\le2i-timing-balanced-001",
+        "source": "C:\\成大專案\\fall-detection-anomaly\\data\\raw\\urfall\\fall-02",
+        "recipe_hash": "1b590fe1fc141258103fc1a40991ff366eb04fba9773165fa5cf8afca2d036ba",
+        "threshold": {
+          "schema_version": 1,
+          "threshold": 0.4929388761520386,
+          "comparison": "gt",
+          "consecutive_windows": 3,
+          "split": "validation",
+          "objective": "balanced_sequence_accuracy",
+          "protocol_id": "urfall-plus-le2i-cs-sequence-v1",
+          "split_hash": "a6454c4389e4a8ef7b161920088dd290489dd9e361b24b1afab56507bf11e4b8",
+          "recipe_hash": "1b590fe1fc141258103fc1a40991ff366eb04fba9773165fa5cf8afca2d036ba",
+          "feature_hashes": {
+            "adl-37": "1f9142b6093c092aff41db985976c88b371aab3e783640daa23d4c5027dbff0a",
+            "adl-23": "5f7840d4a2802726385ac5917df46dbbe9852a1faf847a7c01c726c7142614a0",
+            "adl-20": "fa89f5322ac72a6bb9434a14780e8a3d8598fd63e0d955c06f31c2ca8e150188",
+            "adl-04": "34ef2787413742c1a877fa668f7ce65725b7257dffe37259c511366eef802061",
+            "adl-01": "3a1a21267247ab44646383b03fca267f0d744cdef81add4cdc2ccba95c09def6",
+            "adl-16": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+            "adl-18": "bf2a797f3d8ee5d2f505d34d08440a746e0d4f88794d00d223a7e2ef77964b5d",
+            "adl-35": "ac16e63d1128b62ec2c7c08d3cd49a6e943594788fe64d2aae8119c460d0366f",
+            "fall-22": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+            "fall-19": "6ae8aec373ebce475352dbbfc54df2ce433d981acebb6dadcc18ced4c4236e73",
+            "fall-16": "0bdc5712ab7b6a53a8b094a382927457cad9fbad28a8ca94d36095514a70fc6c",
+            "fall-18": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+            "fall-08": "d4304ee8d34ccd4bef078c0d61d8963594fd9a73e88bd455f8d261584d85685d",
+            "fall-13": "0f8a83b174be38536ce36f601e83f80e0fab6d54cc7a39027d64b053a0380c2b",
+            "fall-29": "ee681f89eaa04c36b7e536903537570729566581c03de250efd2cc83799f046b",
+            "fall-14": "baadba66a016560aa3b0fc3a763e71e86e206a80be5b0d5cb7a92ff6edc3d535",
+            "fall-09": "265666d2206b8ff12b6d5f3dfcc9190169ebd92d9f457ac9194e25a79378f9c1",
+            "fall-07": "1b946cd4080d48f236cda457df4b82966ffa2a346328cde2a76c717eecbc78da",
+            "fall-11": "f2a87fb7eab192af609c7a2e404cbcd38d081abf9ffd70ba958bcd255b58ad5d",
+            "fall-25": "cd4671d273133df1918ccbe32350925c93cedb7e63c1aa88336d823b81e07687",
+            "fall-06": "ef571b93382418acf6e824756dab9a92f702dea0dbb430a6595e9c0d9045f459",
+            "fall-02": "1758e5f1a33c2989393f7c89e3b64060598891ad039fcc4213f13f962b8e8a3a",
+            "fall-30": "ae96917dabebf812cbac94c959c6266c223b458372958f1a0479503b1822f86c",
+            "le2i-Coffee_room_01-video_42": "f5d61f57513f38a5052b1b2e708b68c107baa2e366f2b50bf79c8030b3648d36",
+            "le2i-Coffee_room_01-video_43": "d3b048a5fc63dcf8fea4aedf03d568b2025d7ea8b41d76b22a6c9f7179b0842b",
+            "le2i-Coffee_room_01-video_44": "4941e4958379c0a73034ead35e4433ac5135978a6ed5b1394c426980e7af6197",
+            "le2i-Coffee_room_01-video_45": "d1a8f206c23f5f030c5262ae5749cd3aebf159361c904a2bdf03b38c0d82cc4f",
+            "le2i-Coffee_room_01-video_46": "b9c888f68c2e816a5ab4d96ab2c4cb3c2a28b149e48ff0e2f2527fee73df119a",
+            "le2i-Home_01-video_10": "081373cdcd8677e9846b887fd2ca6522601a5f1521ef03456fd0dad7981eb52f",
+            "le2i-Home_01-video_13": "a7d6c9d81d6c4a107ea927aa3ffa66923780bcbca39d01506db6d0e3388543f9",
+            "le2i-Home_01-video_24": "693abf562da7d67ae545384e12843cc2ab4e707200b67cb7663715d62fcf8ce9",
+            "le2i-Home_01-video_25": "c42534eb9fe7ff1421621765829f243eb990165a801aec421a44506f85e2a9de",
+            "le2i-Home_01-video_28": "68c8a5cd568e171763b98d48abc8df7d23530fa23b4c4f725a00b6b0a2c2d370",
+            "le2i-Home_01-video_4": "fa34bdf886b6bfaa6c330ccd1a29ee64e00e5723b5e7bac9560c491f44025af6",
+            "le2i-Home_02-video_46": "1a5c6efc6feeebb7606b192e7e291872b60a55a139f6bcb68249b895bfaa54e2",
+            "le2i-Home_02-video_47": "aeea34dc23c1994ad3944aef9ba4f9ccc816a53a71bcbfea32f59197cf19a5e4",
+            "le2i-Home_02-video_48": "693639967ae574f08d6b5134624ffc45807967d2db2b3c9f532317f08fa95ac4",
+            "le2i-Home_02-video_51": "ed079e36c98cbecc46434960ea3c478df383561a06d9b5cf6d986b19830b0e07"
+          },
+          "model_sha256": "b19ee3b108a9d1651a6c70bef75fe5d9b2db24ff3b5dd5bac432d7fd1fbe7bad",
+          "scaler_sha256": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990"
+        },
+        "config": {
+          "project": {
+            "name": "fall-detection-anomaly",
+            "seed": 42
+          },
+          "runtime": {
+            "device": "auto",
+            "num_workers": 0,
+            "torch_threads": 4
+          },
+          "data": {
+            "dataset": "urfall_le2i",
+            "raw_dir": "data/raw",
+            "manifest_dir": "data/manifests/le2i-extension",
+            "cache_dir": "data/cache/le2i-source-interval",
+            "camera": 0,
+            "modality": "rgb",
+            "protocol_id": "urfall-plus-le2i-cs-sequence-v1",
+            "split_seed": 42,
+            "adl_counts": [
+              24,
+              8,
+              8
+            ],
+            "fall_counts": [
+              0,
+              15,
+              15
+            ],
+            "timestamp_policy": "prefer_source",
+            "fallback_fps": 30,
+            "allow_missing_timestamp_tail": true
+          },
+          "pose": {
+            "backend": "lightweight_openpose",
+            "weights_manifest": "weights/openpose18-manifest.json",
+            "upstream_dir": "third_party/lightweight_openpose",
+            "backbone": "mobilenet_v1",
+            "input_height": 256,
+            "input_width": 192,
+            "detector_size": 384,
+            "detector_confidence": 0.45,
+            "nms_threshold": 0.2,
+            "track_max_age": 30,
+            "track_n_init": 3,
+            "track_similarity_joints": 3,
+            "refinement_stages": 3,
+            "inference_refinement_stage": 1,
+            "rotation_angles": [
+              0,
+              -90,
+              90
+            ],
+            "rotation_policy": "low_quality"
+          },
+          "skeleton": {
+            "recipe_id": "lightweight_openpose18_stgcn_kinetics_v1",
+            "target_fps": 30,
+            "window_size": 30,
+            "stride": 5,
+            "missing_frame_policy": "invalidate_window",
+            "span_tolerance": 1e-08,
+            "resampling_hold_policy": "source_interval"
+          },
+          "quality": {
+            "min_joint_confidence": 0.2,
+            "min_valid_joints": 12,
+            "min_good_frame_ratio": 0.8
+          },
+          "features": {
+            "backend": "stgcn_kinetics",
+            "expected_dim": 256,
+            "frozen": true,
+            "upstream_dir": "third_party/stgcn"
+          },
+          "autoencoder": {
+            "hidden_dim": 128,
+            "latent_dim": 32,
+            "learning_rate": 0.001,
+            "batch_size": 32,
+            "max_epochs": 100,
+            "patience": 10,
+            "min_delta": 1e-06
+          },
+          "calibration": {
+            "split": "validation",
+            "objective": "balanced_sequence_accuracy",
+            "comparison": "gt",
+            "consecutive_windows": 3
+          },
+          "evaluation": {
+            "split": "test",
+            "metric_unit": "sequence"
+          },
+          "demo": {
+            "display": false,
+            "output_dir": "outputs/demo",
+            "score_hold_stride_multiplier": 2
+          }
+        },
+        "processing_fps": 25.446434561254136,
+        "video_grid_fps": 30
+      },
+      "sequence_result": {
+        "sequence_id": "fall-02",
+        "sequence_score": 0.7512906193733215,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 17,
+        "n_valid_endpoints": 7,
+        "window_coverage": 0.4117647058823529,
+        "first_alarm_ms": 1966.6666666666667
+      },
+      "shared_valid_endpoints": 7,
+      "max_raw_score_difference": 0.0,
+      "states_equal": true,
+      "states_equal_count": 7,
+      "events_equal": true,
+      "cached_events": [
+        {
+          "sequence_id": "fall-02",
+          "track_id": 0,
+          "confirmed_start_ms": 1966.6666666666667,
+          "last_active_ms": 1966.6666666666667,
+          "peak_score": 0.5865092873573303,
+          "end_ms": 2133.3333333333335,
+          "end_reason": "low_score"
+        },
+        {
+          "sequence_id": "fall-02",
+          "track_id": 0,
+          "confirmed_start_ms": 2633.3333333333335,
+          "last_active_ms": 2633.3333333333335,
+          "peak_score": 0.8985767364501953,
+          "end_ms": 2800.0,
+          "end_reason": "track_gap"
+        }
+      ],
+      "live_events": [
+        {
+          "sequence_id": "fall-02",
+          "track_id": "0",
+          "confirmed_start_ms": "1966.6666666666667",
+          "last_active_ms": "1966.6666666666667",
+          "end_ms": "2133.3333333333335",
+          "peak_score": "0.5865092873573303",
+          "end_reason": "low_score"
+        },
+        {
+          "sequence_id": "fall-02",
+          "track_id": "0",
+          "confirmed_start_ms": "2633.3333333333335",
+          "last_active_ms": "2633.3333333333335",
+          "end_ms": "2800.0",
+          "peak_score": "0.8985767364501953",
+          "end_reason": "track_gap"
+        }
+      ],
+      "preview": "outputs\\real_end_to_end\\le2i-timing-fall02.png",
+      "hidden_scored_endpoints": [],
+      "annotation_scope_note": "Same input sequence and causal rules."
+    }
+  },
+  "frozen_runs": {
+    "le2i-extension-001": {
+      "autoencoder.pt": "ca704917b161e451730787c4461c07b2ec8e7bb74632e24f40f0f052f8c6e231",
+      "scaler.npz": "6f3b9b7e9566b9670b2a232f61da67b721a7fbd1ae46581736ab29f9c4654c94",
+      "resolved-config.yaml": "9fce6a2711db0f9efc47d51bf4937ac8d608be73ef3f5770006dcf4bec89be82",
+      "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+      "sources.json": "f9e240c71e43c0a2767a4782cc984e30563aa4bbe60c1a70f1a7a06de8f06a55",
+      "dataset-index.json": "d8dd901eaac25857cee27d877ef2661f63bf55c77eab093bed18d8eb8597a030",
+      "environment.json": "343ebf62cd8b8520f32256d02e5f589b5edfc071d5bcc12355d4fd7bd15ee281",
+      "training-history.csv": "f9911064944e6a49b541d67b9183b8817033e6a50fc1816e2750e32d1c94014f",
+      "threshold.json": "b6d1fb32c66a91d180febee697e9d0f3982f1d6052428320cac40f8179c1e70e",
+      "calibration.json": "cba120e9c629cefc35f600619d0020e794e8fe4a404429b051517abc1983e5b4"
+    },
+    "le2i-timing-001": {
+      "autoencoder.pt": "b19ee3b108a9d1651a6c70bef75fe5d9b2db24ff3b5dd5bac432d7fd1fbe7bad",
+      "scaler.npz": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990",
+      "resolved-config.yaml": "5372c8434f3dfb8c2e3cdaa4a5367fdd4dc66c124164cd62b9b81c3d4fd24beb",
+      "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+      "sources.json": "fb849c7a5a40b215e00aa4060c09955fcfbaba7de8e24c4609931dc8a5f6424a",
+      "dataset-index.json": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+      "environment.json": "62786ea9350e5cdf836b9f5ef35fb9c5b6ada9608c9bc4e558b4c51bb3ba2da3",
+      "training-history.csv": "6d5317f144a0b554d649c841f3013b79984c32201c10e295ad234699bdab32fb",
+      "threshold.json": "38a820155015c81a9860d001544867d1d0333500a71d06988baf2d7d540c0291",
+      "calibration.json": "c18faba8d415d431d03fcad21452bb172dc9d5fa2b037e96195ed86ac2448ec1"
+    },
+    "le2i-timing-balanced-001": {
+      "autoencoder.pt": "b19ee3b108a9d1651a6c70bef75fe5d9b2db24ff3b5dd5bac432d7fd1fbe7bad",
+      "scaler.npz": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990",
+      "resolved-config.yaml": "618169bea4756ad2c69e2b671b19fe6f533df96434a2dcb13955f8041595468c",
+      "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+      "sources.json": "4fe9ea34f66660eb6e0a6fbe8339121cdea1f25b5ee7e159b008a38142d073a8",
+      "dataset-index.json": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+      "environment.json": "62786ea9350e5cdf836b9f5ef35fb9c5b6ada9608c9bc4e558b4c51bb3ba2da3",
+      "training-history.csv": "6d5317f144a0b554d649c841f3013b79984c32201c10e295ad234699bdab32fb",
+      "threshold.json": "b40521324c5f9298cbed262db8cc1d5bc37f32d98732938442f543f017066b57",
+      "calibration.json": "dda30ab037de60e4825c9935c674fe21980f2fa19f6858e2206ecb2e17afeb0e"
+    },
+    "openpose18-baseline-001": {
+      "autoencoder.pt": "10804ead639fd3b27b01d94cf5fd89f527a2328154d6942880ad03773c4a515f",
+      "scaler.npz": "21a94fc4a3d899aa46ea673208a222480fccdb98c61ecc2666099651f19e5f77",
+      "resolved-config.yaml": "d0062a4cb90009a6abc9dd6d5d7fdf37093ba4906e3952849eeb2ecc80e4d723",
+      "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+      "sources.json": "1417b64e4dd822e8d72f9f01b5960f6507236d93434c31c43a13433bc4a311d8",
+      "dataset-index.json": "16f0a99a97d073a0aa93f8e8dbea178c5ccc1b0feeab7a9666e9bb218d632f5c",
+      "environment.json": "aaeebdb021a4888f471f908dfbaca4aad32a129a0159345ea4a25861d36ba1c4",
+      "training-history.csv": "46c590ea80514c5035e50bd35110edb0944a70c4924dbc3b3dab0c8b271f1c3b",
+      "threshold.json": "b823c667e7cc2618a60f99ae49ea4a2848c03744fa63b4663d88754f21803421",
+      "calibration.json": "35b3130f06ff37bd45230e6b7442a5cbe1e20b7de47a8c19b9ef1abd85a94f6f"
+    },
+    "openpose18-rotation-001": {
+      "autoencoder.pt": "652cd10304dd2ad01d8ee044a781ba6ee9cbbd6b27deedd40958925dd5fdd93e",
+      "scaler.npz": "e29616b0728d9c88c3a019ba561a422b08dd5a57c8f91f4664e80213a907e9bf",
+      "resolved-config.yaml": "e6387789af38d63563415f8159c441a79494d19523e8ec658e2270ed4b57639f",
+      "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+      "sources.json": "39a7b27139c8c9a3a737d014314ec1396192be27ebc9627c7c9a01526836e419",
+      "dataset-index.json": "6cb42ae75d330730c7729f82bf74f6317b4ae05dde8a1c7f2e4f45ddb711de56",
+      "environment.json": "3c6a355eff3dd4b75b3138430fb53c60699cb58a144c91a5f381aee8b44c8719",
+      "training-history.csv": "f1acb41df2c1b54c3ad24f819c638cd103f35e285d20922277ded64beae3d933",
+      "threshold.json": "6f0c3c7902c59b63a85cd7d3d833ed94e8fd3fd450b0cd683efbd626dfc82b20",
+      "calibration.json": "81a14b196e4ad0cdc121ad7a72eec1e3a1464c23b5f0e4903b2123f7af016423"
+    }
+  },
+  "copied_training_hashes": {
+    "autoencoder.pt": "b19ee3b108a9d1651a6c70bef75fe5d9b2db24ff3b5dd5bac432d7fd1fbe7bad",
+    "scaler.npz": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990",
+    "training-history.csv": "6d5317f144a0b554d649c841f3013b79984c32201c10e295ad234699bdab32fb"
+  }
+}

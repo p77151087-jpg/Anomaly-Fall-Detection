@@ -1,0 +1,22 @@
+{
+  "preserved_frozen_run_count": 23,
+  "source_index_unchanged": true,
+  "legacy_recipe_fingerprint_unchanged": true,
+  "guard_checks": {
+    "pilot": "Pilot evidence exists; preserve the completed experiment",
+    "training": "Pilot gate failed; no full preparation or AE experiment"
+  },
+  "created_rotation_AE_runs": [],
+  "new_test_evaluation": false,
+  "accuracy_target_reached": false,
+  "presentation_updates_on_hold": true,
+  "file_sha256": {
+    "src/fall_detect/config.py": "d710b4cc638245b78bce960b9929c7784107b9fab707eb2766ceaeb181e7c567",
+    "src/fall_detect/pose/lightweight.py": "11ec3a8f4ea2c043da3f354b661362ccf068511bcd5b1ac7c0a98cfe3e340708",
+    "scripts/accuracy_first.py": "b4a76a90f0c181a2ea9b08a1352b0bdd55c88c947f17af89df2b48a9025f0f27",
+    "tests/test_yolo_rotation.py": "35defa383b52435b5a88f8d18340d9ff93a37c5daab7679debf90eaf8bfde0af",
+    "docs/validation/accuracy-first-rotation-lock.json": "c36185b6eee3b86ec0590397a6c62a07caa96e9673c71b561446b0c343cb6ac8",
+    "docs/validation/accuracy-first-rotation-pilot.json": "ca8f2f0dab3d685b708f1e02e9e8f2c29529bfede1999e56e6f581592f08363a",
+    "docs/validation/course-sample-dataset-audit.json": "1a0052a044b80cdd25f2866b52b0b7432232d92a31024842fb1a34c93ed1e293"
+  }
+}

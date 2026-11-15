@@ -1,0 +1,218 @@
+{
+  "source_kind": "real_end_to_end",
+  "cases": [
+    {
+      "run": "ur-sample-human-s1-001",
+      "sequence_id": "fall-09",
+      "frames": 185,
+      "ae_csv_byte_identical": true,
+      "ae_events_csv_byte_identical": true,
+      "ae_scored_frames": 127,
+      "current_ae_unknown_frames": 31,
+      "first_ae_history_event_ms": 5900.0,
+      "compared_action_frames": 153,
+      "max_action_score_difference": 0.0,
+      "low_quality_classified_frames": 7,
+      "action_counts": {
+        "(unavailable)": 2,
+        "PENDING": 30,
+        "WALKING": 95,
+        "STANDING": 14,
+        "FALLING": 44
+      },
+      "preview": "outputs\\sample-display\\ur-sample-human-s1-001\\fall-09-preview.mp4",
+      "contact": "outputs\\sample-display\\ur-sample-human-s1-001\\fall-09-check.jpg",
+      "files": {
+        "outputs\\sample-display\\ur-sample-human-s1-001\\fall-09-actions.csv": "2072afad42e49340452e8fbd570fb2bf07352a7b9b520f8abead588fb71725d6",
+        "outputs\\sample-display\\ur-sample-human-s1-001\\fall-09-check.jpg": "b912073e3ce64943a65339fc571f7e99d031fbc2bc66ea3febeca8700f81e2e3",
+        "outputs\\sample-display\\ur-sample-human-s1-001\\fall-09-display.csv": "aaa4a48232357833274866059a7923b734b920ec16c8b030ea71ab98774e5502",
+        "outputs\\sample-display\\ur-sample-human-s1-001\\fall-09-events.csv": "eca518ab714258dcd48f8bcbf93835d514fc9ebc7094d3730ae53821423641bd",
+        "outputs\\sample-display\\ur-sample-human-s1-001\\fall-09-preview.mp4": "9740bd88331266d7408df953fded4466211acaba6dba61f3bcbf3ff479466a82",
+        "outputs\\sample-display\\ur-sample-human-s1-001\\fall-09.csv": "423f0034e0ec92944de7cf2d1960f07a091a9a3b37fde86e828aae37faa38720",
+        "outputs\\sample-display\\ur-sample-human-s1-001\\fall-09.json": "5a187ee18fc761b004ca9f16eda4a2049da2fe2185e44e909edd9ed7b69559a3",
+        "outputs\\sample-display\\ur-sample-human-s1-001\\fall-09.mp4": "b7fdcfef8af9221e933ebf3169fefdaa2f641c5017dc76c90153d8e3204c89ff"
+      }
+    },
+    {
+      "run": "ur-human-isotropic-001",
+      "sequence_id": "adl-35",
+      "frames": 283,
+      "ae_csv_byte_identical": true,
+      "ae_events_csv_byte_identical": true,
+      "ae_scored_frames": 252,
+      "current_ae_unknown_frames": 4,
+      "first_ae_history_event_ms": null,
+      "compared_action_frames": 251,
+      "max_action_score_difference": 0.0,
+      "low_quality_classified_frames": 0,
+      "action_counts": {
+        "(unavailable)": 2,
+        "PENDING": 30,
+        "WALKING": 21,
+        "STANDING": 17,
+        "STANDING UP": 81,
+        "LYING": 129,
+        "FALLING": 1,
+        "SITTING": 2
+      },
+      "preview": "outputs\\sample-display\\ur-human-isotropic-001\\adl-35-preview.mp4",
+      "contact": "outputs\\sample-display\\ur-human-isotropic-001\\adl-35-check.jpg",
+      "files": {
+        "outputs\\sample-display\\ur-human-isotropic-001\\adl-35-actions.csv": "1e8a2f45be6db1255eea4862abeea5b3cb70c270c4de493b8045d175e3cdcfae",
+        "outputs\\sample-display\\ur-human-isotropic-001\\adl-35-check.jpg": "c206707e79c895b47073de74097170cd7eea8a67aacbfd689a5017915ef32117",
+        "outputs\\sample-display\\ur-human-isotropic-001\\adl-35-display.csv": "c5443e086bf386eb1db29522460859ecaac32ac14c7ca156c9c5eb580a553c31",
+        "outputs\\sample-display\\ur-human-isotropic-001\\adl-35-events.csv": "06d9b8c2b37ae90061d1b39daa37708acf74a5e8c9fa676fe66f9638af13fee2",
+        "outputs\\sample-display\\ur-human-isotropic-001\\adl-35-preview.mp4": "76983807c57cfd119527830d2964351d3e88c14021b5b03f3d1e464fb0bd43c8",
+        "outputs\\sample-display\\ur-human-isotropic-001\\adl-35.csv": "1f962066110b90093700c82940c1cf4d3a2121c0fb61835afa30ec76892fbd5c",
+        "outputs\\sample-display\\ur-human-isotropic-001\\adl-35.json": "ba3f259934583bd7f07c909401cf4b1d0dd968fc5fb3ff632149d2a9b7eae47f",
+        "outputs\\sample-display\\ur-human-isotropic-001\\adl-35.mp4": "9f8bf3e9c23778d3c4b110e41875adbc288b21a102d2b35646597748d0fee3d1"
+      }
+    },
+    {
+      "run": "ur-human-isotropic-001",
+      "sequence_id": "fall-09",
+      "frames": 185,
+      "ae_csv_byte_identical": true,
+      "ae_events_csv_byte_identical": true,
+      "ae_scored_frames": 127,
+      "current_ae_unknown_frames": 31,
+      "first_ae_history_event_ms": 4966.666666666667,
+      "compared_action_frames": 153,
+      "max_action_score_difference": 0.0,
+      "low_quality_classified_frames": 7,
+      "action_counts": {
+        "(unavailable)": 2,
+        "PENDING": 30,
+        "WALKING": 95,
+        "STANDING": 14,
+        "FALLING": 44
+      },
+      "preview": "outputs\\sample-display\\ur-human-isotropic-001\\fall-09-preview.mp4",
+      "contact": "outputs\\sample-display\\ur-human-isotropic-001\\fall-09-check.jpg",
+      "files": {
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-09-actions.csv": "2072afad42e49340452e8fbd570fb2bf07352a7b9b520f8abead588fb71725d6",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-09-check.jpg": "e66e893a716e28fce395db115577251993f3a7fd36064bfb250d914a44911789",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-09-display.csv": "317e9973ca92b93936b926bb03c95ba065bc3b03e6d59841c1016e979195cf48",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-09-events.csv": "9f39b52102dce1b035749bb83dc8ee6fbd8cae5a56fdcfabd1065745050754b6",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-09-preview.mp4": "52435d947d95204b61ad38609dae8e110b900fa007f3823c551dd7d29d7e02f0",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-09.csv": "6b2f7e7e7d94d7e3198d1c2f908f41ebbcd67b662a11cfcb8b785271a3fd7a09",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-09.json": "691cf082c7002d530df4694cca5cee9489de01c3a316e948e37ca6a39716d850",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-09.mp4": "6cd05f4d49c2bdf36c9e9ab3091b63a3e1fa5a9c0eb8de4090e2979fdd6b2a7b"
+      }
+    },
+    {
+      "run": "ur-human-isotropic-001",
+      "sequence_id": "fall-19",
+      "frames": 100,
+      "ae_csv_byte_identical": true,
+      "ae_events_csv_byte_identical": true,
+      "ae_scored_frames": 21,
+      "current_ae_unknown_frames": 52,
+      "first_ae_history_event_ms": null,
+      "compared_action_frames": 65,
+      "max_action_score_difference": 0.0,
+      "low_quality_classified_frames": 45,
+      "action_counts": {
+        "(unavailable)": 5,
+        "PENDING": 30,
+        "WALKING": 25,
+        "FALLING": 40
+      },
+      "preview": "outputs\\sample-display\\ur-human-isotropic-001\\fall-19-preview.mp4",
+      "contact": "outputs\\sample-display\\ur-human-isotropic-001\\fall-19-check.jpg",
+      "files": {
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-19-actions.csv": "fdcb8eafc8819947590342f66b89e5f19c6197108616290ac56b27ce02de4efa",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-19-check.jpg": "0ae55d9051bde3a798ac5c34e904def10ef34a37be7c4a767c5f75378660b1c2",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-19-display.csv": "564095b0847a286f67e5dafed59ee85561324c7e3551981f1df0a740284d06c9",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-19-events.csv": "06d9b8c2b37ae90061d1b39daa37708acf74a5e8c9fa676fe66f9638af13fee2",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-19-preview.mp4": "707776b2269ec020b86a3569843886783d4a43e69afc414b27631844b0c856bd",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-19.csv": "b87595669b7413f4ed0e09b6a2e2d2b16279a8feabc7db699972f3bd1864d7ee",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-19.json": "bfd27be07fba18014936d3e69409bc2b3853296d671c29dd74d2391899ddb955",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-19.mp4": "7893f998ca1cfe87c6924969a187dda6a0556b8004703dc955fdb81ab3d81905"
+      }
+    },
+    {
+      "run": "ur-human-isotropic-001",
+      "sequence_id": "fall-18",
+      "frames": 65,
+      "ae_csv_byte_identical": true,
+      "ae_events_csv_byte_identical": true,
+      "ae_scored_frames": 12,
+      "current_ae_unknown_frames": 26,
+      "first_ae_history_event_ms": null,
+      "compared_action_frames": 15,
+      "max_action_score_difference": 0.0,
+      "low_quality_classified_frames": 4,
+      "action_counts": {
+        "(unavailable)": 20,
+        "PENDING": 30,
+        "SITTING": 4,
+        "STANDING UP": 5,
+        "FALLING": 6
+      },
+      "preview": "outputs\\sample-display\\ur-human-isotropic-001\\fall-18-preview.mp4",
+      "contact": "outputs\\sample-display\\ur-human-isotropic-001\\fall-18-check.jpg",
+      "files": {
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-18-actions.csv": "5044a03ed33840c9c8a70cf6e493576accdd169fe580c44bc2d02272bf7a851c",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-18-check.jpg": "95cd7e3b663bbaeca633343216fa916259d62ec4c570b3292748cece0c301bf0",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-18-display.csv": "eff9e397d66f5072e77c48619b1aae9b75d7f53f7c232bf78ff5f5cf062ecb70",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-18-events.csv": "06d9b8c2b37ae90061d1b39daa37708acf74a5e8c9fa676fe66f9638af13fee2",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-18-preview.mp4": "15a4a754afc77e39c2635da084718ffdeb4c3d229ca7dba09f752af2d8798964",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-18.csv": "e154960c5edb140d397cb3c63cb4ab80113e337ea12dd65f62dcbb8e8a971e81",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-18.json": "85bbc6ebb608dfac59f9e451a989a8a8ced3aa9004c729dcbd8ddcac8dc0c2f7",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-18.mp4": "250e3556aa97d3aa7b9752540d9edd642c456ebe15a0592078a6eec4ae1f33a7"
+      }
+    },
+    {
+      "run": "ur-human-isotropic-001",
+      "sequence_id": "fall-30",
+      "frames": 70,
+      "ae_csv_byte_identical": true,
+      "ae_events_csv_byte_identical": true,
+      "ae_scored_frames": 20,
+      "current_ae_unknown_frames": 23,
+      "first_ae_history_event_ms": 1866.6666666666667,
+      "compared_action_frames": 37,
+      "max_action_score_difference": 0.0,
+      "low_quality_classified_frames": 18,
+      "action_counts": {
+        "(unavailable)": 3,
+        "PENDING": 30,
+        "SITTING": 7,
+        "STANDING UP": 17,
+        "FALLING": 13
+      },
+      "preview": "outputs\\sample-display\\ur-human-isotropic-001\\fall-30-preview.mp4",
+      "contact": "outputs\\sample-display\\ur-human-isotropic-001\\fall-30-check.jpg",
+      "files": {
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-30-actions.csv": "0235d7692ab0ee880aa5d29f846f0a4ac1ba859a4c05d2ef931fc776ada410eb",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-30-check.jpg": "12a68a0c843d224ca05f024e15294d60a24e8911f667a1671c74f03862b84a07",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-30-display.csv": "8aeff97a080e7634237dafe11b43c8f6bd092e9c1903c4d57d7c7d304b512ee3",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-30-events.csv": "9d6ac4ea5da5ae3f6bc8361a3293e86eb83a455df5432b712c4f53933f0a2b48",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-30-preview.mp4": "468ec8e0c348b1f75d6ed562bea28f73c69118b549a25c6a30345ae8ec58237e",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-30.csv": "b06ac57965ffa5f56614aadf6b3d9582c6fdcb73f294b2a007aa86dad30b8464",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-30.json": "0d43635bdc9205a1ae0abc5917657aa21302351f2e8e9ca72290456c5890529d",
+        "outputs\\sample-display\\ur-human-isotropic-001\\fall-30.mp4": "5505df413f5018fedc821191acbca8aa111ab8b4749ade989560a6495c2e9cb7"
+      }
+    }
+  ],
+  "preserved": {
+    "old_runs": 41,
+    "cache_files": 8764,
+    "configs": 44,
+    "manifests": 5,
+    "old_media": 37
+  },
+  "before_sha256": "fe87805af031f9eb76ac4d692fa39d6b67a1a53015e9582d57301c0e6955f5c0",
+  "new_training_epochs": 0,
+  "new_test_scored": false,
+  "ae_metrics_changed": false,
+  "seven_action_accuracy_not_measured": true,
+  "source_files": {
+    "src/fall_detect/visualization/sample_display.py": "09a3e9d4a6620a0a9298510d6e17d6b68bec6fc150e8100b65e24788d0ef478b",
+    "src/fall_detect/visualization/video.py": "645027cbfb9a559179587e9b851d6f900e557d532f48d793734b622329663516",
+    "src/fall_detect/models/stgcn.py": "125fbd353db7ee64b22be26ea3762c2b4f210fb299b9d4c743c002bc7283da7d",
+    "src/fall_detect/cli.py": "77fac6fbbf83bd931b5eacae8ebc8541dc603376d5f3a4eedec765aa779e3941",
+    "scripts/verify_sample_display.py": "772db41d1ad278b9f8cc99d7e044affb18d671c83a271b37aa22fd2919dfa5ec"
+  }
+}

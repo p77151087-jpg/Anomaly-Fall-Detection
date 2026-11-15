@@ -1,0 +1,15 @@
+{
+  "results": [
+    {
+      "run": "ur-mirror128-20261012-001",
+      "normal_val_mse_common_train24_scale": 0.10539187448290586
+    },
+    {
+      "run": "ur-mirror256-20261012-001",
+      "normal_val_mse_common_train24_scale": 0.10590047724867285
+    }
+  ],
+  "reference_scaler": "runs/ur-human-isotropic-001/scaler.npz",
+  "test_feature_arrays_loaded": 0,
+  "purpose": "Diagnostic common-unit reconstruction errors only, no model or threshold changes."
+}

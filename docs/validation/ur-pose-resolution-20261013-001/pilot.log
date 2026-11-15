@@ -1,0 +1,21 @@
+C:\成大專案\fall-detection-anomaly\third_party\human\Detection\Models.py:121: UserWarning: The torch.cuda.*DtypeTensor constructors are no longer recommended. It's best to use methods such as torch.tensor(data, dtype=*, device='cuda') to create tensors. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\tensor\python_tensor.cpp:80.)
+  self.scaled_anchors = FloatTensor([(a_w / self.stride, a_h / self.stride) for a_w, a_h in self.anchors])
+adl-05: source frame 1, tracks=0
+adl-05: source frame 31, tracks=1
+adl-05: source frame 61, tracks=1
+adl-05: source frame 91, tracks=1
+adl-05: source frame 121, tracks=1
+adl-05: source frame 151, tracks=1
+adl-24: source frame 1, tracks=0
+adl-24: source frame 31, tracks=1
+adl-24: source frame 61, tracks=1
+adl-04: source frame 1, tracks=0
+adl-04: source frame 31, tracks=1
+adl-04: source frame 61, tracks=1
+adl-04: source frame 91, tracks=1
+adl-04: source frame 121, tracks=1
+fall-19: source frame 1, tracks=0
+fall-19: source frame 31, tracks=1
+fall-19: source frame 61, tracks=1
+fall-19: source frame 91, tracks=1
+{'stage': 'pilot', 'sources': 4, 'features': 324}

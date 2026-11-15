@@ -1,0 +1,19 @@
+{
+  "id": "ur-motion-novelty-20261012-001",
+  "kind": "frozen_wide_ae_and_motion_normal_neighbors",
+  "motion": "ordered30_center_delta_div_first_span_and_log_span_ratio_90d",
+  "neighbors": 5,
+  "train_motion_scale": "leave_complete_source_video_out_p95",
+  "ae_scale": "original_train_scores_p95",
+  "fusion": "max(ae/ae_train_p95,motion/motion_train_leave_video_out_p95)",
+  "quality": "unchanged",
+  "k": 3,
+  "comparison": "gt",
+  "selection": "overall_accuracy,fall_f1,all_fall_recall,fewer_fp,higher_threshold",
+  "test": "unknown_not_prepared_not_evaluated",
+  "augmentation": "none",
+  "neural_epochs": 0,
+  "motion_recipe_hash": "7e300103e7ddb54d2c059e81818823fb8fca52a104d9165c2ad4e61ee68ab52d",
+  "method_recipe_hash": "22d580e0a4f315c1c088f2c8bc22f54ca850ae2ecf7cb1c472d0d0005e0202f9",
+  "feature_recipe_hash": "713ee59a0853f20641cb7f664df2920359baa0734807acfa5cf86fb87a4e2f5b"
+}

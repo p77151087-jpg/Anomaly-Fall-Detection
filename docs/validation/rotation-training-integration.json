@@ -1,0 +1,61 @@
+{
+  "source_kind": "real",
+  "scope": "training, validation calibration, validation-only real demo; test not evaluated",
+  "run": "runs\\openpose18-rotation-001",
+  "shared_valid_endpoints": 7,
+  "max_raw_score_difference": 0.0,
+  "states_equal": true,
+  "events_equal": true,
+  "decoded_frames": 110,
+  "validation_sequence_result": {
+    "sequence_id": "fall-02",
+    "sequence_score": 1.2827706336975098,
+    "prediction": 1,
+    "unknown_reason": null,
+    "n_scheduled_endpoints": 17,
+    "n_valid_endpoints": 7,
+    "window_coverage": 0.4117647058823529,
+    "first_alarm_ms": 1966.6666666666667
+  },
+  "events": [
+    {
+      "sequence_id": "fall-02",
+      "track_id": 0,
+      "confirmed_start_ms": 1966.6666666666667,
+      "last_active_ms": 2633.3333333333335,
+      "peak_score": 1.766456127166748,
+      "end_ms": 2800.0,
+      "end_reason": "track_gap"
+    }
+  ],
+  "new_frozen_artifacts": {
+    "autoencoder.pt": "652cd10304dd2ad01d8ee044a781ba6ee9cbbd6b27deedd40958925dd5fdd93e",
+    "scaler.npz": "e29616b0728d9c88c3a019ba561a422b08dd5a57c8f91f4664e80213a907e9bf",
+    "resolved-config.yaml": "e6387789af38d63563415f8159c441a79494d19523e8ec658e2270ed4b57639f",
+    "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+    "sources.json": "39a7b27139c8c9a3a737d014314ec1396192be27ebc9627c7c9a01526836e419",
+    "dataset-index.json": "6cb42ae75d330730c7729f82bf74f6317b4ae05dde8a1c7f2e4f45ddb711de56",
+    "environment.json": "3c6a355eff3dd4b75b3138430fb53c60699cb58a144c91a5f381aee8b44c8719",
+    "training-history.csv": "f1acb41df2c1b54c3ad24f819c638cd103f35e285d20922277ded64beae3d933",
+    "threshold.json": "6f0c3c7902c59b63a85cd7d3d833ed94e8fd3fd450b0cd683efbd626dfc82b20",
+    "calibration.json": "81a14b196e4ad0cdc121ad7a72eec1e3a1464c23b5f0e4903b2123f7af016423"
+  },
+  "existing_runs_preserved": {
+    "openpose18-baseline-001": true,
+    "le2i-extension-001": true
+  },
+  "test_evaluation_performed": false,
+  "runtime_warning": "CUDA deterministic warn_only; no CUBLAS_WORKSPACE_CONFIG override, consistent with saved defaults; bitwise retraining not guaranteed",
+  "related_tests": {
+    "passed": 11,
+    "seconds": 5.77,
+    "evidence": "pytest-rotation-training.xml"
+  },
+  "loss_ui_verified": {
+    "run": "openpose18-rotation-001",
+    "epochs": 100,
+    "best_epoch": 95,
+    "displayed_best_loss": "0.499633"
+  },
+  "preview_reviewed": true
+}

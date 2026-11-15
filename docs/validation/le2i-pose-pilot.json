@@ -1,0 +1,106 @@
+{
+  "adl-05": {
+    "original": {
+      "n_scheduled_endpoints": 30,
+      "n_valid_endpoints": 30,
+      "window_coverage": 1.0,
+      "unknown_reason": null
+    },
+    "384_stage3": {
+      "n_scheduled_endpoints": 30,
+      "n_valid_endpoints": 30,
+      "window_coverage": 1.0,
+      "unknown_reason": null
+    },
+    "rotation_256_stage1": {
+      "n_scheduled_endpoints": 30,
+      "n_valid_endpoints": 30,
+      "window_coverage": 1.0,
+      "unknown_reason": null
+    },
+    "selective_rotation_256_stage1": {
+      "n_scheduled_endpoints": 30,
+      "n_valid_endpoints": 30,
+      "window_coverage": 1.0,
+      "classification": "not_performed"
+    }
+  },
+  "adl-37": {
+    "original": {
+      "n_scheduled_endpoints": 65,
+      "n_valid_endpoints": 28,
+      "window_coverage": 0.4307692307692308,
+      "unknown_reason": null
+    },
+    "384_stage3": {
+      "n_scheduled_endpoints": 65,
+      "n_valid_endpoints": 29,
+      "window_coverage": 0.4461538461538462,
+      "unknown_reason": null
+    },
+    "rotation_256_stage1": {
+      "n_scheduled_endpoints": 65,
+      "n_valid_endpoints": 28,
+      "window_coverage": 0.4307692307692308,
+      "unknown_reason": null
+    },
+    "selective_rotation_256_stage1": {
+      "n_scheduled_endpoints": 65,
+      "n_valid_endpoints": 28,
+      "window_coverage": 0.4307692307692308,
+      "classification": "not_performed"
+    }
+  },
+  "fall-02": {
+    "original": {
+      "n_scheduled_endpoints": 17,
+      "n_valid_endpoints": 5,
+      "window_coverage": 0.29411764705882354,
+      "unknown_reason": null
+    },
+    "384_stage3": {
+      "n_scheduled_endpoints": 17,
+      "n_valid_endpoints": 5,
+      "window_coverage": 0.29411764705882354,
+      "unknown_reason": null
+    },
+    "rotation_256_stage1": {
+      "n_scheduled_endpoints": 17,
+      "n_valid_endpoints": 7,
+      "window_coverage": 0.4117647058823529,
+      "unknown_reason": null
+    },
+    "selective_rotation_256_stage1": {
+      "n_scheduled_endpoints": 17,
+      "n_valid_endpoints": 7,
+      "window_coverage": 0.4117647058823529,
+      "classification": "not_performed"
+    }
+  },
+  "fall-30": {
+    "original": {
+      "n_scheduled_endpoints": 9,
+      "n_valid_endpoints": 1,
+      "window_coverage": 0.1111111111111111,
+      "unknown_reason": "no_legal_event_score"
+    },
+    "384_stage3": {
+      "n_scheduled_endpoints": 9,
+      "n_valid_endpoints": 1,
+      "window_coverage": 0.1111111111111111,
+      "unknown_reason": "no_legal_event_score"
+    },
+    "rotation_256_stage1": {
+      "n_scheduled_endpoints": 9,
+      "n_valid_endpoints": 1,
+      "window_coverage": 0.1111111111111111,
+      "unknown_reason": "no_legal_event_score"
+    },
+    "selective_rotation_256_stage1": {
+      "n_scheduled_endpoints": 9,
+      "n_valid_endpoints": 1,
+      "window_coverage": 0.1111111111111111,
+      "classification": "not_performed"
+    }
+  }
+}

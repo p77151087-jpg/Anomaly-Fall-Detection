@@ -1,0 +1,70 @@
+C:\成大專案\fall-detection-anomaly\.venv\Lib\site-packages\torch\autograd\graph.py:829: UserWarning: Deterministic behavior was enabled with either `torch.use_deterministic_algorithms(True)` or `at::Context::setDeterministicAlgorithms(true)`, but this operation is not deterministic because it uses CuBLAS and you have CUDA >= 10.2. To enable deterministic behavior in this case, you must set an environment variable before running your PyTorch application: CUBLAS_WORKSPACE_CONFIG=:4096:8 or CUBLAS_WORKSPACE_CONFIG=:16:8. For more information, go to https://docs.nvidia.com/cuda/cublas/index.html#results-reproducibility (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\Context.cpp:233.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+ur-denoise-wide-methods-20261012-001 epoch 1: Train 0.303191; normal Val 0.205353; best 1
+ur-denoise-wide-methods-20261012-001 epoch 2: Train 0.102695; normal Val 0.151957; best 2
+ur-denoise-wide-methods-20261012-001 epoch 3: Train 0.081686; normal Val 0.135300; best 3
+ur-denoise-wide-methods-20261012-001 epoch 4: Train 0.072094; normal Val 0.132819; best 4
+ur-denoise-wide-methods-20261012-001 epoch 5: Train 0.066576; normal Val 0.125987; best 5
+ur-denoise-wide-methods-20261012-001 epoch 6: Train 0.063828; normal Val 0.125239; best 6
+ur-denoise-wide-methods-20261012-001 epoch 7: Train 0.063050; normal Val 0.125848; best 6
+ur-denoise-wide-methods-20261012-001 epoch 8: Train 0.059966; normal Val 0.118820; best 8
+ur-denoise-wide-methods-20261012-001 epoch 9: Train 0.059115; normal Val 0.121852; best 8
+ur-denoise-wide-methods-20261012-001 epoch 10: Train 0.057641; normal Val 0.118918; best 8
+ur-denoise-wide-methods-20261012-001 epoch 11: Train 0.055862; normal Val 0.120242; best 8
+ur-denoise-wide-methods-20261012-001 epoch 12: Train 0.056644; normal Val 0.120759; best 8
+ur-denoise-wide-methods-20261012-001 epoch 13: Train 0.054973; normal Val 0.119899; best 8
+ur-denoise-wide-methods-20261012-001 epoch 14: Train 0.055777; normal Val 0.123621; best 8
+ur-denoise-wide-methods-20261012-001 epoch 15: Train 0.054823; normal Val 0.120509; best 8
+ur-denoise-wide-methods-20261012-001 epoch 16: Train 0.053494; normal Val 0.117750; best 16
+ur-denoise-wide-methods-20261012-001 epoch 17: Train 0.053382; normal Val 0.119326; best 16
+ur-denoise-wide-methods-20261012-001 epoch 18: Train 0.054506; normal Val 0.117794; best 16
+ur-denoise-wide-methods-20261012-001 epoch 19: Train 0.054277; normal Val 0.125032; best 16
+ur-denoise-wide-methods-20261012-001 epoch 20: Train 0.055009; normal Val 0.120501; best 16
+ur-denoise-wide-methods-20261012-001 epoch 21: Train 0.053871; normal Val 0.116965; best 21
+ur-denoise-wide-methods-20261012-001 epoch 22: Train 0.052260; normal Val 0.117164; best 21
+ur-denoise-wide-methods-20261012-001 epoch 23: Train 0.053023; normal Val 0.117817; best 21
+ur-denoise-wide-methods-20261012-001 epoch 24: Train 0.052852; normal Val 0.116582; best 24
+ur-denoise-wide-methods-20261012-001 epoch 25: Train 0.052771; normal Val 0.127536; best 24
+ur-denoise-wide-methods-20261012-001 epoch 26: Train 0.052034; normal Val 0.117726; best 24
+ur-denoise-wide-methods-20261012-001 epoch 27: Train 0.053177; normal Val 0.123496; best 24
+ur-denoise-wide-methods-20261012-001 epoch 28: Train 0.052744; normal Val 0.119375; best 24
+ur-denoise-wide-methods-20261012-001 epoch 29: Train 0.052573; normal Val 0.118217; best 24
+ur-denoise-wide-methods-20261012-001 epoch 30: Train 0.051704; normal Val 0.115418; best 30
+ur-denoise-wide-methods-20261012-001 epoch 31: Train 0.051588; normal Val 0.116307; best 30
+ur-denoise-wide-methods-20261012-001 epoch 32: Train 0.051802; normal Val 0.120231; best 30
+ur-denoise-wide-methods-20261012-001 epoch 33: Train 0.051604; normal Val 0.116048; best 30
+ur-denoise-wide-methods-20261012-001 epoch 34: Train 0.051567; normal Val 0.119904; best 30
+ur-denoise-wide-methods-20261012-001 epoch 35: Train 0.052656; normal Val 0.121320; best 30
+ur-denoise-wide-methods-20261012-001 epoch 36: Train 0.051414; normal Val 0.119901; best 30
+ur-denoise-wide-methods-20261012-001 epoch 37: Train 0.052767; normal Val 0.120487; best 30
+ur-denoise-wide-methods-20261012-001 epoch 38: Train 0.051800; normal Val 0.117571; best 30
+ur-denoise-wide-methods-20261012-001 epoch 39: Train 0.051813; normal Val 0.115785; best 30
+ur-denoise-wide-methods-20261012-001 epoch 40: Train 0.050979; normal Val 0.119012; best 30
+ur-denoise-wide-methods-20261012-001 {'metric_unit': 'sequence', 'TP': 14, 'FP': 2, 'FN': 1, 'TN': 6, 'n_total': 23, 'n_evaluable': 23, 'n_unknown': 0, 'sequence_coverage': 1.0, 'sequence_accuracy': 0.8695652173913043, 'sequence_fall_precision': 0.875, 'sequence_fall_recall': 0.9333333333333333, 'sequence_fall_f1': 0.9032258064516129, 'operational_accuracy': 0.8695652173913043, 'end_to_end_fall_recall': 0.9333333333333333, 'outcomes_with_unknown': [[6, 2, 0], [1, 14, 0]], 'outcome_columns': ['normal', 'suspected_fall', 'unknown'], 'outcome_rows': ['ADL', 'Fall'], 'by_class': {'ADL': {'n_total': 8, 'n_unknown': 0, 'sequence_coverage': 1.0, 'window_coverage': 0.8408956982911019, 'n_missing_timelines': 0}, 'Fall': {'n_total': 15, 'n_unknown': 0, 'sequence_coverage': 1.0, 'window_coverage': 0.8489634748272458, 'n_missing_timelines': 0}}, 'window_coverage': 0.8439114391143911, 'n_missing_timelines': 0}
+C:\成大專案\fall-detection-anomaly\.venv\Lib\site-packages\torch\nn\modules\linear.py:125: UserWarning: Deterministic behavior was enabled with either `torch.use_deterministic_algorithms(True)` or `at::Context::setDeterministicAlgorithms(true)`, but this operation is not deterministic because it uses CuBLAS and you have CUDA >= 10.2. To enable deterministic behavior in this case, you must set an environment variable before running your PyTorch application: CUBLAS_WORKSPACE_CONFIG=:4096:8 or CUBLAS_WORKSPACE_CONFIG=:16:8. For more information, go to https://docs.nvidia.com/cuda/cublas/index.html#results-reproducibility (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\Context.cpp:233.)
+  return F.linear(input, self.weight, self.bias)
+C:\成大專案\fall-detection-anomaly\.venv\Lib\site-packages\torch\autograd\graph.py:829: UserWarning: Deterministic behavior was enabled with either `torch.use_deterministic_algorithms(True)` or `at::Context::setDeterministicAlgorithms(true)`, but this operation is not deterministic because it uses CuBLAS and you have CUDA >= 10.2. To enable deterministic behavior in this case, you must set an environment variable before running your PyTorch application: CUBLAS_WORKSPACE_CONFIG=:4096:8 or CUBLAS_WORKSPACE_CONFIG=:16:8. For more information, go to https://docs.nvidia.com/cuda/cublas/index.html#results-reproducibility (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\Context.cpp:233.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+ur-temporal-gru-methods-20261012-001 epoch 1: Train 0.429287; normal Val 0.446951; best 1
+ur-temporal-gru-methods-20261012-001 epoch 2: Train 0.211639; normal Val 0.327995; best 2
+ur-temporal-gru-methods-20261012-001 epoch 3: Train 0.171059; normal Val 0.305998; best 3
+ur-temporal-gru-methods-20261012-001 epoch 4: Train 0.151535; normal Val 0.302992; best 4
+ur-temporal-gru-methods-20261012-001 epoch 5: Train 0.144274; normal Val 0.271145; best 5
+ur-temporal-gru-methods-20261012-001 epoch 6: Train 0.138903; normal Val 0.280992; best 5
+ur-temporal-gru-methods-20261012-001 epoch 7: Train 0.136773; normal Val 0.266948; best 7
+ur-temporal-gru-methods-20261012-001 epoch 8: Train 0.135371; normal Val 0.272279; best 7
+ur-temporal-gru-methods-20261012-001 epoch 9: Train 0.135267; normal Val 0.271334; best 7
+ur-temporal-gru-methods-20261012-001 epoch 10: Train 0.132587; normal Val 0.262640; best 10
+ur-temporal-gru-methods-20261012-001 epoch 11: Train 0.127850; normal Val 0.279622; best 10
+ur-temporal-gru-methods-20261012-001 epoch 12: Train 0.131586; normal Val 0.260249; best 12
+ur-temporal-gru-methods-20261012-001 epoch 13: Train 0.129125; normal Val 0.265973; best 12
+ur-temporal-gru-methods-20261012-001 epoch 14: Train 0.128723; normal Val 0.263324; best 12
+ur-temporal-gru-methods-20261012-001 epoch 15: Train 0.129304; normal Val 0.275690; best 12
+ur-temporal-gru-methods-20261012-001 epoch 16: Train 0.126119; normal Val 0.279838; best 12
+ur-temporal-gru-methods-20261012-001 epoch 17: Train 0.124164; normal Val 0.264637; best 12
+ur-temporal-gru-methods-20261012-001 epoch 18: Train 0.125962; normal Val 0.273077; best 12
+ur-temporal-gru-methods-20261012-001 epoch 19: Train 0.127611; normal Val 0.266537; best 12
+ur-temporal-gru-methods-20261012-001 epoch 20: Train 0.129771; normal Val 0.278187; best 12
+ur-temporal-gru-methods-20261012-001 epoch 21: Train 0.127299; normal Val 0.271652; best 12
+ur-temporal-gru-methods-20261012-001 epoch 22: Train 0.126893; normal Val 0.269896; best 12
+ur-temporal-gru-methods-20261012-001 {'metric_unit': 'sequence', 'TP': 14, 'FP': 1, 'FN': 1, 'TN': 7, 'n_total': 23, 'n_evaluable': 23, 'n_unknown': 0, 'sequence_coverage': 1.0, 'sequence_accuracy': 0.9130434782608695, 'sequence_fall_precision': 0.9333333333333333, 'sequence_fall_recall': 0.9333333333333333, 'sequence_fall_f1': 0.9333333333333333, 'operational_accuracy': 0.9130434782608695, 'end_to_end_fall_recall': 0.9333333333333333, 'outcomes_with_unknown': [[7, 1, 0], [1, 14, 0]], 'outcome_columns': ['normal', 'suspected_fall', 'unknown'], 'outcome_rows': ['ADL', 'Fall'], 'by_class': {'ADL': {'n_total': 8, 'n_unknown': 0, 'sequence_coverage': 1.0, 'window_coverage': 0.8037713612256924, 'n_missing_timelines': 0}, 'Fall': {'n_total': 15, 'n_unknown': 0, 'sequence_coverage': 1.0, 'window_coverage': 0.7384007897334649, 'n_missing_timelines': 0}}, 'window_coverage': 0.7793357933579336, 'n_missing_timelines': 0}

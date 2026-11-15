@@ -1,0 +1,247 @@
+{
+  "scope": "validation_only",
+  "runs": {
+    "le2i-extension-001": {
+      "epochs": 79,
+      "best": {
+        "epoch": 69,
+        "train_loss": 0.09927972538700397,
+        "val_normal_loss": 0.26481568650342524
+      },
+      "counts": {
+        "train": {
+          "planned": 62,
+          "usable": 45,
+          "windows": 3766
+        },
+        "validation": {
+          "planned": 12,
+          "usable": 7,
+          "windows": 128
+        }
+      },
+      "calibration": {
+        "threshold": 0.15086834132671353,
+        "metrics": {
+          "metric_unit": "sequence",
+          "TP": 14,
+          "FP": 6,
+          "FN": 0,
+          "TN": 0,
+          "n_total": 38,
+          "n_evaluable": 20,
+          "n_unknown": 18,
+          "sequence_coverage": 0.5263157894736842,
+          "sequence_accuracy": 0.7,
+          "sequence_fall_precision": 0.7,
+          "sequence_fall_recall": 1.0,
+          "sequence_fall_f1": 0.8235294117647058,
+          "operational_accuracy": 0.3684210526315789,
+          "end_to_end_fall_recall": 0.5384615384615384,
+          "outcomes_with_unknown": [
+            [
+              0,
+              6,
+              6
+            ],
+            [
+              0,
+              14,
+              12
+            ]
+          ],
+          "outcome_columns": [
+            "normal",
+            "suspected_fall",
+            "unknown"
+          ],
+          "outcome_rows": [
+            "ADL",
+            "Fall"
+          ],
+          "by_class": {
+            "ADL": {
+              "n_total": 12,
+              "n_unknown": 6,
+              "sequence_coverage": 0.5,
+              "window_coverage": 0.21993127147766323,
+              "n_missing_timelines": 0
+            },
+            "Fall": {
+              "n_total": 26,
+              "n_unknown": 12,
+              "sequence_coverage": 0.5384615384615384,
+              "window_coverage": 0.4228110599078341,
+              "n_missing_timelines": 0
+            }
+          },
+          "window_coverage": 0.3413793103448276,
+          "n_missing_timelines": 0
+        }
+      }
+    },
+    "le2i-timing-001": {
+      "epochs": 88,
+      "best": {
+        "epoch": 78,
+        "train_loss": 0.09839485963565882,
+        "val_normal_loss": 0.2042546279311597
+      },
+      "counts": {
+        "train": {
+          "planned": 62,
+          "usable": 57,
+          "windows": 4180
+        },
+        "validation": {
+          "planned": 12,
+          "usable": 11,
+          "windows": 286
+        }
+      },
+      "calibration": {
+        "threshold": 0.14055135846137998,
+        "metrics": {
+          "metric_unit": "sequence",
+          "TP": 20,
+          "FP": 10,
+          "FN": 0,
+          "TN": 0,
+          "n_total": 38,
+          "n_evaluable": 30,
+          "n_unknown": 8,
+          "sequence_coverage": 0.7894736842105263,
+          "sequence_accuracy": 0.6666666666666666,
+          "sequence_fall_precision": 0.6666666666666666,
+          "sequence_fall_recall": 1.0,
+          "sequence_fall_f1": 0.8,
+          "operational_accuracy": 0.5263157894736842,
+          "end_to_end_fall_recall": 0.7692307692307693,
+          "outcomes_with_unknown": [
+            [
+              0,
+              10,
+              2
+            ],
+            [
+              0,
+              20,
+              6
+            ]
+          ],
+          "outcome_columns": [
+            "normal",
+            "suspected_fall",
+            "unknown"
+          ],
+          "outcome_rows": [
+            "ADL",
+            "Fall"
+          ],
+          "by_class": {
+            "ADL": {
+              "n_total": 12,
+              "n_unknown": 2,
+              "sequence_coverage": 0.8333333333333334,
+              "window_coverage": 0.49140893470790376,
+              "n_missing_timelines": 0
+            },
+            "Fall": {
+              "n_total": 26,
+              "n_unknown": 6,
+              "sequence_coverage": 0.7692307692307693,
+              "window_coverage": 0.5898617511520737,
+              "n_missing_timelines": 0
+            }
+          },
+          "window_coverage": 0.5503448275862068,
+          "n_missing_timelines": 0
+        }
+      }
+    },
+    "le2i-timing-balanced-001": {
+      "epochs": 88,
+      "best": {
+        "epoch": 78,
+        "train_loss": 0.09839485963565882,
+        "val_normal_loss": 0.2042546279311597
+      },
+      "counts": {
+        "train": {
+          "planned": 62,
+          "usable": 57,
+          "windows": 4180
+        },
+        "validation": {
+          "planned": 12,
+          "usable": 11,
+          "windows": 286
+        }
+      },
+      "calibration": {
+        "threshold": 0.4929388761520386,
+        "metrics": {
+          "metric_unit": "sequence",
+          "TP": 12,
+          "FP": 1,
+          "FN": 8,
+          "TN": 9,
+          "n_total": 38,
+          "n_evaluable": 30,
+          "n_unknown": 8,
+          "sequence_coverage": 0.7894736842105263,
+          "sequence_accuracy": 0.7,
+          "sequence_fall_precision": 0.9230769230769231,
+          "sequence_fall_recall": 0.6,
+          "sequence_fall_f1": 0.7272727272727273,
+          "operational_accuracy": 0.5526315789473685,
+          "end_to_end_fall_recall": 0.46153846153846156,
+          "outcomes_with_unknown": [
+            [
+              9,
+              1,
+              2
+            ],
+            [
+              8,
+              12,
+              6
+            ]
+          ],
+          "outcome_columns": [
+            "normal",
+            "suspected_fall",
+            "unknown"
+          ],
+          "outcome_rows": [
+            "ADL",
+            "Fall"
+          ],
+          "by_class": {
+            "ADL": {
+              "n_total": 12,
+              "n_unknown": 2,
+              "sequence_coverage": 0.8333333333333334,
+              "window_coverage": 0.49140893470790376,
+              "n_missing_timelines": 0
+            },
+            "Fall": {
+              "n_total": 26,
+              "n_unknown": 6,
+              "sequence_coverage": 0.7692307692307693,
+              "window_coverage": 0.5898617511520737,
+              "n_missing_timelines": 0
+            }
+          },
+          "window_coverage": 0.5503448275862068,
+          "n_missing_timelines": 0,
+          "balanced_sequence_accuracy": 0.6057692307692308
+        }
+      },
+      "training_reused_from": "le2i-timing-001",
+      "objective": "balanced_sequence_accuracy"
+    }
+  },
+  "alternative_protocol": "Exploratory Validation-only alternative after observing the default F1 calibration; does not replace the specification baseline.",
+  "test_evaluation_performed": false
+}

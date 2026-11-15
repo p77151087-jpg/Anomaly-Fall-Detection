@@ -1,0 +1,32 @@
+{
+  "results": [
+    {
+      "name": "ur-human-isotropic-001",
+      "normal_val_mse_common_train24_scale": 0.11513485612451448
+    },
+    {
+      "name": "ur-isotropic-wide-20261012-001",
+      "normal_val_mse_common_train24_scale": 0.11561636645386845
+    },
+    {
+      "name": "subset-42-n8",
+      "normal_val_mse_common_train24_scale": 0.22388461341066285
+    },
+    {
+      "name": "subset-42-n16",
+      "normal_val_mse_common_train24_scale": 0.1259547780901338
+    },
+    {
+      "name": "subset-43-n8",
+      "normal_val_mse_common_train24_scale": 0.1974626205231803
+    },
+    {
+      "name": "subset-43-n16",
+      "normal_val_mse_common_train24_scale": 0.13810769831040068
+    }
+  ],
+  "reference_scaler": "runs/ur-human-isotropic-001/scaler.npz",
+  "purpose": "Diagnostic comparison in fixed Train24 scale only; never fit subset models with these statistics, never change models/thresholds. Native learning-curve losses also depend on subset-fitted scaler.",
+  "test_feature_arrays_loaded": 0,
+  "new_test_evaluations": 0
+}

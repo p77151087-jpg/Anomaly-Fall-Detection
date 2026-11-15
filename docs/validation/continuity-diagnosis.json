@@ -1,0 +1,1681 @@
+{
+  "scope": "Train and Validation only",
+  "source_index_sha256": "e235c07ce1de28a8ee8ec402db584af91c4fe511a0b57f526b3b1edf5766efd6",
+  "counterfactual_is_not_a_candidate_or_accuracy": true,
+  "rows": [
+    {
+      "sequence_id": "adl-33",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 200,
+      "pose_count_histogram": {
+        "1": 161,
+        "2": 1,
+        "0": 38
+      },
+      "frames_without_good_pose": 43,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 8,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 20,
+          "track_gap": 49
+        },
+        "valid": 20,
+        "last_valid_ms": 6633.333333333334
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 19,
+          "track_gap": 16
+        },
+        "valid": 19,
+        "last_valid_ms": 6633.333333333334
+      },
+      "pose_cache_sha256": "8e621b6b0abc3fd6e6fe11096d67ca4e18ac18b300d2a08a05061685db514726"
+    },
+    {
+      "sequence_id": "adl-08",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 180,
+      "pose_count_histogram": {
+        "0": 6,
+        "1": 174
+      },
+      "frames_without_good_pose": 8,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 1,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "track_gap": 2,
+          "valid": 28
+        },
+        "valid": 28,
+        "last_valid_ms": 5800.0
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "track_gap": 2,
+          "valid": 28
+        },
+        "valid": 28,
+        "last_valid_ms": 5800.0
+      },
+      "pose_cache_sha256": "c8948740250ecc540c09509cbbcedce54c445da81f1fa4d25b5e02fe57d10d0d"
+    },
+    {
+      "sequence_id": "adl-40",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 330,
+      "pose_count_histogram": {
+        "0": 102,
+        "1": 228
+      },
+      "frames_without_good_pose": 103,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 4,
+      "single_pose_id_switches": [
+        {
+          "frame": 270,
+          "time_ms": 9077.0,
+          "dt_ms": 34.0,
+          "common_joints": 13,
+          "median_displacement_px": 35.986785888671875
+        }
+      ],
+      "actual_windows": {
+        "quality": {
+          "no_person": 9,
+          "track_gap": 30,
+          "valid": 39
+        },
+        "valid": 39,
+        "last_valid_ms": 8800.0
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "no_person": 9,
+          "track_gap": 13,
+          "valid": 39
+        },
+        "valid": 39,
+        "last_valid_ms": 8800.0
+      },
+      "pose_cache_sha256": "c26ecffa3729c3a07b247d59a45704082d4bfe476be44e1e4c0fe58929083057"
+    },
+    {
+      "sequence_id": "adl-19",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 250,
+      "pose_count_histogram": {
+        "0": 33,
+        "1": 201,
+        "2": 16
+      },
+      "frames_without_good_pose": 41,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 19,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "track_gap": 101,
+          "valid": 24
+        },
+        "valid": 24,
+        "last_valid_ms": 6300.0
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "track_gap": 25,
+          "valid": 20
+        },
+        "valid": 20,
+        "last_valid_ms": 6133.333333333334
+      },
+      "pose_cache_sha256": "453689864ce162c394a62df9837db0ca9292f9b9105c9d163384189475dcd5db"
+    },
+    {
+      "sequence_id": "adl-05",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 180,
+      "pose_count_histogram": {
+        "1": 180
+      },
+      "frames_without_good_pose": 0,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 1,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 30
+        },
+        "valid": 30,
+        "last_valid_ms": 5800.0
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 30
+        },
+        "valid": 30,
+        "last_valid_ms": 5800.0
+      },
+      "pose_cache_sha256": "747a1066484ee27fb67c677a829abb7be36eb7283433a544afeda8a19a4889cd"
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 345,
+      "pose_count_histogram": {
+        "0": 92,
+        "1": 253
+      },
+      "frames_without_good_pose": 144,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 37,
+      "single_pose_id_switches": [
+        {
+          "frame": 186,
+          "time_ms": 6221.0,
+          "dt_ms": 34.0,
+          "common_joints": 14,
+          "median_displacement_px": 79.0007095336914
+        },
+        {
+          "frame": 187,
+          "time_ms": 6255.0,
+          "dt_ms": 34.0,
+          "common_joints": 14,
+          "median_displacement_px": 74.15047454833984
+        },
+        {
+          "frame": 210,
+          "time_ms": 7037.0,
+          "dt_ms": 34.0,
+          "common_joints": 12,
+          "median_displacement_px": 85.31248474121094
+        },
+        {
+          "frame": 211,
+          "time_ms": 7071.0,
+          "dt_ms": 34.0,
+          "common_joints": 12,
+          "median_displacement_px": 71.0947036743164
+        },
+        {
+          "frame": 218,
+          "time_ms": 7309.0,
+          "dt_ms": 34.0,
+          "common_joints": 12,
+          "median_displacement_px": 32.83032989501953
+        },
+        {
+          "frame": 265,
+          "time_ms": 8907.0,
+          "dt_ms": 34.0,
+          "common_joints": 2,
+          "median_displacement_px": 22.262985229492188
+        },
+        {
+          "frame": 305,
+          "time_ms": 10267.0,
+          "dt_ms": 34.0,
+          "common_joints": 2,
+          "median_displacement_px": 24.149938583374023
+        },
+        {
+          "frame": 308,
+          "time_ms": 10369.0,
+          "dt_ms": 34.0,
+          "common_joints": 2,
+          "median_displacement_px": 29.878360748291016
+        }
+      ],
+      "actual_windows": {
+        "quality": {
+          "track_gap": 214,
+          "valid": 28
+        },
+        "valid": 28,
+        "last_valid_ms": 6133.333333333334
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "track_gap": 29,
+          "valid": 35
+        },
+        "valid": 35,
+        "last_valid_ms": 7300.000000000001
+      },
+      "pose_cache_sha256": "86500b0691962b042e1dbda819c65841ed20009f8b94c24e3b8aa836f11e3646"
+    },
+    {
+      "sequence_id": "adl-17",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 230,
+      "pose_count_histogram": {
+        "0": 15,
+        "1": 206,
+        "2": 9
+      },
+      "frames_without_good_pose": 17,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 8,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "track_gap": 44,
+          "valid": 27
+        },
+        "valid": 27,
+        "last_valid_ms": 7633.333333333334
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "track_gap": 15,
+          "valid": 26
+        },
+        "valid": 26,
+        "last_valid_ms": 7633.333333333334
+      },
+      "pose_cache_sha256": "71af045dc42ab86c84cc8eb7dbab70df6f3af994fb5dd3cb41e38688e871c810"
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 230,
+      "pose_count_histogram": {
+        "0": 7,
+        "1": 217,
+        "2": 6
+      },
+      "frames_without_good_pose": 14,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 5,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "track_gap": 21,
+          "valid": 38
+        },
+        "valid": 38,
+        "last_valid_ms": 7466.666666666667
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "track_gap": 13,
+          "valid": 27
+        },
+        "valid": 27,
+        "last_valid_ms": 6633.333333333334
+      },
+      "pose_cache_sha256": "9cd51ff86a3ac75a091d638110089174f50e745f5da46fc34d158e9a1c86709a"
+    },
+    {
+      "sequence_id": "adl-26",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 95,
+      "pose_count_histogram": {
+        "1": 95
+      },
+      "frames_without_good_pose": 0,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 1,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 14
+        },
+        "valid": 14,
+        "last_valid_ms": 3133.3333333333335
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 14
+        },
+        "valid": 14,
+        "last_valid_ms": 3133.3333333333335
+      },
+      "pose_cache_sha256": "8e44b7f8268d6e40ddbe6fcd70eee4aac59a4c6a2703947910d6d723130ee6dd"
+    },
+    {
+      "sequence_id": "adl-29",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 125,
+      "pose_count_histogram": {
+        "1": 125
+      },
+      "frames_without_good_pose": 0,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 1,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 20
+        },
+        "valid": 20,
+        "last_valid_ms": 4133.333333333334
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 20
+        },
+        "valid": 20,
+        "last_valid_ms": 4133.333333333334
+      },
+      "pose_cache_sha256": "011e52afccf7925353561fe5b3a174d8a4444e2a98cbf093f138b0c4102f7c81"
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 240,
+      "pose_count_histogram": {
+        "0": 74,
+        "1": 152,
+        "2": 14
+      },
+      "frames_without_good_pose": 75,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 9,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "track_gap": 56,
+          "valid": 21,
+          "no_person": 8
+        },
+        "valid": 21,
+        "last_valid_ms": 5633.333333333334
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "track_gap": 23,
+          "valid": 12,
+          "no_person": 8
+        },
+        "valid": 12,
+        "last_valid_ms": 5633.333333333334
+      },
+      "pose_cache_sha256": "75a6b90391de3bfdf2a077b2d4f69e4878b2d42e55c9171649bd3136738899c7"
+    },
+    {
+      "sequence_id": "adl-21",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 280,
+      "pose_count_histogram": {
+        "0": 75,
+        "1": 183,
+        "2": 22
+      },
+      "frames_without_good_pose": 75,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 23,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "track_gap": 138,
+          "valid": 20
+        },
+        "valid": 20,
+        "last_valid_ms": 5633.333333333334
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "track_gap": 33,
+          "valid": 17
+        },
+        "valid": 17,
+        "last_valid_ms": 7800.000000000001
+      },
+      "pose_cache_sha256": "b65bc56a4df611a3f4ea4d59052953857a3dc1bc9b5d0d6d6d7405cc2fb19c54"
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 340,
+      "pose_count_histogram": {
+        "0": 33,
+        "1": 306,
+        "2": 1
+      },
+      "frames_without_good_pose": 33,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 10,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "track_gap": 63,
+          "valid": 45
+        },
+        "valid": 45,
+        "last_valid_ms": 8966.666666666668
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "track_gap": 20,
+          "valid": 43
+        },
+        "valid": 43,
+        "last_valid_ms": 8633.333333333334
+      },
+      "pose_cache_sha256": "0ded448152deda72c32e8dd27e579da2521a7d311ab12ce4a5d8d9b6c090e427"
+    },
+    {
+      "sequence_id": "adl-25",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 110,
+      "pose_count_histogram": {
+        "1": 110
+      },
+      "frames_without_good_pose": 0,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 1,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 17
+        },
+        "valid": 17,
+        "last_valid_ms": 3633.3333333333335
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 17
+        },
+        "valid": 17,
+        "last_valid_ms": 3633.3333333333335
+      },
+      "pose_cache_sha256": "2c2bd68e1f91393ea389a8b6864b2742c864527633acdffdfc668260e9775a4c"
+    },
+    {
+      "sequence_id": "adl-11",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 300,
+      "pose_count_histogram": {
+        "1": 298,
+        "2": 2
+      },
+      "frames_without_good_pose": 2,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 3,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 49,
+          "track_gap": 18
+        },
+        "valid": 49,
+        "last_valid_ms": 9966.666666666668
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 49,
+          "track_gap": 6
+        },
+        "valid": 49,
+        "last_valid_ms": 9966.666666666668
+      },
+      "pose_cache_sha256": "6344c4d8ca89429e3057d4822c9de8952c47e1a43c38370d3e395cd96bcae8fc"
+    },
+    {
+      "sequence_id": "adl-28",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 85,
+      "pose_count_histogram": {
+        "1": 85
+      },
+      "frames_without_good_pose": 0,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 1,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 12
+        },
+        "valid": 12,
+        "last_valid_ms": 2800.0
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 12
+        },
+        "valid": 12,
+        "last_valid_ms": 2800.0
+      },
+      "pose_cache_sha256": "bad8afaf784e57564ab60df7fd8df230de3fb2aa732300ad8aa0f59a430b38dd"
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 200,
+      "pose_count_histogram": {
+        "1": 163,
+        "2": 1,
+        "0": 36
+      },
+      "frames_without_good_pose": 37,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 4,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 19,
+          "track_gap": 27
+        },
+        "valid": 19,
+        "last_valid_ms": 6633.333333333334
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 15,
+          "track_gap": 20
+        },
+        "valid": 15,
+        "last_valid_ms": 6633.333333333334
+      },
+      "pose_cache_sha256": "c1cd184cabe72235460504d0ddaa0216f13ad3c99e343bf533dec3816f6e5611"
+    },
+    {
+      "sequence_id": "adl-31",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 250,
+      "pose_count_histogram": {
+        "1": 183,
+        "2": 12,
+        "0": 55
+      },
+      "frames_without_good_pose": 56,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 8,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 20,
+          "track_gap": 57,
+          "no_person": 2
+        },
+        "valid": 20,
+        "last_valid_ms": 4133.333333333334
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "track_gap": 31,
+          "valid": 11,
+          "no_person": 2
+        },
+        "valid": 11,
+        "last_valid_ms": 4133.333333333334
+      },
+      "pose_cache_sha256": "a5e933f03458f5a07337379d51bf854300174a823814ba259edfb7f81e3f7268"
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 100,
+      "pose_count_histogram": {
+        "1": 100
+      },
+      "frames_without_good_pose": 0,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 1,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 15
+        },
+        "valid": 15,
+        "last_valid_ms": 3300.0000000000005
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 15
+        },
+        "valid": 15,
+        "last_valid_ms": 3300.0000000000005
+      },
+      "pose_cache_sha256": "200f96feab7043e667d3ace0feb280342713361ba71d4fb791136e66b9a8e14e"
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 180,
+      "pose_count_histogram": {
+        "1": 180
+      },
+      "frames_without_good_pose": 0,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 1,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 30
+        },
+        "valid": 30,
+        "last_valid_ms": 5800.0
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 30
+        },
+        "valid": 30,
+        "last_valid_ms": 5800.0
+      },
+      "pose_cache_sha256": "5f050f718c5b23dabc5c7ca632cc57580ae3cf298d5da40444646e4e778d16ec"
+    },
+    {
+      "sequence_id": "adl-30",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 400,
+      "pose_count_histogram": {
+        "0": 158,
+        "1": 240,
+        "2": 2
+      },
+      "frames_without_good_pose": 184,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 16,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "no_person": 2,
+          "track_gap": 94,
+          "valid": 39
+        },
+        "valid": 39,
+        "last_valid_ms": 8300.0
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "no_person": 2,
+          "track_gap": 35,
+          "valid": 39
+        },
+        "valid": 39,
+        "last_valid_ms": 8300.0
+      },
+      "pose_cache_sha256": "74a0859e4cbdb48161a86bab9ff4415acd61a82f3498d700d00e17a699fb774a"
+    },
+    {
+      "sequence_id": "adl-12",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 250,
+      "pose_count_histogram": {
+        "0": 10,
+        "1": 229,
+        "2": 11
+      },
+      "frames_without_good_pose": 10,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 9,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "track_gap": 40,
+          "valid": 40
+        },
+        "valid": 40,
+        "last_valid_ms": 8133.333333333334
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "track_gap": 9,
+          "valid": 35
+        },
+        "valid": 35,
+        "last_valid_ms": 8133.333333333334
+      },
+      "pose_cache_sha256": "202b6b517e0f2cb16563fcde8d88d4a840524bb1e2eea98205edbd5beff2a291"
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 70,
+      "pose_count_histogram": {
+        "1": 70
+      },
+      "frames_without_good_pose": 0,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 1,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 9
+        },
+        "valid": 9,
+        "last_valid_ms": 2300.0
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 9
+        },
+        "valid": 9,
+        "last_valid_ms": 2300.0
+      },
+      "pose_cache_sha256": "49a0523c8f2b9684321c7a0b98d40f88875a0216c5399c735df3a3ed49259968"
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 300,
+      "pose_count_histogram": {
+        "1": 297,
+        "2": 3
+      },
+      "frames_without_good_pose": 0,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 3,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 55,
+          "track_gap": 12
+        },
+        "valid": 55,
+        "last_valid_ms": 9966.666666666668
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 48,
+          "track_gap": 7
+        },
+        "valid": 48,
+        "last_valid_ms": 9966.666666666668
+      },
+      "pose_cache_sha256": "2d8fcd879f65fee99a77d605bf2d39267e908fe1c76dbb42a14710fa0649e160"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 350,
+      "pose_count_histogram": {
+        "0": 53,
+        "1": 297
+      },
+      "frames_without_good_pose": 55,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 16,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "track_gap": 88,
+          "valid": 42
+        },
+        "valid": 42,
+        "last_valid_ms": 8800.0
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "track_gap": 23,
+          "valid": 42
+        },
+        "valid": 42,
+        "last_valid_ms": 8800.0
+      },
+      "pose_cache_sha256": "e3ab900edbe970cfb044c0e624ba66a3949cb9a5310c20a0980db697a5531d34"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 220,
+      "pose_count_histogram": {
+        "1": 145,
+        "2": 7,
+        "0": 68
+      },
+      "frames_without_good_pose": 69,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 17,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "track_gap": 79,
+          "valid": 12,
+          "no_person": 4
+        },
+        "valid": 12,
+        "last_valid_ms": 3466.666666666667
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "track_gap": 24,
+          "valid": 11,
+          "no_person": 4
+        },
+        "valid": 11,
+        "last_valid_ms": 3300.0000000000005
+      },
+      "pose_cache_sha256": "df9fa4c90f1cedd0c2da3846cee79b9ed86109cbbb46e2f8fbbfa4d1dc81f07a"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 270,
+      "pose_count_histogram": {
+        "0": 32,
+        "1": 221,
+        "2": 17
+      },
+      "frames_without_good_pose": 34,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 14,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "no_person": 1,
+          "track_gap": 97,
+          "valid": 30
+        },
+        "valid": 30,
+        "last_valid_ms": 8800.0
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "no_person": 1,
+          "track_gap": 27,
+          "valid": 20
+        },
+        "valid": 20,
+        "last_valid_ms": 8800.0
+      },
+      "pose_cache_sha256": "37dd02a5fe73c7f1d640d512fcc15f2c1e80ca3aef2a65d9c3e6e2737a5f3960"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 150,
+      "pose_count_histogram": {
+        "1": 150
+      },
+      "frames_without_good_pose": 0,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 1,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 24
+        },
+        "valid": 24,
+        "last_valid_ms": 4800.0
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 24
+        },
+        "valid": 24,
+        "last_valid_ms": 4800.0
+      },
+      "pose_cache_sha256": "cb2709170b7020a2a1dd39500d017dfc02e60774763d6e28043c62ca3b6b6180"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 150,
+      "pose_count_histogram": {
+        "0": 4,
+        "1": 146
+      },
+      "frames_without_good_pose": 4,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 1,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "track_gap": 1,
+          "valid": 24
+        },
+        "valid": 24,
+        "last_valid_ms": 4966.666666666667
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "track_gap": 1,
+          "valid": 24
+        },
+        "valid": 24,
+        "last_valid_ms": 4966.666666666667
+      },
+      "pose_cache_sha256": "d0f3a930cf4f0c1e36adc8b068856d3a5fb47d658188e525c66bfaf5ba1cc9a8"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 240,
+      "pose_count_histogram": {
+        "0": 62,
+        "1": 160,
+        "2": 18
+      },
+      "frames_without_good_pose": 65,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 17,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "track_gap": 106,
+          "valid": 19
+        },
+        "valid": 19,
+        "last_valid_ms": 4966.666666666667
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "track_gap": 31,
+          "valid": 12
+        },
+        "valid": 12,
+        "last_valid_ms": 4800.0
+      },
+      "pose_cache_sha256": "4dbadecccf71ce1c8cbe3877f74ccef37e6bd78e682e01a0332d1f3ac53ef93f"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 265,
+      "pose_count_histogram": {
+        "0": 50,
+        "1": 200,
+        "2": 15
+      },
+      "frames_without_good_pose": 52,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 21,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "no_person": 1,
+          "track_gap": 98,
+          "valid": 24
+        },
+        "valid": 24,
+        "last_valid_ms": 8133.333333333334
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "no_person": 1,
+          "track_gap": 29,
+          "valid": 17
+        },
+        "valid": 17,
+        "last_valid_ms": 6133.333333333334
+      },
+      "pose_cache_sha256": "e580a976dadb8f0eaa2e58600380c22cede848efe35937072cc5d16ba67dfc60"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 280,
+      "pose_count_histogram": {
+        "1": 200,
+        "0": 80
+      },
+      "frames_without_good_pose": 81,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 5,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 27,
+          "track_gap": 31,
+          "no_person": 6
+        },
+        "valid": 27,
+        "last_valid_ms": 9300.0
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 27,
+          "track_gap": 18,
+          "no_person": 6
+        },
+        "valid": 27,
+        "last_valid_ms": 9300.0
+      },
+      "pose_cache_sha256": "88a1d87bf80f31aa9ff3a3d73c54f0efd08bc37aaec2a883c486335f67eecd49"
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 56,
+      "pose_count_histogram": {
+        "1": 51,
+        "3": 1,
+        "2": 4
+      },
+      "frames_without_good_pose": 13,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 6,
+      "single_pose_id_switches": [
+        {
+          "frame": 45,
+          "time_ms": 1468.0,
+          "dt_ms": 34.0,
+          "common_joints": 3,
+          "median_displacement_px": 45.991065979003906
+        }
+      ],
+      "actual_windows": {
+        "quality": {
+          "valid": 4,
+          "track_gap": 17
+        },
+        "valid": 4,
+        "last_valid_ms": 1466.6666666666667
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 2,
+          "track_gap": 4
+        },
+        "valid": 2,
+        "last_valid_ms": 1133.3333333333335
+      },
+      "pose_cache_sha256": "26e0405ec0b7b1be399a116aeef5b0edb2577d7fd447b75a9450437a934ffb26"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 100,
+      "pose_count_histogram": {
+        "1": 58,
+        "0": 42
+      },
+      "frames_without_good_pose": 49,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 7,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 5,
+          "track_gap": 36
+        },
+        "valid": 5,
+        "last_valid_ms": 1633.3333333333335
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 5,
+          "track_gap": 10
+        },
+        "valid": 5,
+        "last_valid_ms": 1633.3333333333335
+      },
+      "pose_cache_sha256": "131b431734fe90ed0ea227afded706d7c99ae02ce7e0ff32e146465cac4c6ae8"
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 55,
+      "pose_count_histogram": {
+        "1": 55
+      },
+      "frames_without_good_pose": 0,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 1,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 6
+        },
+        "valid": 6,
+        "last_valid_ms": 1800.0000000000002
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 6
+        },
+        "valid": 6,
+        "last_valid_ms": 1800.0000000000002
+      },
+      "pose_cache_sha256": "66676fc78e3630bb3ef13ed550364df640cac247f8b5276fa250a16de3cf5741"
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 65,
+      "pose_count_histogram": {
+        "1": 54,
+        "0": 2,
+        "2": 6,
+        "3": 3
+      },
+      "frames_without_good_pose": 7,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 12,
+      "single_pose_id_switches": [
+        {
+          "frame": 59,
+          "time_ms": 1935.0,
+          "dt_ms": 33.0,
+          "common_joints": 4,
+          "median_displacement_px": 25.386354446411133
+        }
+      ],
+      "actual_windows": {
+        "quality": {
+          "valid": 3,
+          "track_gap": 30
+        },
+        "valid": 3,
+        "last_valid_ms": 1300.0
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 3,
+          "track_gap": 5
+        },
+        "valid": 3,
+        "last_valid_ms": 1300.0
+      },
+      "pose_cache_sha256": "8293abfcb037dda47e13920195bfc2581535a1dfc573419535f7c439ded0e896"
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 91,
+      "pose_count_histogram": {
+        "1": 89,
+        "2": 2
+      },
+      "frames_without_good_pose": 0,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 3,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 8,
+          "track_gap": 14
+        },
+        "valid": 8,
+        "last_valid_ms": 2133.3333333333335
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 7,
+          "track_gap": 6
+        },
+        "valid": 7,
+        "last_valid_ms": 1966.6666666666667
+      },
+      "pose_cache_sha256": "2593af3e077b7ecd5d06a89614172164b2c714a29981a88d536ce1e22c00aae8"
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 85,
+      "pose_count_histogram": {
+        "2": 79,
+        "1": 6
+      },
+      "frames_without_good_pose": 1,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 8,
+      "single_pose_id_switches": [
+        {
+          "frame": 68,
+          "time_ms": 2235.0,
+          "dt_ms": 33.0,
+          "common_joints": 15,
+          "median_displacement_px": 207.1010284423828
+        }
+      ],
+      "actual_windows": {
+        "quality": {
+          "valid": 16,
+          "track_gap": 22
+        },
+        "valid": 16,
+        "last_valid_ms": 2133.3333333333335
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "no_person": 8,
+          "track_gap": 4
+        },
+        "valid": 0,
+        "last_valid_ms": null
+      },
+      "pose_cache_sha256": "d505602a7f58a3e53fb0849181ab2d8e0760e757969a07918ae9c919890609b8"
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 99,
+      "pose_count_histogram": {
+        "1": 90,
+        "2": 3,
+        "0": 6
+      },
+      "frames_without_good_pose": 23,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 8,
+      "single_pose_id_switches": [
+        {
+          "frame": 80,
+          "time_ms": 2636.0,
+          "dt_ms": 34.0,
+          "common_joints": 4,
+          "median_displacement_px": 67.10075378417969
+        }
+      ],
+      "actual_windows": {
+        "quality": {
+          "valid": 10,
+          "track_gap": 28
+        },
+        "valid": 10,
+        "last_valid_ms": 2466.666666666667
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 8,
+          "track_gap": 6
+        },
+        "valid": 8,
+        "last_valid_ms": 2133.3333333333335
+      },
+      "pose_cache_sha256": "3efef2a7be25aaa5ce2dd4db34dcc3b2426635a56812647b4e2850b804ae06c8"
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 61,
+      "pose_count_histogram": {
+        "1": 12,
+        "2": 49
+      },
+      "frames_without_good_pose": 0,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 11,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 7,
+          "track_gap": 36
+        },
+        "valid": 7,
+        "last_valid_ms": 1966.6666666666667
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "track_gap": 7
+        },
+        "valid": 0,
+        "last_valid_ms": null
+      },
+      "pose_cache_sha256": "ffaac2cf02134b43ef05fdd606130c177415099cfdd4ccbbfba856393f98fb2e"
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 185,
+      "pose_count_histogram": {
+        "1": 171,
+        "0": 8,
+        "2": 5,
+        "3": 1
+      },
+      "frames_without_good_pose": 18,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 10,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 25,
+          "track_gap": 29
+        },
+        "valid": 25,
+        "last_valid_ms": 4966.666666666667
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 25,
+          "track_gap": 7
+        },
+        "valid": 25,
+        "last_valid_ms": 4966.666666666667
+      },
+      "pose_cache_sha256": "dd1aeb20f423a58b70191f3f2ed2a330f0b09fc2f9c9afe918db16ad65d1f59a"
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 156,
+      "pose_count_histogram": {
+        "1": 153,
+        "0": 2,
+        "2": 1
+      },
+      "frames_without_good_pose": 9,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 5,
+      "single_pose_id_switches": [
+        {
+          "frame": 119,
+          "time_ms": 3937.0,
+          "dt_ms": 33.0,
+          "common_joints": 4,
+          "median_displacement_px": 30.086193084716797
+        },
+        {
+          "frame": 120,
+          "time_ms": 3970.0,
+          "dt_ms": 33.0,
+          "common_joints": 4,
+          "median_displacement_px": 41.29331970214844
+        }
+      ],
+      "actual_windows": {
+        "quality": {
+          "valid": 20,
+          "track_gap": 28
+        },
+        "valid": 20,
+        "last_valid_ms": 5133.333333333334
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 18,
+          "track_gap": 8
+        },
+        "valid": 18,
+        "last_valid_ms": 3800.0000000000005
+      },
+      "pose_cache_sha256": "aaadf919cab9adfe966931d5befc6fb829acd59e8001cfd2577644c27cca6400"
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 130,
+      "pose_count_histogram": {
+        "1": 130
+      },
+      "frames_without_good_pose": 0,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 1,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 21
+        },
+        "valid": 21,
+        "last_valid_ms": 4300.0
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 21
+        },
+        "valid": 21,
+        "last_valid_ms": 4300.0
+      },
+      "pose_cache_sha256": "d30db54e7b68e58ddf38dd50e58013a21e557e08bfd3e3f80ef7ae62ff87d0b5"
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 85,
+      "pose_count_histogram": {
+        "1": 79,
+        "2": 2,
+        "0": 4
+      },
+      "frames_without_good_pose": 15,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 7,
+      "single_pose_id_switches": [
+        {
+          "frame": 74,
+          "time_ms": 2435.0,
+          "dt_ms": 33.0,
+          "common_joints": 3,
+          "median_displacement_px": 131.78395080566406
+        }
+      ],
+      "actual_windows": {
+        "quality": {
+          "valid": 9,
+          "track_gap": 16
+        },
+        "valid": 9,
+        "last_valid_ms": 2300.0
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 9,
+          "track_gap": 3
+        },
+        "valid": 9,
+        "last_valid_ms": 2300.0
+      },
+      "pose_cache_sha256": "453dc6d62f0c72249db58761b06b44578200e4da676796c1bc53b60f0e1c3c92"
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 100,
+      "pose_count_histogram": {
+        "1": 100
+      },
+      "frames_without_good_pose": 0,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 1,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 15
+        },
+        "valid": 15,
+        "last_valid_ms": 3300.0000000000005
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 15
+        },
+        "valid": 15,
+        "last_valid_ms": 3300.0000000000005
+      },
+      "pose_cache_sha256": "5745cbf64ef002339d39ddd544d14abcfea586a13ca8f20da8de4317cdfb394c"
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 110,
+      "pose_count_histogram": {
+        "1": 93,
+        "2": 14,
+        "0": 3
+      },
+      "frames_without_good_pose": 30,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 11,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 9,
+          "track_gap": 61
+        },
+        "valid": 9,
+        "last_valid_ms": 2300.0
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 6,
+          "track_gap": 11
+        },
+        "valid": 6,
+        "last_valid_ms": 1800.0000000000002
+      },
+      "pose_cache_sha256": "0f2558b5f19288da54c2b956a3e5ccfd6aeca237f4b9e6478c77ebffcb1d62e1"
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "frames": 70,
+      "pose_count_histogram": {
+        "1": 57,
+        "0": 13
+      },
+      "frames_without_good_pose": 20,
+      "positive_confidence_at_origin": 0,
+      "raw_track_count": 5,
+      "single_pose_id_switches": [],
+      "actual_windows": {
+        "quality": {
+          "valid": 5,
+          "track_gap": 15
+        },
+        "valid": 5,
+        "last_valid_ms": 1633.3333333333335
+      },
+      "single_observation_counterfactual": {
+        "quality": {
+          "valid": 5,
+          "track_gap": 4
+        },
+        "valid": 5,
+        "last_valid_ms": 1633.3333333333335
+      },
+      "pose_cache_sha256": "faf742d60b2c0e3d60a96ae5b4eb73b3fd6b7ca4335df483040e79d9eb826638"
+    }
+  ]
+}

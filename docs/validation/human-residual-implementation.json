@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-09-18T08:37:46.947229+00:00",
+  "lock_sha256": "b9d8844aa9a2551dd62939ebb65abd2797d76c554e809fa7407b38e79eea90b2",
+  "files": {
+    "src/fall_detect/config.py": "c3dd60c531147b75977d84a461eebc0d3972c927764e5170f62684353f3a7e12",
+    "src/fall_detect/models/autoencoder.py": "1094c79967bf17f2686043b420790adb6d0284b42e94cf4dc81844b484090c40",
+    "src/fall_detect/training/experiment.py": "b4a0401351889bcd83bfaa1bcfb5e652afacae4e0adb2bea07a86e70b3ccc175",
+    "src/fall_detect/training/residual.py": "2db361d7022e8aa96484fac1b12c334245e8161e45e4a773e39afbb0218f3fb6",
+    "src/fall_detect/visualization/loss_viewer.py": "ed6b43941c2b11ad5201b06bf3c8a336b6af8bee7382578c05e7ee71bf83181b",
+    "scripts/human_residual.py": "918d248a7f4267ca843bd22032401fa44c7715afd54ab4b0aede6c3d2efa2cdc",
+    "scripts/ae_generalization.py": "76eaecbf2bbc4bc53b81cf0d64607a09f64ff8692a93eeae278c1bb8f8b92622",
+    "scripts/verify_action_display.py": "4827321f02d9e6d8692a47661eb682f0652b9d85fd530f6796d46d0407f0bb24",
+    "tests/test_residual_profiles.py": "cbc393c9a7b22b3001d1da15aeb6b5136cfced70c592b0603665868cca1216a7",
+    "configs\\ur-human-residual-channel-001.yaml": "3bd5d77be85688c24b44fcabbac2f3e84398681aba47231d099fecdbdfb907dd",
+    "configs\\ur-human-residual-stream-001.yaml": "c3a651ce76a9b7dbe13747b74eef2951eb8d14df574159500434097c097a9ba4"
+  },
+  "candidate_validation_not_yet_run": true
+}

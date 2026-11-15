@@ -1,0 +1,17 @@
+{
+  "reason": "Independent verifier must read core UTF-8 BOM CSV with utf-8-sig; original failed log and sources archived, no training/calibration rerun. Extend exact source hash-chain validation only.",
+  "model_and_results_unchanged": true,
+  "validation_sha256": "1781dad2ea7068cefefeb468d1470603b531946fc471d2a950ab4963e4880571",
+  "implementation_repairs": {
+    "scripts/ur_short20_isotropic.py": {
+      "original_sha256": "9bdacee2acb5a38741dfb23702029f3df76da572dbd56af0371fb0152d5388f3",
+      "original_source": "docs/validation/ur-short20-isotropic-20261012-workflow-before-dispatch-repair.py",
+      "repaired_sha256": "20275e41b835f59b2eb87025805288ce0034bbd89d812d3e0727786688d441f9"
+    },
+    "scripts/verify_ur_short20_isotropic.py": {
+      "original_sha256": "425d1f9862437b517c24de81e49e3e5444fa0e989d8534cbbe1f00c96c63a256",
+      "original_source": "docs/validation/ur-short20-isotropic-20261012-verifier-before-encoding-repair.py",
+      "repaired_sha256": "91fcdaca0007e3807734b2adcaa109ba532e5f49850414c269b9513bafd9431c"
+    }
+  }
+}

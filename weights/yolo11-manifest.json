@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "recipe_id": "yolo11m_coco17_openpose18_stgcn_kinetics_v1",
+  "resources": [
+    {
+      "role": "pose",
+      "recipe_id": "yolo11m_coco17_openpose18_stgcn_kinetics_v1",
+      "repository_url": "https://github.com/ultralytics/ultralytics",
+      "commit": null,
+      "source_page": "https://github.com/ultralytics/assets/releases/tag/v8.3.0",
+      "source_folder": null,
+      "download_url": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11m-pose.pt",
+      "local_path": "weights/pretrained/yolo11/yolo11m-pose-state.pt",
+      "size_bytes": 84076492,
+      "sha256": "9ed4d6879c271b554149ea93ec71c9531da17863a64e0e80945d9c11c668ad3d",
+      "upstream_expected_sha256": null,
+      "license": "AGPL-3.0 (Ultralytics code and pretrained weights)",
+      "status": "usable",
+      "package_version": "8.3.228",
+      "source_sha256": "29b17eaf3a3117cbea906090dbedf9159f7c6a49db58ec8b99ed2dfde1cf6eb2",
+      "conversion": "Official trusted checkpoint to float32 tensor-only state_dict",
+      "verification": {
+        "strict_load": true,
+        "real_forward": true,
+        "device": "cuda",
+        "devices": [
+          "cuda"
+        ],
+        "evidence": "C:\\成大專案\\fall-detection-anomaly\\data\\cache\\ur-recovery960-001\\real_feature_smoke\\dataset-index.json"
+      }
+    },
+    {
+      "role": "stgcn",
+      "recipe_id": "yolo11m_coco17_openpose18_stgcn_kinetics_v1",
+      "repository_url": "https://github.com/yysijie/st-gcn",
+      "commit": "221c0e152054b8da593774c0d483e59befdb9061",
+      "source_page": "https://github.com/yysijie/st-gcn/blob/221c0e152054b8da593774c0d483e59befdb9061/OLD_README.md",
+      "source_folder": "https://drive.google.com/drive/folders/1IYKoSrjeI3yYJ9bO0_z_eDo92i7ob_aF",
+      "download_url": "https://drive.google.com/uc?id=1MDIUlJ_X-IpNgLZYXgdMuclCsnYTepU1",
+      "local_path": "weights/pretrained/openpose18/st_gcn.kinetics.pt",
+      "size_bytes": 12763702,
+      "sha256": "12c56ed5535dd28a075e7d04dec96f572f8b1dc87548004761157e15b7d9e12e",
+      "upstream_expected_sha256": null,
+      "license": "BSD-2-Clause (upstream repository)",
+      "status": "usable",
+      "verification": {
+        "strict_load": true,
+        "real_forward": true,
+        "device": "cuda",
+        "devices": [
+          "cuda"
+        ],
+        "evidence": "C:\\成大專案\\fall-detection-anomaly\\data\\cache\\ur-recovery960-001\\real_feature_smoke\\dataset-index.json"
+      }
+    }
+  ]
+}

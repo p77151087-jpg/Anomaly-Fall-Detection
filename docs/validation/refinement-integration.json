@@ -1,0 +1,108 @@
+{
+  "run": "caucafall-yolo11-balanced-001",
+  "demonstrations": [
+    {
+      "source": "caucafall-S05-Walk",
+      "evidence": "real_end_to_end_validation_demo",
+      "output": "refinement-demo-walk.mp4",
+      "frames": 338,
+      "decoded_verified": true,
+      "cache_result": {
+        "sequence_id": "caucafall-S05-Walk",
+        "sequence_score": 0.18084557354450226,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 62,
+        "n_valid_endpoints": 62,
+        "window_coverage": 1.0,
+        "first_alarm_ms": null
+      },
+      "visible_compared_windows": 62,
+      "max_raw_score_difference": 0.0,
+      "state_mismatches": [],
+      "masked_windows": [],
+      "events_match": true,
+      "events": []
+    },
+    {
+      "source": "caucafall-S05-FallForward",
+      "evidence": "real_end_to_end_validation_demo",
+      "output": "refinement-demo-fall.mp4",
+      "frames": 299,
+      "decoded_verified": true,
+      "cache_result": {
+        "sequence_id": "caucafall-S05-FallForward",
+        "sequence_score": 0.6019962430000305,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 54,
+        "n_valid_endpoints": 45,
+        "window_coverage": 0.8333333333333334,
+        "first_alarm_ms": 4466.666666666667
+      },
+      "visible_compared_windows": 45,
+      "max_raw_score_difference": 0.0,
+      "state_mismatches": [],
+      "masked_windows": [],
+      "events_match": true,
+      "events": [
+        {
+          "sequence_id": "caucafall-S05-FallForward",
+          "track_id": 5,
+          "confirmed_start_ms": 4466.666666666667,
+          "last_active_ms": 9300.0,
+          "peak_score": 0.6296485662460327,
+          "end_ms": 9466.666666666668,
+          "end_reason": "low_score"
+        }
+      ]
+    },
+    {
+      "source": "caucafall-S05-SitDown",
+      "evidence": "real_end_to_end_validation_demo",
+      "output": "refinement-demo-sit.mp4",
+      "frames": 389,
+      "decoded_verified": true,
+      "cache_result": {
+        "sequence_id": "caucafall-S05-SitDown",
+        "sequence_score": 0.34550708532333374,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 72,
+        "n_valid_endpoints": 72,
+        "window_coverage": 1.0,
+        "first_alarm_ms": null
+      },
+      "visible_compared_windows": 72,
+      "max_raw_score_difference": 0.0,
+      "state_mismatches": [],
+      "masked_windows": [],
+      "events_match": true,
+      "events": []
+    },
+    {
+      "source": "caucafall-S10-Kneel",
+      "evidence": "real_end_to_end_validation_demo",
+      "output": "refinement-demo-kneel.mp4",
+      "frames": 391,
+      "decoded_verified": true,
+      "cache_result": {
+        "sequence_id": "caucafall-S10-Kneel",
+        "sequence_score": 0.36089396476745605,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 73,
+        "n_valid_endpoints": 73,
+        "window_coverage": 1.0,
+        "first_alarm_ms": null
+      },
+      "visible_compared_windows": 73,
+      "max_raw_score_difference": 0.0,
+      "state_mismatches": [],
+      "masked_windows": [],
+      "events_match": true,
+      "events": []
+    }
+  ],
+  "complete": true
+}

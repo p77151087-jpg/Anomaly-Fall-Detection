@@ -1,0 +1,22 @@
+{
+  "fall-19": {
+    "status": 206,
+    "range": "bytes 100-199/575182",
+    "bytes": 100
+  },
+  "fall-09": {
+    "status": 206,
+    "range": "bytes 100-199/1797940",
+    "bytes": 100
+  },
+  "fall-18": {
+    "status": 206,
+    "range": "bytes 100-199/476750",
+    "bytes": 100
+  },
+  "fall-30": {
+    "status": 206,
+    "range": "bytes 100-199/615294",
+    "bytes": 100
+  }
+}

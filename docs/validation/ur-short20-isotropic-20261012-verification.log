@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\���j�M��\fall-detection-anomaly\scripts\verify_ur_short20_isotropic.py", line 273, in <module>
+    verify(p.parse_args().write)
+  File "C:\���j�M��\fall-detection-anomaly\scripts\verify_ur_short20_isotropic.py", line 160, in verify
+    grouped[w["sequence_id"]].append(w)
+            ~^^^^^^^^^^^^^^^
+KeyError: 'sequence_id'

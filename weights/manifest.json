@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "recipe_id": "human_tsstg_coco_cut_v1",
+  "resources": [
+    {
+      "role": "detector",
+      "recipe_id": "human_tsstg_coco_cut_v1",
+      "repository_url": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks",
+      "commit": "7ed2faa4d6147dfd576f58869b6c25545208af35",
+      "source_page": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/blob/7ed2faa4d6147dfd576f58869b6c25545208af35/README.md",
+      "download_url": "https://drive.google.com/uc?id=1obEbWBSm9bXeg10FriJ7R2cGLRsg-AfP",
+      "local_path": "weights/pretrained/detector.pth",
+      "size_bytes": null,
+      "sha256": null,
+      "upstream_expected_sha256": null,
+      "license": "Upstream root has no license; SPPE has separate LICENSE. Research use; redistribution rights unverified.",
+      "status": "missing"
+    },
+    {
+      "role": "detector_config",
+      "recipe_id": "human_tsstg_coco_cut_v1",
+      "repository_url": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks",
+      "commit": "7ed2faa4d6147dfd576f58869b6c25545208af35",
+      "source_page": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/blob/7ed2faa4d6147dfd576f58869b6c25545208af35/README.md",
+      "download_url": "https://drive.google.com/uc?id=19sPzBZjAjuJQ3emRteHybm2SG25w9Wn5",
+      "local_path": "weights/pretrained/yolov3-tiny-onecls.cfg",
+      "size_bytes": null,
+      "sha256": null,
+      "upstream_expected_sha256": null,
+      "license": "Upstream root has no license; SPPE has separate LICENSE. Research use; redistribution rights unverified.",
+      "status": "missing"
+    },
+    {
+      "role": "pose",
+      "recipe_id": "human_tsstg_coco_cut_v1",
+      "repository_url": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks",
+      "commit": "7ed2faa4d6147dfd576f58869b6c25545208af35",
+      "source_page": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/blob/7ed2faa4d6147dfd576f58869b6c25545208af35/README.md",
+      "download_url": "https://drive.google.com/uc?id=1IPfCDRwCmQDnQy94nT1V-_NVtTEi4VmU",
+      "local_path": "weights/pretrained/fast_res50_256x192.pth",
+      "size_bytes": null,
+      "sha256": null,
+      "upstream_expected_sha256": null,
+      "license": "Upstream root has no license; SPPE has separate LICENSE. Research use; redistribution rights unverified.",
+      "status": "missing"
+    },
+    {
+      "role": "stgcn",
+      "recipe_id": "human_tsstg_coco_cut_v1",
+      "repository_url": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks",
+      "commit": "7ed2faa4d6147dfd576f58869b6c25545208af35",
+      "source_page": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/blob/7ed2faa4d6147dfd576f58869b6c25545208af35/README.md",
+      "download_url": "https://drive.google.com/uc?id=1mQQ4JHe58ylKbBqTjuKzpwN2nwKOWJ9u",
+      "local_path": "weights/pretrained/tsstg-model.pth",
+      "size_bytes": null,
+      "sha256": null,
+      "upstream_expected_sha256": null,
+      "license": "Upstream root has no license; SPPE has separate LICENSE. Research use; redistribution rights unverified.",
+      "status": "missing"
+    }
+  ]
+}

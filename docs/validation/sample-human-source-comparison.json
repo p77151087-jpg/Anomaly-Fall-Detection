@@ -1,0 +1,11 @@
+{
+  "nested_source_sha256": "506422743cb8e573a8359cb43dde69466ad6ae5faffb81c27840c5c824371e46",
+  "classes_ast_equal": {
+    "GraphConvolution": true,
+    "st_gcn": true,
+    "StreamSpatialTemporalGraph": true,
+    "TwoStreamSpatialTemporalGraph": false
+  },
+  "difference": "Sample TwoStream forward returns (sigmoid output, points feature, motion feature); pinned upstream returns sigmoid output. Our extractor independently concatenates streams and verifies head parity.",
+  "not_proof_of_student_checkpoint_identity": true
+}

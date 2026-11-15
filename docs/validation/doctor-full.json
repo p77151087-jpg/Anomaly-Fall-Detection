@@ -1,0 +1,110 @@
+{
+  "mode": "full",
+  "checks": {
+    "device": "cuda",
+    "codecs": {
+      "mp4v": {
+        "passed": true,
+        "decoded_frames": 6
+      },
+      "MJPG": {
+        "passed": true,
+        "decoded_frames": 6
+      }
+    },
+    "pose_imports": "passed"
+  },
+  "environment": {
+    "os": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\成大專案\\fall-detection-anomaly\\.venv\\Scripts\\python.exe",
+    "packages": {
+      "numpy": "2.4.6",
+      "torch": "2.8.0+cu128",
+      "torchvision": "0.23.0+cu128",
+      "opencv-python-headless": "5.0.0.93",
+      "PyYAML": "6.0.3",
+      "scikit-learn": "1.9.1",
+      "matplotlib": "3.11.1",
+      "scipy": "1.17.1",
+      "pytest": "9.1.1",
+      "gdown": "6.2.0",
+      "truststore": "0.10.4"
+    },
+    "cuda_available": true,
+    "torch_cuda_runtime": "12.8",
+    "gpu_driver_info": "NVIDIA GeForce RTX 5060 Laptop GPU, 591.44, 8151 MiB",
+    "disk_free_bytes": 722334425088
+  },
+  "errors": [
+    "Weights not real-forward verified: detector, detector_config, pose, stgcn; fetch-assets --models, then smoke-test --mode real",
+    "Full dataset requires 70 sequences; found 2"
+  ],
+  "weights": [
+    {
+      "role": "detector",
+      "recipe_id": "human_tsstg_coco_cut_v1",
+      "repository_url": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks",
+      "commit": "7ed2faa4d6147dfd576f58869b6c25545208af35",
+      "source_page": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/blob/7ed2faa4d6147dfd576f58869b6c25545208af35/README.md",
+      "download_url": "https://drive.google.com/uc?id=1obEbWBSm9bXeg10FriJ7R2cGLRsg-AfP",
+      "local_path": "weights/pretrained/detector.pth",
+      "size_bytes": null,
+      "sha256": null,
+      "upstream_expected_sha256": null,
+      "license": "Upstream root has no license; SPPE has separate LICENSE. Research use; redistribution rights unverified.",
+      "status": "missing"
+    },
+    {
+      "role": "detector_config",
+      "recipe_id": "human_tsstg_coco_cut_v1",
+      "repository_url": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks",
+      "commit": "7ed2faa4d6147dfd576f58869b6c25545208af35",
+      "source_page": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/blob/7ed2faa4d6147dfd576f58869b6c25545208af35/README.md",
+      "download_url": "https://drive.google.com/uc?id=19sPzBZjAjuJQ3emRteHybm2SG25w9Wn5",
+      "local_path": "weights/pretrained/yolov3-tiny-onecls.cfg",
+      "size_bytes": null,
+      "sha256": null,
+      "upstream_expected_sha256": null,
+      "license": "Upstream root has no license; SPPE has separate LICENSE. Research use; redistribution rights unverified.",
+      "status": "missing"
+    },
+    {
+      "role": "pose",
+      "recipe_id": "human_tsstg_coco_cut_v1",
+      "repository_url": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks",
+      "commit": "7ed2faa4d6147dfd576f58869b6c25545208af35",
+      "source_page": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/blob/7ed2faa4d6147dfd576f58869b6c25545208af35/README.md",
+      "download_url": "https://drive.google.com/uc?id=1IPfCDRwCmQDnQy94nT1V-_NVtTEi4VmU",
+      "local_path": "weights/pretrained/fast_res50_256x192.pth",
+      "size_bytes": null,
+      "sha256": null,
+      "upstream_expected_sha256": null,
+      "license": "Upstream root has no license; SPPE has separate LICENSE. Research use; redistribution rights unverified.",
+      "status": "missing"
+    },
+    {
+      "role": "stgcn",
+      "recipe_id": "human_tsstg_coco_cut_v1",
+      "repository_url": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks",
+      "commit": "7ed2faa4d6147dfd576f58869b6c25545208af35",
+      "source_page": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/blob/7ed2faa4d6147dfd576f58869b6c25545208af35/README.md",
+      "download_url": "https://drive.google.com/uc?id=1mQQ4JHe58ylKbBqTjuKzpwN2nwKOWJ9u",
+      "local_path": "weights/pretrained/tsstg-model.pth",
+      "size_bytes": null,
+      "sha256": null,
+      "upstream_expected_sha256": null,
+      "license": "Upstream root has no license; SPPE has separate LICENSE. Research use; redistribution rights unverified.",
+      "status": "missing"
+    }
+  ],
+  "dataset": {
+    "n_planned": 70,
+    "n_downloaded": 2,
+    "downloaded_ids": [
+      "adl-05",
+      "fall-02"
+    ]
+  },
+  "passed": false
+}

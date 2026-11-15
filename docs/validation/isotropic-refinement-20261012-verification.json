@@ -1,0 +1,626 @@
+{
+  "preserved_files": 1039,
+  "checks": [
+    {
+      "run": "ur-isotropic-compact-20261012-001",
+      "metrics": {
+        "metric_unit": "sequence",
+        "TP": 14,
+        "FP": 1,
+        "FN": 1,
+        "TN": 7,
+        "n_total": 23,
+        "n_evaluable": 23,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "sequence_accuracy": 0.9130434782608695,
+        "sequence_fall_precision": 0.9333333333333333,
+        "sequence_fall_recall": 0.9333333333333333,
+        "sequence_fall_f1": 0.9333333333333333,
+        "operational_accuracy": 0.9130434782608695,
+        "end_to_end_fall_recall": 0.9333333333333333,
+        "outcomes_with_unknown": [
+          [
+            7,
+            1,
+            0
+          ],
+          [
+            1,
+            14,
+            0
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8408956982911019,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8489634748272458,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.8439114391143911,
+        "n_missing_timelines": 0
+      },
+      "independent_k3_sequences": 23,
+      "train_only_scaler_exact": true,
+      "train_only_ae_hashes": true,
+      "normal_val_checkpoint": true,
+      "eligibility": false
+    },
+    {
+      "run": "ur-isotropic-wide-20261012-001",
+      "metrics": {
+        "metric_unit": "sequence",
+        "TP": 14,
+        "FP": 0,
+        "FN": 1,
+        "TN": 8,
+        "n_total": 23,
+        "n_evaluable": 23,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "sequence_accuracy": 0.9565217391304348,
+        "sequence_fall_precision": 1.0,
+        "sequence_fall_recall": 0.9333333333333333,
+        "sequence_fall_f1": 0.9655172413793104,
+        "operational_accuracy": 0.9565217391304348,
+        "end_to_end_fall_recall": 0.9333333333333333,
+        "outcomes_with_unknown": [
+          [
+            8,
+            0,
+            0
+          ],
+          [
+            1,
+            14,
+            0
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8408956982911019,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8489634748272458,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.8439114391143911,
+        "n_missing_timelines": 0
+      },
+      "independent_k3_sequences": 23,
+      "train_only_scaler_exact": true,
+      "train_only_ae_hashes": true,
+      "normal_val_checkpoint": true,
+      "eligibility": false
+    },
+    {
+      "run": "ur-isotropic-denoise-20261012-001",
+      "metrics": {
+        "metric_unit": "sequence",
+        "TP": 13,
+        "FP": 0,
+        "FN": 2,
+        "TN": 8,
+        "n_total": 23,
+        "n_evaluable": 23,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "sequence_accuracy": 0.9130434782608695,
+        "sequence_fall_precision": 1.0,
+        "sequence_fall_recall": 0.8666666666666667,
+        "sequence_fall_f1": 0.9285714285714286,
+        "operational_accuracy": 0.9130434782608695,
+        "end_to_end_fall_recall": 0.8666666666666667,
+        "outcomes_with_unknown": [
+          [
+            8,
+            0,
+            0
+          ],
+          [
+            2,
+            13,
+            0
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8408956982911019,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8489634748272458,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.8439114391143911,
+        "n_missing_timelines": 0
+      },
+      "independent_k3_sequences": 23,
+      "train_only_scaler_exact": true,
+      "train_only_ae_hashes": true,
+      "normal_val_checkpoint": true,
+      "eligibility": false
+    }
+  ],
+  "feature_accesses": [
+    {
+      "sequence_id": "adl-33",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-08",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-40",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-19",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-05",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-17",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-26",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-29",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-21",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-25",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-11",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-28",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-31",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-30",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-12",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation"
+    }
+  ],
+  "test_feature_arrays_loaded": 0,
+  "new_test_evaluations": 0,
+  "completed_mutations_rejected": {
+    "diagnose": {
+      "rejected": true,
+      "reason": "fall_detect.io_utils.ContractError: Diagnosis already completed; use status"
+    },
+    "lock": {
+      "rejected": true,
+      "reason": "fall_detect.io_utils.ContractError: Candidate lock already exists"
+    },
+    "training": {
+      "rejected": true,
+      "reason": "fall_detect.io_utils.ContractError: Completed round; no retraining or additional candidates"
+    }
+  },
+  "synthetic_tests": {
+    "passed": 26,
+    "failed": 0,
+    "xml_sha256": "cc3a8701faf9dcf2bc72e7567ce3c883cd451ca6c8eba956969f28bdb8a6dcbf"
+  },
+  "evidence_tier": "real_feature_smoke",
+  "verifier_source_sha256": "5c1a72289e146b8246d70ff4ac1e6287b679d5d42f29fb388158ff40e5a9c67c"
+}

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "data\\cache\\ur-human-isotropic-001\\poses\\fall-18-8ea58d82231caddbfd83f6be94f60a868888dab5b86ead5c2757815b52d3b717.json": "7a4cd506d2b46d6c540c66b7f28f11170b55e878835625d465410e736b9ff9ac",
+    "data\\cache\\ur-human-isotropic-001\\poses\\fall-09-b90567b7e237be6fac107954490bb0ec2e32ac7134f0003054c61c1001f6b38b.json": "d60ef37e6c2ab9869643002b65c08e2dfe812aad10e2a92e323ca98d3e068e3b",
+    "data\\cache\\ur-human-isotropic-001\\poses\\fall-30-ddf227dd12f8822e77c65a52e43ef54484179a62205fe4f583bee00d53d69044.json": "102dfdeb8cc8a8802ea95f8f47ecbd189a3301f2c782315636bfd23a1399d4ab",
+    "outputs\\isotropic-refinement-20261012\\ur-isotropic-wide-20261012-001\\sequences.csv": "ab85b313a35616edab748bc6ba7237bcb8b8b42a806c89c5f286b6453c841285",
+    "outputs\\isotropic-refinement-20261012\\ur-isotropic-wide-20261012-001\\windows.csv": "75da17feffab40f6ba795e7d211e0934340c3070a5f9ebb44db6c18a19141b4c",
+    "outputs\\isotropic-refinement-20261012\\ur-isotropic-wide-20261012-001\\events.csv": "3282629a6acc246b27db367d46b91be7ab7dc106cc5e54600454a648d548ec07",
+    "outputs\\isotropic-refinement-20261012\\ur-isotropic-wide-20261012-001\\metrics.json": "9c7d22fe0beb8194eebd569cc9d19babacef7bd291a916ca22e8f868f6ea7241",
+    "outputs\\human-isotropic-validation\\ur-sample-human-s1-001\\sequences.csv": "44c53e6139625adae349b266c876385fb4382e0189eaecc8c2ac331f22df0410",
+    "runs\\ur-isotropic-wide-20261012-001\\threshold.json": "6a554dfc7eff56bbcf18ca9b1772783fb78fb4fe7b578d28fdf45e86f68fc89a",
+    "docs\\ur-validation-human-timing-20261105-plan.md": "fa13965c64bb24487b077cac52d59149dee69f3ee91489957f6c24fde5cdf2fb",
+    "scripts\\validation_human_timing.py": "596c4d5d123971197bd416647e587b70830658277ac6d36164a993c0cc824fa7",
+    "src\\fall_detect\\evaluation\\human_timing.py": "5f402557d3ffdb5d231e64941f113fa6b7571ac0b1daaff623546d65aad32ef2",
+    "tests\\test_validation_human_timing.py": "6c79d8443e63bc849fd3ca0951fad20b9abf6bc9d12e0595ff28b40503663212",
+    "scripts\\validation_alert_quality.py": "9a520dee041af78ceba2fee4c007234d609474dfe436e5aff1507557698fc295"
+  },
+  "annotation_external_path": "C:\\Users\\Huayi\\Downloads\\validation-three-clips-human-review.json",
+  "annotation_sha256": "cd36880401f9c7daee8b57124d8b2d65017abdf238f6012df47843fb9d7ea0c2",
+  "model_feature_arrays_loaded": false,
+  "test_access": false
+}

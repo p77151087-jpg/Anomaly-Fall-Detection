@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="6" skipped="0" tests="10" time="0.557" timestamp="2026-10-13T16:11:11.496355+08:00" hostname="MSI"><testcase classname="tests.test_joint_localization" name="test_translation_is_separate_from_joint_residual" time="0.001"><failure message="ValueError: operands could not be broadcast together with shapes (13,2) (0,)">def test_translation_is_separate_from_joint_residual():
+&gt;       rows, bones = diagnostic.measurements(frames())
+                                              ^^^^^^^^
+
+tests\test_joint_localization.py:30: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def frames():
+        xy = np.arange(26, dtype=float).reshape(13, 2) + 100
+        result = []
+        for fid in (44, 45):
+            result.append({
+                "source_frame_id": fid,
+                "timestamp_ms": (fid - 44) * 33.0,
+                "track_id": 1,
+&gt;               "keypoints": np.column_stack((xy + (fid - 44) * (5, 8), np.ones(13))).tolist(),
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^
+            })
+E           ValueError: operands could not be broadcast together with shapes (13,2) (0,)
+
+tests\test_joint_localization.py:24: ValueError</failure></testcase><testcase classname="tests.test_joint_localization" name="test_single_joint_jump_is_not_absorbed_as_person_translation" time="0.001"><failure message="ValueError: operands could not be broadcast together with shapes (13,2) (0,)">def test_single_joint_jump_is_not_absorbed_as_person_translation():
+&gt;       observations = frames()
+                       ^^^^^^^^
+
+tests\test_joint_localization.py:44: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def frames():
+        xy = np.arange(26, dtype=float).reshape(13, 2) + 100
+        result = []
+        for fid in (44, 45):
+            result.append({
+                "source_frame_id": fid,
+                "timestamp_ms": (fid - 44) * 33.0,
+                "track_id": 1,
+&gt;               "keypoints": np.column_stack((xy + (fid - 44) * (5, 8), np.ones(13))).tolist(),
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^
+            })
+E           ValueError: operands could not be broadcast together with shapes (13,2) (0,)
+
+tests\test_joint_localization.py:24: ValueError</failure></testcase><testcase classname="tests.test_joint_localization" name="test_no_bridging_gap_track_or_reversed_time[source_frame_id-46]" time="0.001"><failure message="ValueError: operands could not be broadcast together with shapes (13,2) (0,)">field = 'source_frame_id', value = 46
+
+    @pytest.mark.parametrize("field,value", [
+        ("source_frame_id", 46), ("track_id", 2), ("timestamp_ms", 0),
+    ])
+    def test_no_bridging_gap_track_or_reversed_time(field, value):
+&gt;       observations = frames()
+                       ^^^^^^^^
+
+tests\test_joint_localization.py:57: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def frames():
+        xy = np.arange(26, dtype=float).reshape(13, 2) + 100
+        result = []
+        for fid in (44, 45):
+            result.append({
+                "source_frame_id": fid,
+                "timestamp_ms": (fid - 44) * 33.0,
+                "track_id": 1,
+&gt;               "keypoints": np.column_stack((xy + (fid - 44) * (5, 8), np.ones(13))).tolist(),
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^
+            })
+E           ValueError: operands could not be broadcast together with shapes (13,2) (0,)
+
+tests\test_joint_localization.py:24: ValueError</failure></testcase><testcase classname="tests.test_joint_localization" name="test_no_bridging_gap_track_or_reversed_time[track_id-2]" time="0.000"><failure message="ValueError: operands could not be broadcast together with shapes (13,2) (0,)">field = 'track_id', value = 2
+
+    @pytest.mark.parametrize("field,value", [
+        ("source_frame_id", 46), ("track_id", 2), ("timestamp_ms", 0),
+    ])
+    def test_no_bridging_gap_track_or_reversed_time(field, value):
+&gt;       observations = frames()
+                       ^^^^^^^^
+
+tests\test_joint_localization.py:57: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def frames():
+        xy = np.arange(26, dtype=float).reshape(13, 2) + 100
+        result = []
+        for fid in (44, 45):
+            result.append({
+                "source_frame_id": fid,
+                "timestamp_ms": (fid - 44) * 33.0,
+                "track_id": 1,
+&gt;               "keypoints": np.column_stack((xy + (fid - 44) * (5, 8), np.ones(13))).tolist(),
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^
+            })
+E           ValueError: operands could not be broadcast together with shapes (13,2) (0,)
+
+tests\test_joint_localization.py:24: ValueError</failure></testcase><testcase classname="tests.test_joint_localization" name="test_no_bridging_gap_track_or_reversed_time[timestamp_ms-0]" time="0.000"><failure message="ValueError: operands could not be broadcast together with shapes (13,2) (0,)">field = 'timestamp_ms', value = 0
+
+    @pytest.mark.parametrize("field,value", [
+        ("source_frame_id", 46), ("track_id", 2), ("timestamp_ms", 0),
+    ])
+    def test_no_bridging_gap_track_or_reversed_time(field, value):
+&gt;       observations = frames()
+                       ^^^^^^^^
+
+tests\test_joint_localization.py:57: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def frames():
+        xy = np.arange(26, dtype=float).reshape(13, 2) + 100
+        result = []
+        for fid in (44, 45):
+            result.append({
+                "source_frame_id": fid,
+                "timestamp_ms": (fid - 44) * 33.0,
+                "track_id": 1,
+&gt;               "keypoints": np.column_stack((xy + (fid - 44) * (5, 8), np.ones(13))).tolist(),
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^
+            })
+E           ValueError: operands could not be broadcast together with shapes (13,2) (0,)
+
+tests\test_joint_localization.py:24: ValueError</failure></testcase><testcase classname="tests.test_joint_localization" name="test_finite_coordinates_required" time="0.000"><failure message="ValueError: operands could not be broadcast together with shapes (13,2) (0,)">def test_finite_coordinates_required():
+&gt;       observations = frames()
+                       ^^^^^^^^
+
+tests\test_joint_localization.py:64: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def frames():
+        xy = np.arange(26, dtype=float).reshape(13, 2) + 100
+        result = []
+        for fid in (44, 45):
+            result.append({
+                "source_frame_id": fid,
+                "timestamp_ms": (fid - 44) * 33.0,
+                "track_id": 1,
+&gt;               "keypoints": np.column_stack((xy + (fid - 44) * (5, 8), np.ones(13))).tolist(),
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^
+            })
+E           ValueError: operands could not be broadcast together with shapes (13,2) (0,)
+
+tests\test_joint_localization.py:24: ValueError</failure></testcase><testcase classname="tests.test_joint_localization" name="test_test_metadata_rejected_before_array_or_image_access" time="0.000" /><testcase classname="tests.test_joint_localization" name="test_existing_output_refused_before_source_read" time="0.006" /><testcase classname="tests.test_joint_localization" name="test_existing_review_refused_before_any_loading" time="0.002" /><testcase classname="tests.test_joint_localization" name="test_joint_mapping_matches_project_contract" time="0.003" /></testsuite></testsuites>

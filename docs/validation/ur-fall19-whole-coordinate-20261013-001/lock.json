@@ -1,0 +1,36 @@
+{
+  "id": "ur-fall19-whole-coordinate-20261013-001",
+  "source_sha256": "9b4f3216924a04896578187249f85d7dab4d855068e961620816d516a38f7429",
+  "parent_bundle_sha256": "068048f3365fb16a80951e6e707b2b2d3597ef30245f4d970cb7affd7884e8ce",
+  "recipe_hash": "565c5532169725504bcbc09c5bb179f03e46300095509f190ff3f1544d3224f2",
+  "base_recipe_hash": "713ee59a0853f20641cb7f664df2920359baa0734807acfa5cf86fb87a4e2f5b",
+  "files": {
+    "docs/ur-fall19-whole-coordinate-20261013-plan.md": "b5023667e75df8e7e724c9bdc0bc68adf54c4bf2c68f4ba152794b2c785baea0",
+    "scripts/whole_pose_coordinate_diagnostic.py": "bb8e4abac3720d84f55294dcafb45c646d182f35710e21d916926402380e8e97",
+    "scripts/verify_whole_pose_coordinate_diagnostic.py": "2162f00fcf784525d955cb9c8370d4510184a92b0dff403ef20f84df384ee86c",
+    "src/fall_detect/evaluation/whole_pose_coordinates.py": "bde675d22dedcdb3c6fe07c55e8c161558f4787bc274ce78b02eafe0d975400a",
+    "tests/test_whole_pose_coordinates.py": "511ef3f8f8c9223a3fb6fd1d32a6972db88183528243839c3c1cf181d9a3c917"
+  },
+  "reference_artifacts": {
+    "autoencoder.pt": "afdb6f1a37bb1ada3e13cffe10bc0c23466f0fcf908e567840c46f3bf5ad300b",
+    "scaler.npz": "a6dd9dbb68f85fa3bd6f358998d341d4b7d40317597e35db592f71ee4007eb19",
+    "resolved-config.yaml": "b9757eba646eab8fdead4c0a3f8a13a99f82775b32426c63905f1a1afc313b0a",
+    "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+    "sources.json": "7d44381db98270041702ac868fba6c578ca9938b20065c3878b452a6659e014e",
+    "dataset-index.json": "cdd111c3fd7608e3bfdcd71c569fc03206e60e6fd2518ce937306db19a993562",
+    "environment.json": "34c83940314d2c2651b4180f2154873dfd643ab5d79a135fb860cd4a1d22af3c",
+    "training-history.csv": "e82cee506fd67a0564ad8ea11d63d78829f734393dd284d83b977ad7dbd02091",
+    "threshold.json": "6a554dfc7eff56bbcf18ca9b1772783fb78fb4fe7b578d28fdf45e86f68fc89a",
+    "calibration.json": "81c4cf243ab194f8fe5b65fb905b2d9d6a8acf6fde1f123e03f15e97b44f4ffb"
+  },
+  "phase_sha256": "412e95ec2eac7b2c573297f67c48da1c6d13523606394e4be8cb90a60118b0df",
+  "old_inventory_sha256": "0baf4aa7afb5557e9ac2627c567c702dfa56eb022a625c3c065ce077eb14f978",
+  "allowed_sequences": {
+    "fall-19": "validation",
+    "adl-05": "train",
+    "adl-04": "validation"
+  },
+  "fit": false,
+  "calibration": false,
+  "test": "not_loaded_not_evaluated"
+}

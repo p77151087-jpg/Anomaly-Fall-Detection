@@ -1,0 +1,1099 @@
+{
+  "scope": "exploratory Validation calibration only",
+  "test_evaluation_performed": false,
+  "runs": {
+    "le2i-timing-001": {
+      "epochs": 88,
+      "best": {
+        "epoch": 78,
+        "train_loss": 0.09839485963565882,
+        "val_normal_loss": 0.2042546279311597
+      },
+      "calibration": {
+        "threshold": 0.14055135846137998,
+        "metrics": {
+          "metric_unit": "sequence",
+          "TP": 20,
+          "FP": 10,
+          "FN": 0,
+          "TN": 0,
+          "n_total": 38,
+          "n_evaluable": 30,
+          "n_unknown": 8,
+          "sequence_coverage": 0.7894736842105263,
+          "sequence_accuracy": 0.6666666666666666,
+          "sequence_fall_precision": 0.6666666666666666,
+          "sequence_fall_recall": 1.0,
+          "sequence_fall_f1": 0.8,
+          "operational_accuracy": 0.5263157894736842,
+          "end_to_end_fall_recall": 0.7692307692307693,
+          "outcomes_with_unknown": [
+            [
+              0,
+              10,
+              2
+            ],
+            [
+              0,
+              20,
+              6
+            ]
+          ],
+          "outcome_columns": [
+            "normal",
+            "suspected_fall",
+            "unknown"
+          ],
+          "outcome_rows": [
+            "ADL",
+            "Fall"
+          ],
+          "by_class": {
+            "ADL": {
+              "n_total": 12,
+              "n_unknown": 2,
+              "sequence_coverage": 0.8333333333333334,
+              "window_coverage": 0.49140893470790376,
+              "n_missing_timelines": 0
+            },
+            "Fall": {
+              "n_total": 26,
+              "n_unknown": 6,
+              "sequence_coverage": 0.7692307692307693,
+              "window_coverage": 0.5898617511520737,
+              "n_missing_timelines": 0
+            }
+          },
+          "window_coverage": 0.5503448275862068,
+          "n_missing_timelines": 0
+        }
+      },
+      "training_sampling": {
+        "strategy": "windows"
+      },
+      "frozen_artifacts": {
+        "autoencoder.pt": "b19ee3b108a9d1651a6c70bef75fe5d9b2db24ff3b5dd5bac432d7fd1fbe7bad",
+        "scaler.npz": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990",
+        "resolved-config.yaml": "5372c8434f3dfb8c2e3cdaa4a5367fdd4dc66c124164cd62b9b81c3d4fd24beb",
+        "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+        "sources.json": "fb849c7a5a40b215e00aa4060c09955fcfbaba7de8e24c4609931dc8a5f6424a",
+        "dataset-index.json": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+        "environment.json": "62786ea9350e5cdf836b9f5ef35fb9c5b6ada9608c9bc4e558b4c51bb3ba2da3",
+        "training-history.csv": "6d5317f144a0b554d649c841f3013b79984c32201c10e295ad234699bdab32fb",
+        "threshold.json": "38a820155015c81a9860d001544867d1d0333500a71d06988baf2d7d540c0291",
+        "calibration.json": "c18faba8d415d431d03fcad21452bb172dc9d5fa2b037e96195ed86ac2448ec1"
+      },
+      "training_reused_from": null
+    },
+    "le2i-timing-balanced-001": {
+      "epochs": 88,
+      "best": {
+        "epoch": 78,
+        "train_loss": 0.09839485963565882,
+        "val_normal_loss": 0.2042546279311597
+      },
+      "calibration": {
+        "threshold": 0.4929388761520386,
+        "metrics": {
+          "metric_unit": "sequence",
+          "TP": 12,
+          "FP": 1,
+          "FN": 8,
+          "TN": 9,
+          "n_total": 38,
+          "n_evaluable": 30,
+          "n_unknown": 8,
+          "sequence_coverage": 0.7894736842105263,
+          "sequence_accuracy": 0.7,
+          "sequence_fall_precision": 0.9230769230769231,
+          "sequence_fall_recall": 0.6,
+          "sequence_fall_f1": 0.7272727272727273,
+          "operational_accuracy": 0.5526315789473685,
+          "end_to_end_fall_recall": 0.46153846153846156,
+          "outcomes_with_unknown": [
+            [
+              9,
+              1,
+              2
+            ],
+            [
+              8,
+              12,
+              6
+            ]
+          ],
+          "outcome_columns": [
+            "normal",
+            "suspected_fall",
+            "unknown"
+          ],
+          "outcome_rows": [
+            "ADL",
+            "Fall"
+          ],
+          "by_class": {
+            "ADL": {
+              "n_total": 12,
+              "n_unknown": 2,
+              "sequence_coverage": 0.8333333333333334,
+              "window_coverage": 0.49140893470790376,
+              "n_missing_timelines": 0
+            },
+            "Fall": {
+              "n_total": 26,
+              "n_unknown": 6,
+              "sequence_coverage": 0.7692307692307693,
+              "window_coverage": 0.5898617511520737,
+              "n_missing_timelines": 0
+            }
+          },
+          "window_coverage": 0.5503448275862068,
+          "n_missing_timelines": 0,
+          "balanced_sequence_accuracy": 0.6057692307692308
+        }
+      },
+      "training_sampling": {
+        "strategy": "windows"
+      },
+      "frozen_artifacts": {
+        "autoencoder.pt": "b19ee3b108a9d1651a6c70bef75fe5d9b2db24ff3b5dd5bac432d7fd1fbe7bad",
+        "scaler.npz": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990",
+        "resolved-config.yaml": "618169bea4756ad2c69e2b671b19fe6f533df96434a2dcb13955f8041595468c",
+        "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+        "sources.json": "4fe9ea34f66660eb6e0a6fbe8339121cdea1f25b5ee7e159b008a38142d073a8",
+        "dataset-index.json": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+        "environment.json": "62786ea9350e5cdf836b9f5ef35fb9c5b6ada9608c9bc4e558b4c51bb3ba2da3",
+        "training-history.csv": "6d5317f144a0b554d649c841f3013b79984c32201c10e295ad234699bdab32fb",
+        "threshold.json": "b40521324c5f9298cbed262db8cc1d5bc37f32d98732938442f543f017066b57",
+        "calibration.json": "dda30ab037de60e4825c9935c674fe21980f2fa19f6858e2206ecb2e17afeb0e"
+      },
+      "training_reused_from": "le2i-timing-001"
+    },
+    "le2i-long-002": {
+      "epochs": 250,
+      "best": {
+        "epoch": 237,
+        "train_loss": 0.09986976128445858,
+        "val_normal_loss": 0.2031270192245712
+      },
+      "calibration": {
+        "threshold": 0.1336361765861511,
+        "metrics": {
+          "metric_unit": "sequence",
+          "TP": 20,
+          "FP": 10,
+          "FN": 0,
+          "TN": 0,
+          "n_total": 38,
+          "n_evaluable": 30,
+          "n_unknown": 8,
+          "sequence_coverage": 0.7894736842105263,
+          "sequence_accuracy": 0.6666666666666666,
+          "sequence_fall_precision": 0.6666666666666666,
+          "sequence_fall_recall": 1.0,
+          "sequence_fall_f1": 0.8,
+          "operational_accuracy": 0.5263157894736842,
+          "end_to_end_fall_recall": 0.7692307692307693,
+          "outcomes_with_unknown": [
+            [
+              0,
+              10,
+              2
+            ],
+            [
+              0,
+              20,
+              6
+            ]
+          ],
+          "outcome_columns": [
+            "normal",
+            "suspected_fall",
+            "unknown"
+          ],
+          "outcome_rows": [
+            "ADL",
+            "Fall"
+          ],
+          "by_class": {
+            "ADL": {
+              "n_total": 12,
+              "n_unknown": 2,
+              "sequence_coverage": 0.8333333333333334,
+              "window_coverage": 0.49140893470790376,
+              "n_missing_timelines": 0
+            },
+            "Fall": {
+              "n_total": 26,
+              "n_unknown": 6,
+              "sequence_coverage": 0.7692307692307693,
+              "window_coverage": 0.5898617511520737,
+              "n_missing_timelines": 0
+            }
+          },
+          "window_coverage": 0.5503448275862068,
+          "n_missing_timelines": 0,
+          "balanced_sequence_accuracy": 0.38461538461538464
+        }
+      },
+      "training_sampling": {
+        "strategy": "windows",
+        "replacement": false,
+        "samples_per_epoch": 4180,
+        "train_normal_feature_counts": {
+          "adl-33": 15,
+          "adl-08": 28,
+          "adl-40": 20,
+          "adl-19": 20,
+          "adl-05": 30,
+          "adl-38": 20,
+          "adl-17": 0,
+          "adl-06": 26,
+          "adl-26": 10,
+          "adl-29": 17,
+          "adl-22": 16,
+          "adl-21": 0,
+          "adl-36": 26,
+          "adl-25": 13,
+          "adl-11": 0,
+          "adl-28": 9,
+          "adl-32": 11,
+          "adl-31": 0,
+          "adl-27": 12,
+          "adl-07": 30,
+          "adl-30": 19,
+          "adl-12": 19,
+          "adl-24": 5,
+          "adl-10": 0,
+          "le2i-Coffee_room_02-video_61": 263,
+          "le2i-Coffee_room_02-video_63": 128,
+          "le2i-Coffee_room_02-video_65": 160,
+          "le2i-Coffee_room_02-video_66": 66,
+          "le2i-Coffee_room_02-video_67": 66,
+          "le2i-Coffee_room_02-video_69": 297,
+          "le2i-Coffee_room_02-video_70": 124,
+          "le2i-Home_02-video_38": 36,
+          "le2i-Home_02-video_39": 30,
+          "le2i-Home_02-video_41": 20,
+          "le2i-Home_02-video_42": 24,
+          "le2i-Home_02-video_43": 36,
+          "le2i-Home_02-video_44": 55,
+          "le2i-Home_02-video_45": 36,
+          "le2i-Home_02-video_52": 37,
+          "le2i-Home_02-video_53": 20,
+          "le2i-Home_02-video_54": 31,
+          "le2i-Home_02-video_55": 37,
+          "le2i-Home_02-video_56": 52,
+          "le2i-Lecture_room-video_17": 62,
+          "le2i-Lecture_room-video_18": 188,
+          "le2i-Lecture_room-video_19": 109,
+          "le2i-Lecture_room-video_24": 226,
+          "le2i-Lecture_room-video_25": 58,
+          "le2i-Lecture_room-video_26": 198,
+          "le2i-Lecture_room-video_27": 40,
+          "le2i-Office-video_18": 113,
+          "le2i-Office-video_19": 35,
+          "le2i-Office-video_20": 99,
+          "le2i-Office-video_23": 182,
+          "le2i-Office-video_24": 171,
+          "le2i-Office-video_26": 96,
+          "le2i-Office-video_27": 120,
+          "le2i-Office-video_28": 83,
+          "le2i-Office-video_29": 247,
+          "le2i-Office-video_30": 190,
+          "le2i-Office-video_32": 47,
+          "le2i-Office-video_33": 52
+        },
+        "validation_loss": "unweighted mean over all valid normal Validation windows",
+        "scaler_fit": "all valid Train ADL windows, unchanged"
+      },
+      "frozen_artifacts": {
+        "autoencoder.pt": "4c61775985220b1a21f8af7888c92c64ebca92e025881ea29c499b731496a71b",
+        "scaler.npz": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990",
+        "resolved-config.yaml": "f2c1e7a033435327690e484ba5c138b8addaa60218e3ff3007362bb5f0b7b4b3",
+        "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+        "sources.json": "c70b65e79a830f1215bcc40cc27b6ef81063e396501a94c70d959cc5e57df6ff",
+        "dataset-index.json": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+        "environment.json": "6364deed04d3e9cecd3adf7e97393d49320c5913d959d2a59cd52ff0ea52b768",
+        "training-history.csv": "081ffea3fd45a04be612fc04dece09687713986c5ba7535c5dcbd92d40b0a1c1",
+        "threshold.json": "f8cad79dbfe3788e016d2123ae34efffea7bc6ea49126ac58743ec39f4d46a5e",
+        "calibration.json": "ed78765ddee5aa62c4b19d25dea04178bff7ff26d8c0cdc5c4623ec7911251f3"
+      },
+      "training_reused_from": null
+    },
+    "le2i-long-002-balanced": {
+      "epochs": 250,
+      "best": {
+        "epoch": 237,
+        "train_loss": 0.09986976128445858,
+        "val_normal_loss": 0.2031270192245712
+      },
+      "calibration": {
+        "threshold": 0.5140079259872437,
+        "metrics": {
+          "metric_unit": "sequence",
+          "TP": 12,
+          "FP": 1,
+          "FN": 8,
+          "TN": 9,
+          "n_total": 38,
+          "n_evaluable": 30,
+          "n_unknown": 8,
+          "sequence_coverage": 0.7894736842105263,
+          "sequence_accuracy": 0.7,
+          "sequence_fall_precision": 0.9230769230769231,
+          "sequence_fall_recall": 0.6,
+          "sequence_fall_f1": 0.7272727272727273,
+          "operational_accuracy": 0.5526315789473685,
+          "end_to_end_fall_recall": 0.46153846153846156,
+          "outcomes_with_unknown": [
+            [
+              9,
+              1,
+              2
+            ],
+            [
+              8,
+              12,
+              6
+            ]
+          ],
+          "outcome_columns": [
+            "normal",
+            "suspected_fall",
+            "unknown"
+          ],
+          "outcome_rows": [
+            "ADL",
+            "Fall"
+          ],
+          "by_class": {
+            "ADL": {
+              "n_total": 12,
+              "n_unknown": 2,
+              "sequence_coverage": 0.8333333333333334,
+              "window_coverage": 0.49140893470790376,
+              "n_missing_timelines": 0
+            },
+            "Fall": {
+              "n_total": 26,
+              "n_unknown": 6,
+              "sequence_coverage": 0.7692307692307693,
+              "window_coverage": 0.5898617511520737,
+              "n_missing_timelines": 0
+            }
+          },
+          "window_coverage": 0.5503448275862068,
+          "n_missing_timelines": 0,
+          "balanced_sequence_accuracy": 0.6057692307692308
+        }
+      },
+      "training_sampling": {
+        "strategy": "windows",
+        "replacement": false,
+        "samples_per_epoch": 4180,
+        "train_normal_feature_counts": {
+          "adl-33": 15,
+          "adl-08": 28,
+          "adl-40": 20,
+          "adl-19": 20,
+          "adl-05": 30,
+          "adl-38": 20,
+          "adl-17": 0,
+          "adl-06": 26,
+          "adl-26": 10,
+          "adl-29": 17,
+          "adl-22": 16,
+          "adl-21": 0,
+          "adl-36": 26,
+          "adl-25": 13,
+          "adl-11": 0,
+          "adl-28": 9,
+          "adl-32": 11,
+          "adl-31": 0,
+          "adl-27": 12,
+          "adl-07": 30,
+          "adl-30": 19,
+          "adl-12": 19,
+          "adl-24": 5,
+          "adl-10": 0,
+          "le2i-Coffee_room_02-video_61": 263,
+          "le2i-Coffee_room_02-video_63": 128,
+          "le2i-Coffee_room_02-video_65": 160,
+          "le2i-Coffee_room_02-video_66": 66,
+          "le2i-Coffee_room_02-video_67": 66,
+          "le2i-Coffee_room_02-video_69": 297,
+          "le2i-Coffee_room_02-video_70": 124,
+          "le2i-Home_02-video_38": 36,
+          "le2i-Home_02-video_39": 30,
+          "le2i-Home_02-video_41": 20,
+          "le2i-Home_02-video_42": 24,
+          "le2i-Home_02-video_43": 36,
+          "le2i-Home_02-video_44": 55,
+          "le2i-Home_02-video_45": 36,
+          "le2i-Home_02-video_52": 37,
+          "le2i-Home_02-video_53": 20,
+          "le2i-Home_02-video_54": 31,
+          "le2i-Home_02-video_55": 37,
+          "le2i-Home_02-video_56": 52,
+          "le2i-Lecture_room-video_17": 62,
+          "le2i-Lecture_room-video_18": 188,
+          "le2i-Lecture_room-video_19": 109,
+          "le2i-Lecture_room-video_24": 226,
+          "le2i-Lecture_room-video_25": 58,
+          "le2i-Lecture_room-video_26": 198,
+          "le2i-Lecture_room-video_27": 40,
+          "le2i-Office-video_18": 113,
+          "le2i-Office-video_19": 35,
+          "le2i-Office-video_20": 99,
+          "le2i-Office-video_23": 182,
+          "le2i-Office-video_24": 171,
+          "le2i-Office-video_26": 96,
+          "le2i-Office-video_27": 120,
+          "le2i-Office-video_28": 83,
+          "le2i-Office-video_29": 247,
+          "le2i-Office-video_30": 190,
+          "le2i-Office-video_32": 47,
+          "le2i-Office-video_33": 52
+        },
+        "validation_loss": "unweighted mean over all valid normal Validation windows",
+        "scaler_fit": "all valid Train ADL windows, unchanged"
+      },
+      "frozen_artifacts": {
+        "autoencoder.pt": "4c61775985220b1a21f8af7888c92c64ebca92e025881ea29c499b731496a71b",
+        "scaler.npz": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990",
+        "resolved-config.yaml": "2eccd358c936f261fd8ee5647cabf1af97fdcc8dadd54bc24da2547c89579071",
+        "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+        "sources.json": "932e716c484b744fa5f8f221209e9f907fffa103ee28811d5fb29eae839e589b",
+        "dataset-index.json": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+        "environment.json": "6364deed04d3e9cecd3adf7e97393d49320c5913d959d2a59cd52ff0ea52b768",
+        "training-history.csv": "081ffea3fd45a04be612fc04dece09687713986c5ba7535c5dcbd92d40b0a1c1",
+        "threshold.json": "719f9dc265cfef181ae158dfc39dea4d8720b7aa004f4d288a3943567be9db53",
+        "calibration.json": "f0af1de1325c95e32f70e7b56bb1f5dbc8603b42e2cd477fa7631cb5dc49ba6a"
+      },
+      "training_reused_from": "le2i-long-002"
+    },
+    "le2i-seqbalanced-001": {
+      "epochs": 172,
+      "best": {
+        "epoch": 142,
+        "train_loss": 0.0947876033671735,
+        "val_normal_loss": 0.197624435140328
+      },
+      "calibration": {
+        "threshold": 0.11805969476699828,
+        "metrics": {
+          "metric_unit": "sequence",
+          "TP": 20,
+          "FP": 10,
+          "FN": 0,
+          "TN": 0,
+          "n_total": 38,
+          "n_evaluable": 30,
+          "n_unknown": 8,
+          "sequence_coverage": 0.7894736842105263,
+          "sequence_accuracy": 0.6666666666666666,
+          "sequence_fall_precision": 0.6666666666666666,
+          "sequence_fall_recall": 1.0,
+          "sequence_fall_f1": 0.8,
+          "operational_accuracy": 0.5263157894736842,
+          "end_to_end_fall_recall": 0.7692307692307693,
+          "outcomes_with_unknown": [
+            [
+              0,
+              10,
+              2
+            ],
+            [
+              0,
+              20,
+              6
+            ]
+          ],
+          "outcome_columns": [
+            "normal",
+            "suspected_fall",
+            "unknown"
+          ],
+          "outcome_rows": [
+            "ADL",
+            "Fall"
+          ],
+          "by_class": {
+            "ADL": {
+              "n_total": 12,
+              "n_unknown": 2,
+              "sequence_coverage": 0.8333333333333334,
+              "window_coverage": 0.49140893470790376,
+              "n_missing_timelines": 0
+            },
+            "Fall": {
+              "n_total": 26,
+              "n_unknown": 6,
+              "sequence_coverage": 0.7692307692307693,
+              "window_coverage": 0.5898617511520737,
+              "n_missing_timelines": 0
+            }
+          },
+          "window_coverage": 0.5503448275862068,
+          "n_missing_timelines": 0,
+          "balanced_sequence_accuracy": 0.38461538461538464
+        }
+      },
+      "training_sampling": {
+        "strategy": "sequences",
+        "replacement": true,
+        "samples_per_epoch": 4180,
+        "train_normal_feature_counts": {
+          "adl-33": 15,
+          "adl-08": 28,
+          "adl-40": 20,
+          "adl-19": 20,
+          "adl-05": 30,
+          "adl-38": 20,
+          "adl-17": 0,
+          "adl-06": 26,
+          "adl-26": 10,
+          "adl-29": 17,
+          "adl-22": 16,
+          "adl-21": 0,
+          "adl-36": 26,
+          "adl-25": 13,
+          "adl-11": 0,
+          "adl-28": 9,
+          "adl-32": 11,
+          "adl-31": 0,
+          "adl-27": 12,
+          "adl-07": 30,
+          "adl-30": 19,
+          "adl-12": 19,
+          "adl-24": 5,
+          "adl-10": 0,
+          "le2i-Coffee_room_02-video_61": 263,
+          "le2i-Coffee_room_02-video_63": 128,
+          "le2i-Coffee_room_02-video_65": 160,
+          "le2i-Coffee_room_02-video_66": 66,
+          "le2i-Coffee_room_02-video_67": 66,
+          "le2i-Coffee_room_02-video_69": 297,
+          "le2i-Coffee_room_02-video_70": 124,
+          "le2i-Home_02-video_38": 36,
+          "le2i-Home_02-video_39": 30,
+          "le2i-Home_02-video_41": 20,
+          "le2i-Home_02-video_42": 24,
+          "le2i-Home_02-video_43": 36,
+          "le2i-Home_02-video_44": 55,
+          "le2i-Home_02-video_45": 36,
+          "le2i-Home_02-video_52": 37,
+          "le2i-Home_02-video_53": 20,
+          "le2i-Home_02-video_54": 31,
+          "le2i-Home_02-video_55": 37,
+          "le2i-Home_02-video_56": 52,
+          "le2i-Lecture_room-video_17": 62,
+          "le2i-Lecture_room-video_18": 188,
+          "le2i-Lecture_room-video_19": 109,
+          "le2i-Lecture_room-video_24": 226,
+          "le2i-Lecture_room-video_25": 58,
+          "le2i-Lecture_room-video_26": 198,
+          "le2i-Lecture_room-video_27": 40,
+          "le2i-Office-video_18": 113,
+          "le2i-Office-video_19": 35,
+          "le2i-Office-video_20": 99,
+          "le2i-Office-video_23": 182,
+          "le2i-Office-video_24": 171,
+          "le2i-Office-video_26": 96,
+          "le2i-Office-video_27": 120,
+          "le2i-Office-video_28": 83,
+          "le2i-Office-video_29": 247,
+          "le2i-Office-video_30": 190,
+          "le2i-Office-video_32": 47,
+          "le2i-Office-video_33": 52
+        },
+        "validation_loss": "unweighted mean over all valid normal Validation windows",
+        "scaler_fit": "all valid Train ADL windows, unchanged"
+      },
+      "frozen_artifacts": {
+        "autoencoder.pt": "31d44195bf12b0041f7aad7b3f2b2f118f6ee62ccfe9f1340e491247f158ef2e",
+        "scaler.npz": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990",
+        "resolved-config.yaml": "643f82b05066f330e84e3679a5563d421b1fa8f2da122011d2172665f624bb5c",
+        "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+        "sources.json": "1c3d50487c564c5ab2cf8c22226ecc28ca6c3e293c9d8c742fa1b4f142e8e935",
+        "dataset-index.json": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+        "environment.json": "227d84b710a1c5414c9ef6e31107c470b4e0c502994e79bb25d74a301776fa38",
+        "training-history.csv": "1be4884e234ad2ae1e06edfdb8ff2dcbd62abdfc5b7af5c2e2c71c5f1fd67731",
+        "threshold.json": "e036d9f9c7d81a69ee04a7cdb7acb1065c24255c3666a8f778490a0c04f520ff",
+        "calibration.json": "cb12c24b02d47aad845336b73e16804ee85228f201061c379c108536e7237ca8"
+      },
+      "training_reused_from": null
+    },
+    "le2i-seqbalanced-001-balanced": {
+      "epochs": 172,
+      "best": {
+        "epoch": 142,
+        "train_loss": 0.0947876033671735,
+        "val_normal_loss": 0.197624435140328
+      },
+      "calibration": {
+        "threshold": 0.4713851809501648,
+        "metrics": {
+          "metric_unit": "sequence",
+          "TP": 12,
+          "FP": 1,
+          "FN": 8,
+          "TN": 9,
+          "n_total": 38,
+          "n_evaluable": 30,
+          "n_unknown": 8,
+          "sequence_coverage": 0.7894736842105263,
+          "sequence_accuracy": 0.7,
+          "sequence_fall_precision": 0.9230769230769231,
+          "sequence_fall_recall": 0.6,
+          "sequence_fall_f1": 0.7272727272727273,
+          "operational_accuracy": 0.5526315789473685,
+          "end_to_end_fall_recall": 0.46153846153846156,
+          "outcomes_with_unknown": [
+            [
+              9,
+              1,
+              2
+            ],
+            [
+              8,
+              12,
+              6
+            ]
+          ],
+          "outcome_columns": [
+            "normal",
+            "suspected_fall",
+            "unknown"
+          ],
+          "outcome_rows": [
+            "ADL",
+            "Fall"
+          ],
+          "by_class": {
+            "ADL": {
+              "n_total": 12,
+              "n_unknown": 2,
+              "sequence_coverage": 0.8333333333333334,
+              "window_coverage": 0.49140893470790376,
+              "n_missing_timelines": 0
+            },
+            "Fall": {
+              "n_total": 26,
+              "n_unknown": 6,
+              "sequence_coverage": 0.7692307692307693,
+              "window_coverage": 0.5898617511520737,
+              "n_missing_timelines": 0
+            }
+          },
+          "window_coverage": 0.5503448275862068,
+          "n_missing_timelines": 0,
+          "balanced_sequence_accuracy": 0.6057692307692308
+        }
+      },
+      "training_sampling": {
+        "strategy": "sequences",
+        "replacement": true,
+        "samples_per_epoch": 4180,
+        "train_normal_feature_counts": {
+          "adl-33": 15,
+          "adl-08": 28,
+          "adl-40": 20,
+          "adl-19": 20,
+          "adl-05": 30,
+          "adl-38": 20,
+          "adl-17": 0,
+          "adl-06": 26,
+          "adl-26": 10,
+          "adl-29": 17,
+          "adl-22": 16,
+          "adl-21": 0,
+          "adl-36": 26,
+          "adl-25": 13,
+          "adl-11": 0,
+          "adl-28": 9,
+          "adl-32": 11,
+          "adl-31": 0,
+          "adl-27": 12,
+          "adl-07": 30,
+          "adl-30": 19,
+          "adl-12": 19,
+          "adl-24": 5,
+          "adl-10": 0,
+          "le2i-Coffee_room_02-video_61": 263,
+          "le2i-Coffee_room_02-video_63": 128,
+          "le2i-Coffee_room_02-video_65": 160,
+          "le2i-Coffee_room_02-video_66": 66,
+          "le2i-Coffee_room_02-video_67": 66,
+          "le2i-Coffee_room_02-video_69": 297,
+          "le2i-Coffee_room_02-video_70": 124,
+          "le2i-Home_02-video_38": 36,
+          "le2i-Home_02-video_39": 30,
+          "le2i-Home_02-video_41": 20,
+          "le2i-Home_02-video_42": 24,
+          "le2i-Home_02-video_43": 36,
+          "le2i-Home_02-video_44": 55,
+          "le2i-Home_02-video_45": 36,
+          "le2i-Home_02-video_52": 37,
+          "le2i-Home_02-video_53": 20,
+          "le2i-Home_02-video_54": 31,
+          "le2i-Home_02-video_55": 37,
+          "le2i-Home_02-video_56": 52,
+          "le2i-Lecture_room-video_17": 62,
+          "le2i-Lecture_room-video_18": 188,
+          "le2i-Lecture_room-video_19": 109,
+          "le2i-Lecture_room-video_24": 226,
+          "le2i-Lecture_room-video_25": 58,
+          "le2i-Lecture_room-video_26": 198,
+          "le2i-Lecture_room-video_27": 40,
+          "le2i-Office-video_18": 113,
+          "le2i-Office-video_19": 35,
+          "le2i-Office-video_20": 99,
+          "le2i-Office-video_23": 182,
+          "le2i-Office-video_24": 171,
+          "le2i-Office-video_26": 96,
+          "le2i-Office-video_27": 120,
+          "le2i-Office-video_28": 83,
+          "le2i-Office-video_29": 247,
+          "le2i-Office-video_30": 190,
+          "le2i-Office-video_32": 47,
+          "le2i-Office-video_33": 52
+        },
+        "validation_loss": "unweighted mean over all valid normal Validation windows",
+        "scaler_fit": "all valid Train ADL windows, unchanged"
+      },
+      "frozen_artifacts": {
+        "autoencoder.pt": "31d44195bf12b0041f7aad7b3f2b2f118f6ee62ccfe9f1340e491247f158ef2e",
+        "scaler.npz": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990",
+        "resolved-config.yaml": "4f36d2ccd76474bfc2416b5d85b66933a8daf454c78db79646b8d97e78f1321a",
+        "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+        "sources.json": "9ea23195434d639a1bf14c297198f21bdf68b9b78cd5dea202fb878272ea01ef",
+        "dataset-index.json": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+        "environment.json": "227d84b710a1c5414c9ef6e31107c470b4e0c502994e79bb25d74a301776fa38",
+        "training-history.csv": "1be4884e234ad2ae1e06edfdb8ff2dcbd62abdfc5b7af5c2e2c71c5f1fd67731",
+        "threshold.json": "087432362eb8fd88e39a8323df87c3c7cacd971d93c666bcea42ef14aaa884de",
+        "calibration.json": "396fbeb38025d1724a4e9e8c7bc0b271798c9170536dc4840d8e56329bfb9735"
+      },
+      "training_reused_from": "le2i-seqbalanced-001"
+    },
+    "le2i-seqcompact-001": {
+      "epochs": 155,
+      "best": {
+        "epoch": 125,
+        "train_loss": 0.14095722615148462,
+        "val_normal_loss": 0.28505796465006744
+      },
+      "calibration": {
+        "threshold": 0.21723479032516477,
+        "metrics": {
+          "metric_unit": "sequence",
+          "TP": 20,
+          "FP": 10,
+          "FN": 0,
+          "TN": 0,
+          "n_total": 38,
+          "n_evaluable": 30,
+          "n_unknown": 8,
+          "sequence_coverage": 0.7894736842105263,
+          "sequence_accuracy": 0.6666666666666666,
+          "sequence_fall_precision": 0.6666666666666666,
+          "sequence_fall_recall": 1.0,
+          "sequence_fall_f1": 0.8,
+          "operational_accuracy": 0.5263157894736842,
+          "end_to_end_fall_recall": 0.7692307692307693,
+          "outcomes_with_unknown": [
+            [
+              0,
+              10,
+              2
+            ],
+            [
+              0,
+              20,
+              6
+            ]
+          ],
+          "outcome_columns": [
+            "normal",
+            "suspected_fall",
+            "unknown"
+          ],
+          "outcome_rows": [
+            "ADL",
+            "Fall"
+          ],
+          "by_class": {
+            "ADL": {
+              "n_total": 12,
+              "n_unknown": 2,
+              "sequence_coverage": 0.8333333333333334,
+              "window_coverage": 0.49140893470790376,
+              "n_missing_timelines": 0
+            },
+            "Fall": {
+              "n_total": 26,
+              "n_unknown": 6,
+              "sequence_coverage": 0.7692307692307693,
+              "window_coverage": 0.5898617511520737,
+              "n_missing_timelines": 0
+            }
+          },
+          "window_coverage": 0.5503448275862068,
+          "n_missing_timelines": 0,
+          "balanced_sequence_accuracy": 0.38461538461538464
+        }
+      },
+      "training_sampling": {
+        "strategy": "sequences",
+        "replacement": true,
+        "samples_per_epoch": 4180,
+        "train_normal_feature_counts": {
+          "adl-33": 15,
+          "adl-08": 28,
+          "adl-40": 20,
+          "adl-19": 20,
+          "adl-05": 30,
+          "adl-38": 20,
+          "adl-17": 0,
+          "adl-06": 26,
+          "adl-26": 10,
+          "adl-29": 17,
+          "adl-22": 16,
+          "adl-21": 0,
+          "adl-36": 26,
+          "adl-25": 13,
+          "adl-11": 0,
+          "adl-28": 9,
+          "adl-32": 11,
+          "adl-31": 0,
+          "adl-27": 12,
+          "adl-07": 30,
+          "adl-30": 19,
+          "adl-12": 19,
+          "adl-24": 5,
+          "adl-10": 0,
+          "le2i-Coffee_room_02-video_61": 263,
+          "le2i-Coffee_room_02-video_63": 128,
+          "le2i-Coffee_room_02-video_65": 160,
+          "le2i-Coffee_room_02-video_66": 66,
+          "le2i-Coffee_room_02-video_67": 66,
+          "le2i-Coffee_room_02-video_69": 297,
+          "le2i-Coffee_room_02-video_70": 124,
+          "le2i-Home_02-video_38": 36,
+          "le2i-Home_02-video_39": 30,
+          "le2i-Home_02-video_41": 20,
+          "le2i-Home_02-video_42": 24,
+          "le2i-Home_02-video_43": 36,
+          "le2i-Home_02-video_44": 55,
+          "le2i-Home_02-video_45": 36,
+          "le2i-Home_02-video_52": 37,
+          "le2i-Home_02-video_53": 20,
+          "le2i-Home_02-video_54": 31,
+          "le2i-Home_02-video_55": 37,
+          "le2i-Home_02-video_56": 52,
+          "le2i-Lecture_room-video_17": 62,
+          "le2i-Lecture_room-video_18": 188,
+          "le2i-Lecture_room-video_19": 109,
+          "le2i-Lecture_room-video_24": 226,
+          "le2i-Lecture_room-video_25": 58,
+          "le2i-Lecture_room-video_26": 198,
+          "le2i-Lecture_room-video_27": 40,
+          "le2i-Office-video_18": 113,
+          "le2i-Office-video_19": 35,
+          "le2i-Office-video_20": 99,
+          "le2i-Office-video_23": 182,
+          "le2i-Office-video_24": 171,
+          "le2i-Office-video_26": 96,
+          "le2i-Office-video_27": 120,
+          "le2i-Office-video_28": 83,
+          "le2i-Office-video_29": 247,
+          "le2i-Office-video_30": 190,
+          "le2i-Office-video_32": 47,
+          "le2i-Office-video_33": 52
+        },
+        "validation_loss": "unweighted mean over all valid normal Validation windows",
+        "scaler_fit": "all valid Train ADL windows, unchanged"
+      },
+      "frozen_artifacts": {
+        "autoencoder.pt": "ca870a9ed3cdb18d1373346d7094c54f7cd918af08191cdb6c55c1defc12f2c6",
+        "scaler.npz": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990",
+        "resolved-config.yaml": "18143f80ff9bafa0e023e644b95805eca9210af56cf80039ace062876dcb2b9a",
+        "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+        "sources.json": "1c3d50487c564c5ab2cf8c22226ecc28ca6c3e293c9d8c742fa1b4f142e8e935",
+        "dataset-index.json": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+        "environment.json": "e71a2eef228c7cf15d51d9fbadfe0a9e16bceb7644dda9cb63e37961f279c43d",
+        "training-history.csv": "76df2a1a957ab0abe88682aa9ea4bdcf28b13437bac3f480c322dc13e82ddc6a",
+        "threshold.json": "7f56bd721110347d9c5019a502f694dd2dfc8bdab7580655537f0be9cc86e94d",
+        "calibration.json": "d61373d80c3e80d69a155c6f832896f5b23140bfc97cf632bfe83c5c4c52dd13"
+      },
+      "training_reused_from": null
+    },
+    "le2i-seqcompact-001-balanced": {
+      "epochs": 155,
+      "best": {
+        "epoch": 125,
+        "train_loss": 0.14095722615148462,
+        "val_normal_loss": 0.28505796465006744
+      },
+      "calibration": {
+        "threshold": 0.7952942848205566,
+        "metrics": {
+          "metric_unit": "sequence",
+          "TP": 10,
+          "FP": 0,
+          "FN": 10,
+          "TN": 10,
+          "n_total": 38,
+          "n_evaluable": 30,
+          "n_unknown": 8,
+          "sequence_coverage": 0.7894736842105263,
+          "sequence_accuracy": 0.6666666666666666,
+          "sequence_fall_precision": 1.0,
+          "sequence_fall_recall": 0.5,
+          "sequence_fall_f1": 0.6666666666666666,
+          "operational_accuracy": 0.5263157894736842,
+          "end_to_end_fall_recall": 0.38461538461538464,
+          "outcomes_with_unknown": [
+            [
+              10,
+              0,
+              2
+            ],
+            [
+              10,
+              10,
+              6
+            ]
+          ],
+          "outcome_columns": [
+            "normal",
+            "suspected_fall",
+            "unknown"
+          ],
+          "outcome_rows": [
+            "ADL",
+            "Fall"
+          ],
+          "by_class": {
+            "ADL": {
+              "n_total": 12,
+              "n_unknown": 2,
+              "sequence_coverage": 0.8333333333333334,
+              "window_coverage": 0.49140893470790376,
+              "n_missing_timelines": 0
+            },
+            "Fall": {
+              "n_total": 26,
+              "n_unknown": 6,
+              "sequence_coverage": 0.7692307692307693,
+              "window_coverage": 0.5898617511520737,
+              "n_missing_timelines": 0
+            }
+          },
+          "window_coverage": 0.5503448275862068,
+          "n_missing_timelines": 0,
+          "balanced_sequence_accuracy": 0.608974358974359
+        }
+      },
+      "training_sampling": {
+        "strategy": "sequences",
+        "replacement": true,
+        "samples_per_epoch": 4180,
+        "train_normal_feature_counts": {
+          "adl-33": 15,
+          "adl-08": 28,
+          "adl-40": 20,
+          "adl-19": 20,
+          "adl-05": 30,
+          "adl-38": 20,
+          "adl-17": 0,
+          "adl-06": 26,
+          "adl-26": 10,
+          "adl-29": 17,
+          "adl-22": 16,
+          "adl-21": 0,
+          "adl-36": 26,
+          "adl-25": 13,
+          "adl-11": 0,
+          "adl-28": 9,
+          "adl-32": 11,
+          "adl-31": 0,
+          "adl-27": 12,
+          "adl-07": 30,
+          "adl-30": 19,
+          "adl-12": 19,
+          "adl-24": 5,
+          "adl-10": 0,
+          "le2i-Coffee_room_02-video_61": 263,
+          "le2i-Coffee_room_02-video_63": 128,
+          "le2i-Coffee_room_02-video_65": 160,
+          "le2i-Coffee_room_02-video_66": 66,
+          "le2i-Coffee_room_02-video_67": 66,
+          "le2i-Coffee_room_02-video_69": 297,
+          "le2i-Coffee_room_02-video_70": 124,
+          "le2i-Home_02-video_38": 36,
+          "le2i-Home_02-video_39": 30,
+          "le2i-Home_02-video_41": 20,
+          "le2i-Home_02-video_42": 24,
+          "le2i-Home_02-video_43": 36,
+          "le2i-Home_02-video_44": 55,
+          "le2i-Home_02-video_45": 36,
+          "le2i-Home_02-video_52": 37,
+          "le2i-Home_02-video_53": 20,
+          "le2i-Home_02-video_54": 31,
+          "le2i-Home_02-video_55": 37,
+          "le2i-Home_02-video_56": 52,
+          "le2i-Lecture_room-video_17": 62,
+          "le2i-Lecture_room-video_18": 188,
+          "le2i-Lecture_room-video_19": 109,
+          "le2i-Lecture_room-video_24": 226,
+          "le2i-Lecture_room-video_25": 58,
+          "le2i-Lecture_room-video_26": 198,
+          "le2i-Lecture_room-video_27": 40,
+          "le2i-Office-video_18": 113,
+          "le2i-Office-video_19": 35,
+          "le2i-Office-video_20": 99,
+          "le2i-Office-video_23": 182,
+          "le2i-Office-video_24": 171,
+          "le2i-Office-video_26": 96,
+          "le2i-Office-video_27": 120,
+          "le2i-Office-video_28": 83,
+          "le2i-Office-video_29": 247,
+          "le2i-Office-video_30": 190,
+          "le2i-Office-video_32": 47,
+          "le2i-Office-video_33": 52
+        },
+        "validation_loss": "unweighted mean over all valid normal Validation windows",
+        "scaler_fit": "all valid Train ADL windows, unchanged"
+      },
+      "frozen_artifacts": {
+        "autoencoder.pt": "ca870a9ed3cdb18d1373346d7094c54f7cd918af08191cdb6c55c1defc12f2c6",
+        "scaler.npz": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990",
+        "resolved-config.yaml": "34a01bcf68c9fa1b5a575cffa86f02d6ab3e5fb4bb93fd2ba11aeb9665130181",
+        "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+        "sources.json": "79b49f809deb02bfd8491988cf99edbadea18154371283a3dc678775273caf7f",
+        "dataset-index.json": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+        "environment.json": "e71a2eef228c7cf15d51d9fbadfe0a9e16bceb7644dda9cb63e37961f279c43d",
+        "training-history.csv": "76df2a1a957ab0abe88682aa9ea4bdcf28b13437bac3f480c322dc13e82ddc6a",
+        "threshold.json": "ad74bf2410d0663b4db90f9f08e746b94278b4dbfc5c2ec8b443cf0d990c1f14",
+        "calibration.json": "60ee4394922624cbfe386477b4f2eb4d779c66931aae6578dfa411fe7c2b8706"
+      },
+      "training_reused_from": "le2i-seqcompact-001"
+    }
+  },
+  "failed_attempt": "le2i-long-001",
+  "successful_training_epochs_this_round": 577,
+  "unknown_in_total_denominator": true,
+  "locked_balanced_objective_winner": "le2i-seqcompact-001-balanced",
+  "operational_accuracy_improved": false,
+  "practical_conclusion": "Locked balanced objective selects compact by 0.32 percentage points, but it lowers operational accuracy and fall recall. No demonstrated overall accuracy improvement; retain previous model for the overall-accuracy use case.",
+  "old_frozen_runs_unchanged": {
+    "le2i-extension-001": true,
+    "le2i-timing-001": true,
+    "le2i-timing-balanced-001": true,
+    "openpose18-baseline-001": true,
+    "openpose18-rotation-001": true
+  },
+  "retry_first_165_max_loss_difference": 0.0
+}

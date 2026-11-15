@@ -1,0 +1,333 @@
+{
+  "origin": "human_self_reported",
+  "reviewed_frames": 100,
+  "label_runs": {
+    "phase": [
+      {
+        "label": "upright",
+        "first_frame": 1,
+        "last_frame": 32,
+        "frames": 32,
+        "first_ms": 0,
+        "last_ms": 1034
+      },
+      {
+        "label": "transition",
+        "first_frame": 33,
+        "last_frame": 61,
+        "frames": 29,
+        "first_ms": 1067,
+        "last_ms": 2002
+      },
+      {
+        "label": "ground",
+        "first_frame": 62,
+        "last_frame": 100,
+        "frames": 39,
+        "first_ms": 2035,
+        "last_ms": 3303
+      }
+    ],
+    "visibility": [
+      {
+        "label": "full",
+        "first_frame": 1,
+        "last_frame": 43,
+        "frames": 43,
+        "first_ms": 0,
+        "last_ms": 1401
+      },
+      {
+        "label": "partial",
+        "first_frame": 44,
+        "last_frame": 100,
+        "frames": 57,
+        "first_ms": 1434,
+        "last_ms": 3303
+      }
+    ],
+    "pose_check": [
+      {
+        "label": "matches_person",
+        "first_frame": 1,
+        "last_frame": 43,
+        "frames": 43,
+        "first_ms": 0,
+        "last_ms": 1401
+      },
+      {
+        "label": "wrong_or_drift",
+        "first_frame": 44,
+        "last_frame": 53,
+        "frames": 10,
+        "first_ms": 1434,
+        "last_ms": 1735
+      },
+      {
+        "label": "missing",
+        "first_frame": 54,
+        "last_frame": 55,
+        "frames": 2,
+        "first_ms": 1768,
+        "last_ms": 1801
+      },
+      {
+        "label": "wrong_or_drift",
+        "first_frame": 56,
+        "last_frame": 58,
+        "frames": 3,
+        "first_ms": 1835,
+        "last_ms": 1902
+      },
+      {
+        "label": "missing",
+        "first_frame": 59,
+        "last_frame": 59,
+        "frames": 1,
+        "first_ms": 1935,
+        "last_ms": 1935
+      },
+      {
+        "label": "wrong_or_drift",
+        "first_frame": 60,
+        "last_frame": 100,
+        "frames": 41,
+        "first_ms": 1968,
+        "last_ms": 3303
+      }
+    ]
+  },
+  "semantic_warnings": [
+    {
+      "code": "matches_person_without_cached_pose",
+      "source_frame_id": 1
+    },
+    {
+      "code": "matches_person_without_cached_pose",
+      "source_frame_id": 2
+    },
+    {
+      "code": "boundary_fields_equal_whole_phase_runs",
+      "requires_human_clarification": true
+    }
+  ],
+  "wrong_but_confidence_good_frames": [
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "methods": {
+    "wide30": {
+      "upright": {
+        "scheduled": 4,
+        "valid": 2,
+        "coverage": 0.5,
+        "quality_counts": {
+          "track_gap": 2,
+          "valid": 2
+        },
+        "legal_last_source_pose_labels": {
+          "matches_person": 2
+        },
+        "legal_last_source_confidence_good": 2,
+        "max_raw": 0.03615066781640053,
+        "max_k3": null,
+        "human_matches_last_source_max_raw": 0.03615066781640053,
+        "human_matches_last_source_max_k3": null,
+        "raw_crossings": 0,
+        "k3_crossings": 0,
+        "threshold": 0.5341113805770874
+      },
+      "transition": {
+        "scheduled": 29,
+        "valid": 21,
+        "coverage": 0.7241379310344828,
+        "quality_counts": {
+          "valid": 21,
+          "track_gap": 8
+        },
+        "legal_last_source_pose_labels": {
+          "matches_person": 11,
+          "wrong_or_drift": 10
+        },
+        "legal_last_source_confidence_good": 19,
+        "max_raw": 0.1839069426059723,
+        "max_k3": 0.13463649153709412,
+        "human_matches_last_source_max_raw": 0.1262500286102295,
+        "human_matches_last_source_max_k3": 0.06990178674459457,
+        "raw_crossings": 0,
+        "k3_crossings": 0,
+        "threshold": 0.5341113805770874
+      },
+      "ground": {
+        "scheduled": 38,
+        "valid": 0,
+        "coverage": 0.0,
+        "quality_counts": {
+          "track_gap": 27,
+          "low_confidence": 11
+        },
+        "legal_last_source_pose_labels": {},
+        "legal_last_source_confidence_good": 0,
+        "max_raw": null,
+        "max_k3": null,
+        "human_matches_last_source_max_raw": null,
+        "human_matches_last_source_max_k3": null,
+        "raw_crossings": 0,
+        "k3_crossings": 0,
+        "threshold": 0.5341113805770874
+      }
+    },
+    "isotropic20": {
+      "upright": {
+        "scheduled": 14,
+        "valid": 12,
+        "coverage": 0.8571428571428571,
+        "quality_counts": {
+          "track_gap": 2,
+          "valid": 12
+        },
+        "legal_last_source_pose_labels": {
+          "matches_person": 12
+        },
+        "legal_last_source_confidence_good": 12,
+        "max_raw": 0.04052932560443878,
+        "max_k3": 0.03152061998844147,
+        "human_matches_last_source_max_raw": 0.04052932560443878,
+        "human_matches_last_source_max_k3": 0.03152061998844147,
+        "raw_crossings": 0,
+        "k3_crossings": 0,
+        "threshold": 0.4238913059234619
+      },
+      "transition": {
+        "scheduled": 29,
+        "valid": 21,
+        "coverage": 0.7241379310344828,
+        "quality_counts": {
+          "valid": 21,
+          "track_gap": 8
+        },
+        "legal_last_source_pose_labels": {
+          "matches_person": 11,
+          "wrong_or_drift": 10
+        },
+        "legal_last_source_confidence_good": 19,
+        "max_raw": 0.32384026050567627,
+        "max_k3": 0.23524624109268188,
+        "human_matches_last_source_max_raw": 0.21408508718013763,
+        "human_matches_last_source_max_k3": 0.10210160911083221,
+        "raw_crossings": 0,
+        "k3_crossings": 0,
+        "threshold": 0.4238913059234619
+      },
+      "ground": {
+        "scheduled": 38,
+        "valid": 0,
+        "coverage": 0.0,
+        "quality_counts": {
+          "track_gap": 17,
+          "low_confidence": 21
+        },
+        "legal_last_source_pose_labels": {},
+        "legal_last_source_confidence_good": 0,
+        "max_raw": null,
+        "max_k3": null,
+        "human_matches_last_source_max_raw": null,
+        "human_matches_last_source_max_k3": null,
+        "raw_crossings": 0,
+        "k3_crossings": 0,
+        "threshold": 0.4238913059234619
+      }
+    },
+    "motion_fusion": {
+      "upright": {
+        "scheduled": 4,
+        "valid": 2,
+        "coverage": 0.5,
+        "quality_counts": {
+          "track_gap": 2,
+          "valid": 2
+        },
+        "legal_last_source_pose_labels": {
+          "matches_person": 2
+        },
+        "legal_last_source_confidence_good": 2,
+        "max_raw": 0.33038236740513816,
+        "max_k3": null,
+        "human_matches_last_source_max_raw": 0.33038236740513816,
+        "human_matches_last_source_max_k3": null,
+        "raw_crossings": 0,
+        "k3_crossings": 0,
+        "threshold": 4.881264801781326
+      },
+      "transition": {
+        "scheduled": 29,
+        "valid": 21,
+        "coverage": 0.7241379310344828,
+        "quality_counts": {
+          "valid": 21,
+          "track_gap": 8
+        },
+        "legal_last_source_pose_labels": {
+          "matches_person": 11,
+          "wrong_or_drift": 10
+        },
+        "legal_last_source_confidence_good": 19,
+        "max_raw": 1.680732743001696,
+        "max_k3": 1.2304481632001,
+        "human_matches_last_source_max_raw": 1.1538039504291273,
+        "human_matches_last_source_max_k3": 0.6388351636494811,
+        "raw_crossings": 0,
+        "k3_crossings": 0,
+        "threshold": 4.881264801781326
+      },
+      "ground": {
+        "scheduled": 38,
+        "valid": 0,
+        "coverage": 0.0,
+        "quality_counts": {
+          "track_gap": 27,
+          "low_confidence": 11
+        },
+        "legal_last_source_pose_labels": {},
+        "legal_last_source_confidence_good": 0,
+        "max_raw": null,
+        "max_k3": null,
+        "human_matches_last_source_max_raw": null,
+        "human_matches_last_source_max_k3": null,
+        "raw_crossings": 0,
+        "k3_crossings": 0,
+        "threshold": 4.881264801781326
+      }
+    }
+  },
+  "endpoint_label_scope": "Last actual source observation only, not whole-window pose accuracy",
+  "precise_onset_latency_computed": false,
+  "formal_time_accuracy_computed": false,
+  "used_for_training": false,
+  "used_for_calibration": false,
+  "annotation_sha256": "f7dbda11fcf42dbcf4f2a203ea0d0c22b70d7fa0b0c7915051be8cc540b88f3c",
+  "imported_validation": {
+    "validated": true,
+    "origin": "human_self_reported",
+    "reviewer": "唐懷毅",
+    "reviewed_frames": 100,
+    "identity_independently_verified": false,
+    "used_for_training": false,
+    "used_for_calibration": false,
+    "scope": "Validation diagnosis only; not complete independent ground truth"
+  },
+  "parent_artifacts_unchanged": 245,
+  "original_contracts_preserved": 2,
+  "window_rows": 223,
+  "human_boundary_semantics": "pending clarification; original ranges retained without reinterpretation",
+  "new_training_epochs": 0,
+  "test_feature_reads": 0,
+  "new_test_evaluations": 0,
+  "evidence_level": "real_feature_smoke: imported human self-report aligned with frozen scores"
+}

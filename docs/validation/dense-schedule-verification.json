@@ -1,0 +1,37 @@
+{
+  "old_runs_preserved": 26,
+  "new_frozen_runs": 2,
+  "source_index_unchanged": true,
+  "validation_recomputed_matches": true,
+  "full_tests": {
+    "passed": 153,
+    "skipped": 1,
+    "seconds": 37.08,
+    "xml": "docs/validation/pytest-dense-schedule-final.xml"
+  },
+  "ruff_check": true,
+  "formatted_files": 70,
+  "test_scored": false,
+  "selected": "ur-ae-decay-001",
+  "new_models_promoted": false,
+  "threshold_frontier_diagnostic": [
+    {
+      "run": "ur-ae-decay-001",
+      "highest_accuracy_in_already_saved_validation_candidates": 0.7391304347826086,
+      "F1_at_that_candidate": 0.8,
+      "diagnostic_only_threshold_not_changed": true
+    },
+    {
+      "run": "ur-stride2-decay-001",
+      "highest_accuracy_in_already_saved_validation_candidates": 0.6956521739130435,
+      "F1_at_that_candidate": 0.8108108108108109,
+      "diagnostic_only_threshold_not_changed": true
+    },
+    {
+      "run": "ur-stride1-decay-001",
+      "highest_accuracy_in_already_saved_validation_candidates": 0.6956521739130435,
+      "F1_at_that_candidate": 0.72,
+      "diagnostic_only_threshold_not_changed": true
+    }
+  ]
+}

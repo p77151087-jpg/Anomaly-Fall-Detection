@@ -1,0 +1,130 @@
+{
+  "source_kind": "real_end_to_end",
+  "created_at": "2026-09-18T00:51:11.713104+00:00",
+  "run": "course-ur-balanced-001",
+  "cases": [
+    {
+      "sequence_id": "adl-04",
+      "split": "validation",
+      "frames": 149,
+      "logs_byte_identical": true,
+      "events_byte_identical": true,
+      "fresh_scores_compared_with_cache": 24,
+      "masked_valid_endpoints": 0,
+      "max_abs_score_difference": 0.0,
+      "unknown_stale_score_violations": 0,
+      "decoded_verified": true,
+      "fps": 30.0,
+      "states": [
+        "normal",
+        "warming_up"
+      ],
+      "presentation_sha256": "d891463ee64e415f473b327ea266f2ca4cec312b61aa2b0a7bd7941272cda5dd",
+      "logs_sha256": "0c253a411c925fe10b8db263cee1def9336d151f93e17960f002c86ff67f288d"
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation",
+      "frames": 110,
+      "logs_byte_identical": true,
+      "events_byte_identical": true,
+      "fresh_scores_compared_with_cache": 9,
+      "masked_valid_endpoints": 0,
+      "max_abs_score_difference": 0.0,
+      "unknown_stale_score_violations": 0,
+      "decoded_verified": true,
+      "fps": 30.0,
+      "states": [
+        "suspected_fall",
+        "unknown",
+        "warming_up"
+      ],
+      "presentation_sha256": "21c10527a96f48396e8e9614f698b17e388a983721eedac6124929857cc606ff",
+      "logs_sha256": "9532ea0d7a3314c9b9ff8003c0cb54a54a84a8b7fb4620ad8abc373b1a2660b9"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation",
+      "frames": 269,
+      "logs_byte_identical": true,
+      "events_byte_identical": true,
+      "fresh_scores_compared_with_cache": 29,
+      "masked_valid_endpoints": 1,
+      "max_abs_score_difference": 0.0,
+      "unknown_stale_score_violations": 0,
+      "decoded_verified": true,
+      "fps": 30.0,
+      "states": [
+        "normal",
+        "suspected_fall",
+        "unknown",
+        "warming_up"
+      ],
+      "presentation_sha256": "f16055c4267f57c5b859a6b794355d59b6edc126136e628c05d351ba38eb4e88",
+      "logs_sha256": "c8cb2f0b02981c280a717999d7f217c01ad1545a5f25f1edfd75da07639ce30b"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation",
+      "frames": 100,
+      "logs_byte_identical": true,
+      "events_byte_identical": true,
+      "fresh_scores_compared_with_cache": 5,
+      "masked_valid_endpoints": 0,
+      "max_abs_score_difference": 0.0,
+      "unknown_stale_score_violations": 0,
+      "decoded_verified": true,
+      "fps": 30.0,
+      "states": [
+        "normal",
+        "unknown",
+        "warming_up"
+      ],
+      "presentation_sha256": "61dfe1303a513909687bad7557d2d6640a2529d5049e4b27b2790941d31d510f",
+      "logs_sha256": "4c3d097a7fa86193489971143b3775e09af2355e5e8010d4ac7368deb2dc832c"
+    }
+  ],
+  "screenshots": {
+    "warming_up": {
+      "sequence_id": "adl-04",
+      "sample_index": 19,
+      "timestamp_ms": 633.3333333333334,
+      "path": "C:\\成大專案\\fall-detection-anomaly\\outputs\\course-demo\\state-warming_up.png",
+      "sha256": "6f878153f3c625218385e62f8b7d4628a1da9e83ae0ec4c7782a430ac9c32e74"
+    },
+    "normal": {
+      "sequence_id": "adl-04",
+      "sample_index": 94,
+      "timestamp_ms": 3133.3333333333335,
+      "path": "C:\\成大專案\\fall-detection-anomaly\\outputs\\course-demo\\state-normal.png",
+      "sha256": "0a7567dd27ea0b5f5e6e8be2168c9dca0f5b4e2faba7b6c3d4f24aa14ff0eb46"
+    },
+    "suspected_fall": {
+      "sequence_id": "fall-02",
+      "sample_index": 54,
+      "timestamp_ms": 1800.0000000000002,
+      "path": "C:\\成大專案\\fall-detection-anomaly\\outputs\\course-demo\\state-suspected_fall.png",
+      "sha256": "b0ad6ba4be608011f0fb999929acb6f6456370223e0e9e02dc9f89eb5ff3b9c4"
+    },
+    "unknown": {
+      "sequence_id": "fall-02",
+      "sample_index": 88,
+      "timestamp_ms": 2933.3333333333335,
+      "path": "C:\\成大專案\\fall-detection-anomaly\\outputs\\course-demo\\state-unknown.png",
+      "sha256": "940c6b73a3d3f498910c4d6d1b80a594ebdab535e8be7cbf4692306678834abe"
+    }
+  },
+  "rendering_only": true,
+  "frozen_artifacts": {
+    "autoencoder.pt": "af38f41eac11c2ec805ec8c13be0f3db8bc9d3a94da5e1ec8d8a9dcac3902fa7",
+    "scaler.npz": "502b564d881dafb95c143512fa0eb43806cb345f746ab6469988ee2f06fe1866",
+    "resolved-config.yaml": "2c9bf179b45d635cf18cdd9afb095c08724a6e8db3f1f7989398313c2481f432",
+    "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+    "sources.json": "01d3cdc22ffc2da768e9ecd9ccab793db0a015b144ea003b1afad17fbfc6c8a5",
+    "dataset-index.json": "e235c07ce1de28a8ee8ec402db584af91c4fe511a0b57f526b3b1edf5766efd6",
+    "environment.json": "ddaf66749bd034db089ee855bf7dadd06320a3ef468ae2af96add7125d9b6538",
+    "training-history.csv": "af903895f39bd851b1758fc4ebe080f90183c05f9cf109bb41781634a068b5d1",
+    "threshold.json": "9a2579d7002271648c4fd3914eabbdb3e2cfba295a092ac1d8d24b3ae29ef05c",
+    "calibration.json": "3f906b9720e21461f6e439da87e7fcd91425ccbf139d0f4494a5fe313ee1ee93"
+  }
+}

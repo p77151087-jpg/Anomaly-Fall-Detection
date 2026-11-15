@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "script_sha256": "ec188c09a63ba508acba6cfb38f4fafa2df0fcdde2f377dd41eea4f706ba6f2b",
+  "source": "https://figshare.com/articles/dataset/28596332/2",
+  "uma_source": "https://figshare.com/articles/dataset/4214283/8",
+  "license": "CC BY 4.0",
+  "source_label": "ADL directory / official videos_ADL archive",
+  "selection": "subjects 01,02,03,04,06,07,08,09 (05 lacks ACT18/24 in inventory), ACT13/18/24, F view, trial 1, lexicographically first location; all 8 UMA demonstrations",
+  "selection_uses_ur_validation_scores": false,
+  "selection_uses_test": false,
+  "new_sources_assignment": "external_train_only; not a new independent evaluation split",
+  "members": [
+    {
+      "name": "VideoDataset/ADL/SBJ_01_LOC3/ACT13_F_1/20240923124722.mp4",
+      "method": 8,
+      "compressed": 567654,
+      "size": 568305,
+      "crc": 3038411486,
+      "offset": 1086333696
+    },
+    {
+      "name": "VideoDataset/ADL/SBJ_01_LOC3/ACT18_F_1/20240923125339.mp4",
+      "method": 8,
+      "compressed": 614007,
+      "size": 614612,
+      "crc": 952551236,
+      "offset": 1066634882
+    },
+    {
+      "name": "VideoDataset/ADL/SBJ_01_LOC3/ACT24_F_1/20240923130707.mp4",
+      "method": 8,
+      "compressed": 563819,
+      "size": 564478,
+      "crc": 4160288842,
+      "offset": 1067259256
+    },
+    {
+      "name": "VideoDataset/ADL/SBJ_02_LOC5/ACT13_F_1/20240923151034.mp4",
+      "method": 8,
+      "compressed": 1043619,
+      "size": 1044126,
+      "crc": 1831990407,
+      "offset": 1247641231
+    },
+    {
+      "name": "VideoDataset/ADL/SBJ_02_LOC5/ACT18_F_1/20240923151548.mp4",
+      "method": 8,
+      "compressed": 973628,
+      "size": 974181,
+      "crc": 2089270747,
+      "offset": 1209122293
+    },
+    {
+      "name": "VideoDataset/ADL/SBJ_02_LOC5/ACT24_F_1/20240923152407.mp4",
+      "method": 8,
+      "compressed": 1075795,
+      "size": 1076316,
+      "crc": 3244766715,
+      "offset": 1210118418
+    },
+    {
+      "name": "VideoDataset/ADL/SBJ_03_LOC4/ACT13_F_1/20240920111902.mp4",
+      "method": 8,
+      "compressed": 3661892,
+      "size": 3661361,
+      "crc": 1559106838,
+      "offset": 1445060042
+    },
+    {
+      "name": "VideoDataset/ADL/SBJ_03_LOC4/ACT18_F_1/20240920113615.mp4",
+      "method": 8,
+      "compressed": 4998466,
+      "size": 4997764,
+      "crc": 2537206675,
+      "offset": 1346300189
+    },
+    {
+      "name": "VideoDataset/ADL/SBJ_03_LOC4/ACT24_F_1/20240920115218.mp4",
+      "method": 8,
+      "compressed": 3453804,
+      "size": 3453425,
+      "crc": 2716618246,
+      "offset": 1351331228
+    },
+    {
+      "name": "VideoDataset/ADL/SBJ_04_LOC2/ACT13_F_1/20240913134837.mp4",
+      "method": 8,
+      "compressed": 525433,
+      "size": 526144,
+      "crc": 2839491624,
+      "offset": 1602903282
+    },
+    {
+      "name": "VideoDataset/ADL/SBJ_04_LOC2/ACT18_F_1/20240924130811.mp4",
+      "method": 8,
+      "compressed": 1308589,
+      "size": 1309012,
+      "crc": 2831039107,
+      "offset": 1568859098
+    },
+    {
+      "name": "VideoDataset/ADL/SBJ_04_LOC2/ACT24_F_1/20240924131958.mp4",
+      "method": 8,
+      "compressed": 1307318,
+      "size": 1307755,
+      "crc": 1291628318,
+      "offset": 1570167822
+    },
+    {
+      "name": "VideoDataset/ADL/SBJ_06_LOC1/ACT13_F_1/20240920135623.mp4",
+      "method": 8,
+      "compressed": 795178,
+      "size": 795766,
+      "crc": 1152055046,
+      "offset": 1327198984
+    },
+    {
+      "name": "VideoDataset/ADL/SBJ_06_LOC1/ACT18_F_1/20240920140453.mp4",
+      "method": 8,
+      "compressed": 737875,
+      "size": 738487,
+      "crc": 15280449,
+      "offset": 1294767501
+    },
+    {
+      "name": "VideoDataset/ADL/SBJ_06_LOC1/ACT24_F_1/20240920141514.mp4",
+      "method": 8,
+      "compressed": 812442,
+      "size": 813015,
+      "crc": 514659978,
+      "offset": 1295513767
+    },
+    {
+      "name": "VideoDataset/ADL/SBJ_07_LOC3/ACT13_F_1/20240922112449.mp4",
+      "method": 8,
+      "compressed": 614624,
+      "size": 615295,
+      "crc": 2780833105,
+      "offset": 977711875
+    },
+    {
+      "name": "VideoDataset/ADL/SBJ_07_LOC3/ACT18_F_1/20240922113050.mp4",
+      "method": 8,
+      "compressed": 732440,
+      "size": 732978,
+      "crc": 791898579,
+      "offset": 955885406
+    },
+    {
+      "name": "VideoDataset/ADL/SBJ_07_LOC3/ACT24_F_1/20240922113854.mp4",
+      "method": 8,
+      "compressed": 817128,
+      "size": 817630,
+      "crc": 3671046234,
+      "offset": 956639889
+    },
+    {
+      "name": "VideoDataset/ADL/SBJ_08_LOC3/ACT13_F_1/20240922114156.mp4",
+      "method": 8,
+      "compressed": 626855,
+      "size": 627506,
+      "crc": 833173469,
+      "offset": 1555622881
+    },
+    {
+      "name": "VideoDataset/ADL/SBJ_08_LOC3/ACT18_F_1/20240922114718.mp4",
+      "method": 8,
+      "compressed": 619748,
+      "size": 620335,
+      "crc": 2942427948,
+      "offset": 1533174630
+    },
+    {
+      "name": "VideoDataset/ADL/SBJ_08_LOC3/ACT24_F_1/20240922115508.mp4",
+      "method": 8,
+      "compressed": 584085,
+      "size": 584709,
+      "crc": 3987629364,
+      "offset": 1533808612
+    },
+    {
+      "name": "VideoDataset/ADL/SBJ_09_LOC3/ACT13_F_1/20240922164608.mp4",
+      "method": 8,
+      "compressed": 582549,
+      "size": 583206,
+      "crc": 2026641439,
+      "offset": 1684350899
+    },
+    {
+      "name": "VideoDataset/ADL/SBJ_09_LOC3/ACT18_F_1/20240922165125.mp4",
+      "method": 8,
+      "compressed": 644635,
+      "size": 645255,
+      "crc": 4205243746,
+      "offset": 1662865483
+    },
+    {
+      "name": "VideoDataset/ADL/SBJ_09_LOC3/ACT24_F_1/20240922170025.mp4",
+      "method": 8,
+      "compressed": 814510,
+      "size": 815065,
+      "crc": 2264727282,
+      "offset": 1663510751
+    }
+  ],
+  "file": {
+    "id": 52990358,
+    "name": "VideoDataset.zip",
+    "size": 2529520868,
+    "is_link_only": false,
+    "download_url": "https://ndownloader.figshare.com/files/52990358",
+    "supplied_md5": "c784167d08f2fa94e3afd36cec758e1f",
+    "computed_md5": "c784167d08f2fa94e3afd36cec758e1f",
+    "mimetype": "application/zip"
+  },
+  "inventory_sha256": "5f4a723c132580a2e34bd45d9c4e2a532f25f69346c94a4ede4c317109eceddd",
+  "official_metadata_sha256": {
+    "28596332": "4ec57cd2a522cdd45b141ce3819a9e5ed90be3a7e2a683ab36970bb79a1757c3",
+    "4214283": "3b312ba68fbdf8133f998a2ef380a803b12a1b1c7189731d9eebc49cc96edf9e"
+  },
+  "uma_archive_sha256": "ddbc9144b41ac57a9673dbd8d0f453e60a91166d209a530cf38151e45cf27a79",
+  "whole_video_archive_downloaded": false,
+  "whole_video_archive_published_md5_not_verified": true,
+  "download_integrity": "individual ZIP central-directory sizes + CRC32, then local SHA256; TLS verified",
+  "model_validation_not_started": true
+}

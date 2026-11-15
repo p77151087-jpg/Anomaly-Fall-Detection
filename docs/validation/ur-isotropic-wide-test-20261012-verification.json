@@ -1,0 +1,177 @@
+{
+  "created_at": "2026-10-12T03:36:27.200162+00:00",
+  "before_sha256": "9bb239dc4c57241f85a37424115029e31b6624ac95f99ad96c60aa521e42d945",
+  "run": "runs/ur-isotropic-wide-20261012-001",
+  "metrics": {
+    "metric_unit": "sequence",
+    "TP": 10,
+    "FP": 0,
+    "FN": 5,
+    "TN": 8,
+    "n_total": 23,
+    "n_evaluable": 23,
+    "n_unknown": 0,
+    "sequence_coverage": 1.0,
+    "sequence_accuracy": 0.782608695652174,
+    "sequence_fall_precision": 1.0,
+    "sequence_fall_recall": 0.6666666666666666,
+    "sequence_fall_f1": 0.8,
+    "operational_accuracy": 0.782608695652174,
+    "end_to_end_fall_recall": 0.6666666666666666,
+    "outcomes_with_unknown": [
+      [
+        8,
+        0,
+        0
+      ],
+      [
+        5,
+        10,
+        0
+      ]
+    ],
+    "outcome_columns": [
+      "normal",
+      "suspected_fall",
+      "unknown"
+    ],
+    "outcome_rows": [
+      "ADL",
+      "Fall"
+    ],
+    "by_class": {
+      "ADL": {
+        "n_total": 8,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "window_coverage": 0.7851021753460777,
+        "n_missing_timelines": 0
+      },
+      "Fall": {
+        "n_total": 15,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "window_coverage": 0.8456014362657092,
+        "n_missing_timelines": 0
+      }
+    },
+    "window_coverage": 0.8107183580387686,
+    "n_missing_timelines": 0,
+    "protocol_id": "urfall-cam0-rgb-sequence-v1",
+    "split_hash": "0b9a0f0cf3609c478afcbbe028130c7d519e26b573135fbd739c074c68bc93c5",
+    "recipe_hash": "713ee59a0853f20641cb7f664df2920359baa0734807acfa5cf86fb87a4e2f5b",
+    "source_kind": "real",
+    "artifact_hashes": {
+      "autoencoder.pt": "afdb6f1a37bb1ada3e13cffe10bc0c23466f0fcf908e567840c46f3bf5ad300b",
+      "scaler.npz": "a6dd9dbb68f85fa3bd6f358998d341d4b7d40317597e35db592f71ee4007eb19",
+      "resolved-config.yaml": "b9757eba646eab8fdead4c0a3f8a13a99f82775b32426c63905f1a1afc313b0a",
+      "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+      "sources.json": "7d44381db98270041702ac868fba6c578ca9938b20065c3878b452a6659e014e",
+      "dataset-index.json": "cdd111c3fd7608e3bfdcd71c569fc03206e60e6fd2518ce937306db19a993562",
+      "environment.json": "34c83940314d2c2651b4180f2154873dfd643ab5d79a135fb860cd4a1d22af3c",
+      "training-history.csv": "e82cee506fd67a0564ad8ea11d63d78829f734393dd284d83b977ad7dbd02091",
+      "threshold.json": "6a554dfc7eff56bbcf18ca9b1772783fb78fb4fe7b578d28fdf45e86f68fc89a",
+      "calibration.json": "81c4cf243ab194f8fe5b65fb905b2d9d6a8acf6fde1f123e03f15e97b44f4ffb"
+    },
+    "config_hash": "b9458a243252c2c243aeded71530f9fd83083e7e8608b44c37a81976357a147d"
+  },
+  "independent_confusion_matrix": [
+    [
+      8,
+      0
+    ],
+    [
+      5,
+      10
+    ]
+  ],
+  "independent_metrics_and_k3_match": true,
+  "k3_sequences_checked": 23,
+  "window_rows": 2814,
+  "valid_raw_scores": 2133,
+  "event_rows": 11,
+  "false_negative_rows": [
+    {
+      "sequence_id": "fall-27",
+      "label": "1",
+      "prediction": "0",
+      "sequence_score": "0.17337757349014282",
+      "unknown_reason": "",
+      "first_alarm_ms": "",
+      "n_scheduled_endpoints": "63",
+      "n_valid_endpoints": "50",
+      "window_coverage": "0.7936507936507936"
+    },
+    {
+      "sequence_id": "fall-23",
+      "label": "1",
+      "prediction": "0",
+      "sequence_score": "0.2842473089694977",
+      "unknown_reason": "",
+      "first_alarm_ms": "",
+      "n_scheduled_endpoints": "46",
+      "n_valid_endpoints": "30",
+      "window_coverage": "0.6521739130434783"
+    },
+    {
+      "sequence_id": "fall-21",
+      "label": "1",
+      "prediction": "0",
+      "sequence_score": "0.3076474666595459",
+      "unknown_reason": "",
+      "first_alarm_ms": "",
+      "n_scheduled_endpoints": "26",
+      "n_valid_endpoints": "16",
+      "window_coverage": "0.6153846153846154"
+    },
+    {
+      "sequence_id": "fall-20",
+      "label": "1",
+      "prediction": "0",
+      "sequence_score": "0.2136879861354828",
+      "unknown_reason": "",
+      "first_alarm_ms": "",
+      "n_scheduled_endpoints": "81",
+      "n_valid_endpoints": "79",
+      "window_coverage": "0.9753086419753086"
+    },
+    {
+      "sequence_id": "fall-03",
+      "label": "1",
+      "prediction": "0",
+      "sequence_score": "0.46922576427459717",
+      "unknown_reason": "",
+      "first_alarm_ms": "",
+      "n_scheduled_endpoints": "188",
+      "n_valid_endpoints": "186",
+      "window_coverage": "0.9893617021276596"
+    }
+  ],
+  "preserved_file_count": 1103,
+  "old_files_weights_caches_models_configs_core_unchanged": true,
+  "validation_lock_and_result_unchanged": true,
+  "synthetic_tests": {
+    "passed": 13,
+    "skipped": 0,
+    "xml_sha256": "9facadab83d7d00a7dc5d58bf1923641f9c958bc6f6c30e8ce9d9d9e9d27205c"
+  },
+  "evidence_tier": "real_feature_smoke",
+  "fresh_pose_or_stgcn_extraction": false,
+  "actual_device": "cuda",
+  "torch_version": "2.8.0+cu128",
+  "test_evaluation_count": 1,
+  "retraining": false,
+  "threshold_recalibration": false,
+  "test_model_selection": false,
+  "historical_test_seen": true,
+  "original_adoption_guard_not_changed": true,
+  "output_hashes": {
+    "outputs/ur-isotropic-wide-test-20261012-001/confusion-matrix.png": "a5ff77ce5dad7d87e8f044a1f9102f8c4aac9792e3e7b90a8331c35b544e50a6",
+    "outputs/ur-isotropic-wide-test-20261012-001/evaluation-summary.md": "379860ac35ede3a7fd70ba06138bae27c0f21a1eb7028a663c0634dec0d8c9f9",
+    "outputs/ur-isotropic-wide-test-20261012-001/events.csv": "0ea820753f04272d1e97fb25d9ba4e469cc40aec7393d6ab540937f67ddacb77",
+    "outputs/ur-isotropic-wide-test-20261012-001/metrics.json": "f174c36c75545a853d30b84453d5b90f57f3029e12984c5674fb3bba88c6d0ac",
+    "outputs/ur-isotropic-wide-test-20261012-001/outcomes-with-unknown.csv": "ee3f2355452c4401cc485189ba5a890a86844cde3738213d5ab80d28b80d4a98",
+    "outputs/ur-isotropic-wide-test-20261012-001/sequence-results.csv": "c8513e43bfcd3cd0078bbef8d7b5048191edb7af9ae5a9ccd2590d8ddcdc404a",
+    "outputs/ur-isotropic-wide-test-20261012-001/window-results.csv": "1a40dd6a7b862bf5f6a7cd14b20bd2229496adfa328fd52312ea747ec434a737"
+  }
+}

@@ -1,0 +1,13 @@
+Verified ur-ocsvm-01-20261012-001: 6001 model scores; 2917 windows; 25 complete events
+Verified ur-ocsvm-02-20261012-001: 6001 model scores; 2917 windows; 22 complete events
+Verified ur-ocsvm-03-20261012-001: 6001 model scores; 2917 windows; 24 complete events
+Verified ur-ocsvm-04-20261012-001: 6001 model scores; 2917 windows; 22 complete events
+Verified ur-ocsvm-05-20261012-001: 6001 model scores; 2917 windows; 21 complete events
+Verified ur-ocsvm-06-20261012-001: 6001 model scores; 2917 windows; 17 complete events
+Verified ur-denoise-wide-methods-20261012-001: 6001 model scores; 2917 windows; 26 complete events
+Verified ur-temporal-gru-methods-20261012-001: 5623 model scores; 2917 windows; 18 complete events
+Preservation 5000/23925
+Preservation 10000/23925
+Preservation 15000/23925
+Preservation 20000/23925
+{'passed': True, 'candidates': 8, 'old_assets': 23925}

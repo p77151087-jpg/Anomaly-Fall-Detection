@@ -1,0 +1,29 @@
+# Alternate recipe authorized on 2026-09-17. No Human weights/caches are reused.
+pose:
+  backend: lightweight_openpose
+  weights_manifest: weights/openpose18-manifest.json
+  upstream_dir: third_party/lightweight_openpose
+  backbone: mobilenet_v1
+  input_height: 256
+  refinement_stages: 3
+  inference_refinement_stage: 1
+  track_similarity_joints: 3
+skeleton:
+  recipe_id: lightweight_openpose18_stgcn_kinetics_v1
+  target_fps: 30
+  window_size: 30
+  stride: 5
+quality:
+  min_joint_confidence: 0.2
+  min_valid_joints: 12
+  min_good_frame_ratio: 0.8
+features:
+  backend: stgcn_kinetics
+  expected_dim: 256
+  upstream_dir: third_party/stgcn
+  frozen: true
+data:
+  cache_dir: data/cache/openpose18
+  # UR Fall adl-37 has RGB 1..350 but timestamps only 1..330.
+  # Only a missing trailing timestamp can use the recorded 30fps estimate.
+  allow_missing_timestamp_tail: true

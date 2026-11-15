@@ -1,0 +1,54 @@
+{
+  "created_at": "2026-09-18T09:15:51.166768+00:00",
+  "old_runs_preserved": 39,
+  "old_cache_files_preserved": 1165,
+  "gates_rejected_as_required": {
+    "completed_pilot_rerun": "Freeze first; preserve completed pilot",
+    "completed_training_rerun": "Completed experiment; preserve results",
+    "test_before_validation_target": "Validation targets/guard failed; no Test scoring"
+  },
+  "new_test_scored": false,
+  "new_ae_epochs": 33,
+  "flip_ae_not_trained": true,
+  "selected": "ur-sample-human-s1-001",
+  "accuracy_improved": false,
+  "pytest": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "1",
+    "tests": "211",
+    "time": "41.062",
+    "timestamp": "2026-09-18T17:06:04.988806+08:00",
+    "hostname": "MSI"
+  },
+  "pytest_sha256": "f93f0e4bdcb9c1b731d734bd703cc99688d021ff2f1620d34c4395ca89eff051",
+  "source_files": {
+    "src/fall_detect/config.py": "9fcdef4b4909567a6b3d8e54933a1a4a45a0023ece935ba943e9a80c8cc7cbdd",
+    "src/fall_detect/pose/human.py": "6703e6a7f2b207327716c0e7f6491093e8b96f94f92852afec1810f34d2ff6aa",
+    "src/fall_detect/training/experiment.py": "6899e015b0a4fe5db285ee88267a34aa73e5de117bb45b8520e4cfcda4e9be39",
+    "src/fall_detect/training/patterns.py": "9e5a6572d05ca292df45ed4e80d6abb40a22c78a3a8430a73dae19d95e02ff11",
+    "src/fall_detect/visualization/loss_viewer.py": "877bcc386b528f5e4f9d8ac1a7941091560210d3b1678a67037777dab78a1d9f",
+    "scripts/human_quality.py": "89aed0a546ca3e61ec402c30879d40d52389e85ee17941641b5cb4222b006dab",
+    "scripts/human_residual.py": "918d248a7f4267ca843bd22032401fa44c7715afd54ab4b0aede6c3d2efa2cdc",
+    "scripts/ae_generalization.py": "76eaecbf2bbc4bc53b81cf0d64607a09f64ff8692a93eeae278c1bb8f8b92622",
+    "tests/test_human_quality.py": "af37fbc6b79efc78c6c5b2ae5dcfc7af5e2dc11fefc9d3187ff6ea40ae15d52c",
+    "scripts/verify_human_quality.py": "2b9187c3b56bf24678824d59d91361d84ad8f91cc86bdd7b25f3191960f98c6d"
+  },
+  "artifact_files": {
+    "C:\\成大專案\\fall-detection-anomaly\\docs\\validation\\human-quality-lock.json": "aba72e7ad6483c33c1b9f611b04b84e07025bca41d89fd527b9102f395d62807",
+    "C:\\成大專案\\fall-detection-anomaly\\docs\\validation\\human-quality-implementation.json": "13da474a4bd171476baf7e1bac4457a38a155d9f5f9b1340d4ab6710f663fc8b",
+    "C:\\成大專案\\fall-detection-anomaly\\docs\\validation\\human-quality-pilot.json": "5e2eabe6d739ad2a20b1580041fda0ae892aedf0f0f81101e6eab77bfbfcf88b",
+    "C:\\成大專案\\fall-detection-anomaly\\docs\\validation\\human-quality-validation.json": "89002aafa882fcd053c0db68859173bae19d4cc9881a4bbc5618a527f7035ebc",
+    "C:\\成大專案\\fall-detection-anomaly\\docs\\validation\\human-quality-integration.json": "97886d4ef4e53c2e64c9cb4f6ccd20eccb190d9f0d5fc3d6280630f72ce66085",
+    "C:\\成大專案\\fall-detection-anomaly\\docs\\validation\\human-quality-normal-review.json": "51aeb373b3bc14b8335504914ff9489148f56f13084f501558660bf426528f33",
+    "C:\\成大專案\\fall-detection-anomaly\\docs\\validation\\human-quality-pattern-diagnosis.json": "73c554b9c8e9270ad2bb83cd17f46ada4e637553bfff0f99e4fadbee65fa430d",
+    "outputs\\human-quality-diagnosis\\normal-activity-review.csv": "77d39126959c37e82dce5885042348e97d7a9c0455613ab44fd0f9b4504ba75b"
+  },
+  "train_only_scaler_and_pattern_refit": true,
+  "read_only_streaming_verifier_rerun_passed": true,
+  "visual_review": "Five raw normal-activity contact sheets and four inference contact sheets inspected. ADL35 ground exercise stays AE NORMAL; fall09 first visible AE alert5.9s unchanged; fall30 descent can show STANDING UP and later UNKNOWN, no visible AE alert. Not formal temporal/action annotations.",
+  "initial_contact_reader_note": "First adl37 contact pass rejected missing synchronization tail; rerun used the unchanged frozen baseline allow_missing_timestamp_tail config. No source timestamps or policies changed.",
+  "notebook_and_formal_film": "held per user accuracy-first request",
+  "external_blockers": []
+}

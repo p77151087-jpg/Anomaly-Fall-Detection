@@ -1,0 +1,10 @@
+{
+  "diagnostic_id": "ur-fall19-joint-localization-20261013-001",
+  "plan_sha256": "569042c1b902f99f19e716a188f045e5d7841485a734135c635083c459c837a4",
+  "script_sha256": "06e073d3882f384726290941c2e7fa633685aa8ae1c1acba4d925afbc6bc8476",
+  "training": "not_run",
+  "calibration": "not_run",
+  "test": "not_accessed",
+  "selection_limit": 3,
+  "coordinate_intervention": "not_run"
+}

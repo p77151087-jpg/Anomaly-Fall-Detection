@@ -1,0 +1,37 @@
+{
+  "source_kind": "real",
+  "errors": [],
+  "source_page": "https://search-data.ubfc.fr/imvia/FR-13002091000019-2024-04-09_Fall-Detection-Dataset.html",
+  "video_url": "https://search-data.ubfc.fr/imvia/dl_data.php?file=101",
+  "archive_sha256": "01df91e32a034d9897d1f9cd5e0211c70ab54289d27e8490db5a699384c17fc8",
+  "archive_bytes": 9608701260,
+  "video_license": "CC BY-NC-SA 3.0",
+  "annotation_repo": "https://huggingface.co/datasets/simplexsigil2/omnifall",
+  "annotation_revision": "83572a37b9e3081df8c06a56874b1d1f2a19386c",
+  "annotation_resources": [
+    {
+      "url": "https://huggingface.co/datasets/simplexsigil2/omnifall/resolve/83572a37b9e3081df8c06a56874b1d1f2a19386c/labels/le2i.csv",
+      "sha256": "bb144196f7d384d2b5153022d73ea349132f428229986ce8183902a25e213132",
+      "bytes": 43510
+    },
+    {
+      "url": "https://huggingface.co/datasets/simplexsigil2/omnifall/resolve/83572a37b9e3081df8c06a56874b1d1f2a19386c/splits/cs/le2i/train.csv",
+      "sha256": "b03d4d0aeb84dbe9e4302ae46a7c28840bba567731bff632b9d439852e8f3ffe",
+      "bytes": 2666
+    },
+    {
+      "url": "https://huggingface.co/datasets/simplexsigil2/omnifall/resolve/83572a37b9e3081df8c06a56874b1d1f2a19386c/splits/cs/le2i/val.csv",
+      "sha256": "91cfcfedd9c1d2a7216048d8dd6ff908c861fd24fdee4621d8222bb6594f8660",
+      "bytes": 360
+    },
+    {
+      "url": "https://huggingface.co/datasets/simplexsigil2/omnifall/resolve/83572a37b9e3081df8c06a56874b1d1f2a19386c/splits/cs/le2i/test.csv",
+      "sha256": "b7f5ca62ba341dac8899c27b62ab7171dd05762a7e7151150bdde60a64332e04",
+      "bytes": 775
+    }
+  ],
+  "n_planned": 161,
+  "n_excluded_train_fall": 95,
+  "n_excluded_duplicates": 4,
+  "manifest": "C:\\成大專案\\fall-detection-anomaly\\data\\manifests\\le2i-extension\\split-v1.json"
+}

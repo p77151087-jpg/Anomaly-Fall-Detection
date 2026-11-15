@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "evidence_level": "real_feature_smoke",
+  "original_sha256": "f7dbda11fcf42dbcf4f2a203ea0d0c22b70d7fa0b0c7915051be8cc540b88f3c",
+  "derived_sha256": "412e95ec2eac7b2c573297f67c48da1c6d13523606394e4be8cb90a60118b0df",
+  "changed_human_cells": [
+    [
+      1,
+      "pose_check",
+      "matches_person",
+      "missing"
+    ],
+    [
+      2,
+      "pose_check",
+      "matches_person",
+      "missing"
+    ]
+  ],
+  "source_rgb_hashes_checked": 100,
+  "frame_rows_checked": 100,
+  "independent_causal_window_joins": 223,
+  "window_csv_bytes_unchanged": true,
+  "method_summaries_unchanged": true,
+  "parent_artifacts_preserved": 264,
+  "contracts_archived": 2,
+  "precise_time_ground_truth": false,
+  "new_training_epochs": 0,
+  "test_feature_reads": 0,
+  "new_test_evaluations": 0
+}

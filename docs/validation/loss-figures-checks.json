@@ -1,0 +1,35 @@
+{
+  "source_kind": "real",
+  "history_values_match_plot": true,
+  "frozen_artifacts_unchanged": true,
+  "png_decode": [
+    {
+      "path": "docs\\figures\\loss\\openpose18-baseline-001-loss.png",
+      "size": [
+        3180,
+        1980
+      ],
+      "decoded": true
+    },
+    {
+      "path": "docs\\figures\\loss\\le2i-extension-001-loss.png",
+      "size": [
+        3180,
+        1980
+      ],
+      "decoded": true
+    },
+    {
+      "path": "docs\\figures\\loss\\loss-side-by-side.png",
+      "size": [
+        4200,
+        1860
+      ],
+      "decoded": true
+    }
+  ],
+  "svg_xml_valid": true,
+  "ruff_check": true,
+  "new_training_performed": false,
+  "test_data_used_for_figures": false
+}

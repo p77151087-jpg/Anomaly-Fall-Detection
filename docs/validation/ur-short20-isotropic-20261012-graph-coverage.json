@@ -1,0 +1,92 @@
+{
+  "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+  "signal": "best_effort",
+  "indexed_at": "2026-10-12T08:34:20Z",
+  "metadata": {
+    "generation": "2026-10-12T08:34:20Z",
+    "index_mode": "full",
+    "recorded_at": "2026-10-12T08:34:21Z",
+    "recording_status": "complete",
+    "ignored_files_stored": 39,
+    "ignored_files_total": 39,
+    "hash_records_complete": true,
+    "coverage_version": 3,
+    "generation_matches": true
+  },
+  "paths": [
+    {
+      "requested_path": "scripts/verify_short20_retirement.py",
+      "path": "scripts/verify_short20_retirement.py",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "scripts/retire_external_normal.py",
+      "path": "scripts/retire_external_normal.py",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "scripts/ur_short20_isotropic.py",
+      "path": "scripts/ur_short20_isotropic.py",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "scripts/verify_ur_short20_isotropic.py",
+      "path": "scripts/verify_ur_short20_isotropic.py",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "scripts/report_ur_short20_isotropic.py",
+      "path": "scripts/report_ur_short20_isotropic.py",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "src/fall_detect/cli.py",
+      "path": "src/fall_detect/cli.py",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "src/fall_detect/pipeline.py",
+      "path": "src/fall_detect/pipeline.py",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "src/fall_detect/training/experiment.py",
+      "path": "src/fall_detect/training/experiment.py",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "tests/test_train_validation_scope.py",
+      "path": "tests/test_train_validation_scope.py",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    }
+  ],
+  "scopes": [],
+  "caveat": "Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable."
+}

@@ -1,0 +1,93 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"project\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly\",\"signal\":\"best_effort\",\"indexed_at\":\"2026-11-05T09:34:09Z\",\"metadata\":{\"generation\":\"2026-11-05T09:34:09Z\",\"index_mode\":\"full\",\"recorded_at\":\"2026-11-05T09:34:19Z\",\"recording_status\":\"complete\",\"ignored_files_stored\":135,\"ignored_files_total\":135,\"hash_records_complete\":true,\"coverage_version\":3,\"generation_matches\":true},\"paths\":[{\"requested_path\":\"src/fall_detect/evaluation/human_timing.py\",\"path\":\"src/fall_detect/evaluation/human_timing.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"scripts/validation_human_timing.py\",\"path\":\"scripts/validation_human_timing.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"scripts/verify_validation_human_timing.py\",\"path\":\"scripts/verify_validation_human_timing.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"tests/test_validation_human_timing.py\",\"path\":\"tests/test_validation_human_timing.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"docs/ur-validation-human-timing-20261105-plan.md\",\"path\":\"docs/ur-validation-human-timing-20261105-plan.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"docs/ur-validation-human-timing-20261105.md\",\"path\":\"docs/ur-validation-human-timing-20261105.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"docs/current-progress.md\",\"path\":\"docs/current-progress.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"docs/acceptance-results.md\",\"path\":\"docs/acceptance-results.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]}],\"scopes\":[],\"caveat\":\"Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable.\"}"
+    }
+  ],
+  "structuredContent": {
+    "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+    "signal": "best_effort",
+    "indexed_at": "2026-11-05T09:34:09Z",
+    "metadata": {
+      "generation": "2026-11-05T09:34:09Z",
+      "index_mode": "full",
+      "recorded_at": "2026-11-05T09:34:19Z",
+      "recording_status": "complete",
+      "ignored_files_stored": 135,
+      "ignored_files_total": 135,
+      "hash_records_complete": true,
+      "coverage_version": 3,
+      "generation_matches": true
+    },
+    "paths": [
+      {
+        "requested_path": "src/fall_detect/evaluation/human_timing.py",
+        "path": "src/fall_detect/evaluation/human_timing.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "scripts/validation_human_timing.py",
+        "path": "scripts/validation_human_timing.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "scripts/verify_validation_human_timing.py",
+        "path": "scripts/verify_validation_human_timing.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "tests/test_validation_human_timing.py",
+        "path": "tests/test_validation_human_timing.py",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "docs/ur-validation-human-timing-20261105-plan.md",
+        "path": "docs/ur-validation-human-timing-20261105-plan.md",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "docs/ur-validation-human-timing-20261105.md",
+        "path": "docs/ur-validation-human-timing-20261105.md",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "docs/current-progress.md",
+        "path": "docs/current-progress.md",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      },
+      {
+        "requested_path": "docs/acceptance-results.md",
+        "path": "docs/acceptance-results.md",
+        "status": "no_recorded_issue",
+        "freshness": "metadata_match",
+        "recommended_action": "use_graph_with_best_effort_caveat",
+        "coverage": []
+      }
+    ],
+    "scopes": [],
+    "caveat": "Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable."
+  },
+  "isError": false
+}

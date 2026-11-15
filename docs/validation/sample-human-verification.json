@@ -1,0 +1,105 @@
+{
+  "source_kind": "real_end_to_end",
+  "selected": "ur-sample-human-s1-001",
+  "old_runs_unchanged": 28,
+  "new_runs": {
+    "ur-sample-human-s5-001": {
+      "autoencoder.pt": "adcab44a0456f2fdd79045916c9f833fe75773362901ce57775aff1fa64dc7b3",
+      "scaler.npz": "cf79528a82a7f053f38323f24bcff2feb76eda046b45db43989713f9d204d1cf",
+      "resolved-config.yaml": "bcff951b050c4377ee6cf01968f8d3c4aa04ade6d06ad4c114a274a231afbc91",
+      "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+      "sources.json": "6e39881b1ac4161ed6c3bb2f75711b4e1d8053833f04d963428313fba87bc6cf",
+      "dataset-index.json": "85d7cb94cf50602f32d435a3f80d65f8ad4d0a2ff5b551cbf6d36bf68ccc601f",
+      "environment.json": "8db27db096955b62d6c765af1e3dce500e7d9f1d8a0c209e9ac4cd6aec9c7e3e",
+      "training-history.csv": "a7ab8ca6b8980b3a603a62730cfa29f90a0d92db69008cec9c6b4128c1136b12",
+      "threshold.json": "bce83df63161b48937a19db749d929ffe3ce463972c4660222af5a2cfd3f8a2f",
+      "calibration.json": "e902c1e4e328778e051e312d7d1be1bbc7d8b20d27da2d5f3b53fe7009aec764"
+    },
+    "ur-sample-human-s1-001": {
+      "autoencoder.pt": "96a9deea163c80055f08c0b7001f1b7445db45d3bda3714df2604f2339d55afb",
+      "scaler.npz": "d6660ddb8b6e37729257b3fc4fc62505a2ef77d9a2558de9d06b8716b7a0529c",
+      "resolved-config.yaml": "661b983db7c3147c76a36cec1561180555970444e88309cf246445c1fefcd484",
+      "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+      "sources.json": "dd7c73ba557a57846b2021c82443787cc12131434c3637265b8f590bceb58837",
+      "dataset-index.json": "cd163b0b2eb75044fdfd8127f9e863a06f8039b203a4027a299c7ab11be2e2c6",
+      "environment.json": "d9c1f980cf8c7059656da59eaeebfc4627be9abfd1e8080fcf946aeca8d33361",
+      "training-history.csv": "78afc3939783e3246a1a05ad03a02040ea20f91668e790f9e8cf4a5aabb93873",
+      "threshold.json": "6f8514180fa8ea073048d99b2998ebc871838e3a35e37d7633ac8b9be5bfb05a",
+      "calibration.json": "ea97fa7959d5f38593ab8d9bf286ce23ba5850d87695d69cce6816869c3ead78"
+    }
+  },
+  "legacy_manifest_unchanged": true,
+  "old_feature_index_unchanged": true,
+  "validation_counts_recomputed": {
+    "TP": 12,
+    "TN": 8,
+    "FP": 0,
+    "FN": 3,
+    "unknown": 0,
+    "n_total": 23,
+    "n_evaluable": 23
+  },
+  "test_scored": false,
+  "test_gate_verified": true,
+  "formal_notebook_and_film_not_updated": true,
+  "integration_frames": 518,
+  "integration_windows_compared": 333,
+  "max_integration_score_difference": 0.0,
+  "visual_review": {
+    "done": true,
+    "scope": "Four clip contact sheets and first displayed alerts; not exhaustive frame-by-frame keypoint ground truth.",
+    "limitations": "fall09 alert late at 5.9s; fall25/fall29 visible alerts only 1/2 frames due to quality masking; high-confidence wrong joints remain."
+  },
+  "alert_display_details": {
+    "adl-04": {
+      "display_state_counts": {
+        "unknown": 4,
+        "warming_up": 29,
+        "normal": 116
+      },
+      "visible_alert_frames": 0,
+      "first_visible_alert_ms": null
+    },
+    "fall-09": {
+      "display_state_counts": {
+        "unknown": 31,
+        "warming_up": 31,
+        "normal": 115,
+        "suspected_fall": 8
+      },
+      "visible_alert_frames": 8,
+      "first_visible_alert_ms": 5900.0
+    },
+    "fall-25": {
+      "display_state_counts": {
+        "unknown": 18,
+        "warming_up": 29,
+        "normal": 37,
+        "suspected_fall": 1
+      },
+      "visible_alert_frames": 1,
+      "first_visible_alert_ms": 2500.0
+    },
+    "fall-29": {
+      "display_state_counts": {
+        "unknown": 24,
+        "warming_up": 29,
+        "normal": 44,
+        "suspected_fall": 2
+      },
+      "visible_alert_frames": 2,
+      "first_visible_alert_ms": 2700.0
+    }
+  },
+  "best_epoch": {
+    "epoch": "28",
+    "train_loss": "0.05944845888102166",
+    "val_normal_loss": "0.13753476824426075",
+    "seconds": "0.5291334000066854"
+  },
+  "pytest": {
+    "passed": 160,
+    "skipped": 1,
+    "xml_sha256": "20bff9bf3ee74736d155ca731c58fe0b3bcd9264d1ac568755fb8f4486a91f08"
+  }
+}

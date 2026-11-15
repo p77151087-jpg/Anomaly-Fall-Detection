@@ -1,0 +1,430 @@
+{
+  "fall-02": {
+    "source_kind": "real",
+    "video": {
+      "codec": "mp4v",
+      "frames": 110,
+      "fps": 30.0,
+      "size_wh": [
+        640,
+        480
+      ],
+      "duration_ms": 3666.6666666666665,
+      "decoded_verified": true,
+      "source_kind": "real",
+      "run": "C:\\成大專案\\fall-detection-anomaly\\runs\\le2i-extension-001",
+      "source": "C:\\成大專案\\fall-detection-anomaly\\data\\raw\\urfall\\fall-02",
+      "recipe_hash": "bc21ccb5ccb7fe5be7309efa4ba37fadecc31e047d11b3f04b575d250ca9fc9e",
+      "threshold": {
+        "schema_version": 1,
+        "threshold": 0.15086834132671353,
+        "comparison": "gt",
+        "consecutive_windows": 3,
+        "split": "validation",
+        "protocol_id": "urfall-plus-le2i-cs-sequence-v1",
+        "split_hash": "a6454c4389e4a8ef7b161920088dd290489dd9e361b24b1afab56507bf11e4b8",
+        "recipe_hash": "bc21ccb5ccb7fe5be7309efa4ba37fadecc31e047d11b3f04b575d250ca9fc9e",
+        "feature_hashes": {
+          "adl-37": "1f9142b6093c092aff41db985976c88b371aab3e783640daa23d4c5027dbff0a",
+          "adl-23": "5f7840d4a2802726385ac5917df46dbbe9852a1faf847a7c01c726c7142614a0",
+          "adl-20": "fa89f5322ac72a6bb9434a14780e8a3d8598fd63e0d955c06f31c2ca8e150188",
+          "adl-04": "34ef2787413742c1a877fa668f7ce65725b7257dffe37259c511366eef802061",
+          "adl-01": "3a1a21267247ab44646383b03fca267f0d744cdef81add4cdc2ccba95c09def6",
+          "adl-16": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "adl-18": "bf2a797f3d8ee5d2f505d34d08440a746e0d4f88794d00d223a7e2ef77964b5d",
+          "adl-35": "ac16e63d1128b62ec2c7c08d3cd49a6e943594788fe64d2aae8119c460d0366f",
+          "fall-22": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "fall-19": "6ae8aec373ebce475352dbbfc54df2ce433d981acebb6dadcc18ced4c4236e73",
+          "fall-16": "0bdc5712ab7b6a53a8b094a382927457cad9fbad28a8ca94d36095514a70fc6c",
+          "fall-18": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "fall-08": "d4304ee8d34ccd4bef078c0d61d8963594fd9a73e88bd455f8d261584d85685d",
+          "fall-13": "0f8a83b174be38536ce36f601e83f80e0fab6d54cc7a39027d64b053a0380c2b",
+          "fall-29": "ee681f89eaa04c36b7e536903537570729566581c03de250efd2cc83799f046b",
+          "fall-14": "baadba66a016560aa3b0fc3a763e71e86e206a80be5b0d5cb7a92ff6edc3d535",
+          "fall-09": "265666d2206b8ff12b6d5f3dfcc9190169ebd92d9f457ac9194e25a79378f9c1",
+          "fall-07": "1b946cd4080d48f236cda457df4b82966ffa2a346328cde2a76c717eecbc78da",
+          "fall-11": "f2a87fb7eab192af609c7a2e404cbcd38d081abf9ffd70ba958bcd255b58ad5d",
+          "fall-25": "cd4671d273133df1918ccbe32350925c93cedb7e63c1aa88336d823b81e07687",
+          "fall-06": "ef571b93382418acf6e824756dab9a92f702dea0dbb430a6595e9c0d9045f459",
+          "fall-02": "1758e5f1a33c2989393f7c89e3b64060598891ad039fcc4213f13f962b8e8a3a",
+          "fall-30": "ae96917dabebf812cbac94c959c6266c223b458372958f1a0479503b1822f86c",
+          "le2i-Coffee_room_01-video_42": "f5d61f57513f38a5052b1b2e708b68c107baa2e366f2b50bf79c8030b3648d36",
+          "le2i-Coffee_room_01-video_43": "d3b048a5fc63dcf8fea4aedf03d568b2025d7ea8b41d76b22a6c9f7179b0842b",
+          "le2i-Coffee_room_01-video_44": "4941e4958379c0a73034ead35e4433ac5135978a6ed5b1394c426980e7af6197",
+          "le2i-Coffee_room_01-video_45": "d1a8f206c23f5f030c5262ae5749cd3aebf159361c904a2bdf03b38c0d82cc4f",
+          "le2i-Coffee_room_01-video_46": "b9c888f68c2e816a5ab4d96ab2c4cb3c2a28b149e48ff0e2f2527fee73df119a",
+          "le2i-Home_01-video_10": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "le2i-Home_01-video_13": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "le2i-Home_01-video_24": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "le2i-Home_01-video_25": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "le2i-Home_01-video_28": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "le2i-Home_01-video_4": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "le2i-Home_02-video_46": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "le2i-Home_02-video_47": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "le2i-Home_02-video_48": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "le2i-Home_02-video_51": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed"
+        },
+        "model_sha256": "ca704917b161e451730787c4461c07b2ec8e7bb74632e24f40f0f052f8c6e231",
+        "scaler_sha256": "6f3b9b7e9566b9670b2a232f61da67b721a7fbd1ae46581736ab29f9c4654c94"
+      },
+      "config": {
+        "project": {
+          "name": "fall-detection-anomaly",
+          "seed": 42
+        },
+        "runtime": {
+          "device": "auto",
+          "num_workers": 0,
+          "torch_threads": 4
+        },
+        "data": {
+          "dataset": "urfall_le2i",
+          "raw_dir": "data/raw",
+          "manifest_dir": "data/manifests/le2i-extension",
+          "cache_dir": "data/cache/le2i-extension-selective",
+          "camera": 0,
+          "modality": "rgb",
+          "protocol_id": "urfall-plus-le2i-cs-sequence-v1",
+          "split_seed": 42,
+          "adl_counts": [
+            24,
+            8,
+            8
+          ],
+          "fall_counts": [
+            0,
+            15,
+            15
+          ],
+          "timestamp_policy": "prefer_source",
+          "fallback_fps": 30,
+          "allow_missing_timestamp_tail": true
+        },
+        "pose": {
+          "backend": "lightweight_openpose",
+          "weights_manifest": "weights/openpose18-manifest.json",
+          "upstream_dir": "third_party/lightweight_openpose",
+          "backbone": "mobilenet_v1",
+          "input_height": 256,
+          "input_width": 192,
+          "detector_size": 384,
+          "detector_confidence": 0.45,
+          "nms_threshold": 0.2,
+          "track_max_age": 30,
+          "track_n_init": 3,
+          "track_similarity_joints": 3,
+          "refinement_stages": 3,
+          "inference_refinement_stage": 1,
+          "rotation_angles": [
+            0,
+            -90,
+            90
+          ],
+          "rotation_policy": "low_quality"
+        },
+        "skeleton": {
+          "recipe_id": "lightweight_openpose18_stgcn_kinetics_v1",
+          "target_fps": 30,
+          "window_size": 30,
+          "stride": 5,
+          "missing_frame_policy": "invalidate_window",
+          "span_tolerance": 1e-08
+        },
+        "quality": {
+          "min_joint_confidence": 0.2,
+          "min_valid_joints": 12,
+          "min_good_frame_ratio": 0.8
+        },
+        "features": {
+          "backend": "stgcn_kinetics",
+          "expected_dim": 256,
+          "frozen": true,
+          "upstream_dir": "third_party/stgcn"
+        },
+        "autoencoder": {
+          "hidden_dim": 128,
+          "latent_dim": 32,
+          "learning_rate": 0.001,
+          "batch_size": 32,
+          "max_epochs": 100,
+          "patience": 10,
+          "min_delta": 1e-06
+        },
+        "calibration": {
+          "split": "validation",
+          "objective": "sequence_fall_f1",
+          "comparison": "gt",
+          "consecutive_windows": 3
+        },
+        "evaluation": {
+          "split": "test",
+          "metric_unit": "sequence"
+        },
+        "demo": {
+          "display": false,
+          "output_dir": "outputs/demo",
+          "score_hold_stride_multiplier": 2
+        }
+      },
+      "processing_fps": 23.687731441242146,
+      "video_grid_fps": 30
+    },
+    "batch_sequence": {
+      "sequence_id": "fall-02",
+      "sequence_score": 0.8181556463241577,
+      "prediction": 1,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 17,
+      "n_valid_endpoints": 7,
+      "window_coverage": 0.4117647058823529,
+      "first_alarm_ms": 1966.6666666666667
+    },
+    "compared_visible_valid_endpoints": 7,
+    "valid_endpoints_not_shown_due_to_current_pose_quality": 0,
+    "max_absolute_score_difference": 0.0,
+    "all_compared_states_equal": true,
+    "event_parity": true,
+    "scope_note": "Same original validation sequence and identical source timing; current-frame pose display gating excludes some valid cached windows."
+  },
+  "le2i-Coffee_room_01-video_42": {
+    "source_kind": "real",
+    "video": {
+      "codec": "mp4v",
+      "frames": 190,
+      "fps": 30.0,
+      "size_wh": [
+        320,
+        240
+      ],
+      "duration_ms": 6333.333333333333,
+      "decoded_verified": true,
+      "source_kind": "real",
+      "run": "C:\\成大專案\\fall-detection-anomaly\\runs\\le2i-extension-001",
+      "source": "C:\\成大專案\\fall-detection-anomaly\\data\\raw\\le2i\\videos\\Coffee_room_01\\Coffee_room_01\\Videos\\video (42).avi",
+      "recipe_hash": "bc21ccb5ccb7fe5be7309efa4ba37fadecc31e047d11b3f04b575d250ca9fc9e",
+      "threshold": {
+        "schema_version": 1,
+        "threshold": 0.15086834132671353,
+        "comparison": "gt",
+        "consecutive_windows": 3,
+        "split": "validation",
+        "protocol_id": "urfall-plus-le2i-cs-sequence-v1",
+        "split_hash": "a6454c4389e4a8ef7b161920088dd290489dd9e361b24b1afab56507bf11e4b8",
+        "recipe_hash": "bc21ccb5ccb7fe5be7309efa4ba37fadecc31e047d11b3f04b575d250ca9fc9e",
+        "feature_hashes": {
+          "adl-37": "1f9142b6093c092aff41db985976c88b371aab3e783640daa23d4c5027dbff0a",
+          "adl-23": "5f7840d4a2802726385ac5917df46dbbe9852a1faf847a7c01c726c7142614a0",
+          "adl-20": "fa89f5322ac72a6bb9434a14780e8a3d8598fd63e0d955c06f31c2ca8e150188",
+          "adl-04": "34ef2787413742c1a877fa668f7ce65725b7257dffe37259c511366eef802061",
+          "adl-01": "3a1a21267247ab44646383b03fca267f0d744cdef81add4cdc2ccba95c09def6",
+          "adl-16": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "adl-18": "bf2a797f3d8ee5d2f505d34d08440a746e0d4f88794d00d223a7e2ef77964b5d",
+          "adl-35": "ac16e63d1128b62ec2c7c08d3cd49a6e943594788fe64d2aae8119c460d0366f",
+          "fall-22": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "fall-19": "6ae8aec373ebce475352dbbfc54df2ce433d981acebb6dadcc18ced4c4236e73",
+          "fall-16": "0bdc5712ab7b6a53a8b094a382927457cad9fbad28a8ca94d36095514a70fc6c",
+          "fall-18": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "fall-08": "d4304ee8d34ccd4bef078c0d61d8963594fd9a73e88bd455f8d261584d85685d",
+          "fall-13": "0f8a83b174be38536ce36f601e83f80e0fab6d54cc7a39027d64b053a0380c2b",
+          "fall-29": "ee681f89eaa04c36b7e536903537570729566581c03de250efd2cc83799f046b",
+          "fall-14": "baadba66a016560aa3b0fc3a763e71e86e206a80be5b0d5cb7a92ff6edc3d535",
+          "fall-09": "265666d2206b8ff12b6d5f3dfcc9190169ebd92d9f457ac9194e25a79378f9c1",
+          "fall-07": "1b946cd4080d48f236cda457df4b82966ffa2a346328cde2a76c717eecbc78da",
+          "fall-11": "f2a87fb7eab192af609c7a2e404cbcd38d081abf9ffd70ba958bcd255b58ad5d",
+          "fall-25": "cd4671d273133df1918ccbe32350925c93cedb7e63c1aa88336d823b81e07687",
+          "fall-06": "ef571b93382418acf6e824756dab9a92f702dea0dbb430a6595e9c0d9045f459",
+          "fall-02": "1758e5f1a33c2989393f7c89e3b64060598891ad039fcc4213f13f962b8e8a3a",
+          "fall-30": "ae96917dabebf812cbac94c959c6266c223b458372958f1a0479503b1822f86c",
+          "le2i-Coffee_room_01-video_42": "f5d61f57513f38a5052b1b2e708b68c107baa2e366f2b50bf79c8030b3648d36",
+          "le2i-Coffee_room_01-video_43": "d3b048a5fc63dcf8fea4aedf03d568b2025d7ea8b41d76b22a6c9f7179b0842b",
+          "le2i-Coffee_room_01-video_44": "4941e4958379c0a73034ead35e4433ac5135978a6ed5b1394c426980e7af6197",
+          "le2i-Coffee_room_01-video_45": "d1a8f206c23f5f030c5262ae5749cd3aebf159361c904a2bdf03b38c0d82cc4f",
+          "le2i-Coffee_room_01-video_46": "b9c888f68c2e816a5ab4d96ab2c4cb3c2a28b149e48ff0e2f2527fee73df119a",
+          "le2i-Home_01-video_10": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "le2i-Home_01-video_13": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "le2i-Home_01-video_24": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "le2i-Home_01-video_25": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "le2i-Home_01-video_28": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "le2i-Home_01-video_4": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "le2i-Home_02-video_46": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "le2i-Home_02-video_47": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "le2i-Home_02-video_48": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+          "le2i-Home_02-video_51": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed"
+        },
+        "model_sha256": "ca704917b161e451730787c4461c07b2ec8e7bb74632e24f40f0f052f8c6e231",
+        "scaler_sha256": "6f3b9b7e9566b9670b2a232f61da67b721a7fbd1ae46581736ab29f9c4654c94"
+      },
+      "config": {
+        "project": {
+          "name": "fall-detection-anomaly",
+          "seed": 42
+        },
+        "runtime": {
+          "device": "auto",
+          "num_workers": 0,
+          "torch_threads": 4
+        },
+        "data": {
+          "dataset": "urfall_le2i",
+          "raw_dir": "data/raw",
+          "manifest_dir": "data/manifests/le2i-extension",
+          "cache_dir": "data/cache/le2i-extension-selective",
+          "camera": 0,
+          "modality": "rgb",
+          "protocol_id": "urfall-plus-le2i-cs-sequence-v1",
+          "split_seed": 42,
+          "adl_counts": [
+            24,
+            8,
+            8
+          ],
+          "fall_counts": [
+            0,
+            15,
+            15
+          ],
+          "timestamp_policy": "prefer_source",
+          "fallback_fps": 30,
+          "allow_missing_timestamp_tail": true
+        },
+        "pose": {
+          "backend": "lightweight_openpose",
+          "weights_manifest": "weights/openpose18-manifest.json",
+          "upstream_dir": "third_party/lightweight_openpose",
+          "backbone": "mobilenet_v1",
+          "input_height": 256,
+          "input_width": 192,
+          "detector_size": 384,
+          "detector_confidence": 0.45,
+          "nms_threshold": 0.2,
+          "track_max_age": 30,
+          "track_n_init": 3,
+          "track_similarity_joints": 3,
+          "refinement_stages": 3,
+          "inference_refinement_stage": 1,
+          "rotation_angles": [
+            0,
+            -90,
+            90
+          ],
+          "rotation_policy": "low_quality"
+        },
+        "skeleton": {
+          "recipe_id": "lightweight_openpose18_stgcn_kinetics_v1",
+          "target_fps": 30,
+          "window_size": 30,
+          "stride": 5,
+          "missing_frame_policy": "invalidate_window",
+          "span_tolerance": 1e-08
+        },
+        "quality": {
+          "min_joint_confidence": 0.2,
+          "min_valid_joints": 12,
+          "min_good_frame_ratio": 0.8
+        },
+        "features": {
+          "backend": "stgcn_kinetics",
+          "expected_dim": 256,
+          "frozen": true,
+          "upstream_dir": "third_party/stgcn"
+        },
+        "autoencoder": {
+          "hidden_dim": 128,
+          "latent_dim": 32,
+          "learning_rate": 0.001,
+          "batch_size": 32,
+          "max_epochs": 100,
+          "patience": 10,
+          "min_delta": 1e-06
+        },
+        "calibration": {
+          "split": "validation",
+          "objective": "sequence_fall_f1",
+          "comparison": "gt",
+          "consecutive_windows": 3
+        },
+        "evaluation": {
+          "split": "test",
+          "metric_unit": "sequence"
+        },
+        "demo": {
+          "display": false,
+          "output_dir": "outputs/demo",
+          "score_hold_stride_multiplier": 2
+        }
+      },
+      "processing_fps": 41.81760805659205,
+      "video_grid_fps": 30
+    },
+    "batch_sequence": {
+      "sequence_id": "le2i-Coffee_room_01-video_42",
+      "sequence_score": 0.656720757484436,
+      "prediction": 1,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 33,
+      "n_valid_endpoints": 28,
+      "window_coverage": 0.8484848484848485,
+      "first_alarm_ms": 1966.6666666666667
+    },
+    "compared_visible_valid_endpoints": 28,
+    "valid_endpoints_not_shown_due_to_current_pose_quality": 0,
+    "max_absolute_score_difference": 0.0,
+    "all_compared_states_equal": true,
+    "event_parity": false,
+    "scope_note": "Le2i cached evaluation restricts labelled intervals; general-video demo does not read annotations. Only shared valid raw scores are comparable.",
+    "annotation_segments": [
+      {
+        "label": 7,
+        "start": 0.0,
+        "end": 2.6334,
+        "subject": 5,
+        "camera": 1
+      },
+      {
+        "label": 8,
+        "start": 2.633,
+        "end": 3.90423,
+        "subject": 5,
+        "camera": 1
+      },
+      {
+        "label": 1,
+        "start": 3.904,
+        "end": 5.61256,
+        "subject": 5,
+        "camera": 1
+      },
+      {
+        "label": 2,
+        "start": 5.613,
+        "end": 6.376,
+        "subject": 5,
+        "camera": 1
+      }
+    ],
+    "cached_events": [
+      {
+        "sequence_id": "le2i-Coffee_room_01-video_42",
+        "track_id": 0,
+        "confirmed_start_ms": 1966.6666666666667,
+        "last_active_ms": 2633.3333333333335,
+        "peak_score": 0.23592665791511536,
+        "end_ms": 2800.0,
+        "end_reason": "low_score"
+      },
+      {
+        "sequence_id": "le2i-Coffee_room_01-video_42",
+        "track_id": 0,
+        "confirmed_start_ms": 4966.666666666667,
+        "last_active_ms": 5466.666666666667,
+        "peak_score": 0.8760250210762024,
+        "end_ms": 5633.333333333334,
+        "end_reason": "unlabelled_interval"
+      }
+    ]
+  },
+  "frozen_artifacts_unchanged": [
+    "openpose18-baseline-001",
+    "le2i-extension-001"
+  ]
+}

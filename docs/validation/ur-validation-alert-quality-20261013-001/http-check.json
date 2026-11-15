@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "loopback_only": true,
+  "rows": [
+    {
+      "path": "review/index.html",
+      "http_status": 200,
+      "bytes": 207300
+    },
+    {
+      "path": "review/frames/fall-18-001.png",
+      "http_status": 200,
+      "bytes": 321408
+    }
+  ],
+  "initial_sandbox_client": "WinError 10013",
+  "initial_sandbox_server": "client_timeout",
+  "restricted_server_stopped": true,
+  "replacement_loopback_server": "approved_escalated"
+}

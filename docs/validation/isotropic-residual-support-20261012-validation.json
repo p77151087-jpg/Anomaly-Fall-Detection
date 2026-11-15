@@ -1,0 +1,1580 @@
+{
+  "results": [
+    {
+      "run": "ur-isotropic-wide-channel-20261012-001",
+      "metrics": {
+        "metric_unit": "sequence",
+        "TP": 14,
+        "FP": 0,
+        "FN": 1,
+        "TN": 8,
+        "n_total": 23,
+        "n_evaluable": 23,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "sequence_accuracy": 0.9565217391304348,
+        "sequence_fall_precision": 1.0,
+        "sequence_fall_recall": 0.9333333333333333,
+        "sequence_fall_f1": 0.9655172413793104,
+        "operational_accuracy": 0.9565217391304348,
+        "end_to_end_fall_recall": 0.9333333333333333,
+        "outcomes_with_unknown": [
+          [
+            8,
+            0,
+            0
+          ],
+          [
+            1,
+            14,
+            0
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8408956982911019,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8489634748272458,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.8439114391143911,
+        "n_missing_timelines": 0
+      },
+      "predictions": [
+        {
+          "sequence_id": "adl-37",
+          "sequence_score": 0.2790183126926422,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 325,
+          "n_valid_endpoints": 296,
+          "window_coverage": 0.9107692307692308,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-23",
+          "sequence_score": 0.10621340572834015,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 191,
+          "n_valid_endpoints": 168,
+          "window_coverage": 0.8795811518324608,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-20",
+          "sequence_score": 0.1272915154695511,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 240,
+          "n_valid_endpoints": 184,
+          "window_coverage": 0.7666666666666667,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-04",
+          "sequence_score": 0.11210121214389801,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 120,
+          "n_valid_endpoints": 118,
+          "window_coverage": 0.9833333333333333,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-01",
+          "sequence_score": 0.11388427019119263,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 121,
+          "n_valid_endpoints": 114,
+          "window_coverage": 0.9421487603305785,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-16",
+          "sequence_score": 0.10128317773342133,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 211,
+          "n_valid_endpoints": 124,
+          "window_coverage": 0.5876777251184834,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-18",
+          "sequence_score": 0.19020868837833405,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 235,
+          "n_valid_endpoints": 171,
+          "window_coverage": 0.7276595744680852,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-35",
+          "sequence_score": 0.31893783807754517,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 254,
+          "n_valid_endpoints": 252,
+          "window_coverage": 0.9921259842519685,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "fall-22",
+          "sequence_score": 0.6752612590789795,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 27,
+          "n_valid_endpoints": 25,
+          "window_coverage": 0.9259259259259259,
+          "first_alarm_ms": 1100.0,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-19",
+          "sequence_score": 0.07930001616477966,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 71,
+          "n_valid_endpoints": 23,
+          "window_coverage": 0.323943661971831,
+          "first_alarm_ms": null,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-16",
+          "sequence_score": 1.7189674377441406,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 26,
+          "n_valid_endpoints": 24,
+          "window_coverage": 0.9230769230769231,
+          "first_alarm_ms": 1400.0,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-18",
+          "sequence_score": 0.37302789092063904,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 36,
+          "n_valid_endpoints": 16,
+          "window_coverage": 0.4444444444444444,
+          "first_alarm_ms": 1433.3333333333335,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-08",
+          "sequence_score": 0.3893718421459198,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 62,
+          "n_valid_endpoints": 60,
+          "window_coverage": 0.967741935483871,
+          "first_alarm_ms": 2533.3333333333335,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-13",
+          "sequence_score": 2.2288103103637695,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 56,
+          "n_valid_endpoints": 54,
+          "window_coverage": 0.9642857142857143,
+          "first_alarm_ms": 2266.666666666667,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-29",
+          "sequence_score": 1.3626151084899902,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 70,
+          "n_valid_endpoints": 54,
+          "window_coverage": 0.7714285714285715,
+          "first_alarm_ms": 2566.666666666667,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-14",
+          "sequence_score": 0.7251733541488647,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 32,
+          "n_valid_endpoints": 30,
+          "window_coverage": 0.9375,
+          "first_alarm_ms": 1500.0,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-09",
+          "sequence_score": 0.7920413017272949,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 156,
+          "n_valid_endpoints": 133,
+          "window_coverage": 0.8525641025641025,
+          "first_alarm_ms": 5100.0,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-07",
+          "sequence_score": 5.101475715637207,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 127,
+          "n_valid_endpoints": 125,
+          "window_coverage": 0.984251968503937,
+          "first_alarm_ms": 3766.666666666667,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-11",
+          "sequence_score": 0.4749406576156616,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 101,
+          "n_valid_endpoints": 96,
+          "window_coverage": 0.9504950495049505,
+          "first_alarm_ms": 3233.3333333333335,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-25",
+          "sequence_score": 1.862647294998169,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 56,
+          "n_valid_endpoints": 46,
+          "window_coverage": 0.8214285714285714,
+          "first_alarm_ms": 2466.666666666667,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-06",
+          "sequence_score": 1.5752735137939453,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 71,
+          "n_valid_endpoints": 69,
+          "window_coverage": 0.971830985915493,
+          "first_alarm_ms": 1566.6666666666667,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-02",
+          "sequence_score": 0.8311543464660645,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 81,
+          "n_valid_endpoints": 79,
+          "window_coverage": 0.9753086419753086,
+          "first_alarm_ms": 2600.0,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-30",
+          "sequence_score": 0.3594456911087036,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 41,
+          "n_valid_endpoints": 26,
+          "window_coverage": 0.6341463414634146,
+          "first_alarm_ms": 1866.6666666666667,
+          "label": 1
+        }
+      ],
+      "phases": [
+        {
+          "sequence_id": "fall-19",
+          "phase_event_starts": [],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": []
+        },
+        {
+          "sequence_id": "fall-18",
+          "phase_event_starts": [
+            1433.3333333333335
+          ],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": []
+        },
+        {
+          "sequence_id": "fall-29",
+          "phase_event_starts": [
+            2566.666666666667
+          ],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": [
+            2566.666666666667,
+            2700.0,
+            2733.3333333333335
+          ]
+        },
+        {
+          "sequence_id": "fall-09",
+          "phase_event_starts": [
+            5100.0
+          ],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": []
+        },
+        {
+          "sequence_id": "fall-25",
+          "phase_event_starts": [
+            2466.666666666667
+          ],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": [
+            2500.0
+          ]
+        },
+        {
+          "sequence_id": "fall-30",
+          "phase_event_starts": [
+            1866.6666666666667
+          ],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": []
+        }
+      ],
+      "recovered_fn": [],
+      "visible_recovered_fn": [],
+      "phase_hits": 5,
+      "early_events": 0,
+      "adoption_checks": {
+        "accuracy_strictly_higher": false,
+        "f1_not_lower": true,
+        "no_more_fp": true,
+        "no_more_unknown": true,
+        "phase_hits_not_lower": true,
+        "no_early_events": true,
+        "recovered_fn_current_pose_alert": true
+      },
+      "eligible": false,
+      "threshold": 0.31893783807754517,
+      "status": {
+        "source_kind": "real",
+        "training": "complete",
+        "calibration": "complete",
+        "epochs": 34,
+        "best_val_normal_loss": 0.11561636645647096,
+        "training_reused_from": "ur-isotropic-wide-20261012-001",
+        "additional_epochs": 0,
+        "residual_fit": "complete"
+      },
+      "artifact_hashes": {
+        "autoencoder.pt": "afdb6f1a37bb1ada3e13cffe10bc0c23466f0fcf908e567840c46f3bf5ad300b",
+        "scaler.npz": "a6dd9dbb68f85fa3bd6f358998d341d4b7d40317597e35db592f71ee4007eb19",
+        "resolved-config.yaml": "567b6824f2565e385b4ff95162d09c2930e7f49f2bf1d2e40c70817981df72fd",
+        "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+        "sources.json": "c08c035d0ee69242f8a69a6e03968d3e382c1f9a84646375eb238b36189c2008",
+        "dataset-index.json": "cdd111c3fd7608e3bfdcd71c569fc03206e60e6fd2518ce937306db19a993562",
+        "environment.json": "34c83940314d2c2651b4180f2154873dfd643ab5d79a135fb860cd4a1d22af3c",
+        "training-history.csv": "e82cee506fd67a0564ad8ea11d63d78829f734393dd284d83b977ad7dbd02091",
+        "threshold.json": "85e7060ac8d51756a484594ca61dc9230cd9ea9648d77c1805dbab99f66a6a02",
+        "calibration.json": "b3eea0ed61eb23b1853d9d4a16f6d32599f2c7d9b46da7b694f71bf7aad304b0",
+        "residual-profile.json": "2caecc0c2fccb6c61e23b4181b8245611e8bc8da549b514b70614fc012be5626"
+      },
+      "exports": {
+        "outputs/isotropic-residual-support-20261012/ur-isotropic-wide-channel-20261012-001/events.csv": "d90aab589656b832478d0c1f3924d5ba7ef339454349bf1aa2029edc10e32005",
+        "outputs/isotropic-residual-support-20261012/ur-isotropic-wide-channel-20261012-001/metrics.json": "9c7d22fe0beb8194eebd569cc9d19babacef7bd291a916ca22e8f868f6ea7241",
+        "outputs/isotropic-residual-support-20261012/ur-isotropic-wide-channel-20261012-001/sequences.csv": "aaa257c4773b8b9ea443f5b38d15ea0cc68bafa69ea5cfac3044a113d77ce166",
+        "outputs/isotropic-residual-support-20261012/ur-isotropic-wide-channel-20261012-001/windows.csv": "f0c7d78dbfe23767f2e01fc607884e0823e4012e3fff2d63534ffa78a7d7820c"
+      }
+    },
+    {
+      "run": "ur-isotropic-wide-stream-20261012-001",
+      "metrics": {
+        "metric_unit": "sequence",
+        "TP": 14,
+        "FP": 0,
+        "FN": 1,
+        "TN": 8,
+        "n_total": 23,
+        "n_evaluable": 23,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "sequence_accuracy": 0.9565217391304348,
+        "sequence_fall_precision": 1.0,
+        "sequence_fall_recall": 0.9333333333333333,
+        "sequence_fall_f1": 0.9655172413793104,
+        "operational_accuracy": 0.9565217391304348,
+        "end_to_end_fall_recall": 0.9333333333333333,
+        "outcomes_with_unknown": [
+          [
+            8,
+            0,
+            0
+          ],
+          [
+            1,
+            14,
+            0
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8408956982911019,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8489634748272458,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.8439114391143911,
+        "n_missing_timelines": 0
+      },
+      "predictions": [
+        {
+          "sequence_id": "adl-37",
+          "sequence_score": 0.3979244828224182,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 325,
+          "n_valid_endpoints": 296,
+          "window_coverage": 0.9107692307692308,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-23",
+          "sequence_score": 0.15852291882038116,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 191,
+          "n_valid_endpoints": 168,
+          "window_coverage": 0.8795811518324608,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-20",
+          "sequence_score": 0.18860521912574768,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 240,
+          "n_valid_endpoints": 184,
+          "window_coverage": 0.7666666666666667,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-04",
+          "sequence_score": 0.18990066647529602,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 120,
+          "n_valid_endpoints": 118,
+          "window_coverage": 0.9833333333333333,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-01",
+          "sequence_score": 0.15056076645851135,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 121,
+          "n_valid_endpoints": 114,
+          "window_coverage": 0.9421487603305785,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-16",
+          "sequence_score": 0.15001149475574493,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 211,
+          "n_valid_endpoints": 124,
+          "window_coverage": 0.5876777251184834,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-18",
+          "sequence_score": 0.2644975185394287,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 235,
+          "n_valid_endpoints": 171,
+          "window_coverage": 0.7276595744680852,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "adl-35",
+          "sequence_score": 0.4127082824707031,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 254,
+          "n_valid_endpoints": 252,
+          "window_coverage": 0.9921259842519685,
+          "first_alarm_ms": null,
+          "label": 0
+        },
+        {
+          "sequence_id": "fall-22",
+          "sequence_score": 0.9442524909973145,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 27,
+          "n_valid_endpoints": 25,
+          "window_coverage": 0.9259259259259259,
+          "first_alarm_ms": 1100.0,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-19",
+          "sequence_score": 0.11282173544168472,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 71,
+          "n_valid_endpoints": 23,
+          "window_coverage": 0.323943661971831,
+          "first_alarm_ms": null,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-16",
+          "sequence_score": 2.139206647872925,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 26,
+          "n_valid_endpoints": 24,
+          "window_coverage": 0.9230769230769231,
+          "first_alarm_ms": 1400.0,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-18",
+          "sequence_score": 0.4551481306552887,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 36,
+          "n_valid_endpoints": 16,
+          "window_coverage": 0.4444444444444444,
+          "first_alarm_ms": 1433.3333333333335,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-08",
+          "sequence_score": 0.5477902889251709,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 62,
+          "n_valid_endpoints": 60,
+          "window_coverage": 0.967741935483871,
+          "first_alarm_ms": 2500.0,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-13",
+          "sequence_score": 2.4097681045532227,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 56,
+          "n_valid_endpoints": 54,
+          "window_coverage": 0.9642857142857143,
+          "first_alarm_ms": 2300.0,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-29",
+          "sequence_score": 1.565758466720581,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 70,
+          "n_valid_endpoints": 54,
+          "window_coverage": 0.7714285714285715,
+          "first_alarm_ms": 2566.666666666667,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-14",
+          "sequence_score": 1.0097124576568604,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 32,
+          "n_valid_endpoints": 30,
+          "window_coverage": 0.9375,
+          "first_alarm_ms": 1500.0,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-09",
+          "sequence_score": 1.1902353763580322,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 156,
+          "n_valid_endpoints": 133,
+          "window_coverage": 0.8525641025641025,
+          "first_alarm_ms": 5100.0,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-07",
+          "sequence_score": 5.615048408508301,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 127,
+          "n_valid_endpoints": 125,
+          "window_coverage": 0.984251968503937,
+          "first_alarm_ms": 3766.666666666667,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-11",
+          "sequence_score": 0.7643046975135803,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 101,
+          "n_valid_endpoints": 96,
+          "window_coverage": 0.9504950495049505,
+          "first_alarm_ms": 3100.0,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-25",
+          "sequence_score": 2.28356671333313,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 56,
+          "n_valid_endpoints": 46,
+          "window_coverage": 0.8214285714285714,
+          "first_alarm_ms": 2466.666666666667,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-06",
+          "sequence_score": 2.0749688148498535,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 71,
+          "n_valid_endpoints": 69,
+          "window_coverage": 0.971830985915493,
+          "first_alarm_ms": 1533.3333333333335,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-02",
+          "sequence_score": 1.1913706064224243,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 81,
+          "n_valid_endpoints": 79,
+          "window_coverage": 0.9753086419753086,
+          "first_alarm_ms": 2533.3333333333335,
+          "label": 1
+        },
+        {
+          "sequence_id": "fall-30",
+          "sequence_score": 0.4706152081489563,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 41,
+          "n_valid_endpoints": 26,
+          "window_coverage": 0.6341463414634146,
+          "first_alarm_ms": 1866.6666666666667,
+          "label": 1
+        }
+      ],
+      "phases": [
+        {
+          "sequence_id": "fall-19",
+          "phase_event_starts": [],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": []
+        },
+        {
+          "sequence_id": "fall-18",
+          "phase_event_starts": [
+            1433.3333333333335
+          ],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": []
+        },
+        {
+          "sequence_id": "fall-29",
+          "phase_event_starts": [
+            2566.666666666667
+          ],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": [
+            2566.666666666667,
+            2700.0,
+            2733.3333333333335
+          ]
+        },
+        {
+          "sequence_id": "fall-09",
+          "phase_event_starts": [
+            5100.0
+          ],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": []
+        },
+        {
+          "sequence_id": "fall-25",
+          "phase_event_starts": [
+            2466.666666666667
+          ],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": [
+            2500.0
+          ]
+        },
+        {
+          "sequence_id": "fall-30",
+          "phase_event_starts": [
+            1866.6666666666667
+          ],
+          "early_event_starts": [],
+          "visible_phase_alert_ms": []
+        }
+      ],
+      "recovered_fn": [],
+      "visible_recovered_fn": [],
+      "phase_hits": 5,
+      "early_events": 0,
+      "adoption_checks": {
+        "accuracy_strictly_higher": false,
+        "f1_not_lower": true,
+        "no_more_fp": true,
+        "no_more_unknown": true,
+        "phase_hits_not_lower": true,
+        "no_early_events": true,
+        "recovered_fn_current_pose_alert": true
+      },
+      "eligible": false,
+      "threshold": 0.4127082824707031,
+      "status": {
+        "source_kind": "real",
+        "training": "complete",
+        "calibration": "complete",
+        "epochs": 34,
+        "best_val_normal_loss": 0.11561636645647096,
+        "training_reused_from": "ur-isotropic-wide-20261012-001",
+        "additional_epochs": 0,
+        "residual_fit": "complete"
+      },
+      "artifact_hashes": {
+        "autoencoder.pt": "afdb6f1a37bb1ada3e13cffe10bc0c23466f0fcf908e567840c46f3bf5ad300b",
+        "scaler.npz": "a6dd9dbb68f85fa3bd6f358998d341d4b7d40317597e35db592f71ee4007eb19",
+        "resolved-config.yaml": "f21c6f8e05d40e610823c7b2ab46d59f4f6e8cb3adc658f1e3d5dec173b055ef",
+        "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+        "sources.json": "95f66fc38bebb16d756cf3e70ed727d1e4fb18d8530ee3db442b2629af41bb2c",
+        "dataset-index.json": "cdd111c3fd7608e3bfdcd71c569fc03206e60e6fd2518ce937306db19a993562",
+        "environment.json": "34c83940314d2c2651b4180f2154873dfd643ab5d79a135fb860cd4a1d22af3c",
+        "training-history.csv": "e82cee506fd67a0564ad8ea11d63d78829f734393dd284d83b977ad7dbd02091",
+        "threshold.json": "4ac42dea546fadd43d93c54c7fc2d28c875381299f5e39a9a4e1d1a5fea45c98",
+        "calibration.json": "99fc722396be35f10bea76745858a403cd127a6852ca69772c7ecb44ad49d566",
+        "residual-profile.json": "1968fc7614f333a62d6ab2af4c1a3b5dc4cdd8990cf7728769bd4400ea23cbe2"
+      },
+      "exports": {
+        "outputs/isotropic-residual-support-20261012/ur-isotropic-wide-stream-20261012-001/events.csv": "685927920d4b125a101149d754fe65ec7ef44505658b6252e01293008d30e959",
+        "outputs/isotropic-residual-support-20261012/ur-isotropic-wide-stream-20261012-001/metrics.json": "9c7d22fe0beb8194eebd569cc9d19babacef7bd291a916ca22e8f868f6ea7241",
+        "outputs/isotropic-residual-support-20261012/ur-isotropic-wide-stream-20261012-001/sequences.csv": "69315cd95137267cc1e2adf569a387e2e851b26f9647ae38229db302ab5a2cff",
+        "outputs/isotropic-residual-support-20261012/ur-isotropic-wide-stream-20261012-001/windows.csv": "82bb641de0f8c2b2db98d82979f58772170493775c5a00dc0e92e036965885c9"
+      }
+    }
+  ],
+  "selected_candidate": null,
+  "additional_ae_epochs": 0,
+  "feature_accesses": [
+    {
+      "sequence_id": "adl-33",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-08",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-40",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-19",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-05",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-17",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-26",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-29",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-21",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-25",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-11",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-28",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-31",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-30",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-12",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-33",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-08",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-40",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-19",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-05",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-17",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-26",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-29",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-21",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-25",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-11",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-28",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-31",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-30",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-12",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation"
+    }
+  ],
+  "test_feature_arrays_loaded": 0,
+  "new_test_evaluations": 0,
+  "lock_sha256": "6d8e477473063d3d0c2562f93e3f0be29599901bfb2a06c6b917bd16fac20e26",
+  "evidence_tier": "real_feature_smoke"
+}

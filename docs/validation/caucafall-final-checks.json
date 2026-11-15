@@ -1,0 +1,38 @@
+{
+  "source_kind": "real",
+  "completed": true,
+  "pytest": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "1",
+    "tests": "118",
+    "time": "22.406",
+    "timestamp": "2026-09-17T16:58:33.620502+08:00",
+    "hostname": "MSI"
+  },
+  "frozen_artifacts_unchanged": {
+    "caucafall-extension-001": true,
+    "caucafall-extension-001-balanced": true,
+    "le2i-timing-001": true,
+    "le2i-timing-balanced-001": true
+  },
+  "derived_run_same_trained_artifacts": {
+    "autoencoder.pt": true,
+    "scaler.npz": true,
+    "training-history.csv": true
+  },
+  "all_100_original_video_hashes_verified": true,
+  "old_161_features_records_and_poses_identical": true,
+  "loss_browser_visual_verified": {
+    "run": "caucafall-extension-001",
+    "epochs": 97,
+    "best_epoch": 87,
+    "curves_visible": true
+  },
+  "ruff": "passed",
+  "format": "passed",
+  "compileall": "passed",
+  "test_scores_used_for_model_selection": false,
+  "no_additional_training_started": true
+}

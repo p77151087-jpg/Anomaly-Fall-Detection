@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-09-18T09:05:02.484770+00:00",
+  "lock_sha256": "aba72e7ad6483c33c1b9f611b04b84e07025bca41d89fd527b9102f395d62807",
+  "files": {
+    "src/fall_detect/config.py": "9fcdef4b4909567a6b3d8e54933a1a4a45a0023ece935ba943e9a80c8cc7cbdd",
+    "src/fall_detect/pose/human.py": "6703e6a7f2b207327716c0e7f6491093e8b96f94f92852afec1810f34d2ff6aa",
+    "src/fall_detect/training/experiment.py": "6899e015b0a4fe5db285ee88267a34aa73e5de117bb45b8520e4cfcda4e9be39",
+    "src/fall_detect/training/patterns.py": "9e5a6572d05ca292df45ed4e80d6abb40a22c78a3a8430a73dae19d95e02ff11",
+    "src/fall_detect/visualization/loss_viewer.py": "877bcc386b528f5e4f9d8ac1a7941091560210d3b1678a67037777dab78a1d9f",
+    "scripts/human_quality.py": "89aed0a546ca3e61ec402c30879d40d52389e85ee17941641b5cb4222b006dab",
+    "scripts/human_residual.py": "918d248a7f4267ca843bd22032401fa44c7715afd54ab4b0aede6c3d2efa2cdc",
+    "scripts/ae_generalization.py": "76eaecbf2bbc4bc53b81cf0d64607a09f64ff8692a93eeae278c1bb8f8b92622",
+    "tests/test_human_quality.py": "af37fbc6b79efc78c6c5b2ae5dcfc7af5e2dc11fefc9d3187ff6ea40ae15d52c",
+    "configs\\ur-human-flip-001.yaml": "90747de050473a6b79fe3410074e9bdec63d01c2816b8952453a6f3159d8015d",
+    "configs\\ur-human-patterns-001.yaml": "66f03de3e5ef8a2f2d841ed3de7b537dbdd218d5991fbf9e53ddbd0a16cb194a"
+  },
+  "candidate_validation_not_yet_run": true
+}

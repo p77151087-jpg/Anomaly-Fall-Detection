@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>fall-19：三幀全骨架覆核</title>
+<style>
+body{margin:20px auto;padding:0 16px;max-width:1280px;background:#111b29;color:#edf3fb;font:16px system-ui;line-height:1.6}h1{font-size:26px}button,input,select{font:inherit;padding:8px;margin:4px}button{cursor:pointer}button:disabled{opacity:.4;cursor:default}main{display:flex;gap:24px;flex-wrap:wrap}.viewer{width:510px;max-width:100%}canvas{width:100%;height:auto;touch-action:none;border:1px solid #8093aa}aside{flex:1;min-width:300px}.hint{color:#bdd0e5}#status{color:#71e0c3}#error{color:#ffb59e}.actions{display:grid;gap:6px}label{display:block;margin:10px 0}#context{width:320px;max-width:100%;height:auto}a{color:#89ddfa}details{margin:12px 0}.important{color:#ffe3a8}
+</style>
+<h1>fall-19：3 張影格，先確認髖、膝、踝</h1>
+<p>每張先檢查 6 個下肢關節，共 18 項，最後匯出<strong>一個 JSON</strong>。上半身只在有明確疑點時補註。左右指<strong>人物自己的左右</strong>；彎腰時可能難以分辨，可選看不清。先前左手肘紀錄保留，不必重做。</p>
+<p class="important">橘／青點皆為原模型，沒有預填修正點。請依原圖判斷；看不清不要猜位置。這頁沒有 AE 分數，也不會修改模型或原資料。</p>
+<main><section class="viewer">
+<button id="prevFrame">上一幀</button><strong id="frame"></strong><button id="nextFrame">下一幀</button>
+<p><button id="overlay">暫時隱藏骨架，看原圖</button></p>
+<canvas id="zoom" width="510" height="720" aria-label="原解析度局部放大影像，點選可見關節正確位置"></canvas>
+<p class="hint">橘：髖／膝／踝　青：上半身　紫圈：本項原點　綠：你點的新位置。上圖只是原像素放大，沒有提升原影像解析度。</p>
+<details><summary>完整原影格與構圖</summary><canvas id="context" width="640" height="480"></canvas></details>
+</section><aside>
+<label>目前確認關節 <select id="joint"></select></label><p id="point"></p>
+<p class="hint">髖：骨盆兩側；膝：膝關節；踝：腳踝。點在手臂附近不一定能由單幀找出真正位置。</p>
+<div class="actions">
+<button id="matches">原點符合此關節，確認</button>
+<button id="relocate">錯位，確認我在圖上點的新位置</button>
+<button id="mislocatedUncertain">疑似錯位，但正確位置無法確認</button>
+<button id="uncertain">看不清／遮擋／無法判定</button>
+<button id="undo">清除此項判斷</button>
+</div>
+<button id="prevJoint">上一關節</button><button id="nextJoint">下一關節</button>
+<p id="status"></p><p id="decision"></p>
+<label>備註（此關節，可空白）<input id="note" maxlength="500"></label>
+<label>覆核者姓名 <input id="reviewer" autocomplete="name"></label>
+<label><input id="attest" type="checkbox"> 我已親自查看這 3 幀；這些是我的點位與可見性判斷。</label>
+<button id="export" disabled>匯出一個人工覆核 JSON</button><p id="error"></p>
+<p class="hint">每項需按一個確認按鈕。換幀後會保留草稿；姓名與必要 18 項完成、自述確認後才可匯出。不會自動把其餘關節標成正確。</p>
+</aside></main>
+<script>
+const DATA=__DATA__;
+const storageKey='whole-joint-localization:'+DATA.bundle_sha256;
+const statuses={matches_original:'原點符合',mislocated_visible:'錯位，新位置已確認',mislocated_location_uncertain:'疑似錯位，正確位置不可確認',not_visible_or_uncertain:'看不清／無法判定',unreviewed:'尚未覆核'};
+let frameIndex=0,jointIndex=7,showOverlay=true,image=new Image(),picked=null;
+let draft=DATA.frames.map(f=>DATA.names.map((name,j)=>({joint_index:j,joint_name:name,status:'unreviewed',xy:null,note:''})));
+try{const saved=JSON.parse(localStorage.getItem(storageKey));if(saved?.bundle_sha256===DATA.bundle_sha256&&saved.draft?.length===DATA.frames.length&&saved.draft.every(f=>f.length===13)){draft=saved.draft;document.querySelector('#reviewer').value=saved.reviewer||'';}}catch{}
+const zoom=document.querySelector('#zoom'),context=document.querySelector('#context'),crop={x:260,y:240,w:170,h:240};
+const select=document.querySelector('#joint');DATA.zh_names.forEach((name,j)=>{const option=document.createElement('option');option.value=j;option.textContent=`${j} ${name}（${j>=7?'必要':'可選補註'}）`;select.append(option);});
+function current(){return draft[frameIndex][jointIndex];}
+function save(){try{localStorage.setItem(storageKey,JSON.stringify({bundle_sha256:DATA.bundle_sha256,draft,reviewer:document.querySelector('#reviewer').value}));}catch{document.querySelector('#error').textContent='草稿無法保存在此瀏覽器；請在關閉前完成匯出。';}}
+function count(){return draft.reduce((n,f)=>n+DATA.required_joint_indices.filter(j=>f[j].status!=='unreviewed').length,0);}
+function enabled(){document.querySelector('#export').disabled=!(count()===18&&document.querySelector('#reviewer').value.trim()&&document.querySelector('#attest').checked);}
+function drawCanvas(canvas,isZoom){const ctx=canvas.getContext('2d');ctx.clearRect(0,0,canvas.width,canvas.height);ctx.imageSmoothingEnabled=false;ctx.save();if(isZoom){ctx.scale(3,3);ctx.translate(-crop.x,-crop.y);}ctx.drawImage(image,0,0,640,480);const points=DATA.frames[frameIndex].keypoints;
+if(showOverlay){ctx.lineWidth=1;ctx.strokeStyle='#aab4c299';for(const [a,b] of DATA.edges){ctx.beginPath();ctx.moveTo(...points[a].slice(0,2));ctx.lineTo(...points[b].slice(0,2));ctx.stroke();}points.forEach((p,j)=>{ctx.strokeStyle=j>=7?'#ffb230':'#4fdef2';ctx.lineWidth=1;ctx.beginPath();ctx.arc(p[0],p[1],2.5,0,2*Math.PI);ctx.stroke();ctx.font='7px sans-serif';ctx.fillStyle=ctx.strokeStyle;ctx.fillText(j,p[0]+3,p[1]-3);});ctx.strokeStyle='#ef8cff';ctx.lineWidth=1.5;ctx.beginPath();ctx.arc(points[jointIndex][0],points[jointIndex][1],5,0,2*Math.PI);ctx.stroke();}
+const xy=picked||current().xy;if(xy&&current().status!=='matches_original'){ctx.strokeStyle='#4affbf';ctx.lineWidth=1.5;ctx.beginPath();ctx.arc(xy[0],xy[1],4,0,2*Math.PI);ctx.stroke();}ctx.restore();}
+function render(){drawCanvas(zoom,true);drawCanvas(context,false);select.value=jointIndex;const f=DATA.frames[frameIndex],p=f.keypoints[jointIndex];document.querySelector('#frame').textContent=`第 ${f.source_frame_id} 幀（${frameIndex+1}/3）`;document.querySelector('#point').textContent=`${DATA.zh_names[jointIndex]}：原 (${p[0].toFixed(1)}, ${p[1].toFixed(1)})；${picked?'已點新位置，請按確認':'尚未指定新位置'}`;document.querySelector('#status').textContent=`必要項目完成 ${count()}/18`;document.querySelector('#decision').textContent=`此項：${statuses[current().status]}`;document.querySelector('#note').value=current().note;document.querySelector('#prevFrame').disabled=frameIndex===0;document.querySelector('#nextFrame').disabled=frameIndex===2;document.querySelector('#prevJoint').disabled=jointIndex===0;document.querySelector('#nextJoint').disabled=jointIndex===12;enabled();}
+function load(){picked=null;image.onload=render;image.src=DATA.frames[frameIndex].image;}
+function change(){picked=null;render();}
+function decide(status,xy){current().status=status;current().xy=xy;document.querySelector('#attest').checked=false;save();render();}
+function click(e,canvas,isZoom){const box=canvas.getBoundingClientRect();const x=(e.clientX-box.left)/box.width,y=(e.clientY-box.top)/box.height;const xy=isZoom?[crop.x+x*crop.w,crop.y+y*crop.h]:[x*640,y*480];picked=[Math.max(0,Math.min(639.999,xy[0])),Math.max(0,Math.min(479.999,xy[1]))];current().status='unreviewed';current().xy=null;document.querySelector('#attest').checked=false;save();render();}
+zoom.onpointerdown=e=>click(e,zoom,true);context.onpointerdown=e=>click(e,context,false);
+document.querySelector('#prevFrame').onclick=()=>{frameIndex--;load();};document.querySelector('#nextFrame').onclick=()=>{frameIndex++;load();};select.onchange=()=>{jointIndex=Number(select.value);change();};document.querySelector('#prevJoint').onclick=()=>{jointIndex--;change();};document.querySelector('#nextJoint').onclick=()=>{jointIndex++;change();};
+document.querySelector('#overlay').onclick=()=>{showOverlay=!showOverlay;document.querySelector('#overlay').textContent=showOverlay?'暫時隱藏骨架，看原圖':'顯示原骨架';render();};
+document.querySelector('#matches').onclick=()=>{picked=null;decide('matches_original',DATA.frames[frameIndex].keypoints[jointIndex].slice(0,2));};document.querySelector('#relocate').onclick=()=>{if(!picked){document.querySelector('#error').textContent='請先在原影像點選可見關節的新位置；原點沒有預填為修正點。';return;}decide('mislocated_visible',picked.slice());};document.querySelector('#mislocatedUncertain').onclick=()=>{picked=null;decide('mislocated_location_uncertain',null);};document.querySelector('#uncertain').onclick=()=>{picked=null;decide('not_visible_or_uncertain',null);};document.querySelector('#undo').onclick=()=>{picked=null;decide('unreviewed',null);};document.querySelector('#note').oninput=()=>{current().note=document.querySelector('#note').value;document.querySelector('#attest').checked=false;save();enabled();};document.querySelector('#reviewer').oninput=()=>{document.querySelector('#attest').checked=false;save();enabled();};document.querySelector('#attest').onchange=enabled;
+function exportPayload(){if(count()!==18||!document.querySelector('#reviewer').value.trim()||!document.querySelector('#attest').checked)throw Error('必要覆核或本人確認尚未完成');return {schema_version:1,diagnostic_id:DATA.diagnostic_id,sequence_id:DATA.sequence_id,split:DATA.split,author_kind:'human_self_reported',human_confirmed:true,reviewer:document.querySelector('#reviewer').value.trim(),reviewed_at:new Date().toISOString(),parent_bundle_sha256:DATA.bundle_sha256,pose_array_sha256:DATA.pose_array_sha256,pose_metadata_sha256:DATA.pose_metadata_sha256,source_manifest_sha256:DATA.source_manifest_sha256,coordinate_basis:'original_RGB_user_selected_visible_joints; not independently_verified_joint_ground_truth',frames:DATA.frames.map((f,i)=>({source_frame_id:f.source_frame_id,timestamp_ms:f.timestamp_ms,track_id:f.track_id,image_sha256:f.image_sha256,frame_size_wh:f.frame_size_wh,points:draft[i].map((p,j)=>({...p,original_xy:f.keypoints[j].slice(0,2),original_confidence:f.keypoints[j][2]}))}))};}
+document.querySelector('#export').onclick=()=>{enabled();if(document.querySelector('#export').disabled)return;const result=exportPayload(),url=URL.createObjectURL(new Blob([JSON.stringify(result,null,2)],{type:'application/json'})),a=document.createElement('a');a.href=url;a.download='fall-19-whole-skeleton-human-review.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};load();
+</script></html>

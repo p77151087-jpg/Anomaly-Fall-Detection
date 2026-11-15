@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\���j�M��\fall-detection-anomaly\scripts\sample_human.py", line 300, in <module>
+    globals()[parser.parse_args().stage]()
+  File "C:\���j�M��\fall-detection-anomaly\scripts\sample_human.py", line 263, in test
+    raise ContractError("Validation targets/timing guard not reached; no Test scoring")
+fall_detect.io_utils.ContractError: Validation targets/timing guard not reached; no Test scoring

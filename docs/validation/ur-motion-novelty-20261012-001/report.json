@@ -1,0 +1,29 @@
+{
+  "report_sha256": "f6b6fc69dc6dd797bf76737be7d64b587b2d170c6ce76ffead690522b12a33a7",
+  "risk_passed": 60,
+  "initial_setup_errors": 11,
+  "timing": {
+    "baseline_window_rows": 2917,
+    "new_window_rows": 2917,
+    "window_state_changes": 0,
+    "first_alarm_changes": 0,
+    "baseline_events": 14,
+    "new_events": 14,
+    "event_timing_and_tracks_match": true,
+    "peak_scores_are_different_units": true,
+    "source": "independently audited immutable baseline CSV and new CSV; coarse phase not human GT"
+  },
+  "phase_max": {
+    "ae_scaled": 1.680732743001696,
+    "motion_scaled": 0.8211195691260165,
+    "fused_score": 1.680732743001696,
+    "motion_score": 0.7839314639460946
+  },
+  "normal_val_motion_p95": 1.0189978963529915,
+  "candidate_comparison_sha256": "488af0e9a3c18a1774906085f3f2727db77b7011857f7ef6709e4a427ffab08b",
+  "verification_sha256": "033c72e1590f897ade8d12bdc0bb12e0f7804f648170500e67f8be6ba4e2087d",
+  "neural_epochs": 0,
+  "normal_bank_fit": true,
+  "adopted": false,
+  "test": "unknown"
+}

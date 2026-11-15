@@ -1,0 +1,69 @@
+C:\���j�M��\fall-detection-anomaly\third_party\human\Detection\Models.py:121: UserWarning: The torch.cuda.*DtypeTensor constructors are no longer recommended. It's best to use methods such as torch.tensor(data, dtype=*, device='cuda') to create tensors. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\tensor\python_tensor.cpp:80.)
+  self.scaled_anchors = FloatTensor([(a_w / self.stride, a_h / self.stride) for a_w, a_h in self.anchors])
+adl-05: source frame 1, tracks=0
+adl-05: source frame 31, tracks=1
+adl-05: source frame 61, tracks=1
+adl-05: source frame 91, tracks=1
+adl-05: source frame 121, tracks=1
+adl-05: source frame 151, tracks=1
+adl-38: source frame 1, tracks=0
+adl-38: source frame 31, tracks=1
+adl-38: source frame 61, tracks=1
+adl-38: source frame 91, tracks=1
+adl-38: source frame 121, tracks=1
+adl-38: source frame 151, tracks=1
+adl-38: source frame 181, tracks=1
+adl-38: source frame 211, tracks=1
+adl-38: source frame 241, tracks=1
+adl-38: source frame 271, tracks=1
+adl-38: source frame 301, tracks=1
+adl-38: source frame 331, tracks=1
+adl-24: source frame 1, tracks=0
+adl-24: source frame 31, tracks=1
+adl-24: source frame 61, tracks=1
+adl-20: source frame 1, tracks=0
+adl-20: source frame 31, tracks=0
+adl-20: source frame 61, tracks=1
+adl-20: source frame 91, tracks=1
+adl-20: source frame 121, tracks=1
+adl-20: source frame 151, tracks=1
+adl-20: source frame 181, tracks=1
+adl-20: source frame 211, tracks=1
+adl-20: source frame 241, tracks=1
+adl-04: source frame 1, tracks=0
+adl-04: source frame 31, tracks=1
+adl-04: source frame 61, tracks=1
+adl-04: source frame 91, tracks=1
+adl-04: source frame 121, tracks=1
+fall-19: source frame 1, tracks=0
+fall-19: source frame 31, tracks=1
+fall-19: source frame 61, tracks=1
+fall-19: source frame 91, tracks=1
+fall-29: source frame 1, tracks=0
+fall-29: source frame 31, tracks=1
+fall-29: source frame 61, tracks=1
+fall-29: source frame 91, tracks=1
+fall-09: source frame 1, tracks=0
+fall-09: source frame 31, tracks=1
+fall-09: source frame 61, tracks=1
+fall-09: source frame 91, tracks=1
+fall-09: source frame 121, tracks=1
+fall-09: source frame 151, tracks=1
+fall-09: source frame 181, tracks=1
+fall-25: source frame 1, tracks=0
+fall-25: source frame 31, tracks=1
+fall-25: source frame 61, tracks=1
+fall-02: source frame 1, tracks=0
+fall-02: source frame 31, tracks=1
+fall-02: source frame 61, tracks=1
+fall-02: source frame 91, tracks=1
+Rebuilding features from verified observed poses: adl-05
+Rebuilding features from verified observed poses: adl-38
+Rebuilding features from verified observed poses: adl-24
+Rebuilding features from verified observed poses: adl-20
+Rebuilding features from verified observed poses: adl-04
+Rebuilding features from verified observed poses: fall-19
+Rebuilding features from verified observed poses: fall-29
+Rebuilding features from verified observed poses: fall-09
+Rebuilding features from verified observed poses: fall-25
+Rebuilding features from verified observed poses: fall-02

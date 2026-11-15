@@ -1,0 +1,150 @@
+{
+  "source_kind": "real_end_to_end",
+  "cases": [
+    {
+      "run": "ur-sample-human-s1-001",
+      "sequence_id": "fall-09",
+      "frames": 185,
+      "compared_scores": 127,
+      "max_score_difference": 0.0,
+      "events_equal": true,
+      "action_csv_byte_identical": true,
+      "original_ae_csv_byte_identical": true,
+      "first_visible_alarm_ms": 5900.0,
+      "visible_alarm_frames": 8,
+      "preview": "outputs\\human-isotropic-streaming\\ur-sample-human-s1-001\\fall-09-preview.mp4",
+      "contact": "outputs\\human-isotropic-streaming\\ur-sample-human-s1-001\\fall-09-check.jpg",
+      "files": {
+        "outputs\\human-isotropic-streaming\\ur-sample-human-s1-001\\fall-09-actions.csv": "4b93521202519ea43d8b95e4867f6895307b1641656c52d8a45f6202e00d5a17",
+        "outputs\\human-isotropic-streaming\\ur-sample-human-s1-001\\fall-09-check.jpg": "e57525f94b82386cc80aa2808e35f66d19b99ffff07da45dbc0f5364186c3f65",
+        "outputs\\human-isotropic-streaming\\ur-sample-human-s1-001\\fall-09-events.csv": "eca518ab714258dcd48f8bcbf93835d514fc9ebc7094d3730ae53821423641bd",
+        "outputs\\human-isotropic-streaming\\ur-sample-human-s1-001\\fall-09-preview.mp4": "79d1785732a6dcfdab1c5ff339852dcc3023dd64ce6402e1073838e3c7a0a512",
+        "outputs\\human-isotropic-streaming\\ur-sample-human-s1-001\\fall-09.csv": "423f0034e0ec92944de7cf2d1960f07a091a9a3b37fde86e828aae37faa38720",
+        "outputs\\human-isotropic-streaming\\ur-sample-human-s1-001\\fall-09.json": "081701c38c3b3d67f202f346244d45a2f4f462b3e5d8c58f687c30bc64b83fe3",
+        "outputs\\human-isotropic-streaming\\ur-sample-human-s1-001\\fall-09.mp4": "0a957b912a1128e4065433ae9d4d450487659cb66049e3921985b78a4e3fc9c5"
+      }
+    },
+    {
+      "run": "ur-human-isotropic-001",
+      "sequence_id": "adl-35",
+      "frames": 283,
+      "compared_scores": 252,
+      "max_score_difference": 0.0,
+      "events_equal": true,
+      "action_csv_byte_identical": null,
+      "original_ae_csv_byte_identical": null,
+      "first_visible_alarm_ms": null,
+      "visible_alarm_frames": 0,
+      "preview": "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\adl-35-preview.mp4",
+      "contact": "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\adl-35-check.jpg",
+      "files": {
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\adl-35-check.jpg": "4107202b7b4e6a4dbf340a3212017bc9505d48bdc04736cc3687510cb1b41731",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\adl-35-events.csv": "06d9b8c2b37ae90061d1b39daa37708acf74a5e8c9fa676fe66f9638af13fee2",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\adl-35-preview.mp4": "71958b13fd1f5b3e2821960d087d6bb438f6dc334756dd63c390d545b49aa2b7",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\adl-35.csv": "1f962066110b90093700c82940c1cf4d3a2121c0fb61835afa30ec76892fbd5c",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\adl-35.json": "d8687dd5817aa2b88c358eba6889d1e03d7a291872bed6c891f2125263d97061",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\adl-35.mp4": "ff74913a87ed46be0d2ae198b6ba3ff1c075bdc4f25ef3534aaed345caea1975"
+      }
+    },
+    {
+      "run": "ur-human-isotropic-001",
+      "sequence_id": "fall-09",
+      "frames": 185,
+      "compared_scores": 127,
+      "max_score_difference": 0.0,
+      "events_equal": true,
+      "action_csv_byte_identical": null,
+      "original_ae_csv_byte_identical": null,
+      "first_visible_alarm_ms": 5000.0,
+      "visible_alarm_frames": 11,
+      "preview": "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-09-preview.mp4",
+      "contact": "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-09-check.jpg",
+      "files": {
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-09-check.jpg": "97fbbb37430d84bb72ef558646d590d24bc618c1f43514d3f888ca313f693a7f",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-09-events.csv": "9f39b52102dce1b035749bb83dc8ee6fbd8cae5a56fdcfabd1065745050754b6",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-09-preview.mp4": "a8647d6a32103b20ca6eeaabc37693b8412b0b2fa3e9125a4efca8b3e2749f98",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-09.csv": "6b2f7e7e7d94d7e3198d1c2f908f41ebbcd67b662a11cfcb8b785271a3fd7a09",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-09.json": "2da87c886a957f6444f0fb8212ff31a7927fd230ae6517b77d55ffec54bd6e12",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-09.mp4": "cddd31b92210f12b3c18d17ab06e1c8114d51ef704a3d83c914f35a8d257f81f"
+      }
+    },
+    {
+      "run": "ur-human-isotropic-001",
+      "sequence_id": "fall-19",
+      "frames": 100,
+      "compared_scores": 21,
+      "max_score_difference": 0.0,
+      "events_equal": true,
+      "action_csv_byte_identical": null,
+      "original_ae_csv_byte_identical": null,
+      "first_visible_alarm_ms": null,
+      "visible_alarm_frames": 0,
+      "preview": "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-19-preview.mp4",
+      "contact": "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-19-check.jpg",
+      "files": {
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-19-check.jpg": "91ee95ce63120e4ef1dd01dd2f161fcf96f42833f86180cff36ea73dc9d68974",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-19-events.csv": "06d9b8c2b37ae90061d1b39daa37708acf74a5e8c9fa676fe66f9638af13fee2",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-19-preview.mp4": "4d37ff9267a80635289fb7695550830234e52be8aed4ef66b8344d2d91112c04",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-19.csv": "b87595669b7413f4ed0e09b6a2e2d2b16279a8feabc7db699972f3bd1864d7ee",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-19.json": "4408537834ab669f7b98482f79eb76aa9ed8a447afefb7bdeebe011b34aec508",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-19.mp4": "050e963a01dfe27c4c7a6718444ebbb6dd306f144442ad17a0c3788b34f9fb39"
+      }
+    },
+    {
+      "run": "ur-human-isotropic-001",
+      "sequence_id": "fall-18",
+      "frames": 65,
+      "compared_scores": 12,
+      "max_score_difference": 0.0,
+      "events_equal": true,
+      "action_csv_byte_identical": null,
+      "original_ae_csv_byte_identical": null,
+      "first_visible_alarm_ms": null,
+      "visible_alarm_frames": 0,
+      "preview": "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-18-preview.mp4",
+      "contact": "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-18-check.jpg",
+      "files": {
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-18-check.jpg": "e910a98c851ff080868fb953ab16ef92aa5dba4e74251b2fe26efbebd19483df",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-18-events.csv": "06d9b8c2b37ae90061d1b39daa37708acf74a5e8c9fa676fe66f9638af13fee2",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-18-preview.mp4": "844c85ee7c652c93e5c490184e8a23b5306acc7ed429d04724bc576d4340a3a7",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-18.csv": "e154960c5edb140d397cb3c63cb4ab80113e337ea12dd65f62dcbb8e8a971e81",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-18.json": "b15c408c44a468581a5ac17809f01ca32b68d18425e18a5d3d2aa815abe20e78",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-18.mp4": "726f08f3ecb67c9d5e4f402911d63fdb5cf60d0170d7d4e14b4c2d00aa15a0c6"
+      }
+    },
+    {
+      "run": "ur-human-isotropic-001",
+      "sequence_id": "fall-30",
+      "frames": 70,
+      "compared_scores": 20,
+      "max_score_difference": 0.0,
+      "events_equal": true,
+      "action_csv_byte_identical": null,
+      "original_ae_csv_byte_identical": null,
+      "first_visible_alarm_ms": null,
+      "visible_alarm_frames": 0,
+      "preview": "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-30-preview.mp4",
+      "contact": "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-30-check.jpg",
+      "files": {
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-30-check.jpg": "71920cea7af2c3c3547592b4a90e37d623eb8e7e902f739d3b4da7659d59bc08",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-30-events.csv": "9d6ac4ea5da5ae3f6bc8361a3293e86eb83a455df5432b712c4f53933f0a2b48",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-30-preview.mp4": "4cc0d5fc096df54d04cc84a75bddf702aa57aefd86a87508e173dfe5bdc23f44",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-30.csv": "b06ac57965ffa5f56614aadf6b3d9582c6fdcb73f294b2a007aa86dad30b8464",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-30.json": "d3502f2b8327ca6f8542244832d34ff9e5003b5cabe26b15fd200b7e87eb0cea",
+        "outputs\\human-isotropic-streaming\\ur-human-isotropic-001\\fall-30.mp4": "602327b5ff3195d1231fbdbc1b2a7029b6805b79021c25fbc2930392373fadf4"
+      }
+    }
+  ],
+  "train_only_scaler_refit": true,
+  "train_sequences": 24,
+  "train_windows": 3638,
+  "selected": "ur-sample-human-s1-001",
+  "target_reached": false,
+  "new_test_scored": false,
+  "old_runs_preserved": 40,
+  "old_cache_files_preserved": 8450,
+  "validation_sha256": "8d3f01ae003bed5430746489ff97431691b888f561958e9cd344a07ea638774f",
+  "verification_script_sha256": "3721510155ee423cbdd68555cfa84eafba9f9922bf4fd96b9a9b1bd75f50a06a",
+  "pilot_sha256": "6fd26ce3384c6a80ec68681651d9c9aa6541594906b34badc9666158e896d9fd",
+  "lock_sha256": "98cc22b3195ba3e4c8170f7dd13ef92f0efcf63b4b1d26804dfc136fd90ffb06"
+}

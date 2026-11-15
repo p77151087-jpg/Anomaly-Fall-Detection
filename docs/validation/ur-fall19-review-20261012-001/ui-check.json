@@ -1,0 +1,20 @@
+{
+  "url": "http://127.0.0.1:8800/index.html",
+  "browser": "Codex IAB",
+  "passed": true,
+  "observed": {
+    "initial": "frame1,0ms; no scheduled window; 0/100 human reviewed",
+    "frame54": "1768ms, current Pose []; past window53 available1766.6667ms valid; all3 scores below own thresholds, state normal",
+    "frame55": "1801ms,current Pose []; window54 available1800ms track_gap, unknown, scoresnull",
+    "unconfirmed_export": "Blocked, displayed no human annotation exported; 0/100 unchanged"
+  },
+  "human_export_performed": false,
+  "human_attestation_set": false,
+  "saved_real_human_labels": false,
+  "initial_environment_failures": [
+    "CUA initial timeout, recovered after fresh binding",
+    "sandbox loopback WinError10013 / browser net::ERR_CONNECTION_TIMED_OUT"
+  ],
+  "recovery": "Only-read server on127.0.0.1:8800 in allowed local connection environment, page loaded and interactions verified",
+  "public_upload": false
+}

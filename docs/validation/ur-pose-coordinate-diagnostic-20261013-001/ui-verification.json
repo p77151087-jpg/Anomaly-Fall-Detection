@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "url": "http://127.0.0.1:8810/review/index.html",
+  "image_loaded": true,
+  "canvas_click_coordinate_scaling": true,
+  "uncertain_xy_null": true,
+  "draft_reload_preserves_decision": true,
+  "reset_restores_provisional_unreviewed": true,
+  "all_eight_frames_navigation": true,
+  "last_frame_next_disabled": true,
+  "export_disabled_without_all_reviewed": true,
+  "export_payload_source_reviewed": true,
+  "human_export_not_performed": true,
+  "final_ui_reviewed_count": 0,
+  "screenshot": "outputs/ur-pose-coordinate-diagnostic-20261013-001/review-ui.jpg",
+  "initial_sandbox_network_block": "localhost server restarted with approved escalation; browser verified after restart"
+}

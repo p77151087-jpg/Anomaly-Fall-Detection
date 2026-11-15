@@ -1,0 +1,31 @@
+<!doctype html><html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>fall-19：8個左手肘點位覆核</title>
+<style>body{font:16px system-ui;background:#101827;color:#e9eef6;margin:20px auto;max-width:1080px}button,input{font:inherit;padding:9px;margin:4px}button{cursor:pointer}button:disabled{opacity:.4;cursor:default}canvas{width:min(100%,640px);height:auto;touch-action:none;background:#222;border:1px solid #8090a0}main{display:flex;gap:20px;flex-wrap:wrap}aside{flex:1;min-width:300px}.hint{color:#becbe0;line-height:1.7}#status{color:#79e5d0}#error{color:#ffb1a3}label{display:block;margin:12px 0}.legend{margin:8px}a{color:#8ddfff}</style>
+<h1>fall-19：8 個左手肘點位覆核</h1>
+<p class="hint">只需檢查第 44–51 幀的<strong>人物左手肘（畫面右側）</strong>。橘點是原模型，青點是 AI 暫定位置，尚未經人工確認。點影像可改位置；看不清就選「看不清／不可確認」。請依影像判断，這頁不提供模型分數。</p>
+<main><section><canvas id="canvas" width="640" height="480"></canvas><p class="legend">橘：原點　青：待確認點　灰：原骨架</p><button id="prev">上一幀</button><strong id="frame"></strong><button id="next">下一幀</button></section><aside>
+<p id="point"></p><button id="confirm">此點可見，確認位置</button><button id="uncertain">看不清／不可確認</button><button id="reset">恢復本幀 AI 草稿</button>
+<p id="status"></p><p class="hint">瀏覽器會自動保存這一份草稿。完成 8 幀後，只匯出<strong>一個 JSON</strong>。確認「看不清」的點不會被補造；不需要重做原先 100 幀姿態紀錄。</p>
+<label>覆核者姓名 <input id="reviewer" autocomplete="name"></label><label><input id="attest" type="checkbox"> 我已親自查看這 8 幀，以上是我的點位／可見性判斷。</label>
+<button id="export" disabled>匯出一個人工覆核 JSON</button><p id="error"></p><p><a href="../summary.json">AI 控制診斷結果（獨立文件）</a></p>
+</aside></main>
+<script>
+const DATA=__DATA__;
+const key='pose-coordinate-review:'+DATA.proposal_sha256;
+let draft=JSON.parse(JSON.stringify(DATA.annotation)),reviewed=Array(8).fill(false),index=0;
+try{let saved=JSON.parse(localStorage.getItem(key));if(saved?.proposal_sha256===DATA.proposal_sha256){draft=saved.draft;reviewed=saved.reviewed;document.querySelector('#reviewer').value=saved.reviewer||'';}}catch{}
+const canvas=document.querySelector('#canvas'),ctx=canvas.getContext('2d'),img=new Image();
+function save(){localStorage.setItem(key,JSON.stringify({proposal_sha256:DATA.proposal_sha256,draft,reviewed,reviewer:document.querySelector('#reviewer').value}));}
+function enable(){document.querySelector('#export').disabled=!(reviewed.every(Boolean)&&document.querySelector('#reviewer').value.trim()&&document.querySelector('#attest').checked);}
+function draw(){ctx.clearRect(0,0,640,480);ctx.drawImage(img,0,0,640,480);const original=DATA.original_poses[index];ctx.strokeStyle='#aaa9';ctx.lineWidth=1;for(const [a,b] of [[1,2],[1,3],[3,5],[2,4],[4,6],[1,7],[2,8],[7,8],[7,9],[9,11],[8,10],[10,12]]){ctx.beginPath();ctx.moveTo(...original[a].slice(0,2));ctx.lineTo(...original[b].slice(0,2));ctx.stroke();}const p=draft.points[index];for(const [xy,color] of [[p.original_xy,'#ff9c30'],[p.xy,'#5affdf']])if(xy){ctx.strokeStyle=color;ctx.lineWidth=3;ctx.beginPath();ctx.arc(...xy,6,0,2*Math.PI);ctx.stroke();ctx.beginPath();ctx.moveTo(xy[0]-10,xy[1]);ctx.lineTo(xy[0]+10,xy[1]);ctx.moveTo(xy[0],xy[1]-10);ctx.lineTo(xy[0],xy[1]+10);ctx.stroke();}
+document.querySelector('#frame').textContent=`第 ${p.source_frame_id} 幀 (${index+1}/8)`;document.querySelector('#point').textContent=`座標：${p.xy?p.xy.map(v=>v.toFixed(1)).join(', '):'未指定'}；${reviewed[index]?'此幀已覆核':'此幀尚未覆核'}`;document.querySelector('#status').textContent=`已完成 ${reviewed.filter(Boolean).length}/8 幀`;document.querySelector('#prev').disabled=index===0;document.querySelector('#next').disabled=index===7;enable();}
+function load(){img.onload=draw;img.src=DATA.images[index];}
+canvas.addEventListener('pointerdown',e=>{let box=canvas.getBoundingClientRect(),p=draft.points[index];p.xy=[Math.max(0,Math.min(639.99,(e.clientX-box.left)*640/box.width)),Math.max(0,Math.min(479.99,(e.clientY-box.top)*480/box.height))];p.visibility='visible';reviewed[index]=false;document.querySelector('#attest').checked=false;save();draw();});
+document.querySelector('#prev').onclick=()=>{index--;load();};document.querySelector('#next').onclick=()=>{index++;load();};
+document.querySelector('#confirm').onclick=()=>{if(!draft.points[index].xy){document.querySelector('#error').textContent='請先在影像中點選可見手肘。';return;}reviewed[index]=true;draft.points[index].visibility='visible';save();draw();};
+document.querySelector('#uncertain').onclick=()=>{draft.points[index].xy=null;draft.points[index].visibility='not_visible_or_uncertain';reviewed[index]=true;save();draw();};
+document.querySelector('#reset').onclick=()=>{draft.points[index]=JSON.parse(JSON.stringify(DATA.annotation.points[index]));reviewed[index]=false;document.querySelector('#attest').checked=false;save();draw();};
+document.querySelector('#reviewer').oninput=()=>{save();enable();};document.querySelector('#attest').onchange=enable;
+document.querySelector('#export').onclick=()=>{enable();if(document.querySelector('#export').disabled)return;let result=JSON.parse(JSON.stringify(draft));result.author_kind='human_self_reported';result.human_confirmed=true;result.reviewer=document.querySelector('#reviewer').value.trim();result.reviewed_frame_ids=result.points.map(p=>p.source_frame_id);result.reviewed_at=new Date().toISOString();result.parent_proposal_sha256=DATA.proposal_sha256;let url=URL.createObjectURL(new Blob([JSON.stringify(result,null,2)],{type:'application/json'})),a=document.createElement('a');a.href=url;a.download='fall-19-left-elbow-human-coordinates.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
+document.addEventListener('keydown',e=>{if(e.target.tagName==='INPUT')return;if(e.key==='ArrowRight'&&index<7){index++;load();}if(e.key==='ArrowLeft'&&index>0){index--;load();}});load();
+</script></html>

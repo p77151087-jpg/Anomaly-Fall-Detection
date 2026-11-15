@@ -1,0 +1,490 @@
+{
+  "baseline": "ur-isotropic-wide-20261012-001",
+  "fall19": {
+    "sequence_id": "fall-19",
+    "sequence_score": 0.13463649153709412,
+    "prediction": 0,
+    "unknown_reason": null,
+    "n_scheduled_endpoints": 71,
+    "n_valid_endpoints": 23,
+    "window_coverage": 0.323943661971831,
+    "first_alarm_ms": null,
+    "valid_features": 23,
+    "feature_shape": [
+      23,
+      512
+    ],
+    "finite": true,
+    "quality_counts": {
+      "track_gap": 37,
+      "valid": 23,
+      "low_confidence": 11
+    },
+    "window_size": 30,
+    "stride": 1,
+    "duration_ms_range": [
+      966.6666666666665,
+      966.666666666667
+    ],
+    "phase_scheduled_endpoints": 27,
+    "phase_valid_endpoints": 9,
+    "phase_legal_k3": 9,
+    "phase_max_raw_score": 0.1839069426059723,
+    "phase_max_event_score": 0.13463649153709412,
+    "phase_windows": [
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 45,
+        "window_id": 16,
+        "start_ms": 533.3333333333334,
+        "end_ms": 1500.0,
+        "available_at_ms": 1500.0,
+        "raw_score": 0.09111574292182922,
+        "event_score": 0.09111574292182922,
+        "state": "normal",
+        "reason": null
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 46,
+        "window_id": 17,
+        "start_ms": 566.6666666666667,
+        "end_ms": 1533.3333333333335,
+        "available_at_ms": 1533.3333333333335,
+        "raw_score": 0.10829463601112366,
+        "event_score": 0.09111574292182922,
+        "state": "normal",
+        "reason": null
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 47,
+        "window_id": 18,
+        "start_ms": 600.0,
+        "end_ms": 1566.6666666666667,
+        "available_at_ms": 1566.6666666666667,
+        "raw_score": 0.1367148756980896,
+        "event_score": 0.09111574292182922,
+        "state": "normal",
+        "reason": null
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 48,
+        "window_id": 19,
+        "start_ms": 633.3333333333334,
+        "end_ms": 1600.0,
+        "available_at_ms": 1600.0,
+        "raw_score": 0.1236255019903183,
+        "event_score": 0.10829463601112366,
+        "state": "normal",
+        "reason": null
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 49,
+        "window_id": 20,
+        "start_ms": 666.6666666666667,
+        "end_ms": 1633.3333333333335,
+        "available_at_ms": 1633.3333333333335,
+        "raw_score": 0.11727241426706314,
+        "event_score": 0.11727241426706314,
+        "state": "normal",
+        "reason": null
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 50,
+        "window_id": 21,
+        "start_ms": 700.0,
+        "end_ms": 1666.6666666666667,
+        "available_at_ms": 1666.6666666666667,
+        "raw_score": 0.1308436393737793,
+        "event_score": 0.11727241426706314,
+        "state": "normal",
+        "reason": null
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 51,
+        "window_id": 22,
+        "start_ms": 733.3333333333334,
+        "end_ms": 1700.0000000000002,
+        "available_at_ms": 1700.0000000000002,
+        "raw_score": 0.13463649153709412,
+        "event_score": 0.11727241426706314,
+        "state": "normal",
+        "reason": null
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 52,
+        "window_id": 23,
+        "start_ms": 766.6666666666667,
+        "end_ms": 1733.3333333333335,
+        "available_at_ms": 1733.3333333333335,
+        "raw_score": 0.13854143023490906,
+        "event_score": 0.1308436393737793,
+        "state": "normal",
+        "reason": null
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 53,
+        "window_id": 24,
+        "start_ms": 800.0,
+        "end_ms": 1766.6666666666667,
+        "available_at_ms": 1766.6666666666667,
+        "raw_score": 0.1839069426059723,
+        "event_score": 0.13463649153709412,
+        "state": "normal",
+        "reason": null
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 54,
+        "window_id": 25,
+        "start_ms": 833.3333333333334,
+        "end_ms": 1800.0000000000002,
+        "available_at_ms": 1800.0000000000002,
+        "raw_score": null,
+        "event_score": null,
+        "state": "unknown",
+        "reason": "track_gap"
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 55,
+        "window_id": 26,
+        "start_ms": 866.6666666666667,
+        "end_ms": 1833.3333333333335,
+        "available_at_ms": 1833.3333333333335,
+        "raw_score": null,
+        "event_score": null,
+        "state": "unknown",
+        "reason": "track_gap"
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 56,
+        "window_id": 27,
+        "start_ms": 900.0000000000001,
+        "end_ms": 1866.6666666666667,
+        "available_at_ms": 1866.6666666666667,
+        "raw_score": null,
+        "event_score": null,
+        "state": "unknown",
+        "reason": "track_gap"
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 57,
+        "window_id": 28,
+        "start_ms": 933.3333333333334,
+        "end_ms": 1900.0000000000002,
+        "available_at_ms": 1900.0000000000002,
+        "raw_score": null,
+        "event_score": null,
+        "state": "unknown",
+        "reason": "track_gap"
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 58,
+        "window_id": 29,
+        "start_ms": 966.6666666666667,
+        "end_ms": 1933.3333333333335,
+        "available_at_ms": 1933.3333333333335,
+        "raw_score": null,
+        "event_score": null,
+        "state": "unknown",
+        "reason": "track_gap"
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 59,
+        "window_id": 30,
+        "start_ms": 1000.0000000000001,
+        "end_ms": 1966.6666666666667,
+        "available_at_ms": 1966.6666666666667,
+        "raw_score": null,
+        "event_score": null,
+        "state": "unknown",
+        "reason": "track_gap"
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 60,
+        "window_id": 31,
+        "start_ms": 1033.3333333333335,
+        "end_ms": 2000.0000000000002,
+        "available_at_ms": 2000.0000000000002,
+        "raw_score": null,
+        "event_score": null,
+        "state": "unknown",
+        "reason": "track_gap"
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 61,
+        "window_id": 32,
+        "start_ms": 1066.6666666666667,
+        "end_ms": 2033.3333333333335,
+        "available_at_ms": 2033.3333333333335,
+        "raw_score": null,
+        "event_score": null,
+        "state": "unknown",
+        "reason": "track_gap"
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 62,
+        "window_id": 33,
+        "start_ms": 1100.0,
+        "end_ms": 2066.666666666667,
+        "available_at_ms": 2066.666666666667,
+        "raw_score": null,
+        "event_score": null,
+        "state": "unknown",
+        "reason": "track_gap"
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 63,
+        "window_id": 34,
+        "start_ms": 1133.3333333333335,
+        "end_ms": 2100.0,
+        "available_at_ms": 2100.0,
+        "raw_score": null,
+        "event_score": null,
+        "state": "unknown",
+        "reason": "track_gap"
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 64,
+        "window_id": 35,
+        "start_ms": 1166.6666666666667,
+        "end_ms": 2133.3333333333335,
+        "available_at_ms": 2133.3333333333335,
+        "raw_score": null,
+        "event_score": null,
+        "state": "unknown",
+        "reason": "track_gap"
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 65,
+        "window_id": 36,
+        "start_ms": 1200.0,
+        "end_ms": 2166.666666666667,
+        "available_at_ms": 2166.666666666667,
+        "raw_score": null,
+        "event_score": null,
+        "state": "unknown",
+        "reason": "track_gap"
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 66,
+        "window_id": 37,
+        "start_ms": 1233.3333333333335,
+        "end_ms": 2200.0,
+        "available_at_ms": 2200.0,
+        "raw_score": null,
+        "event_score": null,
+        "state": "unknown",
+        "reason": "track_gap"
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 67,
+        "window_id": 38,
+        "start_ms": 1266.6666666666667,
+        "end_ms": 2233.3333333333335,
+        "available_at_ms": 2233.3333333333335,
+        "raw_score": null,
+        "event_score": null,
+        "state": "unknown",
+        "reason": "track_gap"
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 68,
+        "window_id": 39,
+        "start_ms": 1300.0,
+        "end_ms": 2266.666666666667,
+        "available_at_ms": 2266.666666666667,
+        "raw_score": null,
+        "event_score": null,
+        "state": "unknown",
+        "reason": "track_gap"
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 69,
+        "window_id": 40,
+        "start_ms": 1333.3333333333335,
+        "end_ms": 2300.0,
+        "available_at_ms": 2300.0,
+        "raw_score": null,
+        "event_score": null,
+        "state": "unknown",
+        "reason": "track_gap"
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 70,
+        "window_id": 41,
+        "start_ms": 1366.6666666666667,
+        "end_ms": 2333.3333333333335,
+        "available_at_ms": 2333.3333333333335,
+        "raw_score": null,
+        "event_score": null,
+        "state": "unknown",
+        "reason": "track_gap"
+      },
+      {
+        "sequence_id": "fall-19",
+        "track_id": 1,
+        "sample_index": 71,
+        "window_id": 42,
+        "start_ms": 1400.0,
+        "end_ms": 2366.666666666667,
+        "available_at_ms": 2366.666666666667,
+        "raw_score": null,
+        "event_score": null,
+        "state": "unknown",
+        "reason": "track_gap"
+      }
+    ],
+    "pose_sha256": "9f793ef74565c96209cb379a48750b34cf49573b714b339e1e91957ac76ef0b3",
+    "feature_sha256": "4c339fa8c88ca8f9c429a3da50e3667a538f23c8e158b855d96ea47a21d41845",
+    "causal_timestamps_verified": true
+  },
+  "limitation": "Coarse AI intervals are diagnostic, not confirmed temporal GT",
+  "feature_accesses": [
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation"
+    }
+  ]
+}

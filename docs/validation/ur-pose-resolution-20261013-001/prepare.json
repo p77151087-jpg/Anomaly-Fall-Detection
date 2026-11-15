@@ -1,0 +1,738 @@
+{
+  "technical_gate_passed": true,
+  "source_kind": "real",
+  "evidence_level": "real_feature_smoke",
+  "index_sha256": "67b2ab1df11c95eaea9ecdd83a15ec3d078eb904c1240710edcac3ad9ff6bfbb",
+  "stats": [
+    {
+      "sequence_id": "adl-33",
+      "features": 77,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "3d49aadbacfa806aab846412d03bbca27d6cb75953cd58ffa471b3cfaa06565e"
+    },
+    {
+      "sequence_id": "adl-08",
+      "features": 132,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "89e79588108a7197f99a881bff4f65da5e63d199aa4064883d86be0db1c0a015"
+    },
+    {
+      "sequence_id": "adl-40",
+      "features": 122,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "19991c656aeec9813904a217cf5dab8727970fc643467fa8d11def13cd98e39b"
+    },
+    {
+      "sequence_id": "adl-19",
+      "features": 14,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "047efa1f6130d1e4c7de39313c9d2799447e97239b644115c5978886f93cd2ac"
+    },
+    {
+      "sequence_id": "adl-05",
+      "features": 148,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "a09150e1614c34750a82729e1e6510d41d0bc8287ae6cefb6d8c65f2c2c61426"
+    },
+    {
+      "sequence_id": "adl-38",
+      "features": 84,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "239b5392df99d0a50933ac3df4e098de92eda8ce702b643b4d4d800d34e3e80e"
+    },
+    {
+      "sequence_id": "adl-17",
+      "features": 24,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "5310573d2359f13a6595f03f0a964c2f4b42848f2212f72503e53f517028f5de"
+    },
+    {
+      "sequence_id": "adl-06",
+      "features": 178,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "5b09ea44e031fe00afe8f754831c70616962a772dc25aebe26636fb921f87f7d"
+    },
+    {
+      "sequence_id": "adl-26",
+      "features": 63,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "3f8673829d4ed68328b66e00456f23cb269de00137b9c235c2adfef9d530ec2a"
+    },
+    {
+      "sequence_id": "adl-29",
+      "features": 93,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "1dde7f110785d0813ba3e35d9da22152f6cc3e2d1836a5947a4aaa40341c4225"
+    },
+    {
+      "sequence_id": "adl-22",
+      "features": 1,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "90dea8a1b88d1142513f63a1111a7cc2d942195a3f10f29984fc2fb4caf8d1f6"
+    },
+    {
+      "sequence_id": "adl-21",
+      "features": 43,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "4de6eac63b733fefe42c45b82b092f9420b41e18b5554e0872517ac1a6494e4c"
+    },
+    {
+      "sequence_id": "adl-36",
+      "features": 176,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "f0be855e2df74e376cc30ffc800ec648ad315ced115febd3440867705af08cf1"
+    },
+    {
+      "sequence_id": "adl-25",
+      "features": 78,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "34e39a73506229f12e0c6231028356c40c9f7d4287bf51d19023a38537c89c27"
+    },
+    {
+      "sequence_id": "adl-11",
+      "features": 163,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "3fe588dc9cdb825b3440dd1cfc3caf284260f9e0f0010e55e794e04ce3e0e903"
+    },
+    {
+      "sequence_id": "adl-28",
+      "features": 17,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "d5f46f0455bbc2838dcb2aa204db54dfcbadadc46952d5436be0bfee464fb394"
+    },
+    {
+      "sequence_id": "adl-32",
+      "features": 65,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "cfeddd42c0c18a3af4f6de1d2fbacadd1a725415cf76d013ebb032dc98f367d9"
+    },
+    {
+      "sequence_id": "adl-31",
+      "features": 55,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "b716206841a785d8b9469744dcd9757ce29225de957a3a15dcfb02b421cf36ea"
+    },
+    {
+      "sequence_id": "adl-27",
+      "features": 68,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "ad92745a095a5bb7c3c31f19be9e68c51c88ef2b31760798e486044ec6dd888a"
+    },
+    {
+      "sequence_id": "adl-07",
+      "features": 144,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "7b38e51cde3306db10f46c846a94412ab2f8b7915d6e49517a70606dd23f1c26"
+    },
+    {
+      "sequence_id": "adl-30",
+      "features": 101,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "acf9129d83bda7dbd7847f97850d17cea75e550d122cb942bde074ccdb0fd63e"
+    },
+    {
+      "sequence_id": "adl-12",
+      "features": 73,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "f2c35d0f69743d1227cf30735ea2dd71e09e5935d291eef653d5ade6c613b710"
+    },
+    {
+      "sequence_id": "adl-24",
+      "features": 38,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "3c7bf106599377eddd6b4a428f445d847da436e9c4e25f7863fac562f693a519"
+    },
+    {
+      "sequence_id": "adl-10",
+      "features": 137,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "cafa7f3c4c67c21fcc5e9842fc374b8ed6813d3d080ac176c012ac34bcd49b22"
+    },
+    {
+      "sequence_id": "adl-37",
+      "features": 177,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "aa99e30a3b9736601c8f11624e300f9a01b8d157dd55d116d2bf52063afb1276"
+    },
+    {
+      "sequence_id": "adl-23",
+      "features": 24,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "4c3614d90411dfe79d7f1192f3ac9b95b7de17d800507f94e2b30507970192d8"
+    },
+    {
+      "sequence_id": "adl-20",
+      "features": 51,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "180f667667913e4819aa470e64d177193e46e6b8bf7feca543f47af13d249232"
+    },
+    {
+      "sequence_id": "adl-04",
+      "features": 118,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "1067c035df58b9048050f954a55c981df83997c91759a90d9c94ae91b45f8777"
+    },
+    {
+      "sequence_id": "adl-01",
+      "features": 99,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "fadf2bdc0f8c13c12027ddb2104551f016506a3db73eafb064bef802101c5dac"
+    },
+    {
+      "sequence_id": "adl-16",
+      "features": 24,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "7cc9a09ad3cdbe909ce77331a282f92d8b1fd520e81df73538332f3eb7b9b303"
+    },
+    {
+      "sequence_id": "adl-18",
+      "features": 68,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "0368d2dc91b073c7b98501c28861e0f1dca127baf2eeacf9e330ec7dadabf4e5"
+    },
+    {
+      "sequence_id": "adl-35",
+      "features": 77,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "7ef51e39d4a71696ba4b2066427e47167eea8da1e70fa51adb178f43e485e262"
+    },
+    {
+      "sequence_id": "fall-22",
+      "features": 0,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "7f8aaeb8b3bb0def77d411a94a13b1c7c47c01cf25f025bc02e15b2de808ff28"
+    },
+    {
+      "sequence_id": "fall-19",
+      "features": 20,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "ae2284af07a0e0e147adfa498bc8e4c2b0ac60201bb875d219ebb43aa9a31c01"
+    },
+    {
+      "sequence_id": "fall-16",
+      "features": 24,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "9ce58aa7f02ad2932d2f3c2751c37bab61bc5b079978109df674988068741468"
+    },
+    {
+      "sequence_id": "fall-18",
+      "features": 14,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "acebb8167baf0a4df666c6b345660a96e72119a2aec2573f845e868cfe059e09"
+    },
+    {
+      "sequence_id": "fall-08",
+      "features": 60,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "12617c608785378c3cfe77fd8fe3f6dab152d981f599da8df3047dce7b65c2f8"
+    },
+    {
+      "sequence_id": "fall-13",
+      "features": 29,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "88b38d013d4ae0c05370c665cf1639d08e5933cdc33ad7ca7d2fdf919c8fa861"
+    },
+    {
+      "sequence_id": "fall-29",
+      "features": 44,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "37fa3b6f70ba1c7bbda4b09605fb0e56b6bd11720f4efb490a1b9149307469d1"
+    },
+    {
+      "sequence_id": "fall-14",
+      "features": 13,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "a8b3af7db08f07bad17b4c0e766f695a25d61c81d811b3388d6af72c00b8cf26"
+    },
+    {
+      "sequence_id": "fall-09",
+      "features": 115,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "126ee821e9f4912a018ac6e425a192b0907ae185a327fac878ad34c1b2fdecf0"
+    },
+    {
+      "sequence_id": "fall-07",
+      "features": 85,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "3be1af83c0456d6a95ac78795a98a2cf1ecd9dc69a6f24787b94abe6a751690b"
+    },
+    {
+      "sequence_id": "fall-11",
+      "features": 99,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "3a0c001c9a407e5560168f618e9caaba01529afdbde5afd8fc295b2525305b1c"
+    },
+    {
+      "sequence_id": "fall-25",
+      "features": 39,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "b0a6733d6273c5d9bbc156e63b441825be91dbdd3a47468e56e8652d9302e185"
+    },
+    {
+      "sequence_id": "fall-06",
+      "features": 69,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "51ac5ed24e590fc6b38b52a377e8d222bd52f19fe56487f1f006a27cc4b0d620"
+    },
+    {
+      "sequence_id": "fall-02",
+      "features": 56,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "2cbdb9ba9f8cf476f5d901801d0a9337a0225eef70710414323a20d9c3cecd08"
+    },
+    {
+      "sequence_id": "fall-30",
+      "features": 20,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "f7397970fc4822273c62bae1dfc235f473424090f7ad03ed586ede4c2018df73"
+    }
+  ],
+  "load_reports": [
+    {
+      "strict_loads": {
+        "detector": {
+          "strict": true,
+          "key_conversion": null,
+          "sha256": "355917fb2f2c05a769f87d7809dc3feeb1e6cf12c72f68fb8bd43d4905418e11"
+        },
+        "pose": {
+          "strict": true,
+          "key_conversion": null,
+          "sha256": "42808e905aa20133a89a6a2cba073265a2ce35fabe65edffd9f153ef5846b7b0"
+        },
+        "stgcn": {
+          "strict": true,
+          "key_conversion": null,
+          "sha256": "1cac9a6da99d5d67da8ab58ee7633c5e923d85fba668673f028792819750a149"
+        }
+      },
+      "heatmap_shapes": [
+        [
+          1,
+          17,
+          128,
+          96
+        ]
+      ]
+    }
+  ],
+  "verification": {
+    "pose_forward": true,
+    "pose_observations_reused": false,
+    "feature_forward": true,
+    "device": "cuda",
+    "refreshed": false
+  },
+  "accesses": [
+    {
+      "kind": "identity",
+      "sequence_id": "adl-33"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-33"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-08"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-08"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-40"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-40"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-19"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-19"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-05"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-38"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-38"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-17"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-17"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-06"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-06"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-26"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-26"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-29"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-29"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-22"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-22"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-21"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-21"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-36"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-36"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-25"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-25"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-11"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-11"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-28"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-28"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-32"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-32"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-31"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-31"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-27"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-27"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-07"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-07"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-30"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-30"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-12"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-12"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-24"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-10"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-10"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-37"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-37"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-23"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-23"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-20"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-20"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-04"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-01"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-01"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-16"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-16"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-18"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-18"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-35"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-35"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "fall-22"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "fall-22"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "fall-19"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "fall-16"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "fall-16"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "fall-18"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "fall-18"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "fall-08"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "fall-08"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "fall-13"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "fall-13"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "fall-29"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "fall-29"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "fall-14"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "fall-14"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "fall-09"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "fall-09"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "fall-07"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "fall-07"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "fall-11"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "fall-11"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "fall-25"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "fall-25"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "fall-06"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "fall-06"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "fall-02"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "fall-02"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "fall-30"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "fall-30"
+    }
+  ],
+  "test_feature_reads": 0,
+  "test_image_reads": 0,
+  "test_evaluations": 0
+}

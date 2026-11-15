@@ -1,0 +1,21 @@
+{
+  "pose": {
+    "detector": {
+      "strict": true,
+      "key_conversion": null,
+      "sha256": "355917fb2f2c05a769f87d7809dc3feeb1e6cf12c72f68fb8bd43d4905418e11"
+    },
+    "pose": {
+      "strict": true,
+      "key_conversion": null,
+      "sha256": "42808e905aa20133a89a6a2cba073265a2ce35fabe65edffd9f153ef5846b7b0"
+    }
+  },
+  "stgcn": {
+    "strict": true,
+    "key_conversion": null,
+    "sha256": "1cac9a6da99d5d67da8ab58ee7633c5e923d85fba668673f028792819750a149"
+  },
+  "feature_dim": 512,
+  "real_image_forward_done": false
+}

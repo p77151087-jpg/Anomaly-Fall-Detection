@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "method": "Independent Decimal timestamp comparisons from original source metadata; original saved-window triples and CSV counts, without the new interval helper",
+  "formal_sequence_rows": 23,
+  "selected_saved_windows": 233,
+  "selected_events": 3,
+  "selected_active_endpoints": 10,
+  "old_hashes_preserved": 263,
+  "confusion_matrix": [
+    [
+      8,
+      0,
+      0
+    ],
+    [
+      1,
+      14,
+      0
+    ]
+  ],
+  "cases": [
+    {
+      "sequence_id": "fall-18",
+      "onset_ms": [
+        700.0,
+        1101.0
+      ],
+      "impact_ms": [
+        1301.0,
+        1534.0
+      ],
+      "first_alarm_ms": 1433.3333333333335,
+      "first_alarm_relation": "impact_uncertainty",
+      "active_endpoint_counts": 1,
+      "active_after_latest_impact": 0
+    },
+    {
+      "sequence_id": "fall-09",
+      "onset_ms": [
+        4304.0,
+        4571.0
+      ],
+      "impact_ms": [
+        4705.0,
+        5973.0
+      ],
+      "first_alarm_ms": 5900.0,
+      "first_alarm_relation": "impact_uncertainty",
+      "active_endpoint_counts": 8,
+      "active_after_latest_impact": 5
+    },
+    {
+      "sequence_id": "fall-30",
+      "onset_ms": [
+        1167.0,
+        1534.0
+      ],
+      "impact_ms": [
+        1635.0,
+        1868.0
+      ],
+      "first_alarm_ms": 1866.6666666666667,
+      "first_alarm_relation": "impact_uncertainty",
+      "active_endpoint_counts": 1,
+      "active_after_latest_impact": 0
+    }
+  ],
+  "test_or_model_or_feature_array_access": 0
+}

@@ -1,0 +1,93 @@
+{
+  "stage": "complete",
+  "evidence_kind": "real_feature_preparation",
+  "n_prepared": 231,
+  "old_sequences_identical_features_records_and_pose_arrays": 161,
+  "counts": {
+    "urfall/train/adl": {
+      "planned": 24,
+      "usable": 19,
+      "windows": 346
+    },
+    "urfall/validation/adl": {
+      "planned": 8,
+      "usable": 7,
+      "windows": 128
+    },
+    "urfall/validation/fall": {
+      "planned": 15,
+      "usable": 13,
+      "windows": 90
+    },
+    "urfall/test/adl": {
+      "planned": 8,
+      "usable": 7,
+      "windows": 145
+    },
+    "urfall/test/fall": {
+      "planned": 15,
+      "usable": 10,
+      "windows": 89
+    },
+    "le2i/test/fall": {
+      "planned": 22,
+      "usable": 21,
+      "windows": 737
+    },
+    "le2i/validation/fall": {
+      "planned": 11,
+      "usable": 11,
+      "windows": 422
+    },
+    "le2i/train/adl": {
+      "planned": 38,
+      "usable": 38,
+      "windows": 3834
+    },
+    "le2i/test/adl": {
+      "planned": 16,
+      "usable": 16,
+      "windows": 1442
+    },
+    "le2i/validation/adl": {
+      "planned": 4,
+      "usable": 4,
+      "windows": 158
+    },
+    "caucafall/train/adl": {
+      "planned": 30,
+      "usable": 30,
+      "windows": 1096
+    },
+    "caucafall/test/fall": {
+      "planned": 10,
+      "usable": 9,
+      "windows": 252
+    },
+    "caucafall/test/adl": {
+      "planned": 10,
+      "usable": 10,
+      "windows": 432
+    },
+    "caucafall/validation/fall": {
+      "planned": 10,
+      "usable": 10,
+      "windows": 278
+    },
+    "caucafall/validation/adl": {
+      "planned": 10,
+      "usable": 10,
+      "windows": 351
+    }
+  },
+  "verification": {
+    "pose_forward": true,
+    "pose_observations_reused": false,
+    "feature_forward": true,
+    "device": "cuda",
+    "refreshed": false
+  },
+  "recipe_hash": "31790b41169e814324b6f66011ddefb926181f2ccdf2771785c9a30e749d60b8",
+  "split_hash": "18fe3ea544602523e56f81d2fe7360feb817a6be6d1d2ac7818304f33c03ddf2",
+  "dataset_index_sha256": "8f7d65635b42b8d51d1676f63681a4e8943e04ff82f28e5f6ef4a220190ac0af"
+}

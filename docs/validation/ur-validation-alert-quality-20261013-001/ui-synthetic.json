@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "assertions": 22,
+  "evidence_tier": "synthetic_fake_DOM_not_browser",
+  "actual_human_annotations_created": 0
+}

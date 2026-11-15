@@ -1,0 +1,154 @@
+{
+  "scope": "Train and normal Validation only",
+  "training_distribution": {
+    "urfall": {
+      "sequences": 24,
+      "usable": 19,
+      "windows": 346
+    },
+    "le2i": {
+      "sequences": 38,
+      "usable": 38,
+      "windows": 3834
+    }
+  },
+  "normal_validation": [
+    {
+      "sequence_id": "adl-37",
+      "dataset": "urfall",
+      "windows": 28,
+      "mean_loss": 0.12876439879515342
+    },
+    {
+      "sequence_id": "adl-23",
+      "dataset": "urfall",
+      "windows": 10,
+      "mean_loss": 0.36933924853801725
+    },
+    {
+      "sequence_id": "adl-20",
+      "dataset": "urfall",
+      "windows": 34,
+      "mean_loss": 0.19918331832570188
+    },
+    {
+      "sequence_id": "adl-04",
+      "dataset": "urfall",
+      "windows": 18,
+      "mean_loss": 0.16092130769458082
+    },
+    {
+      "sequence_id": "adl-01",
+      "dataset": "urfall",
+      "windows": 21,
+      "mean_loss": 0.2298500653178919
+    },
+    {
+      "sequence_id": "adl-16",
+      "dataset": "urfall",
+      "windows": 0,
+      "mean_loss": null
+    },
+    {
+      "sequence_id": "adl-18",
+      "dataset": "urfall",
+      "windows": 1,
+      "mean_loss": 0.10536391288042068
+    },
+    {
+      "sequence_id": "adl-35",
+      "dataset": "urfall",
+      "windows": 16,
+      "mean_loss": 0.5825179945677519
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_46",
+      "dataset": "le2i",
+      "windows": 38,
+      "mean_loss": 0.16523013950178497
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_47",
+      "dataset": "le2i",
+      "windows": 49,
+      "mean_loss": 0.2146481283161105
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_48",
+      "dataset": "le2i",
+      "windows": 34,
+      "mean_loss": 0.1504138287375955
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_51",
+      "dataset": "le2i",
+      "windows": 37,
+      "mean_loss": 0.142868510976031
+    }
+  ],
+  "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "torch": "2.8.0+cu128",
+  "old_frozen_artifacts": {
+    "le2i-extension-001": {
+      "autoencoder.pt": "ca704917b161e451730787c4461c07b2ec8e7bb74632e24f40f0f052f8c6e231",
+      "scaler.npz": "6f3b9b7e9566b9670b2a232f61da67b721a7fbd1ae46581736ab29f9c4654c94",
+      "resolved-config.yaml": "9fce6a2711db0f9efc47d51bf4937ac8d608be73ef3f5770006dcf4bec89be82",
+      "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+      "sources.json": "f9e240c71e43c0a2767a4782cc984e30563aa4bbe60c1a70f1a7a06de8f06a55",
+      "dataset-index.json": "d8dd901eaac25857cee27d877ef2661f63bf55c77eab093bed18d8eb8597a030",
+      "environment.json": "343ebf62cd8b8520f32256d02e5f589b5edfc071d5bcc12355d4fd7bd15ee281",
+      "training-history.csv": "f9911064944e6a49b541d67b9183b8817033e6a50fc1816e2750e32d1c94014f",
+      "threshold.json": "b6d1fb32c66a91d180febee697e9d0f3982f1d6052428320cac40f8179c1e70e",
+      "calibration.json": "cba120e9c629cefc35f600619d0020e794e8fe4a404429b051517abc1983e5b4"
+    },
+    "le2i-timing-001": {
+      "autoencoder.pt": "b19ee3b108a9d1651a6c70bef75fe5d9b2db24ff3b5dd5bac432d7fd1fbe7bad",
+      "scaler.npz": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990",
+      "resolved-config.yaml": "5372c8434f3dfb8c2e3cdaa4a5367fdd4dc66c124164cd62b9b81c3d4fd24beb",
+      "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+      "sources.json": "fb849c7a5a40b215e00aa4060c09955fcfbaba7de8e24c4609931dc8a5f6424a",
+      "dataset-index.json": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+      "environment.json": "62786ea9350e5cdf836b9f5ef35fb9c5b6ada9608c9bc4e558b4c51bb3ba2da3",
+      "training-history.csv": "6d5317f144a0b554d649c841f3013b79984c32201c10e295ad234699bdab32fb",
+      "threshold.json": "38a820155015c81a9860d001544867d1d0333500a71d06988baf2d7d540c0291",
+      "calibration.json": "c18faba8d415d431d03fcad21452bb172dc9d5fa2b037e96195ed86ac2448ec1"
+    },
+    "le2i-timing-balanced-001": {
+      "autoencoder.pt": "b19ee3b108a9d1651a6c70bef75fe5d9b2db24ff3b5dd5bac432d7fd1fbe7bad",
+      "scaler.npz": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990",
+      "resolved-config.yaml": "618169bea4756ad2c69e2b671b19fe6f533df96434a2dcb13955f8041595468c",
+      "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+      "sources.json": "4fe9ea34f66660eb6e0a6fbe8339121cdea1f25b5ee7e159b008a38142d073a8",
+      "dataset-index.json": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+      "environment.json": "62786ea9350e5cdf836b9f5ef35fb9c5b6ada9608c9bc4e558b4c51bb3ba2da3",
+      "training-history.csv": "6d5317f144a0b554d649c841f3013b79984c32201c10e295ad234699bdab32fb",
+      "threshold.json": "b40521324c5f9298cbed262db8cc1d5bc37f32d98732938442f543f017066b57",
+      "calibration.json": "dda30ab037de60e4825c9935c674fe21980f2fa19f6858e2206ecb2e17afeb0e"
+    },
+    "openpose18-baseline-001": {
+      "autoencoder.pt": "10804ead639fd3b27b01d94cf5fd89f527a2328154d6942880ad03773c4a515f",
+      "scaler.npz": "21a94fc4a3d899aa46ea673208a222480fccdb98c61ecc2666099651f19e5f77",
+      "resolved-config.yaml": "d0062a4cb90009a6abc9dd6d5d7fdf37093ba4906e3952849eeb2ecc80e4d723",
+      "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+      "sources.json": "1417b64e4dd822e8d72f9f01b5960f6507236d93434c31c43a13433bc4a311d8",
+      "dataset-index.json": "16f0a99a97d073a0aa93f8e8dbea178c5ccc1b0feeab7a9666e9bb218d632f5c",
+      "environment.json": "aaeebdb021a4888f471f908dfbaca4aad32a129a0159345ea4a25861d36ba1c4",
+      "training-history.csv": "46c590ea80514c5035e50bd35110edb0944a70c4924dbc3b3dab0c8b271f1c3b",
+      "threshold.json": "b823c667e7cc2618a60f99ae49ea4a2848c03744fa63b4663d88754f21803421",
+      "calibration.json": "35b3130f06ff37bd45230e6b7442a5cbe1e20b7de47a8c19b9ef1abd85a94f6f"
+    },
+    "openpose18-rotation-001": {
+      "autoencoder.pt": "652cd10304dd2ad01d8ee044a781ba6ee9cbbd6b27deedd40958925dd5fdd93e",
+      "scaler.npz": "e29616b0728d9c88c3a019ba561a422b08dd5a57c8f91f4664e80213a907e9bf",
+      "resolved-config.yaml": "e6387789af38d63563415f8159c441a79494d19523e8ec658e2270ed4b57639f",
+      "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+      "sources.json": "39a7b27139c8c9a3a737d014314ec1396192be27ebc9627c7c9a01526836e419",
+      "dataset-index.json": "6cb42ae75d330730c7729f82bf74f6317b4ae05dde8a1c7f2e4f45ddb711de56",
+      "environment.json": "3c6a355eff3dd4b75b3138430fb53c60699cb58a144c91a5f381aee8b44c8719",
+      "training-history.csv": "f1acb41df2c1b54c3ad24f819c638cd103f35e285d20922277ded64beae3d933",
+      "threshold.json": "6f0c3c7902c59b63a85cd7d3d833ed94e8fd3fd450b0cd683efbd626dfc82b20",
+      "calibration.json": "81a14b196e4ad0cdc121ad7a72eec1e3a1464c23b5f0e4903b2123f7af016423"
+    }
+  },
+  "test_used": false
+}

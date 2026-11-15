@@ -1,0 +1,20 @@
+{
+  "completed_at": "2026-09-17T12:46:24.660321+00:00",
+  "preserved_existing_runs": 16,
+  "new_frozen_runs_verified": 4,
+  "cache_index_unchanged": true,
+  "tests": "25 passed; docs/validation/pytest-refinement.xml",
+  "real_demo_count": 4,
+  "real_decoded_frames": 1417,
+  "compared_windows": 252,
+  "max_score_difference": 0.0,
+  "ui_loss_verified": {
+    "run": "caucafall-yolo11-balanced-001",
+    "epochs": 144,
+    "best_epoch": 124,
+    "best_val_loss": 0.14356811290886434,
+    "train_windows": 6096,
+    "val_normal_windows": 1026
+  },
+  "no_training_remaining": true
+}

@@ -1,0 +1,13 @@
+{
+  "evidence": "real image model compatibility, not fall classification",
+  "source": "Train adl-05 first real frame",
+  "frame_size_wh": [
+    640,
+    480
+  ],
+  "source_sha256": "29b17eaf3a3117cbea906090dbedf9159f7c6a49db58ec8b99ed2dfde1cf6eb2",
+  "converted_sha256": "9ed4d6879c271b554149ea93ec71c9531da17863a64e0e80945d9c11c668ad3d",
+  "poses": 1,
+  "mapped_keypoints_max_abs_difference": 0.0,
+  "cpu": true
+}

@@ -1,0 +1,155 @@
+{
+  "passed": true,
+  "adopted": false,
+  "metrics": {
+    "metric_unit": "sequence",
+    "TP": 12,
+    "FP": 0,
+    "FN": 3,
+    "TN": 8,
+    "n_total": 23,
+    "n_evaluable": 23,
+    "n_unknown": 0,
+    "sequence_coverage": 1.0,
+    "sequence_accuracy": 0.8695652173913043,
+    "sequence_fall_precision": 1.0,
+    "sequence_fall_recall": 0.8,
+    "sequence_fall_f1": 0.8888888888888888,
+    "operational_accuracy": 0.8695652173913043,
+    "end_to_end_fall_recall": 0.8,
+    "outcomes_with_unknown": [
+      [
+        8,
+        0,
+        0
+      ],
+      [
+        3,
+        12,
+        0
+      ]
+    ],
+    "outcome_columns": [
+      "normal",
+      "suspected_fall",
+      "unknown"
+    ],
+    "outcome_rows": [
+      "ADL",
+      "Fall"
+    ],
+    "by_class": {
+      "ADL": {
+        "n_total": 8,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "window_coverage": 0.8525604952166573,
+        "n_missing_timelines": 0
+      },
+      "Fall": {
+        "n_total": 15,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "window_coverage": 0.8650042992261393,
+        "n_missing_timelines": 0
+      }
+    },
+    "window_coverage": 0.8574829931972789,
+    "n_missing_timelines": 0
+  },
+  "synthetic_risk_tests": {
+    "passed": 33,
+    "failed": 0,
+    "skipped": 0
+  },
+  "full_regression": {
+    "initial_passed": 271,
+    "initial_failed_loopback_permissions": 2,
+    "retry_passed": 2,
+    "final_unique_passed": 273,
+    "historical_skip": 1,
+    "unresolved_failures": 0
+  },
+  "real_feature_smoke": "passed fixed10 pilot, full47 features, 39epoch AE and23Val independent audit",
+  "real_end_to_end": "not_run; no new RGB Pose/demo/Test",
+  "test_prepared": false,
+  "test_evaluations": 0,
+  "test_feature_arrays_decoded": 0,
+  "historical_cache_bytes_hashed_for_preservation_only": true,
+  "original_retirement_files_verified": 1430,
+  "retired_external_files_verified": 201,
+  "original_core_exact_archives": 3,
+  "round_preserved_files": 1031,
+  "plots_visually_checked": [
+    "validation-comparison.png",
+    "confusion-matrix.png",
+    "training-curve.png"
+  ],
+  "static_checks": [
+    {
+      "command": [
+        "C:\\成大專案\\fall-detection-anomaly\\.venv\\Scripts\\python.exe",
+        "-m",
+        "ruff",
+        "check",
+        "src",
+        "tests",
+        "scripts"
+      ],
+      "exit_code": 0,
+      "stdout": "All checks passed!\n"
+    },
+    {
+      "command": [
+        "C:\\成大專案\\fall-detection-anomaly\\.venv\\Scripts\\python.exe",
+        "-m",
+        "compileall",
+        "-q",
+        "src",
+        "scripts",
+        "tests"
+      ],
+      "exit_code": 0,
+      "stdout": ""
+    }
+  ],
+  "format_check": "8 changed/new files passed before finalizer; finalizer checked separately",
+  "graph_coverage_evidence": "docs/validation/ur-short20-isotropic-20261012-graph-coverage.json",
+  "report_revision": "Original generated report archived by its exact recorded hash; final report adds independent retirement/source preservation audit only",
+  "files": {
+    "outputs/ur-short20-isotropic-20261012/fall19-window-difference.json": "7b552f8972b0299abaebd92b4e6328e65831df8b9694d1e3346ee9fb08e62b6a",
+    "outputs/ur-short20-isotropic-20261012/sequence-comparison.csv": "9597fe6c5aab6bf38c7b023dd494c171894e98ab5ce857ccd1c31dc232b08176",
+    "outputs/ur-short20-isotropic-20261012/validation-comparison.png": "052a724dd4cc369a2d9f03e4725ba0d92942191d49515dfe5cf8a4ab0c523788",
+    "outputs/ur-short20-isotropic-20261012/ur-short20-isotropic-20261012-001/confusion-matrix.png": "0342481715e11fd194f9be217f26519b1f1baf835b52e89b33ad1ff3775295d3",
+    "outputs/ur-short20-isotropic-20261012/ur-short20-isotropic-20261012-001/evaluation-summary.md": "7d84ab3bae48dc1fc84c9fa2d1b21793c5ef8f65659ce6c3c871acd6f1ce74e5",
+    "outputs/ur-short20-isotropic-20261012/ur-short20-isotropic-20261012-001/events.csv": "6973a1e86dfc0d7084ebe9e70b42bfc68ba0e1244761564c165a1c4d1a702fa2",
+    "outputs/ur-short20-isotropic-20261012/ur-short20-isotropic-20261012-001/metrics.json": "6e2c8bdffc300b335786f23350eac3632f1ed0442616eb02971adeb825f9276d",
+    "outputs/ur-short20-isotropic-20261012/ur-short20-isotropic-20261012-001/outcomes-with-unknown.csv": "47c087b4519b34663c74f3819dceb6dfece978bca2b1ac6ce1afe53114879440",
+    "outputs/ur-short20-isotropic-20261012/ur-short20-isotropic-20261012-001/sequence-results.csv": "1935031a849019ab04034e3b2f866e2c21da106667bf088b741c329bcc1799ff",
+    "outputs/ur-short20-isotropic-20261012/ur-short20-isotropic-20261012-001/window-results.csv": "6a81e80af14ec0ac3f16f6e66f833e04001bb2603de55a397ecbb2f5b82fc444",
+    "runs/ur-short20-isotropic-20261012-001/autoencoder.pt": "a354aa70d921bc90b3efeae056b552d92c616205df632ff32056e21519b6779c",
+    "runs/ur-short20-isotropic-20261012-001/calibration.json": "2bca5ed2a213bf347466a6f8d341c1feb0207195ada9a834c603186b4ed57b75",
+    "runs/ur-short20-isotropic-20261012-001/dataset-index.json": "06d6157f38d050ade071f86317424d0d20519b8c9faae637fc98786ae419dc35",
+    "runs/ur-short20-isotropic-20261012-001/environment.json": "3ffd0d1159c8d8c50722f5f507efd8972a66583bf996757afc48ddd43051ac5f",
+    "runs/ur-short20-isotropic-20261012-001/frozen-artifacts.json": "ba761dd29cfec48e2a678c814cc4d9de1b93d83b1b0a3f48a299d92745a2d2e7",
+    "runs/ur-short20-isotropic-20261012-001/resolved-config.yaml": "fa4bdaaadb10e1d21f137dca7e4c369de96c3757d1268150a12f423ac188392b",
+    "runs/ur-short20-isotropic-20261012-001/scaler.npz": "056d59c1b203b131ca7e04e26a5c62773c0b44bb843324c5a325306eb06d1413",
+    "runs/ur-short20-isotropic-20261012-001/sources.json": "bd5a675d70abe5bf146043311a0c5ae70cca1cca9db42777d1dcc51e758f5e87",
+    "runs/ur-short20-isotropic-20261012-001/split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+    "runs/ur-short20-isotropic-20261012-001/status.json": "2d7b74bc99c3aacb908a0ad5765223986f9fc89e37373f0f69c46f305eb7dcad",
+    "runs/ur-short20-isotropic-20261012-001/threshold.json": "b200cfd75a20a2e769c990b8b9b9825f9595a32307e2c8554feabfe06e694e5d",
+    "runs/ur-short20-isotropic-20261012-001/training-artifacts.json": "f21ec60b9845936b5494e8127472a3743f46739e6ea880bdd1fe977ed11ed6ac",
+    "runs/ur-short20-isotropic-20261012-001/training-curve.png": "fb69192e8abb2e17ace489be3f755e5a80a7abd7252a1e66c707a4ac41a9d9d1",
+    "runs/ur-short20-isotropic-20261012-001/training-history.csv": "508ecff525833b6405e77507cc761ba93a8d3713be45f0ab10c347ef204fcf29",
+    "runs/ur-short20-isotropic-20261012-001/training-progress.json": "1a13dd7ffbcd68d8c464da5e82e4abc6b732aaed6e62bd4846a6b6a45de4ea27",
+    "docs/ur-short20-isotropic-20261012.md": "dc3133a388fd2cd9eb07f18b89032e1e5a4238ac53c6a3dc072e57c5c0ee16a2",
+    "docs/validation/ur-short20-isotropic-20261012-report-before-retirement-note.md": "828db8bb6803766669210f99b0cfa96aa353be0384a3c46fdb746e146e13d9dd",
+    "docs/current-progress.md": "e6ffa57c51520fbe198d9f46b1e74210af8577d7ee64b346107eb51d50a010b3",
+    "docs/acceptance-results.md": "b8f0ac19841a092f4c4b4addffd3fa6dc7f9d95c639da13920b0ed53f495f689",
+    "docs/course-alignment-plan.md": "9000bc62b69e88385614cebfde6c7be1fc769cd62d5838721f7fe81383c7fc25",
+    "Fall_Detection_Codex_Implementation_Spec.md": "229044662f5b3bf67a86a34085b087f7c9c19a65cc203015f63addb1a0798a79",
+    "configs/ur-short20-isotropic-20261012-001.yaml": "f11a147b018589e4c227ca2a17eb80886ad2adde6b50d903949857c16f9936c1",
+    "data/cache/ur-short20-isotropic-20261012-001/dataset-index.json": "06d6157f38d050ade071f86317424d0d20519b8c9faae637fc98786ae419dc35"
+  },
+  "qa_source_sha256": "d9efd58eb0242e7482d2c16a15b3cffaffaece32dfc353e0f74b2182b56a86be"
+}

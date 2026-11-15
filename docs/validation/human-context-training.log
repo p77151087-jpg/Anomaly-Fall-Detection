@@ -1,0 +1,263 @@
+Rebuilding features from verified observed poses: adl-33
+Rebuilding features from verified observed poses: adl-08
+Rebuilding features from verified observed poses: adl-40
+Rebuilding features from verified observed poses: adl-19
+Rebuilding features from verified observed poses: adl-05
+Rebuilding features from verified observed poses: adl-38
+Rebuilding features from verified observed poses: adl-17
+Rebuilding features from verified observed poses: adl-06
+Rebuilding features from verified observed poses: adl-26
+Rebuilding features from verified observed poses: adl-29
+Rebuilding features from verified observed poses: adl-22
+Rebuilding features from verified observed poses: adl-21
+Rebuilding features from verified observed poses: adl-36
+Rebuilding features from verified observed poses: adl-25
+Rebuilding features from verified observed poses: adl-11
+Rebuilding features from verified observed poses: adl-28
+Rebuilding features from verified observed poses: adl-32
+Rebuilding features from verified observed poses: adl-31
+Rebuilding features from verified observed poses: adl-27
+Rebuilding features from verified observed poses: adl-07
+Rebuilding features from verified observed poses: adl-30
+Rebuilding features from verified observed poses: adl-12
+Rebuilding features from verified observed poses: adl-24
+Rebuilding features from verified observed poses: adl-10
+Rebuilding features from verified observed poses: adl-37
+Rebuilding features from verified observed poses: adl-23
+Rebuilding features from verified observed poses: adl-20
+Rebuilding features from verified observed poses: adl-04
+Rebuilding features from verified observed poses: adl-01
+Rebuilding features from verified observed poses: adl-16
+Rebuilding features from verified observed poses: adl-18
+Rebuilding features from verified observed poses: adl-35
+Rebuilding features from verified observed poses: fall-22
+Rebuilding features from verified observed poses: fall-19
+Rebuilding features from verified observed poses: fall-16
+Rebuilding features from verified observed poses: fall-18
+Rebuilding features from verified observed poses: fall-08
+Rebuilding features from verified observed poses: fall-13
+Rebuilding features from verified observed poses: fall-29
+Rebuilding features from verified observed poses: fall-14
+Rebuilding features from verified observed poses: fall-09
+Rebuilding features from verified observed poses: fall-07
+Rebuilding features from verified observed poses: fall-11
+Rebuilding features from verified observed poses: fall-25
+Rebuilding features from verified observed poses: fall-06
+Rebuilding features from verified observed poses: fall-02
+Rebuilding features from verified observed poses: fall-30
+Rebuilding features from verified observed poses: adl-13
+Rebuilding features from verified observed poses: adl-15
+Rebuilding features from verified observed poses: adl-39
+Rebuilding features from verified observed poses: adl-03
+Rebuilding features from verified observed poses: adl-34
+Rebuilding features from verified observed poses: adl-02
+Rebuilding features from verified observed poses: adl-14
+Rebuilding features from verified observed poses: adl-09
+Rebuilding features from verified observed poses: fall-10
+Rebuilding features from verified observed poses: fall-27
+Rebuilding features from verified observed poses: fall-04
+Rebuilding features from verified observed poses: fall-23
+Rebuilding features from verified observed poses: fall-15
+Rebuilding features from verified observed poses: fall-21
+Rebuilding features from verified observed poses: fall-20
+Rebuilding features from verified observed poses: fall-12
+Rebuilding features from verified observed poses: fall-03
+Rebuilding features from verified observed poses: fall-01
+Rebuilding features from verified observed poses: fall-26
+Rebuilding features from verified observed poses: fall-28
+Rebuilding features from verified observed poses: fall-24
+Rebuilding features from verified observed poses: fall-05
+Rebuilding features from verified observed poses: fall-17
+C:\���j�M��\fall-detection-anomaly\.venv\Lib\site-packages\torch\autograd\graph.py:829: UserWarning: Deterministic behavior was enabled with either `torch.use_deterministic_algorithms(True)` or `at::Context::setDeterministicAlgorithms(true)`, but this operation is not deterministic because it uses CuBLAS and you have CUDA >= 10.2. To enable deterministic behavior in this case, you must set an environment variable before running your PyTorch application: CUBLAS_WORKSPACE_CONFIG=:4096:8 or CUBLAS_WORKSPACE_CONFIG=:16:8. For more information, go to https://docs.nvidia.com/cuda/cublas/index.html#results-reproducibility (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\Context.cpp:233.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+epoch 1: train=0.386042, val_normal=0.272457
+epoch 2: train=0.152901, val_normal=0.204328
+epoch 3: train=0.122657, val_normal=0.176596
+epoch 4: train=0.107332, val_normal=0.164147
+epoch 5: train=0.101076, val_normal=0.157277
+epoch 6: train=0.094983, val_normal=0.150571
+epoch 7: train=0.098938, val_normal=0.168125
+epoch 8: train=0.092551, val_normal=0.140485
+epoch 9: train=0.086603, val_normal=0.137864
+epoch 10: train=0.084957, val_normal=0.139351
+epoch 11: train=0.083538, val_normal=0.137798
+epoch 12: train=0.081413, val_normal=0.138883
+epoch 13: train=0.084062, val_normal=0.162004
+epoch 14: train=0.082183, val_normal=0.138205
+epoch 15: train=0.079271, val_normal=0.137325
+epoch 16: train=0.076696, val_normal=0.129374
+epoch 17: train=0.077660, val_normal=0.133316
+epoch 18: train=0.079571, val_normal=0.130365
+epoch 19: train=0.076774, val_normal=0.134657
+epoch 20: train=0.077424, val_normal=0.134100
+epoch 21: train=0.075982, val_normal=0.138470
+epoch 22: train=0.075552, val_normal=0.127557
+epoch 23: train=0.078144, val_normal=0.145912
+epoch 24: train=0.075475, val_normal=0.126050
+epoch 25: train=0.074291, val_normal=0.128616
+epoch 26: train=0.072757, val_normal=0.129499
+epoch 27: train=0.072752, val_normal=0.129728
+epoch 28: train=0.075712, val_normal=0.130690
+epoch 29: train=0.072626, val_normal=0.126896
+epoch 30: train=0.072046, val_normal=0.130361
+epoch 31: train=0.071717, val_normal=0.128560
+epoch 32: train=0.072292, val_normal=0.130773
+epoch 33: train=0.072430, val_normal=0.129310
+epoch 34: train=0.070996, val_normal=0.126624
+{'run': 'ur-human-context20-001', 'validation': {'metric_unit': 'sequence', 'TP': 12, 'FP': 0, 'FN': 3, 'TN': 8, 'n_total': 23, 'n_evaluable': 23, 'n_unknown': 0, 'sequence_coverage': 1.0, 'sequence_accuracy': 0.8695652173913043, 'sequence_fall_precision': 1.0, 'sequence_fall_recall': 0.8, 'sequence_fall_f1': 0.8888888888888888, 'operational_accuracy': 0.8695652173913043, 'end_to_end_fall_recall': 0.8, 'outcomes_with_unknown': [[8, 0, 0], [3, 12, 0]], 'outcome_columns': ['normal', 'suspected_fall', 'unknown'], 'outcome_rows': ['ADL', 'Fall'], 'by_class': {'ADL': {'n_total': 8, 'n_unknown': 0, 'sequence_coverage': 1.0, 'window_coverage': 0.8525604952166573, 'n_missing_timelines': 0}, 'Fall': {'n_total': 15, 'n_unknown': 0, 'sequence_coverage': 1.0, 'window_coverage': 0.8650042992261393, 'n_missing_timelines': 0}}, 'window_coverage': 0.8574829931972789, 'n_missing_timelines': 0, 'balanced_sequence_accuracy': 0.9}, 'timing_guard': True}
+Rebuilding features from verified observed poses: adl-33
+C:\���j�M��\fall-detection-anomaly\.venv\Lib\site-packages\torch\functional.py:422: UserWarning: Deterministic behavior was enabled with either `torch.use_deterministic_algorithms(True)` or `at::Context::setDeterministicAlgorithms(true)`, but this operation is not deterministic because it uses CuBLAS and you have CUDA >= 10.2. To enable deterministic behavior in this case, you must set an environment variable before running your PyTorch application: CUBLAS_WORKSPACE_CONFIG=:4096:8 or CUBLAS_WORKSPACE_CONFIG=:16:8. For more information, go to https://docs.nvidia.com/cuda/cublas/index.html#results-reproducibility (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\Context.cpp:233.)
+  return _VF.einsum(equation, operands)  # type: ignore[attr-defined]
+Rebuilding features from verified observed poses: adl-08
+Rebuilding features from verified observed poses: adl-40
+Rebuilding features from verified observed poses: adl-19
+Rebuilding features from verified observed poses: adl-05
+Rebuilding features from verified observed poses: adl-38
+Rebuilding features from verified observed poses: adl-17
+Rebuilding features from verified observed poses: adl-06
+Rebuilding features from verified observed poses: adl-26
+Rebuilding features from verified observed poses: adl-29
+Rebuilding features from verified observed poses: adl-22
+Rebuilding features from verified observed poses: adl-21
+Rebuilding features from verified observed poses: adl-36
+Rebuilding features from verified observed poses: adl-25
+Rebuilding features from verified observed poses: adl-11
+Rebuilding features from verified observed poses: adl-28
+Rebuilding features from verified observed poses: adl-32
+Rebuilding features from verified observed poses: adl-31
+Rebuilding features from verified observed poses: adl-27
+Rebuilding features from verified observed poses: adl-07
+Rebuilding features from verified observed poses: adl-30
+Rebuilding features from verified observed poses: adl-12
+Rebuilding features from verified observed poses: adl-24
+Rebuilding features from verified observed poses: adl-10
+Rebuilding features from verified observed poses: adl-37
+Rebuilding features from verified observed poses: adl-23
+Rebuilding features from verified observed poses: adl-20
+Rebuilding features from verified observed poses: adl-04
+Rebuilding features from verified observed poses: adl-01
+Rebuilding features from verified observed poses: adl-16
+Rebuilding features from verified observed poses: adl-18
+Rebuilding features from verified observed poses: adl-35
+Rebuilding features from verified observed poses: fall-22
+Rebuilding features from verified observed poses: fall-19
+Rebuilding features from verified observed poses: fall-16
+Rebuilding features from verified observed poses: fall-18
+Rebuilding features from verified observed poses: fall-08
+Rebuilding features from verified observed poses: fall-13
+Rebuilding features from verified observed poses: fall-29
+Rebuilding features from verified observed poses: fall-14
+Rebuilding features from verified observed poses: fall-09
+Rebuilding features from verified observed poses: fall-07
+Rebuilding features from verified observed poses: fall-11
+Rebuilding features from verified observed poses: fall-25
+Rebuilding features from verified observed poses: fall-06
+Rebuilding features from verified observed poses: fall-02
+Rebuilding features from verified observed poses: fall-30
+Rebuilding features from verified observed poses: adl-13
+Rebuilding features from verified observed poses: adl-15
+Rebuilding features from verified observed poses: adl-39
+Rebuilding features from verified observed poses: adl-03
+Rebuilding features from verified observed poses: adl-34
+Rebuilding features from verified observed poses: adl-02
+Rebuilding features from verified observed poses: adl-14
+Rebuilding features from verified observed poses: adl-09
+Rebuilding features from verified observed poses: fall-10
+Rebuilding features from verified observed poses: fall-27
+Rebuilding features from verified observed poses: fall-04
+Rebuilding features from verified observed poses: fall-23
+Rebuilding features from verified observed poses: fall-15
+Rebuilding features from verified observed poses: fall-21
+Rebuilding features from verified observed poses: fall-20
+Rebuilding features from verified observed poses: fall-12
+Rebuilding features from verified observed poses: fall-03
+Rebuilding features from verified observed poses: fall-01
+Rebuilding features from verified observed poses: fall-26
+Rebuilding features from verified observed poses: fall-28
+Rebuilding features from verified observed poses: fall-24
+Rebuilding features from verified observed poses: fall-05
+Rebuilding features from verified observed poses: fall-17
+epoch 1: train=0.391263, val_normal=0.294698
+epoch 2: train=0.169795, val_normal=0.212575
+epoch 3: train=0.132322, val_normal=0.199298
+epoch 4: train=0.118849, val_normal=0.170614
+epoch 5: train=0.109940, val_normal=0.163501
+epoch 6: train=0.110245, val_normal=0.179238
+epoch 7: train=0.106700, val_normal=0.154741
+epoch 8: train=0.103082, val_normal=0.145782
+epoch 9: train=0.098325, val_normal=0.141984
+epoch 10: train=0.094454, val_normal=0.141456
+epoch 11: train=0.099659, val_normal=0.142413
+epoch 12: train=0.092966, val_normal=0.142537
+epoch 13: train=0.092792, val_normal=0.145506
+epoch 14: train=0.090212, val_normal=0.138240
+epoch 15: train=0.088677, val_normal=0.134729
+epoch 16: train=0.086876, val_normal=0.135259
+epoch 17: train=0.088127, val_normal=0.140268
+epoch 18: train=0.089678, val_normal=0.141583
+epoch 19: train=0.088641, val_normal=0.138812
+epoch 20: train=0.085149, val_normal=0.136930
+epoch 21: train=0.086403, val_normal=0.134790
+epoch 22: train=0.085323, val_normal=0.134657
+epoch 23: train=0.087359, val_normal=0.131707
+epoch 24: train=0.084613, val_normal=0.134547
+epoch 25: train=0.087908, val_normal=0.134368
+epoch 26: train=0.083089, val_normal=0.131810
+epoch 27: train=0.085161, val_normal=0.154175
+epoch 28: train=0.086539, val_normal=0.132649
+epoch 29: train=0.085216, val_normal=0.137449
+epoch 30: train=0.092052, val_normal=0.132720
+epoch 31: train=0.081765, val_normal=0.127782
+epoch 32: train=0.082890, val_normal=0.131615
+epoch 33: train=0.082058, val_normal=0.131237
+epoch 34: train=0.082772, val_normal=0.132867
+epoch 35: train=0.082362, val_normal=0.128545
+epoch 36: train=0.081696, val_normal=0.128057
+epoch 37: train=0.082051, val_normal=0.128333
+epoch 38: train=0.080052, val_normal=0.132313
+epoch 39: train=0.083844, val_normal=0.133329
+epoch 40: train=0.080709, val_normal=0.130257
+epoch 41: train=0.081454, val_normal=0.127436
+epoch 42: train=0.083291, val_normal=0.133336
+epoch 43: train=0.080808, val_normal=0.129334
+epoch 44: train=0.084533, val_normal=0.132251
+epoch 45: train=0.080688, val_normal=0.128088
+epoch 46: train=0.081729, val_normal=0.200103
+epoch 47: train=0.088890, val_normal=0.129281
+epoch 48: train=0.080436, val_normal=0.128914
+epoch 49: train=0.078442, val_normal=0.129148
+epoch 50: train=0.078563, val_normal=0.128110
+epoch 51: train=0.079122, val_normal=0.127128
+epoch 52: train=0.080293, val_normal=0.132292
+epoch 53: train=0.079974, val_normal=0.127119
+epoch 54: train=0.080430, val_normal=0.128676
+epoch 55: train=0.082640, val_normal=0.127748
+epoch 56: train=0.078829, val_normal=0.126302
+epoch 57: train=0.077338, val_normal=0.127824
+epoch 58: train=0.081304, val_normal=0.131036
+epoch 59: train=0.078620, val_normal=0.128071
+epoch 60: train=0.078223, val_normal=0.127191
+epoch 61: train=0.078598, val_normal=0.127492
+epoch 62: train=0.081008, val_normal=0.129247
+epoch 63: train=0.079497, val_normal=0.125947
+epoch 64: train=0.078283, val_normal=0.126582
+epoch 65: train=0.079801, val_normal=0.127440
+epoch 66: train=0.080394, val_normal=0.129831
+epoch 67: train=0.078378, val_normal=0.129214
+epoch 68: train=0.078584, val_normal=0.128442
+epoch 69: train=0.079044, val_normal=0.131686
+epoch 70: train=0.078814, val_normal=0.128416
+epoch 71: train=0.079462, val_normal=0.133291
+epoch 72: train=0.076869, val_normal=0.127339
+epoch 73: train=0.078820, val_normal=0.125237
+epoch 74: train=0.079327, val_normal=0.132534
+epoch 75: train=0.078679, val_normal=0.131338
+epoch 76: train=0.079963, val_normal=0.128680
+epoch 77: train=0.079193, val_normal=0.127629
+epoch 78: train=0.077317, val_normal=0.128564
+epoch 79: train=0.078085, val_normal=0.127162
+epoch 80: train=0.085883, val_normal=0.131438
+epoch 81: train=0.082196, val_normal=0.126973
+epoch 82: train=0.077932, val_normal=0.127760
+epoch 83: train=0.077452, val_normal=0.125592
+{'run': 'ur-human-context15-001', 'validation': {'metric_unit': 'sequence', 'TP': 12, 'FP': 1, 'FN': 3, 'TN': 7, 'n_total': 23, 'n_evaluable': 23, 'n_unknown': 0, 'sequence_coverage': 1.0, 'sequence_accuracy': 0.8260869565217391, 'sequence_fall_precision': 0.9230769230769231, 'sequence_fall_recall': 0.8, 'sequence_fall_f1': 0.8571428571428571, 'operational_accuracy': 0.8260869565217391, 'end_to_end_fall_recall': 0.8, 'outcomes_with_unknown': [[7, 1, 0], [3, 12, 0]], 'outcome_columns': ['normal', 'suspected_fall', 'unknown'], 'outcome_rows': ['ADL', 'Fall'], 'by_class': {'ADL': {'n_total': 8, 'n_unknown': 0, 'sequence_coverage': 1.0, 'window_coverage': 0.8558062740781508, 'n_missing_timelines': 0}, 'Fall': {'n_total': 15, 'n_unknown': 0, 'sequence_coverage': 1.0, 'window_coverage': 0.8618739903069467, 'n_missing_timelines': 0}}, 'window_coverage': 0.858265139116203, 'n_missing_timelines': 0, 'balanced_sequence_accuracy': 0.8375}, 'timing_guard': False}

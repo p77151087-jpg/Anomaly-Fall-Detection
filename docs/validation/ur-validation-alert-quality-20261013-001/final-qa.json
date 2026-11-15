@@ -1,0 +1,83 @@
+{
+  "id": "ur-validation-alert-quality-20261013-001",
+  "finalized_at": "2026-10-13T15:20:43.771397+00:00",
+  "status": "23_validation_records_complete_three_human_clips_pending",
+  "synthetic_python": {
+    "passed": 18,
+    "failed": 0
+  },
+  "synthetic_fake_dom_assertions": 22,
+  "existing_real_audit": {
+    "passed": true,
+    "method": "Independent CSV counts, direct NPZ confidence checks, bisect past-only time mapping, direct per-track triples and event spans; no model/features loaded",
+    "sequence_rows": 23,
+    "window_records": 2917,
+    "event_records": 14,
+    "source_frame_pose_rows": 3576,
+    "causal_sample_rows": 3377,
+    "confusion_matrix_ADL_Fall_by_normal_fall_unknown": [
+      [
+        8,
+        0,
+        0
+      ],
+      [
+        1,
+        14,
+        0
+      ]
+    ],
+    "exact_human_time_gt": 0,
+    "test_artifacts_loaded": 0,
+    "new_inference_training_calibration": 0,
+    "review_transport": {
+      "images": 218,
+      "page_bytes": 207300,
+      "all_images_original_png_hash_match": true,
+      "human_answers_prefilled": false
+    }
+  },
+  "browser_actual_human_state": "0/3_no_attestation_no_real_export",
+  "real_feature_smoke": "not_run",
+  "real_end_to_end": "not_run",
+  "new_training_inference_calibration": 0,
+  "test_artifact_access_evaluation": 0,
+  "adoption": "unchanged",
+  "accuracy_improvement_claimed": false,
+  "previous_artifacts_preserved": 48,
+  "source_files_preserved": 329,
+  "output_manifest_files": 231,
+  "lint_and_format": "all_three_new_python_sources_pass",
+  "source_pin_repair": "test_import_blank_line_only; initial_bytes_and_manifest_preserved",
+  "artifact_sha256": {
+    "docs\\validation\\ur-validation-alert-quality-20261013-001\\browser-check.json": "5d254490a4eaaf315d84a1b06621c49abf9f3e39a7b70d609620bc8a7dc4726b",
+    "docs\\validation\\ur-validation-alert-quality-20261013-001\\exclusive-output-check.json": "bf09c53d5a1dff9664f193bff6ad9faec5ebdac3697a2f2c214ecfb7fe09c98b",
+    "docs\\validation\\ur-validation-alert-quality-20261013-001\\final-graph-coverage.json": "94be2f1f953807b39c26af76c8bd992c78a9617d9ea6cd582919a8e55fcf5a53",
+    "docs\\validation\\ur-validation-alert-quality-20261013-001\\graph-coverage-batches.json": "99c1807f97c5fb30eed435a61f36983ae920ca62897c06156962c0a566d0a97d",
+    "docs\\validation\\ur-validation-alert-quality-20261013-001\\graph-evidence.json": "443599171e327d49d8f5105aa445083a3ddccc099170c5d39bdb1833aa567142",
+    "docs\\validation\\ur-validation-alert-quality-20261013-001\\http-check.json": "c4cc0dfdf1cc011bf5fa516c2a1d699860365825c647610c763be19314b529cd",
+    "docs\\validation\\ur-validation-alert-quality-20261013-001\\independent-audit.json": "2f13ce385fe37a569460825684b8cbd805a370cc07aaac32104be50bb51764d9",
+    "docs\\validation\\ur-validation-alert-quality-20261013-001\\initial-source-manifest.json": "205cba9a400fe23388ed8045aa77120daf48ae51b264b602e5a4b5a708174e34",
+    "docs\\validation\\ur-validation-alert-quality-20261013-001\\legacy-coarse-early-check.json": "cdfe29ec04b6ef62a3d345882138458a9f2a0198b45929ff2df0612ff18ad853",
+    "docs\\validation\\ur-validation-alert-quality-20261013-001\\previous-stage.json": "a5699dcdb88ec2b9b4c1462d85a7c3b98cf872a3ca8f65b869dec59590610fed",
+    "docs\\validation\\ur-validation-alert-quality-20261013-001\\review-overview.png": "d83a5b55b1976aba960fc36bd2f55fbb2dd4ceaafe2bf05fa55e4745d5638401",
+    "docs\\validation\\ur-validation-alert-quality-20261013-001\\review-page.png": "15ddd08731eb90756fee1e7848b472feeef47820504e7524d331bceea9ffecbf",
+    "docs\\validation\\ur-validation-alert-quality-20261013-001\\source-manifest.json": "5446e89630f9c0ccb25b91d1bde25f84823db9ef8b4c04d65bacdab3aed8933b",
+    "docs\\validation\\ur-validation-alert-quality-20261013-001\\source-pin-finalization.json": "40e5c2a8bddbcef38a8346a0a36cd8712497620edfae9d85d7d2433a8f8171af",
+    "docs\\validation\\ur-validation-alert-quality-20261013-001\\synthetic-tests.xml": "b75884ca4dfe8b66d40d2b555ec802fca6af054f319f51cfa7ab8e233dfeb0ad",
+    "docs\\validation\\ur-validation-alert-quality-20261013-001\\ui-synthetic.cjs": "2cf130880f9548e1eb205c2d36f9897778fa3104ac4896b1b6ff409fa578f6bf",
+    "docs\\validation\\ur-validation-alert-quality-20261013-001\\ui-synthetic.json": "28b644445ccdb3f0055023e2b12086a372e78cff894191e7807847bb835c7098",
+    "docs\\validation\\ur-validation-alert-quality-20261013-001\\initial-source\\tests\\test_validation_alert_quality.py": "5c812434b3f2317b813a7a78e628c15318bf4b24c5481c40c46bd7cc2925fd2f",
+    "docs\\validation\\ur-validation-alert-quality-20261013-001\\prior-contracts\\docs\\acceptance-results.md": "87803b607c4ff15755b6df6bea9df1696b869bb58973db27a6d115227d56ae09",
+    "docs\\validation\\ur-validation-alert-quality-20261013-001\\prior-contracts\\docs\\current-progress.md": "d0a561c3bec1706e635f409fc0d2cdb4241b98cab07acc0d0dab5023dc3d18fb",
+    "scripts\\validation_alert_quality.py": "9a520dee041af78ceba2fee4c007234d609474dfe436e5aff1507557698fc295",
+    "scripts\\finish_validation_alert_quality.py": "fea6579ae9c6a54e538982aeec755f90f189d7cc91ba11a96bdc69e206cc6c3f",
+    "scripts\\templates\\validation-alert-review.html": "3edede4b5e73d9bca7c8913caf15f7f13f11f6a26d89891834f59f10323301c3",
+    "tests\\test_validation_alert_quality.py": "f136cd903bc3088394855d4c7f138f8eac7ce6950835c0ab9c53827f0999c220",
+    "docs\\ur-validation-alert-quality-20261013-plan.md": "1a58417895bce29867974dc632f9befd3be191ce55f097619c8f49748bbbb13b",
+    "docs\\ur-validation-alert-quality-20261013.md": "031fb2ac6678ac0ac102a29fe25bbbe31c93f407d341b1d1d4253ef96896d442",
+    "docs\\current-progress.md": "d6f401efb12cd247bb28eabf219528b68b123430d71a8708fd3d1351f430dee0",
+    "docs\\acceptance-results.md": "a495457de6026fc1ef0f9b93d15a6e18a8631353fcaea42ff783261bbe471140",
+    "outputs\\ur-validation-alert-quality-20261013-001\\artifact-manifest.json": "2dd53092c1cb2bc58e52dcc0d057dd4fce59912d3ba47a91d0b15228eae5f700"
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "split": "validation",
+  "run": "caucafall-yolo11-jitter-001",
+  "threshold": 0.3282490372657776,
+  "misclassified": [
+    {
+      "sequence_id": "adl-20",
+      "label": 0,
+      "sequence_score": 0.4197502136230469,
+      "window_coverage": 0.625,
+      "prediction": 1,
+      "quality_counts": {
+        "no_person": 1,
+        "track_gap": 97,
+        "valid": 30
+      }
+    },
+    {
+      "sequence_id": "fall-19",
+      "label": 1,
+      "sequence_score": 0.0383329838514328,
+      "window_coverage": 0.3333333333333333,
+      "prediction": 0,
+      "quality_counts": {
+        "valid": 5,
+        "track_gap": 36
+      }
+    },
+    {
+      "sequence_id": "fall-18",
+      "label": 1,
+      "sequence_score": 0.1676287055015564,
+      "window_coverage": 0.375,
+      "prediction": 0,
+      "quality_counts": {
+        "valid": 3,
+        "track_gap": 30
+      }
+    },
+    {
+      "sequence_id": "fall-13",
+      "label": 1,
+      "sequence_score": 0.1152329072356224,
+      "window_coverage": 0.6666666666666666,
+      "prediction": 0,
+      "quality_counts": {
+        "valid": 16,
+        "track_gap": 22
+      }
+    },
+    {
+      "sequence_id": "fall-29",
+      "label": 1,
+      "sequence_score": 0.09459061920642853,
+      "window_coverage": 0.7142857142857143,
+      "prediction": 0,
+      "quality_counts": {
+        "valid": 10,
+        "track_gap": 28
+      }
+    },
+    {
+      "sequence_id": "fall-09",
+      "label": 1,
+      "sequence_score": 0.172984778881073,
+      "window_coverage": 0.78125,
+      "prediction": 0,
+      "quality_counts": {
+        "valid": 25,
+        "track_gap": 29
+      }
+    },
+    {
+      "sequence_id": "fall-07",
+      "label": 1,
+      "sequence_score": 0.13519403338432312,
+      "window_coverage": 0.7692307692307693,
+      "prediction": 0,
+      "quality_counts": {
+        "valid": 20,
+        "track_gap": 28
+      }
+    },
+    {
+      "sequence_id": "fall-25",
+      "label": 1,
+      "sequence_score": 0.14486098289489746,
+      "window_coverage": 0.75,
+      "prediction": 0,
+      "quality_counts": {
+        "valid": 9,
+        "track_gap": 16
+      }
+    },
+    {
+      "sequence_id": "fall-30",
+      "label": 1,
+      "sequence_score": 0.26708126068115234,
+      "window_coverage": 0.5555555555555556,
+      "prediction": 0,
+      "quality_counts": {
+        "valid": 5,
+        "track_gap": 15
+      }
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_42",
+      "label": 1,
+      "sequence_score": 0.3242534399032593,
+      "window_coverage": 0.8484848484848485,
+      "prediction": 0,
+      "quality_counts": {
+        "valid": 28,
+        "unlabelled_interval": 5
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_10",
+      "label": 1,
+      "sequence_score": 0.28683537244796753,
+      "window_coverage": 0.5,
+      "prediction": 0,
+      "quality_counts": {
+        "no_person": 3,
+        "track_gap": 59,
+        "valid": 36,
+        "unlabelled_interval": 21,
+        "low_confidence": 3
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_13",
+      "label": 1,
+      "sequence_score": 0.1644970178604126,
+      "window_coverage": 0.5370370370370371,
+      "prediction": 0,
+      "quality_counts": {
+        "track_gap": 56,
+        "valid": 29,
+        "low_confidence": 5,
+        "unlabelled_interval": 27
+      }
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_46",
+      "label": 0,
+      "sequence_score": 0.3911922574043274,
+      "window_coverage": 0.8,
+      "prediction": 1,
+      "quality_counts": {
+        "valid": 48,
+        "unlabelled_interval": 12
+      }
+    },
+    {
+      "sequence_id": "caucafall-S05-SitDown",
+      "label": 0,
+      "sequence_score": 0.3825681805610657,
+      "window_coverage": 1.0,
+      "prediction": 1,
+      "quality_counts": {
+        "valid": 72
+      }
+    },
+    {
+      "sequence_id": "caucafall-S10-Kneel",
+      "label": 0,
+      "sequence_score": 0.4324703812599182,
+      "window_coverage": 1.0,
+      "prediction": 1,
+      "quality_counts": {
+        "valid": 73,
+        "track_gap": 5
+      }
+    }
+  ],
+  "note": "Quality counts cover the whole sequence; no onset annotations used. Do not infer post-fall coverage or detection latency."
+}

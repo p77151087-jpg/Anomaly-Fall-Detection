@@ -1,0 +1,1 @@
+{"synthetic_passed":75,"setup_errors":4,"reason":"pytest default sandbox temp directory could not be created; retry uses new project-local basetemp","initial_run_had_no_xml":true,"implementation_test_failures":0}

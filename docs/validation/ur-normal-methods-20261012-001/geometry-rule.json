@@ -1,0 +1,8 @@
+{
+  "purpose": "Support or reject a bounded representation hypothesis, not prove joint GT or causality",
+  "raw_representation": "Original legal30 per_frame_isotropic XY tensor 30x14x2, no confidence channel; Train-only dimension standardization, exact nearest Train window distance/sqrt840",
+  "support_rule": "At least3 consecutive fall19 coarse-phase endpoints with current good pose, raw-skeleton nearest distance above normalVal p95 while pooled512 nearest distance <= normalVal p95",
+  "labels_used_to_train": false,
+  "test_used": false,
+  "if_not_supported": "Stop self-supervised stage; no blind fine tuning"
+}

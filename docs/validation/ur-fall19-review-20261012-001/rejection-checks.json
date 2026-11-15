@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "command": [
+        "scripts/fall19_review.py",
+        "build"
+      ],
+      "rejected": true,
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\fall19_review.py\", line 439, in <module>\n    build()\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\fall19_review.py\", line 105, in build\n    raise ContractError(\"Completed or attempted review package exists\")\nfall_detect.io_utils.ContractError: Completed or attempted review package exists\n"
+    },
+    {
+      "command": [
+        "scripts/fall19_review.py",
+        "import",
+        "--annotation",
+        "outputs/ur-fall19-review-20261012-001/annotation-template.json"
+      ],
+      "rejected": true,
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\fall19_review.py\", line 445, in <module>\n    import_annotation(project_path(args.annotation))\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\fall19_review.py\", line 414, in import_annotation\n    verified = validate_annotation(annotation, manifest, sha256(O / \"source-manifest.json\"))\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\成大專案\\fall-detection-anomaly\\src\\fall_detect\\evaluation\\frame_review.py\", line 71, in validate_annotation\n    raise ContractError(\"Requires explicit human self-attestation on this Validation source\")\nfall_detect.io_utils.ContractError: Requires explicit human self-attestation on this Validation source\n"
+    }
+  ],
+  "created_human_annotations": false
+}

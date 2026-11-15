@@ -1,0 +1,1 @@
+{'verified_candidates': 2, 'preserved': 1160, 'epochs': 95, 'common_units_normal_val_mse': {'ur-human-isotropic-001': 0.1151348557600471, 'ur-isotropic-wide-20261012-001': 0.1156163662213372, 'ur-external128-20261012-001': 0.1125923566859527, 'ur-external256-20261012-001': 0.11537241087266786}, 'test_feature_arrays_loaded': 0}

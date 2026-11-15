@@ -1,0 +1,15 @@
+{
+  "source_kind": "real",
+  "reviewer": "AI",
+  "human_new_pose_verified": false,
+  "precise_time_ground_truth": false,
+  "viewed": ["pilot-pose-panels-v2/transition-pairs.png", "pilot-pose-panels-v2/frame-054.png", "pilot-pose-panels-v2/frame-062.png"],
+  "observations": [
+    "f33/f43 standing/crouching is visible; both configurations have broadly similar tracks, with lower confidence on some new joints.",
+    "f44/f47 new upper-body points lose confidence and some points appear misplaced; the new crop does not visually establish corrected localization.",
+    "f54 both outputs have no skeleton; the person is near the bottom border with much of the body outside the image.",
+    "f62 much of the body remains outside the image; both have incomplete low-confidence poses, and the new output has fewer visible connections."
+  ],
+  "interpretation": "AI observations only. Original human pose_check applies only to the original Pose. No new-Pose accuracy or unique causal conclusion is claimed.",
+  "model_or_threshold_changes_after_viewing": 0
+}

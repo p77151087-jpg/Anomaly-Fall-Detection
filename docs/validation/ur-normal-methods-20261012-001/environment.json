@@ -1,0 +1,12 @@
+{
+  "python": "3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "C:\\成大專案\\fall-detection-anomaly\\.venv\\Scripts\\python.exe",
+  "torch": "2.8.0+cu128",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.1",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "cuda_available": true,
+  "cuda": "12.8",
+  "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "new_models_test_unknown": true
+}

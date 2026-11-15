@@ -1,0 +1,8 @@
+{
+  "id": "ur-denoise-wide-methods-20261012-001",
+  "kind": "denoise",
+  "order": 6,
+  "hidden": 256,
+  "latent": 64,
+  "noise_std": 0.1
+}

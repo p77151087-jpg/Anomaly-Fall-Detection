@@ -1,0 +1,16 @@
+{
+  "id": "ur-ocsvm-02-20261012-001",
+  "kind": "svm",
+  "nu": 0.01,
+  "gamma": 0.001,
+  "order": 1,
+  "source_feature_recipe_hash": "713ee59a0853f20641cb7f664df2920359baa0734807acfa5cf86fb87a4e2f5b",
+  "quality": {
+    "min_joint_confidence": 0.2,
+    "min_valid_joints": 9,
+    "min_good_frame_ratio": 0.8
+  },
+  "k": 3,
+  "score": "negative_decision_function",
+  "threshold_rule": "operational Accuracy, Fall F1, all-Fall Recall, fewer FP, fixed order"
+}

@@ -1,0 +1,15 @@
+{
+  "failed_run": "le2i-long-001",
+  "last_published_epoch": 165,
+  "saved_model_exists": false,
+  "cause_observed": "WinError 5 access denied on os.replace(training-progress.json)",
+  "reader_collision": "Consistent with Windows transient read/replace contention while live Loss page was open; exact locking process not proven.",
+  "recovery": "Bounded retry for Windows error 5/32/33 only; retain atomic replacement, raise persistent/unrelated failures; record failed/interrupted status.",
+  "retry_run": "le2i-long-002",
+  "same_config": "configs/le2i-long-001.yaml",
+  "same_config_sha256": "30f2f66c7ec04fddacbceee52d38bd65ba4ebebe5f0d5149a57a2126e1afde34",
+  "new_hyperparameter_candidate": false,
+  "from_scratch_same_seed": true,
+  "original_lock_sha256": "a0f9e64bc8f9e6e990d8171c8a08d0745aafb28f4209bf47672283992f16760a",
+  "regression_tests": "pytest-training-lock-recovery.xml"
+}

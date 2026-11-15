@@ -1,0 +1,14 @@
+{
+  "verified": true,
+  "stages": [
+    "ai-provisional",
+    "human-b01d622686b5"
+  ],
+  "independent_scores": 138,
+  "independent_windows": 426,
+  "independent_events": 0,
+  "preserved_asset_hashes": 12710,
+  "test_arrays_loaded": 0,
+  "human_stage": "self_reported",
+  "formal_validation_accuracy_changed": false
+}

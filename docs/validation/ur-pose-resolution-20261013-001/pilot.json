@@ -1,0 +1,109 @@
+{
+  "technical_gate_passed": true,
+  "source_kind": "real",
+  "evidence_level": "real_feature_smoke",
+  "index_sha256": "6dae2fafecd90cd93ce82b813f59fa9cab079d53267f1d360e29e7cc83597dac",
+  "stats": [
+    {
+      "sequence_id": "adl-05",
+      "features": 148,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "a09150e1614c34750a82729e1e6510d41d0bc8287ae6cefb6d8c65f2c2c61426"
+    },
+    {
+      "sequence_id": "adl-24",
+      "features": 38,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "3c7bf106599377eddd6b4a428f445d847da436e9c4e25f7863fac562f693a519"
+    },
+    {
+      "sequence_id": "adl-04",
+      "features": 118,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "1067c035df58b9048050f954a55c981df83997c91759a90d9c94ae91b45f8777"
+    },
+    {
+      "sequence_id": "fall-19",
+      "features": 20,
+      "dim": 512,
+      "finite": true,
+      "source_hash": "ae2284af07a0e0e147adfa498bc8e4c2b0ac60201bb875d219ebb43aa9a31c01"
+    }
+  ],
+  "load_reports": [
+    {
+      "strict_loads": {
+        "detector": {
+          "strict": true,
+          "key_conversion": null,
+          "sha256": "355917fb2f2c05a769f87d7809dc3feeb1e6cf12c72f68fb8bd43d4905418e11"
+        },
+        "pose": {
+          "strict": true,
+          "key_conversion": null,
+          "sha256": "42808e905aa20133a89a6a2cba073265a2ce35fabe65edffd9f153ef5846b7b0"
+        },
+        "stgcn": {
+          "strict": true,
+          "key_conversion": null,
+          "sha256": "1cac9a6da99d5d67da8ab58ee7633c5e923d85fba668673f028792819750a149"
+        }
+      },
+      "heatmap_shapes": [
+        [
+          1,
+          17,
+          128,
+          96
+        ]
+      ]
+    }
+  ],
+  "verification": {
+    "pose_forward": true,
+    "pose_observations_reused": false,
+    "feature_forward": true,
+    "device": "cuda",
+    "refreshed": false
+  },
+  "accesses": [
+    {
+      "kind": "identity",
+      "sequence_id": "adl-05"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-05"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-24"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-24"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "adl-04"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "adl-04"
+    },
+    {
+      "kind": "identity",
+      "sequence_id": "fall-19"
+    },
+    {
+      "kind": "raw",
+      "sequence_id": "fall-19"
+    }
+  ],
+  "test_feature_reads": 0,
+  "test_image_reads": 0,
+  "test_evaluations": 0
+}

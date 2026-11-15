@@ -1,0 +1,119 @@
+{
+  "normal_val_distance_percentiles": {
+    "raw": {
+      "p50": 0.4104607642903015,
+      "p95": 1.8446754460881536
+    },
+    "pooled": {
+      "p50": 0.47615073359764143,
+      "p95": 0.8229641603350774
+    }
+  },
+  "fall19_phase": [
+    {
+      "sample_index": 45,
+      "track_id": 1,
+      "available_at_ms": 1500.0,
+      "reliable_joint_fraction": 1.0,
+      "reliable_outside_fraction": 0.0,
+      "raw_nearest_distance": 0.34822294166438506,
+      "pooled_nearest_distance": 0.4260990329142867,
+      "current_good_pose": true,
+      "support_endpoint": false
+    },
+    {
+      "sample_index": 46,
+      "track_id": 1,
+      "available_at_ms": 1533.3333333333335,
+      "reliable_joint_fraction": 0.9948717948717949,
+      "reliable_outside_fraction": 0.0,
+      "raw_nearest_distance": 0.3853773337162546,
+      "pooled_nearest_distance": 0.4528240966739535,
+      "current_good_pose": true,
+      "support_endpoint": false
+    },
+    {
+      "sample_index": 47,
+      "track_id": 1,
+      "available_at_ms": 1566.6666666666667,
+      "reliable_joint_fraction": 0.9923076923076923,
+      "reliable_outside_fraction": 0.0,
+      "raw_nearest_distance": 0.4428654012762554,
+      "pooled_nearest_distance": 0.49220965225780783,
+      "current_good_pose": true,
+      "support_endpoint": false
+    },
+    {
+      "sample_index": 48,
+      "track_id": 1,
+      "available_at_ms": 1600.0,
+      "reliable_joint_fraction": 0.9923076923076923,
+      "reliable_outside_fraction": 0.0,
+      "raw_nearest_distance": 0.46040426704487797,
+      "pooled_nearest_distance": 0.4574476481024471,
+      "current_good_pose": true,
+      "support_endpoint": false
+    },
+    {
+      "sample_index": 49,
+      "track_id": 1,
+      "available_at_ms": 1633.3333333333335,
+      "reliable_joint_fraction": 0.982051282051282,
+      "reliable_outside_fraction": 0.0,
+      "raw_nearest_distance": 0.4950874360457846,
+      "pooled_nearest_distance": 0.46054864462848466,
+      "current_good_pose": true,
+      "support_endpoint": false
+    },
+    {
+      "sample_index": 50,
+      "track_id": 1,
+      "available_at_ms": 1666.6666666666667,
+      "reliable_joint_fraction": 0.9769230769230769,
+      "reliable_outside_fraction": 0.0,
+      "raw_nearest_distance": 0.5150082868036112,
+      "pooled_nearest_distance": 0.5632104439935025,
+      "current_good_pose": true,
+      "support_endpoint": false
+    },
+    {
+      "sample_index": 51,
+      "track_id": 1,
+      "available_at_ms": 1700.0000000000002,
+      "reliable_joint_fraction": 0.9743589743589743,
+      "reliable_outside_fraction": 0.0,
+      "raw_nearest_distance": 0.5483109969531285,
+      "pooled_nearest_distance": 0.5570288500161067,
+      "current_good_pose": true,
+      "support_endpoint": false
+    },
+    {
+      "sample_index": 52,
+      "track_id": 1,
+      "available_at_ms": 1733.3333333333335,
+      "reliable_joint_fraction": 0.958974358974359,
+      "reliable_outside_fraction": 0.00267379679144385,
+      "raw_nearest_distance": 0.6029434136319568,
+      "pooled_nearest_distance": 0.6661167372267319,
+      "current_good_pose": false,
+      "support_endpoint": false
+    },
+    {
+      "sample_index": 53,
+      "track_id": 1,
+      "available_at_ms": 1766.6666666666667,
+      "reliable_joint_fraction": 0.9358974358974359,
+      "reliable_outside_fraction": 0.0027397260273972603,
+      "raw_nearest_distance": 0.8716097348063173,
+      "pooled_nearest_distance": 0.7469356373230394,
+      "current_good_pose": false,
+      "support_endpoint": false
+    }
+  ],
+  "longest_supporting_run": 0,
+  "self_supervised_supported": false,
+  "data_kind": "Observed inferred pose, not manually verified skeleton GT",
+  "limitation": "Neighborhood contrast is diagnostic evidence; quality confidence and AI coarse times cannot establish pose accuracy or causal feature loss",
+  "test_feature_reads": 0,
+  "test_evaluations": 0
+}

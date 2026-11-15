@@ -1,0 +1,9 @@
+{
+  "id": "ur-temporal-gru-methods-20261012-001",
+  "kind": "temporal",
+  "order": 7,
+  "hidden": 128,
+  "latent": 64,
+  "steps": 8,
+  "noise_std": 0.0
+}

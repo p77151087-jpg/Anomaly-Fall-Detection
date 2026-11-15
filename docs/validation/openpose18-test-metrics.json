@@ -1,0 +1,73 @@
+{
+  "metric_unit": "sequence",
+  "TP": 7,
+  "FP": 7,
+  "FN": 1,
+  "TN": 0,
+  "n_total": 23,
+  "n_evaluable": 15,
+  "n_unknown": 8,
+  "sequence_coverage": 0.6521739130434783,
+  "sequence_accuracy": 0.4666666666666667,
+  "sequence_fall_precision": 0.5,
+  "sequence_fall_recall": 0.875,
+  "sequence_fall_f1": 0.6363636363636364,
+  "operational_accuracy": 0.30434782608695654,
+  "end_to_end_fall_recall": 0.4666666666666667,
+  "outcomes_with_unknown": [
+    [
+      0,
+      7,
+      1
+    ],
+    [
+      1,
+      7,
+      7
+    ]
+  ],
+  "outcome_columns": [
+    "normal",
+    "suspected_fall",
+    "unknown"
+  ],
+  "outcome_rows": [
+    "ADL",
+    "Fall"
+  ],
+  "by_class": {
+    "ADL": {
+      "n_total": 8,
+      "n_unknown": 1,
+      "sequence_coverage": 0.875,
+      "window_coverage": 0.47058823529411764,
+      "n_missing_timelines": 0
+    },
+    "Fall": {
+      "n_total": 15,
+      "n_unknown": 7,
+      "sequence_coverage": 0.5333333333333333,
+      "window_coverage": 0.30472103004291845,
+      "n_missing_timelines": 0
+    }
+  },
+  "window_coverage": 0.39888682745825604,
+  "n_missing_timelines": 0,
+  "protocol_id": "urfall-cam0-rgb-sequence-v1",
+  "split_hash": "0b9a0f0cf3609c478afcbbe028130c7d519e26b573135fbd739c074c68bc93c5",
+  "recipe_hash": "58eae3cc93c17dec6a53f628311b1d9ae4bf9b355555275fed3e8ad18896885e",
+  "source_kind": "real",
+  "artifact_hashes": {
+    "autoencoder.pt": "10804ead639fd3b27b01d94cf5fd89f527a2328154d6942880ad03773c4a515f",
+    "scaler.npz": "21a94fc4a3d899aa46ea673208a222480fccdb98c61ecc2666099651f19e5f77",
+    "resolved-config.yaml": "d0062a4cb90009a6abc9dd6d5d7fdf37093ba4906e3952849eeb2ecc80e4d723",
+    "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+    "sources.json": "1417b64e4dd822e8d72f9f01b5960f6507236d93434c31c43a13433bc4a311d8",
+    "dataset-index.json": "16f0a99a97d073a0aa93f8e8dbea178c5ccc1b0feeab7a9666e9bb218d632f5c",
+    "environment.json": "aaeebdb021a4888f471f908dfbaca4aad32a129a0159345ea4a25861d36ba1c4",
+    "training-history.csv": "46c590ea80514c5035e50bd35110edb0944a70c4924dbc3b3dab0c8b271f1c3b",
+    "threshold.json": "b823c667e7cc2618a60f99ae49ea4a2848c03744fa63b4663d88754f21803421",
+    "calibration.json": "35b3130f06ff37bd45230e6b7442a5cbe1e20b7de47a8c19b9ef1abd85a94f6f"
+  },
+  "config_hash": "8c95b7b49d1d38f501b3b24ea73c1a9b49478e0949d949561f2fb7c7669fc32d"
+}

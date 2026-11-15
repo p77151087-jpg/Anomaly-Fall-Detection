@@ -1,0 +1,10 @@
+{
+  "source_kind": "synthetic",
+  "recognition_accuracy_not_measured": true,
+  "purpose": "Counterfactual numeric check of global translation information removed by per-frame min/max normalization",
+  "added_downward_displacement_pixels": 87,
+  "point_tensor_max_abs_difference": 3.5762786865234375e-07,
+  "motion_tensor_max_abs_difference": 7.152557373046875e-07,
+  "confirmed_source_fact": "Independent per-frame min/max removes frame translation and extent before both ST-GCN streams. It is upstream-compatible but may hide global descent.",
+  "hypothesis_not_confirmed": "Using shared extrema over a causal window might preserve early whole-body descent. Pretrained input distribution changes and pose outliers may hurt accuracy."
+}

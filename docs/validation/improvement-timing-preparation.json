@@ -1,0 +1,46 @@
+{
+  "states": {
+    "prepared": 161
+  },
+  "groups": {
+    "urfall_train_0": {
+      "planned": 24,
+      "usable": 19,
+      "features": 346
+    },
+    "urfall_validation_0": {
+      "planned": 8,
+      "usable": 7,
+      "features": 128
+    },
+    "urfall_validation_1": {
+      "planned": 15,
+      "usable": 13,
+      "features": 90
+    },
+    "le2i_validation_1": {
+      "planned": 11,
+      "usable": 11,
+      "features": 422
+    },
+    "le2i_train_0": {
+      "planned": 38,
+      "usable": 38,
+      "features": 3834
+    },
+    "le2i_validation_0": {
+      "planned": 4,
+      "usable": 4,
+      "features": 158
+    }
+  },
+  "training_snapshot_matches_complete_index": true,
+  "recipe_hash": "1b590fe1fc141258103fc1a40991ff366eb04fba9773165fa5cf8afca2d036ba",
+  "verification": {
+    "pose_forward": false,
+    "pose_observations_reused": true,
+    "feature_forward": true,
+    "device": "cuda",
+    "refreshed": false
+  }
+}

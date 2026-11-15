@@ -1,0 +1,250 @@
+{
+  "runs": {
+    "openpose18-baseline-001": {
+      "epochs": 100,
+      "best": {
+        "epoch": 90,
+        "train_loss": 0.060627278503019924,
+        "val_normal_loss": 0.49676624350831844
+      },
+      "counts": {
+        "train": {
+          "planned": 24,
+          "usable": 19,
+          "windows": 351
+        },
+        "validation": {
+          "planned": 8,
+          "usable": 7,
+          "windows": 128
+        }
+      },
+      "validation_calibration": {
+        "threshold": 0.19389973580837247,
+        "metrics": {
+          "metric_unit": "sequence",
+          "TP": 8,
+          "FP": 6,
+          "FN": 0,
+          "TN": 0,
+          "n_total": 23,
+          "n_evaluable": 14,
+          "n_unknown": 9,
+          "sequence_coverage": 0.6086956521739131,
+          "sequence_accuracy": 0.5714285714285714,
+          "sequence_fall_precision": 0.5714285714285714,
+          "sequence_fall_recall": 1.0,
+          "sequence_fall_f1": 0.7272727272727273,
+          "operational_accuracy": 0.34782608695652173,
+          "end_to_end_fall_recall": 0.5333333333333333,
+          "outcomes_with_unknown": [
+            [
+              0,
+              6,
+              2
+            ],
+            [
+              0,
+              8,
+              7
+            ]
+          ],
+          "outcome_columns": [
+            "normal",
+            "suspected_fall",
+            "unknown"
+          ],
+          "outcome_rows": [
+            "ADL",
+            "Fall"
+          ],
+          "by_class": {
+            "ADL": {
+              "n_total": 8,
+              "n_unknown": 2,
+              "sequence_coverage": 0.75,
+              "window_coverage": 0.3742690058479532,
+              "n_missing_timelines": 0
+            },
+            "Fall": {
+              "n_total": 15,
+              "n_unknown": 7,
+              "sequence_coverage": 0.5333333333333333,
+              "window_coverage": 0.38967136150234744,
+              "n_missing_timelines": 0
+            }
+          },
+          "window_coverage": 0.3801801801801802,
+          "n_missing_timelines": 0
+        }
+      },
+      "source_kind": "real"
+    },
+    "openpose18-rotation-001": {
+      "epochs": 100,
+      "best": {
+        "epoch": 95,
+        "train_loss": 0.05607065775921579,
+        "val_normal_loss": 0.4996334114985075
+      },
+      "counts": {
+        "train": {
+          "planned": 24,
+          "usable": 19,
+          "windows": 346
+        },
+        "validation": {
+          "planned": 8,
+          "usable": 7,
+          "windows": 128
+        }
+      },
+      "validation_calibration": {
+        "threshold": 0.2031607925891876,
+        "metrics": {
+          "metric_unit": "sequence",
+          "TP": 9,
+          "FP": 6,
+          "FN": 0,
+          "TN": 0,
+          "n_total": 23,
+          "n_evaluable": 15,
+          "n_unknown": 8,
+          "sequence_coverage": 0.6521739130434783,
+          "sequence_accuracy": 0.6,
+          "sequence_fall_precision": 0.6,
+          "sequence_fall_recall": 1.0,
+          "sequence_fall_f1": 0.75,
+          "operational_accuracy": 0.391304347826087,
+          "end_to_end_fall_recall": 0.6,
+          "outcomes_with_unknown": [
+            [
+              0,
+              6,
+              2
+            ],
+            [
+              0,
+              9,
+              6
+            ]
+          ],
+          "outcome_columns": [
+            "normal",
+            "suspected_fall",
+            "unknown"
+          ],
+          "outcome_rows": [
+            "ADL",
+            "Fall"
+          ],
+          "by_class": {
+            "ADL": {
+              "n_total": 8,
+              "n_unknown": 2,
+              "sequence_coverage": 0.75,
+              "window_coverage": 0.3742690058479532,
+              "n_missing_timelines": 0
+            },
+            "Fall": {
+              "n_total": 15,
+              "n_unknown": 6,
+              "sequence_coverage": 0.6,
+              "window_coverage": 0.4225352112676056,
+              "n_missing_timelines": 0
+            }
+          },
+          "window_coverage": 0.3927927927927928,
+          "n_missing_timelines": 0
+        }
+      },
+      "source_kind": "real"
+    },
+    "le2i-extension-001": {
+      "epochs": 79,
+      "best": {
+        "epoch": 69,
+        "train_loss": 0.09927972538700397,
+        "val_normal_loss": 0.26481568650342524
+      },
+      "counts": {
+        "train": {
+          "planned": 62,
+          "usable": 45,
+          "windows": 3766
+        },
+        "validation": {
+          "planned": 12,
+          "usable": 7,
+          "windows": 128
+        }
+      },
+      "validation_calibration": {
+        "threshold": 0.15086834132671353,
+        "metrics": {
+          "metric_unit": "sequence",
+          "TP": 14,
+          "FP": 6,
+          "FN": 0,
+          "TN": 0,
+          "n_total": 38,
+          "n_evaluable": 20,
+          "n_unknown": 18,
+          "sequence_coverage": 0.5263157894736842,
+          "sequence_accuracy": 0.7,
+          "sequence_fall_precision": 0.7,
+          "sequence_fall_recall": 1.0,
+          "sequence_fall_f1": 0.8235294117647058,
+          "operational_accuracy": 0.3684210526315789,
+          "end_to_end_fall_recall": 0.5384615384615384,
+          "outcomes_with_unknown": [
+            [
+              0,
+              6,
+              6
+            ],
+            [
+              0,
+              14,
+              12
+            ]
+          ],
+          "outcome_columns": [
+            "normal",
+            "suspected_fall",
+            "unknown"
+          ],
+          "outcome_rows": [
+            "ADL",
+            "Fall"
+          ],
+          "by_class": {
+            "ADL": {
+              "n_total": 12,
+              "n_unknown": 6,
+              "sequence_coverage": 0.5,
+              "window_coverage": 0.21993127147766323,
+              "n_missing_timelines": 0
+            },
+            "Fall": {
+              "n_total": 26,
+              "n_unknown": 12,
+              "sequence_coverage": 0.5384615384615384,
+              "window_coverage": 0.4228110599078341,
+              "n_missing_timelines": 0
+            }
+          },
+          "window_coverage": 0.3413793103448276,
+          "n_missing_timelines": 0
+        }
+      },
+      "source_kind": "real"
+    }
+  },
+  "test_evaluation_performed": false,
+  "caveats": [
+    "Calibration scores are validation scores used to select thresholds, not independent test performance",
+    "Pose recipes/scalers differ; lower loss alone does not prove better detection",
+    "Le2i calibration uses a larger validation set; compare UR-only runs directly"
+  ]
+}

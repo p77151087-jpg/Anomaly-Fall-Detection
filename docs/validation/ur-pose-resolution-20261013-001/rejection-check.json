@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "actual_rejections": [
+    {
+      "stage": "inventory",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Matplotlib is building the font cache; this may take a moment.\nTraceback (most recent call last):\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\ur_pose_resolution.py\", line 492, in <module>\n    globals()[stage]()\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\ur_pose_resolution.py\", line 100, in inventory\n    raise ContractError(\"Preserve existing experiment directories; no repeated inventory\")\nfall_detect.io_utils.ContractError: Preserve existing experiment directories; no repeated inventory\n"
+    },
+    {
+      "stage": "pilot",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\ur_pose_resolution.py\", line 488, in <module>\n    prepare_stage(True)\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\ur_pose_resolution.py\", line 248, in prepare_stage\n    raise ContractError(\"Preparation stage already completed\")\nfall_detect.io_utils.ContractError: Preparation stage already completed\n"
+    },
+    {
+      "stage": "prepare",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\ur_pose_resolution.py\", line 490, in <module>\n    prepare_stage(False)\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\ur_pose_resolution.py\", line 248, in prepare_stage\n    raise ContractError(\"Preparation stage already completed\")\nfall_detect.io_utils.ContractError: Preparation stage already completed\n"
+    },
+    {
+      "stage": "train",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\ur_pose_resolution.py\", line 492, in <module>\n    globals()[stage]()\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\ur_pose_resolution.py\", line 359, in train\n    raise ContractError(\"Require complete preparation and a new run; no repeated training\")\nfall_detect.io_utils.ContractError: Require complete preparation and a new run; no repeated training\n"
+    },
+    {
+      "stage": "validation",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\ur_pose_resolution.py\", line 492, in <module>\n    globals()[stage]()\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\ur_pose_resolution.py\", line 406, in validation\n    raise ContractError(\"Validation already completed; no additional calibration\")\nfall_detect.io_utils.ContractError: Validation already completed; no additional calibration\n"
+    },
+    {
+      "stage": "resume_completed_validation",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\resume_ur_pose_resolution_validation.py\", line 73, in <module>\n    resume()\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\resume_ur_pose_resolution_validation.py\", line 23, in resume\n    raise ContractError(\"Retain the failed output and require an empty new output path\")\nfall_detect.io_utils.ContractError: Retain the failed output and require an empty new output path\n"
+    }
+  ],
+  "new_run_output_cache_files_unchanged": 238,
+  "before_after_equal": true
+}

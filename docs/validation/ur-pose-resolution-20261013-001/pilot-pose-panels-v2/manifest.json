@@ -1,0 +1,24 @@
+{
+  "source_sha256": {
+    "data/raw/urfall/fall-19/fall-19-cam0-rgb/fall-19-cam0-rgb-033.png": "fb8cde8fb5a63cb91593aa686aa04b2e2819a1caa4fb249f0e00e635317e9c3e",
+    "data/raw/urfall/fall-19/fall-19-cam0-rgb/fall-19-cam0-rgb-043.png": "6c7cf7c8bb226bf6426029b9a613065a99c3c19911923f61b3dc2330d0ce343c",
+    "data/raw/urfall/fall-19/fall-19-cam0-rgb/fall-19-cam0-rgb-044.png": "23e8e824c0d52b5ecbff0901fa2ad88fe62215b5862b0378c9fae9b52c8deb92",
+    "data/raw/urfall/fall-19/fall-19-cam0-rgb/fall-19-cam0-rgb-047.png": "4b3b2dcdc937094d2b0a9ebee5b3af699a0d1d0760e8006c2b55004af29fb15f",
+    "data/raw/urfall/fall-19/fall-19-cam0-rgb/fall-19-cam0-rgb-051.png": "f383b385d7a4891316d2bf645a9a5805b4032992c0b9975e5350cd1ce0ef500b",
+    "data/raw/urfall/fall-19/fall-19-cam0-rgb/fall-19-cam0-rgb-054.png": "2596706ea59b19bf70c0e17ecafce6e57feb6385b8ee8f4caa1900e71066787c",
+    "data/raw/urfall/fall-19/fall-19-cam0-rgb/fall-19-cam0-rgb-062.png": "0060fa7e722e4aea0d499a00f418f7d080f6698842a38991a636fe7f71fff3ed",
+    "data/raw/urfall/fall-19/fall-19-cam0-rgb/fall-19-cam0-rgb-090.png": "bf52d8914ebfaef599a10b895db8278470912365705003d95cf3bbd4521ea6c5"
+  },
+  "panels": [
+    "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-033.png",
+    "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-043.png",
+    "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-044.png",
+    "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-047.png",
+    "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-051.png",
+    "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-054.png",
+    "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-062.png",
+    "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-090.png"
+  ],
+  "human_new_pose_confirmed": false,
+  "origin": "AI visual diagnosis only"
+}

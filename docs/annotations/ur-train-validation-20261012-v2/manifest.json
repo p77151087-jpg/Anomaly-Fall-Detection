@@ -1,0 +1,702 @@
+{
+  "schema_version": 1,
+  "annotator": "Codex AI visual reviewer",
+  "human_validated": false,
+  "source_index_sha256": "cdd111c3fd7608e3bfdcd71c569fc03206e60e6fd2518ce937306db19a993562",
+  "review_frames_sha256": "66ae81a1052dd66a70d489ce1a5036561bcbb3f42c7dba7089877d7cb3bf1998",
+  "implementation_sha256": "ade05b30866ed9cee6de3426e918de6b2a3cd3c36821ee57302162827d50402f",
+  "split_hash": "0b9a0f0cf3609c478afcbbe028130c7d519e26b573135fbd739c074c68bc93c5",
+  "training_fall_count": 0,
+  "validation_fall_count": 15,
+  "sampled_frames": 340,
+  "automatic_joint_rows": 106808,
+  "test_reads": 0,
+  "regions": [
+    "head",
+    "shoulders",
+    "elbows",
+    "wrists",
+    "hips",
+    "knees",
+    "ankles"
+  ],
+  "region_codes": {
+    "V": "region visible (not a pixel coordinate or both-side point guarantee)",
+    "P": "partly visible / self occlusion or one-sided ambiguity",
+    "O": "object occlusion",
+    "C": "region substantially cropped out of frame",
+    "U": "not reliably resolvable from blur/darkness/small image",
+    "N": "target person not visible in sampled image"
+  },
+  "limitations": [
+    "340 sampled images, not all original frames",
+    "paired regions do not assign anatomical left/right",
+    "not coordinate ground truth; confidence values are separate model diagnostics",
+    "reviewer has prior knowledge of model errors; not an independent blind annotation",
+    "new timing diagnostic does not rewrite earlier adoption guards or certify alert delay"
+  ],
+  "summary": [
+    {
+      "sequence_id": "adl-33",
+      "split": "train",
+      "label": 0,
+      "original_frames": 200,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 166,
+      "any_track_good_pose_ratio": 0.83,
+      "visual_region_counts": {
+        "V": 16,
+        "P": 13,
+        "C": 5,
+        "U": 1
+      }
+    },
+    {
+      "sequence_id": "adl-08",
+      "split": "train",
+      "label": 0,
+      "original_frames": 180,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 170,
+      "any_track_good_pose_ratio": 0.9444444444444444,
+      "visual_region_counts": {
+        "N": 7,
+        "V": 12,
+        "P": 16
+      }
+    },
+    {
+      "sequence_id": "adl-40",
+      "split": "train",
+      "label": 0,
+      "original_frames": 330,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 262,
+      "any_track_good_pose_ratio": 0.793939393939394,
+      "visual_region_counts": {
+        "N": 7,
+        "V": 10,
+        "P": 14,
+        "U": 4
+      }
+    },
+    {
+      "sequence_id": "adl-19",
+      "split": "train",
+      "label": 0,
+      "original_frames": 250,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 186,
+      "any_track_good_pose_ratio": 0.744,
+      "visual_region_counts": {
+        "U": 35
+      }
+    },
+    {
+      "sequence_id": "adl-05",
+      "split": "train",
+      "label": 0,
+      "original_frames": 180,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 178,
+      "any_track_good_pose_ratio": 0.9888888888888889,
+      "visual_region_counts": {
+        "V": 9,
+        "U": 3,
+        "P": 23
+      }
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train",
+      "label": 0,
+      "original_frames": 345,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 255,
+      "any_track_good_pose_ratio": 0.7391304347826086,
+      "visual_region_counts": {
+        "N": 7,
+        "V": 11,
+        "P": 9,
+        "U": 6,
+        "C": 2
+      }
+    },
+    {
+      "sequence_id": "adl-17",
+      "split": "train",
+      "label": 0,
+      "original_frames": 230,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 185,
+      "any_track_good_pose_ratio": 0.8043478260869565,
+      "visual_region_counts": {
+        "U": 35
+      }
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train",
+      "label": 0,
+      "original_frames": 230,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 215,
+      "any_track_good_pose_ratio": 0.9347826086956522,
+      "visual_region_counts": {
+        "N": 7,
+        "V": 12,
+        "P": 16
+      }
+    },
+    {
+      "sequence_id": "adl-26",
+      "split": "train",
+      "label": 0,
+      "original_frames": 95,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 93,
+      "any_track_good_pose_ratio": 0.9789473684210527,
+      "visual_region_counts": {
+        "V": 22,
+        "P": 11,
+        "U": 2
+      }
+    },
+    {
+      "sequence_id": "adl-29",
+      "split": "train",
+      "label": 0,
+      "original_frames": 125,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 123,
+      "any_track_good_pose_ratio": 0.984,
+      "visual_region_counts": {
+        "V": 19,
+        "P": 12,
+        "U": 4
+      }
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train",
+      "label": 0,
+      "original_frames": 240,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 161,
+      "any_track_good_pose_ratio": 0.6708333333333333,
+      "visual_region_counts": {
+        "U": 35
+      }
+    },
+    {
+      "sequence_id": "adl-21",
+      "split": "train",
+      "label": 0,
+      "original_frames": 280,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 207,
+      "any_track_good_pose_ratio": 0.7392857142857143,
+      "visual_region_counts": {
+        "U": 35
+      }
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train",
+      "label": 0,
+      "original_frames": 340,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 316,
+      "any_track_good_pose_ratio": 0.9294117647058824,
+      "visual_region_counts": {
+        "N": 7,
+        "V": 12,
+        "P": 16
+      }
+    },
+    {
+      "sequence_id": "adl-25",
+      "split": "train",
+      "label": 0,
+      "original_frames": 110,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 108,
+      "any_track_good_pose_ratio": 0.9818181818181818,
+      "visual_region_counts": {
+        "V": 21,
+        "P": 14
+      }
+    },
+    {
+      "sequence_id": "adl-11",
+      "split": "train",
+      "label": 0,
+      "original_frames": 300,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 295,
+      "any_track_good_pose_ratio": 0.9833333333333333,
+      "visual_region_counts": {
+        "N": 7,
+        "V": 8,
+        "P": 20
+      }
+    },
+    {
+      "sequence_id": "adl-28",
+      "split": "train",
+      "label": 0,
+      "original_frames": 85,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 83,
+      "any_track_good_pose_ratio": 0.9764705882352941,
+      "visual_region_counts": {
+        "V": 16,
+        "P": 13,
+        "U": 6
+      }
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train",
+      "label": 0,
+      "original_frames": 200,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 193,
+      "any_track_good_pose_ratio": 0.965,
+      "visual_region_counts": {
+        "V": 15,
+        "P": 12,
+        "U": 3,
+        "C": 5
+      }
+    },
+    {
+      "sequence_id": "adl-31",
+      "split": "train",
+      "label": 0,
+      "original_frames": 250,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 244,
+      "any_track_good_pose_ratio": 0.976,
+      "visual_region_counts": {
+        "V": 15,
+        "P": 12,
+        "U": 3,
+        "C": 5
+      }
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train",
+      "label": 0,
+      "original_frames": 100,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 98,
+      "any_track_good_pose_ratio": 0.98,
+      "visual_region_counts": {
+        "V": 17,
+        "P": 18
+      }
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train",
+      "label": 0,
+      "original_frames": 180,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 178,
+      "any_track_good_pose_ratio": 0.9888888888888889,
+      "visual_region_counts": {
+        "V": 17,
+        "U": 3,
+        "P": 15
+      }
+    },
+    {
+      "sequence_id": "adl-30",
+      "split": "train",
+      "label": 0,
+      "original_frames": 400,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 202,
+      "any_track_good_pose_ratio": 0.505,
+      "visual_region_counts": {
+        "N": 7,
+        "V": 11,
+        "P": 9,
+        "U": 6,
+        "C": 2
+      }
+    },
+    {
+      "sequence_id": "adl-12",
+      "split": "train",
+      "label": 0,
+      "original_frames": 250,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 220,
+      "any_track_good_pose_ratio": 0.88,
+      "visual_region_counts": {
+        "U": 35
+      }
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train",
+      "label": 0,
+      "original_frames": 70,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 68,
+      "any_track_good_pose_ratio": 0.9714285714285714,
+      "visual_region_counts": {
+        "V": 19,
+        "P": 12,
+        "U": 4
+      }
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train",
+      "label": 0,
+      "original_frames": 300,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 293,
+      "any_track_good_pose_ratio": 0.9766666666666667,
+      "visual_region_counts": {
+        "N": 7,
+        "V": 8,
+        "P": 20
+      }
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation",
+      "label": 0,
+      "original_frames": 350,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 322,
+      "any_track_good_pose_ratio": 0.92,
+      "visual_region_counts": {
+        "N": 7,
+        "V": 12,
+        "P": 16
+      }
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation",
+      "label": 0,
+      "original_frames": 220,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 186,
+      "any_track_good_pose_ratio": 0.8454545454545455,
+      "visual_region_counts": {
+        "U": 35
+      }
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation",
+      "label": 0,
+      "original_frames": 270,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 211,
+      "any_track_good_pose_ratio": 0.7814814814814814,
+      "visual_region_counts": {
+        "U": 35
+      }
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation",
+      "label": 0,
+      "original_frames": 150,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 148,
+      "any_track_good_pose_ratio": 0.9866666666666667,
+      "visual_region_counts": {
+        "V": 9,
+        "U": 3,
+        "P": 23
+      }
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation",
+      "label": 0,
+      "original_frames": 150,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 143,
+      "any_track_good_pose_ratio": 0.9533333333333334,
+      "visual_region_counts": {
+        "N": 7,
+        "V": 9,
+        "P": 17,
+        "U": 2
+      }
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation",
+      "label": 0,
+      "original_frames": 240,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 178,
+      "any_track_good_pose_ratio": 0.7416666666666667,
+      "visual_region_counts": {
+        "U": 35
+      }
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation",
+      "label": 0,
+      "original_frames": 265,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 200,
+      "any_track_good_pose_ratio": 0.7547169811320755,
+      "visual_region_counts": {
+        "U": 35
+      }
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation",
+      "label": 0,
+      "original_frames": 280,
+      "sampled_visual_frames": 5,
+      "any_track_good_pose_frames": 278,
+      "any_track_good_pose_ratio": 0.9928571428571429,
+      "visual_region_counts": {
+        "V": 15,
+        "P": 10,
+        "U": 5,
+        "C": 5
+      }
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation",
+      "label": 1,
+      "original_frames": 56,
+      "sampled_visual_frames": 12,
+      "any_track_good_pose_frames": 53,
+      "any_track_good_pose_ratio": 0.9464285714285714,
+      "visual_region_counts": {
+        "V": 15,
+        "P": 53,
+        "U": 3,
+        "C": 13
+      }
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation",
+      "label": 1,
+      "original_frames": 100,
+      "sampled_visual_frames": 12,
+      "any_track_good_pose_frames": 49,
+      "any_track_good_pose_ratio": 0.49,
+      "visual_region_counts": {
+        "V": 28,
+        "P": 36,
+        "U": 2,
+        "C": 18
+      }
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation",
+      "label": 1,
+      "original_frames": 55,
+      "sampled_visual_frames": 12,
+      "any_track_good_pose_frames": 53,
+      "any_track_good_pose_ratio": 0.9636363636363636,
+      "visual_region_counts": {
+        "V": 12,
+        "P": 68,
+        "U": 4
+      }
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation",
+      "label": 1,
+      "original_frames": 65,
+      "sampled_visual_frames": 12,
+      "any_track_good_pose_frames": 40,
+      "any_track_good_pose_ratio": 0.6153846153846154,
+      "visual_region_counts": {
+        "V": 20,
+        "P": 52,
+        "U": 3,
+        "C": 9
+      }
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation",
+      "label": 1,
+      "original_frames": 91,
+      "sampled_visual_frames": 12,
+      "any_track_good_pose_frames": 89,
+      "any_track_good_pose_ratio": 0.978021978021978,
+      "visual_region_counts": {
+        "V": 12,
+        "P": 66,
+        "U": 6
+      }
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation",
+      "label": 1,
+      "original_frames": 85,
+      "sampled_visual_frames": 12,
+      "any_track_good_pose_frames": 83,
+      "any_track_good_pose_ratio": 0.9764705882352941,
+      "visual_region_counts": {
+        "V": 44,
+        "P": 29,
+        "U": 5,
+        "C": 6
+      }
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation",
+      "label": 1,
+      "original_frames": 99,
+      "sampled_visual_frames": 12,
+      "any_track_good_pose_frames": 79,
+      "any_track_good_pose_ratio": 0.797979797979798,
+      "visual_region_counts": {
+        "V": 45,
+        "P": 23,
+        "U": 4,
+        "C": 12
+      }
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation",
+      "label": 1,
+      "original_frames": 61,
+      "sampled_visual_frames": 12,
+      "any_track_good_pose_frames": 59,
+      "any_track_good_pose_ratio": 0.9672131147540983,
+      "visual_region_counts": {
+        "V": 12,
+        "P": 68,
+        "U": 4
+      }
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation",
+      "label": 1,
+      "original_frames": 185,
+      "sampled_visual_frames": 12,
+      "any_track_good_pose_frames": 176,
+      "any_track_good_pose_ratio": 0.9513513513513514,
+      "visual_region_counts": {
+        "V": 34,
+        "P": 42,
+        "U": 3,
+        "C": 5
+      }
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation",
+      "label": 1,
+      "original_frames": 156,
+      "sampled_visual_frames": 12,
+      "any_track_good_pose_frames": 150,
+      "any_track_good_pose_ratio": 0.9615384615384616,
+      "visual_region_counts": {
+        "V": 29,
+        "P": 47,
+        "U": 6,
+        "C": 2
+      }
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation",
+      "label": 1,
+      "original_frames": 130,
+      "sampled_visual_frames": 12,
+      "any_track_good_pose_frames": 128,
+      "any_track_good_pose_ratio": 0.9846153846153847,
+      "visual_region_counts": {
+        "V": 32,
+        "P": 44,
+        "U": 8
+      }
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation",
+      "label": 1,
+      "original_frames": 85,
+      "sampled_visual_frames": 12,
+      "any_track_good_pose_frames": 69,
+      "any_track_good_pose_ratio": 0.8117647058823529,
+      "visual_region_counts": {
+        "V": 44,
+        "P": 26,
+        "U": 5,
+        "C": 9
+      }
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation",
+      "label": 1,
+      "original_frames": 100,
+      "sampled_visual_frames": 12,
+      "any_track_good_pose_frames": 98,
+      "any_track_good_pose_ratio": 0.98,
+      "visual_region_counts": {
+        "V": 12,
+        "P": 64,
+        "U": 8
+      }
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation",
+      "label": 1,
+      "original_frames": 110,
+      "sampled_visual_frames": 12,
+      "any_track_good_pose_frames": 108,
+      "any_track_good_pose_ratio": 0.9818181818181818,
+      "visual_region_counts": {
+        "V": 12,
+        "P": 66,
+        "U": 6
+      }
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation",
+      "label": 1,
+      "original_frames": 70,
+      "sampled_visual_frames": 12,
+      "any_track_good_pose_frames": 48,
+      "any_track_good_pose_ratio": 0.6857142857142857,
+      "visual_region_counts": {
+        "V": 15,
+        "P": 53,
+        "U": 4,
+        "C": 12
+      }
+    }
+  ],
+  "files": {
+    "automatic-human13-diagnostics.csv": "95585b87e213a6ce6b113d5618d05cc29320f5e1f5f21438895be1586b31d91c",
+    "fall-intervals.json": "ef897e1f3cbe6646d7307ac337ece65305c9671397cb3fe5725cf42eb0fb5ee0",
+    "sampled-joint-regions.csv": "46fbb1e3f38745f585fab12751c7a60b9c835d67428b60b223db33838f947342"
+  }
+}

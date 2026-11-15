@@ -1,0 +1,98 @@
+{
+  "mode": "real_feature_smoke",
+  "recipe_id": "lightweight_openpose18_stgcn_kinetics_v1",
+  "feature_dim": 256,
+  "sequence_ids": [
+    "adl-05",
+    "fall-02"
+  ],
+  "classification": "not_performed",
+  "passed": true,
+  "dataset_report": {
+    "schema_version": 1,
+    "split_hash": "0b9a0f0cf3609c478afcbbe028130c7d519e26b573135fbd739c074c68bc93c5",
+    "sequences": [
+      {
+        "sequence_id": "adl-05",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb",
+        "n_images": 180,
+        "first_frame_id": 1,
+        "last_frame_id": 180,
+        "missing_frame_ids": [],
+        "numeric_sort": true,
+        "status": "validated",
+        "decoded_images": 180,
+        "timestamp_source": "source_frame_id",
+        "posture_labels": "not_used",
+        "event_annotations": "not_available"
+      },
+      {
+        "sequence_id": "fall-02",
+        "split": "validation",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb",
+        "n_images": 110,
+        "first_frame_id": 1,
+        "last_frame_id": 110,
+        "missing_frame_ids": [],
+        "numeric_sort": true,
+        "status": "validated",
+        "decoded_images": 110,
+        "timestamp_source": "source_frame_id",
+        "posture_labels": "not_used",
+        "event_annotations": "not_available"
+      }
+    ],
+    "n_planned": 2,
+    "n_validated": 2
+  },
+  "dataset_index": "outputs\\real_feature_smoke\\openpose18-cuda-v2\\dataset-index.json",
+  "model_load_reports": {
+    "pose": {
+      "strict": true,
+      "key_conversion": null,
+      "sha256": "517c86f769c6636583083f1467e3d212a0006c27109edb3aeffc19a79622d411"
+    },
+    "stgcn": {
+      "strict": true,
+      "key_conversion": null,
+      "sha256": "12c56ed5535dd28a075e7d04dec96f572f8b1dc87548004761157e15b7d9e12e"
+    }
+  },
+  "verification": {
+    "pose_forward": true,
+    "feature_forward": true,
+    "device": "cuda",
+    "refreshed": true
+  },
+  "sequences": {
+    "adl-05": {
+      "status": "prepared",
+      "source_hash": "a09150e1614c34750a82729e1e6510d41d0bc8287ae6cefb6d8c65f2c2c61426",
+      "feature_path": "data\\cache\\openpose18\\real_feature_smoke\\features\\adl-05-fe6bd0b02327352ca08b8ed4364949303722ef92b89396203fe44f091f373b40.npz",
+      "pose_path": "data\\cache\\openpose18\\real_feature_smoke\\poses\\adl-05-fe6bd0b02327352ca08b8ed4364949303722ef92b89396203fe44f091f373b40.npz",
+      "valid_features": 18,
+      "n_samples": 119,
+      "quality_counts": {
+        "valid": 18
+      }
+    },
+    "fall-02": {
+      "status": "prepared",
+      "source_hash": "2cbdb9ba9f8cf476f5d901801d0a9337a0225eef70710414323a20d9c3cecd08",
+      "feature_path": "data\\cache\\openpose18\\real_feature_smoke\\features\\fall-02-8704d74a69d09d8610223d4538b9d54f12a40151f5b9f3fc7f17c354e04177b9.npz",
+      "pose_path": "data\\cache\\openpose18\\real_feature_smoke\\poses\\fall-02-8704d74a69d09d8610223d4538b9d54f12a40151f5b9f3fc7f17c354e04177b9.npz",
+      "valid_features": 5,
+      "n_samples": 110,
+      "quality_counts": {
+        "track_gap": 100,
+        "valid": 5
+      }
+    }
+  },
+  "status": "passed"
+}

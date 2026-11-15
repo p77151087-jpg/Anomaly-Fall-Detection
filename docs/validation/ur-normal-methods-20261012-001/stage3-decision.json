@@ -1,0 +1,9 @@
+{
+  "self_supervised_training": "not_run",
+  "diagnostic_support": false,
+  "geometry_rule_sha256": "2ac0544ac0884775b2cf85a67edad21ed7913a0bbf33edf6d7b0d8d55adc65f8",
+  "geometry_diagnosis_sha256": "627414af04adf5132eaa8e4c072032d73f8c2823a8a31605b0c6dce5bd529d40",
+  "reason": "Raw observed XY as well as pooled512 fall19 legal windows overlap normal Train neighborhoods; zero consecutive supporting endpoints under the prior rule. No controlled support that ST-GCN alone compresses an otherwise abnormal observed pose. Stop rather than blind normal-only fine tuning.",
+  "not_a_claim_of_correct_representation": true,
+  "test_used": false
+}

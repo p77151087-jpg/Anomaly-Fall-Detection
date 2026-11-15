@@ -1,0 +1,1217 @@
+{
+  "source_kind": "real",
+  "run": "caucafall-extension-001",
+  "primary_objective": "sequence_fall_f1",
+  "threshold": 0.4199422299861908,
+  "training_status": {
+    "source_kind": "real",
+    "training": "complete",
+    "calibration": "complete",
+    "epochs": 97,
+    "best_val_normal_loss": 0.19827713730220142
+  },
+  "validation": {
+    "metric_unit": "sequence",
+    "TP": 21,
+    "FP": 3,
+    "FN": 9,
+    "TN": 17,
+    "n_total": 58,
+    "n_evaluable": 50,
+    "n_unknown": 8,
+    "sequence_coverage": 0.8620689655172413,
+    "sequence_accuracy": 0.76,
+    "sequence_fall_precision": 0.875,
+    "sequence_fall_recall": 0.7,
+    "sequence_fall_f1": 0.7777777777777778,
+    "operational_accuracy": 0.6551724137931034,
+    "end_to_end_fall_recall": 0.5833333333333334,
+    "outcomes_with_unknown": [
+      [
+        17,
+        3,
+        2
+      ],
+      [
+        9,
+        21,
+        6
+      ]
+    ],
+    "outcome_columns": [
+      "normal",
+      "suspected_fall",
+      "unknown"
+    ],
+    "outcome_rows": [
+      "ADL",
+      "Fall"
+    ],
+    "by_class": {
+      "ADL": {
+        "n_total": 22,
+        "n_unknown": 2,
+        "sequence_coverage": 0.9090909090909091,
+        "window_coverage": 0.5174654752233956,
+        "n_missing_timelines": 0
+      },
+      "Fall": {
+        "n_total": 36,
+        "n_unknown": 6,
+        "sequence_coverage": 0.8333333333333334,
+        "window_coverage": 0.5228325612177366,
+        "n_missing_timelines": 0
+      }
+    },
+    "window_coverage": 0.5204230488694384,
+    "n_missing_timelines": 0,
+    "by_dataset": {
+      "caucafall": {
+        "metric_unit": "sequence",
+        "TP": 8,
+        "FP": 1,
+        "FN": 2,
+        "TN": 9,
+        "n_total": 20,
+        "n_evaluable": 20,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "sequence_accuracy": 0.85,
+        "sequence_fall_precision": 0.8888888888888888,
+        "sequence_fall_recall": 0.8,
+        "sequence_fall_f1": 0.8421052631578947,
+        "operational_accuracy": 0.85,
+        "end_to_end_fall_recall": 0.8,
+        "outcomes_with_unknown": [
+          [
+            9,
+            1,
+            0
+          ],
+          [
+            2,
+            8,
+            0
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 10,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.5408320493066255,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 10,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.432348367029549,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.4868421052631579,
+        "n_missing_timelines": 0
+      },
+      "le2i": {
+        "metric_unit": "sequence",
+        "TP": 9,
+        "FP": 0,
+        "FN": 2,
+        "TN": 4,
+        "n_total": 15,
+        "n_evaluable": 15,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "sequence_accuracy": 0.8666666666666667,
+        "sequence_fall_precision": 1.0,
+        "sequence_fall_recall": 0.8181818181818182,
+        "sequence_fall_f1": 0.9,
+        "operational_accuracy": 0.8666666666666667,
+        "end_to_end_fall_recall": 0.8181818181818182,
+        "outcomes_with_unknown": [
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            2,
+            9,
+            0
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 4,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.6583333333333333,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 11,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.6442748091603053,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.6480446927374302,
+        "n_missing_timelines": 0
+      },
+      "urfall": {
+        "metric_unit": "sequence",
+        "TP": 4,
+        "FP": 2,
+        "FN": 5,
+        "TN": 4,
+        "n_total": 23,
+        "n_evaluable": 15,
+        "n_unknown": 8,
+        "sequence_coverage": 0.6521739130434783,
+        "sequence_accuracy": 0.5333333333333333,
+        "sequence_fall_precision": 0.6666666666666666,
+        "sequence_fall_recall": 0.4444444444444444,
+        "sequence_fall_f1": 0.5333333333333333,
+        "operational_accuracy": 0.34782608695652173,
+        "end_to_end_fall_recall": 0.26666666666666666,
+        "outcomes_with_unknown": [
+          [
+            4,
+            2,
+            2
+          ],
+          [
+            5,
+            4,
+            6
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 2,
+            "sequence_coverage": 0.75,
+            "window_coverage": 0.3742690058479532,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 6,
+            "sequence_coverage": 0.6,
+            "window_coverage": 0.4225352112676056,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.3927927927927928,
+        "n_missing_timelines": 0
+      }
+    }
+  },
+  "validation_same_38_as_previous": {
+    "metric_unit": "sequence",
+    "TP": 13,
+    "FP": 2,
+    "FN": 7,
+    "TN": 8,
+    "n_total": 38,
+    "n_evaluable": 30,
+    "n_unknown": 8,
+    "sequence_coverage": 0.7894736842105263,
+    "sequence_accuracy": 0.7,
+    "sequence_fall_precision": 0.8666666666666667,
+    "sequence_fall_recall": 0.65,
+    "sequence_fall_f1": 0.7428571428571429,
+    "operational_accuracy": 0.5526315789473685,
+    "end_to_end_fall_recall": 0.5,
+    "outcomes_with_unknown": [
+      [
+        8,
+        2,
+        2
+      ],
+      [
+        7,
+        13,
+        6
+      ]
+    ],
+    "outcome_columns": [
+      "normal",
+      "suspected_fall",
+      "unknown"
+    ],
+    "outcome_rows": [
+      "ADL",
+      "Fall"
+    ],
+    "by_class": {
+      "ADL": {
+        "n_total": 12,
+        "n_unknown": 2,
+        "sequence_coverage": 0.8333333333333334,
+        "window_coverage": 0.49140893470790376,
+        "n_missing_timelines": 0
+      },
+      "Fall": {
+        "n_total": 26,
+        "n_unknown": 6,
+        "sequence_coverage": 0.7692307692307693,
+        "window_coverage": 0.5898617511520737,
+        "n_missing_timelines": 0
+      }
+    },
+    "window_coverage": 0.5503448275862068,
+    "n_missing_timelines": 0
+  },
+  "test": {
+    "metric_unit": "sequence",
+    "TP": 22,
+    "FP": 7,
+    "FN": 16,
+    "TN": 26,
+    "n_total": 81,
+    "n_evaluable": 71,
+    "n_unknown": 10,
+    "sequence_coverage": 0.8765432098765432,
+    "sequence_accuracy": 0.676056338028169,
+    "sequence_fall_precision": 0.7586206896551724,
+    "sequence_fall_recall": 0.5789473684210527,
+    "sequence_fall_f1": 0.6567164179104478,
+    "operational_accuracy": 0.5925925925925926,
+    "end_to_end_fall_recall": 0.46808510638297873,
+    "outcomes_with_unknown": [
+      [
+        26,
+        7,
+        1
+      ],
+      [
+        16,
+        22,
+        9
+      ]
+    ],
+    "outcome_columns": [
+      "normal",
+      "suspected_fall",
+      "unknown"
+    ],
+    "outcome_rows": [
+      "ADL",
+      "Fall"
+    ],
+    "by_class": {
+      "ADL": {
+        "n_total": 34,
+        "n_unknown": 1,
+        "sequence_coverage": 0.9705882352941176,
+        "window_coverage": 0.6734489659773182,
+        "n_missing_timelines": 0
+      },
+      "Fall": {
+        "n_total": 47,
+        "n_unknown": 9,
+        "sequence_coverage": 0.8085106382978723,
+        "window_coverage": 0.5351620947630923,
+        "n_missing_timelines": 0
+      }
+    },
+    "window_coverage": 0.6180291824905056,
+    "n_missing_timelines": 0,
+    "protocol_id": "urfall-le2i-caucafall-subject-sequence-v1",
+    "split_hash": "18fe3ea544602523e56f81d2fe7360feb817a6be6d1d2ac7818304f33c03ddf2",
+    "recipe_hash": "31790b41169e814324b6f66011ddefb926181f2ccdf2771785c9a30e749d60b8",
+    "source_kind": "real",
+    "artifact_hashes": {
+      "autoencoder.pt": "e0577797cebbac881542798fb494da291bbf9e9b675ee27a76799538fbf7ed6a",
+      "scaler.npz": "71eb1762fa33472af3735e03a591ee7abb503f76b50836399732b0513a256e26",
+      "resolved-config.yaml": "1f395d63dc22f60c6d9bfb2a61b67587e434ebba7787e2235836afcb51ebfde8",
+      "split-manifest.json": "8eeae485ce418fde8ca4158ecf1531246c29dbf29f2c945dd60e2232c2952715",
+      "sources.json": "dbcc95db99e6648fc6ffcc620f9f275a671b72eef215672bb25a02421417f5d0",
+      "dataset-index.json": "8f7d65635b42b8d51d1676f63681a4e8943e04ff82f28e5f6ef4a220190ac0af",
+      "environment.json": "bae2e74110a6ed6164bb2b289b8a3a8b5c150a93a1c417aa7b4e7716cfce283b",
+      "training-history.csv": "9b661ffc1a8e2fcdf10f2e3b2c748e31d303aea58dc404afd978b7ebbbbe01fe",
+      "threshold.json": "3cd45e59d9424b900b0024eb97cdae9aea2fe2b48c26d75a1234963dae03fb30",
+      "calibration.json": "05ce16728dc033c5b12b4ab108ac1e9e356aa366a0c84a540d065e52e15d7fef"
+    },
+    "config_hash": "c5bc88471d8d15cb6d751ad9bcd1f02c1d344fb096b32d46b92f6793bca4a5ae",
+    "by_dataset": {
+      "caucafall": {
+        "metric_unit": "sequence",
+        "TP": 6,
+        "FP": 1,
+        "FN": 3,
+        "TN": 9,
+        "n_total": 20,
+        "n_evaluable": 19,
+        "n_unknown": 1,
+        "sequence_coverage": 0.95,
+        "sequence_accuracy": 0.7894736842105263,
+        "sequence_fall_precision": 0.8571428571428571,
+        "sequence_fall_recall": 0.6666666666666666,
+        "sequence_fall_f1": 0.75,
+        "operational_accuracy": 0.75,
+        "end_to_end_fall_recall": 0.6,
+        "outcomes_with_unknown": [
+          [
+            9,
+            1,
+            0
+          ],
+          [
+            3,
+            6,
+            1
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 10,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8197343453510436,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 10,
+            "n_unknown": 1,
+            "sequence_coverage": 0.9,
+            "window_coverage": 0.5626423690205011,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.7028985507246377,
+        "n_missing_timelines": 0
+      },
+      "le2i": {
+        "metric_unit": "sequence",
+        "TP": 13,
+        "FP": 4,
+        "FN": 8,
+        "TN": 12,
+        "n_total": 38,
+        "n_evaluable": 37,
+        "n_unknown": 1,
+        "sequence_coverage": 0.9736842105263158,
+        "sequence_accuracy": 0.6756756756756757,
+        "sequence_fall_precision": 0.7647058823529411,
+        "sequence_fall_recall": 0.6190476190476191,
+        "sequence_fall_f1": 0.6842105263157895,
+        "operational_accuracy": 0.6578947368421053,
+        "end_to_end_fall_recall": 0.5909090909090909,
+        "outcomes_with_unknown": [
+          [
+            12,
+            4,
+            0
+          ],
+          [
+            8,
+            13,
+            1
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 16,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.6660508083140878,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 22,
+            "n_unknown": 1,
+            "sequence_coverage": 0.9545454545454546,
+            "window_coverage": 0.5528882220555139,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.6229273870783305,
+        "n_missing_timelines": 0
+      },
+      "urfall": {
+        "metric_unit": "sequence",
+        "TP": 3,
+        "FP": 2,
+        "FN": 5,
+        "TN": 5,
+        "n_total": 23,
+        "n_evaluable": 15,
+        "n_unknown": 8,
+        "sequence_coverage": 0.6521739130434783,
+        "sequence_accuracy": 0.5333333333333333,
+        "sequence_fall_precision": 0.6,
+        "sequence_fall_recall": 0.375,
+        "sequence_fall_f1": 0.46153846153846156,
+        "operational_accuracy": 0.34782608695652173,
+        "end_to_end_fall_recall": 0.2,
+        "outcomes_with_unknown": [
+          [
+            5,
+            2,
+            1
+          ],
+          [
+            5,
+            3,
+            7
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 1,
+            "sequence_coverage": 0.875,
+            "window_coverage": 0.4738562091503268,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 7,
+            "sequence_coverage": 0.5333333333333333,
+            "window_coverage": 0.38197424892703863,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.43413729128014844,
+        "n_missing_timelines": 0
+      }
+    }
+  },
+  "test_same_61_as_previous": {
+    "metric_unit": "sequence",
+    "TP": 16,
+    "FP": 6,
+    "FN": 13,
+    "TN": 17,
+    "n_total": 61,
+    "n_evaluable": 52,
+    "n_unknown": 9,
+    "sequence_coverage": 0.8524590163934426,
+    "sequence_accuracy": 0.6346153846153846,
+    "sequence_fall_precision": 0.7272727272727273,
+    "sequence_fall_recall": 0.5517241379310345,
+    "sequence_fall_f1": 0.6274509803921569,
+    "operational_accuracy": 0.5409836065573771,
+    "end_to_end_fall_recall": 0.43243243243243246,
+    "outcomes_with_unknown": [
+      [
+        17,
+        6,
+        1
+      ],
+      [
+        13,
+        16,
+        8
+      ]
+    ],
+    "outcome_columns": [
+      "normal",
+      "suspected_fall",
+      "unknown"
+    ],
+    "outcome_rows": [
+      "ADL",
+      "Fall"
+    ],
+    "by_class": {
+      "ADL": {
+        "n_total": 24,
+        "n_unknown": 1,
+        "sequence_coverage": 0.9583333333333334,
+        "window_coverage": 0.6422501011736139,
+        "n_missing_timelines": 0
+      },
+      "Fall": {
+        "n_total": 37,
+        "n_unknown": 8,
+        "sequence_coverage": 0.7837837837837838,
+        "window_coverage": 0.5274584929757343,
+        "n_missing_timelines": 0
+      }
+    },
+    "window_coverage": 0.5977210800099083,
+    "n_missing_timelines": 0
+  },
+  "old_f1_same_61_test": {
+    "metric_unit": "sequence",
+    "TP": 26,
+    "FP": 23,
+    "FN": 3,
+    "TN": 0,
+    "n_total": 61,
+    "n_evaluable": 52,
+    "n_unknown": 9,
+    "sequence_coverage": 0.8524590163934426,
+    "sequence_accuracy": 0.5,
+    "sequence_fall_precision": 0.5306122448979592,
+    "sequence_fall_recall": 0.896551724137931,
+    "sequence_fall_f1": 0.6666666666666666,
+    "operational_accuracy": 0.4262295081967213,
+    "end_to_end_fall_recall": 0.7027027027027027,
+    "outcomes_with_unknown": [
+      [
+        0,
+        23,
+        1
+      ],
+      [
+        3,
+        26,
+        8
+      ]
+    ],
+    "outcome_columns": [
+      "normal",
+      "suspected_fall",
+      "unknown"
+    ],
+    "outcome_rows": [
+      "ADL",
+      "Fall"
+    ],
+    "by_class": {
+      "ADL": {
+        "n_total": 24,
+        "n_unknown": 1,
+        "sequence_coverage": 0.9583333333333334,
+        "window_coverage": 0.6422501011736139,
+        "n_missing_timelines": 0
+      },
+      "Fall": {
+        "n_total": 37,
+        "n_unknown": 8,
+        "sequence_coverage": 0.7837837837837838,
+        "window_coverage": 0.5274584929757343,
+        "n_missing_timelines": 0
+      }
+    },
+    "window_coverage": 0.5977210800099083,
+    "n_missing_timelines": 0,
+    "protocol_id": "urfall-plus-le2i-cs-sequence-v1",
+    "split_hash": "a6454c4389e4a8ef7b161920088dd290489dd9e361b24b1afab56507bf11e4b8",
+    "recipe_hash": "1b590fe1fc141258103fc1a40991ff366eb04fba9773165fa5cf8afca2d036ba",
+    "source_kind": "real",
+    "artifact_hashes": {
+      "autoencoder.pt": "b19ee3b108a9d1651a6c70bef75fe5d9b2db24ff3b5dd5bac432d7fd1fbe7bad",
+      "scaler.npz": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990",
+      "resolved-config.yaml": "5372c8434f3dfb8c2e3cdaa4a5367fdd4dc66c124164cd62b9b81c3d4fd24beb",
+      "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+      "sources.json": "fb849c7a5a40b215e00aa4060c09955fcfbaba7de8e24c4609931dc8a5f6424a",
+      "dataset-index.json": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+      "environment.json": "62786ea9350e5cdf836b9f5ef35fb9c5b6ada9608c9bc4e558b4c51bb3ba2da3",
+      "training-history.csv": "6d5317f144a0b554d649c841f3013b79984c32201c10e295ad234699bdab32fb",
+      "threshold.json": "38a820155015c81a9860d001544867d1d0333500a71d06988baf2d7d540c0291",
+      "calibration.json": "c18faba8d415d431d03fcad21452bb172dc9d5fa2b037e96195ed86ac2448ec1"
+    },
+    "config_hash": "13553ac72fd1d11510538ba575aac700014dbcefc9ed9648b64760417d099c09",
+    "by_dataset": {
+      "le2i": {
+        "metric_unit": "sequence",
+        "TP": 19,
+        "FP": 16,
+        "FN": 2,
+        "TN": 0,
+        "n_total": 38,
+        "n_evaluable": 37,
+        "n_unknown": 1,
+        "sequence_coverage": 0.9736842105263158,
+        "sequence_accuracy": 0.5135135135135135,
+        "sequence_fall_precision": 0.5428571428571428,
+        "sequence_fall_recall": 0.9047619047619048,
+        "sequence_fall_f1": 0.6785714285714286,
+        "operational_accuracy": 0.5,
+        "end_to_end_fall_recall": 0.8636363636363636,
+        "outcomes_with_unknown": [
+          [
+            0,
+            16,
+            0
+          ],
+          [
+            2,
+            19,
+            1
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 16,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.6660508083140878,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 22,
+            "n_unknown": 1,
+            "sequence_coverage": 0.9545454545454546,
+            "window_coverage": 0.5528882220555139,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.6229273870783305,
+        "n_missing_timelines": 0
+      },
+      "urfall": {
+        "metric_unit": "sequence",
+        "TP": 7,
+        "FP": 7,
+        "FN": 1,
+        "TN": 0,
+        "n_total": 23,
+        "n_evaluable": 15,
+        "n_unknown": 8,
+        "sequence_coverage": 0.6521739130434783,
+        "sequence_accuracy": 0.4666666666666667,
+        "sequence_fall_precision": 0.5,
+        "sequence_fall_recall": 0.875,
+        "sequence_fall_f1": 0.6363636363636364,
+        "operational_accuracy": 0.30434782608695654,
+        "end_to_end_fall_recall": 0.4666666666666667,
+        "outcomes_with_unknown": [
+          [
+            0,
+            7,
+            1
+          ],
+          [
+            1,
+            7,
+            7
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 1,
+            "sequence_coverage": 0.875,
+            "window_coverage": 0.4738562091503268,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 7,
+            "sequence_coverage": 0.5333333333333333,
+            "window_coverage": 0.38197424892703863,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.43413729128014844,
+        "n_missing_timelines": 0
+      }
+    }
+  },
+  "old_balanced_same_61_test": {
+    "metric_unit": "sequence",
+    "TP": 17,
+    "FP": 9,
+    "FN": 12,
+    "TN": 14,
+    "n_total": 61,
+    "n_evaluable": 52,
+    "n_unknown": 9,
+    "sequence_coverage": 0.8524590163934426,
+    "sequence_accuracy": 0.5961538461538461,
+    "sequence_fall_precision": 0.6538461538461539,
+    "sequence_fall_recall": 0.5862068965517241,
+    "sequence_fall_f1": 0.6181818181818182,
+    "operational_accuracy": 0.5081967213114754,
+    "end_to_end_fall_recall": 0.4594594594594595,
+    "outcomes_with_unknown": [
+      [
+        14,
+        9,
+        1
+      ],
+      [
+        12,
+        17,
+        8
+      ]
+    ],
+    "outcome_columns": [
+      "normal",
+      "suspected_fall",
+      "unknown"
+    ],
+    "outcome_rows": [
+      "ADL",
+      "Fall"
+    ],
+    "by_class": {
+      "ADL": {
+        "n_total": 24,
+        "n_unknown": 1,
+        "sequence_coverage": 0.9583333333333334,
+        "window_coverage": 0.6422501011736139,
+        "n_missing_timelines": 0
+      },
+      "Fall": {
+        "n_total": 37,
+        "n_unknown": 8,
+        "sequence_coverage": 0.7837837837837838,
+        "window_coverage": 0.5274584929757343,
+        "n_missing_timelines": 0
+      }
+    },
+    "window_coverage": 0.5977210800099083,
+    "n_missing_timelines": 0,
+    "protocol_id": "urfall-plus-le2i-cs-sequence-v1",
+    "split_hash": "a6454c4389e4a8ef7b161920088dd290489dd9e361b24b1afab56507bf11e4b8",
+    "recipe_hash": "1b590fe1fc141258103fc1a40991ff366eb04fba9773165fa5cf8afca2d036ba",
+    "source_kind": "real",
+    "artifact_hashes": {
+      "autoencoder.pt": "b19ee3b108a9d1651a6c70bef75fe5d9b2db24ff3b5dd5bac432d7fd1fbe7bad",
+      "scaler.npz": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990",
+      "resolved-config.yaml": "618169bea4756ad2c69e2b671b19fe6f533df96434a2dcb13955f8041595468c",
+      "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+      "sources.json": "4fe9ea34f66660eb6e0a6fbe8339121cdea1f25b5ee7e159b008a38142d073a8",
+      "dataset-index.json": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+      "environment.json": "62786ea9350e5cdf836b9f5ef35fb9c5b6ada9608c9bc4e558b4c51bb3ba2da3",
+      "training-history.csv": "6d5317f144a0b554d649c841f3013b79984c32201c10e295ad234699bdab32fb",
+      "threshold.json": "b40521324c5f9298cbed262db8cc1d5bc37f32d98732938442f543f017066b57",
+      "calibration.json": "dda30ab037de60e4825c9935c674fe21980f2fa19f6858e2206ecb2e17afeb0e"
+    },
+    "config_hash": "fa12ccc1b2c164ec31719928eb2c6fd26bad70070dc48674071d72bb7b0d0602",
+    "by_dataset": {
+      "le2i": {
+        "metric_unit": "sequence",
+        "TP": 14,
+        "FP": 7,
+        "FN": 7,
+        "TN": 9,
+        "n_total": 38,
+        "n_evaluable": 37,
+        "n_unknown": 1,
+        "sequence_coverage": 0.9736842105263158,
+        "sequence_accuracy": 0.6216216216216216,
+        "sequence_fall_precision": 0.6666666666666666,
+        "sequence_fall_recall": 0.6666666666666666,
+        "sequence_fall_f1": 0.6666666666666666,
+        "operational_accuracy": 0.6052631578947368,
+        "end_to_end_fall_recall": 0.6363636363636364,
+        "outcomes_with_unknown": [
+          [
+            9,
+            7,
+            0
+          ],
+          [
+            7,
+            14,
+            1
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 16,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.6660508083140878,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 22,
+            "n_unknown": 1,
+            "sequence_coverage": 0.9545454545454546,
+            "window_coverage": 0.5528882220555139,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.6229273870783305,
+        "n_missing_timelines": 0
+      },
+      "urfall": {
+        "metric_unit": "sequence",
+        "TP": 3,
+        "FP": 2,
+        "FN": 5,
+        "TN": 5,
+        "n_total": 23,
+        "n_evaluable": 15,
+        "n_unknown": 8,
+        "sequence_coverage": 0.6521739130434783,
+        "sequence_accuracy": 0.5333333333333333,
+        "sequence_fall_precision": 0.6,
+        "sequence_fall_recall": 0.375,
+        "sequence_fall_f1": 0.46153846153846156,
+        "operational_accuracy": 0.34782608695652173,
+        "end_to_end_fall_recall": 0.2,
+        "outcomes_with_unknown": [
+          [
+            5,
+            2,
+            1
+          ],
+          [
+            5,
+            3,
+            7
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 1,
+            "sequence_coverage": 0.875,
+            "window_coverage": 0.4738562091503268,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 7,
+            "sequence_coverage": 0.5333333333333333,
+            "window_coverage": 0.38197424892703863,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.43413729128014844,
+        "n_missing_timelines": 0
+      }
+    }
+  },
+  "alternative_calibration": {
+    "run": "caucafall-extension-001-balanced",
+    "training_repeated": false,
+    "threshold": 0.4199422299861908,
+    "test": {
+      "metric_unit": "sequence",
+      "TP": 22,
+      "FP": 7,
+      "FN": 16,
+      "TN": 26,
+      "n_total": 81,
+      "n_evaluable": 71,
+      "n_unknown": 10,
+      "sequence_coverage": 0.8765432098765432,
+      "sequence_accuracy": 0.676056338028169,
+      "sequence_fall_precision": 0.7586206896551724,
+      "sequence_fall_recall": 0.5789473684210527,
+      "sequence_fall_f1": 0.6567164179104478,
+      "operational_accuracy": 0.5925925925925926,
+      "end_to_end_fall_recall": 0.46808510638297873,
+      "outcomes_with_unknown": [
+        [
+          26,
+          7,
+          1
+        ],
+        [
+          16,
+          22,
+          9
+        ]
+      ],
+      "outcome_columns": [
+        "normal",
+        "suspected_fall",
+        "unknown"
+      ],
+      "outcome_rows": [
+        "ADL",
+        "Fall"
+      ],
+      "by_class": {
+        "ADL": {
+          "n_total": 34,
+          "n_unknown": 1,
+          "sequence_coverage": 0.9705882352941176,
+          "window_coverage": 0.6734489659773182,
+          "n_missing_timelines": 0
+        },
+        "Fall": {
+          "n_total": 47,
+          "n_unknown": 9,
+          "sequence_coverage": 0.8085106382978723,
+          "window_coverage": 0.5351620947630923,
+          "n_missing_timelines": 0
+        }
+      },
+      "window_coverage": 0.6180291824905056,
+      "n_missing_timelines": 0,
+      "protocol_id": "urfall-le2i-caucafall-subject-sequence-v1",
+      "split_hash": "18fe3ea544602523e56f81d2fe7360feb817a6be6d1d2ac7818304f33c03ddf2",
+      "recipe_hash": "31790b41169e814324b6f66011ddefb926181f2ccdf2771785c9a30e749d60b8",
+      "source_kind": "real",
+      "artifact_hashes": {
+        "autoencoder.pt": "e0577797cebbac881542798fb494da291bbf9e9b675ee27a76799538fbf7ed6a",
+        "scaler.npz": "71eb1762fa33472af3735e03a591ee7abb503f76b50836399732b0513a256e26",
+        "resolved-config.yaml": "f40e5f5f86a85b4531388cb84a31d74245ed90f8bbacba22d25231da145b943c",
+        "split-manifest.json": "8eeae485ce418fde8ca4158ecf1531246c29dbf29f2c945dd60e2232c2952715",
+        "sources.json": "7339f934ac08e068647d994342cdba3a4f95eb44e3197926e4508560d436b599",
+        "dataset-index.json": "8f7d65635b42b8d51d1676f63681a4e8943e04ff82f28e5f6ef4a220190ac0af",
+        "environment.json": "bae2e74110a6ed6164bb2b289b8a3a8b5c150a93a1c417aa7b4e7716cfce283b",
+        "training-history.csv": "9b661ffc1a8e2fcdf10f2e3b2c748e31d303aea58dc404afd978b7ebbbbe01fe",
+        "threshold.json": "8e139584fbbe3e3bdb111555e5766b7d99c917bd61205c2b1c99e59c87228f36",
+        "calibration.json": "46ebd3322083d4e5529925d64e38ccd51ba9a03797423e9673d46504e55de78f"
+      },
+      "config_hash": "719949df81bef59c9f85ede5fc1ad1a4eaf61e8947450ca23c1ecd87d62cf04e",
+      "by_dataset": {
+        "caucafall": {
+          "metric_unit": "sequence",
+          "TP": 6,
+          "FP": 1,
+          "FN": 3,
+          "TN": 9,
+          "n_total": 20,
+          "n_evaluable": 19,
+          "n_unknown": 1,
+          "sequence_coverage": 0.95,
+          "sequence_accuracy": 0.7894736842105263,
+          "sequence_fall_precision": 0.8571428571428571,
+          "sequence_fall_recall": 0.6666666666666666,
+          "sequence_fall_f1": 0.75,
+          "operational_accuracy": 0.75,
+          "end_to_end_fall_recall": 0.6,
+          "outcomes_with_unknown": [
+            [
+              9,
+              1,
+              0
+            ],
+            [
+              3,
+              6,
+              1
+            ]
+          ],
+          "outcome_columns": [
+            "normal",
+            "suspected_fall",
+            "unknown"
+          ],
+          "outcome_rows": [
+            "ADL",
+            "Fall"
+          ],
+          "by_class": {
+            "ADL": {
+              "n_total": 10,
+              "n_unknown": 0,
+              "sequence_coverage": 1.0,
+              "window_coverage": 0.8197343453510436,
+              "n_missing_timelines": 0
+            },
+            "Fall": {
+              "n_total": 10,
+              "n_unknown": 1,
+              "sequence_coverage": 0.9,
+              "window_coverage": 0.5626423690205011,
+              "n_missing_timelines": 0
+            }
+          },
+          "window_coverage": 0.7028985507246377,
+          "n_missing_timelines": 0
+        },
+        "le2i": {
+          "metric_unit": "sequence",
+          "TP": 13,
+          "FP": 4,
+          "FN": 8,
+          "TN": 12,
+          "n_total": 38,
+          "n_evaluable": 37,
+          "n_unknown": 1,
+          "sequence_coverage": 0.9736842105263158,
+          "sequence_accuracy": 0.6756756756756757,
+          "sequence_fall_precision": 0.7647058823529411,
+          "sequence_fall_recall": 0.6190476190476191,
+          "sequence_fall_f1": 0.6842105263157895,
+          "operational_accuracy": 0.6578947368421053,
+          "end_to_end_fall_recall": 0.5909090909090909,
+          "outcomes_with_unknown": [
+            [
+              12,
+              4,
+              0
+            ],
+            [
+              8,
+              13,
+              1
+            ]
+          ],
+          "outcome_columns": [
+            "normal",
+            "suspected_fall",
+            "unknown"
+          ],
+          "outcome_rows": [
+            "ADL",
+            "Fall"
+          ],
+          "by_class": {
+            "ADL": {
+              "n_total": 16,
+              "n_unknown": 0,
+              "sequence_coverage": 1.0,
+              "window_coverage": 0.6660508083140878,
+              "n_missing_timelines": 0
+            },
+            "Fall": {
+              "n_total": 22,
+              "n_unknown": 1,
+              "sequence_coverage": 0.9545454545454546,
+              "window_coverage": 0.5528882220555139,
+              "n_missing_timelines": 0
+            }
+          },
+          "window_coverage": 0.6229273870783305,
+          "n_missing_timelines": 0
+        },
+        "urfall": {
+          "metric_unit": "sequence",
+          "TP": 3,
+          "FP": 2,
+          "FN": 5,
+          "TN": 5,
+          "n_total": 23,
+          "n_evaluable": 15,
+          "n_unknown": 8,
+          "sequence_coverage": 0.6521739130434783,
+          "sequence_accuracy": 0.5333333333333333,
+          "sequence_fall_precision": 0.6,
+          "sequence_fall_recall": 0.375,
+          "sequence_fall_f1": 0.46153846153846156,
+          "operational_accuracy": 0.34782608695652173,
+          "end_to_end_fall_recall": 0.2,
+          "outcomes_with_unknown": [
+            [
+              5,
+              2,
+              1
+            ],
+            [
+              5,
+              3,
+              7
+            ]
+          ],
+          "outcome_columns": [
+            "normal",
+            "suspected_fall",
+            "unknown"
+          ],
+          "outcome_rows": [
+            "ADL",
+            "Fall"
+          ],
+          "by_class": {
+            "ADL": {
+              "n_total": 8,
+              "n_unknown": 1,
+              "sequence_coverage": 0.875,
+              "window_coverage": 0.4738562091503268,
+              "n_missing_timelines": 0
+            },
+            "Fall": {
+              "n_total": 15,
+              "n_unknown": 7,
+              "sequence_coverage": 0.5333333333333333,
+              "window_coverage": 0.38197424892703863,
+              "n_missing_timelines": 0
+            }
+          },
+          "window_coverage": 0.43413729128014844,
+          "n_missing_timelines": 0
+        }
+      }
+    }
+  },
+  "selection_based_on_test": false
+}

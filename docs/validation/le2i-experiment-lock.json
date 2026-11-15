@@ -1,0 +1,112 @@
+{
+  "run_id": "le2i-extension-001",
+  "selected_config": {
+    "project": {
+      "name": "fall-detection-anomaly",
+      "seed": 42
+    },
+    "runtime": {
+      "device": "auto",
+      "num_workers": 0,
+      "torch_threads": 4
+    },
+    "data": {
+      "dataset": "urfall_le2i",
+      "raw_dir": "data/raw",
+      "manifest_dir": "data/manifests/le2i-extension",
+      "cache_dir": "data/cache/le2i-extension-selective",
+      "camera": 0,
+      "modality": "rgb",
+      "protocol_id": "urfall-plus-le2i-cs-sequence-v1",
+      "split_seed": 42,
+      "adl_counts": [
+        24,
+        8,
+        8
+      ],
+      "fall_counts": [
+        0,
+        15,
+        15
+      ],
+      "timestamp_policy": "prefer_source",
+      "fallback_fps": 30,
+      "allow_missing_timestamp_tail": true
+    },
+    "pose": {
+      "backend": "lightweight_openpose",
+      "weights_manifest": "weights/openpose18-manifest.json",
+      "upstream_dir": "third_party/lightweight_openpose",
+      "backbone": "mobilenet_v1",
+      "input_height": 256,
+      "input_width": 192,
+      "detector_size": 384,
+      "detector_confidence": 0.45,
+      "nms_threshold": 0.2,
+      "track_max_age": 30,
+      "track_n_init": 3,
+      "track_similarity_joints": 3,
+      "refinement_stages": 3,
+      "inference_refinement_stage": 1,
+      "rotation_angles": [
+        0,
+        -90,
+        90
+      ],
+      "rotation_policy": "low_quality"
+    },
+    "skeleton": {
+      "recipe_id": "lightweight_openpose18_stgcn_kinetics_v1",
+      "target_fps": 30,
+      "window_size": 30,
+      "stride": 5,
+      "missing_frame_policy": "invalidate_window",
+      "span_tolerance": 1e-08
+    },
+    "quality": {
+      "min_joint_confidence": 0.2,
+      "min_valid_joints": 12,
+      "min_good_frame_ratio": 0.8
+    },
+    "features": {
+      "backend": "stgcn_kinetics",
+      "expected_dim": 256,
+      "frozen": true,
+      "upstream_dir": "third_party/stgcn"
+    },
+    "autoencoder": {
+      "hidden_dim": 128,
+      "latent_dim": 32,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "max_epochs": 100,
+      "patience": 10,
+      "min_delta": 1e-06
+    },
+    "calibration": {
+      "split": "validation",
+      "objective": "sequence_fall_f1",
+      "comparison": "gt",
+      "consecutive_windows": 3
+    },
+    "evaluation": {
+      "split": "test",
+      "metric_unit": "sequence"
+    },
+    "demo": {
+      "display": false,
+      "output_dir": "outputs/demo",
+      "score_hold_stride_multiplier": 2
+    }
+  },
+  "recipe_hash": "bc21ccb5ccb7fe5be7309efa4ba37fadecc31e047d11b3f04b575d250ca9fc9e",
+  "split_hash": "a6454c4389e4a8ef7b161920088dd290489dd9e361b24b1afab56507bf11e4b8",
+  "selection_rule": "AE checkpoint uses normal validation loss; threshold uses validation sequence F1; no test scores have been computed for this extension at lock time",
+  "source_kind": "real",
+  "test_evaluation_policy": "evaluate frozen artifacts once, report combined and by dataset, retain unknowns",
+  "limitations": [
+    "UR Fall test previously inspected in historical baseline",
+    "Le2i unseen test held for frozen evaluation",
+    "No causal attribution between data expansion and rotation inference without ablation"
+  ]
+}

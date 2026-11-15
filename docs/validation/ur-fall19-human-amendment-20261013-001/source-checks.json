@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "command": [
+        "-m",
+        "ruff",
+        "check",
+        "src/fall_detect/evaluation/annotation_amendment.py",
+        "scripts/amend_fall19_annotation.py",
+        "tests/test_annotation_amendment.py",
+        "docs/validation/ur-fall19-human-amendment-20261013-001/independent_check.py"
+      ],
+      "returncode": 0,
+      "stdout": "All checks passed!\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "-m",
+        "ruff",
+        "format",
+        "--check",
+        "src/fall_detect/evaluation/annotation_amendment.py",
+        "scripts/amend_fall19_annotation.py",
+        "tests/test_annotation_amendment.py",
+        "docs/validation/ur-fall19-human-amendment-20261013-001/independent_check.py"
+      ],
+      "returncode": 0,
+      "stdout": "4 files already formatted\n",
+      "stderr": ""
+    }
+  ],
+  "note": "Initial import ordering lint issue corrected before lock/save; no behavioral change."
+}

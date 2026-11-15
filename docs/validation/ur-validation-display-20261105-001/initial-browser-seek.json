@@ -1,0 +1,24 @@
+{
+  "video_decoded": true,
+  "readyState": 4,
+  "dimensions": [
+    1280,
+    820
+  ],
+  "duration": 2.166667,
+  "seekable": [
+    [
+      0,
+      0
+    ]
+  ],
+  "buffered": [
+    [
+      0,
+      2.166667
+    ]
+  ],
+  "currentTime_after_event_seek": 0,
+  "media_error": null,
+  "reason": "Python SimpleHTTPRequestHandler did not support byte Range, so browser did not expose a seekable duration. Add range-serving only; no movie/score/model/gate changes."
+}

@@ -1,0 +1,42 @@
+pose:
+  backend: lightweight_openpose
+  weights_manifest: weights/openpose18-manifest.json
+  upstream_dir: third_party/lightweight_openpose
+  backbone: mobilenet_v1
+  input_height: 256
+  refinement_stages: 3
+  inference_refinement_stage: 1
+  track_similarity_joints: 3
+  rotation_angles:
+  - 0
+  - -90
+  - 90
+  rotation_policy: low_quality
+  track_gap_tolerance_ms: 1.0e-07
+skeleton:
+  recipe_id: lightweight_openpose18_stgcn_kinetics_v1
+  target_fps: 30
+  window_size: 30
+  stride: 5
+  resampling_hold_policy: source_interval
+quality:
+  min_joint_confidence: 0.2
+  min_valid_joints: 12
+  min_good_frame_ratio: 0.8
+features:
+  backend: stgcn_kinetics
+  expected_dim: 256
+  upstream_dir: third_party/stgcn
+  frozen: true
+data:
+  cache_dir: data/cache/caucafall-extension
+  allow_missing_timestamp_tail: true
+  dataset: urfall_le2i_caucafall
+  raw_dir: data/raw
+  manifest_dir: data/manifests/caucafall-extension
+  protocol_id: urfall-le2i-caucafall-subject-sequence-v1
+autoencoder:
+  sampling: windows
+  learning_rate: 0.001
+  max_epochs: 100
+  patience: 10

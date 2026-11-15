@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="26" time="12.136" timestamp="2026-10-12T11:12:43.014014+08:00" hostname="MSI"><testcase classname="tests.test_isotropic_refinement" name="test_guard_blocks_test_before_loader_and_records_allowed_access" time="0.001" /><testcase classname="tests.test_isotropic_refinement" name="test_diagnostic_distances_match_independent_euclidean_calculation" time="0.276" /><testcase classname="tests.test_isotropic_refinement" name="test_completed_evidence_cannot_be_overwritten" time="0.071" /><testcase classname="tests.test_isotropic_refinement" name="test_actual_training_and_calibration_under_test_guard" time="3.159"><failure message="assert 2 == 4">tmp_path = WindowsPath('C:/Users/Huayi/AppData/Local/Temp/pytest-of-Huayi/pytest-155/test_actual_training_and_calib0')
+config = {'project': {'name': 'fall-detection-anomaly', 'seed': 42}, 'runtime': {'device': 'cpu', 'num_workers': 0, 'torch_thre...', 'weights_manifest': 'weights/manifest.json', 'upstream_dir': 'third_party/human', 'backbone': 'resnet50', ...}, ...}
+monkeypatch = &lt;_pytest.monkeypatch.MonkeyPatch object at 0x0000026C38BE7290&gt;
+
+    def test_actual_training_and_calibration_under_test_guard(tmp_path, config, monkeypatch):
+        from fall_detect.smoke import synthetic_dataset
+    
+        config["autoencoder"].update(max_epochs=2, patience=2)
+        index_path = synthetic_dataset(tmp_path / "features", config)
+        accesses = []
+        with workflow.train_validation_only(accesses):
+            run = experiment.train(config, index_path, tmp_path / "runs/candidate", synthetic=True)
+            experiment.calibrate(run)
+            sys.path.insert(0, str(SCRIPT.parent))
+            try:
+                monkeypatch.setattr(workflow, "ROOT", tmp_path)
+                # Real scoring and calibration use synthetic caches here, without any Test load.
+                result = workflow.validation_result(
+                    "candidate",
+                    {
+                        "coarse_intervals": {},
+                        "reference_fn": [],
+                        "reference_metrics": {
+                            "operational_accuracy": 0,
+                            "sequence_fall_f1": 0,
+                            "FP": 100,
+                            "n_unknown": 100,
+                        },
+                    },
+                    export=False,
+                )
+            finally:
+                sys.path.pop(0)
+&gt;       assert result["metrics"]["n_total"] == 4
+E       assert 2 == 4
+
+tests\test_isotropic_refinement.py:92: AssertionError</failure></testcase><testcase classname="tests.test_training_cache" name="test_scaler_zero_variance_and_reload" time="0.023" /><testcase classname="tests.test_training_cache" name="test_pose_cache_reload_and_metadata_rejection" time="0.016" /><testcase classname="tests.test_training_cache" name="test_feature_cache_shape_recipe_rows_and_coverage" time="0.118" /><testcase classname="tests.test_training_cache" name="test_training_test_isolation_save_reload_and_frozen_evaluation[0.0-0.0-windows]" time="1.427" /><testcase classname="tests.test_training_cache" name="test_training_test_isolation_save_reload_and_frozen_evaluation[0.0-0.0-sequences]" time="1.372" /><testcase classname="tests.test_training_cache" name="test_training_test_isolation_save_reload_and_frozen_evaluation[0.1-0.001-windows]" time="1.308" /><testcase classname="tests.test_training_cache" name="test_training_test_isolation_save_reload_and_frozen_evaluation[0.1-0.001-sequences]" time="1.736" /><testcase classname="tests.test_events_metrics" name="test_three_high_confirm_and_low_ends_alarm" time="0.001" /><testcase classname="tests.test_events_metrics" name="test_low_windows_are_evaluable_and_unknown_resets" time="0.000" /><testcase classname="tests.test_events_metrics" name="test_tracks_and_gap_cannot_pool_three_high_windows" time="0.001" /><testcase classname="tests.test_events_metrics" name="test_calibration_streaming_float64_nextafter_equivalence" time="0.006" /><testcase classname="tests.test_events_metrics" name="test_calibration_candidates_unknown_and_tie_break" time="0.001" /><testcase classname="tests.test_events_metrics" name="test_hand_calculated_metrics_unknown_never_tn" time="0.001" /><testcase classname="tests.test_calibration_profiles" name="test_explicit_balanced_objective_keeps_unknown_in_denominators" time="0.001" /><testcase classname="tests.test_calibration_profiles" name="test_derived_calibration_is_frozen_and_never_reads_test" time="0.898" /><testcase classname="tests.test_calibration_profiles" name="test_cli_rejects_in_place_objective_override[--objective]" time="0.006" /><testcase classname="tests.test_calibration_profiles" name="test_cli_rejects_in_place_objective_override[--output-run]" time="0.005" /><testcase classname="tests.test_human_isotropic" name="test_aspect_and_angles_preserved_confidence_unchanged" time="0.001" /><testcase classname="tests.test_human_isotropic" name="test_translation_uniform_scale_invariant_but_aspect_sensitive" time="0.001" /><testcase classname="tests.test_human_isotropic" name="test_original_modes_bit_exact_to_archived_source" time="0.018" /><testcase classname="tests.test_human_isotropic" name="test_new_recipe_is_explicit_pose_reuse_stays_strict" time="0.018" /><testcase classname="tests.test_human_isotropic" name="test_no_future_influence_and_degenerate_rejected" time="0.004" /></testsuite></testsuites>

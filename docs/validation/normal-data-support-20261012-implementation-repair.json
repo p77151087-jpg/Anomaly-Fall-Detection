@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-10-12T04:12:00.435505+00:00",
+  "reason": "Strict core config rejects experiment_training_inputs. Preserve preregistered configs/lock; derive identical compatible core configs with metadata moved to the new run sources before calibration. No run had been created and no candidate recognition result was read. No hyperparameter/seed/data/selection/stop change.",
+  "old_source_sha256": "36eb08bbf088fdc153865d5eb17ea2e3a6235656a8fc33a57cd78af55a64a8a6",
+  "archived_source": "docs/validation/normal-data-support-20261012-source-v1.py",
+  "new_source_sha256": "f2e94371e8e37212d33ef2ba7a45f8b1cf59b372f803475727c7f896215b0c9e",
+  "configs": {
+    "configs/ur-mirror128-20261012-001.yaml": {
+      "old_sha256": "f72518ed1722121d51317580e780c76da205c456c873c6f2fc60924c2644ab3d",
+      "core_path": "configs/ur-mirror128-20261012-001-core.yaml",
+      "core_sha256": "a040579ad117b513720de211756a6b46db96d3740beabbd1b2d2108917d5d18f",
+      "marker_moved_to_sources": {
+        "workflow": "scripts/normal_data_support.py training",
+        "profile": "docs/validation/normal-data-support-20261012-mirror.json",
+        "transform": "Train-only horizontal reflection and anatomical left/right permutation before frozen ST-GCN; originals+mirrors1:1, no extra original films"
+      },
+      "model_choice_unchanged": true
+    },
+    "configs/ur-mirror256-20261012-001.yaml": {
+      "old_sha256": "4fd1a93ac54be9ad6490a53637bae5fc1896ec14225f92d282f7cca484c0c0e4",
+      "core_path": "configs/ur-mirror256-20261012-001-core.yaml",
+      "core_sha256": "41aa71c980ce6fce894cc52d6ee05af03a984d9e39f57b50a6084ee531991a2a",
+      "marker_moved_to_sources": {
+        "workflow": "scripts/normal_data_support.py training",
+        "profile": "docs/validation/normal-data-support-20261012-mirror.json",
+        "transform": "Train-only horizontal reflection and anatomical left/right permutation before frozen ST-GCN; originals+mirrors1:1, no extra original films"
+      },
+      "model_choice_unchanged": true
+    }
+  }
+}

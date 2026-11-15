@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "method": "Independent original CSV/NPZ causal timeline and every decoded native header glyph/color; pair vs individual panel checks",
+  "full_model_grid_frames": 640,
+  "saved_window_rows": 466,
+  "individual_native_frames_audited": 434,
+  "unique_decoded_video_frames": 651,
+  "videos": [
+    {
+      "sequence_id": "fall-18",
+      "model": "demo",
+      "decoded_frames": 65,
+      "fps": 30.0,
+      "native_pixels_verified": true
+    },
+    {
+      "sequence_id": "fall-18",
+      "model": "wide",
+      "decoded_frames": 65,
+      "fps": 30.0,
+      "native_pixels_verified": true
+    },
+    {
+      "sequence_id": "fall-18",
+      "model": "compare",
+      "decoded_frames": 65,
+      "fps": 30,
+      "native_pixels_verified": true,
+      "max_panel_vs_single_mae": 1.1055881605691056
+    },
+    {
+      "sequence_id": "fall-09",
+      "model": "demo",
+      "decoded_frames": 82,
+      "fps": 30.0,
+      "native_pixels_verified": true
+    },
+    {
+      "sequence_id": "fall-09",
+      "model": "wide",
+      "decoded_frames": 82,
+      "fps": 30.0,
+      "native_pixels_verified": true
+    },
+    {
+      "sequence_id": "fall-09",
+      "model": "compare",
+      "decoded_frames": 82,
+      "fps": 30,
+      "native_pixels_verified": true,
+      "max_panel_vs_single_mae": 1.2918724593495936
+    },
+    {
+      "sequence_id": "fall-30",
+      "model": "demo",
+      "decoded_frames": 70,
+      "fps": 30.0,
+      "native_pixels_verified": true
+    },
+    {
+      "sequence_id": "fall-30",
+      "model": "wide",
+      "decoded_frames": 70,
+      "fps": 30.0,
+      "native_pixels_verified": true
+    },
+    {
+      "sequence_id": "fall-30",
+      "model": "compare",
+      "decoded_frames": 70,
+      "fps": 30,
+      "native_pixels_verified": true,
+      "max_panel_vs_single_mae": 1.1524009146341463
+    }
+  ],
+  "changed_quality_rules": false,
+  "new_model_inference_training": 0,
+  "test_access": 0
+}

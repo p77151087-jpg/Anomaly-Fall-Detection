@@ -1,0 +1,124 @@
+{
+  "created_at": "2026-09-17T09:34:26.236519+00:00",
+  "goal": "operational_accuracy >= .95 including unknown",
+  "source_index_sha256": "8f7d65635b42b8d51d1676f63681a4e8943e04ff82f28e5f6ef4a220190ac0af",
+  "baseline_frozen": {
+    "autoencoder.pt": "e0577797cebbac881542798fb494da291bbf9e9b675ee27a76799538fbf7ed6a",
+    "scaler.npz": "71eb1762fa33472af3735e03a591ee7abb503f76b50836399732b0513a256e26",
+    "resolved-config.yaml": "1f395d63dc22f60c6d9bfb2a61b67587e434ebba7787e2235836afcb51ebfde8",
+    "split-manifest.json": "8eeae485ce418fde8ca4158ecf1531246c29dbf29f2c945dd60e2232c2952715",
+    "sources.json": "dbcc95db99e6648fc6ffcc620f9f275a671b72eef215672bb25a02421417f5d0",
+    "dataset-index.json": "8f7d65635b42b8d51d1676f63681a4e8943e04ff82f28e5f6ef4a220190ac0af",
+    "environment.json": "bae2e74110a6ed6164bb2b289b8a3a8b5c150a93a1c417aa7b4e7716cfce283b",
+    "training-history.csv": "9b661ffc1a8e2fcdf10f2e3b2c748e31d303aea58dc404afd978b7ebbbbe01fe",
+    "threshold.json": "3cd45e59d9424b900b0024eb97cdae9aea2fe2b48c26d75a1234963dae03fb30",
+    "calibration.json": "05ce16728dc033c5b12b4ab108ac1e9e356aa366a0c84a540d065e52e15d7fef"
+  },
+  "candidate": "caucafall-timestamp-001",
+  "config": {
+    "project": {
+      "name": "fall-detection-anomaly",
+      "seed": 42
+    },
+    "runtime": {
+      "device": "auto",
+      "num_workers": 0,
+      "torch_threads": 4
+    },
+    "data": {
+      "dataset": "urfall_le2i_caucafall",
+      "raw_dir": "data/raw",
+      "manifest_dir": "data/manifests/caucafall-extension",
+      "cache_dir": "data/cache/caucafall-timestamp",
+      "camera": 0,
+      "modality": "rgb",
+      "protocol_id": "urfall-le2i-caucafall-subject-sequence-v1",
+      "split_seed": 42,
+      "adl_counts": [
+        24,
+        8,
+        8
+      ],
+      "fall_counts": [
+        0,
+        15,
+        15
+      ],
+      "timestamp_policy": "prefer_source",
+      "fallback_fps": 30,
+      "allow_missing_timestamp_tail": true
+    },
+    "pose": {
+      "backend": "lightweight_openpose",
+      "weights_manifest": "weights/openpose18-manifest.json",
+      "upstream_dir": "third_party/lightweight_openpose",
+      "backbone": "mobilenet_v1",
+      "input_height": 256,
+      "input_width": 192,
+      "detector_size": 384,
+      "detector_confidence": 0.45,
+      "nms_threshold": 0.2,
+      "track_max_age": 30,
+      "track_n_init": 3,
+      "track_similarity_joints": 3,
+      "track_gap_tolerance_ms": 1e-07,
+      "refinement_stages": 3,
+      "inference_refinement_stage": 1,
+      "rotation_angles": [
+        0,
+        -90,
+        90
+      ],
+      "rotation_policy": "low_quality"
+    },
+    "skeleton": {
+      "recipe_id": "lightweight_openpose18_stgcn_kinetics_v1",
+      "target_fps": 30,
+      "window_size": 30,
+      "stride": 5,
+      "missing_frame_policy": "invalidate_window",
+      "span_tolerance": 1e-08,
+      "resampling_hold_policy": "source_interval",
+      "timestamp_tolerance_ms": 1.0
+    },
+    "quality": {
+      "min_joint_confidence": 0.2,
+      "min_valid_joints": 12,
+      "min_good_frame_ratio": 0.8
+    },
+    "features": {
+      "backend": "stgcn_kinetics",
+      "expected_dim": 256,
+      "frozen": true,
+      "upstream_dir": "third_party/stgcn"
+    },
+    "autoencoder": {
+      "sampling": "windows",
+      "hidden_dim": 128,
+      "latent_dim": 32,
+      "learning_rate": 0.001,
+      "batch_size": 32,
+      "max_epochs": 100,
+      "patience": 10,
+      "min_delta": 1e-06
+    },
+    "calibration": {
+      "split": "validation",
+      "objective": "balanced_sequence_accuracy",
+      "comparison": "gt",
+      "consecutive_windows": 3
+    },
+    "evaluation": {
+      "split": "test",
+      "metric_unit": "sequence"
+    },
+    "demo": {
+      "display": false,
+      "output_dir": "outputs/demo",
+      "score_hold_stride_multiplier": 2
+    }
+  },
+  "selection": "Train ADL only; checkpoint Val ADL; threshold Val balanced_sequence_accuracy; assess Val operational accuracy; no test tuning",
+  "reason": "UR integer-ms timestamps expire at observed age 33.6667ms under 33.3333ms hold",
+  "test_for_selection": false
+}

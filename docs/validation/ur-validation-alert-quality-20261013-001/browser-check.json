@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "tabId": "8",
+  "url": "http://127.0.0.1:8830/review/index.html",
+  "actual": {
+    "clip": "fall-18｜第 1–65 幀",
+    "clipReviewed": false,
+    "exportDisabled": true,
+    "humanAttested": false,
+    "impactStatus": "",
+    "onsetStatus": "",
+    "progress": "已完成 0/3 段。只匯出一個檔案。",
+    "quality": "",
+    "reviewer": "",
+    "sourceFrame": "原第 1 幀｜原時間 0.000 秒｜沒有原骨架",
+    "title": "三段 Validation 時間與骨架覆核"
+  },
+  "checked": [
+    "three clip navigation",
+    "original source frame/time",
+    "last-frame Next disabled",
+    "original pose overlay toggle",
+    "blank actual human answers",
+    "export disabled at 0/3"
+  ],
+  "human_annotations_created": 0
+}

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-Hant"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>雙肩 demo｜四段人工覆核</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f3f6fa;color:#192c3e;font:16px/1.65 system-ui,"Microsoft JhengHei",sans-serif}main{max-width:1250px;margin:auto;padding:22px}h1{margin:0;font-size:27px}h2{font-size:21px;margin:0}p{margin:8px 0}.card{background:#fff;border:1px solid #d4e0e8;border-radius:12px;padding:18px;margin:15px 0}.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.layout{display:grid;grid-template-columns:minmax(0,700px) minmax(310px,1fr);gap:20px}button,select,input,textarea{font:inherit;border:1px solid #a8b8c6;border-radius:6px;padding:8px}button{background:#edf3f9;cursor:pointer}button:disabled{opacity:.45;cursor:default}.active,#export{background:#16557c;color:#fff}button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #e1ac31}video{width:100%;display:block;background:#111;max-height:65vh}.muted{color:#576b7e;font-size:14px}.notice{background:#fff6d9;border-radius:7px;padding:10px}.field{display:block;margin:16px 0}.field select{display:block;width:100%;margin-top:5px}textarea{width:100%;height:65px}.reference{background:#eff5fa;border-radius:8px;padding:12px;white-space:pre-line;font-size:14px}#message{min-height:26px}.error{color:#a52b30}#time{font-variant-numeric:tabular-nums;color:#15537b}input[type=range]{width:100%}@media(max-width:900px){.layout{grid-template-columns:1fr}main{padding:12px}}
+</style>
+<main><h1>四段影片，各填一筆，一次匯出</h1>
+<p>沿用既有人工標註，只確認本次雙肩 demo 的<strong>警示時機、人物／骨架及畫面易讀性</strong>。無需重新標時間、畫關節或逐幀記錄。</p>
+<p class="muted">只使用既有 Validation。這是展示覆核，不會改模型、門檻或正式成績，也不新增精確時間真值。正式 Notebook／五分鐘影片仍暫緩。</p>
+<div class="card row" id="tabs" aria-label="四段影片切換"></div>
+<section class="card layout"><div>
+<h2 id="title"></h2><p id="summary" class="muted"></p>
+<video id="video" controls preload="metadata" playsinline aria-label="既有雙肩 demo 影片"></video>
+<p id="time" aria-live="off"></p><input id="scrub" type="range" min="0" step="1" value="0" aria-label="時間格點逐幀定位">
+<div class="row"><button id="focus">播放重點</button><button id="full">看完整影片</button><button id="alarm">跳到首次警示</button><button id="prev">上一幀</button><button id="next">下一幀</button><label>速度 <select id="speed"><option value="1">正常</option><option value="0.5">半速</option><option value="0.25">四分之一</option></select></label></div>
+<p class="notice muted">左側 ACTION 是獨立七類分類。右側 <strong>ALERT RECORDED</strong> 是事件歷史；<strong>Current: alert</strong> 才是當前警示。Current 變成 unavailable 時，歷史仍可能保留。</p>
+<details open><summary>既有人工標註（唯讀，原樣保留）</summary><div id="reference" class="reference"></div></details>
+</div><div>
+<h2>這一段的一筆確認</h2>
+<label class="field">1. 首次警示時，人物動作是？<select id="timing" aria-label="警示時機"><option value="">請選擇</option><option value="during_fall">已開始失衡／正在跌倒</option><option value="before_fall">仍是跌倒前的正常動作</option><option value="after_fall">已落地／倒地後</option><option value="uncertain">看不清，無法確認</option></select></label>
+<label class="field">2. 警示是否對應同一人，骨架是否合理？<select id="pose" aria-label="人物與骨架"><option value="">請選擇</option><option value="same_person_plausible">同一人，關鍵骨架位置大致合理</option><option value="same_person_misaligned">同一人，但有明顯錯位／不合理點</option><option value="wrong_person">對到錯人／追蹤對象有問題</option><option value="uncertain">遮擋、出框或看不清，無法確認</option></select></label>
+<label class="field">3. 當前警示及事件歷史能否看清、分辨？<select id="clarity" aria-label="警示畫面易讀性"><option value="">請選擇</option><option value="clear">正常速度能看清並分辨</option><option value="slow_only">需半速／逐幀才看得清</option><option value="unclear">容易混淆或不清楚</option><option value="uncertain">無法確認</option></select></label>
+<label class="field">備註（可省略）<textarea id="notes" maxlength="2000" aria-label="本段備註" placeholder="例如肩點錯位、警示太短、歷史紅字容易誤認持續警示"></textarea></label>
+<label><input type="checkbox" id="reviewed"> 我已親自查看這段並完成本筆判斷</label>
+<p class="muted">選「有問題」或「無法確認」也能完成覆核，不要求全部填成通過。既有標註不會被這筆展示確認取代。</p>
+</div></section>
+<section class="card"><h2>四段完成後，一次匯出</h2><p id="progress" role="status"></p>
+<div class="row"><label>覆核者名稱／代稱（只填一次） <input id="reviewer" autocomplete="off" aria-label="覆核者代稱"></label><label><input type="checkbox" id="attest"> 四筆都是我本人的覆核</label></div>
+<p class="muted">同一瀏覽器會自動保存草稿；也可下載／匯入草稿備份。資料只留本機，不會上傳。正式匯出是一個含四筆確認的 JSON。</p>
+<div class="row"><button id="draft">下載草稿</button><label>匯入草稿 <input id="import" type="file" accept=".json,application/json" aria-label="匯入本頁草稿"></label><button id="export" disabled>匯出四段確認 JSON</button></div><p id="message" role="status"></p>
+</section></main>
+<script id="bundle" type="application/json">__BUNDLE__</script>
+<script>
+'use strict';
+const bundle=JSON.parse(document.getElementById('bundle').textContent),$=id=>document.getElementById(id);
+const key='shoulder-display-review:'+bundle.bundle_sha256;
+const allowed={timing_relation:['during_fall','before_fall','after_fall','uncertain'],subject_pose:['same_person_plausible','same_person_misaligned','wrong_person','uncertain'],display_clarity:['clear','slow_only','unclear','uncertain']};
+function fresh(){return{schema_version:1,bundle_sha256:bundle.bundle_sha256,review_scope:'shoulder_demo_display_only',annotation_origin:'human_self_reported',new_temporal_ground_truth:false,reviewer:'',human_attested:false,clips:bundle.clips.map(c=>({sequence_id:c.sequence_id,video_sha256:c.video_sha256,reference_sha256:c.reference_sha256,reviewed:false,timing_relation:'',subject_pose:'',display_clarity:'',notes:''}))};}
+function compatible(s){return s&&s.schema_version===1&&s.bundle_sha256===bundle.bundle_sha256&&s.review_scope==='shoulder_demo_display_only'&&s.annotation_origin==='human_self_reported'&&s.new_temporal_ground_truth===false&&typeof s.reviewer==='string'&&typeof s.human_attested==='boolean'&&Array.isArray(s.clips)&&s.clips.length===4&&s.clips.every((r,i)=>r.sequence_id===bundle.clips[i].sequence_id&&r.video_sha256===bundle.clips[i].video_sha256&&r.reference_sha256===bundle.clips[i].reference_sha256&&typeof r.reviewed==='boolean'&&typeof r.notes==='string'&&r.notes.length<=2000&&Object.entries(allowed).every(([k,v])=>r[k]===''||v.includes(r[k])));}
+let state=fresh(),index=0,focusOnly=true;
+try{const s=JSON.parse(localStorage.getItem(key));if(compatible(s)){state=s;state.human_attested=false;}}catch(e){}
+const v=$('video');
+function message(text,error=false){$('message').textContent=text;$('message').className=error?'error':'';}
+function rowValid(r){return r.reviewed===true&&Object.entries(allowed).every(([k,a])=>a.includes(r[k]));}
+function complete(){return state.reviewer.trim().length>0&&state.human_attested===true&&state.clips.every(rowValid);}
+function progress(){const n=state.clips.filter(rowValid).length;$('progress').textContent=`已完成 ${n}/4 段；只需匯出一個 JSON。`;$('export').disabled=!complete();Array.from($('tabs').children).forEach((b,i)=>{b.textContent=bundle.clips[i].sequence_id+(rowValid(state.clips[i])?' ✓':'');b.className=i===index?'active':'';b.setAttribute('aria-pressed',String(i===index));});}
+function persist(){try{localStorage.setItem(key,JSON.stringify(state));}catch(e){message('無法自動保存，請下載草稿備份。',true);}progress();}
+function pull(){const r=state.clips[index];r.timing_relation=$('timing').value;r.subject_pose=$('pose').value;r.display_clarity=$('clarity').value;r.notes=$('notes').value;r.reviewed=$('reviewed').checked;state.reviewer=$('reviewer').value;state.human_attested=$('attest').checked;persist();}
+function describe(c){const a=c.inherited_annotation;if(a.kind==='human_pose_phases_not_instantaneous_bounds'){const labels={upright:'站立／正常階段',transition:'跌倒轉換階段',ground:'倒地階段'};return a.phase_ranges.map(r=>`${labels[r.phase]||r.phase}：原第 ${r.frame_ids[0]}–${r.frame_ids[1]} 幀`).join('\n')+`\n首次警示：原第 ${a.first_alert_source_frame} 幀；原整體骨架標註 ${a.pose_at_first_alert}。\n${a.note}`;}
+const f=b=>b.map(x=>(x/1000).toFixed(3)).join('–')+' 秒';return `開始時刻可能範圍：${f(a.onset_bounds_ms)}\n落地時刻可能範圍：${f(a.impact_bounds_ms)}\n原整段骨架：${a.skeleton_quality}\n原備註：${a.notes}\n${a.note}`;}
+function load(i){v.pause();index=i;focusOnly=true;const c=bundle.clips[i],r=state.clips[i];$('title').textContent=c.sequence_id+'｜雙肩 demo';$('summary').textContent=`建議重點 ${c.focus_seconds[0].toFixed(1)}–${c.focus_seconds[1].toFixed(1)} 秒；首警示 ${(c.first_alarm_ms/1000).toFixed(3)} 秒；當前警示 ${c.current_alert_frames} 幀。`;$('reference').textContent=describe(c);$('timing').value=r.timing_relation;$('pose').value=r.subject_pose;$('clarity').value=r.display_clarity;$('notes').value=r.notes;$('reviewed').checked=r.reviewed;$('reviewer').value=state.reviewer;$('attest').checked=state.human_attested;$('scrub').max=Math.max(...c.timeline.map(r=>r.sample_index));$('time').textContent='影片載入中…';v.src=c.video;v.playbackRate=Number($('speed').value);progress();}
+function updateTime(){const c=bundle.clips[index],n=Math.min(c.timeline.at(-1).sample_index,Math.max(0,Math.floor(v.currentTime*c.fps+1e-6)));const r=c.timeline.find(x=>x.sample_index===n)||c.timeline[0];$('scrub').value=n;$('time').textContent=`畫面格點 ${(r.timestamp_ms/1000).toFixed(3)} 秒｜原影格 ${r.source_frame_id??'無'}｜CSV：${r.state}`;$('prev').disabled=n===0;$('next').disabled=n>=c.timeline.at(-1).sample_index;if(focusOnly&&!v.paused&&v.currentTime>=c.focus_seconds[1])v.pause();}
+function seek(seconds){v.pause();v.currentTime=Math.max(0,Math.min(Number.isFinite(v.duration)?v.duration:seconds,seconds));updateTime();}
+async function playFrom(seconds,focused){focusOnly=focused;v.currentTime=seconds;v.playbackRate=Number($('speed').value);try{await v.play();}catch(e){message('請按影片播放鍵；若無法載入，請使用本機服務網址。',true);}}
+function download(value,name){const blob=new Blob([JSON.stringify(value,null,2)],{type:'application/json'}),link=document.createElement('a'),url=URL.createObjectURL(blob);link.href=url;link.download=name;link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+bundle.clips.forEach((c,i)=>{const b=document.createElement('button');b.type='button';b.onclick=()=>{pull();load(i);};$('tabs').append(b);});
+for(const id of ['timing','pose','clarity','notes','reviewed','reviewer','attest'])$(id).addEventListener('input',pull);
+v.addEventListener('loadedmetadata',()=>{v.currentTime=bundle.clips[index].focus_seconds[0];v.playbackRate=Number($('speed').value);updateTime();});v.addEventListener('timeupdate',updateTime);v.addEventListener('seeked',updateTime);v.addEventListener('error',()=>message('影片載入失敗，請用 http://127.0.0.1:8850/index.html 開啟。',true));
+$('focus').onclick=()=>playFrom(bundle.clips[index].focus_seconds[0],true);$('full').onclick=()=>playFrom(0,false);$('alarm').onclick=()=>seek(bundle.clips[index].first_alarm_ms/1000);$('speed').onchange=()=>v.playbackRate=Number($('speed').value);
+function step(delta){const n=Number($('scrub').value)+delta;seek((Math.max(0,Math.min(Number($('scrub').max),n))+.1)/bundle.clips[index].fps);}
+$('prev').onclick=()=>step(-1);$('next').onclick=()=>step(1);$('scrub').oninput=()=>seek((Number($('scrub').value)+.1)/bundle.clips[index].fps);
+$('draft').onclick=()=>{pull();download({...state,human_attested:false,draft:true},'shoulder-four-clips-draft.json');message('已下載草稿；不是正式本人覆核。');};
+$('import').onchange=async()=>{const file=$('import').files[0];if(!file)return;try{const s=JSON.parse(await file.text());if(!compatible(s))throw Error('草稿來源、四段內容或格式不符');state=s;state.human_attested=false;persist();load(index);message('草稿已匯入；正式匯出前請重新勾選本人確認。');}catch(e){message('未匯入：'+e.message,true);}finally{$('import').value='';}};
+$('export').onclick=()=>{pull();if(!complete()){message('請完成四筆、覆核者代稱及本人確認。',true);return;}const value={...state,draft:false,exported_at:new Date().toISOString(),inherited_annotations:bundle.clips.map(c=>({sequence_id:c.sequence_id,annotation:c.inherited_annotation,reference_sha256:c.reference_sha256}))};download(value,'shoulder-four-clips-human-review.json');message('已匯出一份含四筆的 JSON。請交回本對話驗證；既有標註、模型與成績不會自動變動。');};
+load(0);
+</script></html>

@@ -1,0 +1,762 @@
+{
+  "tier": "Verify Tier 2",
+  "index": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"project\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly\",\"nodes\":186296,\"edges\":207915,\"status\":\"ready\",\"root_path\":\"C:/成大專案/fall-detection-anomaly\",\"parse_partial\":{\"files\":[],\"count\":0,\"truncated\":false},\"skipped\":{\"files\":[],\"count\":0,\"truncated\":false},\"not_indexed\":{\"dirs\":[\".git\",\".pytest_cache\",\".python\",\".ruff_cache\",\".tools\",\".venv\",\"Ultralytics\",\"data/cache\",\"data/raw\",\"data/retired\",\"docs/validation/human-isotropic-legacy-source/src/fall_detect/skeleton/__pycache__\",\"outputs\",\"runs\",\"scripts/__pycache__\",\"src/fall_detect/__pycache__\",\"src/fall_detect/data/__pycache__\",\"src/fall_detect/detection/__pycache__\",\"src/fall_detect/evaluation/__pycache__\",\"src/fall_detect/models/__pycache__\",\"src/fall_detect/pose/__pycache__\",\"src/fall_detect/skeleton/__pycache__\",\"src/fall_detect/training/__pycache__\",\"src/fall_detect/visualization/__pycache__\",\"src/fall_detection_anomaly.egg-info\",\"tests/__pycache__\",\"third_party\",\"weights/pretrained\"],\"dirs_count\":27,\"files\":[{\"path\":\".artifacts/course-review/current/sample-fall-001-1s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/current/sample-fall-001-4s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/current/sample-fall-001-5s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/current/sample-fall-001-8s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/current/sample-walk-001-1s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/current/sample-walk-001-4s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/current/sample-walk-001-5s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/current/sample-walk-001-8s.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-03.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-04.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-05.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-06.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-07.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-08.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-09.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/report-10.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/representative_ADL_a.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/representative_ADL_n.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/representative_Fall_a.jpg\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/sample1.gif\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/thermal_000.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/thermal_001.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/thermal_003.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/thermal_005.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/thermal_007.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/thermal_008.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/upstream_gif_000.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/upstream_gif_030.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/sample/upstream_gif_100.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/teacher/slide39-image3.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/teacher/slide40-image20.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/teacher/slide48-image17.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/course-review/teacher/slide50-image28.gif\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261013T062233038863Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261013T062233822519Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s0/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s0/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261013T062234792997Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261013T062235468862Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s1/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s1/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261013T062236459844Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261013T062237301207Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s2/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s2/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261013T062238440090Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261013T062239150390Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s3/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s3/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261013T062345419429Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261013T062346057136Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s0/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s0/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261013T062346800548Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261013T062347412682Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s1/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s1/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261013T062348248291Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261013T062348927259Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s2/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s2/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261013T062349808303Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261013T062350495883Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s3/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s3/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_scoped_train_calibrate_ne0/run/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261013T051656195295Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261013T051656803422Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s0/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s0/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261013T051657626259Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261013T051658235090Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s1/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s1/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261013T051659071606Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261013T051659686343Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s2/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s2/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261013T051700382911Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261013T051700849943Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s3/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s3/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/figures/loss/le2i-extension-001-loss.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/figures/loss/le2i-extension-001-loss.svg\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/figures/loss/loss-side-by-side.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/figures/loss/loss-side-by-side.svg\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/figures/loss/openpose18-baseline-001-loss.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/figures/loss/openpose18-baseline-001-loss.svg\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-fall19-joint-localization-20261013-001/review-page.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_sequence_sampling_reads_o0/synthetic-balanced/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_sequence_sampling_reads_o1/synthetic-balanced/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261012T140837997325Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261012T140838932169Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261012T140839841775Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261012T140840506457Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261012T140841343777Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261012T140841969131Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261012T140842897728Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261012T140843602892Z/confusion-matrix.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-a/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-b/training-curve.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-033.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-043.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-044.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-047.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-051.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-054.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-062.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-090.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/transition-pairs.png\",\"reason\":\"ignored-suffix\"},{\"path\":\"docs/validation/ur-pose-resolution-20261013-001/validation-report-failed-output/baseline/confusion-matrix.png\",\"reason\":\"ignored-suffix\"}],\"files_count\":117,\"truncated\":false,\"note\":\"Purposely not indexed — excluded BY DESIGN via gitignore/.cbmignore/skip-lists (see each file's reason). Not an error: change the ignore rules and re-index to include them.\"}}"
+      }
+    ],
+    "structuredContent": {
+      "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+      "nodes": 186296,
+      "edges": 207915,
+      "status": "ready",
+      "root_path": "C:/成大專案/fall-detection-anomaly",
+      "parse_partial": {
+        "files": [],
+        "count": 0,
+        "truncated": false
+      },
+      "skipped": {
+        "files": [],
+        "count": 0,
+        "truncated": false
+      },
+      "not_indexed": {
+        "dirs": [
+          ".git",
+          ".pytest_cache",
+          ".python",
+          ".ruff_cache",
+          ".tools",
+          ".venv",
+          "Ultralytics",
+          "data/cache",
+          "data/raw",
+          "data/retired",
+          "docs/validation/human-isotropic-legacy-source/src/fall_detect/skeleton/__pycache__",
+          "outputs",
+          "runs",
+          "scripts/__pycache__",
+          "src/fall_detect/__pycache__",
+          "src/fall_detect/data/__pycache__",
+          "src/fall_detect/detection/__pycache__",
+          "src/fall_detect/evaluation/__pycache__",
+          "src/fall_detect/models/__pycache__",
+          "src/fall_detect/pose/__pycache__",
+          "src/fall_detect/skeleton/__pycache__",
+          "src/fall_detect/training/__pycache__",
+          "src/fall_detect/visualization/__pycache__",
+          "src/fall_detection_anomaly.egg-info",
+          "tests/__pycache__",
+          "third_party",
+          "weights/pretrained"
+        ],
+        "dirs_count": 27,
+        "files": [
+          {
+            "path": ".artifacts/course-review/current/sample-fall-001-1s.jpg",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/current/sample-fall-001-4s.jpg",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/current/sample-fall-001-5s.jpg",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/current/sample-fall-001-8s.jpg",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/current/sample-walk-001-1s.jpg",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/current/sample-walk-001-4s.jpg",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/current/sample-walk-001-5s.jpg",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/current/sample-walk-001-8s.jpg",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/sample/report-03.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/sample/report-04.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/sample/report-05.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/sample/report-06.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/sample/report-07.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/sample/report-08.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/sample/report-09.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/sample/report-10.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/sample/representative_ADL_a.jpg",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/sample/representative_ADL_n.jpg",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/sample/representative_Fall_a.jpg",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/sample/sample1.gif",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/sample/thermal_000.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/sample/thermal_001.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/sample/thermal_003.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/sample/thermal_005.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/sample/thermal_007.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/sample/thermal_008.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/sample/upstream_gif_000.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/sample/upstream_gif_030.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/sample/upstream_gif_100.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/teacher/slide39-image3.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/teacher/slide40-image20.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/teacher/slide48-image17.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/course-review/teacher/slide50-image28.gif",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261013T062233038863Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261013T062233822519Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s0/synthetic-run-a/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s0/synthetic-run-b/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261013T062234792997Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261013T062235468862Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s1/synthetic-run-a/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s1/synthetic-run-b/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261013T062236459844Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261013T062237301207Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s2/synthetic-run-a/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s2/synthetic-run-b/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261013T062238440090Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261013T062239150390Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s3/synthetic-run-a/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-002/test_training_test_isolation_s3/synthetic-run-b/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261013T062345419429Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261013T062346057136Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s0/synthetic-run-a/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s0/synthetic-run-b/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261013T062346800548Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261013T062347412682Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s1/synthetic-run-a/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s1/synthetic-run-b/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261013T062348248291Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261013T062348927259Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s2/synthetic-run-a/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s2/synthetic-run-b/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261013T062349808303Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261013T062350495883Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s3/synthetic-run-a/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-coordinate-risk-20261013-003/test_training_test_isolation_s3/synthetic-run-b/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-resolution-risk-20261013-001/test_scoped_train_calibrate_ne0/run/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261013T051656195295Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261013T051656803422Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s0/synthetic-run-a/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s0/synthetic-run-b/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261013T051657626259Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261013T051658235090Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s1/synthetic-run-a/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s1/synthetic-run-b/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261013T051659071606Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261013T051659686343Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s2/synthetic-run-a/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s2/synthetic-run-b/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261013T051700382911Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261013T051700849943Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s3/synthetic-run-a/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": ".artifacts/pose-resolution-risk-20261013-001/test_training_test_isolation_s3/synthetic-run-b/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/figures/loss/le2i-extension-001-loss.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/figures/loss/le2i-extension-001-loss.svg",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/figures/loss/loss-side-by-side.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/figures/loss/loss-side-by-side.svg",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/figures/loss/openpose18-baseline-001-loss.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/figures/loss/openpose18-baseline-001-loss.svg",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-fall19-joint-localization-20261013-001/review-page.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_sequence_sampling_reads_o0/synthetic-balanced/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_sequence_sampling_reads_o1/synthetic-balanced/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261012T140837997325Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-a/evaluations/20261012T140838932169Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-a/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s0/synthetic-run-b/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261012T140839841775Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-a/evaluations/20261012T140840506457Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-a/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s1/synthetic-run-b/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261012T140841343777Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-a/evaluations/20261012T140841969131Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-a/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s2/synthetic-run-b/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261012T140842897728Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-a/evaluations/20261012T140843602892Z/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-a/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-motion-novelty-20261012-001/tmp-risk-retry/test_training_test_isolation_s3/synthetic-run-b/training-curve.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-033.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-043.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-044.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-047.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-051.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-054.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-062.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/frame-090.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-pose-resolution-20261013-001/pilot-pose-panels-v2/transition-pairs.png",
+            "reason": "ignored-suffix"
+          },
+          {
+            "path": "docs/validation/ur-pose-resolution-20261013-001/validation-report-failed-output/baseline/confusion-matrix.png",
+            "reason": "ignored-suffix"
+          }
+        ],
+        "files_count": 117,
+        "truncated": false,
+        "note": "Purposely not indexed — excluded BY DESIGN via gitignore/.cbmignore/skip-lists (see each file's reason). Not an error: change the ignore rules and re-index to include them."
+      }
+    },
+    "isError": false
+  },
+  "evidence": [
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"name\":\"diagnose\",\"qualified_name\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.pose_coordinate_diagnostic.diagnose\",\"label\":\"Function\",\"file_path\":\"C:/成大專案/fall-detection-anomaly/scripts/pose_coordinate_diagnostic.py\",\"start_line\":263,\"end_line\":412,\"source\":\"def diagnose(human_path=None):\\n    lock = check_lock()\\n    reference = read_json(OUT / \\\"ai-provisional-coordinates.json\\\")\\n    annotation = read_json(human_path) if human_path else reference\\n    validate_annotation(annotation, reference, require_human=bool(human_path))\\n    recipe = intervention_recipe(annotation)\\n    if human_path and annotation.get(\\\"parent_proposal_sha256\\\") != lock[\\\"proposal_sha256\\\"]:\\n        raise ContractError(\\\"Human file refers to another proposal\\\")\\n    mode = \\\"human-\\\" + recipe[:12] if human_path else \\\"ai-provisional\\\"\\n    dest, cache_dir = OUT / mode, CACHE / mode\\n    # mkdir is an exclusive claim; parallel/repeated calls cannot share a writable stage.\\n    if dest.exists() or cache_dir.exists():\\n        raise ContractError(\\\"Inference output already exists; read status/verify instead\\\")\\n    dest.mkdir(exist_ok=False)\\n    cache_dir.mkdir(exist_ok=False)\\n    write_json(dest / \\\"coordinates-used.json\\\", annotation)\\n    scorer = Scorer(BASE, device=\\\"cuda\\\")\\n    if scorer.residual_weights is not None or scorer.config[\\\"anomaly_score\\\"][\\\"mode\\\"] != \\\"mse\\\":\\n        raise ContractError(\\\"Diagnostic assumes frozen wide MSE\\\")\\n    config, index = scorer.config, scorer.index\\n    cached, observations, pose_meta = original_inputs(\\\"fall-19\\\", index)\\n    extractor = HumanFeatureExtractor(\\n        config, read_json(BASE / \\\"sources.json\\\")[\\\"weights\\\"], scorer.device\\n    )\\n    metadata = {k: v for k, v in cached.metadata.items() if k not in {\\\"array_sha256\\\", \\\"records\\\"}}\\n    sham = features_from_observations(observations, extractor, config, metadata)\\n    assert_same_records(cached, sham)\\n    np.testing.assert_allclose(sham.features, cached.features, atol=1e-6, rtol=1e-5)\\n    corrected, applied = apply_coordinates(observations, annotation, reference, bool(human_path))\\n    # Persist a distinct derived observation, without mutating original confidence or cache.\\n    from fall_detect.data.cache import save_pose_cache\\n\\n    derived_meta = {\\n        k: v for k, v in pose_meta.items() if k not in {\\\"frames\\\", \\\"poses\\\", \\\"array_sha256\\\"}\\n    }\\n    derived_meta.update(\\n        recipe_hash=recipe,\\n        base_recipe_hash=BASE_RECIPE,\\n        diagnostic_only=True,\\n        coordinate_author=annotation[\\\"author_kind\\\"],\\n        human_confirmed=annotation[\\\"human_confirmed\\\"],\\n    )\\n    save_pose_cache(cache_dir / \\\"derived-pose.npz\\\", corrected, derived_meta)\\n    metadata.update(\\n        recipe_hash=recipe,\\n        base_recipe_hash=BASE_RECIPE,\\n        diagnostic_only=True,\\n        coordinate_author=annotation[\\\"author_kind\\\"],\\n        human_confirmed=annotation[\\\"human_confirmed\\\"],\\n    )\\n    derived = features_from_observations(corrected, extractor, config, metadata)\\n    assert_same_records(cached, derived)\\n    save_feature_cache(cache_dir / \\\"sham-features.npz\\\", sham)\\n    save_feature_cache(cache_dir / \\\"intervention-features.npz\\\", derived)\\n    memberships = window_sources(observations, config)\\n    write_json(dest / \\\"causal-window-sources.json\\\", memberships)\\n    membership = {(r[\\\"sample_index\\\"], r[\\\"track_id\\\"]): r for r in memberships}\\n    for r in cached.records:\\n        if r.row_index is not None and not (\\n            r.track_id == 1\\n            and set(membership[(r.sample_index, r.track_id)][\\\"source_frame_ids\\\"]).intersection(\\n                applied\\n            )\\n        ):\\n            np.testing.assert_allclose(\\n                derived.features[r.row_index], sham.features[r.row_index], atol=1e-6, rtol=1e-5\\n            )\\n    controls = [\\n        first_three_controls(sid, index, config, extractor, scorer) for sid in (\\\"adl-05\\\", \\\"adl-04\\\")\\n    ]\\n    threshold = scorer.threshold[\\\"threshold\\\"]\\n    results = {}\\n    for name, cache in ((\\\"cached\\\", cached), (\\\"sham\\\", sham), (\\\"intervention\\\", derived)):\\n        scores = scorer.score(cache.features)\\n        result, windows, events = score_sequence(cache, scores, threshold, k=3)\\n        np.save(dest / f\\\"{name}-scores.npy\\\", scores, allow_pickle=False)\\n        write_csv(dest / f\\\"{name}-windows.csv\\\", windows)\\n        write_json(dest / f\\\"{name}-events.json\\\", events)\\n        results[name] = {\\n            **result,\\n            \\\"max_raw_score\\\": float(scores.max()),\\n            \\\"n_events\\\": len(events),\\n            \\\"raw_above_threshold\\\": int((scores > threshold).sum()),\\n            \\\"k3_above_threshold\\\": sum(\\n                w[\\\"event_score\\\"] is not None and w[\\\"event_score\\\"] > threshold for w in windows\\n            ),\\n        }\\n    np.testing.assert_allclose(\\n        np.load(dest / \\\"cached-scores.npy\\\"), np.load(dest / \\\"sham-scores.npy\\\"), atol=1e-6, rtol=0\\n    )\\n    baseline_scores = np.load(dest / \\\"sham-scores.npy\\\")\\n    new_scores = np.load(dest / \\\"intervention-scores.npy\\\")\\n    changes = []\\n    for r in cached.records:\\n        if r.row_index is None:\\n            continue\\n        sources = membership[(r.sample_index, r.track_id)][\\\"source_frame_ids\\\"]\\n        changes.append(\\n            {\\n                \\\"sample_index\\\": r.sample_index,\\n                \\\"track_id\\\": r.track_id,\\n                \\\"start_ms\\\": r.start_ms,\\n                \\\"available_at_ms\\\": r.available_at_ms,\\n                \\\"contains_corrected_source\\\": bool(set(sources).intersection(applied)),\\n                \\\"baseline_raw\\\": float(baseline_scores[r.row_index]),\\n                \\\"intervention_raw\\\": float(new_scores[r.row_index]),\\n                \\\"raw_delta\\\": float(new_scores[r.row_index] - baseline_scores[r.row_index]),\\n                \\\"feature_l2_delta\\\": float(\\n                    np.linalg.norm(derived.features[r.row_index] - sham.features[r.row_index])\\n                ),\\n            }\\n        )\\n    write_csv(dest / \\\"window-deltas.csv\\\", changes)\\n    summary = {\\n        \\\"diagnostic_id\\\": DIAGNOSTIC,\\n        \\\"kind\\\": \\\"frozen_input_sensitivity_not_formal_validation\\\",\\n        \\\"coordinate_author\\\": annotation[\\\"author_kind\\\"],\\n        \\\"human_confirmed\\\": annotation[\\\"human_confirmed\\\"],\\n        \\\"human_stage\\\": \\\"self_reported_coordinates\\\" if human_path else \\\"pending\\\",\\n        \\\"recipe_hash\\\": recipe,\\n        \\\"base_recipe_hash\\\": BASE_RECIPE,\\n        \\\"applied_frame_ids\\\": applied,\\n        \\\"joint_index\\\": JOINT,\\n        \\\"threshold\\\": threshold,\\n        \\\"comparison\\\": \\\"gt\\\",\\n        \\\"k\\\": 3,\\n        \\\"results\\\": results,\\n        \\\"controls\\\": controls,\\n        \\\"strict_stgcn_load\\\": extractor.load_report,\\n        \\\"forward_verified\\\": extractor.forward_verified,\\n        \\\"feature_smoke\\\": {\\n            \\\"shape\\\": list(derived.features.shape),\\n            \\\"finite\\\": bool(np.isfinite(derived.features).all()),\\n            \\\"sham_max_abs_delta\\\": float(np.max(np.abs(sham.features - cached.features))),\\n        },\\n        \\\"affected_legal_windows\\\": sum(c[\\\"contains_corrected_source\\\"] for c in changes),\\n        \\\"score_increases\\\": sum(c[\\\"raw_delta\\\"] > 1e-6 for c in changes),\\n        \\\"score_decreases\\\": sum(c[\\\"raw_delta\\\"] < -1e-6 for c in changes),\\n        \\\"phase_timing\\\": \\\"whole posture phases; no exact onset/impact GT\\\",\\n        \\\"test\\\": \\\"not_loaded_not_evaluated\\\",\\n        \\\"fit_calls\\\": 0,\\n        \\\"calibration_calls\\\": 0,\\n        \\\"adopted\\\": False,\\n        \\\"formal_validation_accuracy_changed\\\": False,\\n    }\\n    write_json(dest / \\\"summary.json\\\", summary)\\n    if not human_path:\\n        write_json(OUT / \\\"summary.json\\\", summary)\\n    verify_artifacts(BASE)\\n    print(json.dumps(summary, ensure_ascii=False, indent=2), flush=True)\\n\",\"callers\":1,\"callees\":29}"
+        }
+      ],
+      "structuredContent": {
+        "name": "diagnose",
+        "qualified_name": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.pose_coordinate_diagnostic.diagnose",
+        "label": "Function",
+        "file_path": "C:/成大專案/fall-detection-anomaly/scripts/pose_coordinate_diagnostic.py",
+        "start_line": 263,
+        "end_line": 412,
+        "source": "def diagnose(human_path=None):\n    lock = check_lock()\n    reference = read_json(OUT / \"ai-provisional-coordinates.json\")\n    annotation = read_json(human_path) if human_path else reference\n    validate_annotation(annotation, reference, require_human=bool(human_path))\n    recipe = intervention_recipe(annotation)\n    if human_path and annotation.get(\"parent_proposal_sha256\") != lock[\"proposal_sha256\"]:\n        raise ContractError(\"Human file refers to another proposal\")\n    mode = \"human-\" + recipe[:12] if human_path else \"ai-provisional\"\n    dest, cache_dir = OUT / mode, CACHE / mode\n    # mkdir is an exclusive claim; parallel/repeated calls cannot share a writable stage.\n    if dest.exists() or cache_dir.exists():\n        raise ContractError(\"Inference output already exists; read status/verify instead\")\n    dest.mkdir(exist_ok=False)\n    cache_dir.mkdir(exist_ok=False)\n    write_json(dest / \"coordinates-used.json\", annotation)\n    scorer = Scorer(BASE, device=\"cuda\")\n    if scorer.residual_weights is not None or scorer.config[\"anomaly_score\"][\"mode\"] != \"mse\":\n        raise ContractError(\"Diagnostic assumes frozen wide MSE\")\n    config, index = scorer.config, scorer.index\n    cached, observations, pose_meta = original_inputs(\"fall-19\", index)\n    extractor = HumanFeatureExtractor(\n        config, read_json(BASE / \"sources.json\")[\"weights\"], scorer.device\n    )\n    metadata = {k: v for k, v in cached.metadata.items() if k not in {\"array_sha256\", \"records\"}}\n    sham = features_from_observations(observations, extractor, config, metadata)\n    assert_same_records(cached, sham)\n    np.testing.assert_allclose(sham.features, cached.features, atol=1e-6, rtol=1e-5)\n    corrected, applied = apply_coordinates(observations, annotation, reference, bool(human_path))\n    # Persist a distinct derived observation, without mutating original confidence or cache.\n    from fall_detect.data.cache import save_pose_cache\n\n    derived_meta = {\n        k: v for k, v in pose_meta.items() if k not in {\"frames\", \"poses\", \"array_sha256\"}\n    }\n    derived_meta.update(\n        recipe_hash=recipe,\n        base_recipe_hash=BASE_RECIPE,\n        diagnostic_only=True,\n        coordinate_author=annotation[\"author_kind\"],\n        human_confirmed=annotation[\"human_confirmed\"],\n    )\n    save_pose_cache(cache_dir / \"derived-pose.npz\", corrected, derived_meta)\n    metadata.update(\n        recipe_hash=recipe,\n        base_recipe_hash=BASE_RECIPE,\n        diagnostic_only=True,\n        coordinate_author=annotation[\"author_kind\"],\n        human_confirmed=annotation[\"human_confirmed\"],\n    )\n    derived = features_from_observations(corrected, extractor, config, metadata)\n    assert_same_records(cached, derived)\n    save_feature_cache(cache_dir / \"sham-features.npz\", sham)\n    save_feature_cache(cache_dir / \"intervention-features.npz\", derived)\n    memberships = window_sources(observations, config)\n    write_json(dest / \"causal-window-sources.json\", memberships)\n    membership = {(r[\"sample_index\"], r[\"track_id\"]): r for r in memberships}\n    for r in cached.records:\n        if r.row_index is not None and not (\n            r.track_id == 1\n            and set(membership[(r.sample_index, r.track_id)][\"source_frame_ids\"]).intersection(\n                applied\n            )\n        ):\n            np.testing.assert_allclose(\n                derived.features[r.row_index], sham.features[r.row_index], atol=1e-6, rtol=1e-5\n            )\n    controls = [\n        first_three_controls(sid, index, config, extractor, scorer) for sid in (\"adl-05\", \"adl-04\")\n    ]\n    threshold = scorer.threshold[\"threshold\"]\n    results = {}\n    for name, cache in ((\"cached\", cached), (\"sham\", sham), (\"intervention\", derived)):\n        scores = scorer.score(cache.features)\n        result, windows, events = score_sequence(cache, scores, threshold, k=3)\n        np.save(dest / f\"{name}-scores.npy\", scores, allow_pickle=False)\n        write_csv(dest / f\"{name}-windows.csv\", windows)\n        write_json(dest / f\"{name}-events.json\", events)\n        results[name] = {\n            **result,\n            \"max_raw_score\": float(scores.max()),\n            \"n_events\": len(events),\n            \"raw_above_threshold\": int((scores > threshold).sum()),\n            \"k3_above_threshold\": sum(\n                w[\"event_score\"] is not None and w[\"event_score\"] > threshold for w in windows\n            ),\n        }\n    np.testing.assert_allclose(\n        np.load(dest / \"cached-scores.npy\"), np.load(dest / \"sham-scores.npy\"), atol=1e-6, rtol=0\n    )\n    baseline_scores = np.load(dest / \"sham-scores.npy\")\n    new_scores = np.load(dest / \"intervention-scores.npy\")\n    changes = []\n    for r in cached.records:\n        if r.row_index is None:\n            continue\n        sources = membership[(r.sample_index, r.track_id)][\"source_frame_ids\"]\n        changes.append(\n            {\n                \"sample_index\": r.sample_index,\n                \"track_id\": r.track_id,\n                \"start_ms\": r.start_ms,\n                \"available_at_ms\": r.available_at_ms,\n                \"contains_corrected_source\": bool(set(sources).intersection(applied)),\n                \"baseline_raw\": float(baseline_scores[r.row_index]),\n                \"intervention_raw\": float(new_scores[r.row_index]),\n                \"raw_delta\": float(new_scores[r.row_index] - baseline_scores[r.row_index]),\n                \"feature_l2_delta\": float(\n                    np.linalg.norm(derived.features[r.row_index] - sham.features[r.row_index])\n                ),\n            }\n        )\n    write_csv(dest / \"window-deltas.csv\", changes)\n    summary = {\n        \"diagnostic_id\": DIAGNOSTIC,\n        \"kind\": \"frozen_input_sensitivity_not_formal_validation\",\n        \"coordinate_author\": annotation[\"author_kind\"],\n        \"human_confirmed\": annotation[\"human_confirmed\"],\n        \"human_stage\": \"self_reported_coordinates\" if human_path else \"pending\",\n        \"recipe_hash\": recipe,\n        \"base_recipe_hash\": BASE_RECIPE,\n        \"applied_frame_ids\": applied,\n        \"joint_index\": JOINT,\n        \"threshold\": threshold,\n        \"comparison\": \"gt\",\n        \"k\": 3,\n        \"results\": results,\n        \"controls\": controls,\n        \"strict_stgcn_load\": extractor.load_report,\n        \"forward_verified\": extractor.forward_verified,\n        \"feature_smoke\": {\n            \"shape\": list(derived.features.shape),\n            \"finite\": bool(np.isfinite(derived.features).all()),\n            \"sham_max_abs_delta\": float(np.max(np.abs(sham.features - cached.features))),\n        },\n        \"affected_legal_windows\": sum(c[\"contains_corrected_source\"] for c in changes),\n        \"score_increases\": sum(c[\"raw_delta\"] > 1e-6 for c in changes),\n        \"score_decreases\": sum(c[\"raw_delta\"] < -1e-6 for c in changes),\n        \"phase_timing\": \"whole posture phases; no exact onset/impact GT\",\n        \"test\": \"not_loaded_not_evaluated\",\n        \"fit_calls\": 0,\n        \"calibration_calls\": 0,\n        \"adopted\": False,\n        \"formal_validation_accuracy_changed\": False,\n    }\n    write_json(dest / \"summary.json\", summary)\n    if not human_path:\n        write_json(OUT / \"summary.json\", summary)\n    verify_artifacts(BASE)\n    print(json.dumps(summary, ensure_ascii=False, indent=2), flush=True)\n",
+        "callers": 1,
+        "callees": 29
+      },
+      "isError": false
+    },
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"name\":\"features_from_observations\",\"qualified_name\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.pipeline.features_from_observations\",\"label\":\"Function\",\"file_path\":\"C:/成大專案/fall-detection-anomaly/src/fall_detect/pipeline.py\",\"start_line\":21,\"end_line\":87,\"source\":\"def features_from_observations(observations, extractor, config, metadata):\\n    builder = WindowBuilder(config)\\n    resampler = CausalResampler(\\n        config[\\\"skeleton\\\"][\\\"target_fps\\\"],\\n        config[\\\"skeleton\\\"][\\\"resampling_hold_policy\\\"],\\n        config[\\\"skeleton\\\"][\\\"timestamp_tolerance_ms\\\"],\\n    )\\n    records, arrays, n_samples, repeated, missing, end_ms = [], [], 0, 0, 0, 0.0\\n    for frame, poses in observations:\\n        end_ms = frame.timestamp_ms\\n        for sample in resampler.push(frame, poses):\\n            n_samples += 1\\n            repeated += int(sample.repeated)\\n            missing += int(sample.missing)\\n            for window in builder.push(sample):\\n                row_index = None\\n                intervals = metadata.get(\\\"annotation_intervals_ms\\\")\\n                if intervals is not None and not any(\\n                    start <= window.start_ms + 1e-7 and window.end_ms <= end + 1e-7\\n                    for start, end in intervals\\n                ):\\n                    window.quality = \\\"unlabelled_interval\\\"\\n                if window.quality == \\\"valid\\\":\\n                    feature = extractor.extract_features(window.keypoints, window.frame_size_wh)\\n                    if (\\n                        feature.shape != (1, extractor.feature_dim)\\n                        or not np.isfinite(feature).all()\\n                    ):\\n                        raise ContractError(\\\"Extractor returned invalid features\\\")\\n                    row_index = len(arrays)\\n                    arrays.append(feature[0])\\n                records.append(\\n                    FeatureRecord(\\n                        window.sequence_id,\\n                        window.track_id,\\n                        (window.sample_index - config[\\\"skeleton\\\"][\\\"window_size\\\"] + 1)\\n                        // config[\\\"skeleton\\\"][\\\"stride\\\"],\\n                        window.sample_index,\\n                        window.start_ms,\\n                        window.end_ms,\\n                        window.end_ms,\\n                        metadata[\\\"split\\\"],\\n                        row_index,\\n                        extractor.feature_dim,\\n                        window.quality,\\n                        recipe_id=config[\\\"skeleton\\\"][\\\"recipe_id\\\"],\\n                    )\\n                )\\n    features = np.asarray(arrays, dtype=np.float32).reshape(-1, extractor.feature_dim)\\n    return FeatureCache(\\n        features,\\n        records,\\n        {\\n            **metadata,\\n            \\\"schema_version\\\": 1,\\n            \\\"kind\\\": \\\"feature_cache\\\",\\n            \\\"recipe_id\\\": config[\\\"skeleton\\\"][\\\"recipe_id\\\"],\\n            \\\"feature_dim\\\": extractor.feature_dim,\\n            \\\"window_size\\\": config[\\\"skeleton\\\"][\\\"window_size\\\"],\\n            \\\"stride\\\": config[\\\"skeleton\\\"][\\\"stride\\\"],\\n            \\\"n_samples\\\": n_samples,\\n            \\\"end_ms\\\": end_ms,\\n            \\\"repeated_samples\\\": repeated,\\n            \\\"missing_samples\\\": missing,\\n            \\\"quality_counts\\\": dict(Counter(r.quality for r in records)),\\n        },\\n    )\\n\",\"callers\":1,\"callees\":11}"
+        }
+      ],
+      "structuredContent": {
+        "name": "features_from_observations",
+        "qualified_name": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.pipeline.features_from_observations",
+        "label": "Function",
+        "file_path": "C:/成大專案/fall-detection-anomaly/src/fall_detect/pipeline.py",
+        "start_line": 21,
+        "end_line": 87,
+        "source": "def features_from_observations(observations, extractor, config, metadata):\n    builder = WindowBuilder(config)\n    resampler = CausalResampler(\n        config[\"skeleton\"][\"target_fps\"],\n        config[\"skeleton\"][\"resampling_hold_policy\"],\n        config[\"skeleton\"][\"timestamp_tolerance_ms\"],\n    )\n    records, arrays, n_samples, repeated, missing, end_ms = [], [], 0, 0, 0, 0.0\n    for frame, poses in observations:\n        end_ms = frame.timestamp_ms\n        for sample in resampler.push(frame, poses):\n            n_samples += 1\n            repeated += int(sample.repeated)\n            missing += int(sample.missing)\n            for window in builder.push(sample):\n                row_index = None\n                intervals = metadata.get(\"annotation_intervals_ms\")\n                if intervals is not None and not any(\n                    start <= window.start_ms + 1e-7 and window.end_ms <= end + 1e-7\n                    for start, end in intervals\n                ):\n                    window.quality = \"unlabelled_interval\"\n                if window.quality == \"valid\":\n                    feature = extractor.extract_features(window.keypoints, window.frame_size_wh)\n                    if (\n                        feature.shape != (1, extractor.feature_dim)\n                        or not np.isfinite(feature).all()\n                    ):\n                        raise ContractError(\"Extractor returned invalid features\")\n                    row_index = len(arrays)\n                    arrays.append(feature[0])\n                records.append(\n                    FeatureRecord(\n                        window.sequence_id,\n                        window.track_id,\n                        (window.sample_index - config[\"skeleton\"][\"window_size\"] + 1)\n                        // config[\"skeleton\"][\"stride\"],\n                        window.sample_index,\n                        window.start_ms,\n                        window.end_ms,\n                        window.end_ms,\n                        metadata[\"split\"],\n                        row_index,\n                        extractor.feature_dim,\n                        window.quality,\n                        recipe_id=config[\"skeleton\"][\"recipe_id\"],\n                    )\n                )\n    features = np.asarray(arrays, dtype=np.float32).reshape(-1, extractor.feature_dim)\n    return FeatureCache(\n        features,\n        records,\n        {\n            **metadata,\n            \"schema_version\": 1,\n            \"kind\": \"feature_cache\",\n            \"recipe_id\": config[\"skeleton\"][\"recipe_id\"],\n            \"feature_dim\": extractor.feature_dim,\n            \"window_size\": config[\"skeleton\"][\"window_size\"],\n            \"stride\": config[\"skeleton\"][\"stride\"],\n            \"n_samples\": n_samples,\n            \"end_ms\": end_ms,\n            \"repeated_samples\": repeated,\n            \"missing_samples\": missing,\n            \"quality_counts\": dict(Counter(r.quality for r in records)),\n        },\n    )\n",
+        "callers": 1,
+        "callees": 11
+      },
+      "isError": false
+    },
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"name\":\"Scorer\",\"qualified_name\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.training.experiment.Scorer\",\"label\":\"Class\",\"file_path\":\"C:/成大專案/fall-detection-anomaly/src/fall_detect/training/experiment.py\",\"start_line\":411,\"end_line\":462,\"source\":\"class Scorer:\\n    def __init__(self, run, device=None, calibrated=True):\\n        self.run = Path(run)\\n        verify_artifacts(run, calibrated)\\n        self.config = load_config(self.run / \\\"resolved-config.yaml\\\")\\n        self.index = load_index(self.run / \\\"dataset-index.json\\\")\\n        self.device = select_device(\\n            device or self.config[\\\"runtime\\\"][\\\"device\\\"], self.config[\\\"runtime\\\"][\\\"torch_threads\\\"]\\n        )\\n        self.scaler = FeatureScaler.load(self.run / \\\"scaler.npz\\\")\\n        checkpoint = torch.load(self.run / \\\"autoencoder.pt\\\", map_location=\\\"cpu\\\", weights_only=True)\\n        if (\\n            checkpoint.get(\\\"schema_version\\\") != 1\\n            or checkpoint.get(\\\"architecture\\\") != \\\"mlp-ae-v1\\\"\\n            or checkpoint[\\\"recipe_hash\\\"] != self.index[\\\"recipe_hash\\\"]\\n            or checkpoint[\\\"input_dim\\\"] != self.config[\\\"features\\\"][\\\"expected_dim\\\"]\\n            or checkpoint[\\\"input_dim\\\"] != len(self.scaler.mean)\\n        ):\\n            raise ContractError(\\\"AE architecture/dimension/recipe mismatch\\\")\\n        self.model = Autoencoder(\\n            checkpoint[\\\"input_dim\\\"], checkpoint[\\\"hidden_dim\\\"], checkpoint[\\\"latent_dim\\\"]\\n        )\\n        self.model.load_state_dict(checkpoint[\\\"state_dict\\\"], strict=True)\\n        self.model.to(self.device).eval().requires_grad_(False)\\n        from .residual import load_residual_weights\\n\\n        self.residual_weights = load_residual_weights(self)\\n        self.threshold = read_json(self.run / \\\"threshold.json\\\") if calibrated else None\\n        if self.threshold is not None:\\n            if (\\n                self.threshold[\\\"recipe_hash\\\"] != self.index[\\\"recipe_hash\\\"]\\n                or self.threshold[\\\"split_hash\\\"] != self.index[\\\"split_manifest\\\"][\\\"split_hash\\\"]\\n                or self.threshold[\\\"comparison\\\"] != \\\"gt\\\"\\n                or self.threshold[\\\"consecutive_windows\\\"] != 3\\n            ):\\n                raise ContractError(\\\"Threshold contract mismatch\\\")\\n            above_threshold(0.0, self.threshold[\\\"threshold\\\"])\\n            if self.residual_weights is not None and self.threshold.get(\\n                \\\"residual_profile_sha256\\\"\\n            ) != sha256(self.run / \\\"residual-profile.json\\\"):\\n                raise ContractError(\\\"Threshold residual profile mismatch\\\")\\n\\n    def score(self, features):\\n        # Calibration/evaluation use the same B=1 GEMM shape as streaming demo.\\n        # Tiny batch-size roundoff differences otherwise flip strict > at a chosen threshold.\\n        return reconstruction_scores(\\n            self.model,\\n            self.scaler.transform(features),\\n            self.device,\\n            batch_size=1,\\n            residual_weights=self.residual_weights,\\n        )\\n\",\"callers\":20,\"callees\":0}"
+        }
+      ],
+      "structuredContent": {
+        "name": "Scorer",
+        "qualified_name": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.training.experiment.Scorer",
+        "label": "Class",
+        "file_path": "C:/成大專案/fall-detection-anomaly/src/fall_detect/training/experiment.py",
+        "start_line": 411,
+        "end_line": 462,
+        "source": "class Scorer:\n    def __init__(self, run, device=None, calibrated=True):\n        self.run = Path(run)\n        verify_artifacts(run, calibrated)\n        self.config = load_config(self.run / \"resolved-config.yaml\")\n        self.index = load_index(self.run / \"dataset-index.json\")\n        self.device = select_device(\n            device or self.config[\"runtime\"][\"device\"], self.config[\"runtime\"][\"torch_threads\"]\n        )\n        self.scaler = FeatureScaler.load(self.run / \"scaler.npz\")\n        checkpoint = torch.load(self.run / \"autoencoder.pt\", map_location=\"cpu\", weights_only=True)\n        if (\n            checkpoint.get(\"schema_version\") != 1\n            or checkpoint.get(\"architecture\") != \"mlp-ae-v1\"\n            or checkpoint[\"recipe_hash\"] != self.index[\"recipe_hash\"]\n            or checkpoint[\"input_dim\"] != self.config[\"features\"][\"expected_dim\"]\n            or checkpoint[\"input_dim\"] != len(self.scaler.mean)\n        ):\n            raise ContractError(\"AE architecture/dimension/recipe mismatch\")\n        self.model = Autoencoder(\n            checkpoint[\"input_dim\"], checkpoint[\"hidden_dim\"], checkpoint[\"latent_dim\"]\n        )\n        self.model.load_state_dict(checkpoint[\"state_dict\"], strict=True)\n        self.model.to(self.device).eval().requires_grad_(False)\n        from .residual import load_residual_weights\n\n        self.residual_weights = load_residual_weights(self)\n        self.threshold = read_json(self.run / \"threshold.json\") if calibrated else None\n        if self.threshold is not None:\n            if (\n                self.threshold[\"recipe_hash\"] != self.index[\"recipe_hash\"]\n                or self.threshold[\"split_hash\"] != self.index[\"split_manifest\"][\"split_hash\"]\n                or self.threshold[\"comparison\"] != \"gt\"\n                or self.threshold[\"consecutive_windows\"] != 3\n            ):\n                raise ContractError(\"Threshold contract mismatch\")\n            above_threshold(0.0, self.threshold[\"threshold\"])\n            if self.residual_weights is not None and self.threshold.get(\n                \"residual_profile_sha256\"\n            ) != sha256(self.run / \"residual-profile.json\"):\n                raise ContractError(\"Threshold residual profile mismatch\")\n\n    def score(self, features):\n        # Calibration/evaluation use the same B=1 GEMM shape as streaming demo.\n        # Tiny batch-size roundoff differences otherwise flip strict > at a chosen threshold.\n        return reconstruction_scores(\n            self.model,\n            self.scaler.transform(features),\n            self.device,\n            batch_size=1,\n            residual_weights=self.residual_weights,\n        )\n",
+        "callers": 20,
+        "callees": 0
+      },
+      "isError": false
+    },
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"name\":\"score_sequence\",\"qualified_name\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.detection.events.score_sequence\",\"label\":\"Function\",\"file_path\":\"C:/成大專案/fall-detection-anomaly/src/fall_detect/detection/events.py\",\"start_line\":84,\"end_line\":129,\"source\":\"def score_sequence(cache, scores, threshold, k=3):\\n    if len(scores) != len(cache.features):\\n        raise ContractError(\\\"Score count differs from feature rows\\\")\\n    state = EventState(threshold, k, cache.metadata[\\\"stride\\\"])\\n    windows, valid_endpoints = [], set()\\n    for record in sorted(cache.records, key=lambda r: (r.sample_index, r.track_id or -1)):\\n        raw_score = float(scores[record.row_index]) if record.row_index is not None else None\\n        output = state.update(\\n            record.sequence_id,\\n            record.track_id,\\n            record.sample_index,\\n            record.available_at_ms,\\n            raw_score,\\n            record.quality if raw_score is None else None,\\n        )\\n        if raw_score is not None:\\n            valid_endpoints.add(record.sample_index)\\n        windows.append(\\n            {\\n                \\\"sequence_id\\\": record.sequence_id,\\n                \\\"track_id\\\": record.track_id,\\n                \\\"sample_index\\\": record.sample_index,\\n                \\\"window_id\\\": record.window_id,\\n                \\\"start_ms\\\": record.start_ms,\\n                \\\"end_ms\\\": record.end_ms,\\n                \\\"available_at_ms\\\": record.available_at_ms,\\n                **output,\\n            }\\n        )\\n    event_scores = [w[\\\"event_score\\\"] for w in windows if w[\\\"event_score\\\"] is not None]\\n    sequence_score = max(event_scores) if event_scores else None\\n    total = len({r.sample_index for r in cache.records})\\n    events = state.finish(cache.metadata.get(\\\"end_ms\\\", 0))\\n    result = {\\n        \\\"sequence_id\\\": cache.metadata[\\\"sequence_id\\\"],\\n        \\\"sequence_score\\\": sequence_score,\\n        \\\"prediction\\\": int(above_threshold(sequence_score, threshold))\\n        if sequence_score is not None\\n        else None,\\n        \\\"unknown_reason\\\": None if sequence_score is not None else \\\"no_legal_event_score\\\",\\n        \\\"n_scheduled_endpoints\\\": total,\\n        \\\"n_valid_endpoints\\\": len(valid_endpoints),\\n        \\\"window_coverage\\\": len(valid_endpoints) / total if total else None,\\n        \\\"first_alarm_ms\\\": events[0][\\\"confirmed_start_ms\\\"] if events else None,\\n    }\\n    return result, windows, events\\n\",\"callers\":60,\"callees\":7}"
+        }
+      ],
+      "structuredContent": {
+        "name": "score_sequence",
+        "qualified_name": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.detection.events.score_sequence",
+        "label": "Function",
+        "file_path": "C:/成大專案/fall-detection-anomaly/src/fall_detect/detection/events.py",
+        "start_line": 84,
+        "end_line": 129,
+        "source": "def score_sequence(cache, scores, threshold, k=3):\n    if len(scores) != len(cache.features):\n        raise ContractError(\"Score count differs from feature rows\")\n    state = EventState(threshold, k, cache.metadata[\"stride\"])\n    windows, valid_endpoints = [], set()\n    for record in sorted(cache.records, key=lambda r: (r.sample_index, r.track_id or -1)):\n        raw_score = float(scores[record.row_index]) if record.row_index is not None else None\n        output = state.update(\n            record.sequence_id,\n            record.track_id,\n            record.sample_index,\n            record.available_at_ms,\n            raw_score,\n            record.quality if raw_score is None else None,\n        )\n        if raw_score is not None:\n            valid_endpoints.add(record.sample_index)\n        windows.append(\n            {\n                \"sequence_id\": record.sequence_id,\n                \"track_id\": record.track_id,\n                \"sample_index\": record.sample_index,\n                \"window_id\": record.window_id,\n                \"start_ms\": record.start_ms,\n                \"end_ms\": record.end_ms,\n                \"available_at_ms\": record.available_at_ms,\n                **output,\n            }\n        )\n    event_scores = [w[\"event_score\"] for w in windows if w[\"event_score\"] is not None]\n    sequence_score = max(event_scores) if event_scores else None\n    total = len({r.sample_index for r in cache.records})\n    events = state.finish(cache.metadata.get(\"end_ms\", 0))\n    result = {\n        \"sequence_id\": cache.metadata[\"sequence_id\"],\n        \"sequence_score\": sequence_score,\n        \"prediction\": int(above_threshold(sequence_score, threshold))\n        if sequence_score is not None\n        else None,\n        \"unknown_reason\": None if sequence_score is not None else \"no_legal_event_score\",\n        \"n_scheduled_endpoints\": total,\n        \"n_valid_endpoints\": len(valid_endpoints),\n        \"window_coverage\": len(valid_endpoints) / total if total else None,\n        \"first_alarm_ms\": events[0][\"confirmed_start_ms\"] if events else None,\n    }\n    return result, windows, events\n",
+        "callers": 60,
+        "callees": 7
+      },
+      "isError": false
+    },
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "function: C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.pose_coordinate_diagnostic.diagnose\ndirection: outbound\ncallees_total: 29\ncallees: 29  (rows: name hop strategy confidence; qn = group prefix + \".\" + name)\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.action-display-legacy-source.src.fall_detect.models.stgcn:\n  HumanFeatureExtractor 1 lsp 0.85\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-flip-legacy-source.src.fall_detect.training.experiment:\n  Scorer 1 lsp 0.85\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-flip-legacy-source.src.fall_detect.training.experiment.Scorer:\n  score 1 lsp 0.90\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-flip-legacy-source.src.fall_detect.training.experiment:\n  verify_artifacts 1 heuristic 0.38\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.resource-fetch:\n  exists 1 heuristic 0.38\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.ur-short20-isotropic-20261012-prior-source.src.fall_detect.pipeline:\n  features_from_observations 1 lsp 0.92\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.accuracy_first:\n  save 1 heuristic 0.38\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.pose_coordinate_diagnostic:\n  check_lock 1 lsp 0.97\n  first_three_controls 1 lsp 0.92\n  original_inputs 1 lsp 0.85\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.data.cache:\n  save_feature_cache 1 lsp 0.97\n  save_pose_cache 1 heuristic 0.75\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.detection.events:\n  score_sequence 1 lsp 0.92\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.evaluation.frame_review:\n  validate_annotation 1 lsp 0.92\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.evaluation.pose_coordinates:\n  apply_coordinates 1 lsp 0.92\n  assert_same_records 1 lsp 0.85\n  intervention_recipe 1 lsp 0.97\n  window_sources 1 lsp 0.90\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.io_utils:\n  ContractError 1 lsp 0.85\n  read_json 1 lsp 0.97\n  write_csv 1 lsp 0.97\n  write_json 1 lsp 0.97\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.training.scaler.FeatureScaler:\n  load 1 heuristic 0.38\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.visualization.action_status.ActionDisplayState:\n  update 1 heuristic 0.28\nbuiltins:\n  int 1 lsp 0.88\n  len 1 lsp 0.92\n  list 1 lsp 0.88\nbuiltins.list:\n  append 1 lsp 0.90\nbuiltins:\n  print 1 lsp 0.92\n"
+        }
+      ],
+      "isError": false
+    },
+    {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"project\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly\",\"signal\":\"best_effort\",\"indexed_at\":\"2026-10-13T08:26:51Z\",\"metadata\":{\"generation\":\"2026-10-13T08:26:51Z\",\"index_mode\":\"full\",\"recorded_at\":\"2026-10-13T08:26:53Z\",\"recording_status\":\"complete\",\"ignored_files_stored\":117,\"ignored_files_total\":117,\"hash_records_complete\":true,\"coverage_version\":3,\"generation_matches\":true},\"paths\":[{\"requested_path\":\"scripts/pose_coordinate_diagnostic.py\",\"path\":\"scripts/pose_coordinate_diagnostic.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"scripts/localize_fall19_joints.py\",\"path\":\"scripts/localize_fall19_joints.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/pipeline.py\",\"path\":\"src/fall_detect/pipeline.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/training/experiment.py\",\"path\":\"src/fall_detect/training/experiment.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/data/cache.py\",\"path\":\"src/fall_detect/data/cache.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/detection/events.py\",\"path\":\"src/fall_detect/detection/events.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/evaluation/pose_coordinates.py\",\"path\":\"src/fall_detect/evaluation/pose_coordinates.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/skeleton/preprocessing.py\",\"path\":\"src/fall_detect/skeleton/preprocessing.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/models/stgcn.py\",\"path\":\"src/fall_detect/models/stgcn.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"AGENTS.md\",\"path\":\"AGENTS.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"docs/ur-fall19-joint-localization-20261013-plan.md\",\"path\":\"docs/ur-fall19-joint-localization-20261013-plan.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"outputs/ur-fall19-joint-localization-20261013-001/review/review-data.json\",\"path\":\"outputs/ur-fall19-joint-localization-20261013-001/review/review-data.json\",\"status\":\"excluded\",\"freshness\":\"not_tracked\",\"recommended_action\":\"read_source_and_reindex\",\"coverage\":[{\"path\":\"outputs\",\"kind\":\"not_indexed_dir\",\"detail\":\"excluded subtree\",\"match\":\"ancestor\"}]}],\"scopes\":[],\"caveat\":\"Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable.\"}"
+        }
+      ],
+      "structuredContent": {
+        "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+        "signal": "best_effort",
+        "indexed_at": "2026-10-13T08:26:51Z",
+        "metadata": {
+          "generation": "2026-10-13T08:26:51Z",
+          "index_mode": "full",
+          "recorded_at": "2026-10-13T08:26:53Z",
+          "recording_status": "complete",
+          "ignored_files_stored": 117,
+          "ignored_files_total": 117,
+          "hash_records_complete": true,
+          "coverage_version": 3,
+          "generation_matches": true
+        },
+        "paths": [
+          {
+            "requested_path": "scripts/pose_coordinate_diagnostic.py",
+            "path": "scripts/pose_coordinate_diagnostic.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "scripts/localize_fall19_joints.py",
+            "path": "scripts/localize_fall19_joints.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/pipeline.py",
+            "path": "src/fall_detect/pipeline.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/training/experiment.py",
+            "path": "src/fall_detect/training/experiment.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/data/cache.py",
+            "path": "src/fall_detect/data/cache.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/detection/events.py",
+            "path": "src/fall_detect/detection/events.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/evaluation/pose_coordinates.py",
+            "path": "src/fall_detect/evaluation/pose_coordinates.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/skeleton/preprocessing.py",
+            "path": "src/fall_detect/skeleton/preprocessing.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/models/stgcn.py",
+            "path": "src/fall_detect/models/stgcn.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "AGENTS.md",
+            "path": "AGENTS.md",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "docs/ur-fall19-joint-localization-20261013-plan.md",
+            "path": "docs/ur-fall19-joint-localization-20261013-plan.md",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "outputs/ur-fall19-joint-localization-20261013-001/review/review-data.json",
+            "path": "outputs/ur-fall19-joint-localization-20261013-001/review/review-data.json",
+            "status": "excluded",
+            "freshness": "not_tracked",
+            "recommended_action": "read_source_and_reindex",
+            "coverage": [
+              {
+                "path": "outputs",
+                "kind": "not_indexed_dir",
+                "detail": "excluded subtree",
+                "match": "ancestor"
+              }
+            ]
+          }
+        ],
+        "scopes": [],
+        "caveat": "Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable."
+      },
+      "isError": false
+    }
+  ],
+  "limitations": [
+    "trace best effort has legacy-copy callees; current imports and exact source checked",
+    "outputs/cache/run/raw excluded by design; read actual source files",
+    "no completeness claim"
+  ]
+}

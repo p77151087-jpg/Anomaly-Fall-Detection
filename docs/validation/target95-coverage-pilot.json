@@ -1,0 +1,3006 @@
+{
+  "evidence": "real_pose_cache_coverage_only_no_new_classification",
+  "test_used": false,
+  "sequences": [
+    {
+      "sequence_id": "adl-33",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 4,
+          "valid_endpoints": 15,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 19,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-08",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 28,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 28,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-40",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 7,
+          "valid_endpoints": 20,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 29,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-19",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 2,
+          "valid_endpoints": 20,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 1,
+          "valid_endpoints": 20,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-05",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 30,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 30,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 7,
+          "valid_endpoints": 20,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 20,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-17",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 32,
+          "valid_endpoints": 0,
+          "evaluable": false
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 11,
+          "valid_endpoints": 24,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 26,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 26,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-26",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 4,
+          "valid_endpoints": 10,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 14,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-29",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 2,
+          "valid_endpoints": 17,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 1,
+          "valid_endpoints": 18,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 16,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 16,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-21",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 78,
+          "valid_endpoints": 0,
+          "evaluable": false
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 78,
+          "valid_endpoints": 0,
+          "evaluable": false
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 7,
+          "valid_endpoints": 26,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 38,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-25",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 4,
+          "valid_endpoints": 13,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 17,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-11",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 46,
+          "valid_endpoints": 0,
+          "evaluable": false
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 42,
+          "valid_endpoints": 0,
+          "evaluable": false
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-28",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 2,
+          "valid_endpoints": 9,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 1,
+          "valid_endpoints": 10,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 4,
+          "valid_endpoints": 11,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 15,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-31",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 38,
+          "valid_endpoints": 0,
+          "evaluable": false
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 17,
+          "valid_endpoints": 7,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 2,
+          "valid_endpoints": 12,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 1,
+          "valid_endpoints": 13,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 30,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 30,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-30",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 8,
+          "valid_endpoints": 19,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 24,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-12",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 3,
+          "valid_endpoints": 19,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 3,
+          "valid_endpoints": 19,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 4,
+          "valid_endpoints": 5,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 9,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 57,
+          "valid_endpoints": 0,
+          "evaluable": false
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 57,
+          "valid_endpoints": 0,
+          "evaluable": false
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 7,
+          "valid_endpoints": 28,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 42,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 21,
+          "valid_endpoints": 10,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 21,
+          "valid_endpoints": 10,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 34,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 34,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 18,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 18,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 3,
+          "valid_endpoints": 21,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 23,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 76,
+          "valid_endpoints": 0,
+          "evaluable": false
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 72,
+          "valid_endpoints": 0,
+          "evaluable": false
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 57,
+          "valid_endpoints": 1,
+          "evaluable": false
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 57,
+          "valid_endpoints": 1,
+          "evaluable": false
+        }
+      ]
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation",
+      "label": 0,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 6,
+          "valid_endpoints": 16,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 31,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 3,
+          "valid_endpoints": 0,
+          "evaluable": false
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 2,
+          "evaluable": false
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 3,
+          "valid_endpoints": 1,
+          "evaluable": false
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 5,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 3,
+          "valid_endpoints": 2,
+          "evaluable": false
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 6,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 3,
+          "valid_endpoints": 0,
+          "evaluable": false
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 4,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 3,
+          "valid_endpoints": 9,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 13,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 3,
+          "valid_endpoints": 4,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 8,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 3,
+          "valid_endpoints": 5,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 9,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 3,
+          "valid_endpoints": 2,
+          "evaluable": false
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 6,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 3,
+          "valid_endpoints": 21,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 25,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 3,
+          "valid_endpoints": 15,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 19,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 3,
+          "valid_endpoints": 11,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 15,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 3,
+          "valid_endpoints": 5,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 9,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 3,
+          "valid_endpoints": 7,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 11,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 3,
+          "valid_endpoints": 7,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 11,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation",
+      "label": 1,
+      "dataset": "urfall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 3,
+          "valid_endpoints": 1,
+          "evaluable": false
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 5,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_42",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 33,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 33,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_43",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 167,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 167,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_44",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 17,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 17,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_45",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 46,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 46,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_46",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 65,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 65,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_61",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 303,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 303,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_63",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 128,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 128,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_65",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 160,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 160,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_66",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 66,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 66,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_67",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 66,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 66,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_69",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 297,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 297,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_70",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 160,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 160,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_10",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 29,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 29,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_13",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 21,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 21,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_24",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 35,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 35,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_25",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 35,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 35,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_28",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 41,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 41,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_4",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 26,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 26,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_38",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 42,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 42,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_39",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 42,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 42,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_41",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 29,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 29,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_42",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 36,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 36,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_43",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 36,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 36,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_44",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 73,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 73,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_45",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 48,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 48,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_46",
+      "split": "validation",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 44,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 44,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_47",
+      "split": "validation",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 64,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 64,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_48",
+      "split": "validation",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 42,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 42,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_51",
+      "split": "validation",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 38,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 38,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_52",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 38,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 38,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_53",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 31,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 31,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_54",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 48,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 48,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_55",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 43,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 43,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_56",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 69,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 69,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_17",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 69,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 69,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_18",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 200,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 200,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_19",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 147,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 147,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_24",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 256,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 256,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_25",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 64,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 64,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_26",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 225,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 225,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_27",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 40,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 40,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Office-video_18",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 143,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 143,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Office-video_19",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 47,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 47,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Office-video_20",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 99,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 99,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Office-video_23",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 218,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 218,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Office-video_24",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 188,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 188,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Office-video_26",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 102,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 102,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Office-video_27",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 143,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 143,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Office-video_28",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 101,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 101,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Office-video_29",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 269,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 269,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Office-video_30",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 211,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 211,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Office-video_32",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 67,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 67,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "le2i-Office-video_33",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 85,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 85,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S01-Hop",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 49,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 49,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S01-Kneel",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 11,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 11,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S01-Pickupobject",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 24,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 24,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S01-SitDown",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 26,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 26,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S01-Walk",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 67,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 67,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S03-Hop",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 43,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 43,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S03-Kneel",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 23,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 23,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S03-Pickupobject",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 19,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 19,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S03-SitDown",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 38,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 38,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S03-Walk",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 42,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 42,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S04-Hop",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 38,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 38,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S04-Kneel",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 27,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 27,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S04-Pickupobject",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 35,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 35,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S04-SitDown",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 49,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 49,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S04-Walk",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 63,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 63,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S05-FallBackwards",
+      "split": "validation",
+      "label": 1,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 53,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 53,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S05-FallForward",
+      "split": "validation",
+      "label": 1,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 19,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 19,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S05-FallLeft",
+      "split": "validation",
+      "label": 1,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 31,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 31,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S05-FallRight",
+      "split": "validation",
+      "label": 1,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 47,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 47,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S05-FallSitting",
+      "split": "validation",
+      "label": 1,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 54,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 54,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S05-Hop",
+      "split": "validation",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 22,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 22,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S05-Kneel",
+      "split": "validation",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 39,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 39,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S05-Pickupobject",
+      "split": "validation",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 43,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 43,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S05-SitDown",
+      "split": "validation",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 48,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 48,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S05-Walk",
+      "split": "validation",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 62,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 62,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S06-Hop",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 30,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 30,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S06-Kneel",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 33,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 33,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S06-Pickupobject",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 24,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 24,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S06-SitDown",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 32,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 32,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S06-Walk",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 61,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 61,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S07-Hop",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 47,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 47,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S07-Kneel",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 13,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 13,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S07-Pickupobject",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 27,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 27,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S07-SitDown",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 45,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 45,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S07-Walk",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 45,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 45,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S08-Hop",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 39,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 39,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S08-Kneel",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 17,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 17,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S08-Pickupobject",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 17,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 17,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S08-SitDown",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 53,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 53,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S08-Walk",
+      "split": "train",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 59,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 59,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S10-FallBackwards",
+      "split": "validation",
+      "label": 1,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 37,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 37,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S10-FallForward",
+      "split": "validation",
+      "label": 1,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 4,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 4,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S10-FallLeft",
+      "split": "validation",
+      "label": 1,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 18,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 18,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S10-FallRight",
+      "split": "validation",
+      "label": 1,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 11,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 11,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S10-FallSitting",
+      "split": "validation",
+      "label": 1,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 4,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 4,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S10-Hop",
+      "split": "validation",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 48,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 48,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S10-Kneel",
+      "split": "validation",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 11,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 11,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S10-Pickupobject",
+      "split": "validation",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 23,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 23,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S10-SitDown",
+      "split": "validation",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 9,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 9,
+          "evaluable": true
+        }
+      ]
+    },
+    {
+      "sequence_id": "caucafall-S10-Walk",
+      "split": "validation",
+      "label": 0,
+      "dataset": "caucafall",
+      "comparisons": [
+        {
+          "tolerance": 0,
+          "missing_samples": 0,
+          "valid_endpoints": 46,
+          "evaluable": true
+        },
+        {
+          "tolerance": 1,
+          "missing_samples": 0,
+          "valid_endpoints": 46,
+          "evaluable": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "uploaded_original_sha256_unchanged": "ec742381a71a775c33621c224348bea6d8bca9bfc5884ae334b3bb5e6b38a193",
+  "previous_finalized_artifacts_verified": 55,
+  "prior_contract_bytes_verified": 5,
+  "actual_repeat_rejected": true,
+  "returncode": 1,
+  "reason": "Inference output already exists",
+  "stderr": "Traceback (most recent call last):\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\pose_coordinate_diagnostic.py\", line 434, in <module>\n    diagnose(args.human_coordinates)\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\pose_coordinate_diagnostic.py\", line 275, in diagnose\n    raise ContractError(\"Inference output already exists; read status/verify instead\")\nfall_detect.io_utils.ContractError: Inference output already exists; read status/verify instead\n",
+  "unchanged_diagnostic_artifacts": 51,
+  "ai_final_qa_and_summary_not_overwritten": true
+}

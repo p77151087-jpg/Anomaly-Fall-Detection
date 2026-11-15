@@ -1,0 +1,171 @@
+{
+  "source_kind": "real",
+  "training": "complete",
+  "calibration": "not_run",
+  "epochs": 32,
+  "best_val_normal_loss": 0.142064319427204,
+  "accesses": [
+    {
+      "kind": "features",
+      "sequence_id": "adl-33",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-08",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-40",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-19",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-05",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-38",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-17",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-06",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-26",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-29",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-22",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-21",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-36",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-25",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-11",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-28",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-32",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-31",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-27",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-07",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-30",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-12",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-24",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-10",
+      "split": "train"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "kind": "features",
+      "sequence_id": "adl-35",
+      "split": "validation"
+    }
+  ],
+  "model_sha256": "eba216476ea7db9f282e2b375ff676cf8374182299e7ac3036b53a54263bf372",
+  "test_feature_reads": 0
+}

@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "independent_shoulder_rows": 7646,
+  "finite_shoulder_scores": 5753,
+  "validation_combined_window_rows": 2917,
+  "events": 23,
+  "display_grid_rows": 3377,
+  "calibration_normal_videos": 32,
+  "tp": 15,
+  "tn": 8,
+  "fp": 0,
+  "fn": 0,
+  "unknown": 0,
+  "legacy_hits": 5,
+  "legacy_early": 0,
+  "real_video_frames": 100,
+  "fall19_visible_indices": [
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "unchanged_run_inputs": 170,
+  "unchanged_visual_inputs": 107,
+  "experiment_and_video_overwrite_refused": true,
+  "synthetic_passed": 28,
+  "synthetic_xml_sha256": "f6bca98e9cb7fd7745cc3b373feb4548b2e7aa53aebadf95e90f5ab0f38f26b1",
+  "experiment_manifest_sha256": "d7f5a663372207dcd9935e3d60e00c0fbc99dfd26f51f4c5342634c8d70c782c",
+  "visual_verification_sha256": "1a6f53d5556f694373fbf3e97646c794aa8ac5ca469cdc04d26cc6f7a93063b3",
+  "previous_docs_sha256": {
+    "docs/current-progress.md": "038b5e9ea2352158ed5f9bfb82503816bc96a423a7e148d945a88ef3ba2ca3df",
+    "docs/acceptance-results.md": "fff65642dbc3cf967ea3c17b17e943480423a9bd817d3f21edf1557235c50ecb"
+  },
+  "updated_docs_sha256": {
+    "docs/current-progress.md": "eca22786b335b6578b1b55f14914b5cbb00fa9c12f7112b2edc2da5240d675de",
+    "docs/acceptance-results.md": "077c26471e66fcddb10b8ac348bfb1784f4541cdf96f1b11f8c5fc7932c8111d"
+  },
+  "previous_document_bodies_unchanged": true,
+  "report_sha256": "1e6f90e0736bc51994dc8b496af4b7f28315d6ee0f0b553561147b92c98065a5",
+  "pre_experiment_diagnostic_sha256": "fd95685c3340e17e355cf46a8958b9e753729530c4ce0150ecb9a11f5d74487e",
+  "synthetic_xml_archive_sha256": "f6bca98e9cb7fd7745cc3b373feb4548b2e7aa53aebadf95e90f5ab0f38f26b1",
+  "graph": {
+    "tier": 2,
+    "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+    "core_input_paths_checked": 170,
+    "visual_input_paths_checked": 108,
+    "final_generation": "2026-11-07T10:48:44Z",
+    "final_path_count": 23,
+    "design_excluded_fallback": "Exact source reads and archived SHA-bound file verification"
+  },
+  "real_cached_score_evaluation": "completed",
+  "real_cached_rgb_display": "completed",
+  "new_neural_training_epochs": 0,
+  "new_test_evaluations": 0
+}

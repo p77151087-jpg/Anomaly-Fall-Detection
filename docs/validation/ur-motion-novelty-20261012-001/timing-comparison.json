@@ -1,0 +1,11 @@
+{
+  "baseline_window_rows": 2917,
+  "new_window_rows": 2917,
+  "window_state_changes": 0,
+  "first_alarm_changes": 0,
+  "baseline_events": 14,
+  "new_events": 14,
+  "event_timing_and_tracks_match": true,
+  "peak_scores_are_different_units": true,
+  "source": "independently audited immutable baseline CSV and new CSV; coarse phase not human GT"
+}

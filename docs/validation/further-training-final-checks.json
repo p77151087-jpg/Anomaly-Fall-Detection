@@ -1,0 +1,47 @@
+{
+  "test_evaluation_performed": false,
+  "evidence_scope": "real training and Validation calibration/demo only; synthetic tests separately identified",
+  "pytest": {
+    "passed": 100,
+    "skipped": 1,
+    "warnings": 11,
+    "seconds": 19.01,
+    "junit": "pytest-further-training-final.xml"
+  },
+  "static_checks": {
+    "ruff": true,
+    "format": true,
+    "compileall": true
+  },
+  "loss_ui": {
+    "failed_run_status_verified": true,
+    "retry_completed_epochs": 250,
+    "live_epoch_observed": 149,
+    "selected_run": "le2i-seqbalanced-001",
+    "epochs": 172,
+    "best_epoch": 142,
+    "best_validation_loss_display": "0.197624",
+    "sampling_notice_visible": true
+  },
+  "actual_video_previews_reviewed": true,
+  "original_runs_preserved": {
+    "le2i-extension-001": true,
+    "le2i-timing-001": true,
+    "le2i-timing-balanced-001": true,
+    "openpose18-baseline-001": true,
+    "openpose18-rotation-001": true
+  },
+  "new_feature_recipe": false,
+  "successful_training_epochs": 577,
+  "failed_attempt_epochs_published": 165,
+  "original_lock_sha256": "a0f9e64bc8f9e6e990d8171c8a08d0745aafb28f4209bf47672283992f16760a",
+  "accuracy_improved": false,
+  "remaining_limitations": [
+    "Repeated known Validation model selection",
+    "8/38 unknown unchanged",
+    "No new Test evaluation or event timing validation",
+    "Original Human assets missing",
+    "Full CPU and new-scene generalization unverified",
+    "CUDA deterministic warn_only retained"
+  ]
+}

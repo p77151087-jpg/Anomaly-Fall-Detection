@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "split_hash": "0b9a0f0cf3609c478afcbbe028130c7d519e26b573135fbd739c074c68bc93c5",
+  "sequences": [
+    {
+      "sequence_id": "adl-05",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "n_images": 180,
+      "first_frame_id": 1,
+      "last_frame_id": 180,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 180,
+      "timestamp_source": "source_frame_id",
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "n_images": 110,
+      "first_frame_id": 1,
+      "last_frame_id": 110,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 110,
+      "timestamp_source": "source_frame_id",
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    }
+  ],
+  "n_planned": 2,
+  "n_validated": 2
+}

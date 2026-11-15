@@ -1,0 +1,23 @@
+{
+  "source_kind": "real_end_to_end",
+  "verification_sha256": "f626946476b0813ca4050c6c709455e6406013b6d65fa1f8fd72a700fd6e3db0",
+  "reviewed_contact_sheets": [
+    "fall-19.jpg",
+    "fall-18.jpg",
+    "fall-30.jpg"
+  ],
+  "figure": "outputs\\human-optimization-diagnosis\\missed-cases-reviewed.png",
+  "figure_sha256": "6fce79ed47b40fe8cb4ce1f98979fea7203c8a4ec4f194bc68abba444b6b1917",
+  "visual_review": "complete; labels and curves inspected; blank scores may be warm-up or unknown, not a whole-sequence unknown label",
+  "original_figure_preserved": true,
+  "recognition_improved": false,
+  "selected": "ur-sample-human-s1-001",
+  "ruff_check": "passed",
+  "ruff_format_check": "passed",
+  "graph_generation": "2026-09-18T05:51:27Z",
+  "graph_coverage": "metadata_match; no recorded gap for both new scripts and five relevant test modules; best-effort only",
+  "new_code_sha256": {
+    "scripts/human_ae_refinement.py": "e679a6f32c648bdfdc6aaf70cfa5eb1453deecf16050c18756cfd60bd7e03db1",
+    "scripts/verify_human_ae_refinement.py": "1241b09022a16b6599d9132da1068fc75ba0da0fb8a1872d3922c8cb1b8d5dbe"
+  }
+}

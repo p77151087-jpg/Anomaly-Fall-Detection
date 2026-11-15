@@ -1,0 +1,805 @@
+{
+  "evidence": "real YOLO pose coverage only; no new classification",
+  "test_read": false,
+  "rows": [
+    {
+      "sequence_id": "adl-33",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 20,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 20,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-08",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 28,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 28,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-40",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 39,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 39,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-19",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 24,
+          "evaluable": true,
+          "missing_samples": 1
+        },
+        "bounded_jitter": {
+          "valid_windows": 24,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-05",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 30,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 30,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 28,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 28,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-17",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 27,
+          "evaluable": true,
+          "missing_samples": 11
+        },
+        "bounded_jitter": {
+          "valid_windows": 27,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 38,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 38,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-26",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 14,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 14,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-29",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 18,
+          "evaluable": true,
+          "missing_samples": 1
+        },
+        "bounded_jitter": {
+          "valid_windows": 20,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 21,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 21,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-21",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 0,
+          "evaluable": false,
+          "missing_samples": 78
+        },
+        "bounded_jitter": {
+          "valid_windows": 20,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 45,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 45,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-25",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 17,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 17,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-11",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 0,
+          "evaluable": false,
+          "missing_samples": 42
+        },
+        "bounded_jitter": {
+          "valid_windows": 49,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-28",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 10,
+          "evaluable": true,
+          "missing_samples": 1
+        },
+        "bounded_jitter": {
+          "valid_windows": 12,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 19,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 19,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-31",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 13,
+          "evaluable": true,
+          "missing_samples": 17
+        },
+        "bounded_jitter": {
+          "valid_windows": 20,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 13,
+          "evaluable": true,
+          "missing_samples": 1
+        },
+        "bounded_jitter": {
+          "valid_windows": 15,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 30,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 30,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-30",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 39,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 39,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-12",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 32,
+          "evaluable": true,
+          "missing_samples": 3
+        },
+        "bounded_jitter": {
+          "valid_windows": 40,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 9,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 9,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 0,
+          "evaluable": false,
+          "missing_samples": 57
+        },
+        "bounded_jitter": {
+          "valid_windows": 55,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 42,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 42,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 3,
+          "evaluable": true,
+          "missing_samples": 21
+        },
+        "bounded_jitter": {
+          "valid_windows": 12,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 30,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 30,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 24,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 24,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 24,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 24,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 0,
+          "evaluable": false,
+          "missing_samples": 72
+        },
+        "bounded_jitter": {
+          "valid_windows": 19,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 1,
+          "evaluable": false,
+          "missing_samples": 57
+        },
+        "bounded_jitter": {
+          "valid_windows": 24,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation",
+      "label": 0,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 27,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 27,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation",
+      "label": 1,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 4,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 4,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation",
+      "label": 1,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 5,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 5,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation",
+      "label": 1,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 6,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 6,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation",
+      "label": 1,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 3,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 3,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation",
+      "label": 1,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 8,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 8,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation",
+      "label": 1,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 16,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 16,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation",
+      "label": 1,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 10,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 10,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation",
+      "label": 1,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 7,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 7,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation",
+      "label": 1,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 25,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 25,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation",
+      "label": 1,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 20,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 20,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation",
+      "label": 1,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 21,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 21,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation",
+      "label": 1,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 9,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 9,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation",
+      "label": 1,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 15,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 15,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation",
+      "label": 1,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 9,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 9,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation",
+      "label": 1,
+      "policies": {
+        "source_interval": {
+          "valid_windows": 5,
+          "evaluable": true,
+          "missing_samples": 0
+        },
+        "bounded_jitter": {
+          "valid_windows": 5,
+          "evaluable": true,
+          "missing_samples": 0
+        }
+      }
+    }
+  ]
+}

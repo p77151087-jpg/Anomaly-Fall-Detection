@@ -1,0 +1,44 @@
+{
+  "page": "http://127.0.0.1:8851/index.html",
+  "source_hashes_checked": 312,
+  "protected_source_bytes_unchanged": true,
+  "prior_documents_archived": {
+    "docs/current-progress.md": "df962abe1c7deaaae408e86839de62c8803dfc6265150b8777c99dda75ae98a3",
+    "docs/acceptance-results.md": "7b8499adb58a90fdb0a43f4db54780e25f979f70e16cd993c4cef02fa8941a53"
+  },
+  "review_output_files_unchanged": {
+    "artifact-manifest.json": "16a9eb292a8f14b7d781b2600e5ce92dbb036668e9120e904bd24958c42f41c4",
+    "index.html": "e6f2fc770c6d6660a7e6777159bb0f909bbfadba4b13967b087d7dc91335ae61",
+    "review-bundle.json": "daf65af980cef284afc8162147c112062d1e11a66ed580ca002c2f999c051300",
+    "sources.json": "f17f8882643eeafb99cdf66ed0652b8df35688ca46e562fadb6a24f79778da4b",
+    "media\\fall-09.mp4": "a00d5d8bb21e10ef52690ad253c638714f25593058c9f0f0637f314388078d3d",
+    "media\\fall-18.mp4": "656c7742e789f3253a0c37d60a29fa1ae8d981861ae0ac3efcb751f2cad4d9f1",
+    "media\\fall-19.mp4": "f68d3229c472ffb9000d8f96825c0cca63da088dff63112151c998de89b28656",
+    "media\\fall-30.mp4": "8fd33899996e31e21796c1dfae5886d787543b81c9c22be576cb10d6e41608a6"
+  },
+  "actual_overwrite_refusal": {
+    "exit_code": 1,
+    "output": "Traceback (most recent call last):\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\shoulder_display_review_v2.py\", line 348, in <module>\n    main()\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\shoulder_display_review_v2.py\", line 327, in main\n    build()\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\shoulder_display_review_v2.py\", line 124, in build\n    require(\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\shoulder_display_review_v2.py\", line 36, in require\n    raise ContractError(message)\nfall_detect.io_utils.ContractError: Review output or QA already exists; use verify/serve\n"
+  },
+  "synthetic_python_tests_passed": 37,
+  "synthetic_dom": {
+    "evidence": "synthetic_dom",
+    "assertions": 23,
+    "real_human_annotations_created": 0,
+    "passed": true
+  },
+  "real_browser_checks": [
+    "four tabs and inherited references",
+    "all four first-alert seeks",
+    "half speed playback and focus auto-stop",
+    "fall09 next frame137 to138 at4.600 seconds",
+    "pending0of4, choices blank, human unchecked, export disabled"
+  ],
+  "model_real_feature_smoke": "not executed",
+  "model_real_end_to_end": "not executed; existing accepted videos reused",
+  "human_records_pending": 4,
+  "new_training_or_calibration": false,
+  "real_test_access_or_evaluation": false,
+  "formal_notebook_and_five_minute_film": "paused",
+  "known_issue_initial_page": "001 retained; WebKit fractional seek readout corrected only in002"
+}

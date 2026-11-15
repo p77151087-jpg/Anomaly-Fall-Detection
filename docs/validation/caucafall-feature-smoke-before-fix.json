@@ -1,0 +1,48 @@
+{
+  "evidence_kind": "real_feature_smoke",
+  "verification": {
+    "pose_forward": true,
+    "pose_observations_reused": false,
+    "feature_forward": false,
+    "device": "cuda",
+    "refreshed": false
+  },
+  "model_load_reports": {
+    "pose": {
+      "strict": true,
+      "key_conversion": null,
+      "sha256": "517c86f769c6636583083f1467e3d212a0006c27109edb3aeffc19a79622d411"
+    },
+    "stgcn": {
+      "strict": true,
+      "key_conversion": null,
+      "sha256": "12c56ed5535dd28a075e7d04dec96f572f8b1dc87548004761157e15b7d9e12e"
+    }
+  },
+  "sequences": {
+    "caucafall-S01-Hop": {
+      "valid_features": 0,
+      "quality_counts": {
+        "track_gap": 303
+      },
+      "n_samples": 272,
+      "features_finite": true
+    },
+    "caucafall-S05-FallForward": {
+      "valid_features": 0,
+      "quality_counts": {
+        "track_gap": 382
+      },
+      "n_samples": 299,
+      "features_finite": true
+    },
+    "caucafall-S05-Walk": {
+      "valid_features": 0,
+      "quality_counts": {
+        "track_gap": 411
+      },
+      "n_samples": 338,
+      "features_finite": true
+    }
+  }
+}

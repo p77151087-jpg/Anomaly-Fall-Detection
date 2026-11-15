@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Loss 訓練曲線 · 跌倒異常偵測</title>
+<style>
+:root{color-scheme:light;--ink:#173a3d;--muted:#64797b;--line:#dde7e4;--train:#087f8c;--val:#ca682c}
+*{box-sizing:border-box}body{margin:0;background:#f2f6f3;color:var(--ink);font:15px/1.65 "Microsoft JhengHei",system-ui,sans-serif}
+header{background:#143b3c;color:#fff;padding:18px max(24px,calc((100vw - 1192px)/2));display:flex;justify-content:space-between;gap:20px;align-items:center}
+header b{font-size:17px}header span{font-size:12px;color:#c5dbd5}main{max-width:1240px;margin:auto;padding:34px 24px 48px}
+.eyebrow{color:#52706a;font:700 11px/1.4 system-ui;letter-spacing:2px;margin:0 0 8px}h1{font-size:32px;line-height:1.25;margin:0 0 10px;letter-spacing:-1px}h2{font-size:18px;margin:0}p{margin:0;color:var(--muted)}
+.top{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-bottom:26px}.controls{display:flex;gap:10px;align-items:end;flex-wrap:wrap}.field label{display:block;font-size:12px;font-weight:700;margin-bottom:5px}
+select,button,.button{font:inherit;border:1px solid #bccfca;border-radius:8px;padding:9px 14px;background:#fff;color:var(--ink);text-decoration:none;cursor:pointer;min-height:44px}select{max-width:100%;min-width:240px}button:hover,.button:hover{background:#edf5f1}button:disabled{opacity:.5;cursor:default}:focus-visible{outline:3px solid #50988f;outline-offset:3px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:20px 0}.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:19px 22px}.label{color:var(--muted);font-size:12px}.number{font:600 30px/1.35 system-ui;margin:8px 0 3px;font-variant-numeric:tabular-nums}.small{font-size:12px;color:var(--muted)}
+.panel{border:1px solid var(--line);border-radius:14px;background:#fff;padding:24px}.chart-head{display:flex;justify-content:space-between;align-items:center;gap:14px}.legend{display:flex;gap:20px;font-size:12px}.legend span:before{content:"";display:inline-block;width:20px;height:3px;margin:0 7px 4px 0;background:var(--train)}.legend span:last-child:before{background:var(--val)}
+#chart-wrap{position:relative;margin-top:14px}#chart{width:100%;display:block;aspect-ratio:1100/395;min-height:230px}#empty{padding:65px 24px;text-align:center;border:1px dashed var(--line);margin:24px 0}#hover{background:#f5f8f6;padding:10px 14px;border-radius:7px;font-size:13px;font-variant-numeric:tabular-nums;min-height:42px}
+.footer-row{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:18px}.buttons{display:flex;gap:8px;flex-wrap:wrap}.buttons>*{font-size:12px;min-height:38px;padding:7px 13px}
+.badge{display:inline-block;border:1px solid #b5d5c7;background:#e8f5ed;border-radius:5px;font-size:12px;padding:3px 9px;margin-right:8px}.badge.synthetic{background:#fff0e2;border-color:#e5c08d;color:#855421}
+#error{color:#9d352a;border:1px solid #e3a89e;background:#fff0ec;border-radius:9px;padding:16px;margin:16px 0}#warnings{margin-top:16px}#warnings p{border-left:3px solid #c28b44;background:#fcf7ed;padding:12px 16px;color:#79603d;font-size:13px;margin-bottom:8px}
+.notes{display:grid;grid-template-columns:1fr 1fr;gap:28px;padding:23px 2px}.notes h3{font-size:14px;margin:0 0 6px}.notes p{font-size:13px}details{border-top:1px solid var(--line);padding-top:14px;margin-top:7px}summary{cursor:pointer;font-size:13px;font-weight:700}table{width:100%;border-collapse:collapse;text-align:right;font-variant-numeric:tabular-nums;font-size:13px}th,td{padding:8px 12px;border-bottom:1px solid #e5ece8}th{background:#eff5f1;position:sticky;top:0}th:first-child,td:first-child{text-align:left}.table-scroll{max-height:320px;overflow:auto;margin-top:14px}
+[hidden]{display:none!important}@media(max-width:850px){.top{align-items:start;flex-direction:column}.cards{grid-template-columns:repeat(2,1fr)}.notes{grid-template-columns:1fr}.chart-head,.footer-row{align-items:start;flex-direction:column}header span{display:none}main{padding:25px 16px}.panel{padding:16px}h1{font-size:28px}.legend{flex-wrap:wrap;gap:10px}select{min-width:0;width:100%}.number{font-size:25px}}
+</style>
+</head>
+<body>
+<header><b>跌倒異常偵測 <span>／ 實驗紀錄</span></b><span>本機程式 · 訓練監看</span></header>
+<main>
+  <div class="top">
+    <div><div class="eyebrow">TRAINING MONITOR</div><h1>Loss 訓練曲線</h1><p>查看 Autoencoder 學習正常活動的過程。</p></div>
+    <div class="controls"><div class="field"><label for="run">訓練紀錄</label><select id="run" aria-label="訓練紀錄"></select></div><button id="refresh">重新整理</button></div>
+  </div>
+  <div><span id="source" class="badge">讀取中</span><span id="status" class="small" role="status">正在載入訓練紀錄…</span></div>
+  <div id="error" role="alert" hidden></div>
+  <section class="cards" aria-label="訓練摘要">
+    <div class="card"><div class="label">已記錄回合</div><div class="number" id="epochs">—</div><div class="small">Epoch</div></div>
+    <div class="card"><div class="label">最新 Train Loss</div><div class="number" id="train">—</div><div class="small">正常訓練資料 · MSE</div></div>
+    <div class="card"><div class="label">最新 Validation Loss</div><div class="number" id="val">—</div><div class="small">正常驗證資料 · MSE</div></div>
+    <div class="card"><div class="label" id="best-label">最佳 Validation Loss</div><div class="number" id="best">—</div><div class="small" id="best-epoch">Epoch —</div></div>
+  </section>
+  <section class="panel" aria-label="Loss 圖表">
+    <div class="chart-head"><div><h2>重建誤差隨回合變化</h2><p class="small">直接顯示每回合紀錄；移到曲線上可查看數值。</p></div><div class="legend"><span>Train · 正常活動</span><span>Validation · 正常活動</span></div></div>
+    <div id="chart-wrap"><svg id="chart" viewBox="0 0 1100 395" role="img" aria-label="Train 與 Validation 的 Loss 曲線"></svg><div id="empty" hidden></div></div>
+    <div id="hover">尚無曲線資料。</div>
+    <div class="footer-row"><span id="updated" class="small">每 2 秒自動更新</span><div class="buttons"><button id="download-svg" disabled>下載目前曲線 SVG</button><a class="button" id="download-csv" hidden>下載 Loss CSV</a></div></div>
+    <details><summary>查看每回合數值</summary><div class="table-scroll"><table><thead><tr><th>Epoch</th><th>Train Loss</th><th>Validation Loss</th></tr></thead><tbody id="rows"></tbody></table></div></details>
+  </section>
+  <div id="warnings"></div>
+  <section class="notes">
+    <div><h3>這張圖代表什麼？</h3><p>Loss 是正常特徵的重建誤差，越低表示重建越接近輸入。它不是跌倒準確率。訓練使用 Train 正常資料，最佳模型依 Validation 正常資料選擇。</p></div>
+    <div><h3>資料與判讀</h3><p id="coverage">資料數量載入中。</p><p>兩條線未做平滑；不含 Test Loss。不同訓練紀錄的正規化可能不同，Loss 數字不宜直接比較。</p></div>
+  </section>
+</main>
+<script>
+"use strict";
+const byId = id => document.getElementById(id);
+const ns = "http://www.w3.org/2000/svg";
+let current = null, revision = "", busy = false;
+const preferred = new URLSearchParams(location.search).get("run");
+let initialSelection = true;
+const fmt = x => x == null ? "—" : x.toFixed(6);
+const add = (tag, attrs, text, parent=byId("chart")) => {
+  const node = document.createElementNS(ns,tag);
+  for(const [k,v] of Object.entries(attrs)) node.setAttribute(k,v);
+  if(text !== undefined) node.textContent=text;
+  parent.appendChild(node);return node;
+};
+function clearDisplay(message){
+  current=null;revision="";
+  for(const id of ["epochs","train","val","best"]) byId(id).textContent="—";
+  byId("best-epoch").textContent="Epoch —";
+  byId("chart").replaceChildren();byId("chart").setAttribute("hidden","");
+  byId("empty").hidden=false;byId("empty").textContent=message;
+  byId("hover").textContent="尚無曲線資料。";
+  byId("rows").replaceChildren();byId("warnings").replaceChildren();
+  byId("coverage").textContent="目前沒有可顯示的資料數量。";
+  byId("download-svg").disabled=true;byId("download-csv").hidden=true;
+}
+function inspect(row){
+  if(row) byId("hover").textContent=`Epoch ${row.epoch}　｜　Train ${fmt(row.train_loss)}　｜　Validation ${fmt(row.val_normal_loss)}`;
+}
+function draw(data){
+  const svg=byId("chart"), points=data.history;svg.replaceChildren();
+  svg.toggleAttribute("hidden",!points.length);byId("empty").hidden=!!points.length;
+  if(!points.length){byId("empty").textContent="等待第一個完整 Epoch；訓練有新紀錄時會自動顯示。";return;}
+  const width=Math.max(320,svg.parentElement.clientWidth),height=Math.max(280,Math.min(395,width*0.36));
+  svg.setAttribute("viewBox",`0 0 ${width} ${height}`);svg.style.aspectRatio=`${width}/${height}`;
+  add("rect",{width,height,fill:"white"});
+  const left=65,right=width-18,top=36,bottom=height-55,n=points.length;
+  const maxY=Math.max(...points.flatMap(p=>[p.train_loss,p.val_normal_loss]),0.000001)*1.1;
+  const x=e=>left+(e-1)/Math.max(1,n-1)*(right-left), y=v=>bottom-v/maxY*(bottom-top);
+  for(let i=0;i<=5;i++){
+    const value=maxY*i/5,py=y(value);
+    add("line",{x1:left,y1:py,x2:right,y2:py,stroke:"#e1eae5","stroke-width":1});
+    add("text",{x:left-12,y:py+4,"text-anchor":"end",fill:"#607776","font-size":12,"font-family":"sans-serif"},value.toFixed(maxY<0.01?4:3));
+  }
+  const ticks=[...new Set([1,...Array.from({length:5},(_,i)=>Math.max(1,Math.round((n-1)*(i+1)/5)+1))])];
+  for(const epoch of ticks) add("text",{x:x(epoch),y:bottom+24,"text-anchor":"middle",fill:"#607776","font-size":12,"font-family":"sans-serif"},epoch);
+  add("text",{x:left,y:18,fill:"#607776","font-size":12,"font-family":"sans-serif"},"Loss (MSE)");
+  add("text",{x:(left+right)/2,y:height-8,"text-anchor":"middle",fill:"#607776","font-size":12,"font-family":"sans-serif"},"Epoch");
+  const best=data.best;
+  add("line",{x1:x(best.epoch),x2:x(best.epoch),y1:top,y2:bottom,stroke:"#99aba3","stroke-dasharray":"5 5"});
+  for(const [key,color] of [["train_loss","#087f8c"],["val_normal_loss","#ca682c"]]){
+    add("polyline",{points:points.map(p=>`${x(p.epoch)},${y(p[key])}`).join(" "),fill:"none",stroke:color,"stroke-width":2.5,"stroke-linejoin":"round","data-series":key});
+    if(n===1) add("circle",{cx:x(1),cy:y(points[0][key]),r:4,fill:color});
+  }
+  add("circle",{cx:x(best.epoch),cy:y(best.val_normal_loss),r:5.5,fill:"#ca682c",stroke:"white","stroke-width":2});
+  add("text",{x:Math.min(right-100,Math.max(left+10,x(best.epoch)+10)),y:Math.max(top+12,y(best.val_normal_loss)-16),fill:"#925020","font-size":12,"font-family":"sans-serif"},`Best · Epoch ${best.epoch}`);
+  svg.onpointermove=event=>{
+    const rect=svg.getBoundingClientRect();
+    const px=(event.clientX-rect.left)/rect.width*width;
+    const index=Math.max(0,Math.min(n-1,Math.round((px-left)/(right-left)*Math.max(1,n-1))));
+    inspect(points[index]);
+  };
+  inspect(points[n-1]);
+}
+function render(data){
+  current=data;
+  byId("source").textContent=data.source_kind==="real"?"真實特徵訓練":data.source_kind==="synthetic"?"SYNTHETIC · 程式測試資料":"資料來源未確認";
+  byId("source").className="badge"+(data.source_kind==="real"?"":" synthetic");
+  byId("status").textContent=data.training==="complete"?"訓練已完成" : ["failed","interrupted"].includes(data.training)?"訓練中斷，保留已完成回合":"訓練尚未完成（執行狀態請以終端為準）";
+  byId("epochs").textContent=data.history.length;
+  byId("train").textContent=fmt(data.last?.train_loss);byId("val").textContent=fmt(data.last?.val_normal_loss);
+  byId("best").textContent=fmt(data.best?.val_normal_loss);
+  byId("best-label").textContent=data.training==="complete"?"最佳 Validation Loss":"目前最低 Validation Loss";
+  byId("best-epoch").textContent=`Epoch ${data.best?.epoch??"—"}`;
+  byId("updated").textContent=`每 2 秒自動更新${data.updated_at?" · 紀錄 "+new Date(data.updated_at*1000).toLocaleTimeString("zh-TW"):""}${data.history_verified?" · 紀錄 hash 已核對":""}`;
+  byId("warnings").replaceChildren();
+  const warnings=[...data.warnings];
+  if(data.source_kind!=="real") warnings.unshift("這是程式測試或未確認來源的紀錄，不能當作真實跌倒偵測成果。");
+  if(data.training==="running"&&data.updated_at&&Date.now()/1000-data.updated_at>30) warnings.push("超過 30 秒沒有新的 Epoch 紀錄；可能仍在計算或已中斷，請確認訓練終端。");
+  for(const text of warnings){const p=document.createElement("p");p.textContent=text;byId("warnings").appendChild(p);}
+  byId("coverage").textContent=Object.entries(data.counts).map(([split,c])=>`${split==="train"?"正常 Train":"正常 Validation"}：${c.usable}/${c.planned} 段可用，共 ${c.windows.toLocaleString()} 個特徵窗。`).join(" ")||"此紀錄未提供特徵數量。";
+  const key=JSON.stringify([data.run,data.history]);
+  if(key!==revision){
+    revision=key;draw(data);byId("rows").replaceChildren();
+    for(const row of data.history){const tr=document.createElement("tr");for(const value of [row.epoch,fmt(row.train_loss),fmt(row.val_normal_loss)]){const td=document.createElement("td");td.textContent=value;tr.appendChild(td);}byId("rows").appendChild(tr);}
+  }
+  byId("download-svg").disabled=!data.history.length;
+  byId("download-csv").hidden=!data.history.length;
+  byId("download-csv").href="/download/history.csv?"+new URLSearchParams({run:data.run});
+}
+async function request(url){const response=await fetch(url,{cache:"no-store"});const data=await response.json();if(!response.ok) throw new Error(data.error||"無法讀取紀錄");return data;}
+async function update(){
+  if(busy)return;busy=true;
+  try{
+    const listing=await request("/api/runs"),select=byId("run");
+    let chosen=select.value;
+    const requested=preferred||listing.selected;
+    if(initialSelection){
+      chosen=requested||listing.runs[0];
+      if(listing.runs.includes(chosen))initialSelection=false;
+      else chosen=undefined;
+    }else if(!listing.runs.includes(chosen)) chosen=listing.runs[0];
+    if(JSON.stringify([...select.options].map(o=>o.value))!==JSON.stringify(listing.runs)) select.replaceChildren(...listing.runs.map(name=>new Option(name,name)));
+    if(!chosen){select.value="";clearDisplay(requested?`等待訓練建立 ${requested}；請以終端的執行狀態為準。`:"尚無訓練紀錄。完成資料準備後執行 train，有新紀錄時將自動顯示。");byId("source").textContent="尚無紀錄";byId("status").textContent="等待訓練紀錄";byId("error").hidden=true;return;}
+    select.value=chosen;
+    const data=await request("/api/loss?"+new URLSearchParams({run:chosen}));
+    if(select.value!==chosen)return;
+    byId("error").hidden=true;render(data);
+  }catch(error){clearDisplay("目前無法顯示曲線，請檢查上方訊息。");byId("error").textContent="讀取失敗："+error.message;byId("error").hidden=false;byId("status").textContent="連線或紀錄有誤";}
+  finally{busy=false;}
+}
+byId("run").addEventListener("change",()=>{initialSelection=false;clearDisplay("讀取所選訓練紀錄…");update();});
+byId("refresh").addEventListener("click",update);
+byId("download-svg").addEventListener("click",()=>{
+  if(!current?.history.length)return;
+  const clone=byId("chart").cloneNode(true);clone.setAttribute("xmlns",ns);
+  const title=document.createElementNS(ns,"title");title.textContent=`${current.run} | ${current.source_kind} | Train: teal; Validation: orange | MSE`;
+  clone.prepend(title);
+  const blob=new Blob([new XMLSerializer().serializeToString(clone)],{type:"image/svg+xml;charset=utf-8"});
+  const url=URL.createObjectURL(blob),link=document.createElement("a");link.href=url;link.download=current.run+"-loss.svg";link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+});
+let observedWidth=0;
+new ResizeObserver(entries=>{const width=entries[0].contentRect.width;if(width!==observedWidth){observedWidth=width;if(current)draw(current);}}).observe(byId("chart-wrap"));
+update();setInterval(update,2000);
+</script>
+</body>
+</html>

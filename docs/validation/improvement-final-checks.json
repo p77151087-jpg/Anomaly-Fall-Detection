@@ -1,0 +1,45 @@
+{
+  "source_kind": "mixed_evidence_explicitly_separated",
+  "real_end_to_end_evidence": "improvement-timing-integration.json",
+  "synthetic_scope": "unit fixtures only, not detection results",
+  "pytest": {
+    "passed": 92,
+    "skipped": 1,
+    "warnings": 11,
+    "seconds": 17.76,
+    "junit": "pytest-improvement-full.xml",
+    "skip": "Original Human four external resources unavailable"
+  },
+  "static_checks": {
+    "ruff_check": true,
+    "ruff_format": true,
+    "compileall": true
+  },
+  "test_evaluation_performed": false,
+  "loss_ui": {
+    "run": "le2i-timing-001",
+    "epochs": 88,
+    "best_epoch": 78,
+    "best_display": "0.204255",
+    "normal_train": "57/62, 4180 windows",
+    "normal_validation": "11/12, 286 windows",
+    "derived_run_notice_verified": true,
+    "both_curves_visually_checked": true,
+    "url": "http://127.0.0.1:8766/?run=le2i-timing-001"
+  },
+  "previews_reviewed": true,
+  "frozen_run_names_verified": [
+    "le2i-extension-001",
+    "le2i-timing-001",
+    "le2i-timing-balanced-001",
+    "openpose18-baseline-001",
+    "openpose18-rotation-001"
+  ],
+  "remaining_limitations": [
+    "Validation calibration only; Test not rerun",
+    "Balanced alternative reduces false positives at expense of fall recall",
+    "8/38 Validation sequences unknown",
+    "No complete CPU experiment or generalization validation",
+    "CUDA deterministic warn_only retained"
+  ]
+}

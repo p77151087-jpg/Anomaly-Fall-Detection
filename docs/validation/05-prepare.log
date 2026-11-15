@@ -1,0 +1,11 @@
+
+ERROR: Missing pretrained resources:
+detector: weights/pretrained/detector.pth
+  source: https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/blob/7ed2faa4d6147dfd576f58869b6c25545208af35/README.md
+detector_config: weights/pretrained/yolov3-tiny-onecls.cfg
+  source: https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/blob/7ed2faa4d6147dfd576f58869b6c25545208af35/README.md
+pose: weights/pretrained/fast_res50_256x192.pth
+  source: https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/blob/7ed2faa4d6147dfd576f58869b6c25545208af35/README.md
+stgcn: weights/pretrained/tsstg-model.pth
+  source: https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/blob/7ed2faa4d6147dfd576f58869b6c25545208af35/README.md
+Run: python -m fall_detect fetch-assets --models

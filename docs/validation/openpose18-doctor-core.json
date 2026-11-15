@@ -1,0 +1,166 @@
+{
+  "mode": "core",
+  "checks": {
+    "device": "cuda",
+    "codecs": {
+      "mp4v": {
+        "passed": true,
+        "decoded_frames": 6
+      },
+      "MJPG": {
+        "passed": true,
+        "decoded_frames": 6
+      }
+    }
+  },
+  "environment": {
+    "os": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\成大專案\\fall-detection-anomaly\\.venv\\Scripts\\python.exe",
+    "packages": {
+      "numpy": "2.4.6",
+      "torch": "2.8.0+cu128",
+      "torchvision": "0.23.0+cu128",
+      "opencv-python-headless": "5.0.0.93",
+      "PyYAML": "6.0.3",
+      "scikit-learn": "1.9.1",
+      "matplotlib": "3.11.1",
+      "scipy": "1.17.1",
+      "pytest": "9.1.1",
+      "gdown": "6.2.0",
+      "truststore": "0.10.4"
+    },
+    "cuda_available": true,
+    "torch_cuda_runtime": "12.8",
+    "gpu_driver_info": "NVIDIA GeForce RTX 5060 Laptop GPU, 591.44, 8151 MiB",
+    "disk_free_bytes": 724311117824
+  },
+  "errors": [],
+  "weights": [
+    {
+      "role": "pose",
+      "recipe_id": "lightweight_openpose18_stgcn_kinetics_v1",
+      "repository_url": "https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch",
+      "commit": "d23c284b09acf27a163e1febd511e7482cac25ed",
+      "source_page": "https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch/blob/d23c284b09acf27a163e1febd511e7482cac25ed/README.md",
+      "source_folder": null,
+      "download_url": "https://download.01.org/opencv/openvino_training_extensions/models/human_pose_estimation/checkpoint_iter_370000.pth",
+      "local_path": "weights/pretrained/openpose18/checkpoint_iter_370000.pth",
+      "size_bytes": 87959810,
+      "sha256": "517c86f769c6636583083f1467e3d212a0006c27109edb3aeffc19a79622d411",
+      "upstream_expected_sha256": null,
+      "license": "Apache-2.0 (upstream repository)",
+      "status": "usable",
+      "verification": {
+        "strict_load": true,
+        "real_forward": true,
+        "device": "cuda",
+        "devices": [
+          "cuda"
+        ],
+        "evidence": "outputs\\real_feature_smoke\\openpose18-cuda-v2\\dataset-index.json"
+      }
+    },
+    {
+      "role": "stgcn",
+      "recipe_id": "lightweight_openpose18_stgcn_kinetics_v1",
+      "repository_url": "https://github.com/yysijie/st-gcn",
+      "commit": "221c0e152054b8da593774c0d483e59befdb9061",
+      "source_page": "https://github.com/yysijie/st-gcn/blob/221c0e152054b8da593774c0d483e59befdb9061/OLD_README.md",
+      "source_folder": "https://drive.google.com/drive/folders/1IYKoSrjeI3yYJ9bO0_z_eDo92i7ob_aF",
+      "download_url": "https://drive.google.com/uc?id=1MDIUlJ_X-IpNgLZYXgdMuclCsnYTepU1",
+      "local_path": "weights/pretrained/openpose18/st_gcn.kinetics.pt",
+      "size_bytes": 12763702,
+      "sha256": "12c56ed5535dd28a075e7d04dec96f572f8b1dc87548004761157e15b7d9e12e",
+      "upstream_expected_sha256": null,
+      "license": "BSD-2-Clause (upstream repository)",
+      "status": "usable",
+      "verification": {
+        "strict_load": true,
+        "real_forward": true,
+        "device": "cuda",
+        "devices": [
+          "cuda"
+        ],
+        "evidence": "outputs\\real_feature_smoke\\openpose18-cuda-v2\\dataset-index.json"
+      }
+    }
+  ],
+  "dataset": {
+    "n_planned": 70,
+    "n_downloaded": 70,
+    "downloaded_ids": [
+      "adl-33",
+      "adl-08",
+      "adl-40",
+      "adl-19",
+      "adl-05",
+      "adl-38",
+      "adl-17",
+      "adl-06",
+      "adl-26",
+      "adl-29",
+      "adl-22",
+      "adl-21",
+      "adl-36",
+      "adl-25",
+      "adl-11",
+      "adl-28",
+      "adl-32",
+      "adl-31",
+      "adl-27",
+      "adl-07",
+      "adl-30",
+      "adl-12",
+      "adl-24",
+      "adl-10",
+      "adl-37",
+      "adl-23",
+      "adl-20",
+      "adl-04",
+      "adl-01",
+      "adl-16",
+      "adl-18",
+      "adl-35",
+      "fall-22",
+      "fall-19",
+      "fall-16",
+      "fall-18",
+      "fall-08",
+      "fall-13",
+      "fall-29",
+      "fall-14",
+      "fall-09",
+      "fall-07",
+      "fall-11",
+      "fall-25",
+      "fall-06",
+      "fall-02",
+      "fall-30",
+      "adl-13",
+      "adl-15",
+      "adl-39",
+      "adl-03",
+      "adl-34",
+      "adl-02",
+      "adl-14",
+      "adl-09",
+      "fall-10",
+      "fall-27",
+      "fall-04",
+      "fall-23",
+      "fall-15",
+      "fall-21",
+      "fall-20",
+      "fall-12",
+      "fall-03",
+      "fall-01",
+      "fall-26",
+      "fall-28",
+      "fall-24",
+      "fall-05",
+      "fall-17"
+    ]
+  },
+  "passed": true
+}

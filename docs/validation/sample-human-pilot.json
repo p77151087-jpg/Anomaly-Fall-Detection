@@ -1,0 +1,140 @@
+{
+  "source_kind": "real_feature_smoke",
+  "rows": [
+    {
+      "run": "ur-sample-human-s5-001",
+      "index": "C:\\成大專案\\fall-detection-anomaly\\data\\cache\\ur-sample-human-s5-001\\real_feature_smoke\\dataset-index.json",
+      "index_sha256": "6fff72cad5fd789d893e3465776d8b864890714357cf88e41bb9b16219278e70",
+      "counts": {
+        "adl-05": {
+          "split": "train",
+          "label": 0,
+          "features": 29
+        },
+        "adl-38": {
+          "split": "train",
+          "label": 0,
+          "features": 31
+        },
+        "adl-24": {
+          "split": "train",
+          "label": 0,
+          "features": 8
+        },
+        "adl-20": {
+          "split": "validation",
+          "label": 0,
+          "features": 36
+        },
+        "adl-04": {
+          "split": "validation",
+          "label": 0,
+          "features": 23
+        },
+        "fall-19": {
+          "split": "validation",
+          "label": 1,
+          "features": 4
+        },
+        "fall-29": {
+          "split": "validation",
+          "label": 1,
+          "features": 11
+        },
+        "fall-09": {
+          "split": "validation",
+          "label": 1,
+          "features": 26
+        },
+        "fall-25": {
+          "split": "validation",
+          "label": 1,
+          "features": 9
+        },
+        "fall-02": {
+          "split": "validation",
+          "label": 1,
+          "features": 16
+        }
+      },
+      "gate_passed": true,
+      "model_load_reports": {
+        "pose": null,
+        "stgcn": {
+          "strict": true,
+          "key_conversion": null,
+          "sha256": "1cac9a6da99d5d67da8ab58ee7633c5e923d85fba668673f028792819750a149"
+        }
+      }
+    },
+    {
+      "run": "ur-sample-human-s1-001",
+      "index": "C:\\成大專案\\fall-detection-anomaly\\data\\cache\\ur-sample-human-s1-001\\real_feature_smoke\\dataset-index.json",
+      "index_sha256": "a92c8994290a290a59c57eccd605084088114b50269cbf518203517082a6d433",
+      "counts": {
+        "adl-05": {
+          "split": "train",
+          "label": 0,
+          "features": 148
+        },
+        "adl-38": {
+          "split": "train",
+          "label": 0,
+          "features": 158
+        },
+        "adl-24": {
+          "split": "train",
+          "label": 0,
+          "features": 38
+        },
+        "adl-20": {
+          "split": "validation",
+          "label": 0,
+          "features": 184
+        },
+        "adl-04": {
+          "split": "validation",
+          "label": 0,
+          "features": 118
+        },
+        "fall-19": {
+          "split": "validation",
+          "label": 1,
+          "features": 23
+        },
+        "fall-29": {
+          "split": "validation",
+          "label": 1,
+          "features": 54
+        },
+        "fall-09": {
+          "split": "validation",
+          "label": 1,
+          "features": 133
+        },
+        "fall-25": {
+          "split": "validation",
+          "label": 1,
+          "features": 46
+        },
+        "fall-02": {
+          "split": "validation",
+          "label": 1,
+          "features": 79
+        }
+      },
+      "gate_passed": true,
+      "model_load_reports": {
+        "pose": null,
+        "stgcn": {
+          "strict": true,
+          "key_conversion": null,
+          "sha256": "1cac9a6da99d5d67da8ab58ee7633c5e923d85fba668673f028792819750a149"
+        }
+      }
+    }
+  ],
+  "gate_passed": true,
+  "test_scored": false,
+  "accuracy_not_measured": true
+}

@@ -1,0 +1,58 @@
+{
+  "source_kind": "real_end_to_end",
+  "train_only": true,
+  "cluster_summary": [
+    {
+      "cluster_id": 0,
+      "train_windows": 311,
+      "raw_window_fraction": 0.08548653106102254,
+      "new_sampling_probability": 0.049305555555555554
+    },
+    {
+      "cluster_id": 1,
+      "train_windows": 349,
+      "raw_window_fraction": 0.0959318306761957,
+      "new_sampling_probability": 0.1125
+    },
+    {
+      "cluster_id": 2,
+      "train_windows": 796,
+      "raw_window_fraction": 0.21880153930731172,
+      "new_sampling_probability": 0.20625000000000002
+    },
+    {
+      "cluster_id": 3,
+      "train_windows": 144,
+      "raw_window_fraction": 0.03958218801539307,
+      "new_sampling_probability": 0.0375
+    },
+    {
+      "cluster_id": 4,
+      "train_windows": 932,
+      "raw_window_fraction": 0.2561847168774052,
+      "new_sampling_probability": 0.20972222222222223
+    },
+    {
+      "cluster_id": 5,
+      "train_windows": 346,
+      "raw_window_fraction": 0.09510720175920835,
+      "new_sampling_probability": 0.06319444444444444
+    },
+    {
+      "cluster_id": 6,
+      "train_windows": 306,
+      "raw_window_fraction": 0.08411214953271028,
+      "new_sampling_probability": 0.09444444444444444
+    },
+    {
+      "cluster_id": 7,
+      "train_windows": 454,
+      "raw_window_fraction": 0.12479384277075316,
+      "new_sampling_probability": 0.2270833333333333
+    }
+  ],
+  "classes_are_not_actions": true,
+  "train_sequence_count": 24,
+  "train_window_count": 3638,
+  "test_read": false
+}

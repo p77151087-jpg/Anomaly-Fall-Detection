@@ -1,0 +1,8 @@
+{
+  "url": "http://127.0.0.1:8841/videos/fall-18-compare.mp4",
+  "status": 206,
+  "length": 32,
+  "accept_ranges": "bytes",
+  "content_range": "bytes 0-31/985852",
+  "bytes_match": true
+}

@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-18T08:49:01.446496+00:00",
+  "old_runs_preserved": 37,
+  "old_cache_files_preserved": 1165,
+  "frozen_candidate_runs_verified": 2,
+  "validation_sha256": "df14b85df1476af2d5492165c807693d8aecd7c53edf3ad4a0277012b073d7d8",
+  "integration_sha256": "55fd1c30803916e1414c2b67a1068ec972b2d8f6f8da4d143161361f6095c320",
+  "test_gates": {
+    "completed_experiment_rerun": "Freeze implementation first; do not overwrite completed results",
+    "test_before_target": "Validation targets/guard failed; no Test scoring"
+  },
+  "new_test_scored": false,
+  "new_ae_epochs": 0,
+  "accuracy_improved": false,
+  "pytest": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "1",
+    "tests": "204",
+    "time": "120.350",
+    "timestamp": "2026-09-18T16:42:27.010291+08:00",
+    "hostname": "MSI"
+  },
+  "pytest_sha256": "920e63cfa01a183bb7cf1f728780ad757d4b974978368490d61fb153cb4d7235",
+  "source_files": {
+    "src/fall_detect/config.py": "c3dd60c531147b75977d84a461eebc0d3972c927764e5170f62684353f3a7e12",
+    "src/fall_detect/models/autoencoder.py": "1094c79967bf17f2686043b420790adb6d0284b42e94cf4dc81844b484090c40",
+    "src/fall_detect/training/experiment.py": "b4a0401351889bcd83bfaa1bcfb5e652afacae4e0adb2bea07a86e70b3ccc175",
+    "src/fall_detect/training/residual.py": "2db361d7022e8aa96484fac1b12c334245e8161e45e4a773e39afbb0218f3fb6",
+    "src/fall_detect/visualization/loss_viewer.py": "ed6b43941c2b11ad5201b06bf3c8a336b6af8bee7382578c05e7ee71bf83181b",
+    "scripts/human_residual.py": "918d248a7f4267ca843bd22032401fa44c7715afd54ab4b0aede6c3d2efa2cdc",
+    "scripts/ae_generalization.py": "76eaecbf2bbc4bc53b81cf0d64607a09f64ff8692a93eeae278c1bb8f8b92622",
+    "scripts/verify_action_display.py": "4827321f02d9e6d8692a47661eb682f0652b9d85fd530f6796d46d0407f0bb24",
+    "tests/test_residual_profiles.py": "cbc393c9a7b22b3001d1da15aeb6b5136cfced70c592b0603665868cca1216a7",
+    "scripts/verify_human_residual.py": "a6b266b3f41a650a90f209fca03012082cc3c15375384899620fb428107c4cd8",
+    "tests/test_openpose18.py": "7bc13734b9e8620f6bc283166f7d8224ebc74ba9049b61d0063862aef92b0f18"
+  },
+  "executed_integration_source_archive": "docs\\validation\\human-residual-integration-source.txt",
+  "executed_integration_source_sha256": "53372d85fa8f4fe937754028262d211bacdf6e8f36874e27cdd546dba473eb4d",
+  "verifier_only_post_run_changes": "Removed unused numpy import and added saved report artifact hash checks. Scoring/selection implementation remains exactly frozen. Read-only verifier rerun passed.",
+  "visual_review": "Three contact sheets inspected: action FALLING while AE NORMAL at4.70s; UNKNOWN at5.33s; FALLING/AE FALL ALERT at5.93s. Earliest visible AE alert5.9s unchanged; no timing improvement."
+}

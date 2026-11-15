@@ -1,0 +1,29 @@
+{
+  "selected": "selective_rotation_256_stage1",
+  "recipe_hash": "bc21ccb5ccb7fe5be7309efa4ba37fadecc31e047d11b3f04b575d250ca9fc9e",
+  "evidence_kind": "real_feature_smoke",
+  "selection_sources": {
+    "train": [
+      "adl-05"
+    ],
+    "validation": [
+      "adl-37",
+      "fall-02",
+      "fall-30"
+    ]
+  },
+  "test_used_for_selection": false,
+  "decision": "Same pilot endpoint coverage as always-rotate while avoiding extra inference when the primary pose meets the fixed quality rule. Limited pilot; no claim of general improvement.",
+  "model_load_reports": {
+    "pose": {
+      "strict": true,
+      "key_conversion": null,
+      "sha256": "517c86f769c6636583083f1467e3d212a0006c27109edb3aeffc19a79622d411"
+    },
+    "stgcn": {
+      "strict": true,
+      "key_conversion": null,
+      "sha256": "12c56ed5535dd28a075e7d04dec96f572f8b1dc87548004761157e15b7d9e12e"
+    }
+  }
+}

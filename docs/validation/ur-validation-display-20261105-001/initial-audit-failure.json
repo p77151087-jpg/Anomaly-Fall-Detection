@@ -1,0 +1,5 @@
+{
+  "stage": "independent timeline audit before pixel verification",
+  "error": "AssertionError: row[current_ae_state] == current",
+  "reason": "Initial independent checker assigned persistent track-gap state before any track existed; original production loop keeps empty status mapping and warms up when first real track appears. Correct independent checker, leave replay/CSV/videos unchanged."
+}

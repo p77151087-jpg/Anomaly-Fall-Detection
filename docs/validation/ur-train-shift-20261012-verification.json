@@ -1,0 +1,302 @@
+{
+  "source_sha256": "2cac51f26e82788c11538f57a120149a90a39b7b2b099f7d156c70a407751d27",
+  "lock_sha256": "a70b3c6b095cba90fb4092bc588540d0c762a6129f6f81cc992cc452a79e82ab",
+  "profile_sha256": "fa450658289fbeb85a0aad0936e91d3afb29870b944caec21667587373b4190e",
+  "evidence_tier": "real_feature_smoke",
+  "preserved_files": 1435,
+  "Train_original_videos": 24,
+  "Train_original_windows": 3638,
+  "Train_derived_windows": 3638,
+  "Train_combined_windows": 7276,
+  "Scaler_Train_only_exact": true,
+  "AE_Train_sources_exact": true,
+  "UR_split_unchanged": true,
+  "original_parity_checks": 48,
+  "original_parity_max": 0.0,
+  "translation_tensor_max": 1.9073486328125e-06,
+  "translation_feature_max": 0.00045096874237060547,
+  "csv_independent_K3_sequences": 23,
+  "metrics": {
+    "metric_unit": "sequence",
+    "TP": 13,
+    "FP": 0,
+    "FN": 2,
+    "TN": 8,
+    "n_total": 23,
+    "n_evaluable": 23,
+    "n_unknown": 0,
+    "sequence_coverage": 1.0,
+    "sequence_accuracy": 0.9130434782608695,
+    "sequence_fall_precision": 1.0,
+    "sequence_fall_recall": 0.8666666666666667,
+    "sequence_fall_f1": 0.9285714285714286,
+    "operational_accuracy": 0.9130434782608695,
+    "end_to_end_fall_recall": 0.8666666666666667,
+    "outcomes_with_unknown": [
+      [
+        8,
+        0,
+        0
+      ],
+      [
+        2,
+        13,
+        0
+      ]
+    ],
+    "outcome_columns": [
+      "normal",
+      "suspected_fall",
+      "unknown"
+    ],
+    "outcome_rows": [
+      "ADL",
+      "Fall"
+    ],
+    "by_class": {
+      "ADL": {
+        "n_total": 8,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "window_coverage": 0.8408956982911019,
+        "n_missing_timelines": 0
+      },
+      "Fall": {
+        "n_total": 15,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "window_coverage": 0.8489634748272458,
+        "n_missing_timelines": 0
+      }
+    },
+    "window_coverage": 0.8439114391143911,
+    "n_missing_timelines": 0
+  },
+  "epochs": 29,
+  "adopted": false,
+  "external_Train_sources": 0,
+  "new_Test_evaluations": 0,
+  "Test_feature_arrays_loaded": 0,
+  "feature_accesses": [
+    {
+      "sequence_id": "adl-33",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-08",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-40",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-19",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-05",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-17",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-26",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-29",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-21",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-25",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-11",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-28",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-31",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-30",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-12",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation"
+    }
+  ]
+}

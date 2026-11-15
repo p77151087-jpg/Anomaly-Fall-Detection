@@ -1,0 +1,12 @@
+{
+  "rejected": true,
+  "command": [
+    "C:\\成大專案\\fall-detection-anomaly\\.venv\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "scripts/analyze_fall19_annotation.py",
+    "--save"
+  ],
+  "exit_code": 1,
+  "stderr": "Traceback (most recent call last):\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\analyze_fall19_annotation.py\", line 120, in <module>\n    analyze(parser.parse_args().save)\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\analyze_fall19_annotation.py\", line 36, in analyze\n    check(not E.exists() and not O.exists(), \"Preserve completed/attempted human diagnosis\")\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\analyze_fall19_annotation.py\", line 31, in check\n    raise ContractError(message)\nfall_detect.io_utils.ContractError: Preserve completed/attempted human diagnosis\n"
+}

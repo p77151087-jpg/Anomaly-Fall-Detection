@@ -1,0 +1,20 @@
+{
+  "external_active_paths_absent": true,
+  "preserved_files": 1430,
+  "relocated_files": 201,
+  "mappings": {
+    "data/raw/external-normal-20261012": "data/retired/external-normal-20261012/raw/external-normal-20261012",
+    "data/cache/external-normal-human-isotropic-20261012-001": "data/retired/external-normal-20261012/cache/external-normal-human-isotropic-20261012-001"
+  },
+  "permanent_deletion": false,
+  "retirement_lock_sha256": "1b0b46d7d744c23d7bdf2b554663c310564b4770f5b118ada3c7945498a2a62f",
+  "active_training_scope": "original UR Train24 ADL only; optional Train derivatives",
+  "external_runs": [
+    "ur-external128-20261012-001",
+    "ur-external256-20261012-001"
+  ],
+  "external_runs_status": "historical comparison only, never adopted",
+  "old_external_verifiers": "Original source paths are retired; use this mapped preservation audit",
+  "new_test_evaluations": 0,
+  "test_feature_arrays_loaded": 0
+}

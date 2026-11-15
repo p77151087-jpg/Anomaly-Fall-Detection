@@ -1,0 +1,187 @@
+{
+  "checks": [
+    {
+      "run": "ur-mirror128-20261012-001",
+      "metrics": {
+        "metric_unit": "sequence",
+        "TP": 13,
+        "FP": 0,
+        "FN": 2,
+        "TN": 8,
+        "n_total": 23,
+        "n_evaluable": 23,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "sequence_accuracy": 0.9130434782608695,
+        "sequence_fall_precision": 1.0,
+        "sequence_fall_recall": 0.8666666666666667,
+        "sequence_fall_f1": 0.9285714285714286,
+        "operational_accuracy": 0.9130434782608695,
+        "end_to_end_fall_recall": 0.8666666666666667,
+        "outcomes_with_unknown": [
+          [
+            8,
+            0,
+            0
+          ],
+          [
+            2,
+            13,
+            0
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8408956982911019,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8489634748272458,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.8439114391143911,
+        "n_missing_timelines": 0
+      },
+      "scaler_exact_train_only": true,
+      "input_matrix_hashes_match": true,
+      "independent_k3_sequences": 23,
+      "eligible": false,
+      "epochs": 42
+    },
+    {
+      "run": "ur-mirror256-20261012-001",
+      "metrics": {
+        "metric_unit": "sequence",
+        "TP": 13,
+        "FP": 0,
+        "FN": 2,
+        "TN": 8,
+        "n_total": 23,
+        "n_evaluable": 23,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "sequence_accuracy": 0.9130434782608695,
+        "sequence_fall_precision": 1.0,
+        "sequence_fall_recall": 0.8666666666666667,
+        "sequence_fall_f1": 0.9285714285714286,
+        "operational_accuracy": 0.9130434782608695,
+        "end_to_end_fall_recall": 0.8666666666666667,
+        "outcomes_with_unknown": [
+          [
+            8,
+            0,
+            0
+          ],
+          [
+            2,
+            13,
+            0
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8408956982911019,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8489634748272458,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.8439114391143911,
+        "n_missing_timelines": 0
+      },
+      "scaler_exact_train_only": true,
+      "input_matrix_hashes_match": true,
+      "independent_k3_sequences": 23,
+      "eligible": false,
+      "epochs": 42
+    }
+  ],
+  "preserved_files": 1110,
+  "learning_curve_fit_count": 4,
+  "learning_curve_epochs": 228,
+  "original_feature_parity_checks": 48,
+  "max_original_feature_difference": 0.0,
+  "original_train_films": 24,
+  "train_rows_original": 3638,
+  "train_rows_augmented": 7276,
+  "synthetic_tests": {
+    "passed": 27,
+    "xml_sha256": "74af9d391c71e8c06583ef9bd2d2b6d37948c4a4b9ee5c9dd5bee551d3e0433c"
+  },
+  "config_transport_repair": {
+    "created_at": "2026-10-12T04:12:00.435505+00:00",
+    "reason": "Strict core config rejects experiment_training_inputs. Preserve preregistered configs/lock; derive identical compatible core configs with metadata moved to the new run sources before calibration. No run had been created and no candidate recognition result was read. No hyperparameter/seed/data/selection/stop change.",
+    "old_source_sha256": "36eb08bbf088fdc153865d5eb17ea2e3a6235656a8fc33a57cd78af55a64a8a6",
+    "archived_source": "docs/validation/normal-data-support-20261012-source-v1.py",
+    "new_source_sha256": "f2e94371e8e37212d33ef2ba7a45f8b1cf59b372f803475727c7f896215b0c9e",
+    "configs": {
+      "configs/ur-mirror128-20261012-001.yaml": {
+        "old_sha256": "f72518ed1722121d51317580e780c76da205c456c873c6f2fc60924c2644ab3d",
+        "core_path": "configs/ur-mirror128-20261012-001-core.yaml",
+        "core_sha256": "a040579ad117b513720de211756a6b46db96d3740beabbd1b2d2108917d5d18f",
+        "marker_moved_to_sources": {
+          "workflow": "scripts/normal_data_support.py training",
+          "profile": "docs/validation/normal-data-support-20261012-mirror.json",
+          "transform": "Train-only horizontal reflection and anatomical left/right permutation before frozen ST-GCN; originals+mirrors1:1, no extra original films"
+        },
+        "model_choice_unchanged": true
+      },
+      "configs/ur-mirror256-20261012-001.yaml": {
+        "old_sha256": "4fd1a93ac54be9ad6490a53637bae5fc1896ec14225f92d282f7cca484c0c0e4",
+        "core_path": "configs/ur-mirror256-20261012-001-core.yaml",
+        "core_sha256": "41aa71c980ce6fce894cc52d6ee05af03a984d9e39f57b50a6084ee531991a2a",
+        "marker_moved_to_sources": {
+          "workflow": "scripts/normal_data_support.py training",
+          "profile": "docs/validation/normal-data-support-20261012-mirror.json",
+          "transform": "Train-only horizontal reflection and anatomical left/right permutation before frozen ST-GCN; originals+mirrors1:1, no extra original films"
+        },
+        "model_choice_unchanged": true
+      }
+    }
+  },
+  "completed_mutations_rejected": {
+    "freeze": "fall_detect.io_utils.ContractError: Diagnostic protocol already frozen",
+    "diagnose": "fall_detect.io_utils.ContractError: Diagnosis completed",
+    "lock": "fall_detect.io_utils.ContractError: Candidate choices already frozen",
+    "mirror": "fall_detect.io_utils.ContractError: Preserve mirror preparation",
+    "training": "fall_detect.io_utils.ContractError: Completed finite round; no additional training"
+  },
+  "evidence_tier": "real_feature_smoke",
+  "fresh_raw_video_pose_extraction": false,
+  "test_feature_arrays_loaded": 0,
+  "new_test_evaluations": 0,
+  "verifier_source_sha256": "05ccce3468b9d28f9b0d1d3ac87ae481dcc1d716e487e7942ffd8a50cc252397"
+}

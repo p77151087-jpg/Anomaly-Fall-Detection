@@ -1,0 +1,77 @@
+{
+  "source_kind": "real_feature_smoke",
+  "rows": [
+    {
+      "sequence_id": "adl-05",
+      "shared_windows": 29,
+      "max_abs_feature_difference": 0.0,
+      "old_yolo_features": 30,
+      "human_s5_features": 29
+    },
+    {
+      "sequence_id": "adl-38",
+      "shared_windows": 31,
+      "max_abs_feature_difference": 0.0,
+      "old_yolo_features": 28,
+      "human_s5_features": 31
+    },
+    {
+      "sequence_id": "adl-24",
+      "shared_windows": 8,
+      "max_abs_feature_difference": 0.0,
+      "old_yolo_features": 9,
+      "human_s5_features": 8
+    },
+    {
+      "sequence_id": "adl-20",
+      "shared_windows": 36,
+      "max_abs_feature_difference": 0.0,
+      "old_yolo_features": 30,
+      "human_s5_features": 36
+    },
+    {
+      "sequence_id": "adl-04",
+      "shared_windows": 23,
+      "max_abs_feature_difference": 0.0,
+      "old_yolo_features": 24,
+      "human_s5_features": 23
+    },
+    {
+      "sequence_id": "fall-19",
+      "shared_windows": 4,
+      "max_abs_feature_difference": 0.0,
+      "old_yolo_features": 5,
+      "human_s5_features": 4
+    },
+    {
+      "sequence_id": "fall-29",
+      "shared_windows": 11,
+      "max_abs_feature_difference": 0.0,
+      "old_yolo_features": 10,
+      "human_s5_features": 11
+    },
+    {
+      "sequence_id": "fall-09",
+      "shared_windows": 26,
+      "max_abs_feature_difference": 0.0,
+      "old_yolo_features": 25,
+      "human_s5_features": 26
+    },
+    {
+      "sequence_id": "fall-25",
+      "shared_windows": 9,
+      "max_abs_feature_difference": 0.0,
+      "old_yolo_features": 9,
+      "human_s5_features": 9
+    },
+    {
+      "sequence_id": "fall-02",
+      "shared_windows": 16,
+      "max_abs_feature_difference": 0.0,
+      "old_yolo_features": 9,
+      "human_s5_features": 16
+    }
+  ],
+  "old_recipe_unchanged": true,
+  "recognition_improvement_not_measured": true
+}

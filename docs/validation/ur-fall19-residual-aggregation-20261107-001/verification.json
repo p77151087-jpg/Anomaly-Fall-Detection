@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "residual_rows_rechecked": 6001,
+  "mean512_float64_residual_mean_max_delta": 4.389964303186389e-7,
+  "top26_independent_partition_max_delta": 0,
+  "metrics_and_events": {
+    "mean512": {
+      "window_rows": 2917,
+      "event_rows": 14,
+      "TP": 14,
+      "TN": 8,
+      "FP": 0,
+      "FN": 1,
+      "unknown": 0
+    },
+    "top26": {
+      "window_rows": 2917,
+      "event_rows": 13,
+      "TP": 13,
+      "TN": 8,
+      "FP": 0,
+      "FN": 2,
+      "unknown": 0
+    }
+  },
+  "display_grid_rows_rechecked": 6754,
+  "display_quality_source": "outputs/ur-validation-alert-quality-20261013-001/causal-sampled-pose-quality.csv",
+  "display_quality_source_sha256": "595eeb21c9b973e8a2af690321511e5250520474eb04dc502a0ec020968cf759",
+  "early_rows_rechecked": 22,
+  "source_hashes_unchanged": 187,
+  "artifact_manifest_sha256": "f079f5a3d33451fe57abd4e11f8b08872032458309b7fb52ac82fb60445c85b5",
+  "repeated_build_refused": true,
+  "synthetic_tests_passed": 22,
+  "synthetic_xml_sha256": "49daf85b6da2498288554007f92b235b085eb864cfcc78225c47335de8b26f35",
+  "archived_docs": {
+    "docs/current-progress.md": "3ecd47fba1c161ebe7832ac6d0517b899bbbd0055f5ec658d5331b4008f77843",
+    "docs/acceptance-results.md": "6f5d7d61a06a60d4a8f4dd3fd93095c94163443a1f4bd280f78e2ddb4b0267f6"
+  },
+  "updated_docs_sha256": {
+    "docs/current-progress.md": "038b5e9ea2352158ed5f9bfb82503816bc96a423a7e148d945a88ef3ba2ca3df",
+    "docs/acceptance-results.md": "fff65642dbc3cf967ea3c17b17e943480423a9bd817d3f21edf1557235c50ecb"
+  },
+  "previous_document_bodies_unchanged": true,
+  "report_sha256": "4c8d3d169c1732fe32a0cbd11a79cdecd5734cd31153c3af00964487027ab8a2",
+  "baseline_csvs_exact": [
+    "windows",
+    "sequences",
+    "events"
+  ],
+  "real_feature_inference": "completed_with_frozen_wide_AE",
+  "cached_display_state_replay": "completed",
+  "new_rgb_end_to_end": "not_run",
+  "graph": {
+    "tier": 2,
+    "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+    "source_and_input_paths": 194,
+    "source_and_input_generation": "2026-11-07T10:03:28Z",
+    "final_generation": "2026-11-07T10:12:12Z",
+    "final_checked_paths": 19,
+    "stale_new_runner_resolved": "Exact source inspected before launch; final coverage metadata_match",
+    "excluded_assets": "Direct reads, previous pins, and input/output SHA checks"
+  },
+  "new_training_epochs": 0,
+  "test_feature_reads": 0,
+  "new_test_evaluations": 0
+}

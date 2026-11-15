@@ -1,0 +1,14 @@
+{
+  "previous_report_sha256": "7107bd964513ae9fbcced0ac7fbb8300f1747641ea7822953e251531c4d62506",
+  "current_report_sha256": "7897892621f5a0eace6b52318055fce61543dddfca6171614848204c5ba788ee",
+  "source_report_generator_before_sha256": "0879ab95d978d1f8c2931b563c8489905466d9fedc16ceb60754eef7fc9697bd",
+  "source_report_generator_after_sha256": "acc25843c7c3148a73792571a1393fe0748780b435b257ec062a0ac54ed846db",
+  "correct_counts": {
+    "original_normal_val_features": 1427,
+    "temporal_train_inputs": 3449,
+    "temporal_normal_val_inputs": 1364,
+    "temporal_all_val_inputs": 2174
+  },
+  "prose_only": true,
+  "model_calibration_and_metrics_unchanged": true
+}

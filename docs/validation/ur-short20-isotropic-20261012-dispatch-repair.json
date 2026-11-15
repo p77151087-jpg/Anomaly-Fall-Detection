@@ -1,0 +1,7 @@
+{
+  "original_source": "docs/validation/ur-short20-isotropic-20261012-workflow-before-dispatch-repair.py",
+  "original_sha256": "9bdacee2acb5a38741dfb23702029f3df76da572dbd56af0371fb0152d5388f3",
+  "repaired_sha256": "5aceb6528114510fa795fe549a2db0fa96791f2dbcbd9d95bba1e3743341ed0a",
+  "before_training": true,
+  "reason": "CLI prepare incorrectly dispatched to imported core prepare without config. Map prepare to full_prepare; accept only this exact archived repair hash. No model/data/pilot/selection/stopping changes. Original lock preserved."
+}

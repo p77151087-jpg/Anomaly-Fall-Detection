@@ -1,0 +1,6 @@
+{
+  "stage": "AI paired visual panels",
+  "reason": "OpenCV imread cannot decode existing Unicode Windows path; SHA succeeded.",
+  "model_results_affected": false,
+  "failed_output_preserved": "pilot-pose-panels"
+}

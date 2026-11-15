@@ -1,0 +1,28 @@
+{
+  "source_kind": "real_end_to_end",
+  "train_action_predictions_not_labels": {
+    "0": 831,
+    "1": 1395,
+    "2": 733,
+    "3": 167,
+    "4": 334,
+    "5": 106,
+    "6": 72
+  },
+  "review_scope": "Four sampled images around each normal sequence maximum-error window; not complete temporal annotation",
+  "confirmed_visual": {
+    "adl-35": "ground push-up-like activity, subject partially exits lower frame",
+    "adl-31": "Train ground exercise with similar lower-frame truncation",
+    "adl-11": "Train sitting on sofa then reclining",
+    "adl-40": "Train ground exercise; changing orientation"
+  },
+  "interpretation": "Normal ground activity already exists in Train. Rare feature patterns and observed pose quality remain hypotheses. Action-head counts are not training labels.",
+  "source_images": {
+    "outputs\\human-quality-diagnosis\\adl-11.jpg": "71fc0b7f568a48d26030768eac5399b2897478c4485393f541e9ad4e751f911f",
+    "outputs\\human-quality-diagnosis\\adl-31.jpg": "6917a9080a38e5b83628b885c25e8ef36919e8f9581b78664b3bf4274a51d10f",
+    "outputs\\human-quality-diagnosis\\adl-35.jpg": "25729fbcd3b483587b8e63ebe58a9d6bdaea7535348542625ff4a8721e13f7b7",
+    "outputs\\human-quality-diagnosis\\adl-37.jpg": "095e973bb5f7910790b319b756cbfa396e8756a7339dd9762eaf27269d177e65",
+    "outputs\\human-quality-diagnosis\\adl-40.jpg": "d952bae4041158062f5b76b192312347a51ee646f0d348fcc66cdf79ffd172ca"
+  },
+  "test_viewed": false
+}

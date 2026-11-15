@@ -1,0 +1,111 @@
+{
+  "documents": {
+    "AGENTS.md": {
+      "sha256": "32cd6bccf338e7abc1cd1e3186199c7a69949e7620d4849af1fbdb50b5335169",
+      "lines": 10
+    },
+    "Fall_Detection_Codex_Implementation_Spec.md": {
+      "sha256": "229044662f5b3bf67a86a34085b087f7c9c19a65cc203015f63addb1a0798a79",
+      "lines": 732
+    },
+    "docs/course-alignment-plan.md": {
+      "sha256": "9000bc62b69e88385614cebfde6c7be1fc769cd62d5838721f7fe81383c7fc25",
+      "lines": 147
+    },
+    "docs/current-progress.md": {
+      "sha256": "e6ffa57c51520fbe198d9f46b1e74210af8577d7ee64b346107eb51d50a010b3",
+      "lines": 373
+    },
+    "docs/acceptance-results.md": {
+      "sha256": "b8f0ac19841a092f4c4b4addffd3fa6dc7f9d95c639da13920b0ed53f495f689",
+      "lines": 330
+    },
+    "docs/ur-only-shift-20261012.md": {
+      "sha256": "6db441097dd13978d8a31da0af9eb54a005df2ba73d2478299c71e31b49c8807",
+      "lines": 55
+    },
+    "docs/ur-isotropic-wide-test-20261012.md": {
+      "sha256": "affb63a490e8f5e33c96736ffbc621650864cc5404f027f9a1d17d591a598f6d",
+      "lines": 77
+    },
+    "docs/ur-short20-isotropic-20261012.md": {
+      "sha256": "dc3133a388fd2cd9eb07f18b89032e1e5a4238ac53c6a3dc072e57c5c0ee16a2",
+      "lines": 104
+    },
+    "docs/ur-short20-isotropic-20261012-plan.md": {
+      "sha256": "2f9ecd0a314ed970562b9cf45fe689e61c0e5b361467a4aa0c60a7334ecb1362",
+      "lines": 17
+    }
+  },
+  "teacher_slides": [
+    "‹#› | THE APPLICATION OF AI FOR ANOMALY DETECTION | Kun-chan Lan | CSIE NCKU  | http://www.csie.ncku.edu.tw/~klan |   | klan@csie.ncku.edu.tw |  ",
+    "2 | Important Information | Course\t\t:人工智慧在異常偵測的應用 | Taught by\t: 藍崑展 | Class No. \t:  P75L000  | Credit\t\t: 3 units | ‹#›",
+    "‹#› | Today | All about the class admin",
+    "‹#› | 課程概述  | Course Description | 本課程主要透過專案學習（PjBL）的方式作為學習媒介，藉由在執行專案時遇到 問題驅使學生自發性尋求協助並從中學習相關知識；在發展的階段，以AI技術構思解決方法，並實作設計一個跌倒偵測系統 | This course will implement the project-based learning (PjBL) method as a learning mechanism, with a hope that, by solving problems during the implementation of a project, students are motivated to seek help spontaneously and learn relevant knowledge by themselves. The context of the projects will focus on the Fall Detection system | 6",
+    "‹#› | Objectives | Overview of Deep Learning (DL)  | Introduction to methods for one-class classification | Implementation of DL for an anomaly detection | 7",
+    "PBL teaching | P | roject- | b | ased  | l | earning | P | roblem- | b | ased  | l | earning | P | roduct- | b | ased  | l | earning | Novelty (demand-based) | Business model (how to sell) | Market value (whom to sell) | Resource-limited thinking (cost-effective thinking) | ‹#›",
+    "PBL | Motivation/Problem | Idea/hypothesis | Problem formulation | Optimization | Classification | Integration | ….. | Experiment/prototype | Performance Evaluation | Sell it | Business model | User interface | …… |  |  | ‹#›",
+    "Maybe something new for you | We will adopt ‘Flipped Classroom’ teaching | Preview class materials before coming to class  | Intro to Computer  | ‹#›",
+    "Flipped classroom | Students learn new content online by watching video lectures | Homework/assigned problems is done in class with teachers offering more personalized guidance and interaction with students, | Intro to Computer  | ‹#›",
+    "            PLEASE DO NOT eat in my class! |    Finish your meal before stepping into my classroom, please! | ‹#›",
+    "‹#› | Today | All about the class admin",
+    "‹#› | 19 | Roadmap | The essentials | Administrative Information | Content | Course objective and scope | Syllabus | Your responsibility | Homework & quiz | Projects | Grading policy | Class material",
+    "‹#› | 20 | The Essentials | Course page | h | ttps://lens.csie.ncku.edu.tw/course?id=aiad-2026-fall |   | It is  | YOUR responsibility  | to frequently check the ‘Announcement’ link on the course page |  | From my web page | http://www.csie.ncku.edu.tw/~klan |   | Click the ‘LENS’ link | Then, click the ‘Courses’ link",
+    "‹#› | 21 | Roadmap | The essentials | Administrative Information | Content | Course objective and scope | Syllabus | Your responsibility | Homework & Quiz | Projects | Grading policy | Class material",
+    "‹#› | 22 | Lecture Info | Location | CSIE Room  | 65104 | Time | Thur 18:30-21:30 | Normally two breaks",
+    "‹#› | 23 | The Instructor | Kun-chan Lan (藍崑展) | Office: new CSIE building 12F 65C05 | Phone: 2757575 x62550 | Email:  | klan@csie.ncku.edu.tw |   | Homepage:  | http://www.csie.ncku.edu.tw/~klan | Office hours:  | by appointment via email",
+    "‹#› | 25 | The TA | Hardik Dhiman (炘哲) | Office: new CSIE building 5F, Laboratory for experimental network and system (LENS) |  | Office Hour: | \t\t | by appointment via email | Email:  | P76147035@gs.ncku.edu.tw",
+    "‹#› | 27 | Roadmap | The essentials | Administrative Information | Content | Course objective and scope | Syllabus | Your responsibility | Homework  | Project | Grading policy | Class material",
+    "Prerequisite | Programming knowledge in Java/C++ | python programming experiences | ‹#›",
+    "‹#› | 29 | Syllabus: Part I (basic) | week 1 (9/10) Administration issue | week 2 (9/17)  | Tutorial for homework I and II (by TA)  | week 3 (9/24) Introduction to Anomaly detection |   | week 4 (10/1) Introduction to Deep Learning (I) | week 5 (10/8) Introduction to Deep Learning (II) ),  | Homework I  due | week 6 (10/15) Introduction to Deep Learning (III) | Week 7 (10/22) Unsupervised Learning | week 8 (10/29 | ) midterm exam",
+    "‹#› | 30 | Syllabus: Part II (advanced) | week 9 (11/5 ) Graphic Neural Network | week 10 (11/12) Generative AI (I),  | Homework II due, Project proposal due | week 11 (11/19) Generative AI (II) | week 12 (11/26) Generative AI (III) | Week 13 (12/3) Taxonomy of Anomaly detection | week 14 (12/11) Conference trip (NO class) | week 15 (12/17) Anomaly detection for Image and Time series data | week 16 (12/24)  | in-class project demo  | week 17 (12/31) Final Exam | ",
+    "‹#› | One class classification",
+    "Generative AI | ‹#› |  |  | ",
+    "Waiver for class attendance | From week 4 to week 7, a waiver of attendance is allowed if you can demonstrate your experience in basic Deep Learning materials |  Make an appointment with me to discuss the possibility for such a waiver | ‹#›",
+    "Be aware  | This is an  | Introductory |  course (which meaning we only talk about things on the surface) | Self-studying/practicing |  after classes is  | strongly required  | for you to complete the term project | ‹#›",
+    "‹#› | 33 | Roadmap | The essentials | Administrative Information | Content | Course objective and scope | Syllabus | Your responsibility | Homework and Quiz | Project | Grading policy | Class material",
+    "‹#› | 34 | How are you evaluated | Homework and Project (70%) – codes will be provided for your reference | Homework I (15%) | Homework II (15%) | Term Project (40%) | Written exams (10 questions) | Midterm (15%) | Final (15%) | Class participation (up  to +/-10%) | Class attendance | In-class discussion | Take-home exercise | ",
+    "Homework I: handwriting recognition | ‹#› | ",
+    "MNIST dataset | How to download | https://ithelp.ithome.com.tw/articles/10186473 | Three parts | Training data - 55000 | Testing data – 10000 | Validation data - 5000 | ‹#›",
+    "Criteria for marking | Many example codes online | We’ll also show an example Keras program in class | Accuracy (both training error and testing error) | You can use  | Fully connected network (FCN) | Convolutional Neural Network (CNN) |  |  |  |  | ‹#›",
+    "Homework II | :  | Semi-supervised Anomaly Detection using AutoEncoders",
+    "Homework II | :  | Semi-supervised Anomaly Detection using AutoEncoders",
+    "model | ‹#› |  |  |  | ",
+    "dataset | ‹#› |  |  |  | ",
+    "Criteria for marking |   Data-set             F1 Score |  DAGMC8          0.96 |  RSDDsI             0.81  |  | Codes and data | https://github.com/msminhas93/anomaly-detection-using-autoencoders | https://zenodo.org/record/8086136 |  |  |  | ‹#›",
+    "Anomaly detection for on Fall Detection | ‹#› | Term project",
+    "Fall detection as anomaly detection | Falling data is not easy to collect | Unbalanced data set | No need to label | Unsupervised learning |  | ‹#›",
+    "Possible approaches for video-based anomaly detection | One-class classification | High-dimensional image data suggests high computation overhead | Autoencoder | With the high-dimensionality of images, pure autoencoders suffer from learning robust data representations | use a feature extractor in the pre-processing phase o obtain a robust and efficient representation |  | ‹#›",
+    "Example | ‹#› |  |  |  |  | ",
+    "Use ST-GCN for feature extraction | ‹#›",
+    "CNN vs. ST-GCN | ‹#› |  |  |  |  | ",
+    "ST-GCN | Blue dots denote the body joints. The intra-body edges between body joints are defined based on the natural connections in human bodies. The inter-frame edges connect the same joints  between consecutive frames. Joint coordinates (obtained through a pose estimator, e.g. OpenPose) are used as inputs to the ST-GCN.  | ‹#›",
+    "Convolution as an  aggregation operation | ‹#›",
+    "GCN vs. CNN |  | CNN | Images,  pixels arranged in a grid-like structure.  | An image can be thought of as a graph where each pixel is a node and is connected to all its neighboring pixel.  | all nodes have same amount of neighbors except those which are at boundary  | There is order in the arrangement of these nodes.  | convolution operation is done on the spatial representation of the image | learn a node-agnostic filter where the same filter matrix is applied to all nodes regardless of its position in the graph | GCN | similar to a CNN. In effect, every nodes information is learnt by aggregating weighted information from its neighbors. | get node-specific filters governed by the Laplacian |  | ‹#›",
+    "Resources | A Framework for Anomaly Identification Applied on Fall Detection | Paper:  | https://ieeexplore.ieee.org/document/9439497 | Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition |   (ST-GCN) Sijie Yan, Yuanjun Xiong and Dahua Lin, AAAI 2018. | Paper:   | https://arxiv.org/abs/1801.07455 | Codes:   | https://github.com/KingMV/st-gcn_ad | Using Tiny-YOLO oneclass to detect each person in the frame and use  | AlphaPose |  to get skeleton-pose and then use  | ST-GCN |  model to predict action from every 30 frames of each person tracks. | https://github.com/GajuuzZ/Human-Falling-Detect-Tracks |  |  | ‹#›",
+    "Dataset (I) | UR Fall Detection Dataset       | http://fenix.ur.edu.pl/~mkepski/ds/uf.html |  | ‹#›",
+    "Dataset (II) | UP-FALL Dataset        https://sites.google.com/up.edu.mx/har-up/ |  | ‹#›",
+    "Benchmark | ‹#› | ",
+    "Your grade |  choose one of the datasets  | ( yours – benchmark) * 10 + 90 |  e.g.  | Your got an accuracy for 99%  for UP-FALL dataset |  (99%-98%) x 100 + 90 = 91 |  Your got an accuracy for 70%  for UP-FALL dataset |  (70%-98%) x 100 + 90 = 61 | We only consider ‘accuracy’ and ‘F1’ | Your grade will be the average score for these 2 metrics |  | ‹#›",
+    "Demo your project | In the end of semester, you will demo your project in-class | Each team has to make 5-min video to demo your project  | The video should be uploaded to youtube in advance  | ‹#›",
+    "‹#› | Project document  | proposal (11/12) | 5 page, 11-pt-font, double-spaced proposal describes/explain the following | How you plan to implement the project | Responsibility for each of your team members | Final  | Project implementation (including source codes and demo video)",
+    "Class participation (10%) | Up to 1% or -0.5%of total credits for each class |  | ‹#›",
+    "‹#› | 50 | Select your group members now! | Find your group members NOW! | 3 members for each group (data preparation, model and n evaluation, demonstration) | You should sit together with your group members every class for in-class discussion |  | Email your group members (name, ID) to TA (NOT me) before the end of this Friday | ",
+    "‹#› | Questions? | "
+  ],
+  "sample_pages": [
+    " \n \n \n人工智慧在異常偵測的應用 \nTeam Project Report \nAnomaly detection for on fall detection \n組員: 陳柏仰, P77121016 資料前處理 \n    顏伯丞, P77121121 模型訓練 \n   吳秀清, z_1121063 影像處理 \n \n \n \n \n ",
+    "目錄: \n1. How we plan to implement the \nproject \n2. Video demonstration \n3. 計算 Accuracy 和 F1 score 程式說\n明 \n \n \n \n \n \n \n \n ",
+    "1. How we plan to implement the project \n1.1 定義問題 \n參考 “A Framework for Anomaly Identification Applied on Fall Detection” \n(Ref 1) 這篇 paper 去實作一個程式並製作一個 demo 影片. \n1.2 分析問題 \n \n依 Ref 1 paper 裡的流程圖, 分別有 1~8 個流程, 1~4 為資料前處理的部份, \n5~8 模型訓練, 而最後還要實現一個 Demo 程式進行 Team project 的展示. \n可以把問題, 細分三個子題來處理, 1.資料前處理 2.模型訓練 3. 影像處理完成 \ndemo 影片. \n1.3 資料前處理 \n如下圖, 依課程投影片的內容, 資料前處理需要協助影像特徵的預萃取, 再提供\n第二階段 autoencoder 的模型訓練, 避免直接處理影像會有維度太大的問題.  \n",
+    " \n如下左圖參考課堂提供的 resources, 其中這個 source code \nhttps://github.com/GajuuzZ/Human-Falling-Detect-Tracks 已經有提供一\n個範例程式(Ref 2), 有 Tiny-YOLO, AlphaPose 和 ST-GCN 分別進行 detect \nperson, get skeleton-pose 和 predict action 作了很好的處理, 所以可以參\n考它的作法來進行預處理的實作. 下右圖是範例程式 Ref 2, Tiny-YOLO, \nAlphaPose 和 ST-GCN source code 所呼叫的程式片段. \n \n而最後還要實現 Normalizer 的步驟即可完成前處理的工作, 如下圖所示. \n",
+    " \n \n1.4 影像處理 \n使用 UR-Fall dataset, 一共有 ADL 類別 40 個影片和 Fall 類別 30 個影片, \n分別跑過測試後, 剪輯成一個完整的 demo 影片. \n \n \n \n \n \n \n \n \n \n \n",
+    "2. Video demonstration  \n而 Video demonstration 一共分三個部份, 1. ADL 偵測影片 2. Fall 偵測影\n片 3. Performance summary \n而 youtube 的路徑: https://youtu.be/qZNQnxy6NIw \n2.1 ADL 影片 \n  \n2.2 Fall 影片 \n  \n2.3 UR-Fall Dataset performance \n使用 UR-Fall Dataset 作測試, 最後我們的 Accuracy = 0.843 ; F1 score = \n0.845, 而對比 paper 的結果 Accuracr=0.9 而 F1 score=0.87, 代表我們的\n模型應該還有優化的空間. \n",
+    "  \n \n \n \n \n \n \n \n \n \n \n \n \n",
+    "3. 計算 Accuracy 和 F1 score 程式說明 \n3.1 資料前處理 \n如果直接重新跑 UR-Fall dataset 70(ADL 40 張, Fall 30 張) 個影片後, 再依\n結果去計算 accuray 和 F1 score 則需要大的檔案和長的處理時間. 所以作了\n簡化, 預先跑了 70 個影片後, 每個影片只取一張影像代表, 沒有偵測到 fall \ndown 的影片, 則輸出最後一張影像作代表, 並在檔名後增加一個識別字母 \n‘n’. 而有偵測到 fall down 的影片則以偵測到 fall down 的第一個影像作\n代表輸出, 另在檔名後增加一個識別字母 ‘a’. \n下圖是輸出的影像, 左邊是沒有偵測到 fall 的, 右邊是有偵測到 fall 的 \n  \n下圖所示, 輸出的檔名有增加 ‘n’ 和 ‘a’ 的識別字母. \n \n",
+    "3.2 Accuracy 和 F1 score 計算程式說明  \n首先程式是 Accuracy and F1 score calculation.ipynb 和有一個 \nUR_Fall_dataset 資料匝放在一起, 而 UR_Fall_dataset 就是放 3.1 所說明的\n預處理的影像. \n \n而打開 Accuracy and F1 score calculation.ipynb 後程式內容說明如下: \n3.2.1 首先載入需要的模組, 和抓取 ADL 和 Fall 影像的所有檔名, 如下圖所\n示: \n \n3.2.2 顯示所有 ADL 影片測試結果的影像, 如下圖所示: \n",
+    " \n3.2.3 顯示所有 Fall 影片測試結果的影像, 如下圖所示: \n \n3.3.4 抓取 ADL 和 Fall 影像的所有檔名的識別字母 ‘n ’ 和 ’a’, 並在 \nADL dataset 統計 TN 和 FP 的次數, 在 Fall dataset 統計 TP 和 FN 的次\n數, 統計完成就依 Accuracy 和 F1 score 的定義算出的結果, 如下圖所示: \n \n"
+  ],
+  "teacher_sha256": "8e71b5649186683c2019b3ed10e984ed182324d15baf1bdfbeeb6e4a10221167",
+  "sample_sha256": "88d02f8f685182e81631467fdd8b8b4d27dd4e03474b54a365ae3bc67c6a011a",
+  "interpretation": "Slides 37-40: normal-data anomaly detection, one-class and AE, ST-GCN example. Sample p3-4 claims AE pipeline, p6 reports 70-video metrics; attachment lacks complete AE training/evaluation evidence. Do not attribute all results to the action classifier."
+}

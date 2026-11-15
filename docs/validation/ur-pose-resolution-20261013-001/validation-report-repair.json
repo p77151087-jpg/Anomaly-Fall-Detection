@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "reason": "Missing protocol_id in report metadata",
+  "change": "Add the original protocol_id to both report metadata dictionaries",
+  "original_locked_source_unchanged": true,
+  "model_and_calibration_run_unchanged": true,
+  "additional_training": 0,
+  "additional_calibrations": 0,
+  "threshold": 0.3137603998184204,
+  "run_hashes": {
+    "autoencoder.pt": "eba216476ea7db9f282e2b375ff676cf8374182299e7ac3036b53a54263bf372",
+    "calibration.json": "666e05ddf1c34728756b74509629f48922ee04060766d9322883435a453745d9",
+    "dataset-index.json": "67b2ab1df11c95eaea9ecdd83a15ec3d078eb904c1240710edcac3ad9ff6bfbb",
+    "environment.json": "2407c9e8ca0b3c54f22d739524bf827701979ab74e733876ccb52eef72d37638",
+    "frozen-artifacts.json": "b59e96e19b5ae1d574f5a5503518700d48ed718c1e9e6193a323e241f1bae4f5",
+    "resolved-config.yaml": "5845e211040e7c0951f4ad91239c0162386e710cdceb9cbae9eb185377d2c204",
+    "scaler.npz": "a0b783fa106f60faa8711af13c8837c144753e84f69beaf26223c7686ba98ac5",
+    "sources.json": "ef64749e573515098846d94b33f197cf5b3684dc151223ed4101d3a20fba25be",
+    "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+    "status.json": "44a52e96f459df0bc8010326f92b665b2e4770e2a1baee16121c2177b599a3d3",
+    "threshold.json": "1e779f397b411496ed0673a163eb9becb708467db3b10dfab8ad46c54eeb6804",
+    "training-artifacts.json": "1ee3d77af154aa111938895bc8ea3f93af46ee8271da2763e57815c9d1810153",
+    "training-curve.png": "f0d2b48449387e556a44e722b1e2344d4ebb2b224f3d5cd767e42c12ad9dd0e1",
+    "training-history.csv": "c0ded345263cc7ad8f0acfd7ca0728dfaf7af9d3aa94f35ef1f98f6c7736119b",
+    "training-progress.json": "70f1c194ab136575a3cd31ccee43c92d76cc15ada6c0efa82ae4e24d88f00405"
+  },
+  "failed_output_hashes": {
+    "docs\\validation\\ur-pose-resolution-20261013-001\\validation-report-failed-output\\baseline\\confusion-matrix.png": "d87cc51e30a808bfdd38fd5e7ac32d3b44f8675cf2b2c5a9e8346d2d74f0d752",
+    "docs\\validation\\ur-pose-resolution-20261013-001\\validation-report-failed-output\\baseline\\events.csv": "4973d91c96e9cd98d325c8a2ddeaf9b3198f2880ce295ada28ddf5e2d4b5be39",
+    "docs\\validation\\ur-pose-resolution-20261013-001\\validation-report-failed-output\\baseline\\metrics.json": "651fa9c8dac6e71896e46b1fc4e2813b861d0fc1799dc30ee4f4420d3a0e3438",
+    "docs\\validation\\ur-pose-resolution-20261013-001\\validation-report-failed-output\\baseline\\outcomes-with-unknown.csv": "9e36756d7bf187be50228852ffff7c2b74d56f0180fdb1ece61c760ad0f09c1c",
+    "docs\\validation\\ur-pose-resolution-20261013-001\\validation-report-failed-output\\baseline\\sequence-results.csv": "ffab70f3530ee26c09236416c8ac82f92cf894c88b414d4acd96274de7926344",
+    "docs\\validation\\ur-pose-resolution-20261013-001\\validation-report-failed-output\\baseline\\window-results.csv": "75da17feffab40f6ba795e7d211e0934340c3070a5f9ebb44db6c18a19141b4c"
+  },
+  "repair_source_sha256": "9aaf0cdba96fd0b4af0bd418d5913dd73a37abaab6f12e6f10bd28a0066a0f24"
+}

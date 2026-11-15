@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "args": [
+        "prepare"
+      ],
+      "exit_code": 1,
+      "reason": "preparation never overwrites",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\pose_coordinate_diagnostic.py\", line 432, in <module>\n    prepare()\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\pose_coordinate_diagnostic.py\", line 107, in prepare\n    raise ContractError(\"Diagnostic directory exists; preparation never overwrites\")\nfall_detect.io_utils.ContractError: Diagnostic directory exists; preparation never overwrites\n"
+    },
+    {
+      "args": [
+        "diagnose"
+      ],
+      "exit_code": 1,
+      "reason": "Inference output already exists",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\pose_coordinate_diagnostic.py\", line 434, in <module>\n    diagnose(args.human_coordinates)\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\pose_coordinate_diagnostic.py\", line 275, in diagnose\n    raise ContractError(\"Inference output already exists; read status/verify instead\")\nfall_detect.io_utils.ContractError: Inference output already exists; read status/verify instead\n"
+    },
+    {
+      "args": [
+        "diagnose",
+        "--human-coordinates",
+        "outputs\\ur-pose-coordinate-diagnostic-20261013-001\\ai-provisional-coordinates.json"
+      ],
+      "exit_code": 1,
+      "reason": "AI positions are not human corrections",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\pose_coordinate_diagnostic.py\", line 434, in <module>\n    diagnose(args.human_coordinates)\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\pose_coordinate_diagnostic.py\", line 267, in diagnose\n    validate_annotation(annotation, reference, require_human=bool(human_path))\n  File \"C:\\成大專案\\fall-detection-anomaly\\src\\fall_detect\\evaluation\\pose_coordinates.py\", line 44, in validate_annotation\n    raise ContractError(\"AI positions are not human corrections\")\nfall_detect.io_utils.ContractError: AI positions are not human corrections\n"
+    }
+  ],
+  "unchanged_diagnostic_artifacts": 30
+}

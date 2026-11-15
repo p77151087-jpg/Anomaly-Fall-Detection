@@ -1,0 +1,89 @@
+{
+  "created_at": "2026-09-18T09:39:28.677346+00:00",
+  "baseline": "ur-sample-human-s1-001",
+  "candidate": "ur-human-isotropic-001",
+  "before_sha256": "dc6e00b9c38ac1d7db476a241f81d6cad523a055c8e2e485a617b481eeb4c47a",
+  "index_sha256": "cd163b0b2eb75044fdfd8127f9e863a06f8039b203a4027a299c7ab11be2e2c6",
+  "diagnosis_sha256": "bddc97fcd4836ae62c5f4d8741fbfff726c670b59fb1dbe0042d4834dbfbfb5d",
+  "annotations_sha256": "5eb533b0e9bcbb0882a84d4db5c668fc4a4763e4c5198b6b617fce6faefab7a6",
+  "files": {
+    "src/fall_detect/config.py": "e2a3d4bb9ee9b21fd66b4a21310fe1bd386888aaf27f080106a416966e5563d3",
+    "src/fall_detect/skeleton/preprocessing.py": "85b0ce5d8354620adc5d50983dad22a42066d48b77e0d57a96b0c0842ce27551",
+    "src/fall_detect/data/pose_reuse.py": "68e4ef2b290c48452c3b10f2fa5583b200c4e17c050fa1c63a5e646f97a30cb6",
+    "scripts/human_isotropic.py": "0f95ae5ca126109aec0f446d1f5fafe0b26527d4b8d09ede5e5eb23968db451a",
+    "scripts/human_keyframes.py": "142f8ac79579912aea2070af9b8dea4114ffd12703b6b3f78d076488d3f8df49",
+    "tests/test_human_isotropic.py": "2461df222b34bb1e4e2b1fd7b12712944be7835b1a081f775977c52faa7d85c0",
+    "configs\\ur-human-isotropic-001.yaml": "a040579ad117b513720de211756a6b46db96d3740beabbd1b2d2108917d5d18f"
+  },
+  "hypothesis": "Independent per-frame X/Y scaling discards pixel bounding-box aspect. Center the observed per-frame pixel bbox and divide both XY by its largest pixel span, to retain aspect before quality is lost. Recognition benefit is unproven; pretrained distribution changes.",
+  "fixed": "One candidate, original30/stride1, same observed joints/confidence/tracks, no interpolation or hidden-joint fabrication, same .2/9/.8 quality, same K3. Frozen genuine512D ST-GCN plus Train ADL scaler/AE128/32, seed42 sequence sampling wd.001 noise0 max100/patience10. NormalVal checkpoint and balanced sequence Accuracy threshold on Val only.",
+  "pilot_ids": [
+    "adl-11",
+    "adl-31",
+    "adl-35",
+    "adl-37",
+    "fall-19",
+    "fall-18",
+    "fall-30",
+    "fall-09"
+  ],
+  "pilot_gate": "All eight finite genuine512D features change measurably, exact same pose arrays and window valid/invalid schedules, each retains legal K3. Diagnostic only, no Accuracy selection.",
+  "coarse_intervals": {
+    "fall-09": {
+      "normal_until_ms": 4304,
+      "fall_phase_ms": [
+        4604,
+        5506
+      ]
+    },
+    "fall-19": {
+      "normal_until_ms": 1167,
+      "fall_phase_ms": [
+        1468,
+        2369
+      ]
+    },
+    "fall-29": {
+      "normal_until_ms": 1735,
+      "fall_phase_ms": [
+        2035,
+        2936
+      ]
+    },
+    "fall-25": {
+      "normal_until_ms": 1568,
+      "fall_phase_ms": [
+        1868,
+        2802
+      ]
+    },
+    "fall-18": {
+      "normal_until_ms": 400,
+      "fall_phase_ms": [
+        800,
+        1601
+      ]
+    },
+    "fall-30": {
+      "normal_until_ms": 800,
+      "fall_phase_ms": [
+        1334,
+        1902
+      ]
+    }
+  },
+  "missed": [
+    "fall-19",
+    "fall-18",
+    "fall-30"
+  ],
+  "selection": "Candidate only if ordinary/all Accuracy strictly improves, F1 not lower, unknown not higher, coarse phase-hit count not lower, no extra coarse early event, and each newly recovered old FN has a CURRENT good-pose visible AE alert inside old prelocked phase. Ties retain baseline. New visual onset brackets are separate diagnostics and do not replace old scoring intervals.",
+  "stop": "Exactly one AE and normalization candidate; stop after result. No second variant, confidence setting, seed or threshold objective. No new Test in this diagnostic experiment; freeze selection before any later Test request. Formal Notebook/film remain held until quality demonstrated.",
+  "targets": {
+    "operational_accuracy": 0.9,
+    "sequence_accuracy": 0.9,
+    "sequence_fall_f1": 0.87
+  },
+  "historical_test_seen": true,
+  "repeated_validation_not_independent": true
+}

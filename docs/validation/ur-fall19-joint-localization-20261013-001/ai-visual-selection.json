@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "diagnostic_id": "ur-fall19-joint-localization-20261013-001",
+  "author_kind": "ai_provisional",
+  "human_confirmed": false,
+  "selected_frame_ids": [44, 47, 49],
+  "selection_basis": "original_RGB_visibility_and_original_joint_geometry; no_new_AE_scoring_or_coordinate_search",
+  "no_corrected_xy_proposed": true,
+  "selection_reasons": {
+    "44": "起始對照，手臂與足部輪廓相對較可辨；檢查原髖／膝／踝是否對應彎腰後的真正下肢，而不是由全骨架wrong標籤推定每點錯。",
+    "47": "原左踝11=(386.98,367.45)與右踝12=(307.90,376.94)疑似靠近前臂區，與後方足部輪廓的關係需人工判讀；不要把AI目視當真值。",
+    "49": "右踝12從48幀(337.38,473.72)到49幀(334.63,406.00)，67.77px跳動，落在膝／軀幹附近的疑點；此幀遮擋較多，也用來確認是否根本無法提供可靠正確位置。"
+  },
+  "frame_observations": {
+    "44": {
+      "upper_body": "肩、肘、腕多沿可見手臂；人物左肘已有人類小幅修正，這裡不重新要求。鼻／肩在彎腰投影下也不可只用高度判錯。",
+      "lower_body": "髖7/8投影靠近上身，膝9/10及踝11/12與手臂／足部輪廓重疊；需人辨識真正關節，不能補造被遮擋的骨盆。",
+      "suspect_joint_indices": [7, 8, 9, 10, 11, 12],
+      "visibility": "部分遮擋與動態模糊，足部輪廓相對後段清楚。"
+    },
+    "45": {
+      "upper_body": "左腕5相較44幀向上約42px，46又向下約51px；原點疑似位在前臂而非手腕。這是額外上半身疑點，僅列報告，沒有追加人工必填影格。",
+      "lower_body": "髖／膝／踝仍與上身／手臂輪廓相近，存在彎腰與遮擋的解釋，沒有joint真值。",
+      "suspect_joint_indices": [5, 7, 8, 9, 10, 11, 12],
+      "visibility": "動態模糊，部分足部仍可見。"
+    },
+    "46": {
+      "upper_body": "兩手伸向下方，原肩肘腕大致沿前臂，但精確位置仍受模糊影響。",
+      "lower_body": "右膝10跳向y417.41，右踝12 y406.71投影高於膝；這不是單靠上下順序就能確認錯位的證據。",
+      "suspect_joint_indices": [7, 8, 9, 10, 11, 12],
+      "visibility": "下肢被上身／手臂遮住，不確定精確髖膝踝。"
+    },
+    "47": {
+      "upper_body": "右肘4／雙腕5/6接近伸出的手臂，人物左肘3已完成既有人工覆核；不由此宣稱上半身全部正確。",
+      "lower_body": "踝11/12疑似落到前臂附近；膝9與左肘3相近，髖7/8靠近肩／軀幹。適合先確認下肢是否可見及是否誤連到手臂。",
+      "suspect_joint_indices": [7, 8, 9, 10, 11, 12],
+      "visibility": "後方足部有轮廓但彎腰遮擋與模糊使左右及精確关節位置不確定。"
+    },
+    "48": {
+      "upper_body": "雙腕5/6接近畫面下緣，原左肘3的人工點接近原模型；沒有新增修正位置。",
+      "lower_body": "左踝11和右踝12相較47幀向下跳88.83及101.16px，疑似與手腕附近區域混淆；只能記為待確認幾何現象。",
+      "suspect_joint_indices": [7, 8, 9, 10, 11, 12],
+      "visibility": "下肢遮擋、動態模糊，部分原點靠近下緣。"
+    },
+    "49": {
+      "upper_body": "上半身仍可辨大致輪廓，手腕接近下緣；這次未做人為移點。",
+      "lower_body": "右踝12相較48幀上跳67.77px，減去全13點中位位移後殘差83.01px；位置疑似回到膝附近，與其他下肢點的對應需人工確認。",
+      "suspect_joint_indices": [7, 8, 9, 10, 11, 12],
+      "visibility": "明顯遮擋／模糊，正確點不可見時只能記null，不提供AI猜座標。"
+    },
+    "50": {
+      "upper_body": "頭部和手臂更靠下，雙腕5/6接近畫面下緣；可見性下降。",
+      "lower_body": "右踝12又向下跳71.96px至y477.92，下肢連線仍與手臂附近重疊；沒有足夠原圖依據猜正確位置。",
+      "suspect_joint_indices": [7, 8, 9, 10, 11, 12],
+      "visibility": "動態模糊及畫面下緣截斷；不增加人工必填影格。"
+    },
+    "51": {
+      "upper_body": "既有人工左肘覆核為不可確認，原點／原品質保留；本輪不重新要求。",
+      "lower_body": "髖膝踝仍有原模型點，不能稱沒有骨架；真正下肢位置被遮擋，無法由AI確立精確位置。",
+      "suspect_joint_indices": [7, 8, 9, 10, 11, 12],
+      "visibility": "明顯遮擋及模糊，不選作額外人工必填影格。"
+    }
+  },
+  "interpretation_limit": "jump_or_projected_bone_length_or_confidence_is_not_error_ground_truth; no_proven_fall19_cause_or_recognition_improvement"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "ur-validation-display-20261105-001",
+  "verified_at_utc": "2026-11-05T10:54:39.255495+00:00",
+  "status": "completed",
+  "evidence_kind": "cached_real_render_replay",
+  "synthetic": [
+    {
+      "file": "synthetic-tests.xml",
+      "tests": 35,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "file": "range-tests.xml",
+      "tests": 16,
+      "failures": 0,
+      "errors": 0
+    }
+  ],
+  "new_real_feature_smoke": "not_run",
+  "new_RGB_model_real_end_to_end": "not_run",
+  "rendered_videos": 9,
+  "individual_native_frames_audited": 434,
+  "decoded_unique_video_frames": 651,
+  "full_model_grid_frames": 640,
+  "saved_window_rows": 466,
+  "bounded_preservation_file_count": 308,
+  "input_file_count": 255,
+  "extra_source_file_count": 12,
+  "output_artifact_count_excluding_manifest": 30,
+  "browser_and_HTTP_Range": {
+    "loaded_seekable": true,
+    "actual_range_status": 206,
+    "playback_half_speed_next_frame_event_jump": "verified",
+    "url": "http://127.0.0.1:8841/index.html"
+  },
+  "exclusive_creation_refusals": {
+    "checks": [
+      {
+        "command": "build",
+        "exit_code": 1,
+        "expected_refusal": true,
+        "message": "Traceback (most recent call last):\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\validation_display_replay.py\", line 654, in <module>\n    main()\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\validation_display_replay.py\", line 638, in main\n    build()\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\validation_display_replay.py\", line 294, in build\n    raise ContractError(\"Preserve existing display replay outputs/QA; refuse overwrite\")\nfall_detect.io_utils.ContractError: Preserve existing display replay outputs/QA; refuse overwrite\n"
+      },
+      {
+        "command": "gallery",
+        "exit_code": 1,
+        "expected_refusal": true,
+        "message": "Traceback (most recent call last):\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\build_validation_display_gallery.py\", line 50, in <module>\n    main()\n  File \"C:\\成大專案\\fall-detection-anomaly\\scripts\\build_validation_display_gallery.py\", line 11, in main\n    raise replay.ContractError(\"Preserve existing video gallery\")\nfall_detect.io_utils.ContractError: Preserve existing video gallery\n"
+      }
+    ],
+    "artifact_count": 30,
+    "before_after_identical": true
+  },
+  "no_new_training_inference_calibration": true,
+  "no_Test_features_images_evaluation": true,
+  "demo_default_changed": false,
+  "quality_rules_changed": false,
+  "accuracy_or_earliness_improvement_claimed": false,
+  "annotation_limits": "Human uncertainty bounds, not exact impact truth; classifier FALLING independent of AE; history can persist while current quality is unknown.",
+  "all_nine_videos_unchanged_after_service_fix": true,
+  "source_files": {
+    "src/fall_detect/visualization/cached_replay.py": "5d19dae36c14866c411c4a881fc7bdbac61fca236c67ccf1f198f43d26d3ce3f",
+    "src/fall_detect/visualization/media_server.py": "0c42559708c35b3d4f5a75986130f62fd14ee2f3cdf8126bb7981ce704d72ccc",
+    "scripts/validation_display_replay.py": "aa586c5499c998bdab28b09fac4b6bdc78f3a31edc9c3e16048d41e909ac4142",
+    "scripts/verify_validation_display.py": "b0d76a78c435153c06a7116a1f624cca8d76b5335406929f48381e1179979e84",
+    "scripts/build_validation_display_gallery.py": "3a05e5e8514773aeed5e8ffcaac98900980d76a62a4eeb9c8eb530b32cda96f9",
+    "tests/test_cached_display_replay.py": "88fd3cf9dd8c5aac7dbd11abba1ad7e510140b9d4a7e944c8e6130692e4d618b",
+    "tests/test_media_byte_range.py": "911947aa58623969ba55a284e3c4372b2238381daaab2a2ef70dd1c9350200f7",
+    "tests/test_sample_display.py": "48da529fc656ebafd7839c19b94daec241d02985959ff0d2b7f4946391027aae",
+    "tests/test_skeleton_visibility.py": "9ea2dfc9117ee622a20e859433825f60206e99ac961ec7f94014693ae8c57326",
+    "src/fall_detect/models/stgcn.py": "125fbd353db7ee64b22be26ea3762c2b4f210fb299b9d4c743c002bc7283da7d",
+    "outputs/sample-display/ur-sample-human-s1-001/fall-09-actions.csv": "2072afad42e49340452e8fbd570fb2bf07352a7b9b520f8abead588fb71725d6",
+    "outputs/sample-display/ur-human-isotropic-001/fall-09-actions.csv": "2072afad42e49340452e8fbd570fb2bf07352a7b9b520f8abead588fb71725d6"
+  },
+  "artifact_manifest_sha256": "8a951359044e8b63475f449441f22fd6fa9a23cfe38bd7254900089a43bc1473",
+  "updated_docs_sha256": {
+    "docs/current-progress.md": "3ecd47fba1c161ebe7832ac6d0517b899bbbd0055f5ec658d5331b4008f77843",
+    "docs/acceptance-results.md": "6f5d7d61a06a60d4a8f4dd3fd93095c94163443a1f4bd280f78e2ddb4b0267f6",
+    "docs/ur-validation-display-20261105.md": "0c3653a9b12d4f2391565c9ed730cc5cbef665b7ffd47a65a539d3947a7f7ecd"
+  },
+  "qa_files_excluding_this_manifest": {
+    "browser-check.json": "8d2da82910a257a5955d9139efc1deb5d00f58dcceda5fe88a54783755e8ed7a",
+    "decoded-native-pixels.csv": "9a5c28ae14ef56895bfe52ae5fa55d7e2f07d315669463b57f6b904595d0faa2",
+    "delivery-coverage.json": "e59d223760dc4de5e91fd30631c559d0338aa8a471683bd5e0ba79b2a38ea1c2",
+    "exclusive-output-check.json": "76d4dba102c381a4f067c6136c38dc6414a110b83f337164aa7d1508c0bd1705",
+    "extra-source-manifest.json": "ff4e2ccd2bd0c070a57102e8bf0ba85ccc68e77a5dc25623abbe8dd42ee520c0",
+    "final-check-commands.json": "21948191996262d1e4372220d39684c83a68bb236240584493075690035b0e05",
+    "graph-evidence.json": "b3a4ba7ab4386bafc391dd47caaee1d6db2f014b24ff77e723e3a09d5c6d85e9",
+    "independent-verification.json": "a882d5754621702c55862accb30d6186640329cc4f65ec58153b80cb84a57716",
+    "initial-audit-failure.json": "fc3d04d1d3d61c9968cae97e9d6adeb6ac6e0b9363af9ffdd3320c3a4d49374c",
+    "initial-browser-seek.json": "d3f36387a6b0daca2e55f62c6136bc120e2f935956727b8fcb31724dbfb61ef5",
+    "initial-independent-auditor.py": "50b615a803cdba55c7390b026a708a746b29078d749edbd2b1f7770e7439f34a",
+    "initial-source/scripts/validation_display_replay.py": "29159d16b1b43e9c9bb5a085d2c48cfd8dee36a021fda7071203b945e631f4a8",
+    "inputs-initial.json": "b17d2cc7298fa7948c6d6b7aadca6bb49c81282347e78e38199694537460f27b",
+    "inputs.json": "b91dd98577515f1d9527177f8e90df4d936cc633f4d0efd708d9ad36409d03d7",
+    "playback-service-repair.json": "439999f7c3d7014aaa8d48fdb1d7b6fad1511eae8a2de72d104f1f9a208c5820",
+    "player-browser-detail.png": "556fbaadbe3976052b48e1562ae3d95115e867995ebdab29558ff496d8a58fec",
+    "player-browser.png": "ca393c4937ba7dfdd04d99354a26b6d538a1e936788c7cbdd4186bb32787e48d",
+    "preservation.json": "b805a774365919e762ba5162e2e72cccdc0b3e1f159fdc0a4d0cd7b75d6bf9b6",
+    "prior-contracts/docs/acceptance-results.md": "3633d715999eb742a0e2b8d2be988a07b8f31d6e6ed05fd60d75a7e927377b3d",
+    "prior-contracts/docs/current-progress.md": "d0a983eff798f4e87113a13a00675d5d87447b97fcdb988fd08232062cc11f0a",
+    "range-http-check.json": "78bb18c8334b248465c954db9b27a6e45cd6ee1beb4b8b4910bc8c1b1bdc84e8",
+    "range-tests.xml": "b9419b3d64470337963e41c4d23bf81aafa16f31af5ab7f56d4cdfde352e63b0",
+    "synthetic-tests.xml": "27e4a74e0fc5d3a8ceb81a6df35bc337fff3a718ef00c910db1e321cb96b4657"
+  }
+}

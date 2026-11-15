@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "preserved_historical_files": 1430,
+  "retired_external_files": 201,
+  "exact_original_core_archives": 3,
+  "external_active_paths_absent": true,
+  "archive_restored_or_redownloaded": false,
+  "original_retirement_lock_unchanged": true,
+  "source_snapshot_sha256": "65a62df445a6fe2d706da1055755e4a44165aa483588933e6d27745f80a46455",
+  "test_arrays_decoded": 0,
+  "hash_checks_only": true
+}

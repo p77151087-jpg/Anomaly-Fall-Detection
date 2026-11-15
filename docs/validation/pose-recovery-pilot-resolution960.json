@@ -1,0 +1,264 @@
+{
+  "name": "resolution960",
+  "config": "configs\\ur-resolution960-001.yaml",
+  "sha256": "2547f74a4647d8c3914d856a5ef7c266acfac81351cbe4d002f099e5e455330f",
+  "index": "data\\cache\\ur-resolution960-001\\real_feature_smoke\\dataset-index.json",
+  "index_sha256": "8090cd9344657d98db135ab0ccea65a27ea199e58ba2fe509c0dfe4b40ab7be9",
+  "rows": [
+    {
+      "sequence_id": "adl-05",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "before": {
+        "features": 30,
+        "evaluable": true,
+        "legal_event_windows": 28,
+        "coverage": 1.0,
+        "quality_counts": {
+          "valid": 30
+        }
+      },
+      "after": {
+        "features": 30,
+        "evaluable": true,
+        "legal_event_windows": 28,
+        "coverage": 1.0,
+        "quality_counts": {
+          "valid": 30
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "before": {
+        "features": 9,
+        "evaluable": true,
+        "legal_event_windows": 7,
+        "coverage": 1.0,
+        "quality_counts": {
+          "valid": 9
+        }
+      },
+      "after": {
+        "features": 9,
+        "evaluable": true,
+        "legal_event_windows": 7,
+        "coverage": 1.0,
+        "quality_counts": {
+          "valid": 9
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "before": {
+        "features": 28,
+        "evaluable": true,
+        "legal_event_windows": 26,
+        "coverage": 0.4375,
+        "quality_counts": {
+          "track_gap": 214,
+          "valid": 28
+        }
+      },
+      "after": {
+        "features": 27,
+        "evaluable": true,
+        "legal_event_windows": 25,
+        "coverage": 0.421875,
+        "quality_counts": {
+          "track_gap": 209,
+          "valid": 27
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "before": {
+        "features": 24,
+        "evaluable": true,
+        "legal_event_windows": 22,
+        "coverage": 1.0,
+        "quality_counts": {
+          "valid": 24
+        }
+      },
+      "after": {
+        "features": 24,
+        "evaluable": true,
+        "legal_event_windows": 22,
+        "coverage": 1.0,
+        "quality_counts": {
+          "valid": 24
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "before": {
+        "features": 30,
+        "evaluable": true,
+        "legal_event_windows": 26,
+        "coverage": 0.625,
+        "quality_counts": {
+          "no_person": 1,
+          "track_gap": 97,
+          "valid": 30
+        }
+      },
+      "after": {
+        "features": 36,
+        "evaluable": true,
+        "legal_event_windows": 32,
+        "coverage": 0.75,
+        "quality_counts": {
+          "track_gap": 65,
+          "valid": 36
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "before": {
+        "features": 9,
+        "evaluable": true,
+        "legal_event_windows": 7,
+        "coverage": 0.5294117647058824,
+        "quality_counts": {
+          "valid": 9,
+          "track_gap": 61
+        }
+      },
+      "after": {
+        "features": 10,
+        "evaluable": true,
+        "legal_event_windows": 8,
+        "coverage": 0.5882352941176471,
+        "quality_counts": {
+          "valid": 10,
+          "track_gap": 27,
+          "low_confidence": 7
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "before": {
+        "features": 3,
+        "evaluable": true,
+        "legal_event_windows": 1,
+        "coverage": 0.375,
+        "quality_counts": {
+          "valid": 3,
+          "track_gap": 30
+        }
+      },
+      "after": {
+        "features": 3,
+        "evaluable": true,
+        "legal_event_windows": 1,
+        "coverage": 0.375,
+        "quality_counts": {
+          "valid": 3,
+          "track_gap": 12
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "before": {
+        "features": 5,
+        "evaluable": true,
+        "legal_event_windows": 3,
+        "coverage": 0.3333333333333333,
+        "quality_counts": {
+          "valid": 5,
+          "track_gap": 36
+        }
+      },
+      "after": {
+        "features": 5,
+        "evaluable": true,
+        "legal_event_windows": 3,
+        "coverage": 0.3333333333333333,
+        "quality_counts": {
+          "valid": 5,
+          "track_gap": 45
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "before": {
+        "features": 10,
+        "evaluable": true,
+        "legal_event_windows": 8,
+        "coverage": 0.7142857142857143,
+        "quality_counts": {
+          "valid": 10,
+          "track_gap": 28
+        }
+      },
+      "after": {
+        "features": 10,
+        "evaluable": true,
+        "legal_event_windows": 8,
+        "coverage": 0.7142857142857143,
+        "quality_counts": {
+          "valid": 10,
+          "track_gap": 15
+        }
+      }
+    }
+  ],
+  "totals": {
+    "ADL": {
+      "before": 121,
+      "after": 126,
+      "ratio": 1.0413223140495869
+    },
+    "Fall": {
+      "before": 27,
+      "after": 28,
+      "ratio": 1.037037037037037
+    }
+  },
+  "gate_passed": false,
+  "source_kind": "real_feature_smoke",
+  "test_scored": false,
+  "accuracy_not_measured": true
+}

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "C:\���j�M��\fall-detection-anomaly\scripts\retire_external_normal.py", line 124, in <module>
+    globals()[parser.parse_args().stage]()
+  File "C:\���j�M��\fall-detection-anomaly\scripts\retire_external_normal.py", line 118, in status
+    print(verify(read_json(LOCK)))
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\���j�M��\fall-detection-anomaly\scripts\retire_external_normal.py", line 100, in verify
+    raise ContractError(f"Archived or preserved artifact changed: {relative}")
+fall_detect.io_utils.ContractError: Archived or preserved artifact changed: src/fall_detect/cli.py

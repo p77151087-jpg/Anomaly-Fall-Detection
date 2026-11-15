@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "refusals": [
+    {
+      "command": [
+        "scripts/validation_alert_quality.py",
+        "build"
+      ],
+      "exit_code": 1,
+      "reason": "fall_detect.io_utils.ContractError: Preserve completed outputs/QA; build refuses an existing directory",
+      "output_hashes_unchanged": 231
+    },
+    {
+      "command": [
+        "scripts/finish_validation_alert_quality.py"
+      ],
+      "exit_code": 1,
+      "reason": "fall_detect.io_utils.ContractError: Preserve the completed appendix audit",
+      "output_hashes_unchanged": 231
+    }
+  ]
+}

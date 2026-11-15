@@ -1,0 +1,822 @@
+Verified 5000 preserved assets
+Verified 10000 preserved assets
+Verified 15000 preserved assets
+Verified 20000 preserved assets
+Verified 25000 preserved assets
+{
+  "passed": true,
+  "evidence_level": "real_feature_smoke",
+  "candidate": "ur-pose-resolution-20261013-001",
+  "baseline": {
+    "metrics": {
+      "TP": 14,
+      "TN": 8,
+      "FP": 0,
+      "FN": 1,
+      "n_total": 23,
+      "n_evaluable": 23,
+      "n_unknown": 0,
+      "sequence_accuracy": 0.9565217391304348,
+      "operational_accuracy": 0.9565217391304348,
+      "sequence_fall_precision": 1.0,
+      "sequence_fall_recall": 0.9333333333333333,
+      "sequence_fall_f1": 0.9655172413793104,
+      "end_to_end_fall_recall": 0.9333333333333333,
+      "outcomes_with_unknown": [
+        [
+          8,
+          0,
+          0
+        ],
+        [
+          1,
+          14,
+          0
+        ]
+      ]
+    },
+    "threshold": 0.5341113805770874,
+    "scores_checked": 2363,
+    "windows_checked": 2917,
+    "events_checked": 14,
+    "calibration_rows": [
+      {
+        "sequence_id": "adl-37",
+        "label": 0,
+        "sequence_score": 0.43130481243133545
+      },
+      {
+        "sequence_id": "adl-23",
+        "label": 0,
+        "sequence_score": 0.1718352884054184
+      },
+      {
+        "sequence_id": "adl-20",
+        "label": 0,
+        "sequence_score": 0.18222187459468842
+      },
+      {
+        "sequence_id": "adl-04",
+        "label": 0,
+        "sequence_score": 0.17383751273155212
+      },
+      {
+        "sequence_id": "adl-01",
+        "label": 0,
+        "sequence_score": 0.13784216344356537
+      },
+      {
+        "sequence_id": "adl-16",
+        "label": 0,
+        "sequence_score": 0.14347408711910248
+      },
+      {
+        "sequence_id": "adl-18",
+        "label": 0,
+        "sequence_score": 0.24466033279895782
+      },
+      {
+        "sequence_id": "adl-35",
+        "label": 0,
+        "sequence_score": 0.5341113805770874
+      },
+      {
+        "sequence_id": "fall-22",
+        "label": 1,
+        "sequence_score": 1.2459911108016968
+      },
+      {
+        "sequence_id": "fall-19",
+        "label": 1,
+        "sequence_score": 0.13463649153709412
+      },
+      {
+        "sequence_id": "fall-16",
+        "label": 1,
+        "sequence_score": 2.7522170543670654
+      },
+      {
+        "sequence_id": "fall-18",
+        "label": 1,
+        "sequence_score": 0.5474465489387512
+      },
+      {
+        "sequence_id": "fall-08",
+        "label": 1,
+        "sequence_score": 0.6176121234893799
+      },
+      {
+        "sequence_id": "fall-13",
+        "label": 1,
+        "sequence_score": 3.2248432636260986
+      },
+      {
+        "sequence_id": "fall-29",
+        "label": 1,
+        "sequence_score": 2.1001062393188477
+      },
+      {
+        "sequence_id": "fall-14",
+        "label": 1,
+        "sequence_score": 1.2261343002319336
+      },
+      {
+        "sequence_id": "fall-09",
+        "label": 1,
+        "sequence_score": 1.4481908082962036
+      },
+      {
+        "sequence_id": "fall-07",
+        "label": 1,
+        "sequence_score": 7.401638031005859
+      },
+      {
+        "sequence_id": "fall-11",
+        "label": 1,
+        "sequence_score": 0.8046911358833313
+      },
+      {
+        "sequence_id": "fall-25",
+        "label": 1,
+        "sequence_score": 3.1309218406677246
+      },
+      {
+        "sequence_id": "fall-06",
+        "label": 1,
+        "sequence_score": 2.5593862533569336
+      },
+      {
+        "sequence_id": "fall-02",
+        "label": 1,
+        "sequence_score": 1.5078258514404297
+      },
+      {
+        "sequence_id": "fall-30",
+        "label": 1,
+        "sequence_score": 0.5785617828369141
+      }
+    ],
+    "rows": [
+      {
+        "sequence_id": "adl-37",
+        "label": 0,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "adl-23",
+        "label": 0,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "adl-20",
+        "label": 0,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "adl-04",
+        "label": 0,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "adl-01",
+        "label": 0,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "adl-16",
+        "label": 0,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "adl-18",
+        "label": 0,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "adl-35",
+        "label": 0,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "fall-22",
+        "label": 1,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "fall-19",
+        "label": 1,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "fall-16",
+        "label": 1,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "fall-18",
+        "label": 1,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "fall-08",
+        "label": 1,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "fall-13",
+        "label": 1,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "fall-29",
+        "label": 1,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "fall-14",
+        "label": 1,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "fall-09",
+        "label": 1,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "fall-07",
+        "label": 1,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "fall-11",
+        "label": 1,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "fall-25",
+        "label": 1,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "fall-06",
+        "label": 1,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "fall-02",
+        "label": 1,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "fall-30",
+        "label": 1,
+        "prediction": 1
+      }
+    ],
+    "temporal": {
+      "coarse_phases": [
+        {
+          "sequence_id": "fall-09",
+          "interval": {
+            "normal_until_ms": 4304,
+            "fall_phase_ms": [
+              4604,
+              5506
+            ]
+          },
+          "event_starts": [],
+          "good_event_starts": [],
+          "good_alarm_endpoints": 0,
+          "early_event_starts": []
+        },
+        {
+          "sequence_id": "fall-19",
+          "interval": {
+            "normal_until_ms": 1167,
+            "fall_phase_ms": [
+              1468,
+              2369
+            ]
+          },
+          "event_starts": [],
+          "good_event_starts": [],
+          "good_alarm_endpoints": 0,
+          "early_event_starts": []
+        },
+        {
+          "sequence_id": "fall-29",
+          "interval": {
+            "normal_until_ms": 1735,
+            "fall_phase_ms": [
+              2035,
+              2936
+            ]
+          },
+          "event_starts": [
+            2566.666666666667
+          ],
+          "good_event_starts": [
+            2566.666666666667
+          ],
+          "good_alarm_endpoints": 3,
+          "early_event_starts": []
+        },
+        {
+          "sequence_id": "fall-25",
+          "interval": {
+            "normal_until_ms": 1568,
+            "fall_phase_ms": [
+              1868,
+              2802
+            ]
+          },
+          "event_starts": [
+            2466.666666666667
+          ],
+          "good_event_starts": [],
+          "good_alarm_endpoints": 1,
+          "early_event_starts": []
+        },
+        {
+          "sequence_id": "fall-18",
+          "interval": {
+            "normal_until_ms": 400,
+            "fall_phase_ms": [
+              800,
+              1601
+            ]
+          },
+          "event_starts": [
+            1433.3333333333335
+          ],
+          "good_event_starts": [],
+          "good_alarm_endpoints": 0,
+          "early_event_starts": []
+        },
+        {
+          "sequence_id": "fall-30",
+          "interval": {
+            "normal_until_ms": 800,
+            "fall_phase_ms": [
+              1334,
+              1902
+            ]
+          },
+          "event_starts": [
+            1866.6666666666667
+          ],
+          "good_event_starts": [],
+          "good_alarm_endpoints": 0,
+          "early_event_starts": []
+        }
+      ],
+      "coarse_event_movies": 4,
+      "coarse_good_alarm_movies": 2,
+      "coarse_early_events": 0,
+      "fall19_human_phases": {
+        "upright": {
+          "scheduled_endpoints": 4,
+          "valid_endpoints": 2,
+          "max_raw": 0.03615066781640053,
+          "max_k3": null,
+          "event_starts": [],
+          "good_event_starts": [],
+          "good_alarm_endpoints": 0
+        },
+        "transition": {
+          "scheduled_endpoints": 29,
+          "valid_endpoints": 21,
+          "max_raw": 0.1839069426059723,
+          "max_k3": 0.13463649153709412,
+          "event_starts": [],
+          "good_event_starts": [],
+          "good_alarm_endpoints": 0
+        },
+        "ground": {
+          "scheduled_endpoints": 38,
+          "valid_endpoints": 0,
+          "max_raw": null,
+          "max_k3": null,
+          "event_starts": [],
+          "good_event_starts": [],
+          "good_alarm_endpoints": 0
+        }
+      },
+      "precise_time_ground_truth": false
+    }
+  },
+  "candidate_result": {
+    "metrics": {
+      "TP": 9,
+      "TN": 7,
+      "FP": 1,
+      "FN": 5,
+      "n_total": 23,
+      "n_evaluable": 22,
+      "n_unknown": 1,
+      "sequence_accuracy": 0.7272727272727273,
+      "operational_accuracy": 0.6956521739130435,
+      "sequence_fall_precision": 0.9,
+      "sequence_fall_recall": 0.6428571428571429,
+      "sequence_fall_f1": 0.75,
+      "end_to_end_fall_recall": 0.6,
+      "outcomes_with_unknown": [
+        [
+          7,
+          1,
+          0
+        ],
+        [
+          5,
+          9,
+          1
+        ]
+      ]
+    },
+    "threshold": 0.3137603998184204,
+    "scores_checked": 1325,
+    "windows_checked": 2799,
+    "events_checked": 12,
+    "calibration_rows": [
+      {
+        "sequence_id": "adl-37",
+        "label": 0,
+        "sequence_score": 0.3137603998184204
+      },
+      {
+        "sequence_id": "adl-23",
+        "label": 0,
+        "sequence_score": 0.12542620301246643
+      },
+      {
+        "sequence_id": "adl-20",
+        "label": 0,
+        "sequence_score": 0.20545008778572083
+      },
+      {
+        "sequence_id": "adl-04",
+        "label": 0,
+        "sequence_score": 0.3096337616443634
+      },
+      {
+        "sequence_id": "adl-01",
+        "label": 0,
+        "sequence_score": 0.2679575979709625
+      },
+      {
+        "sequence_id": "adl-16",
+        "label": 0,
+        "sequence_score": 0.21338558197021484
+      },
+      {
+        "sequence_id": "adl-18",
+        "label": 0,
+        "sequence_score": 0.16820773482322693
+      },
+      {
+        "sequence_id": "adl-35",
+        "label": 0,
+        "sequence_score": 0.4977205991744995
+      },
+      {
+        "sequence_id": "fall-22",
+        "label": 1,
+        "sequence_score": null
+      },
+      {
+        "sequence_id": "fall-19",
+        "label": 1,
+        "sequence_score": 0.1758173704147339
+      },
+      {
+        "sequence_id": "fall-16",
+        "label": 1,
+        "sequence_score": 1.9092882871627808
+      },
+      {
+        "sequence_id": "fall-18",
+        "label": 1,
+        "sequence_score": 0.4332134425640106
+      },
+      {
+        "sequence_id": "fall-08",
+        "label": 1,
+        "sequence_score": 1.4130154848098755
+      },
+      {
+        "sequence_id": "fall-13",
+        "label": 1,
+        "sequence_score": 0.12480565905570984
+      },
+      {
+        "sequence_id": "fall-29",
+        "label": 1,
+        "sequence_score": 0.21183262765407562
+      },
+      {
+        "sequence_id": "fall-14",
+        "label": 1,
+        "sequence_score": 0.46476975083351135
+      },
+      {
+        "sequence_id": "fall-09",
+        "label": 1,
+        "sequence_score": 0.37095409631729126
+      },
+      {
+        "sequence_id": "fall-07",
+        "label": 1,
+        "sequence_score": 0.2199910581111908
+      },
+      {
+        "sequence_id": "fall-11",
+        "label": 1,
+        "sequence_score": 0.8408848643302917
+      },
+      {
+        "sequence_id": "fall-25",
+        "label": 1,
+        "sequence_score": 0.18698638677597046
+      },
+      {
+        "sequence_id": "fall-06",
+        "label": 1,
+        "sequence_score": 2.154526710510254
+      },
+      {
+        "sequence_id": "fall-02",
+        "label": 1,
+        "sequence_score": 2.418883800506592
+      },
+      {
+        "sequence_id": "fall-30",
+        "label": 1,
+        "sequence_score": 0.34959876537323
+      }
+    ],
+    "rows": [
+      {
+        "sequence_id": "adl-37",
+        "label": 0,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "adl-23",
+        "label": 0,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "adl-20",
+        "label": 0,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "adl-04",
+        "label": 0,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "adl-01",
+        "label": 0,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "adl-16",
+        "label": 0,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "adl-18",
+        "label": 0,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "adl-35",
+        "label": 0,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "fall-22",
+        "label": 1,
+        "prediction": null
+      },
+      {
+        "sequence_id": "fall-19",
+        "label": 1,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "fall-16",
+        "label": 1,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "fall-18",
+        "label": 1,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "fall-08",
+        "label": 1,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "fall-13",
+        "label": 1,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "fall-29",
+        "label": 1,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "fall-14",
+        "label": 1,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "fall-09",
+        "label": 1,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "fall-07",
+        "label": 1,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "fall-11",
+        "label": 1,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "fall-25",
+        "label": 1,
+        "prediction": 0
+      },
+      {
+        "sequence_id": "fall-06",
+        "label": 1,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "fall-02",
+        "label": 1,
+        "prediction": 1
+      },
+      {
+        "sequence_id": "fall-30",
+        "label": 1,
+        "prediction": 1
+      }
+    ],
+    "temporal": {
+      "coarse_phases": [
+        {
+          "sequence_id": "fall-09",
+          "interval": {
+            "normal_until_ms": 4304,
+            "fall_phase_ms": [
+              4604,
+              5506
+            ]
+          },
+          "event_starts": [
+            4800.0
+          ],
+          "good_event_starts": [
+            4800.0
+          ],
+          "good_alarm_endpoints": 1,
+          "early_event_starts": []
+        },
+        {
+          "sequence_id": "fall-19",
+          "interval": {
+            "normal_until_ms": 1167,
+            "fall_phase_ms": [
+              1468,
+              2369
+            ]
+          },
+          "event_starts": [],
+          "good_event_starts": [],
+          "good_alarm_endpoints": 0,
+          "early_event_starts": []
+        },
+        {
+          "sequence_id": "fall-29",
+          "interval": {
+            "normal_until_ms": 1735,
+            "fall_phase_ms": [
+              2035,
+              2936
+            ]
+          },
+          "event_starts": [],
+          "good_event_starts": [],
+          "good_alarm_endpoints": 0,
+          "early_event_starts": []
+        },
+        {
+          "sequence_id": "fall-25",
+          "interval": {
+            "normal_until_ms": 1568,
+            "fall_phase_ms": [
+              1868,
+              2802
+            ]
+          },
+          "event_starts": [],
+          "good_event_starts": [],
+          "good_alarm_endpoints": 0,
+          "early_event_starts": []
+        },
+        {
+          "sequence_id": "fall-18",
+          "interval": {
+            "normal_until_ms": 400,
+            "fall_phase_ms": [
+              800,
+              1601
+            ]
+          },
+          "event_starts": [
+            1233.3333333333335
+          ],
+          "good_event_starts": [
+            1233.3333333333335
+          ],
+          "good_alarm_endpoints": 2,
+          "early_event_starts": []
+        },
+        {
+          "sequence_id": "fall-30",
+          "interval": {
+            "normal_until_ms": 800,
+            "fall_phase_ms": [
+              1334,
+              1902
+            ]
+          },
+          "event_starts": [],
+          "good_event_starts": [],
+          "good_alarm_endpoints": 0,
+          "early_event_starts": [
+            1100.0
+          ]
+        }
+      ],
+      "coarse_event_movies": 2,
+      "coarse_good_alarm_movies": 2,
+      "coarse_early_events": 1,
+      "fall19_human_phases": {
+        "upright": {
+          "scheduled_endpoints": 4,
+          "valid_endpoints": 2,
+          "max_raw": 0.04536082223057747,
+          "max_k3": null,
+          "event_starts": [],
+          "good_event_starts": [],
+          "good_alarm_endpoints": 0
+        },
+        "transition": {
+          "scheduled_endpoints": 29,
+          "valid_endpoints": 18,
+          "max_raw": 0.21962852776050568,
+          "max_k3": 0.1758173704147339,
+          "event_starts": [],
+          "good_event_starts": [],
+          "good_alarm_endpoints": 0
+        },
+        "ground": {
+          "scheduled_endpoints": 38,
+          "valid_endpoints": 0,
+          "max_raw": null,
+          "max_k3": null,
+          "event_starts": [],
+          "good_event_starts": [],
+          "good_alarm_endpoints": 0
+        }
+      },
+      "precise_time_ground_truth": false
+    }
+  },
+  "train_videos": 24,
+  "train_windows": 2094,
+  "normal_val_videos": 8,
+  "epochs": 32,
+  "best_epoch": 22,
+  "best_normal_val_loss": 0.142064319427204,
+  "checkpoint_normal_val_loss_independent": 0.14206431877323453,
+  "threshold_candidates_checked": 23,
+  "paired_pose_source_rows_checked": 8643,
+  "old_assets_preserved": 25138,
+  "old_contracts_archived": 5,
+  "test_unprepared": 23,
+  "test_feature_reads": 0,
+  "test_image_reads": 0,
+  "new_test_evaluations": 0,
+  "precise_time_ground_truth": false
+}

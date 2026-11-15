@@ -1,0 +1,10 @@
+{
+  "reason": "Independent checker read non-existent top-level count field; actual canonical sources field is training_sampling.train_normal_feature_counts",
+  "archived_source": "docs/validation/ur-train-shift-20261012-verifier-v1.py",
+  "old_source_sha256": "2bec05a34f80f3d68b14c617e2a87c139c2b384809e4ad90b1d97c466040437e",
+  "failed_log": "docs/validation/ur-train-shift-20261012-verification.log",
+  "training_model_data_threshold_changes": false,
+  "new_test_evaluations": 0,
+  "new_source_sha256": "2cac51f26e82788c11538f57a120149a90a39b7b2b099f7d156c70a407751d27",
+  "verified_after_repair": true
+}

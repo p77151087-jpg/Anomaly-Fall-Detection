@@ -1,0 +1,978 @@
+{
+  "source_kind": "real",
+  "evidence_scope": "real_end_to_end: frozen test evaluation plus full fresh Validation video demonstrations; not a reliability claim",
+  "run": "caucafall-extension-001",
+  "demos": {
+    "walk": {
+      "sequence_id": "caucafall-S05-Walk",
+      "output": "outputs\\caucafall-demo-walk.mp4",
+      "metadata": {
+        "codec": "mp4v",
+        "frames": 338,
+        "fps": 30.0,
+        "size_wh": [
+          720,
+          480
+        ],
+        "duration_ms": 11266.666666666668,
+        "decoded_verified": true,
+        "source_kind": "real",
+        "run": "C:\\成大專案\\fall-detection-anomaly\\runs\\caucafall-extension-001",
+        "source": "C:\\成大專案\\fall-detection-anomaly\\data\\raw\\caucafall\\original\\Subject.5\\WalkS5.avi",
+        "recipe_hash": "31790b41169e814324b6f66011ddefb926181f2ccdf2771785c9a30e749d60b8",
+        "threshold": {
+          "schema_version": 1,
+          "threshold": 0.4199422299861908,
+          "comparison": "gt",
+          "consecutive_windows": 3,
+          "split": "validation",
+          "objective": "sequence_fall_f1",
+          "protocol_id": "urfall-le2i-caucafall-subject-sequence-v1",
+          "split_hash": "18fe3ea544602523e56f81d2fe7360feb817a6be6d1d2ac7818304f33c03ddf2",
+          "recipe_hash": "31790b41169e814324b6f66011ddefb926181f2ccdf2771785c9a30e749d60b8",
+          "feature_hashes": {
+            "adl-37": "1f9142b6093c092aff41db985976c88b371aab3e783640daa23d4c5027dbff0a",
+            "adl-23": "5f7840d4a2802726385ac5917df46dbbe9852a1faf847a7c01c726c7142614a0",
+            "adl-20": "fa89f5322ac72a6bb9434a14780e8a3d8598fd63e0d955c06f31c2ca8e150188",
+            "adl-04": "34ef2787413742c1a877fa668f7ce65725b7257dffe37259c511366eef802061",
+            "adl-01": "3a1a21267247ab44646383b03fca267f0d744cdef81add4cdc2ccba95c09def6",
+            "adl-16": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+            "adl-18": "bf2a797f3d8ee5d2f505d34d08440a746e0d4f88794d00d223a7e2ef77964b5d",
+            "adl-35": "ac16e63d1128b62ec2c7c08d3cd49a6e943594788fe64d2aae8119c460d0366f",
+            "fall-22": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+            "fall-19": "6ae8aec373ebce475352dbbfc54df2ce433d981acebb6dadcc18ced4c4236e73",
+            "fall-16": "0bdc5712ab7b6a53a8b094a382927457cad9fbad28a8ca94d36095514a70fc6c",
+            "fall-18": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+            "fall-08": "d4304ee8d34ccd4bef078c0d61d8963594fd9a73e88bd455f8d261584d85685d",
+            "fall-13": "0f8a83b174be38536ce36f601e83f80e0fab6d54cc7a39027d64b053a0380c2b",
+            "fall-29": "ee681f89eaa04c36b7e536903537570729566581c03de250efd2cc83799f046b",
+            "fall-14": "baadba66a016560aa3b0fc3a763e71e86e206a80be5b0d5cb7a92ff6edc3d535",
+            "fall-09": "265666d2206b8ff12b6d5f3dfcc9190169ebd92d9f457ac9194e25a79378f9c1",
+            "fall-07": "1b946cd4080d48f236cda457df4b82966ffa2a346328cde2a76c717eecbc78da",
+            "fall-11": "f2a87fb7eab192af609c7a2e404cbcd38d081abf9ffd70ba958bcd255b58ad5d",
+            "fall-25": "cd4671d273133df1918ccbe32350925c93cedb7e63c1aa88336d823b81e07687",
+            "fall-06": "ef571b93382418acf6e824756dab9a92f702dea0dbb430a6595e9c0d9045f459",
+            "fall-02": "1758e5f1a33c2989393f7c89e3b64060598891ad039fcc4213f13f962b8e8a3a",
+            "fall-30": "ae96917dabebf812cbac94c959c6266c223b458372958f1a0479503b1822f86c",
+            "le2i-Coffee_room_01-video_42": "f5d61f57513f38a5052b1b2e708b68c107baa2e366f2b50bf79c8030b3648d36",
+            "le2i-Coffee_room_01-video_43": "d3b048a5fc63dcf8fea4aedf03d568b2025d7ea8b41d76b22a6c9f7179b0842b",
+            "le2i-Coffee_room_01-video_44": "4941e4958379c0a73034ead35e4433ac5135978a6ed5b1394c426980e7af6197",
+            "le2i-Coffee_room_01-video_45": "d1a8f206c23f5f030c5262ae5749cd3aebf159361c904a2bdf03b38c0d82cc4f",
+            "le2i-Coffee_room_01-video_46": "b9c888f68c2e816a5ab4d96ab2c4cb3c2a28b149e48ff0e2f2527fee73df119a",
+            "le2i-Home_01-video_10": "081373cdcd8677e9846b887fd2ca6522601a5f1521ef03456fd0dad7981eb52f",
+            "le2i-Home_01-video_13": "a7d6c9d81d6c4a107ea927aa3ffa66923780bcbca39d01506db6d0e3388543f9",
+            "le2i-Home_01-video_24": "693abf562da7d67ae545384e12843cc2ab4e707200b67cb7663715d62fcf8ce9",
+            "le2i-Home_01-video_25": "c42534eb9fe7ff1421621765829f243eb990165a801aec421a44506f85e2a9de",
+            "le2i-Home_01-video_28": "68c8a5cd568e171763b98d48abc8df7d23530fa23b4c4f725a00b6b0a2c2d370",
+            "le2i-Home_01-video_4": "fa34bdf886b6bfaa6c330ccd1a29ee64e00e5723b5e7bac9560c491f44025af6",
+            "le2i-Home_02-video_46": "1a5c6efc6feeebb7606b192e7e291872b60a55a139f6bcb68249b895bfaa54e2",
+            "le2i-Home_02-video_47": "aeea34dc23c1994ad3944aef9ba4f9ccc816a53a71bcbfea32f59197cf19a5e4",
+            "le2i-Home_02-video_48": "693639967ae574f08d6b5134624ffc45807967d2db2b3c9f532317f08fa95ac4",
+            "le2i-Home_02-video_51": "ed079e36c98cbecc46434960ea3c478df383561a06d9b5cf6d986b19830b0e07",
+            "caucafall-S05-FallBackwards": "dccc9f122ce48cba1f83b81059b80587fc94dbbfd56b965621f548c17f5d2a86",
+            "caucafall-S05-FallForward": "e55fc2a10b7af9b48cacc4b0a81b10e9fac99220b3be88b93ab59c7bdcd85db2",
+            "caucafall-S05-FallLeft": "843bc6996d223eab8c79e9b161dd0d0eda8af41232e70e36161e28cc1953b80c",
+            "caucafall-S05-FallRight": "784aa256dbc6ee061a75e5e9d549a629606bb5b79f11b1de763506b22d92eb61",
+            "caucafall-S05-FallSitting": "22f0fb69ab651d3913cf72de91446878002d656bbf644b11be16e1a026ea2e16",
+            "caucafall-S05-Hop": "726e25a1377f67b0522c2ed439202343f957cbca9ecaf2bc8968cd477b6f3fd7",
+            "caucafall-S05-Kneel": "95cae6030aa452266ef04441b2021b7b505bd46e9eca234fb52057029a8672d8",
+            "caucafall-S05-Pickupobject": "df41673dcfc2762822a199c52620726fa9cb275a3df4228d3382b414529f0cc0",
+            "caucafall-S05-SitDown": "0bed7d69f3fa7ef594ff5186976932bd979f0feb49ee5ab40b7cc883039b977e",
+            "caucafall-S05-Walk": "5ab35c5fbb7de20e4b78bfa83104d71a871fd99839c1989dd446bbf37fec9613",
+            "caucafall-S10-FallBackwards": "439df9e575af9734fbc72dd2b2cf1fb740d0747f627f7d2ac2d52d60ee79c691",
+            "caucafall-S10-FallForward": "f8496581bb0efe3c8e7b4ff11d86160eab8560f3c9d8393fc74a4808adf0b83a",
+            "caucafall-S10-FallLeft": "37398952583e696578031b55ff446b9928e821790ce294ebeef422db25ef11c9",
+            "caucafall-S10-FallRight": "c72926d0464db9bbfdacc4e19521f5e5f26578914740474f03ddb756ec5a427f",
+            "caucafall-S10-FallSitting": "210ffa101bac4fcbd032a4dbc228c9c5c3f754a3d05fd6dd853ec2595b181ace",
+            "caucafall-S10-Hop": "5cd8f4961f0da9829ae3b0f931a6681316b747a98668a73767e204deabd44a83",
+            "caucafall-S10-Kneel": "20955cb09fa26db2e82fc2eb2bea4a78be9484b4d7ee45cdb0b9df1dd153ef96",
+            "caucafall-S10-Pickupobject": "a12c0366d3320b9061bf936e0d562a2b1b7f636a26163b46b1abb4508bd2de9a",
+            "caucafall-S10-SitDown": "a30242f58dfa8a12fa6dc917771575875bb2096f27bcc9e8a8a96b4fd0791b1b",
+            "caucafall-S10-Walk": "24e24e8d48219481296b221ded6bdd2008bc7d35bcef2f37a61ff1c44bf715ec"
+          },
+          "model_sha256": "e0577797cebbac881542798fb494da291bbf9e9b675ee27a76799538fbf7ed6a",
+          "scaler_sha256": "71eb1762fa33472af3735e03a591ee7abb503f76b50836399732b0513a256e26"
+        },
+        "config": {
+          "project": {
+            "name": "fall-detection-anomaly",
+            "seed": 42
+          },
+          "runtime": {
+            "device": "auto",
+            "num_workers": 0,
+            "torch_threads": 4
+          },
+          "data": {
+            "dataset": "urfall_le2i_caucafall",
+            "raw_dir": "data/raw",
+            "manifest_dir": "data/manifests/caucafall-extension",
+            "cache_dir": "data/cache/caucafall-extension",
+            "camera": 0,
+            "modality": "rgb",
+            "protocol_id": "urfall-le2i-caucafall-subject-sequence-v1",
+            "split_seed": 42,
+            "adl_counts": [
+              24,
+              8,
+              8
+            ],
+            "fall_counts": [
+              0,
+              15,
+              15
+            ],
+            "timestamp_policy": "prefer_source",
+            "fallback_fps": 30,
+            "allow_missing_timestamp_tail": true
+          },
+          "pose": {
+            "backend": "lightweight_openpose",
+            "weights_manifest": "weights/openpose18-manifest.json",
+            "upstream_dir": "third_party/lightweight_openpose",
+            "backbone": "mobilenet_v1",
+            "input_height": 256,
+            "input_width": 192,
+            "detector_size": 384,
+            "detector_confidence": 0.45,
+            "nms_threshold": 0.2,
+            "track_max_age": 30,
+            "track_n_init": 3,
+            "track_similarity_joints": 3,
+            "track_gap_tolerance_ms": 1e-07,
+            "refinement_stages": 3,
+            "inference_refinement_stage": 1,
+            "rotation_angles": [
+              0,
+              -90,
+              90
+            ],
+            "rotation_policy": "low_quality"
+          },
+          "skeleton": {
+            "recipe_id": "lightweight_openpose18_stgcn_kinetics_v1",
+            "target_fps": 30,
+            "window_size": 30,
+            "stride": 5,
+            "missing_frame_policy": "invalidate_window",
+            "span_tolerance": 1e-08,
+            "resampling_hold_policy": "source_interval"
+          },
+          "quality": {
+            "min_joint_confidence": 0.2,
+            "min_valid_joints": 12,
+            "min_good_frame_ratio": 0.8
+          },
+          "features": {
+            "backend": "stgcn_kinetics",
+            "expected_dim": 256,
+            "frozen": true,
+            "upstream_dir": "third_party/stgcn"
+          },
+          "autoencoder": {
+            "sampling": "windows",
+            "hidden_dim": 128,
+            "latent_dim": 32,
+            "learning_rate": 0.001,
+            "batch_size": 32,
+            "max_epochs": 100,
+            "patience": 10,
+            "min_delta": 1e-06
+          },
+          "calibration": {
+            "split": "validation",
+            "objective": "sequence_fall_f1",
+            "comparison": "gt",
+            "consecutive_windows": 3
+          },
+          "evaluation": {
+            "split": "test",
+            "metric_unit": "sequence"
+          },
+          "demo": {
+            "display": false,
+            "output_dir": "outputs/demo",
+            "score_hold_stride_multiplier": 2
+          }
+        },
+        "processing_fps": 61.87883512616702,
+        "video_grid_fps": 30
+      },
+      "sequence_result": {
+        "sequence_id": "caucafall-S05-Walk",
+        "sequence_score": 0.321679949760437,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 62,
+        "n_valid_endpoints": 62,
+        "window_coverage": 1.0,
+        "first_alarm_ms": null
+      },
+      "shared_visible_scored_endpoints": 62,
+      "max_raw_score_difference": 0.0,
+      "hidden_scored_endpoints": [],
+      "state_differences": [],
+      "events_equal": true,
+      "events": [],
+      "preview_at_ms": 2000
+    },
+    "fall": {
+      "sequence_id": "caucafall-S05-FallForward",
+      "output": "outputs\\caucafall-demo-fall.mp4",
+      "metadata": {
+        "codec": "mp4v",
+        "frames": 299,
+        "fps": 30.0,
+        "size_wh": [
+          720,
+          480
+        ],
+        "duration_ms": 9966.666666666666,
+        "decoded_verified": true,
+        "source_kind": "real",
+        "run": "C:\\成大專案\\fall-detection-anomaly\\runs\\caucafall-extension-001",
+        "source": "C:\\成大專案\\fall-detection-anomaly\\data\\raw\\caucafall\\original\\Subject.5\\FallForwardS5.avi",
+        "recipe_hash": "31790b41169e814324b6f66011ddefb926181f2ccdf2771785c9a30e749d60b8",
+        "threshold": {
+          "schema_version": 1,
+          "threshold": 0.4199422299861908,
+          "comparison": "gt",
+          "consecutive_windows": 3,
+          "split": "validation",
+          "objective": "sequence_fall_f1",
+          "protocol_id": "urfall-le2i-caucafall-subject-sequence-v1",
+          "split_hash": "18fe3ea544602523e56f81d2fe7360feb817a6be6d1d2ac7818304f33c03ddf2",
+          "recipe_hash": "31790b41169e814324b6f66011ddefb926181f2ccdf2771785c9a30e749d60b8",
+          "feature_hashes": {
+            "adl-37": "1f9142b6093c092aff41db985976c88b371aab3e783640daa23d4c5027dbff0a",
+            "adl-23": "5f7840d4a2802726385ac5917df46dbbe9852a1faf847a7c01c726c7142614a0",
+            "adl-20": "fa89f5322ac72a6bb9434a14780e8a3d8598fd63e0d955c06f31c2ca8e150188",
+            "adl-04": "34ef2787413742c1a877fa668f7ce65725b7257dffe37259c511366eef802061",
+            "adl-01": "3a1a21267247ab44646383b03fca267f0d744cdef81add4cdc2ccba95c09def6",
+            "adl-16": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+            "adl-18": "bf2a797f3d8ee5d2f505d34d08440a746e0d4f88794d00d223a7e2ef77964b5d",
+            "adl-35": "ac16e63d1128b62ec2c7c08d3cd49a6e943594788fe64d2aae8119c460d0366f",
+            "fall-22": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+            "fall-19": "6ae8aec373ebce475352dbbfc54df2ce433d981acebb6dadcc18ced4c4236e73",
+            "fall-16": "0bdc5712ab7b6a53a8b094a382927457cad9fbad28a8ca94d36095514a70fc6c",
+            "fall-18": "eeb3ee4affebeda8e53e8b0b432c83c1f23ef33c0bd714476637ea60b85ca0ed",
+            "fall-08": "d4304ee8d34ccd4bef078c0d61d8963594fd9a73e88bd455f8d261584d85685d",
+            "fall-13": "0f8a83b174be38536ce36f601e83f80e0fab6d54cc7a39027d64b053a0380c2b",
+            "fall-29": "ee681f89eaa04c36b7e536903537570729566581c03de250efd2cc83799f046b",
+            "fall-14": "baadba66a016560aa3b0fc3a763e71e86e206a80be5b0d5cb7a92ff6edc3d535",
+            "fall-09": "265666d2206b8ff12b6d5f3dfcc9190169ebd92d9f457ac9194e25a79378f9c1",
+            "fall-07": "1b946cd4080d48f236cda457df4b82966ffa2a346328cde2a76c717eecbc78da",
+            "fall-11": "f2a87fb7eab192af609c7a2e404cbcd38d081abf9ffd70ba958bcd255b58ad5d",
+            "fall-25": "cd4671d273133df1918ccbe32350925c93cedb7e63c1aa88336d823b81e07687",
+            "fall-06": "ef571b93382418acf6e824756dab9a92f702dea0dbb430a6595e9c0d9045f459",
+            "fall-02": "1758e5f1a33c2989393f7c89e3b64060598891ad039fcc4213f13f962b8e8a3a",
+            "fall-30": "ae96917dabebf812cbac94c959c6266c223b458372958f1a0479503b1822f86c",
+            "le2i-Coffee_room_01-video_42": "f5d61f57513f38a5052b1b2e708b68c107baa2e366f2b50bf79c8030b3648d36",
+            "le2i-Coffee_room_01-video_43": "d3b048a5fc63dcf8fea4aedf03d568b2025d7ea8b41d76b22a6c9f7179b0842b",
+            "le2i-Coffee_room_01-video_44": "4941e4958379c0a73034ead35e4433ac5135978a6ed5b1394c426980e7af6197",
+            "le2i-Coffee_room_01-video_45": "d1a8f206c23f5f030c5262ae5749cd3aebf159361c904a2bdf03b38c0d82cc4f",
+            "le2i-Coffee_room_01-video_46": "b9c888f68c2e816a5ab4d96ab2c4cb3c2a28b149e48ff0e2f2527fee73df119a",
+            "le2i-Home_01-video_10": "081373cdcd8677e9846b887fd2ca6522601a5f1521ef03456fd0dad7981eb52f",
+            "le2i-Home_01-video_13": "a7d6c9d81d6c4a107ea927aa3ffa66923780bcbca39d01506db6d0e3388543f9",
+            "le2i-Home_01-video_24": "693abf562da7d67ae545384e12843cc2ab4e707200b67cb7663715d62fcf8ce9",
+            "le2i-Home_01-video_25": "c42534eb9fe7ff1421621765829f243eb990165a801aec421a44506f85e2a9de",
+            "le2i-Home_01-video_28": "68c8a5cd568e171763b98d48abc8df7d23530fa23b4c4f725a00b6b0a2c2d370",
+            "le2i-Home_01-video_4": "fa34bdf886b6bfaa6c330ccd1a29ee64e00e5723b5e7bac9560c491f44025af6",
+            "le2i-Home_02-video_46": "1a5c6efc6feeebb7606b192e7e291872b60a55a139f6bcb68249b895bfaa54e2",
+            "le2i-Home_02-video_47": "aeea34dc23c1994ad3944aef9ba4f9ccc816a53a71bcbfea32f59197cf19a5e4",
+            "le2i-Home_02-video_48": "693639967ae574f08d6b5134624ffc45807967d2db2b3c9f532317f08fa95ac4",
+            "le2i-Home_02-video_51": "ed079e36c98cbecc46434960ea3c478df383561a06d9b5cf6d986b19830b0e07",
+            "caucafall-S05-FallBackwards": "dccc9f122ce48cba1f83b81059b80587fc94dbbfd56b965621f548c17f5d2a86",
+            "caucafall-S05-FallForward": "e55fc2a10b7af9b48cacc4b0a81b10e9fac99220b3be88b93ab59c7bdcd85db2",
+            "caucafall-S05-FallLeft": "843bc6996d223eab8c79e9b161dd0d0eda8af41232e70e36161e28cc1953b80c",
+            "caucafall-S05-FallRight": "784aa256dbc6ee061a75e5e9d549a629606bb5b79f11b1de763506b22d92eb61",
+            "caucafall-S05-FallSitting": "22f0fb69ab651d3913cf72de91446878002d656bbf644b11be16e1a026ea2e16",
+            "caucafall-S05-Hop": "726e25a1377f67b0522c2ed439202343f957cbca9ecaf2bc8968cd477b6f3fd7",
+            "caucafall-S05-Kneel": "95cae6030aa452266ef04441b2021b7b505bd46e9eca234fb52057029a8672d8",
+            "caucafall-S05-Pickupobject": "df41673dcfc2762822a199c52620726fa9cb275a3df4228d3382b414529f0cc0",
+            "caucafall-S05-SitDown": "0bed7d69f3fa7ef594ff5186976932bd979f0feb49ee5ab40b7cc883039b977e",
+            "caucafall-S05-Walk": "5ab35c5fbb7de20e4b78bfa83104d71a871fd99839c1989dd446bbf37fec9613",
+            "caucafall-S10-FallBackwards": "439df9e575af9734fbc72dd2b2cf1fb740d0747f627f7d2ac2d52d60ee79c691",
+            "caucafall-S10-FallForward": "f8496581bb0efe3c8e7b4ff11d86160eab8560f3c9d8393fc74a4808adf0b83a",
+            "caucafall-S10-FallLeft": "37398952583e696578031b55ff446b9928e821790ce294ebeef422db25ef11c9",
+            "caucafall-S10-FallRight": "c72926d0464db9bbfdacc4e19521f5e5f26578914740474f03ddb756ec5a427f",
+            "caucafall-S10-FallSitting": "210ffa101bac4fcbd032a4dbc228c9c5c3f754a3d05fd6dd853ec2595b181ace",
+            "caucafall-S10-Hop": "5cd8f4961f0da9829ae3b0f931a6681316b747a98668a73767e204deabd44a83",
+            "caucafall-S10-Kneel": "20955cb09fa26db2e82fc2eb2bea4a78be9484b4d7ee45cdb0b9df1dd153ef96",
+            "caucafall-S10-Pickupobject": "a12c0366d3320b9061bf936e0d562a2b1b7f636a26163b46b1abb4508bd2de9a",
+            "caucafall-S10-SitDown": "a30242f58dfa8a12fa6dc917771575875bb2096f27bcc9e8a8a96b4fd0791b1b",
+            "caucafall-S10-Walk": "24e24e8d48219481296b221ded6bdd2008bc7d35bcef2f37a61ff1c44bf715ec"
+          },
+          "model_sha256": "e0577797cebbac881542798fb494da291bbf9e9b675ee27a76799538fbf7ed6a",
+          "scaler_sha256": "71eb1762fa33472af3735e03a591ee7abb503f76b50836399732b0513a256e26"
+        },
+        "config": {
+          "project": {
+            "name": "fall-detection-anomaly",
+            "seed": 42
+          },
+          "runtime": {
+            "device": "auto",
+            "num_workers": 0,
+            "torch_threads": 4
+          },
+          "data": {
+            "dataset": "urfall_le2i_caucafall",
+            "raw_dir": "data/raw",
+            "manifest_dir": "data/manifests/caucafall-extension",
+            "cache_dir": "data/cache/caucafall-extension",
+            "camera": 0,
+            "modality": "rgb",
+            "protocol_id": "urfall-le2i-caucafall-subject-sequence-v1",
+            "split_seed": 42,
+            "adl_counts": [
+              24,
+              8,
+              8
+            ],
+            "fall_counts": [
+              0,
+              15,
+              15
+            ],
+            "timestamp_policy": "prefer_source",
+            "fallback_fps": 30,
+            "allow_missing_timestamp_tail": true
+          },
+          "pose": {
+            "backend": "lightweight_openpose",
+            "weights_manifest": "weights/openpose18-manifest.json",
+            "upstream_dir": "third_party/lightweight_openpose",
+            "backbone": "mobilenet_v1",
+            "input_height": 256,
+            "input_width": 192,
+            "detector_size": 384,
+            "detector_confidence": 0.45,
+            "nms_threshold": 0.2,
+            "track_max_age": 30,
+            "track_n_init": 3,
+            "track_similarity_joints": 3,
+            "track_gap_tolerance_ms": 1e-07,
+            "refinement_stages": 3,
+            "inference_refinement_stage": 1,
+            "rotation_angles": [
+              0,
+              -90,
+              90
+            ],
+            "rotation_policy": "low_quality"
+          },
+          "skeleton": {
+            "recipe_id": "lightweight_openpose18_stgcn_kinetics_v1",
+            "target_fps": 30,
+            "window_size": 30,
+            "stride": 5,
+            "missing_frame_policy": "invalidate_window",
+            "span_tolerance": 1e-08,
+            "resampling_hold_policy": "source_interval"
+          },
+          "quality": {
+            "min_joint_confidence": 0.2,
+            "min_valid_joints": 12,
+            "min_good_frame_ratio": 0.8
+          },
+          "features": {
+            "backend": "stgcn_kinetics",
+            "expected_dim": 256,
+            "frozen": true,
+            "upstream_dir": "third_party/stgcn"
+          },
+          "autoencoder": {
+            "sampling": "windows",
+            "hidden_dim": 128,
+            "latent_dim": 32,
+            "learning_rate": 0.001,
+            "batch_size": 32,
+            "max_epochs": 100,
+            "patience": 10,
+            "min_delta": 1e-06
+          },
+          "calibration": {
+            "split": "validation",
+            "objective": "sequence_fall_f1",
+            "comparison": "gt",
+            "consecutive_windows": 3
+          },
+          "evaluation": {
+            "split": "test",
+            "metric_unit": "sequence"
+          },
+          "demo": {
+            "display": false,
+            "output_dir": "outputs/demo",
+            "score_hold_stride_multiplier": 2
+          }
+        },
+        "processing_fps": 48.032254285274725,
+        "video_grid_fps": 30
+      },
+      "sequence_result": {
+        "sequence_id": "caucafall-S05-FallForward",
+        "sequence_score": 1.835976481437683,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 54,
+        "n_valid_endpoints": 19,
+        "window_coverage": 0.35185185185185186,
+        "first_alarm_ms": 5466.666666666667
+      },
+      "shared_visible_scored_endpoints": 18,
+      "max_raw_score_difference": 0.0,
+      "hidden_scored_endpoints": [
+        {
+          "sample_index": 184,
+          "track_id": 10
+        }
+      ],
+      "state_differences": [],
+      "events_equal": true,
+      "events": [
+        {
+          "sequence_id": "caucafall-S05-FallForward",
+          "track_id": 10,
+          "confirmed_start_ms": 5466.666666666667,
+          "last_active_ms": 6133.333333333334,
+          "peak_score": 2.5842411518096924,
+          "end_ms": 6300.0,
+          "end_reason": "track_gap"
+        }
+      ],
+      "preview_at_ms": 5566.666666666667
+    }
+  },
+  "frozen_artifacts_after_demo": {
+    "autoencoder.pt": "e0577797cebbac881542798fb494da291bbf9e9b675ee27a76799538fbf7ed6a",
+    "scaler.npz": "71eb1762fa33472af3735e03a591ee7abb503f76b50836399732b0513a256e26",
+    "resolved-config.yaml": "1f395d63dc22f60c6d9bfb2a61b67587e434ebba7787e2235836afcb51ebfde8",
+    "split-manifest.json": "8eeae485ce418fde8ca4158ecf1531246c29dbf29f2c945dd60e2232c2952715",
+    "sources.json": "dbcc95db99e6648fc6ffcc620f9f275a671b72eef215672bb25a02421417f5d0",
+    "dataset-index.json": "8f7d65635b42b8d51d1676f63681a4e8943e04ff82f28e5f6ef4a220190ac0af",
+    "environment.json": "bae2e74110a6ed6164bb2b289b8a3a8b5c150a93a1c417aa7b4e7716cfce283b",
+    "training-history.csv": "9b661ffc1a8e2fcdf10f2e3b2c748e31d303aea58dc404afd978b7ebbbbe01fe",
+    "threshold.json": "3cd45e59d9424b900b0024eb97cdae9aea2fe2b48c26d75a1234963dae03fb30",
+    "calibration.json": "05ce16728dc033c5b12b4ab108ac1e9e356aa366a0c84a540d065e52e15d7fef"
+  },
+  "old_runs_unchanged": true,
+  "loss_viewer": {
+    "run": "caucafall-extension-001",
+    "source_kind": "real",
+    "training": "complete",
+    "history": [
+      {
+        "epoch": 1,
+        "train_loss": 0.5846851411825603,
+        "val_normal_loss": 0.47001775334263146
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.31492202590594603,
+        "val_normal_loss": 0.3689183882281208
+      },
+      {
+        "epoch": 3,
+        "train_loss": 0.25317524410812486,
+        "val_normal_loss": 0.32833368760450293
+      },
+      {
+        "epoch": 4,
+        "train_loss": 0.2251085045438901,
+        "val_normal_loss": 0.3035704618147348
+      },
+      {
+        "epoch": 5,
+        "train_loss": 0.20762043399418548,
+        "val_normal_loss": 0.2903302545824455
+      },
+      {
+        "epoch": 6,
+        "train_loss": 0.19577548102143139,
+        "val_normal_loss": 0.28087251335733354
+      },
+      {
+        "epoch": 7,
+        "train_loss": 0.18647898507669533,
+        "val_normal_loss": 0.27220722131746905
+      },
+      {
+        "epoch": 8,
+        "train_loss": 0.17979541057162976,
+        "val_normal_loss": 0.26669494552154743
+      },
+      {
+        "epoch": 9,
+        "train_loss": 0.1735976862130154,
+        "val_normal_loss": 0.2614089257699354
+      },
+      {
+        "epoch": 10,
+        "train_loss": 0.16814066404144903,
+        "val_normal_loss": 0.25650704974890504
+      },
+      {
+        "epoch": 11,
+        "train_loss": 0.16389345509297384,
+        "val_normal_loss": 0.2533200770160373
+      },
+      {
+        "epoch": 12,
+        "train_loss": 0.159548736933599,
+        "val_normal_loss": 0.25221210042690184
+      },
+      {
+        "epoch": 13,
+        "train_loss": 0.1558889716615091,
+        "val_normal_loss": 0.24744973632871076
+      },
+      {
+        "epoch": 14,
+        "train_loss": 0.1528067255987192,
+        "val_normal_loss": 0.2443641635766209
+      },
+      {
+        "epoch": 15,
+        "train_loss": 0.14985968765659347,
+        "val_normal_loss": 0.23770328260829535
+      },
+      {
+        "epoch": 16,
+        "train_loss": 0.14700299681046408,
+        "val_normal_loss": 0.2385606248592563
+      },
+      {
+        "epoch": 17,
+        "train_loss": 0.1446858482368974,
+        "val_normal_loss": 0.23453673377656487
+      },
+      {
+        "epoch": 18,
+        "train_loss": 0.14247885341893732,
+        "val_normal_loss": 0.23356554916295189
+      },
+      {
+        "epoch": 19,
+        "train_loss": 0.1401023739006955,
+        "val_normal_loss": 0.22838192386918202
+      },
+      {
+        "epoch": 20,
+        "train_loss": 0.13848675046344885,
+        "val_normal_loss": 0.22849665969329502
+      },
+      {
+        "epoch": 21,
+        "train_loss": 0.13668653086516963,
+        "val_normal_loss": 0.22718637796876195
+      },
+      {
+        "epoch": 22,
+        "train_loss": 0.13482596660265875,
+        "val_normal_loss": 0.22595271461144723
+      },
+      {
+        "epoch": 23,
+        "train_loss": 0.13336410410165606,
+        "val_normal_loss": 0.22344394682013258
+      },
+      {
+        "epoch": 24,
+        "train_loss": 0.13210842211062118,
+        "val_normal_loss": 0.22257672790057806
+      },
+      {
+        "epoch": 25,
+        "train_loss": 0.13061274518629562,
+        "val_normal_loss": 0.22151525406930098
+      },
+      {
+        "epoch": 26,
+        "train_loss": 0.12949535223550196,
+        "val_normal_loss": 0.21989284919536844
+      },
+      {
+        "epoch": 27,
+        "train_loss": 0.1285400208399276,
+        "val_normal_loss": 0.21901624140971496
+      },
+      {
+        "epoch": 28,
+        "train_loss": 0.12765871727778388,
+        "val_normal_loss": 0.21727192689616415
+      },
+      {
+        "epoch": 29,
+        "train_loss": 0.12648159110744944,
+        "val_normal_loss": 0.21750051129369571
+      },
+      {
+        "epoch": 30,
+        "train_loss": 0.12554922875036698,
+        "val_normal_loss": 0.2156299571016894
+      },
+      {
+        "epoch": 31,
+        "train_loss": 0.12459016841546074,
+        "val_normal_loss": 0.21453301266443972
+      },
+      {
+        "epoch": 32,
+        "train_loss": 0.12378448076190326,
+        "val_normal_loss": 0.21286616117066268
+      },
+      {
+        "epoch": 33,
+        "train_loss": 0.1228611062000519,
+        "val_normal_loss": 0.212837902241309
+      },
+      {
+        "epoch": 34,
+        "train_loss": 0.12223115148216238,
+        "val_normal_loss": 0.21305701419056117
+      },
+      {
+        "epoch": 35,
+        "train_loss": 0.1217025879253665,
+        "val_normal_loss": 0.2125868912452899
+      },
+      {
+        "epoch": 36,
+        "train_loss": 0.12099877887824162,
+        "val_normal_loss": 0.21089538233573996
+      },
+      {
+        "epoch": 37,
+        "train_loss": 0.12045034327296437,
+        "val_normal_loss": 0.21063388753068316
+      },
+      {
+        "epoch": 38,
+        "train_loss": 0.11957686194490537,
+        "val_normal_loss": 0.21136878250134608
+      },
+      {
+        "epoch": 39,
+        "train_loss": 0.11915526070813504,
+        "val_normal_loss": 0.20978675006042283
+      },
+      {
+        "epoch": 40,
+        "train_loss": 0.11842452747135834,
+        "val_normal_loss": 0.20863252471740618
+      },
+      {
+        "epoch": 41,
+        "train_loss": 0.11802074048806538,
+        "val_normal_loss": 0.2090697033883451
+      },
+      {
+        "epoch": 42,
+        "train_loss": 0.11742904650116617,
+        "val_normal_loss": 0.20704997730334662
+      },
+      {
+        "epoch": 43,
+        "train_loss": 0.11707651329320701,
+        "val_normal_loss": 0.20893043604221787
+      },
+      {
+        "epoch": 44,
+        "train_loss": 0.11658876384181267,
+        "val_normal_loss": 0.20601395214651966
+      },
+      {
+        "epoch": 45,
+        "train_loss": 0.11594328690402159,
+        "val_normal_loss": 0.20674278637982052
+      },
+      {
+        "epoch": 46,
+        "train_loss": 0.11595768087781497,
+        "val_normal_loss": 0.2064927434621838
+      },
+      {
+        "epoch": 47,
+        "train_loss": 0.11542420263788392,
+        "val_normal_loss": 0.2055259893240416
+      },
+      {
+        "epoch": 48,
+        "train_loss": 0.11481656130739376,
+        "val_normal_loss": 0.20599125235617816
+      },
+      {
+        "epoch": 49,
+        "train_loss": 0.114414447298594,
+        "val_normal_loss": 0.20615727331612135
+      },
+      {
+        "epoch": 50,
+        "train_loss": 0.11407699944893458,
+        "val_normal_loss": 0.20473043743398164
+      },
+      {
+        "epoch": 51,
+        "train_loss": 0.11380023910318748,
+        "val_normal_loss": 0.2051843646533635
+      },
+      {
+        "epoch": 52,
+        "train_loss": 0.11351667149691441,
+        "val_normal_loss": 0.2065137375315748
+      },
+      {
+        "epoch": 53,
+        "train_loss": 0.1130542413947978,
+        "val_normal_loss": 0.20369772209524173
+      },
+      {
+        "epoch": 54,
+        "train_loss": 0.1126649689276712,
+        "val_normal_loss": 0.20365066092981834
+      },
+      {
+        "epoch": 55,
+        "train_loss": 0.11242049454038482,
+        "val_normal_loss": 0.2068724970814291
+      },
+      {
+        "epoch": 56,
+        "train_loss": 0.11234567016702063,
+        "val_normal_loss": 0.20474224914233763
+      },
+      {
+        "epoch": 57,
+        "train_loss": 0.11185780537001919,
+        "val_normal_loss": 0.20162518414284222
+      },
+      {
+        "epoch": 58,
+        "train_loss": 0.11171136775574421,
+        "val_normal_loss": 0.2026156883985038
+      },
+      {
+        "epoch": 59,
+        "train_loss": 0.1112334526640344,
+        "val_normal_loss": 0.20188443048080806
+      },
+      {
+        "epoch": 60,
+        "train_loss": 0.11108496555263478,
+        "val_normal_loss": 0.2034833687628083
+      },
+      {
+        "epoch": 61,
+        "train_loss": 0.11080207336775907,
+        "val_normal_loss": 0.20323348523145382
+      },
+      {
+        "epoch": 62,
+        "train_loss": 0.11062519733565969,
+        "val_normal_loss": 0.2027384745691036
+      },
+      {
+        "epoch": 63,
+        "train_loss": 0.1100587737072228,
+        "val_normal_loss": 0.20203964866615914
+      },
+      {
+        "epoch": 64,
+        "train_loss": 0.11011343771327708,
+        "val_normal_loss": 0.20163639086873228
+      },
+      {
+        "epoch": 65,
+        "train_loss": 0.10994264300435307,
+        "val_normal_loss": 0.20184207225753523
+      },
+      {
+        "epoch": 66,
+        "train_loss": 0.11004742622443273,
+        "val_normal_loss": 0.20081288650561727
+      },
+      {
+        "epoch": 67,
+        "train_loss": 0.10932085829715642,
+        "val_normal_loss": 0.20161988175645165
+      },
+      {
+        "epoch": 68,
+        "train_loss": 0.10915056312170057,
+        "val_normal_loss": 0.20382986513655077
+      },
+      {
+        "epoch": 69,
+        "train_loss": 0.10903284785149223,
+        "val_normal_loss": 0.2002692426989086
+      },
+      {
+        "epoch": 70,
+        "train_loss": 0.1087464130313402,
+        "val_normal_loss": 0.19994252321882
+      },
+      {
+        "epoch": 71,
+        "train_loss": 0.10855583548319891,
+        "val_normal_loss": 0.19988910895969655
+      },
+      {
+        "epoch": 72,
+        "train_loss": 0.10831327198060559,
+        "val_normal_loss": 0.20148641482182725
+      },
+      {
+        "epoch": 73,
+        "train_loss": 0.1081615044503071,
+        "val_normal_loss": 0.20014594004049405
+      },
+      {
+        "epoch": 74,
+        "train_loss": 0.10800177187089038,
+        "val_normal_loss": 0.1999263722841369
+      },
+      {
+        "epoch": 75,
+        "train_loss": 0.10768785318070238,
+        "val_normal_loss": 0.20037409950345988
+      },
+      {
+        "epoch": 76,
+        "train_loss": 0.10742420545010245,
+        "val_normal_loss": 0.19955058639146844
+      },
+      {
+        "epoch": 77,
+        "train_loss": 0.10722592001367104,
+        "val_normal_loss": 0.20000032717405908
+      },
+      {
+        "epoch": 78,
+        "train_loss": 0.10721618464672719,
+        "val_normal_loss": 0.20144194944102312
+      },
+      {
+        "epoch": 79,
+        "train_loss": 0.10711351630134597,
+        "val_normal_loss": 0.2017578386717726
+      },
+      {
+        "epoch": 80,
+        "train_loss": 0.10664399925667377,
+        "val_normal_loss": 0.19995636098800312
+      },
+      {
+        "epoch": 81,
+        "train_loss": 0.10678886236951964,
+        "val_normal_loss": 0.20156361924680286
+      },
+      {
+        "epoch": 82,
+        "train_loss": 0.10640015764341289,
+        "val_normal_loss": 0.20072920490611854
+      },
+      {
+        "epoch": 83,
+        "train_loss": 0.10683571507729211,
+        "val_normal_loss": 0.1994752902976198
+      },
+      {
+        "epoch": 84,
+        "train_loss": 0.10608045997449718,
+        "val_normal_loss": 0.19862624826830821
+      },
+      {
+        "epoch": 85,
+        "train_loss": 0.10604632136336414,
+        "val_normal_loss": 0.19866785884277788
+      },
+      {
+        "epoch": 86,
+        "train_loss": 0.10601069465268281,
+        "val_normal_loss": 0.19848134959909006
+      },
+      {
+        "epoch": 87,
+        "train_loss": 0.10582812066056495,
+        "val_normal_loss": 0.19827713730220142
+      },
+      {
+        "epoch": 88,
+        "train_loss": 0.1056732377595211,
+        "val_normal_loss": 0.1985517692937862
+      },
+      {
+        "epoch": 89,
+        "train_loss": 0.10540712944502358,
+        "val_normal_loss": 0.1993140348962843
+      },
+      {
+        "epoch": 90,
+        "train_loss": 0.10528729135245424,
+        "val_normal_loss": 0.2006969348099112
+      },
+      {
+        "epoch": 91,
+        "train_loss": 0.1051867317868689,
+        "val_normal_loss": 0.1997667082250586
+      },
+      {
+        "epoch": 92,
+        "train_loss": 0.10513129781781949,
+        "val_normal_loss": 0.19910977091318585
+      },
+      {
+        "epoch": 93,
+        "train_loss": 0.1050579214611227,
+        "val_normal_loss": 0.198518878963061
+      },
+      {
+        "epoch": 94,
+        "train_loss": 0.10456802948484645,
+        "val_normal_loss": 0.19895958046032644
+      },
+      {
+        "epoch": 95,
+        "train_loss": 0.10456692311034409,
+        "val_normal_loss": 0.19908917588847025
+      },
+      {
+        "epoch": 96,
+        "train_loss": 0.10447823903590463,
+        "val_normal_loss": 0.19963954482081359
+      },
+      {
+        "epoch": 97,
+        "train_loss": 0.10431338980556709,
+        "val_normal_loss": 0.19877878342589927
+      }
+    ],
+    "best": {
+      "epoch": 87,
+      "train_loss": 0.10582812066056495,
+      "val_normal_loss": 0.19827713730220142
+    },
+    "last": {
+      "epoch": 97,
+      "train_loss": 0.10431338980556709,
+      "val_normal_loss": 0.19877878342589927
+    },
+    "counts": {
+      "train": {
+        "planned": 92,
+        "usable": 87,
+        "windows": 5276
+      },
+      "validation": {
+        "planned": 22,
+        "usable": 21,
+        "windows": 637
+      }
+    },
+    "warnings": [],
+    "updated_at": 1789635902.2666597,
+    "history_verified": true
+  }
+}

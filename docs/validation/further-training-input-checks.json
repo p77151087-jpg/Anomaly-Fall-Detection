@@ -1,0 +1,42 @@
+{
+  "lock_sha256": "a0f9e64bc8f9e6e990d8171c8a08d0745aafb28f4209bf47672283992f16760a",
+  "verified_index_sha256": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+  "config_hashes_verified": {
+    "le2i-long-001": "30f2f66c7ec04fddacbceee52d38bd65ba4ebebe5f0d5149a57a2126e1afde34",
+    "le2i-seqbalanced-001": "d3c6f16e2f6fb72f75301c47442a2f3270ebdbd0d5b80d3b2c0ff4a02d7993d1",
+    "le2i-seqcompact-001": "20be1067056a4afbc7893b2a8b86833cc6a19b36fbb21a567dc9ccdc1a717ea1"
+  },
+  "candidate_scalers_equal_to_baseline": {
+    "le2i-long-001": true,
+    "le2i-seqbalanced-001": true,
+    "le2i-seqcompact-001": true
+  },
+  "normal_training_source_coverage": {
+    "le2i-long-001": {
+      "usable": 57,
+      "planned": 62,
+      "feature_windows": 4180,
+      "train_feature_hashes_equal": true
+    },
+    "le2i-seqbalanced-001": {
+      "usable": 57,
+      "planned": 62,
+      "feature_windows": 4180,
+      "train_feature_hashes_equal": true
+    },
+    "le2i-seqcompact-001": {
+      "usable": 57,
+      "planned": 62,
+      "feature_windows": 4180,
+      "train_feature_hashes_equal": true
+    }
+  },
+  "test_scoring": false,
+  "completed_retry": {
+    "run": "le2i-long-002",
+    "original_config_hash_verified": true,
+    "same_train_and_normal_validation_feature_hashes": true,
+    "same_scaler": true,
+    "same_index": true
+  }
+}

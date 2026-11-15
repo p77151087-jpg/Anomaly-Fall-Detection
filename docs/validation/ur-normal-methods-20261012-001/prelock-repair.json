@@ -1,0 +1,10 @@
+{
+  "failure": "TypeError load_pose_cache missing required expected argument",
+  "training_started": false,
+  "source_before_sha256": "586810febecc677e4e39a386952e4c42ca4474b7d1f00ca550f43c0d7758f476",
+  "source_after_sha256": "6affa94aa9319a7b0ff7e4302b63e25f812f6bba0e984bbc25f12b401cc3b01a",
+  "failed_cache": "data/cache/ur-normal-methods-20261012-001-prelock-failed",
+  "failed_output": "outputs/ur-normal-methods-20261012-001-prelock-failed",
+  "subsequent_real_parity_max_abs": 0,
+  "old_assets_unchanged": true
+}

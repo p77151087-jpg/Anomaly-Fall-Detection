@@ -1,0 +1,541 @@
+{
+  "stage": "stage1",
+  "summary": {
+    "baseline_accuracy": 0.9565217391304348,
+    "baseline_fn": [
+      "fall-19"
+    ],
+    "svm_recovers_fall19": [],
+    "normal_validation_nearest_distance_p50": 0.47615073359764143,
+    "normal_validation_nearest_distance_p95": 0.8229641603350774,
+    "cause_boundary": "Legal windows and low score identify scoring/threshold behavior. Confidence, AI coarse phases and nearest distance do not establish accurate joints, causal representation loss or human onset truth."
+  },
+  "diagnostics": [
+    {
+      "sequence_id": "fall-19",
+      "coarse_phase_ms": [
+        1468,
+        2369
+      ],
+      "quality_counts_full": {
+        "track_gap": 37,
+        "valid": 23,
+        "low_confidence": 11
+      },
+      "phase_scheduled_track_records": 27,
+      "phase_valid_records": 9,
+      "phase_good_pose_endpoints": 7,
+      "nearest_train_normal_distance_phase_median": 0.49220965225780783,
+      "nearest_train_normal_videos": [
+        "adl-26",
+        "adl-32",
+        "adl-38"
+      ],
+      "original_per_frame_head_phase_falling_argmax_count": 0,
+      "head_inputs_valid_count": 9,
+      "models": [
+        {
+          "run": "ur-isotropic-wide-20261012-001",
+          "threshold": 0.5341113805770874,
+          "phase_raw_max": 0.1839069426059723,
+          "phase_k3_max": 0.13463649153709412,
+          "phase_raw_crossing_count": 0,
+          "phase_legal_k3": 9,
+          "sequence_score": 0.13463649153709412,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 8,
+          "falling_head_but_no_ae_alert_endpoints": 0
+        },
+        {
+          "run": "ur-ocsvm-01-20261012-001",
+          "threshold": 0.38530196900676117,
+          "phase_raw_max": 0.5103857331006374,
+          "phase_k3_max": 0.1753747372289971,
+          "phase_raw_crossing_count": 1,
+          "phase_legal_k3": 9,
+          "sequence_score": 0.1753747372289971,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 6,
+          "falling_head_but_no_ae_alert_endpoints": null
+        },
+        {
+          "run": "ur-ocsvm-02-20261012-001",
+          "threshold": 0.4016357157006558,
+          "phase_raw_max": 0.09795406187880484,
+          "phase_k3_max": -0.16188412851715395,
+          "phase_raw_crossing_count": 0,
+          "phase_legal_k3": 9,
+          "sequence_score": -0.16188412851715395,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 6,
+          "falling_head_but_no_ae_alert_endpoints": null
+        },
+        {
+          "run": "ur-ocsvm-03-20261012-001",
+          "threshold": 2.9052462438035302,
+          "phase_raw_max": 3.012567561893178,
+          "phase_k3_max": 1.0782503918293784,
+          "phase_raw_crossing_count": 1,
+          "phase_legal_k3": 9,
+          "sequence_score": 1.0782503918293784,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 6,
+          "falling_head_but_no_ae_alert_endpoints": null
+        },
+        {
+          "run": "ur-ocsvm-04-20261012-001",
+          "threshold": 4.076185209675003,
+          "phase_raw_max": 1.9322097339251876,
+          "phase_k3_max": 0.4236922006673822,
+          "phase_raw_crossing_count": 0,
+          "phase_legal_k3": 9,
+          "sequence_score": 0.4236922006673822,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 6,
+          "falling_head_but_no_ae_alert_endpoints": null
+        },
+        {
+          "run": "ur-ocsvm-05-20261012-001",
+          "threshold": 7.925469632796567,
+          "phase_raw_max": 7.790330903349869,
+          "phase_k3_max": 3.3981566662854092,
+          "phase_raw_crossing_count": 0,
+          "phase_legal_k3": 9,
+          "sequence_score": 3.3981566662854092,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 6,
+          "falling_head_but_no_ae_alert_endpoints": null
+        },
+        {
+          "run": "ur-ocsvm-06-20261012-001",
+          "threshold": 33.554252193118884,
+          "phase_raw_max": 6.547575283373277,
+          "phase_k3_max": 3.048070379046294,
+          "phase_raw_crossing_count": 0,
+          "phase_legal_k3": 9,
+          "sequence_score": 3.048070379046294,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 6,
+          "falling_head_but_no_ae_alert_endpoints": null
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-18",
+      "coarse_phase_ms": [
+        800,
+        1601
+      ],
+      "quality_counts_full": {
+        "track_gap": 20,
+        "valid": 16
+      },
+      "phase_scheduled_track_records": 20,
+      "phase_valid_records": 16,
+      "phase_good_pose_endpoints": 14,
+      "nearest_train_normal_distance_phase_median": 0.8162536318382395,
+      "nearest_train_normal_videos": [
+        "adl-10",
+        "adl-30",
+        "adl-31",
+        "adl-36",
+        "adl-40"
+      ],
+      "original_per_frame_head_phase_falling_argmax_count": 6,
+      "head_inputs_valid_count": 16,
+      "models": [
+        {
+          "run": "ur-isotropic-wide-20261012-001",
+          "threshold": 0.5341113805770874,
+          "phase_raw_max": 0.5960524678230286,
+          "phase_k3_max": 0.5474465489387512,
+          "phase_raw_crossing_count": 4,
+          "phase_legal_k3": 14,
+          "sequence_score": 0.5474465489387512,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 0,
+          "falling_head_but_no_ae_alert_endpoints": 5
+        },
+        {
+          "run": "ur-ocsvm-01-20261012-001",
+          "threshold": 0.38530196900676117,
+          "phase_raw_max": 2.0184646360921006,
+          "phase_k3_max": 1.7795629731788019,
+          "phase_raw_crossing_count": 7,
+          "phase_legal_k3": 14,
+          "sequence_score": 1.7795629731788019,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 1,
+          "falling_head_but_no_ae_alert_endpoints": null
+        },
+        {
+          "run": "ur-ocsvm-02-20261012-001",
+          "threshold": 0.4016357157006558,
+          "phase_raw_max": 3.7913483173590086,
+          "phase_k3_max": 3.137915471906482,
+          "phase_raw_crossing_count": 7,
+          "phase_legal_k3": 14,
+          "sequence_score": 3.137915471906482,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 1,
+          "falling_head_but_no_ae_alert_endpoints": null
+        },
+        {
+          "run": "ur-ocsvm-03-20261012-001",
+          "threshold": 2.9052462438035302,
+          "phase_raw_max": 11.350409255803406,
+          "phase_k3_max": 10.012167650942134,
+          "phase_raw_crossing_count": 7,
+          "phase_legal_k3": 14,
+          "sequence_score": 10.012167650942134,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 1,
+          "falling_head_but_no_ae_alert_endpoints": null
+        },
+        {
+          "run": "ur-ocsvm-04-20261012-001",
+          "threshold": 4.076185209675003,
+          "phase_raw_max": 23.043095554261125,
+          "phase_k3_max": 19.168357465480327,
+          "phase_raw_crossing_count": 7,
+          "phase_legal_k3": 14,
+          "sequence_score": 19.168357465480327,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 1,
+          "falling_head_but_no_ae_alert_endpoints": null
+        },
+        {
+          "run": "ur-ocsvm-05-20261012-001",
+          "threshold": 7.925469632796567,
+          "phase_raw_max": 26.64943367459108,
+          "phase_k3_max": 23.925229308636936,
+          "phase_raw_crossing_count": 7,
+          "phase_legal_k3": 14,
+          "sequence_score": 23.925229308636936,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 1,
+          "falling_head_but_no_ae_alert_endpoints": null
+        },
+        {
+          "run": "ur-ocsvm-06-20261012-001",
+          "threshold": 33.554252193118884,
+          "phase_raw_max": 63.885983176208136,
+          "phase_k3_max": 56.91410559994381,
+          "phase_raw_crossing_count": 6,
+          "phase_legal_k3": 14,
+          "sequence_score": 56.91410559994381,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 1,
+          "falling_head_but_no_ae_alert_endpoints": null
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-30",
+      "coarse_phase_ms": [
+        1334,
+        1902
+      ],
+      "quality_counts_full": {
+        "track_gap": 14,
+        "valid": 26,
+        "low_confidence": 1
+      },
+      "phase_scheduled_track_records": 17,
+      "phase_valid_records": 16,
+      "phase_good_pose_endpoints": 10,
+      "nearest_train_normal_distance_phase_median": 0.8127180591572061,
+      "nearest_train_normal_videos": [
+        "adl-10",
+        "adl-17",
+        "adl-30",
+        "adl-40"
+      ],
+      "original_per_frame_head_phase_falling_argmax_count": 2,
+      "head_inputs_valid_count": 16,
+      "models": [
+        {
+          "run": "ur-isotropic-wide-20261012-001",
+          "threshold": 0.5341113805770874,
+          "phase_raw_max": 0.7368536591529846,
+          "phase_k3_max": 0.5785617828369141,
+          "phase_raw_crossing_count": 3,
+          "phase_legal_k3": 16,
+          "sequence_score": 0.5785617828369141,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 0,
+          "falling_head_but_no_ae_alert_endpoints": 1
+        },
+        {
+          "run": "ur-ocsvm-01-20261012-001",
+          "threshold": 0.38530196900676117,
+          "phase_raw_max": 2.1659486805623964,
+          "phase_k3_max": 1.796961632722004,
+          "phase_raw_crossing_count": 10,
+          "phase_legal_k3": 16,
+          "sequence_score": 1.796961632722004,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 1,
+          "falling_head_but_no_ae_alert_endpoints": null
+        },
+        {
+          "run": "ur-ocsvm-02-20261012-001",
+          "threshold": 0.4016357157006558,
+          "phase_raw_max": 4.341729557311855,
+          "phase_k3_max": 3.2436740857963393,
+          "phase_raw_crossing_count": 6,
+          "phase_legal_k3": 16,
+          "sequence_score": 3.2436740857963393,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 1,
+          "falling_head_but_no_ae_alert_endpoints": null
+        },
+        {
+          "run": "ur-ocsvm-03-20261012-001",
+          "threshold": 2.9052462438035302,
+          "phase_raw_max": 12.116079062467769,
+          "phase_k3_max": 10.119906919381279,
+          "phase_raw_crossing_count": 10,
+          "phase_legal_k3": 16,
+          "sequence_score": 10.119906919381279,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 1,
+          "falling_head_but_no_ae_alert_endpoints": null
+        },
+        {
+          "run": "ur-ocsvm-04-20261012-001",
+          "threshold": 4.076185209675003,
+          "phase_raw_max": 25.730785614980476,
+          "phase_k3_max": 19.473815187727944,
+          "phase_raw_crossing_count": 6,
+          "phase_legal_k3": 16,
+          "sequence_score": 19.473815187727944,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 1,
+          "falling_head_but_no_ae_alert_endpoints": null
+        },
+        {
+          "run": "ur-ocsvm-05-20261012-001",
+          "threshold": 7.925469632796567,
+          "phase_raw_max": 27.979647260868852,
+          "phase_k3_max": 24.017194644806143,
+          "phase_raw_crossing_count": 9,
+          "phase_legal_k3": 16,
+          "sequence_score": 24.017194644806143,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 1,
+          "falling_head_but_no_ae_alert_endpoints": null
+        },
+        {
+          "run": "ur-ocsvm-06-20261012-001",
+          "threshold": 33.554252193118884,
+          "phase_raw_max": 67.59988722907593,
+          "phase_k3_max": 56.45349744293112,
+          "phase_raw_crossing_count": 5,
+          "phase_legal_k3": 16,
+          "sequence_score": 56.45349744293112,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 1,
+          "falling_head_but_no_ae_alert_endpoints": null
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-09",
+      "coarse_phase_ms": [
+        4604,
+        5506
+      ],
+      "quality_counts_full": {
+        "track_gap": 2,
+        "valid": 133,
+        "low_confidence": 21
+      },
+      "phase_scheduled_track_records": 27,
+      "phase_valid_records": 15,
+      "phase_good_pose_endpoints": 20,
+      "nearest_train_normal_distance_phase_median": 0.7530327690160193,
+      "nearest_train_normal_videos": [
+        "adl-26",
+        "adl-30",
+        "adl-38",
+        "adl-40"
+      ],
+      "original_per_frame_head_phase_falling_argmax_count": 13,
+      "head_inputs_valid_count": 15,
+      "models": [
+        {
+          "run": "ur-isotropic-wide-20261012-001",
+          "threshold": 0.5341113805770874,
+          "phase_raw_max": 0.6521061062812805,
+          "phase_k3_max": 0.5087147355079651,
+          "phase_raw_crossing_count": 2,
+          "phase_legal_k3": 15,
+          "sequence_score": 1.4481908082962036,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 0,
+          "falling_head_but_no_ae_alert_endpoints": 13
+        },
+        {
+          "run": "ur-ocsvm-01-20261012-001",
+          "threshold": 0.38530196900676117,
+          "phase_raw_max": 1.851024537684117,
+          "phase_k3_max": 1.5228674733520524,
+          "phase_raw_crossing_count": 9,
+          "phase_legal_k3": 15,
+          "sequence_score": 2.327745335454879,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 0,
+          "falling_head_but_no_ae_alert_endpoints": null
+        },
+        {
+          "run": "ur-ocsvm-02-20261012-001",
+          "threshold": 0.4016357157006558,
+          "phase_raw_max": 3.2923420291995864,
+          "phase_k3_max": 2.5266146393026205,
+          "phase_raw_crossing_count": 8,
+          "phase_legal_k3": 15,
+          "sequence_score": 5.4455649668397665,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 0,
+          "falling_head_but_no_ae_alert_endpoints": null
+        },
+        {
+          "run": "ur-ocsvm-03-20261012-001",
+          "threshold": 2.9052462438035302,
+          "phase_raw_max": 10.336781132131264,
+          "phase_k3_max": 8.492084114580935,
+          "phase_raw_crossing_count": 8,
+          "phase_legal_k3": 15,
+          "sequence_score": 12.964060396374592,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 0,
+          "falling_head_but_no_ae_alert_endpoints": null
+        },
+        {
+          "run": "ur-ocsvm-04-20261012-001",
+          "threshold": 4.076185209675003,
+          "phase_raw_max": 19.805278232722262,
+          "phase_k3_max": 15.178956140350923,
+          "phase_raw_crossing_count": 8,
+          "phase_legal_k3": 15,
+          "sequence_score": 31.867359790079153,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 0,
+          "falling_head_but_no_ae_alert_endpoints": null
+        },
+        {
+          "run": "ur-ocsvm-05-20261012-001",
+          "threshold": 7.925469632796567,
+          "phase_raw_max": 24.463648640367495,
+          "phase_k3_max": 20.52360045851992,
+          "phase_raw_crossing_count": 8,
+          "phase_legal_k3": 15,
+          "sequence_score": 29.56961384506215,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 0,
+          "falling_head_but_no_ae_alert_endpoints": null
+        },
+        {
+          "run": "ur-ocsvm-06-20261012-001",
+          "threshold": 33.554252193118884,
+          "phase_raw_max": 57.29183168963431,
+          "phase_k3_max": 47.143560864320676,
+          "phase_raw_crossing_count": 5,
+          "phase_legal_k3": 15,
+          "sequence_score": 76.7662622187657,
+          "minimum_adl_fp_if_threshold_recovers_this_sequence": 0,
+          "falling_head_but_no_ae_alert_endpoints": null
+        }
+      ]
+    }
+  ],
+  "reference_phases": [
+    {
+      "sequence_id": "fall-09",
+      "interval": {
+        "normal_until_ms": 4304,
+        "fall_phase_ms": [
+          4604,
+          5506
+        ]
+      },
+      "phase_event_starts": [],
+      "early_event_starts": [],
+      "visible_phase_alert_ms": [],
+      "phase_valid_windows": 15,
+      "phase_legal_k3": 15
+    },
+    {
+      "sequence_id": "fall-19",
+      "interval": {
+        "normal_until_ms": 1167,
+        "fall_phase_ms": [
+          1468,
+          2369
+        ]
+      },
+      "phase_event_starts": [],
+      "early_event_starts": [],
+      "visible_phase_alert_ms": [],
+      "phase_valid_windows": 9,
+      "phase_legal_k3": 9
+    },
+    {
+      "sequence_id": "fall-29",
+      "interval": {
+        "normal_until_ms": 1735,
+        "fall_phase_ms": [
+          2035,
+          2936
+        ]
+      },
+      "phase_event_starts": [
+        2566.666666666667
+      ],
+      "early_event_starts": [],
+      "visible_phase_alert_ms": [
+        2566.666666666667,
+        2700.0,
+        2733.3333333333335
+      ],
+      "phase_valid_windows": 23,
+      "phase_legal_k3": 23
+    },
+    {
+      "sequence_id": "fall-25",
+      "interval": {
+        "normal_until_ms": 1568,
+        "fall_phase_ms": [
+          1868,
+          2802
+        ]
+      },
+      "phase_event_starts": [
+        2466.666666666667
+      ],
+      "early_event_starts": [],
+      "visible_phase_alert_ms": [
+        2500.0
+      ],
+      "phase_valid_windows": 20,
+      "phase_legal_k3": 20
+    },
+    {
+      "sequence_id": "fall-18",
+      "interval": {
+        "normal_until_ms": 400,
+        "fall_phase_ms": [
+          800,
+          1601
+        ]
+      },
+      "phase_event_starts": [
+        1433.3333333333335
+      ],
+      "early_event_starts": [],
+      "visible_phase_alert_ms": [],
+      "phase_valid_windows": 16,
+      "phase_legal_k3": 14
+    },
+    {
+      "sequence_id": "fall-30",
+      "interval": {
+        "normal_until_ms": 800,
+        "fall_phase_ms": [
+          1334,
+          1902
+        ]
+      },
+      "phase_event_starts": [
+        1866.6666666666667
+      ],
+      "early_event_starts": [],
+      "visible_phase_alert_ms": [],
+      "phase_valid_windows": 16,
+      "phase_legal_k3": 16
+    }
+  ],
+  "strict_classifier_load": {
+    "strict": true,
+    "key_conversion": null,
+    "sha256": "1cac9a6da99d5d67da8ab58ee7633c5e923d85fba668673f028792819750a149"
+  },
+  "classifier_input": "original30 per_frame cached features, class6 Fall Down argmax; independent of isotropic anomaly input",
+  "classifier_used_for_training": false,
+  "test_feature_reads": 0,
+  "test_evaluations": 0
+}

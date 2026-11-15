@@ -1,0 +1,50 @@
+{
+  "source_hashes": {
+    "scripts/ur_pose_resolution.py": "dab869f884bc6c1a726eb9a2ce1aa0c1112fbd2e6d2b72576cda40253135f73e",
+    "src/fall_detect/evaluation/pose_comparison.py": "bad5284c1bec29382834e3e9df6e372e84fd8b8739ffb25406d75f3208ae9419",
+    "tests/test_pose_resolution.py": "131abd761a3e84e384a3a1c8a5e1d51c9a67ace6815ef7099d7b6fe8d84c105f",
+    "src/fall_detect/pipeline.py": "5e7c09f1c4b5ad685dd9965e62e8b31c697f25d2bc12734f85f3475811230cbf",
+    "src/fall_detect/pose/human.py": "6703e6a7f2b207327716c0e7f6491093e8b96f94f92852afec1810f34d2ff6aa",
+    "src/fall_detect/config.py": "e2a3d4bb9ee9b21fd66b4a21310fe1bd386888aaf27f080106a416966e5563d3",
+    "src/fall_detect/skeleton/windows.py": "442d0fe912e1101bb76019479f97aa1469717242a057e73df4cafaacc9c045aa",
+    "src/fall_detect/skeleton/preprocessing.py": "85b0ce5d8354620adc5d50983dad22a42066d48b77e0d57a96b0c0842ce27551",
+    "src/fall_detect/models/stgcn.py": "125fbd353db7ee64b22be26ea3762c2b4f210fb299b9d4c743c002bc7283da7d",
+    "src/fall_detect/models/weights.py": "e17f380d30fb68005ebd1399739746a98b13f6cee8bdc4cb3673c70d9ef3ba6d",
+    "src/fall_detect/data/cache.py": "fe877449967604bb94954b5b29c8c71528545e7232e9800d96232da2fc3587fd",
+    "src/fall_detect/training/experiment.py": "d78339cc26ad276316a3b461d6cf516f78a27071a1ca8d18f2b2411f73077947",
+    "src/fall_detect/training/scaler.py": "76837e9b88e7998cce6b2f0ac3b65ef872bef7e5706b5f2f2e042aae40fe6060",
+    "src/fall_detect/detection/events.py": "fd4e26ddd9d370c921d5baccc0c6722b43cb0ffa060354ac8268a71bc6b3705f",
+    "src/fall_detect/evaluation/metrics.py": "0f1d4e3bb657c847773ae410b511cdbbd49d17c8d457b11f9772b1f6eb78e579"
+  },
+  "input_hashes": {
+    "docs/ur-pose-resolution-20261013-plan.md": "78b8ce2580bc7dd07e91355f13290ad405f4f013c7c1fa3af4010c186646f71b",
+    "configs/ur-pose-resolution-20261013-001.yaml": "43ddd9a478e6e698634b59c17d3da80453e354ea58cece22a5381ad9c67f7bad",
+    "outputs/ur-fall19-human-amendment-20261013-001/derived-annotation.json": "412e95ec2eac7b2c573297f67c48da1c6d13523606394e4be8cb90a60118b0df",
+    "runs/ur-isotropic-wide-20261012-001/resolved-config.yaml": "b9757eba646eab8fdead4c0a3f8a13a99f82775b32426c63905f1a1afc313b0a",
+    "runs/ur-isotropic-wide-20261012-001/dataset-index.json": "cdd111c3fd7608e3bfdcd71c569fc03206e60e6fd2518ce937306db19a993562",
+    "weights/sample-human-manifest.json": "42ce98846dc8837f76ae70b6665de4271b44035790bd698bd492990b968aac87"
+  },
+  "candidate": "ur-pose-resolution-20261013-001",
+  "candidate_count": 1,
+  "pilot_ids": [
+    "adl-05",
+    "adl-24",
+    "adl-04",
+    "fall-19"
+  ],
+  "recipe_hash": "16a7359ec150ed2ac7a742f3a5ce1a8583a5128c64c47ab7b87f9d70ef00ba4b",
+  "weight_hashes": {
+    "detector": "355917fb2f2c05a769f87d7809dc3feeb1e6cf12c72f68fb8bd43d4905418e11",
+    "detector_config": "3d0163163313397a9af67b35c7b9479914e941f011529dbb13920a4dcc5d545e",
+    "pose": "42808e905aa20133a89a6a2cba073265a2ce35fabe65edffd9f153ef5846b7b0",
+    "stgcn": "1cac9a6da99d5d67da8ab58ee7633c5e923d85fba668673f028792819750a149"
+  },
+  "normal_train_videos": 24,
+  "validation_videos": 23,
+  "scope": [
+    "train",
+    "validation"
+  ],
+  "test_evaluations": 0,
+  "calibration": "same wide balanced_sequence_accuracy; fewer FP; higher threshold"
+}

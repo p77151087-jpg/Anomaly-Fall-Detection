@@ -1,0 +1,12 @@
+{
+  "stage": "complete",
+  "updated_at": "2026-09-17T12:46:24.665322+00:00",
+  "selected_run": "caucafall-yolo11-balanced-001",
+  "validation_accuracy": 0.8103448275862069,
+  "test_operational_accuracy": 0.7037037037037037,
+  "caucafall_test_accuracy": 1.0,
+  "overall_95_target_met": false,
+  "results": "docs/validation/refinement-results.json",
+  "integration": "docs/validation/refinement-integration.json",
+  "final_checks": "docs/validation/refinement-final-checks.json"
+}

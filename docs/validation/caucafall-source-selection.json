@@ -1,0 +1,16 @@
+{
+  "selected_source": "Mendeley official v4 original AVI",
+  "selected_video_count": 100,
+  "selected_video_bytes": 135044978,
+  "official_source_manifest": "data/manifests/caucafall-extension/caucafall-sources.json",
+  "unused_third_party_package": {
+    "path": "data\\raw\\caucafall\\Cauca_fall-zenodo-17170592.zip",
+    "source": "https://zenodo.org/records/17170592",
+    "sha256": "4817bd21349f812da6ed0a077659920a1c5b469300af28759e47753be6f00109",
+    "size": 173504611,
+    "avi_clips": 516,
+    "distinct_clip_hashes": 258,
+    "duplicate_extra_files": 258,
+    "reason": "Contains temporally cut action clips and duplicate copies; not used for training, calibration, or test."
+  }
+}

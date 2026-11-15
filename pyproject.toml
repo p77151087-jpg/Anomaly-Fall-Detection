@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fall-detection-anomaly"
+version = "0.1.0"
+description = "Frozen skeleton action features and normal-only autoencoder anomaly detection"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<3", "torch>=2.6,<3", "opencv-python-headless>=4.9", "PyYAML>=6", "scikit-learn>=1.4", "matplotlib>=3.8", "scipy>=1.11", "Pillow>=10"]
+
+[project.optional-dependencies]
+pose = ["torchvision>=0.21,<1", "tqdm>=4.66"]
+download = ["gdown>=5.2", "requests>=2.32", "truststore>=0.10"]
+dev = ["pytest>=8", "ruff>=0.12"]
+
+[project.scripts]
+fall-detect = "fall_detect.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"fall_detect.visualization" = ["loss_page.html"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

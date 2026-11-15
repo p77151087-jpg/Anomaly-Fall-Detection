@@ -1,0 +1,91 @@
+{
+  "source_kind": "real",
+  "prepared": 231,
+  "index_sha256": "deabca9182ead97009ca79b22ee9e9f3904d25e7f4408cbd381887917a9250ec",
+  "counts": {
+    "urfall/train/0": {
+      "total": 24,
+      "with_features": 21,
+      "windows": 514
+    },
+    "urfall/validation/0": {
+      "total": 8,
+      "with_features": 7,
+      "windows": 151
+    },
+    "urfall/validation/1": {
+      "total": 15,
+      "with_features": 15,
+      "windows": 163
+    },
+    "urfall/test/0": {
+      "total": 8,
+      "with_features": 7,
+      "windows": 199
+    },
+    "urfall/test/1": {
+      "total": 15,
+      "with_features": 15,
+      "windows": 142
+    },
+    "le2i/test/1": {
+      "total": 22,
+      "with_features": 22,
+      "windows": 834
+    },
+    "le2i/validation/1": {
+      "total": 11,
+      "with_features": 11,
+      "windows": 487
+    },
+    "le2i/train/0": {
+      "total": 38,
+      "with_features": 38,
+      "windows": 3983
+    },
+    "le2i/test/0": {
+      "total": 16,
+      "with_features": 16,
+      "windows": 1492
+    },
+    "le2i/validation/0": {
+      "total": 4,
+      "with_features": 4,
+      "windows": 187
+    },
+    "caucafall/train/0": {
+      "total": 30,
+      "with_features": 30,
+      "windows": 1454
+    },
+    "caucafall/test/1": {
+      "total": 10,
+      "with_features": 10,
+      "windows": 370
+    },
+    "caucafall/test/0": {
+      "total": 10,
+      "with_features": 10,
+      "windows": 500
+    },
+    "caucafall/validation/1": {
+      "total": 10,
+      "with_features": 10,
+      "windows": 517
+    },
+    "caucafall/validation/0": {
+      "total": 10,
+      "with_features": 10,
+      "windows": 637
+    }
+  },
+  "verification": {
+    "pose_forward": true,
+    "pose_observations_reused": false,
+    "feature_forward": true,
+    "device": "cuda",
+    "refreshed": false
+  },
+  "split_hash": "18fe3ea544602523e56f81d2fe7360feb817a6be6d1d2ac7818304f33c03ddf2",
+  "recipe_hash": "a548670d031b42ed05a0f35edfa2a10001c4b248d1b52882e6811b50e2ea5e3b"
+}

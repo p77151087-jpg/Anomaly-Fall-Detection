@@ -1,0 +1,1638 @@
+{
+  "source_kind": "real_end_to_end",
+  "rows": [
+    {
+      "run": "ur-sample-human-s1-001",
+      "status": {
+        "source_kind": "real",
+        "training": "complete",
+        "calibration": "complete",
+        "epochs": 38,
+        "best_val_normal_loss": 0.13753476824426075
+      },
+      "threshold": 0.6880183815956116,
+      "validation": {
+        "metric_unit": "sequence",
+        "TP": 12,
+        "FP": 0,
+        "FN": 3,
+        "TN": 8,
+        "n_total": 23,
+        "n_evaluable": 23,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "sequence_accuracy": 0.8695652173913043,
+        "sequence_fall_precision": 1.0,
+        "sequence_fall_recall": 0.8,
+        "sequence_fall_f1": 0.8888888888888888,
+        "operational_accuracy": 0.8695652173913043,
+        "end_to_end_fall_recall": 0.8,
+        "outcomes_with_unknown": [
+          [
+            8,
+            0,
+            0
+          ],
+          [
+            3,
+            12,
+            0
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8408956982911019,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8489634748272458,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.8439114391143911,
+        "n_missing_timelines": 0,
+        "balanced_sequence_accuracy": 0.9
+      },
+      "hashes": {
+        "autoencoder.pt": "96a9deea163c80055f08c0b7001f1b7445db45d3bda3714df2604f2339d55afb",
+        "scaler.npz": "d6660ddb8b6e37729257b3fc4fc62505a2ef77d9a2558de9d06b8716b7a0529c",
+        "resolved-config.yaml": "661b983db7c3147c76a36cec1561180555970444e88309cf246445c1fefcd484",
+        "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+        "sources.json": "dd7c73ba557a57846b2021c82443787cc12131434c3637265b8f590bceb58837",
+        "dataset-index.json": "cd163b0b2eb75044fdfd8127f9e863a06f8039b203a4027a299c7ab11be2e2c6",
+        "environment.json": "d9c1f980cf8c7059656da59eaeebfc4627be9abfd1e8080fcf946aeca8d33361",
+        "training-history.csv": "78afc3939783e3246a1a05ad03a02040ea20f91668e790f9e8cf4a5aabb93873",
+        "threshold.json": "6f8514180fa8ea073048d99b2998ebc871838e3a35e37d7633ac8b9be5bfb05a",
+        "calibration.json": "ea97fa7959d5f38593ab8d9bf286ce23ba5850d87695d69cce6816869c3ead78"
+      },
+      "timing": {
+        "scope": "four coarse Validation checks, not formal temporal Accuracy",
+        "fall_phase_sequences": 2,
+        "early_events": 0,
+        "rows": [
+          {
+            "sequence_id": "fall-09",
+            "coarse_phase": {
+              "upright_until_ms": 4304,
+              "fall_phase_ms": [
+                4604,
+                5506
+              ]
+            },
+            "outcome": {
+              "sequence_id": "fall-09",
+              "sequence_score": 1.8518779277801514,
+              "prediction": 1,
+              "unknown_reason": null,
+              "n_scheduled_endpoints": 156,
+              "n_valid_endpoints": 133,
+              "window_coverage": 0.8525641025641025,
+              "first_alarm_ms": 5900.0
+            },
+            "events": [
+              {
+                "sequence_id": "fall-09",
+                "track_id": 1,
+                "confirmed_start_ms": 5900.0,
+                "last_active_ms": 6133.333333333334,
+                "peak_score": 2.435713768005371,
+                "end_ms": 6139.0,
+                "end_reason": "sequence_end"
+              }
+            ],
+            "fall_phase_event_starts": [],
+            "early_event_starts": []
+          },
+          {
+            "sequence_id": "fall-19",
+            "coarse_phase": {
+              "upright_until_ms": 1167,
+              "fall_phase_ms": [
+                1468,
+                2369
+              ]
+            },
+            "outcome": {
+              "sequence_id": "fall-19",
+              "sequence_score": 0.12460747361183167,
+              "prediction": 0,
+              "unknown_reason": null,
+              "n_scheduled_endpoints": 71,
+              "n_valid_endpoints": 23,
+              "window_coverage": 0.323943661971831,
+              "first_alarm_ms": null
+            },
+            "events": [],
+            "fall_phase_event_starts": [],
+            "early_event_starts": []
+          },
+          {
+            "sequence_id": "fall-29",
+            "coarse_phase": {
+              "upright_until_ms": 1735,
+              "fall_phase_ms": [
+                2035,
+                2936
+              ]
+            },
+            "outcome": {
+              "sequence_id": "fall-29",
+              "sequence_score": 1.9478466510772705,
+              "prediction": 1,
+              "unknown_reason": null,
+              "n_scheduled_endpoints": 70,
+              "n_valid_endpoints": 54,
+              "window_coverage": 0.7714285714285715,
+              "first_alarm_ms": 2633.3333333333335
+            },
+            "events": [
+              {
+                "sequence_id": "fall-29",
+                "track_id": 1,
+                "confirmed_start_ms": 2633.3333333333335,
+                "last_active_ms": 2800.0,
+                "peak_score": 2.1494598388671875,
+                "end_ms": 2833.3333333333335,
+                "end_reason": "low_confidence"
+              }
+            ],
+            "fall_phase_event_starts": [
+              2633.3333333333335
+            ],
+            "early_event_starts": []
+          },
+          {
+            "sequence_id": "fall-25",
+            "coarse_phase": {
+              "upright_until_ms": 1568,
+              "fall_phase_ms": [
+                1868,
+                2802
+              ]
+            },
+            "outcome": {
+              "sequence_id": "fall-25",
+              "sequence_score": 2.4257869720458984,
+              "prediction": 1,
+              "unknown_reason": null,
+              "n_scheduled_endpoints": 56,
+              "n_valid_endpoints": 46,
+              "window_coverage": 0.8214285714285714,
+              "first_alarm_ms": 2466.666666666667
+            },
+            "events": [
+              {
+                "sequence_id": "fall-25",
+                "track_id": 1,
+                "confirmed_start_ms": 2466.666666666667,
+                "last_active_ms": 2533.3333333333335,
+                "peak_score": 4.064888000488281,
+                "end_ms": 2566.666666666667,
+                "end_reason": "low_confidence"
+              }
+            ],
+            "fall_phase_event_starts": [
+              2466.666666666667
+            ],
+            "early_event_starts": []
+          },
+          {
+            "sequence_id": "fall-18",
+            "coarse_phase": {
+              "upright_until_ms": 400,
+              "fall_phase_ms": [
+                800,
+                1601
+              ]
+            },
+            "outcome": {
+              "sequence_id": "fall-18",
+              "sequence_score": 0.24229730665683746,
+              "prediction": 0,
+              "unknown_reason": null,
+              "n_scheduled_endpoints": 36,
+              "n_valid_endpoints": 16,
+              "window_coverage": 0.4444444444444444,
+              "first_alarm_ms": null
+            },
+            "events": [],
+            "fall_phase_event_starts": [],
+            "early_event_starts": []
+          },
+          {
+            "sequence_id": "fall-30",
+            "coarse_phase": {
+              "upright_until_ms": 800,
+              "fall_phase_ms": [
+                1334,
+                1902
+              ]
+            },
+            "outcome": {
+              "sequence_id": "fall-30",
+              "sequence_score": 0.32566606998443604,
+              "prediction": 0,
+              "unknown_reason": null,
+              "n_scheduled_endpoints": 41,
+              "n_valid_endpoints": 26,
+              "window_coverage": 0.6341463414634146,
+              "first_alarm_ms": null
+            },
+            "events": [],
+            "fall_phase_event_starts": [],
+            "early_event_starts": []
+          }
+        ]
+      },
+      "timing_guard_passed": true
+    },
+    {
+      "run": "ur-human-context20-001",
+      "status": {
+        "source_kind": "real",
+        "training": "complete",
+        "calibration": "complete",
+        "epochs": 34,
+        "best_val_normal_loss": 0.12605015424390634
+      },
+      "threshold": 0.4567403197288513,
+      "validation": {
+        "metric_unit": "sequence",
+        "TP": 12,
+        "FP": 0,
+        "FN": 3,
+        "TN": 8,
+        "n_total": 23,
+        "n_evaluable": 23,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "sequence_accuracy": 0.8695652173913043,
+        "sequence_fall_precision": 1.0,
+        "sequence_fall_recall": 0.8,
+        "sequence_fall_f1": 0.8888888888888888,
+        "operational_accuracy": 0.8695652173913043,
+        "end_to_end_fall_recall": 0.8,
+        "outcomes_with_unknown": [
+          [
+            8,
+            0,
+            0
+          ],
+          [
+            3,
+            12,
+            0
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8525604952166573,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8650042992261393,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.8574829931972789,
+        "n_missing_timelines": 0,
+        "balanced_sequence_accuracy": 0.9
+      },
+      "hashes": {
+        "autoencoder.pt": "2d2be7983a4fcf6a78e630e0da946c732f486c8de870d3ec1db3d67db620e9d8",
+        "scaler.npz": "7052598bb5f04cf69a512edcca7e3b70eb515fb8c42b37a8cd07b827932d7302",
+        "resolved-config.yaml": "f3722e097fbbc0b42c7794535b92312c8138b868dd357b15c456a44168ab3d3a",
+        "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+        "sources.json": "aa13f1a2c573b508d5dfb2bdf05bc27f453d03ef6e3efef1445e9a3a516e3df8",
+        "dataset-index.json": "8ec53f8df9aec94ec7f1ebc808aeab51197cefd46c2755ff857c9a04a8d2d9c5",
+        "environment.json": "23d6f9777f255bc537b66c139995feb73eff275bbe90f0a00ee832236f304ab3",
+        "training-history.csv": "aa98260ad37b02d6a5db30fb645e4cd9c8f261df90f20487c4624747cd0ce039",
+        "threshold.json": "8645054cae05a1203f4cd942f4b3ed6769fe9fb07b76db7cf2f536ee3138e875",
+        "calibration.json": "f1201d65fffd56d3368c74404b6527487c5895c5bee89cc4c9de207b579436a7"
+      },
+      "index": "C:\\成大專案\\fall-detection-anomaly\\data\\cache\\ur-human-context20-001\\dataset-index.json",
+      "timing": {
+        "scope": "four coarse Validation checks, not formal temporal Accuracy",
+        "fall_phase_sequences": 2,
+        "early_events": 0,
+        "rows": [
+          {
+            "sequence_id": "fall-09",
+            "coarse_phase": {
+              "upright_until_ms": 4304,
+              "fall_phase_ms": [
+                4604,
+                5506
+              ]
+            },
+            "outcome": {
+              "sequence_id": "fall-09",
+              "sequence_score": 1.4382712841033936,
+              "prediction": 1,
+              "unknown_reason": null,
+              "n_scheduled_endpoints": 166,
+              "n_valid_endpoints": 146,
+              "window_coverage": 0.8795180722891566,
+              "first_alarm_ms": 5633.333333333334
+            },
+            "events": [
+              {
+                "sequence_id": "fall-09",
+                "track_id": 1,
+                "confirmed_start_ms": 5633.333333333334,
+                "last_active_ms": 6133.333333333334,
+                "peak_score": 1.4382712841033936,
+                "end_ms": 6139.0,
+                "end_reason": "sequence_end"
+              }
+            ],
+            "fall_phase_event_starts": [],
+            "early_event_starts": []
+          },
+          {
+            "sequence_id": "fall-19",
+            "coarse_phase": {
+              "upright_until_ms": 1167,
+              "fall_phase_ms": [
+                1468,
+                2369
+              ]
+            },
+            "outcome": {
+              "sequence_id": "fall-19",
+              "sequence_score": 0.12324878573417664,
+              "prediction": 0,
+              "unknown_reason": null,
+              "n_scheduled_endpoints": 81,
+              "n_valid_endpoints": 33,
+              "window_coverage": 0.4074074074074074,
+              "first_alarm_ms": null
+            },
+            "events": [],
+            "fall_phase_event_starts": [],
+            "early_event_starts": []
+          },
+          {
+            "sequence_id": "fall-29",
+            "coarse_phase": {
+              "upright_until_ms": 1735,
+              "fall_phase_ms": [
+                2035,
+                2936
+              ]
+            },
+            "outcome": {
+              "sequence_id": "fall-29",
+              "sequence_score": 0.6448181867599487,
+              "prediction": 1,
+              "unknown_reason": null,
+              "n_scheduled_endpoints": 80,
+              "n_valid_endpoints": 62,
+              "window_coverage": 0.775,
+              "first_alarm_ms": 2700.0
+            },
+            "events": [
+              {
+                "sequence_id": "fall-29",
+                "track_id": 1,
+                "confirmed_start_ms": 2700.0,
+                "last_active_ms": 2733.3333333333335,
+                "peak_score": 1.2293925285339355,
+                "end_ms": 2766.666666666667,
+                "end_reason": "low_confidence"
+              }
+            ],
+            "fall_phase_event_starts": [
+              2700.0
+            ],
+            "early_event_starts": []
+          },
+          {
+            "sequence_id": "fall-25",
+            "coarse_phase": {
+              "upright_until_ms": 1568,
+              "fall_phase_ms": [
+                1868,
+                2802
+              ]
+            },
+            "outcome": {
+              "sequence_id": "fall-25",
+              "sequence_score": 0.4580182731151581,
+              "prediction": 1,
+              "unknown_reason": null,
+              "n_scheduled_endpoints": 66,
+              "n_valid_endpoints": 53,
+              "window_coverage": 0.803030303030303,
+              "first_alarm_ms": 2433.3333333333335
+            },
+            "events": [
+              {
+                "sequence_id": "fall-25",
+                "track_id": 1,
+                "confirmed_start_ms": 2433.3333333333335,
+                "last_active_ms": 2433.3333333333335,
+                "peak_score": 1.7987301349639893,
+                "end_ms": 2466.666666666667,
+                "end_reason": "low_confidence"
+              }
+            ],
+            "fall_phase_event_starts": [
+              2433.3333333333335
+            ],
+            "early_event_starts": []
+          },
+          {
+            "sequence_id": "fall-18",
+            "coarse_phase": {
+              "upright_until_ms": 400,
+              "fall_phase_ms": [
+                800,
+                1601
+              ]
+            },
+            "outcome": {
+              "sequence_id": "fall-18",
+              "sequence_score": 0.2941383719444275,
+              "prediction": 0,
+              "unknown_reason": null,
+              "n_scheduled_endpoints": 46,
+              "n_valid_endpoints": 26,
+              "window_coverage": 0.5652173913043478,
+              "first_alarm_ms": null
+            },
+            "events": [],
+            "fall_phase_event_starts": [],
+            "early_event_starts": []
+          },
+          {
+            "sequence_id": "fall-30",
+            "coarse_phase": {
+              "upright_until_ms": 800,
+              "fall_phase_ms": [
+                1334,
+                1902
+              ]
+            },
+            "outcome": {
+              "sequence_id": "fall-30",
+              "sequence_score": 0.25653165578842163,
+              "prediction": 0,
+              "unknown_reason": null,
+              "n_scheduled_endpoints": 51,
+              "n_valid_endpoints": 34,
+              "window_coverage": 0.6666666666666666,
+              "first_alarm_ms": null
+            },
+            "events": [],
+            "fall_phase_event_starts": [],
+            "early_event_starts": []
+          }
+        ]
+      },
+      "predictions": [
+        {
+          "sequence_id": "adl-37",
+          "sequence_score": 0.38940489292144775,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 335,
+          "n_valid_endpoints": 306,
+          "window_coverage": 0.9134328358208955,
+          "first_alarm_ms": null,
+          "label": 0,
+          "events": []
+        },
+        {
+          "sequence_id": "adl-23",
+          "sequence_score": 0.19428592920303345,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 201,
+          "n_valid_endpoints": 176,
+          "window_coverage": 0.8756218905472637,
+          "first_alarm_ms": null,
+          "label": 0,
+          "events": []
+        },
+        {
+          "sequence_id": "adl-20",
+          "sequence_score": 0.17622926831245422,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 250,
+          "n_valid_endpoints": 194,
+          "window_coverage": 0.776,
+          "first_alarm_ms": null,
+          "label": 0,
+          "events": []
+        },
+        {
+          "sequence_id": "adl-04",
+          "sequence_score": 0.24775469303131104,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 130,
+          "n_valid_endpoints": 128,
+          "window_coverage": 0.9846153846153847,
+          "first_alarm_ms": null,
+          "label": 0,
+          "events": []
+        },
+        {
+          "sequence_id": "adl-01",
+          "sequence_score": 0.14549100399017334,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 131,
+          "n_valid_endpoints": 124,
+          "window_coverage": 0.9465648854961832,
+          "first_alarm_ms": null,
+          "label": 0,
+          "events": []
+        },
+        {
+          "sequence_id": "adl-16",
+          "sequence_score": 0.29647016525268555,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 221,
+          "n_valid_endpoints": 144,
+          "window_coverage": 0.6515837104072398,
+          "first_alarm_ms": null,
+          "label": 0,
+          "events": []
+        },
+        {
+          "sequence_id": "adl-18",
+          "sequence_score": 0.20536398887634277,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 245,
+          "n_valid_endpoints": 181,
+          "window_coverage": 0.7387755102040816,
+          "first_alarm_ms": null,
+          "label": 0,
+          "events": []
+        },
+        {
+          "sequence_id": "adl-35",
+          "sequence_score": 0.4567403197288513,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 264,
+          "n_valid_endpoints": 262,
+          "window_coverage": 0.9924242424242424,
+          "first_alarm_ms": null,
+          "label": 0,
+          "events": []
+        },
+        {
+          "sequence_id": "fall-22",
+          "sequence_score": 1.1497538089752197,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 37,
+          "n_valid_endpoints": 35,
+          "window_coverage": 0.9459459459459459,
+          "first_alarm_ms": 1166.6666666666667,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-22",
+              "track_id": 1,
+              "confirmed_start_ms": 1166.6666666666667,
+              "last_active_ms": 1833.3333333333335,
+              "peak_score": 1.1700878143310547,
+              "end_ms": 1835.0,
+              "end_reason": "sequence_end"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-19",
+          "sequence_score": 0.12324878573417664,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 81,
+          "n_valid_endpoints": 33,
+          "window_coverage": 0.4074074074074074,
+          "first_alarm_ms": null,
+          "label": 1,
+          "events": []
+        },
+        {
+          "sequence_id": "fall-16",
+          "sequence_score": 1.1656163930892944,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 36,
+          "n_valid_endpoints": 34,
+          "window_coverage": 0.9444444444444444,
+          "first_alarm_ms": 1700.0000000000002,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-16",
+              "track_id": 1,
+              "confirmed_start_ms": 1700.0000000000002,
+              "last_active_ms": 1800.0000000000002,
+              "peak_score": 1.2641150951385498,
+              "end_ms": 1801.0,
+              "end_reason": "sequence_end"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-18",
+          "sequence_score": 0.2941383719444275,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 46,
+          "n_valid_endpoints": 26,
+          "window_coverage": 0.5652173913043478,
+          "first_alarm_ms": null,
+          "label": 1,
+          "events": []
+        },
+        {
+          "sequence_id": "fall-08",
+          "sequence_score": 1.565075159072876,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 72,
+          "n_valid_endpoints": 70,
+          "window_coverage": 0.9722222222222222,
+          "first_alarm_ms": 2133.3333333333335,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-08",
+              "track_id": 1,
+              "confirmed_start_ms": 2133.3333333333335,
+              "last_active_ms": 3000.0,
+              "peak_score": 1.6938841342926025,
+              "end_ms": 3003.0,
+              "end_reason": "sequence_end"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-13",
+          "sequence_score": 0.7513128519058228,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 66,
+          "n_valid_endpoints": 64,
+          "window_coverage": 0.9696969696969697,
+          "first_alarm_ms": 2333.3333333333335,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-13",
+              "track_id": 1,
+              "confirmed_start_ms": 2333.3333333333335,
+              "last_active_ms": 2533.3333333333335,
+              "peak_score": 1.2339667081832886,
+              "end_ms": 2566.666666666667,
+              "end_reason": "low_confidence"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-29",
+          "sequence_score": 0.6448181867599487,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 80,
+          "n_valid_endpoints": 62,
+          "window_coverage": 0.775,
+          "first_alarm_ms": 2700.0,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-29",
+              "track_id": 1,
+              "confirmed_start_ms": 2700.0,
+              "last_active_ms": 2733.3333333333335,
+              "peak_score": 1.2293925285339355,
+              "end_ms": 2766.666666666667,
+              "end_reason": "low_confidence"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-14",
+          "sequence_score": 0.8687994480133057,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 42,
+          "n_valid_endpoints": 40,
+          "window_coverage": 0.9523809523809523,
+          "first_alarm_ms": 1600.0,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-14",
+              "track_id": 1,
+              "confirmed_start_ms": 1600.0,
+              "last_active_ms": 2000.0000000000002,
+              "peak_score": 0.9723165035247803,
+              "end_ms": 2002.0,
+              "end_reason": "sequence_end"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-09",
+          "sequence_score": 1.4382712841033936,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 166,
+          "n_valid_endpoints": 146,
+          "window_coverage": 0.8795180722891566,
+          "first_alarm_ms": 5633.333333333334,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-09",
+              "track_id": 1,
+              "confirmed_start_ms": 5633.333333333334,
+              "last_active_ms": 6133.333333333334,
+              "peak_score": 1.4382712841033936,
+              "end_ms": 6139.0,
+              "end_reason": "sequence_end"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-07",
+          "sequence_score": 1.8435158729553223,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 137,
+          "n_valid_endpoints": 135,
+          "window_coverage": 0.9854014598540146,
+          "first_alarm_ms": 3800.0000000000005,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-07",
+              "track_id": 1,
+              "confirmed_start_ms": 3800.0000000000005,
+              "last_active_ms": 5166.666666666667,
+              "peak_score": 2.0142617225646973,
+              "end_ms": 5172.0,
+              "end_reason": "sequence_end"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-11",
+          "sequence_score": 0.9071745872497559,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 111,
+          "n_valid_endpoints": 106,
+          "window_coverage": 0.954954954954955,
+          "first_alarm_ms": 3033.3333333333335,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-11",
+              "track_id": 1,
+              "confirmed_start_ms": 3033.3333333333335,
+              "last_active_ms": 4100.0,
+              "peak_score": 1.2430036067962646,
+              "end_ms": 4133.333333333334,
+              "end_reason": "low_score"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-25",
+          "sequence_score": 0.4580182731151581,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 66,
+          "n_valid_endpoints": 53,
+          "window_coverage": 0.803030303030303,
+          "first_alarm_ms": 2433.3333333333335,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-25",
+              "track_id": 1,
+              "confirmed_start_ms": 2433.3333333333335,
+              "last_active_ms": 2433.3333333333335,
+              "peak_score": 1.7987301349639893,
+              "end_ms": 2466.666666666667,
+              "end_reason": "low_confidence"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-06",
+          "sequence_score": 1.729596734046936,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 81,
+          "n_valid_endpoints": 79,
+          "window_coverage": 0.9753086419753086,
+          "first_alarm_ms": 1633.3333333333335,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-06",
+              "track_id": 1,
+              "confirmed_start_ms": 1633.3333333333335,
+              "last_active_ms": 2733.3333333333335,
+              "peak_score": 1.798309326171875,
+              "end_ms": 2766.666666666667,
+              "end_reason": "low_score"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-02",
+          "sequence_score": 1.0793482065200806,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 91,
+          "n_valid_endpoints": 89,
+          "window_coverage": 0.978021978021978,
+          "first_alarm_ms": 2466.666666666667,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-02",
+              "track_id": 1,
+              "confirmed_start_ms": 2466.666666666667,
+              "last_active_ms": 3633.3333333333335,
+              "peak_score": 1.115171194076538,
+              "end_ms": 3637.0,
+              "end_reason": "sequence_end"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-30",
+          "sequence_score": 0.25653165578842163,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 51,
+          "n_valid_endpoints": 34,
+          "window_coverage": 0.6666666666666666,
+          "first_alarm_ms": null,
+          "label": 1,
+          "events": []
+        }
+      ],
+      "newly_detected_miss_timing_passed": true,
+      "timing_guard_passed": true
+    },
+    {
+      "run": "ur-human-context15-001",
+      "status": {
+        "source_kind": "real",
+        "training": "complete",
+        "calibration": "complete",
+        "epochs": 83,
+        "best_val_normal_loss": 0.1252368126795223
+      },
+      "threshold": 0.35807693004608154,
+      "validation": {
+        "metric_unit": "sequence",
+        "TP": 12,
+        "FP": 1,
+        "FN": 3,
+        "TN": 7,
+        "n_total": 23,
+        "n_evaluable": 23,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "sequence_accuracy": 0.8260869565217391,
+        "sequence_fall_precision": 0.9230769230769231,
+        "sequence_fall_recall": 0.8,
+        "sequence_fall_f1": 0.8571428571428571,
+        "operational_accuracy": 0.8260869565217391,
+        "end_to_end_fall_recall": 0.8,
+        "outcomes_with_unknown": [
+          [
+            7,
+            1,
+            0
+          ],
+          [
+            3,
+            12,
+            0
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8558062740781508,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8618739903069467,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.858265139116203,
+        "n_missing_timelines": 0,
+        "balanced_sequence_accuracy": 0.8375
+      },
+      "hashes": {
+        "autoencoder.pt": "b42ebddcfe661d8ed41a78801be5ff12e48909cfad9b89e07ef70360bc7cb9ee",
+        "scaler.npz": "1c00e79e2232d9471119cc4e36a85cadab909518a8baa13fc27ff403cf4ec840",
+        "resolved-config.yaml": "73964fb852c40e60aab3688909da57a7b03ebad6e1fe50ab456ed012d1980517",
+        "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+        "sources.json": "0ff46a7d7e227b265fc70ab31f40dbeeae5d18e98d8480f31391c3db6421cbf2",
+        "dataset-index.json": "6c2fe3245995e53baab7cb5c2b6f6e7efae6847d24c9a8368454de059fd6916d",
+        "environment.json": "1f72e5e261bc66bd9443432706dfcba797105a9b4b4c58a0e06f620baf261693",
+        "training-history.csv": "c6e8558d8fc73c99e6bb610029455271d637aad2df299c3f87cb40b12fc5f2ea",
+        "threshold.json": "4b4c6c98980f1ff1495ffce85c3c9b1db80cb43388d5a92c3de84a88313f9491",
+        "calibration.json": "12fc89ff4306a4858722d03510b37c543ebf51881116d397c702d6bfc2cbac37"
+      },
+      "index": "C:\\成大專案\\fall-detection-anomaly\\data\\cache\\ur-human-context15-001\\dataset-index.json",
+      "timing": {
+        "scope": "four coarse Validation checks, not formal temporal Accuracy",
+        "fall_phase_sequences": 3,
+        "early_events": 0,
+        "rows": [
+          {
+            "sequence_id": "fall-09",
+            "coarse_phase": {
+              "upright_until_ms": 4304,
+              "fall_phase_ms": [
+                4604,
+                5506
+              ]
+            },
+            "outcome": {
+              "sequence_id": "fall-09",
+              "sequence_score": 0.8274914026260376,
+              "prediction": 1,
+              "unknown_reason": null,
+              "n_scheduled_endpoints": 171,
+              "n_valid_endpoints": 154,
+              "window_coverage": 0.9005847953216374,
+              "first_alarm_ms": 5500.0
+            },
+            "events": [
+              {
+                "sequence_id": "fall-09",
+                "track_id": 1,
+                "confirmed_start_ms": 5500.0,
+                "last_active_ms": 6133.333333333334,
+                "peak_score": 0.9107298851013184,
+                "end_ms": 6139.0,
+                "end_reason": "sequence_end"
+              }
+            ],
+            "fall_phase_event_starts": [
+              5500.0
+            ],
+            "early_event_starts": []
+          },
+          {
+            "sequence_id": "fall-19",
+            "coarse_phase": {
+              "upright_until_ms": 1167,
+              "fall_phase_ms": [
+                1468,
+                2369
+              ]
+            },
+            "outcome": {
+              "sequence_id": "fall-19",
+              "sequence_score": 0.14678139984607697,
+              "prediction": 0,
+              "unknown_reason": null,
+              "n_scheduled_endpoints": 86,
+              "n_valid_endpoints": 38,
+              "window_coverage": 0.4418604651162791,
+              "first_alarm_ms": null
+            },
+            "events": [],
+            "fall_phase_event_starts": [],
+            "early_event_starts": []
+          },
+          {
+            "sequence_id": "fall-29",
+            "coarse_phase": {
+              "upright_until_ms": 1735,
+              "fall_phase_ms": [
+                2035,
+                2936
+              ]
+            },
+            "outcome": {
+              "sequence_id": "fall-29",
+              "sequence_score": 0.41054192185401917,
+              "prediction": 1,
+              "unknown_reason": null,
+              "n_scheduled_endpoints": 85,
+              "n_valid_endpoints": 64,
+              "window_coverage": 0.7529411764705882,
+              "first_alarm_ms": 2633.3333333333335
+            },
+            "events": [
+              {
+                "sequence_id": "fall-29",
+                "track_id": 1,
+                "confirmed_start_ms": 2633.3333333333335,
+                "last_active_ms": 2633.3333333333335,
+                "peak_score": 0.564333438873291,
+                "end_ms": 2666.666666666667,
+                "end_reason": "low_confidence"
+              }
+            ],
+            "fall_phase_event_starts": [
+              2633.3333333333335
+            ],
+            "early_event_starts": []
+          },
+          {
+            "sequence_id": "fall-25",
+            "coarse_phase": {
+              "upright_until_ms": 1568,
+              "fall_phase_ms": [
+                1868,
+                2802
+              ]
+            },
+            "outcome": {
+              "sequence_id": "fall-25",
+              "sequence_score": 0.4173329174518585,
+              "prediction": 1,
+              "unknown_reason": null,
+              "n_scheduled_endpoints": 71,
+              "n_valid_endpoints": 57,
+              "window_coverage": 0.8028169014084507,
+              "first_alarm_ms": 2166.666666666667
+            },
+            "events": [
+              {
+                "sequence_id": "fall-25",
+                "track_id": 1,
+                "confirmed_start_ms": 2166.666666666667,
+                "last_active_ms": 2200.0,
+                "peak_score": 0.511951208114624,
+                "end_ms": 2233.3333333333335,
+                "end_reason": "low_score"
+              }
+            ],
+            "fall_phase_event_starts": [
+              2166.666666666667
+            ],
+            "early_event_starts": []
+          },
+          {
+            "sequence_id": "fall-18",
+            "coarse_phase": {
+              "upright_until_ms": 400,
+              "fall_phase_ms": [
+                800,
+                1601
+              ]
+            },
+            "outcome": {
+              "sequence_id": "fall-18",
+              "sequence_score": 0.23039454221725464,
+              "prediction": 0,
+              "unknown_reason": null,
+              "n_scheduled_endpoints": 51,
+              "n_valid_endpoints": 30,
+              "window_coverage": 0.5882352941176471,
+              "first_alarm_ms": null
+            },
+            "events": [],
+            "fall_phase_event_starts": [],
+            "early_event_starts": []
+          },
+          {
+            "sequence_id": "fall-30",
+            "coarse_phase": {
+              "upright_until_ms": 800,
+              "fall_phase_ms": [
+                1334,
+                1902
+              ]
+            },
+            "outcome": {
+              "sequence_id": "fall-30",
+              "sequence_score": 0.34843796491622925,
+              "prediction": 0,
+              "unknown_reason": null,
+              "n_scheduled_endpoints": 56,
+              "n_valid_endpoints": 38,
+              "window_coverage": 0.6785714285714286,
+              "first_alarm_ms": null
+            },
+            "events": [],
+            "fall_phase_event_starts": [],
+            "early_event_starts": []
+          }
+        ]
+      },
+      "predictions": [
+        {
+          "sequence_id": "adl-37",
+          "sequence_score": 0.35807693004608154,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 340,
+          "n_valid_endpoints": 311,
+          "window_coverage": 0.9147058823529411,
+          "first_alarm_ms": null,
+          "label": 0,
+          "events": []
+        },
+        {
+          "sequence_id": "adl-23",
+          "sequence_score": 0.18391500413417816,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 206,
+          "n_valid_endpoints": 177,
+          "window_coverage": 0.8592233009708737,
+          "first_alarm_ms": null,
+          "label": 0,
+          "events": []
+        },
+        {
+          "sequence_id": "adl-20",
+          "sequence_score": 0.1824454665184021,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 255,
+          "n_valid_endpoints": 199,
+          "window_coverage": 0.7803921568627451,
+          "first_alarm_ms": null,
+          "label": 0,
+          "events": []
+        },
+        {
+          "sequence_id": "adl-04",
+          "sequence_score": 0.2826652526855469,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 135,
+          "n_valid_endpoints": 133,
+          "window_coverage": 0.9851851851851852,
+          "first_alarm_ms": null,
+          "label": 0,
+          "events": []
+        },
+        {
+          "sequence_id": "adl-01",
+          "sequence_score": 0.1415489912033081,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 136,
+          "n_valid_endpoints": 129,
+          "window_coverage": 0.9485294117647058,
+          "first_alarm_ms": null,
+          "label": 0,
+          "events": []
+        },
+        {
+          "sequence_id": "adl-16",
+          "sequence_score": 0.307206392288208,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 226,
+          "n_valid_endpoints": 153,
+          "window_coverage": 0.6769911504424779,
+          "first_alarm_ms": null,
+          "label": 0,
+          "events": []
+        },
+        {
+          "sequence_id": "adl-18",
+          "sequence_score": 0.21275967359542847,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 250,
+          "n_valid_endpoints": 186,
+          "window_coverage": 0.744,
+          "first_alarm_ms": null,
+          "label": 0,
+          "events": []
+        },
+        {
+          "sequence_id": "adl-35",
+          "sequence_score": 0.43836748600006104,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 269,
+          "n_valid_endpoints": 267,
+          "window_coverage": 0.9925650557620818,
+          "first_alarm_ms": 3300.0000000000005,
+          "label": 0,
+          "events": [
+            {
+              "sequence_id": "adl-35",
+              "track_id": 1,
+              "confirmed_start_ms": 3300.0000000000005,
+              "last_active_ms": 3333.3333333333335,
+              "peak_score": 0.6076298952102661,
+              "end_ms": 3366.666666666667,
+              "end_reason": "low_score"
+            },
+            {
+              "sequence_id": "adl-35",
+              "track_id": 1,
+              "confirmed_start_ms": 3466.666666666667,
+              "last_active_ms": 3466.666666666667,
+              "peak_score": 0.37327808141708374,
+              "end_ms": 3500.0000000000005,
+              "end_reason": "low_score"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-22",
+          "sequence_score": 0.637779176235199,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 42,
+          "n_valid_endpoints": 40,
+          "window_coverage": 0.9523809523809523,
+          "first_alarm_ms": 1100.0,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-22",
+              "track_id": 1,
+              "confirmed_start_ms": 1100.0,
+              "last_active_ms": 1833.3333333333335,
+              "peak_score": 0.703658938407898,
+              "end_ms": 1835.0,
+              "end_reason": "sequence_end"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-19",
+          "sequence_score": 0.14678139984607697,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 86,
+          "n_valid_endpoints": 38,
+          "window_coverage": 0.4418604651162791,
+          "first_alarm_ms": null,
+          "label": 1,
+          "events": []
+        },
+        {
+          "sequence_id": "fall-16",
+          "sequence_score": 1.195580244064331,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 41,
+          "n_valid_endpoints": 39,
+          "window_coverage": 0.9512195121951219,
+          "first_alarm_ms": 1700.0000000000002,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-16",
+              "track_id": 1,
+              "confirmed_start_ms": 1700.0000000000002,
+              "last_active_ms": 1800.0000000000002,
+              "peak_score": 1.3230193853378296,
+              "end_ms": 1801.0,
+              "end_reason": "sequence_end"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-18",
+          "sequence_score": 0.23039454221725464,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 51,
+          "n_valid_endpoints": 30,
+          "window_coverage": 0.5882352941176471,
+          "first_alarm_ms": null,
+          "label": 1,
+          "events": []
+        },
+        {
+          "sequence_id": "fall-08",
+          "sequence_score": 1.3005411624908447,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 77,
+          "n_valid_endpoints": 75,
+          "window_coverage": 0.974025974025974,
+          "first_alarm_ms": 2000.0000000000002,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-08",
+              "track_id": 1,
+              "confirmed_start_ms": 2000.0000000000002,
+              "last_active_ms": 2033.3333333333335,
+              "peak_score": 0.4514748454093933,
+              "end_ms": 2066.666666666667,
+              "end_reason": "low_score"
+            },
+            {
+              "sequence_id": "fall-08",
+              "track_id": 1,
+              "confirmed_start_ms": 2200.0,
+              "last_active_ms": 3000.0,
+              "peak_score": 1.3850088119506836,
+              "end_ms": 3003.0,
+              "end_reason": "sequence_end"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-13",
+          "sequence_score": 0.7013790607452393,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 71,
+          "n_valid_endpoints": 69,
+          "window_coverage": 0.971830985915493,
+          "first_alarm_ms": 2166.666666666667,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-13",
+              "track_id": 1,
+              "confirmed_start_ms": 2166.666666666667,
+              "last_active_ms": 2500.0,
+              "peak_score": 0.7913520336151123,
+              "end_ms": 2533.3333333333335,
+              "end_reason": "low_confidence"
+            },
+            {
+              "sequence_id": "fall-13",
+              "track_id": 4,
+              "confirmed_start_ms": 2733.3333333333335,
+              "last_active_ms": 2733.3333333333335,
+              "peak_score": 0.36515483260154724,
+              "end_ms": 2766.666666666667,
+              "end_reason": "low_score"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-29",
+          "sequence_score": 0.41054192185401917,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 85,
+          "n_valid_endpoints": 64,
+          "window_coverage": 0.7529411764705882,
+          "first_alarm_ms": 2633.3333333333335,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-29",
+              "track_id": 1,
+              "confirmed_start_ms": 2633.3333333333335,
+              "last_active_ms": 2633.3333333333335,
+              "peak_score": 0.564333438873291,
+              "end_ms": 2666.666666666667,
+              "end_reason": "low_confidence"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-14",
+          "sequence_score": 0.7813633680343628,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 47,
+          "n_valid_endpoints": 45,
+          "window_coverage": 0.9574468085106383,
+          "first_alarm_ms": 1533.3333333333335,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-14",
+              "track_id": 1,
+              "confirmed_start_ms": 1533.3333333333335,
+              "last_active_ms": 2000.0000000000002,
+              "peak_score": 0.9026563167572021,
+              "end_ms": 2002.0,
+              "end_reason": "sequence_end"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-09",
+          "sequence_score": 0.8274914026260376,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 171,
+          "n_valid_endpoints": 154,
+          "window_coverage": 0.9005847953216374,
+          "first_alarm_ms": 5500.0,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-09",
+              "track_id": 1,
+              "confirmed_start_ms": 5500.0,
+              "last_active_ms": 6133.333333333334,
+              "peak_score": 0.9107298851013184,
+              "end_ms": 6139.0,
+              "end_reason": "sequence_end"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-07",
+          "sequence_score": 0.9168258309364319,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 142,
+          "n_valid_endpoints": 129,
+          "window_coverage": 0.9084507042253521,
+          "first_alarm_ms": 3733.3333333333335,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-07",
+              "track_id": 1,
+              "confirmed_start_ms": 3733.3333333333335,
+              "last_active_ms": 3900.0000000000005,
+              "peak_score": 0.9034663438796997,
+              "end_ms": 3933.3333333333335,
+              "end_reason": "low_confidence"
+            },
+            {
+              "sequence_id": "fall-07",
+              "track_id": 1,
+              "confirmed_start_ms": 4366.666666666667,
+              "last_active_ms": 5166.666666666667,
+              "peak_score": 0.9402508735656738,
+              "end_ms": 5172.0,
+              "end_reason": "sequence_end"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-11",
+          "sequence_score": 1.0855810642242432,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 116,
+          "n_valid_endpoints": 111,
+          "window_coverage": 0.9568965517241379,
+          "first_alarm_ms": 3033.3333333333335,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-11",
+              "track_id": 1,
+              "confirmed_start_ms": 3033.3333333333335,
+              "last_active_ms": 3966.666666666667,
+              "peak_score": 1.2254022359848022,
+              "end_ms": 4000.0000000000005,
+              "end_reason": "low_score"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-25",
+          "sequence_score": 0.4173329174518585,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 71,
+          "n_valid_endpoints": 57,
+          "window_coverage": 0.8028169014084507,
+          "first_alarm_ms": 2166.666666666667,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-25",
+              "track_id": 1,
+              "confirmed_start_ms": 2166.666666666667,
+              "last_active_ms": 2200.0,
+              "peak_score": 0.511951208114624,
+              "end_ms": 2233.3333333333335,
+              "end_reason": "low_score"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-06",
+          "sequence_score": 1.2952330112457275,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 86,
+          "n_valid_endpoints": 84,
+          "window_coverage": 0.9767441860465116,
+          "first_alarm_ms": 1600.0,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-06",
+              "track_id": 1,
+              "confirmed_start_ms": 1600.0,
+              "last_active_ms": 2600.0,
+              "peak_score": 1.439598798751831,
+              "end_ms": 2633.3333333333335,
+              "end_reason": "low_score"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-02",
+          "sequence_score": 0.7393093109130859,
+          "prediction": 1,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 96,
+          "n_valid_endpoints": 94,
+          "window_coverage": 0.9791666666666666,
+          "first_alarm_ms": 2433.3333333333335,
+          "label": 1,
+          "events": [
+            {
+              "sequence_id": "fall-02",
+              "track_id": 1,
+              "confirmed_start_ms": 2433.3333333333335,
+              "last_active_ms": 3633.3333333333335,
+              "peak_score": 0.8597206473350525,
+              "end_ms": 3637.0,
+              "end_reason": "sequence_end"
+            }
+          ]
+        },
+        {
+          "sequence_id": "fall-30",
+          "sequence_score": 0.34843796491622925,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 56,
+          "n_valid_endpoints": 38,
+          "window_coverage": 0.6785714285714286,
+          "first_alarm_ms": null,
+          "label": 1,
+          "events": []
+        }
+      ],
+      "newly_detected_miss_timing_passed": true,
+      "timing_guard_passed": false
+    }
+  ],
+  "pilot_rejected": [],
+  "selected": "ur-sample-human-s1-001",
+  "raw_metric_winner": "ur-sample-human-s1-001",
+  "target_reached": false,
+  "test_scored": false
+}

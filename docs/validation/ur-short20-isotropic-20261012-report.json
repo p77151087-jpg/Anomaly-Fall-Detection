@@ -1,0 +1,38 @@
+{
+  "report_sha256": "828db8bb6803766669210f99b0cfa96aa353be0384a3c46fdb746e146e13d9dd",
+  "report_source_sha256": "cf5af01669c5e7c8152d0546f6bc8ce5bc6c1e426e8df2fad27fe06b47e10734",
+  "figure_sha256": "052a724dd4cc369a2d9f03e4725ba0d92942191d49515dfe5cf8a4ab0c523788",
+  "comparison_csv_sha256": "9597fe6c5aab6bf38c7b023dd494c171894e98ab5ce857ccd1c31dc232b08176",
+  "fall19_window_difference": {
+    "shared_valid_endpoints": 23,
+    "added_valid_sample_indexes": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "removed_valid_sample_indexes": [],
+    "added_available_at_ms": [
+      700.0,
+      733.3333333333334,
+      766.6666666666666,
+      800.0,
+      833.3333333333334,
+      866.6666666666666,
+      900.0,
+      933.3333333333334,
+      966.6666666666666,
+      1000.0
+    ],
+    "normal_until_ms": 1167,
+    "added_before_coarse_normal_end": true,
+    "coarse_annotations_are_not_ground_truth": true
+  },
+  "preserved_files": 1031
+}

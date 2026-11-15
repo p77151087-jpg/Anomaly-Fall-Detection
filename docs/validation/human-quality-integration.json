@@ -1,0 +1,109 @@
+{
+  "source_kind": "real_end_to_end",
+  "cases": [
+    {
+      "run": "ur-sample-human-s1-001",
+      "sequence_id": "fall-09",
+      "frames": 185,
+      "compared_scores": 127,
+      "max_score_difference": 0.0,
+      "events_equal": true,
+      "action_csv_byte_identical": true,
+      "original_ae_csv_byte_identical": true,
+      "first_visible_alarm_ms": 5900.0,
+      "visible_alarm_frames": 8,
+      "preview": "outputs\\human-quality-streaming\\ur-sample-human-s1-001\\fall-09-preview.mp4",
+      "contact": "outputs\\human-quality-streaming\\ur-sample-human-s1-001\\fall-09-check.jpg",
+      "files": {
+        "outputs\\human-quality-streaming\\ur-sample-human-s1-001\\fall-09-actions.csv": "4b93521202519ea43d8b95e4867f6895307b1641656c52d8a45f6202e00d5a17",
+        "outputs\\human-quality-streaming\\ur-sample-human-s1-001\\fall-09-check.jpg": "e57525f94b82386cc80aa2808e35f66d19b99ffff07da45dbc0f5364186c3f65",
+        "outputs\\human-quality-streaming\\ur-sample-human-s1-001\\fall-09-events.csv": "eca518ab714258dcd48f8bcbf93835d514fc9ebc7094d3730ae53821423641bd",
+        "outputs\\human-quality-streaming\\ur-sample-human-s1-001\\fall-09-preview.mp4": "79d1785732a6dcfdab1c5ff339852dcc3023dd64ce6402e1073838e3c7a0a512",
+        "outputs\\human-quality-streaming\\ur-sample-human-s1-001\\fall-09.csv": "423f0034e0ec92944de7cf2d1960f07a091a9a3b37fde86e828aae37faa38720",
+        "outputs\\human-quality-streaming\\ur-sample-human-s1-001\\fall-09.json": "36026459a69a4a4a18df5394ecc80e416b8c5c0f7f5db3109d17068341b67e5b",
+        "outputs\\human-quality-streaming\\ur-sample-human-s1-001\\fall-09.mp4": "0a957b912a1128e4065433ae9d4d450487659cb66049e3921985b78a4e3fc9c5"
+      }
+    },
+    {
+      "run": "ur-human-patterns-001",
+      "sequence_id": "adl-35",
+      "frames": 283,
+      "compared_scores": 252,
+      "max_score_difference": 0.0,
+      "events_equal": true,
+      "action_csv_byte_identical": null,
+      "original_ae_csv_byte_identical": null,
+      "first_visible_alarm_ms": null,
+      "visible_alarm_frames": 0,
+      "preview": "outputs\\human-quality-streaming\\ur-human-patterns-001\\adl-35-preview.mp4",
+      "contact": "outputs\\human-quality-streaming\\ur-human-patterns-001\\adl-35-check.jpg",
+      "files": {
+        "outputs\\human-quality-streaming\\ur-human-patterns-001\\adl-35-actions.csv": "0715bb0ee41a41b3d9d1db7b4fa6af433287509f75f990df1b60b8bcdaf9e6b3",
+        "outputs\\human-quality-streaming\\ur-human-patterns-001\\adl-35-check.jpg": "7e36d1d8e384c9ec30cae5cd65e7d185da651a3d8e070422b83d2973b94cb651",
+        "outputs\\human-quality-streaming\\ur-human-patterns-001\\adl-35-events.csv": "06d9b8c2b37ae90061d1b39daa37708acf74a5e8c9fa676fe66f9638af13fee2",
+        "outputs\\human-quality-streaming\\ur-human-patterns-001\\adl-35-preview.mp4": "fcbd993c4558f9c0fe63bd6ea3de2cb75f60e3d4ad62729cd5b7792a029fae5e",
+        "outputs\\human-quality-streaming\\ur-human-patterns-001\\adl-35.csv": "1784aac89c80517f689215d3472b815f9ea4ff93e95e3a39c68fbd3dc941df7a",
+        "outputs\\human-quality-streaming\\ur-human-patterns-001\\adl-35.json": "fc4be3c5c4a75dd239ddd865d3bd8f865a04827a35bac6be094eca1d97399539",
+        "outputs\\human-quality-streaming\\ur-human-patterns-001\\adl-35.mp4": "b5b2b2fb9e8847485a099d17424fb3a8d77c376ada12da88a40fa1094c7bb619"
+      }
+    },
+    {
+      "run": "ur-human-patterns-001",
+      "sequence_id": "fall-09",
+      "frames": 185,
+      "compared_scores": 127,
+      "max_score_difference": 0.0,
+      "events_equal": true,
+      "action_csv_byte_identical": true,
+      "original_ae_csv_byte_identical": null,
+      "first_visible_alarm_ms": 5900.0,
+      "visible_alarm_frames": 8,
+      "preview": "outputs\\human-quality-streaming\\ur-human-patterns-001\\fall-09-preview.mp4",
+      "contact": "outputs\\human-quality-streaming\\ur-human-patterns-001\\fall-09-check.jpg",
+      "files": {
+        "outputs\\human-quality-streaming\\ur-human-patterns-001\\fall-09-actions.csv": "4b93521202519ea43d8b95e4867f6895307b1641656c52d8a45f6202e00d5a17",
+        "outputs\\human-quality-streaming\\ur-human-patterns-001\\fall-09-check.jpg": "e57525f94b82386cc80aa2808e35f66d19b99ffff07da45dbc0f5364186c3f65",
+        "outputs\\human-quality-streaming\\ur-human-patterns-001\\fall-09-events.csv": "23a0949b78ef5205d7ad813c3d448d0ee52fc66174b9621b5cc87b0c318f40ef",
+        "outputs\\human-quality-streaming\\ur-human-patterns-001\\fall-09-preview.mp4": "79d1785732a6dcfdab1c5ff339852dcc3023dd64ce6402e1073838e3c7a0a512",
+        "outputs\\human-quality-streaming\\ur-human-patterns-001\\fall-09.csv": "c9bc27f35f4c11f86c2cc8b05149fb2770b5e8ff7ea6a6f75c9316979542ad9b",
+        "outputs\\human-quality-streaming\\ur-human-patterns-001\\fall-09.json": "6f98e9755059162dd74cc087a7ffa1897956bd1c3f4f6437c4c473908eab46da",
+        "outputs\\human-quality-streaming\\ur-human-patterns-001\\fall-09.mp4": "0a957b912a1128e4065433ae9d4d450487659cb66049e3921985b78a4e3fc9c5"
+      }
+    },
+    {
+      "run": "ur-human-patterns-001",
+      "sequence_id": "fall-30",
+      "frames": 70,
+      "compared_scores": 20,
+      "max_score_difference": 0.0,
+      "events_equal": true,
+      "action_csv_byte_identical": true,
+      "original_ae_csv_byte_identical": null,
+      "first_visible_alarm_ms": null,
+      "visible_alarm_frames": 0,
+      "preview": "outputs\\human-quality-streaming\\ur-human-patterns-001\\fall-30-preview.mp4",
+      "contact": "outputs\\human-quality-streaming\\ur-human-patterns-001\\fall-30-check.jpg",
+      "files": {
+        "outputs\\human-quality-streaming\\ur-human-patterns-001\\fall-30-actions.csv": "dbf4be01c4d245b3bb3492b2b76a14aa5750111ac49bdf817261181b6728b77f",
+        "outputs\\human-quality-streaming\\ur-human-patterns-001\\fall-30-check.jpg": "7fd11497a604d12bb30f1d2c7455b43f5a7ecc8742d6ca8da9744f8eaad4db60",
+        "outputs\\human-quality-streaming\\ur-human-patterns-001\\fall-30-events.csv": "06d9b8c2b37ae90061d1b39daa37708acf74a5e8c9fa676fe66f9638af13fee2",
+        "outputs\\human-quality-streaming\\ur-human-patterns-001\\fall-30-preview.mp4": "026d32eaebc44d635a41a94a386561df0bf8e7378b70d846e8703820e1ed7397",
+        "outputs\\human-quality-streaming\\ur-human-patterns-001\\fall-30.csv": "a787195c5ecc63d90ec3be3aa59f72bd695cb9fb2a126861ddcf3c423244c56d",
+        "outputs\\human-quality-streaming\\ur-human-patterns-001\\fall-30.json": "f4c7005f4b1f8f697f7a3387ea0c7ce7b02f40a46ba917fa0d47463f9844e267",
+        "outputs\\human-quality-streaming\\ur-human-patterns-001\\fall-30.mp4": "a526c0cf7117b101e957bcc4e5ea8eb6a5519a85d7005127436f1a4ec43a8d7c"
+      }
+    }
+  ],
+  "train_only_scaler_and_profile_refit": true,
+  "train_sequences": 24,
+  "train_windows": 3638,
+  "selected": "ur-sample-human-s1-001",
+  "target_reached": false,
+  "new_test_scored": false,
+  "old_runs_preserved": 39,
+  "old_cache_files_preserved": 1165,
+  "validation_sha256": "89002aafa882fcd053c0db68859173bae19d4cc9881a4bbc5618a527f7035ebc",
+  "verification_script_sha256": "2b9187c3b56bf24678824d59d91361d84ad8f91cc86bdd7b25f3191960f98c6d",
+  "pilot_sha256": "5e2eabe6d739ad2a20b1580041fda0ae892aedf0f0f81101e6eab77bfbfcf88b",
+  "implementation_sha256": "13da474a4bd171476baf7e1bac4457a38a155d9f5f9b1340d4ab6710f663fc8b"
+}

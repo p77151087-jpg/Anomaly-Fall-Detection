@@ -1,0 +1,49 @@
+{
+  "source_kind": "real_end_to_end",
+  "scope": "Display only; not recognition improvement",
+  "run": "ur-stride1-decay-001 (experimental, not promoted)",
+  "old_runs_preserved": 28,
+  "old_videos_unchanged": true,
+  "videos": [
+    {
+      "sequence_id": "fall-25",
+      "frames": 85,
+      "inference_csv_identical": true,
+      "event_csv_identical": true,
+      "preview_sha256": "d42315016c77860a0fd9d02c8561b43a9dc87a15dfef156bc8b477fda38a794b"
+    },
+    {
+      "sequence_id": "fall-09",
+      "frames": 185,
+      "inference_csv_identical": true,
+      "event_csv_identical": true,
+      "preview_sha256": "8b0dcb0058de2b637001e7571792c4d62a662d2797728bfd982b633d1854b8a5"
+    },
+    {
+      "sequence_id": "adl-04",
+      "frames": 149,
+      "inference_csv_identical": true,
+      "event_csv_identical": true,
+      "preview_sha256": "1176e1ada6373c265cf5298cff39dea8cb77946ed7d8479753be5adcea15fde7"
+    }
+  ],
+  "diagnosis": {
+    "fall25_frame71_timestamp_ms": 2335,
+    "raw_tracks": 2,
+    "measured_confident_joint_counts": [
+      6,
+      7
+    ],
+    "required_measured_joints": 12
+  },
+  "remaining_limit": "Confident but incorrect poses may still be drawn; filtering failed quality is not pose recovery",
+  "visual_qa": {
+    "failed_skeleton_hidden": true,
+    "unknown_retained": true,
+    "valid_adl_skeleton_retained": true
+  },
+  "tests": {
+    "passed": 14,
+    "xml": "docs/validation/pytest-skeleton-visibility-final.xml"
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "command": ".venv/Scripts/python.exe -m ruff check src tests",
+    "exit_code": 0,
+    "stdout": "All checks passed!\n",
+    "stderr": ""
+  },
+  {
+    "command": ".venv/Scripts/python.exe -m ruff format --check src tests",
+    "exit_code": 0,
+    "stdout": "45 files already formatted\n",
+    "stderr": ""
+  },
+  {
+    "command": ".venv/Scripts/python.exe -m compileall -q src tests",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "command": ".venv/Scripts/python.exe -m pytest -q --junitxml=docs/validation/pytest-openpose18.xml",
+    "evidence": "docs/validation/pytest-openpose18.xml",
+    "tests": 55,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 1
+  }
+]

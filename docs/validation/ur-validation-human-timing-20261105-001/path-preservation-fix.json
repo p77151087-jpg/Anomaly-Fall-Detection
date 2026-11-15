@@ -1,0 +1,18 @@
+{
+  "reason": "Normalize separators for archived mutable-document lookup; preserve SHA checks and original documents. No score/annotation/event changes.",
+  "initial_inputs_preserved": "inputs-initial.json",
+  "changes": [
+    {
+      "path": "scripts\\validation_human_timing.py",
+      "initial_sha256": "596c4d5d123971197bd416647e587b70830658277ac6d36164a993c0cc824fa7",
+      "final_sha256": "17616dd3da7b16f02b4bcd4a5a82e34500c75040c726e79f334772c522910469"
+    },
+    {
+      "path": "tests\\test_validation_human_timing.py",
+      "initial_sha256": "6c79d8443e63bc849fd3ca0951fad20b9abf6bc9d12e0595ff28b40503663212",
+      "final_sha256": "c2faa11ee816b42825bca90c38c54a67c77e9f097a628d291baec9d0c4c4ac48"
+    }
+  ],
+  "tests_final_passed": 41,
+  "old_outputs_overwritten": false
+}

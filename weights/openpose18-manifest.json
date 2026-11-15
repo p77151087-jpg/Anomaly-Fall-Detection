@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "recipe_id": "lightweight_openpose18_stgcn_kinetics_v1",
+  "resources": [
+    {
+      "role": "pose",
+      "recipe_id": "lightweight_openpose18_stgcn_kinetics_v1",
+      "repository_url": "https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch",
+      "commit": "d23c284b09acf27a163e1febd511e7482cac25ed",
+      "source_page": "https://github.com/Daniil-Osokin/lightweight-human-pose-estimation.pytorch/blob/d23c284b09acf27a163e1febd511e7482cac25ed/README.md",
+      "source_folder": null,
+      "download_url": "https://download.01.org/opencv/openvino_training_extensions/models/human_pose_estimation/checkpoint_iter_370000.pth",
+      "local_path": "weights/pretrained/openpose18/checkpoint_iter_370000.pth",
+      "size_bytes": 87959810,
+      "sha256": "517c86f769c6636583083f1467e3d212a0006c27109edb3aeffc19a79622d411",
+      "upstream_expected_sha256": null,
+      "license": "Apache-2.0 (upstream repository)",
+      "status": "usable",
+      "verification": {
+        "strict_load": true,
+        "real_forward": true,
+        "device": "cuda",
+        "devices": [
+          "cuda"
+        ],
+        "evidence": "C:\\成大專案\\fall-detection-anomaly\\data\\cache\\caucafall-extension\\dataset-index.json"
+      }
+    },
+    {
+      "role": "stgcn",
+      "recipe_id": "lightweight_openpose18_stgcn_kinetics_v1",
+      "repository_url": "https://github.com/yysijie/st-gcn",
+      "commit": "221c0e152054b8da593774c0d483e59befdb9061",
+      "source_page": "https://github.com/yysijie/st-gcn/blob/221c0e152054b8da593774c0d483e59befdb9061/OLD_README.md",
+      "source_folder": "https://drive.google.com/drive/folders/1IYKoSrjeI3yYJ9bO0_z_eDo92i7ob_aF",
+      "download_url": "https://drive.google.com/uc?id=1MDIUlJ_X-IpNgLZYXgdMuclCsnYTepU1",
+      "local_path": "weights/pretrained/openpose18/st_gcn.kinetics.pt",
+      "size_bytes": 12763702,
+      "sha256": "12c56ed5535dd28a075e7d04dec96f572f8b1dc87548004761157e15b7d9e12e",
+      "upstream_expected_sha256": null,
+      "license": "BSD-2-Clause (upstream repository)",
+      "status": "usable",
+      "verification": {
+        "strict_load": true,
+        "real_forward": true,
+        "device": "cuda",
+        "devices": [
+          "cuda"
+        ],
+        "evidence": "C:\\成大專案\\fall-detection-anomaly\\data\\cache\\caucafall-extension\\dataset-index.json"
+      }
+    }
+  ]
+}

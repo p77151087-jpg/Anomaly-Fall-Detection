@@ -1,0 +1,7 @@
+{
+  "src/fall_detect/cli.py": "c55cc65118ef05b7c43bdb83f8f041b6372c05ccc169f0b5ae1a2a996b7349a6",
+  "src/fall_detect/visualization/video.py": "645027cbfb9a559179587e9b851d6f900e557d532f48d793734b622329663516",
+  "src/fall_detect/visualization/sample_display.py": "09a3e9d4a6620a0a9298510d6e17d6b68bec6fc150e8100b65e24788d0ef478b",
+  "docs/current-progress.md": "eca22786b335b6578b1b55f14914b5cbb00fa9c12f7112b2edc2da5240d675de",
+  "docs/acceptance-results.md": "077c26471e66fcddb10b8ac348bfb1784f4541cdf96f1b11f8c5fc7932c8111d"
+}

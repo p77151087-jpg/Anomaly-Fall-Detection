@@ -1,0 +1,60 @@
+{
+  "source_kind": "real_end_to_end",
+  "run": "ur-sample-human-s1-001",
+  "adopted": true,
+  "cases": [
+    {
+      "sequence_id": "fall-29",
+      "split": "validation",
+      "outcome": {
+        "sequence_id": "fall-29",
+        "sequence_score": 1.9478466510772705,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 70,
+        "n_valid_endpoints": 54,
+        "window_coverage": 0.7714285714285715,
+        "first_alarm_ms": 2633.3333333333335
+      },
+      "frames": 99,
+      "compared_windows": 48,
+      "masked_windows": 6,
+      "max_score_difference": 0.0,
+      "legacy_csv_byte_identical": true,
+      "visible_alert_rows": 2,
+      "visible_alert_timestamps_ms": [
+        2700.0,
+        2733.3333333333335
+      ],
+      "events_match": true,
+      "states_match_where_visible": true,
+      "preview": "C:\\成大專案\\fall-detection-anomaly\\outputs\\human-displacement-validation\\ur-sample-human-s1-001\\fall-29-preview.mp4",
+      "preview_sha256": "dbd472e638a354f4e0f562e658288f2d1e5741418f99686f06959cbb38a8cd24",
+      "events": [
+        {
+          "sequence_id": "fall-29",
+          "track_id": 1,
+          "confirmed_start_ms": 2633.3333333333335,
+          "last_active_ms": 2800.0,
+          "peak_score": 2.1494598388671875,
+          "end_ms": 2833.3333333333335,
+          "end_reason": "low_confidence"
+        }
+      ]
+    }
+  ],
+  "hashes": {
+    "autoencoder.pt": "96a9deea163c80055f08c0b7001f1b7445db45d3bda3714df2604f2339d55afb",
+    "scaler.npz": "d6660ddb8b6e37729257b3fc4fc62505a2ef77d9a2558de9d06b8716b7a0529c",
+    "resolved-config.yaml": "661b983db7c3147c76a36cec1561180555970444e88309cf246445c1fefcd484",
+    "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+    "sources.json": "dd7c73ba557a57846b2021c82443787cc12131434c3637265b8f590bceb58837",
+    "dataset-index.json": "cd163b0b2eb75044fdfd8127f9e863a06f8039b203a4027a299c7ab11be2e2c6",
+    "environment.json": "d9c1f980cf8c7059656da59eaeebfc4627be9abfd1e8080fcf946aeca8d33361",
+    "training-history.csv": "78afc3939783e3246a1a05ad03a02040ea20f91668e790f9e8cf4a5aabb93873",
+    "threshold.json": "6f8514180fa8ea073048d99b2998ebc871838e3a35e37d7633ac8b9be5bfb05a",
+    "calibration.json": "ea97fa7959d5f38593ab8d9bf286ce23ba5850d87695d69cce6816869c3ead78"
+  },
+  "visual_review": "pending",
+  "not_formal_course_film": true
+}

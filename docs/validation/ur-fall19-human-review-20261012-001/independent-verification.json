@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "original_export_sha256_matches_download": true,
+  "causal_window_joins": 223,
+  "all_scores_unchanged": true,
+  "phase_counts_and_maxima": true,
+  "synthetic_passed": 45,
+  "new_synthetic_cases": 9,
+  "parent_artifacts_unchanged": 245,
+  "prior_contracts_preserved": 2,
+  "completed_save_rejected": true,
+  "human_boundary_semantics_pending": true,
+  "formal_time_accuracy_computed": false,
+  "test_feature_reads": 0,
+  "new_test_evaluations": 0,
+  "new_training_epochs": 0
+}

@@ -1,0 +1,325 @@
+{
+  "created_at": "2026-09-18T01:09:23.785164+00:00",
+  "pilot_ids": [
+    "adl-05",
+    "adl-24",
+    "adl-04",
+    "adl-20",
+    "fall-02",
+    "fall-18",
+    "fall-19",
+    "fall-29"
+  ],
+  "source_index": "data\\cache\\course-ur-yolo11\\dataset-index.json",
+  "source_index_sha256": "e235c07ce1de28a8ee8ec402db584af91c4fe511a0b57f526b3b1edf5766efd6",
+  "candidates": [
+    {
+      "run": "accuracy-ur-rotation-windows-001",
+      "config": "configs\\accuracy-ur-rotation-windows-001.yaml",
+      "sha256": "1266a10ce610fea34cee1051b544ca321c828cc89037f80ee49b6a0b06ac51a2"
+    },
+    {
+      "run": "accuracy-ur-rotation-balanced-001",
+      "config": "configs\\accuracy-ur-rotation-balanced-001.yaml",
+      "sha256": "e00d8554616dd0affbeac5b9b92eddc860144599c82ff710bdae13c3faf5116e"
+    },
+    {
+      "run": "accuracy-ur-rotation-compact-001",
+      "config": "configs\\accuracy-ur-rotation-compact-001.yaml",
+      "sha256": "b30804e9b67b346dcd367ea521ffca54e978da47f3b50721c81abfccc6d3b036"
+    }
+  ],
+  "pilot_gate": {
+    "fall_feature_ratio_min": 1.3,
+    "adl_feature_ratio_min": 0.9,
+    "no_evaluable_regression": true
+  },
+  "selection": "Validation operational_accuracy, F1, all-Fall recall, fewer FP, earlier candidate",
+  "threshold": "Validation balanced_sequence_accuracy; fewer FP then higher threshold",
+  "stop": "one pose candidate, exactly three AE candidates if pilot passes; max100/patience10; no Test unless Validation accuracy>=.9 and F1>=.87",
+  "validation_targets": {
+    "operational_accuracy": 0.9,
+    "sequence_accuracy": 0.9,
+    "sequence_fall_f1": 0.87
+  },
+  "historical_test_seen": true,
+  "presentation_updates_on_hold": true,
+  "preserved_runs": {
+    "caucafall-extension-001": {
+      "autoencoder.pt": "e0577797cebbac881542798fb494da291bbf9e9b675ee27a76799538fbf7ed6a",
+      "scaler.npz": "71eb1762fa33472af3735e03a591ee7abb503f76b50836399732b0513a256e26",
+      "resolved-config.yaml": "1f395d63dc22f60c6d9bfb2a61b67587e434ebba7787e2235836afcb51ebfde8",
+      "split-manifest.json": "8eeae485ce418fde8ca4158ecf1531246c29dbf29f2c945dd60e2232c2952715",
+      "sources.json": "dbcc95db99e6648fc6ffcc620f9f275a671b72eef215672bb25a02421417f5d0",
+      "dataset-index.json": "8f7d65635b42b8d51d1676f63681a4e8943e04ff82f28e5f6ef4a220190ac0af",
+      "environment.json": "bae2e74110a6ed6164bb2b289b8a3a8b5c150a93a1c417aa7b4e7716cfce283b",
+      "training-history.csv": "9b661ffc1a8e2fcdf10f2e3b2c748e31d303aea58dc404afd978b7ebbbbe01fe",
+      "threshold.json": "3cd45e59d9424b900b0024eb97cdae9aea2fe2b48c26d75a1234963dae03fb30",
+      "calibration.json": "05ce16728dc033c5b12b4ab108ac1e9e356aa366a0c84a540d065e52e15d7fef"
+    },
+    "caucafall-extension-001-balanced": {
+      "autoencoder.pt": "e0577797cebbac881542798fb494da291bbf9e9b675ee27a76799538fbf7ed6a",
+      "scaler.npz": "71eb1762fa33472af3735e03a591ee7abb503f76b50836399732b0513a256e26",
+      "resolved-config.yaml": "f40e5f5f86a85b4531388cb84a31d74245ed90f8bbacba22d25231da145b943c",
+      "split-manifest.json": "8eeae485ce418fde8ca4158ecf1531246c29dbf29f2c945dd60e2232c2952715",
+      "sources.json": "7339f934ac08e068647d994342cdba3a4f95eb44e3197926e4508560d436b599",
+      "dataset-index.json": "8f7d65635b42b8d51d1676f63681a4e8943e04ff82f28e5f6ef4a220190ac0af",
+      "environment.json": "bae2e74110a6ed6164bb2b289b8a3a8b5c150a93a1c417aa7b4e7716cfce283b",
+      "training-history.csv": "9b661ffc1a8e2fcdf10f2e3b2c748e31d303aea58dc404afd978b7ebbbbe01fe",
+      "threshold.json": "8e139584fbbe3e3bdb111555e5766b7d99c917bd61205c2b1c99e59c87228f36",
+      "calibration.json": "46ebd3322083d4e5529925d64e38ccd51ba9a03797423e9673d46504e55de78f"
+    },
+    "caucafall-timestamp-001": {
+      "autoencoder.pt": "855dc5d5dec0b66dbeedcf34ee3325aa005c41eda50ace41dc13f9cca33c157b",
+      "scaler.npz": "2f6466a5ad80fae9d61ffae1985e767856b2d53853464274a134166ce8bb571c",
+      "resolved-config.yaml": "f4aadaa3e02c24ca4a87a4eebd06c85b650c9eaca1cf1793b6aaa617d01af9b8",
+      "split-manifest.json": "8eeae485ce418fde8ca4158ecf1531246c29dbf29f2c945dd60e2232c2952715",
+      "sources.json": "834dd1590966ea86f4d275cf35c0f2863ab4df55f743bae73c92698112772659",
+      "dataset-index.json": "f4f9848cf96088e99c48707b209e41d13aa99267e4762f4d048ceb97bc5e1e65",
+      "environment.json": "5f16f845edfa0f701d339c23e849d52133f3d79ee0d28b323fc378815da6b727",
+      "training-history.csv": "63cf7d010472c5b1573ddb8aa6a3aa0f0419a9de8ecf295f0d832cdf5da55f5f",
+      "threshold.json": "9b3d056b0e46b71aa2804b839ada3aeb1b3bb24c33b0ff7b40bc916646465a06",
+      "calibration.json": "60648f84303d991fb2cd3127ddfca9565572df52645801e073b36593f731fbe0"
+    },
+    "caucafall-yolo11-001": {
+      "autoencoder.pt": "5575e601d77a42dc21c054be51fbff6db360e4eee857e973df143d8fd66e3b59",
+      "scaler.npz": "a6fe170c4fe282f4d2c54dae466f8a4231c024c51143a87dfbde5f066e833302",
+      "resolved-config.yaml": "a854e33e56517671ad090354aded15145b34eae75aa8bcd2da7c05f981e842db",
+      "split-manifest.json": "8eeae485ce418fde8ca4158ecf1531246c29dbf29f2c945dd60e2232c2952715",
+      "sources.json": "8e16fa2b637869ef7d808c7cfa30d1492f4ede635dac9384f713becdfe5f60d5",
+      "dataset-index.json": "deabca9182ead97009ca79b22ee9e9f3904d25e7f4408cbd381887917a9250ec",
+      "environment.json": "19cfaeb17423bb9d34bdf6be15bcbfb8407dc9244af543d7e7ab762de04020d6",
+      "training-history.csv": "8c5e43cc643522ca2ac702c71750785f3b5bd4b3d86aa1ce621b48d694eb0a67",
+      "threshold.json": "77a9c334a1df3fa3d8d05ef3684cc2c04f4fd8bf599a906eaa41dd248e3e8c28",
+      "calibration.json": "e8ce532a325c725dbe2540393a2db809d721c066f0a62a02862dc867a18b97f9"
+    },
+    "caucafall-yolo11-balanced-001": {
+      "autoencoder.pt": "1bfea306667de19f0fd7f91f6c1f3e5df4222e7546f0c880e3fee56b1c235e4b",
+      "scaler.npz": "5ea11a4c3493a902de5ac816abf060045ff60fd13b5503880baa8c153ccaf8a7",
+      "resolved-config.yaml": "1aa26620997f3aad9939915c213b3e525c78b4f29429096ca954c92a838df71f",
+      "split-manifest.json": "8eeae485ce418fde8ca4158ecf1531246c29dbf29f2c945dd60e2232c2952715",
+      "sources.json": "9ce8bccb31a6e6fad295b04564fd77b2bbcc3ad9cb7bac76566805b7558b4a53",
+      "dataset-index.json": "65ddf427a1a2993d2b89d85406c4aaca16f777f0d85a390fe1e9d14fc5b97d6d",
+      "environment.json": "4a92e57f03199592bd664f5db4988de3852c92175d2297854c06ed29a455e652",
+      "training-history.csv": "cda7f5aeeefbea21dd6c58bacd5c1db974b5743ceb52140ce5e31134396e7069",
+      "threshold.json": "8106b449645d5a14007e003ee3c08a83699b13733b10d2d01b937d258fec215b",
+      "calibration.json": "00f94fb7a8866f44a22d527172879acbf870df0279fff66df7ad87e0a438fb8b"
+    },
+    "caucafall-yolo11-balancedcompact-001": {
+      "autoencoder.pt": "748984db7bec711d3dd126d0575c7cc3db65ff1e3bfec98638941ed377b283c1",
+      "scaler.npz": "5ea11a4c3493a902de5ac816abf060045ff60fd13b5503880baa8c153ccaf8a7",
+      "resolved-config.yaml": "f3ca8d3e2ac872c1d6966f8f0a376f9b1ea2c9db4e4d8cb8e8fc2ba71cb8ec2e",
+      "split-manifest.json": "8eeae485ce418fde8ca4158ecf1531246c29dbf29f2c945dd60e2232c2952715",
+      "sources.json": "9ce8bccb31a6e6fad295b04564fd77b2bbcc3ad9cb7bac76566805b7558b4a53",
+      "dataset-index.json": "65ddf427a1a2993d2b89d85406c4aaca16f777f0d85a390fe1e9d14fc5b97d6d",
+      "environment.json": "b5eb80eea3f74cf8c2660e86739305629abed5671508f8914f6857d46f5f9b71",
+      "training-history.csv": "60134146fb3b01cc0d01272176cb1eb23cdff37b9d6ab91c443718c945a8580d",
+      "threshold.json": "504332d70cd9f62612cffbb0f93b27c66769ff973e157d5a98419db0d07dc98c",
+      "calibration.json": "4bc03c49ece208440d394571b19c99d49f70f99511024f7b02d5d4f125d9b7d9"
+    },
+    "caucafall-yolo11-compact-001": {
+      "autoencoder.pt": "9a2b6a5e97bcd0a149f165fc25b9ce724745a7d10431f8d950c4177283d3e041",
+      "scaler.npz": "5ea11a4c3493a902de5ac816abf060045ff60fd13b5503880baa8c153ccaf8a7",
+      "resolved-config.yaml": "39a3d2acee8c7088f6f04200491f90eb19597a92301764fcb4550d7d2723a350",
+      "split-manifest.json": "8eeae485ce418fde8ca4158ecf1531246c29dbf29f2c945dd60e2232c2952715",
+      "sources.json": "169e733bd0fd71cdb813ec03c2dfa12f5f3cfb4f171b067df3561056a2695d8e",
+      "dataset-index.json": "65ddf427a1a2993d2b89d85406c4aaca16f777f0d85a390fe1e9d14fc5b97d6d",
+      "environment.json": "54c6a824483539af65fd2cf84b5be1695bbd777ff281f5bc9486686abc1bc805",
+      "training-history.csv": "4897454d6faba74892a7280bd05b29f75a47d5993d012938737a77beeabb6226",
+      "threshold.json": "97d0ac034de7b69b76da1f5a6a5e389561034d54dc9835ff6c4fa97c17b3b02a",
+      "calibration.json": "32debc7ddc9c7f68b6c277cfa8f4a8cb7ccdc7d046ae3daef52bbf5fa213a557"
+    },
+    "caucafall-yolo11-jitter-001": {
+      "autoencoder.pt": "552dd988cbb46f11ba406a0ddf9af9edea9656adb8656fd95a55b04b5a87d119",
+      "scaler.npz": "5ea11a4c3493a902de5ac816abf060045ff60fd13b5503880baa8c153ccaf8a7",
+      "resolved-config.yaml": "f6309c5b46f6fca74d3ecc752144d411d9441768f32d6799c2feae86d3cdb3f7",
+      "split-manifest.json": "8eeae485ce418fde8ca4158ecf1531246c29dbf29f2c945dd60e2232c2952715",
+      "sources.json": "169e733bd0fd71cdb813ec03c2dfa12f5f3cfb4f171b067df3561056a2695d8e",
+      "dataset-index.json": "65ddf427a1a2993d2b89d85406c4aaca16f777f0d85a390fe1e9d14fc5b97d6d",
+      "environment.json": "7bee38e8eb580025ebf5b640196b8521b45df94cbd741ee3f6b216837a27defc",
+      "training-history.csv": "943a5b65fcf2d600bee859de730b734b65ca61ad18a59e2215193742fc47c23d",
+      "threshold.json": "07c131037d6de1b72274e954e1491d9d21ade676ced6b464dcd666c7788d6db0",
+      "calibration.json": "aa7bac4d9f83773c05c30ef4a6ed9458ea1a35ec28f53c1eae0c6c42af8a9e1e"
+    },
+    "caucafall-yolo11-long-001": {
+      "autoencoder.pt": "fabf9c1fb2d6cd9fc5bf12402b7246917967c46c0865cbb5061f65d66087a079",
+      "scaler.npz": "5ea11a4c3493a902de5ac816abf060045ff60fd13b5503880baa8c153ccaf8a7",
+      "resolved-config.yaml": "f2b8fc4f963e3150979571cbea8ac54bc814f2e800234621b8e2bf63de545b2a",
+      "split-manifest.json": "8eeae485ce418fde8ca4158ecf1531246c29dbf29f2c945dd60e2232c2952715",
+      "sources.json": "169e733bd0fd71cdb813ec03c2dfa12f5f3cfb4f171b067df3561056a2695d8e",
+      "dataset-index.json": "65ddf427a1a2993d2b89d85406c4aaca16f777f0d85a390fe1e9d14fc5b97d6d",
+      "environment.json": "703626aa1152f94983e83e030d2219e04297da5813007f9cd6672e098b0c753f",
+      "training-history.csv": "6e7f4fef4e87eea1fdd5f7e7549d5971200cef6528e1f2bb07cd194df43cdb6a",
+      "threshold.json": "c9d12a5fe6beb36aa85c3923625c1a396da6793989701c38e83899b35bb66e8b",
+      "calibration.json": "8f3efb9c885607bb8934f7f06c20d94b2c22d48f58c885080b88d77ba4dd67e3"
+    },
+    "course-ur-balanced-001": {
+      "autoencoder.pt": "af38f41eac11c2ec805ec8c13be0f3db8bc9d3a94da5e1ec8d8a9dcac3902fa7",
+      "scaler.npz": "502b564d881dafb95c143512fa0eb43806cb345f746ab6469988ee2f06fe1866",
+      "resolved-config.yaml": "2c9bf179b45d635cf18cdd9afb095c08724a6e8db3f1f7989398313c2481f432",
+      "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+      "sources.json": "01d3cdc22ffc2da768e9ecd9ccab793db0a015b144ea003b1afad17fbfc6c8a5",
+      "dataset-index.json": "e235c07ce1de28a8ee8ec402db584af91c4fe511a0b57f526b3b1edf5766efd6",
+      "environment.json": "ddaf66749bd034db089ee855bf7dadd06320a3ef468ae2af96add7125d9b6538",
+      "training-history.csv": "af903895f39bd851b1758fc4ebe080f90183c05f9cf109bb41781634a068b5d1",
+      "threshold.json": "9a2579d7002271648c4fd3914eabbdb3e2cfba295a092ac1d8d24b3ae29ef05c",
+      "calibration.json": "3f906b9720e21461f6e439da87e7fcd91425ccbf139d0f4494a5fe313ee1ee93"
+    },
+    "course-ur-baseline-001": {
+      "autoencoder.pt": "631d810473168cd6fb27aecd294842d20ec6111c5f6c8a94fe5b254851663733",
+      "scaler.npz": "502b564d881dafb95c143512fa0eb43806cb345f746ab6469988ee2f06fe1866",
+      "resolved-config.yaml": "7655c00085a9f89ea5dbd64359febd95d947cf2aadbae9fab6bfa902283cc467",
+      "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+      "sources.json": "761c04c7b4cfcaadb4f0f2389b9ae83018789bfe04de4d4620f5cccf7552997f",
+      "dataset-index.json": "e235c07ce1de28a8ee8ec402db584af91c4fe511a0b57f526b3b1edf5766efd6",
+      "environment.json": "4d926502991821d3aa8df3e61fb94007d967209d189f910a69c67beb1ac2132e",
+      "training-history.csv": "de2d91129358da95aa10a9a79ab798b62dbf69fa77488dc76efe352488f433e5",
+      "threshold.json": "a28347405fcb32bd9f15d4a3f4bf03c64032978b2b29f290685e51dd67d3c49f",
+      "calibration.json": "11cf01c899ba0158f2f883f33d21d0d872627c33a04af5648fd29bc16d1f7355"
+    },
+    "course-ur-compact-001": {
+      "autoencoder.pt": "f2c0b4aa51658d391621568eef5b84ba8279ca034c6ca88d052db8d78509ee45",
+      "scaler.npz": "502b564d881dafb95c143512fa0eb43806cb345f746ab6469988ee2f06fe1866",
+      "resolved-config.yaml": "9e6d0d68150f60e29d3eaf7f54d8496927ce814de427d9ae05873ace8751b7b2",
+      "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+      "sources.json": "01d3cdc22ffc2da768e9ecd9ccab793db0a015b144ea003b1afad17fbfc6c8a5",
+      "dataset-index.json": "e235c07ce1de28a8ee8ec402db584af91c4fe511a0b57f526b3b1edf5766efd6",
+      "environment.json": "7e1bc045d4f616f5f681882eeee5f790ceb3f644a089c58c94c8eb8c93233f60",
+      "training-history.csv": "a3f2008c8b1db4d9618b4aac28cfd9a547f661cd5fd3001463638cb438508944",
+      "threshold.json": "2dc9a316cbf10de07b1750aaecae285f3403fd44baee4b9d4bacac46ba7f15c9",
+      "calibration.json": "6da38b422f3c40b9e02c4f163f20980b97c1643aff9590f1f42e8e5033008a79"
+    },
+    "le2i-extension-001": {
+      "autoencoder.pt": "ca704917b161e451730787c4461c07b2ec8e7bb74632e24f40f0f052f8c6e231",
+      "scaler.npz": "6f3b9b7e9566b9670b2a232f61da67b721a7fbd1ae46581736ab29f9c4654c94",
+      "resolved-config.yaml": "9fce6a2711db0f9efc47d51bf4937ac8d608be73ef3f5770006dcf4bec89be82",
+      "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+      "sources.json": "f9e240c71e43c0a2767a4782cc984e30563aa4bbe60c1a70f1a7a06de8f06a55",
+      "dataset-index.json": "d8dd901eaac25857cee27d877ef2661f63bf55c77eab093bed18d8eb8597a030",
+      "environment.json": "343ebf62cd8b8520f32256d02e5f589b5edfc071d5bcc12355d4fd7bd15ee281",
+      "training-history.csv": "f9911064944e6a49b541d67b9183b8817033e6a50fc1816e2750e32d1c94014f",
+      "threshold.json": "b6d1fb32c66a91d180febee697e9d0f3982f1d6052428320cac40f8179c1e70e",
+      "calibration.json": "cba120e9c629cefc35f600619d0020e794e8fe4a404429b051517abc1983e5b4"
+    },
+    "le2i-long-002": {
+      "autoencoder.pt": "4c61775985220b1a21f8af7888c92c64ebca92e025881ea29c499b731496a71b",
+      "scaler.npz": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990",
+      "resolved-config.yaml": "f2c1e7a033435327690e484ba5c138b8addaa60218e3ff3007362bb5f0b7b4b3",
+      "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+      "sources.json": "c70b65e79a830f1215bcc40cc27b6ef81063e396501a94c70d959cc5e57df6ff",
+      "dataset-index.json": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+      "environment.json": "6364deed04d3e9cecd3adf7e97393d49320c5913d959d2a59cd52ff0ea52b768",
+      "training-history.csv": "081ffea3fd45a04be612fc04dece09687713986c5ba7535c5dcbd92d40b0a1c1",
+      "threshold.json": "f8cad79dbfe3788e016d2123ae34efffea7bc6ea49126ac58743ec39f4d46a5e",
+      "calibration.json": "ed78765ddee5aa62c4b19d25dea04178bff7ff26d8c0cdc5c4623ec7911251f3"
+    },
+    "le2i-long-002-balanced": {
+      "autoencoder.pt": "4c61775985220b1a21f8af7888c92c64ebca92e025881ea29c499b731496a71b",
+      "scaler.npz": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990",
+      "resolved-config.yaml": "2eccd358c936f261fd8ee5647cabf1af97fdcc8dadd54bc24da2547c89579071",
+      "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+      "sources.json": "932e716c484b744fa5f8f221209e9f907fffa103ee28811d5fb29eae839e589b",
+      "dataset-index.json": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+      "environment.json": "6364deed04d3e9cecd3adf7e97393d49320c5913d959d2a59cd52ff0ea52b768",
+      "training-history.csv": "081ffea3fd45a04be612fc04dece09687713986c5ba7535c5dcbd92d40b0a1c1",
+      "threshold.json": "719f9dc265cfef181ae158dfc39dea4d8720b7aa004f4d288a3943567be9db53",
+      "calibration.json": "f0af1de1325c95e32f70e7b56bb1f5dbc8603b42e2cd477fa7631cb5dc49ba6a"
+    },
+    "le2i-seqbalanced-001": {
+      "autoencoder.pt": "31d44195bf12b0041f7aad7b3f2b2f118f6ee62ccfe9f1340e491247f158ef2e",
+      "scaler.npz": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990",
+      "resolved-config.yaml": "643f82b05066f330e84e3679a5563d421b1fa8f2da122011d2172665f624bb5c",
+      "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+      "sources.json": "1c3d50487c564c5ab2cf8c22226ecc28ca6c3e293c9d8c742fa1b4f142e8e935",
+      "dataset-index.json": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+      "environment.json": "227d84b710a1c5414c9ef6e31107c470b4e0c502994e79bb25d74a301776fa38",
+      "training-history.csv": "1be4884e234ad2ae1e06edfdb8ff2dcbd62abdfc5b7af5c2e2c71c5f1fd67731",
+      "threshold.json": "e036d9f9c7d81a69ee04a7cdb7acb1065c24255c3666a8f778490a0c04f520ff",
+      "calibration.json": "cb12c24b02d47aad845336b73e16804ee85228f201061c379c108536e7237ca8"
+    },
+    "le2i-seqbalanced-001-balanced": {
+      "autoencoder.pt": "31d44195bf12b0041f7aad7b3f2b2f118f6ee62ccfe9f1340e491247f158ef2e",
+      "scaler.npz": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990",
+      "resolved-config.yaml": "4f36d2ccd76474bfc2416b5d85b66933a8daf454c78db79646b8d97e78f1321a",
+      "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+      "sources.json": "9ea23195434d639a1bf14c297198f21bdf68b9b78cd5dea202fb878272ea01ef",
+      "dataset-index.json": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+      "environment.json": "227d84b710a1c5414c9ef6e31107c470b4e0c502994e79bb25d74a301776fa38",
+      "training-history.csv": "1be4884e234ad2ae1e06edfdb8ff2dcbd62abdfc5b7af5c2e2c71c5f1fd67731",
+      "threshold.json": "087432362eb8fd88e39a8323df87c3c7cacd971d93c666bcea42ef14aaa884de",
+      "calibration.json": "396fbeb38025d1724a4e9e8c7bc0b271798c9170536dc4840d8e56329bfb9735"
+    },
+    "le2i-seqcompact-001": {
+      "autoencoder.pt": "ca870a9ed3cdb18d1373346d7094c54f7cd918af08191cdb6c55c1defc12f2c6",
+      "scaler.npz": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990",
+      "resolved-config.yaml": "18143f80ff9bafa0e023e644b95805eca9210af56cf80039ace062876dcb2b9a",
+      "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+      "sources.json": "1c3d50487c564c5ab2cf8c22226ecc28ca6c3e293c9d8c742fa1b4f142e8e935",
+      "dataset-index.json": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+      "environment.json": "e71a2eef228c7cf15d51d9fbadfe0a9e16bceb7644dda9cb63e37961f279c43d",
+      "training-history.csv": "76df2a1a957ab0abe88682aa9ea4bdcf28b13437bac3f480c322dc13e82ddc6a",
+      "threshold.json": "7f56bd721110347d9c5019a502f694dd2dfc8bdab7580655537f0be9cc86e94d",
+      "calibration.json": "d61373d80c3e80d69a155c6f832896f5b23140bfc97cf632bfe83c5c4c52dd13"
+    },
+    "le2i-seqcompact-001-balanced": {
+      "autoencoder.pt": "ca870a9ed3cdb18d1373346d7094c54f7cd918af08191cdb6c55c1defc12f2c6",
+      "scaler.npz": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990",
+      "resolved-config.yaml": "34a01bcf68c9fa1b5a575cffa86f02d6ab3e5fb4bb93fd2ba11aeb9665130181",
+      "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+      "sources.json": "79b49f809deb02bfd8491988cf99edbadea18154371283a3dc678775273caf7f",
+      "dataset-index.json": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+      "environment.json": "e71a2eef228c7cf15d51d9fbadfe0a9e16bceb7644dda9cb63e37961f279c43d",
+      "training-history.csv": "76df2a1a957ab0abe88682aa9ea4bdcf28b13437bac3f480c322dc13e82ddc6a",
+      "threshold.json": "ad74bf2410d0663b4db90f9f08e746b94278b4dbfc5c2ec8b443cf0d990c1f14",
+      "calibration.json": "60ee4394922624cbfe386477b4f2eb4d779c66931aae6578dfa411fe7c2b8706"
+    },
+    "le2i-timing-001": {
+      "autoencoder.pt": "b19ee3b108a9d1651a6c70bef75fe5d9b2db24ff3b5dd5bac432d7fd1fbe7bad",
+      "scaler.npz": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990",
+      "resolved-config.yaml": "5372c8434f3dfb8c2e3cdaa4a5367fdd4dc66c124164cd62b9b81c3d4fd24beb",
+      "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+      "sources.json": "fb849c7a5a40b215e00aa4060c09955fcfbaba7de8e24c4609931dc8a5f6424a",
+      "dataset-index.json": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+      "environment.json": "62786ea9350e5cdf836b9f5ef35fb9c5b6ada9608c9bc4e558b4c51bb3ba2da3",
+      "training-history.csv": "6d5317f144a0b554d649c841f3013b79984c32201c10e295ad234699bdab32fb",
+      "threshold.json": "38a820155015c81a9860d001544867d1d0333500a71d06988baf2d7d540c0291",
+      "calibration.json": "c18faba8d415d431d03fcad21452bb172dc9d5fa2b037e96195ed86ac2448ec1"
+    },
+    "le2i-timing-balanced-001": {
+      "autoencoder.pt": "b19ee3b108a9d1651a6c70bef75fe5d9b2db24ff3b5dd5bac432d7fd1fbe7bad",
+      "scaler.npz": "a689f82a8ff6d5d931360886177b5b1d187f90043a40984a4e50562adab01990",
+      "resolved-config.yaml": "618169bea4756ad2c69e2b671b19fe6f533df96434a2dcb13955f8041595468c",
+      "split-manifest.json": "ccd9c5a5763f5e5a46010514f69d8881ba30ccbe63d4272feccf1f1b330459a6",
+      "sources.json": "4fe9ea34f66660eb6e0a6fbe8339121cdea1f25b5ee7e159b008a38142d073a8",
+      "dataset-index.json": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+      "environment.json": "62786ea9350e5cdf836b9f5ef35fb9c5b6ada9608c9bc4e558b4c51bb3ba2da3",
+      "training-history.csv": "6d5317f144a0b554d649c841f3013b79984c32201c10e295ad234699bdab32fb",
+      "threshold.json": "b40521324c5f9298cbed262db8cc1d5bc37f32d98732938442f543f017066b57",
+      "calibration.json": "dda30ab037de60e4825c9935c674fe21980f2fa19f6858e2206ecb2e17afeb0e"
+    },
+    "openpose18-baseline-001": {
+      "autoencoder.pt": "10804ead639fd3b27b01d94cf5fd89f527a2328154d6942880ad03773c4a515f",
+      "scaler.npz": "21a94fc4a3d899aa46ea673208a222480fccdb98c61ecc2666099651f19e5f77",
+      "resolved-config.yaml": "d0062a4cb90009a6abc9dd6d5d7fdf37093ba4906e3952849eeb2ecc80e4d723",
+      "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+      "sources.json": "1417b64e4dd822e8d72f9f01b5960f6507236d93434c31c43a13433bc4a311d8",
+      "dataset-index.json": "16f0a99a97d073a0aa93f8e8dbea178c5ccc1b0feeab7a9666e9bb218d632f5c",
+      "environment.json": "aaeebdb021a4888f471f908dfbaca4aad32a129a0159345ea4a25861d36ba1c4",
+      "training-history.csv": "46c590ea80514c5035e50bd35110edb0944a70c4924dbc3b3dab0c8b271f1c3b",
+      "threshold.json": "b823c667e7cc2618a60f99ae49ea4a2848c03744fa63b4663d88754f21803421",
+      "calibration.json": "35b3130f06ff37bd45230e6b7442a5cbe1e20b7de47a8c19b9ef1abd85a94f6f"
+    },
+    "openpose18-rotation-001": {
+      "autoencoder.pt": "652cd10304dd2ad01d8ee044a781ba6ee9cbbd6b27deedd40958925dd5fdd93e",
+      "scaler.npz": "e29616b0728d9c88c3a019ba561a422b08dd5a57c8f91f4664e80213a907e9bf",
+      "resolved-config.yaml": "e6387789af38d63563415f8159c441a79494d19523e8ec658e2270ed4b57639f",
+      "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+      "sources.json": "39a7b27139c8c9a3a737d014314ec1396192be27ebc9627c7c9a01526836e419",
+      "dataset-index.json": "6cb42ae75d330730c7729f82bf74f6317b4ae05dde8a1c7f2e4f45ddb711de56",
+      "environment.json": "3c6a355eff3dd4b75b3138430fb53c60699cb58a144c91a5f381aee8b44c8719",
+      "training-history.csv": "f1acb41df2c1b54c3ad24f819c638cd103f35e285d20922277ded64beae3d933",
+      "threshold.json": "6f0c3c7902c59b63a85cd7d3d833ed94e8fd3fd450b0cd683efbd626dfc82b20",
+      "calibration.json": "81a14b196e4ad0cdc121ad7a72eec1e3a1464c23b5f0e4903b2123f7af016423"
+    }
+  }
+}

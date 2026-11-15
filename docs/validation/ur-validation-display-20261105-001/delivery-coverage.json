@@ -1,0 +1,785 @@
+{
+  "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+  "signal": "best_effort",
+  "indexed_at": "2026-11-05T10:53:48Z",
+  "metadata": {
+    "generation": "2026-11-05T10:53:48Z",
+    "index_mode": "full",
+    "recorded_at": "2026-11-05T10:53:50Z",
+    "recording_status": "complete",
+    "ignored_files_stored": 137,
+    "ignored_files_total": 137,
+    "hash_records_complete": true,
+    "coverage_version": 3,
+    "generation_matches": true
+  },
+  "paths": [
+    {
+      "requested_path": "docs/validation/ur-validation-display-20261105-001/browser-check.json",
+      "path": "docs/validation/ur-validation-display-20261105-001/browser-check.json",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "docs/validation/ur-validation-display-20261105-001/decoded-native-pixels.csv",
+      "path": "docs/validation/ur-validation-display-20261105-001/decoded-native-pixels.csv",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "docs/validation/ur-validation-display-20261105-001/exclusive-output-check.json",
+      "path": "docs/validation/ur-validation-display-20261105-001/exclusive-output-check.json",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "docs/validation/ur-validation-display-20261105-001/extra-source-manifest.json",
+      "path": "docs/validation/ur-validation-display-20261105-001/extra-source-manifest.json",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "docs/validation/ur-validation-display-20261105-001/final-check-commands.json",
+      "path": "docs/validation/ur-validation-display-20261105-001/final-check-commands.json",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "docs/validation/ur-validation-display-20261105-001/graph-evidence.json",
+      "path": "docs/validation/ur-validation-display-20261105-001/graph-evidence.json",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "docs/validation/ur-validation-display-20261105-001/independent-verification.json",
+      "path": "docs/validation/ur-validation-display-20261105-001/independent-verification.json",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "docs/validation/ur-validation-display-20261105-001/initial-audit-failure.json",
+      "path": "docs/validation/ur-validation-display-20261105-001/initial-audit-failure.json",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "docs/validation/ur-validation-display-20261105-001/initial-browser-seek.json",
+      "path": "docs/validation/ur-validation-display-20261105-001/initial-browser-seek.json",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "docs/validation/ur-validation-display-20261105-001/initial-independent-auditor.py",
+      "path": "docs/validation/ur-validation-display-20261105-001/initial-independent-auditor.py",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "docs/validation/ur-validation-display-20261105-001/initial-source/scripts/validation_display_replay.py",
+      "path": "docs/validation/ur-validation-display-20261105-001/initial-source/scripts/validation_display_replay.py",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "docs/validation/ur-validation-display-20261105-001/inputs-initial.json",
+      "path": "docs/validation/ur-validation-display-20261105-001/inputs-initial.json",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "docs/validation/ur-validation-display-20261105-001/inputs.json",
+      "path": "docs/validation/ur-validation-display-20261105-001/inputs.json",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "docs/validation/ur-validation-display-20261105-001/playback-service-repair.json",
+      "path": "docs/validation/ur-validation-display-20261105-001/playback-service-repair.json",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "docs/validation/ur-validation-display-20261105-001/player-browser-detail.png",
+      "path": "docs/validation/ur-validation-display-20261105-001/player-browser-detail.png",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "docs/validation/ur-validation-display-20261105-001/player-browser-detail.png",
+          "kind": "not_indexed_file",
+          "detail": "ignored-suffix",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "requested_path": "docs/validation/ur-validation-display-20261105-001/player-browser.png",
+      "path": "docs/validation/ur-validation-display-20261105-001/player-browser.png",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "docs/validation/ur-validation-display-20261105-001/player-browser.png",
+          "kind": "not_indexed_file",
+          "detail": "ignored-suffix",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "requested_path": "docs/validation/ur-validation-display-20261105-001/preservation.json",
+      "path": "docs/validation/ur-validation-display-20261105-001/preservation.json",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "docs/validation/ur-validation-display-20261105-001/prior-contracts/docs/acceptance-results.md",
+      "path": "docs/validation/ur-validation-display-20261105-001/prior-contracts/docs/acceptance-results.md",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "docs/validation/ur-validation-display-20261105-001/prior-contracts/docs/current-progress.md",
+      "path": "docs/validation/ur-validation-display-20261105-001/prior-contracts/docs/current-progress.md",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "docs/validation/ur-validation-display-20261105-001/range-http-check.json",
+      "path": "docs/validation/ur-validation-display-20261105-001/range-http-check.json",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "docs/validation/ur-validation-display-20261105-001/range-tests.xml",
+      "path": "docs/validation/ur-validation-display-20261105-001/range-tests.xml",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "docs/validation/ur-validation-display-20261105-001/synthetic-tests.xml",
+      "path": "docs/validation/ur-validation-display-20261105-001/synthetic-tests.xml",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "outputs/sample-display/ur-human-isotropic-001/fall-09-actions.csv",
+      "path": "outputs/sample-display/ur-human-isotropic-001/fall-09-actions.csv",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/sample-display/ur-sample-human-s1-001/fall-09-actions.csv",
+      "path": "outputs/sample-display/ur-sample-human-s1-001/fall-09-actions.csv",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/artifact-manifest.json",
+      "path": "outputs/ur-validation-display-20261105-001/artifact-manifest.json",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/display-frames.csv",
+      "path": "outputs/ur-validation-display-20261105-001/display-frames.csv",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/frames/fall-09-decoded-first-event.png",
+      "path": "outputs/ur-validation-display-20261105-001/frames/fall-09-decoded-first-event.png",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/frames/fall-09-sample-176.png",
+      "path": "outputs/ur-validation-display-20261105-001/frames/fall-09-sample-176.png",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/frames/fall-09-sample-177.png",
+      "path": "outputs/ur-validation-display-20261105-001/frames/fall-09-sample-177.png",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/frames/fall-09-sample-178.png",
+      "path": "outputs/ur-validation-display-20261105-001/frames/fall-09-sample-178.png",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/frames/fall-09-sample-180.png",
+      "path": "outputs/ur-validation-display-20261105-001/frames/fall-09-sample-180.png",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/frames/fall-09-sample-184.png",
+      "path": "outputs/ur-validation-display-20261105-001/frames/fall-09-sample-184.png",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/frames/fall-18-decoded-first-event.png",
+      "path": "outputs/ur-validation-display-20261105-001/frames/fall-18-decoded-first-event.png",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/frames/fall-18-sample-042.png",
+      "path": "outputs/ur-validation-display-20261105-001/frames/fall-18-sample-042.png",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/frames/fall-18-sample-043.png",
+      "path": "outputs/ur-validation-display-20261105-001/frames/fall-18-sample-043.png",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/frames/fall-18-sample-044.png",
+      "path": "outputs/ur-validation-display-20261105-001/frames/fall-18-sample-044.png",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/frames/fall-18-sample-064.png",
+      "path": "outputs/ur-validation-display-20261105-001/frames/fall-18-sample-064.png",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/frames/fall-30-decoded-first-event.png",
+      "path": "outputs/ur-validation-display-20261105-001/frames/fall-30-decoded-first-event.png",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/frames/fall-30-sample-055.png",
+      "path": "outputs/ur-validation-display-20261105-001/frames/fall-30-sample-055.png",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/frames/fall-30-sample-056.png",
+      "path": "outputs/ur-validation-display-20261105-001/frames/fall-30-sample-056.png",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/frames/fall-30-sample-057.png",
+      "path": "outputs/ur-validation-display-20261105-001/frames/fall-30-sample-057.png",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/frames/fall-30-sample-069.png",
+      "path": "outputs/ur-validation-display-20261105-001/frames/fall-30-sample-069.png",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/index.html",
+      "path": "outputs/ur-validation-display-20261105-001/index.html",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/preencode-frame-hashes.csv",
+      "path": "outputs/ur-validation-display-20261105-001/preencode-frame-hashes.csv",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/summary.csv",
+      "path": "outputs/ur-validation-display-20261105-001/summary.csv",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/summary.json",
+      "path": "outputs/ur-validation-display-20261105-001/summary.json",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/videos/fall-09-compare.mp4",
+      "path": "outputs/ur-validation-display-20261105-001/videos/fall-09-compare.mp4",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/videos/fall-09-demo.mp4",
+      "path": "outputs/ur-validation-display-20261105-001/videos/fall-09-demo.mp4",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/videos/fall-09-wide.mp4",
+      "path": "outputs/ur-validation-display-20261105-001/videos/fall-09-wide.mp4",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/videos/fall-18-compare.mp4",
+      "path": "outputs/ur-validation-display-20261105-001/videos/fall-18-compare.mp4",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/videos/fall-18-demo.mp4",
+      "path": "outputs/ur-validation-display-20261105-001/videos/fall-18-demo.mp4",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/videos/fall-18-wide.mp4",
+      "path": "outputs/ur-validation-display-20261105-001/videos/fall-18-wide.mp4",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/videos/fall-30-compare.mp4",
+      "path": "outputs/ur-validation-display-20261105-001/videos/fall-30-compare.mp4",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/videos/fall-30-demo.mp4",
+      "path": "outputs/ur-validation-display-20261105-001/videos/fall-30-demo.mp4",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "outputs/ur-validation-display-20261105-001/videos/fall-30-wide.mp4",
+      "path": "outputs/ur-validation-display-20261105-001/videos/fall-30-wide.mp4",
+      "status": "excluded",
+      "freshness": "not_tracked",
+      "recommended_action": "read_source_and_reindex",
+      "coverage": [
+        {
+          "path": "outputs",
+          "kind": "not_indexed_dir",
+          "detail": "excluded subtree",
+          "match": "ancestor"
+        }
+      ]
+    },
+    {
+      "requested_path": "scripts/build_validation_display_gallery.py",
+      "path": "scripts/build_validation_display_gallery.py",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "scripts/validation_display_replay.py",
+      "path": "scripts/validation_display_replay.py",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "scripts/verify_validation_display.py",
+      "path": "scripts/verify_validation_display.py",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "src/fall_detect/models/stgcn.py",
+      "path": "src/fall_detect/models/stgcn.py",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "src/fall_detect/visualization/cached_replay.py",
+      "path": "src/fall_detect/visualization/cached_replay.py",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "src/fall_detect/visualization/media_server.py",
+      "path": "src/fall_detect/visualization/media_server.py",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "tests/test_cached_display_replay.py",
+      "path": "tests/test_cached_display_replay.py",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "tests/test_media_byte_range.py",
+      "path": "tests/test_media_byte_range.py",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "tests/test_sample_display.py",
+      "path": "tests/test_sample_display.py",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    },
+    {
+      "requested_path": "tests/test_skeleton_visibility.py",
+      "path": "tests/test_skeleton_visibility.py",
+      "status": "no_recorded_issue",
+      "freshness": "metadata_match",
+      "recommended_action": "use_graph_with_best_effort_caveat",
+      "coverage": []
+    }
+  ],
+  "scopes": [],
+  "caveat": "Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable."
+}

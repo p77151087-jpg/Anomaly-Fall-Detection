@@ -1,0 +1,18 @@
+{
+  "reason": "Windows rooted /path rejection discovered by synthetic unsafe-archive test; current sources add strict source-archive repair binding, and fix unused import / import ordering. Original extraction/selection source preserved. No data, recipe, candidate, scores, threshold or outcomes changed.",
+  "files": {
+    "external_normal_data.py": {
+      "archived_source": "docs/validation/external-normal-20261012-source-v1/external_normal_data.py",
+      "from_sha256": "ec188c09a63ba508acba6cfb38f4fafa2df0fcdde2f377dd41eea4f706ba6f2b",
+      "to_sha256": "ebab5b2bdcb385d23dc3767f75f84f3b0c8a6d234120a9b682746c8fb76966a7"
+    },
+    "prepare_external_normal.py": {
+      "archived_source": "docs/validation/external-normal-20261012-source-v1/prepare_external_normal.py",
+      "from_sha256": "418077dc8bb637cb4015fb639b66b11a45a6cd6637d24f5eea9d8953b2f3655d",
+      "to_sha256": "4cbd36528acd870ce8833b55cdcf09d700c05cddeb3180bfefa561d6834110f9"
+    }
+  },
+  "first_test_result": "1 failed, 35 passed; XML preserved",
+  "retraining": false,
+  "new_test_evaluation": false
+}

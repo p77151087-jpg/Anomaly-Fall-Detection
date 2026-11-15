@@ -1,0 +1,116 @@
+{
+  "created_at": "2026-09-18T00:51:43.363127+00:00",
+  "source_kind": "real_end_to_end",
+  "run": "course-ur-balanced-001",
+  "file": "C:\\成大專案\\fall-detection-anomaly\\outputs\\course-film\\UR_Fall_Final_Project_5min.mp4",
+  "sha256": "390b4432a1239c5b43c1254ccbf5a3b9628afa5982140ad2cec3b5652243c3e0",
+  "frames": 9000,
+  "fps": 30.0,
+  "duration_seconds": 300.0,
+  "size_wh": [
+    1280,
+    720
+  ],
+  "video_codec": "H264",
+  "silent_file": "C:\\成大專案\\fall-detection-anomaly\\outputs\\course-film\\UR_Fall_Final_Project_5min_silent.mp4",
+  "silent_sha256": "2efe87f8ebeae375d73ef89267a24b1d92fe626a1db38cb8082c8875ad90e3f1",
+  "audio_codec": "AAC",
+  "full_decode_verified": true,
+  "original_speed_demos": true,
+  "freeze_frames_labeled": true,
+  "narration": [
+    {
+      "scene": 0,
+      "duration": 14.72748299319728,
+      "sha256": "693ba3210e5d5577eb45e3a1096f316a00677da5247ce8f9a000893b8423f40a",
+      "original_sha256": "d1bcfdfe26366b6e89c8a9412e131b61c4475708e73ff17917d42a5d6835a4ca",
+      "narration_tempo": 1.25
+    },
+    {
+      "scene": 1,
+      "duration": 16.90408163265306,
+      "sha256": "5ce366bea5e5da8eac8be7836e492b93769a379d1f548117f0621ff37df6bad7",
+      "original_sha256": "a398b077461e8fb7d7aed9f341740d0cd49d3acc06ca56718faec66f9477c367",
+      "narration_tempo": 1.25
+    },
+    {
+      "scene": 2,
+      "duration": 20.827573696145123,
+      "sha256": "a8f4ab55d067925b4efb8cc50d374e25347e0c34fdbf81e1bb462fd45715438e",
+      "original_sha256": "5ae50385e5c8eab70ef9441474276ba06c34a9ad2f4cb8308c161178cef5be45",
+      "narration_tempo": 1.25
+    },
+    {
+      "scene": 3,
+      "duration": 20.50843537414966,
+      "sha256": "56a83caa967a89ceea3c8e89c290d402ba821e045fb649356ae0f76d2ed3031d",
+      "original_sha256": "c049fcd1a1b997fb989e322a146b91f11e35c7b226f8391146bec85c9eddd292",
+      "narration_tempo": 1.25
+    },
+    {
+      "scene": 4,
+      "duration": 15.783401360544218,
+      "sha256": "ac1e56b112a53ace27c742c3d72d2815f0dbd2d5a63336418fccd8fa71d81c7e",
+      "original_sha256": "0b61a2d45d1d413be2fd4738fa9e68c9f5d3fb1c2350e40451abf8fa67a2b69c",
+      "narration_tempo": 1.25
+    },
+    {
+      "scene": 5,
+      "duration": 18.703628117913834,
+      "sha256": "56d8322967c79ce2e22f82647d9af646c3fc40f5734ddf97a2486f9330f4f03d",
+      "original_sha256": "bcf0f2431d7d765b5a0f609d2cd8390ea0b07d7928a818fb5bacbb2fe7981d70",
+      "narration_tempo": 1.25
+    },
+    {
+      "scene": 6,
+      "duration": 17.352018140589568,
+      "sha256": "3ac0703a3ef02d2810be3647bc14464d8a0f942f24a54db8acf25f1309ad5972",
+      "original_sha256": "f344a0993b83c1e397c48c73d678059121b18d7ebb04516feda24c2bd03a27e2",
+      "narration_tempo": 1.25
+    },
+    {
+      "scene": 7,
+      "duration": 18.96439909297052,
+      "sha256": "ba04fbb53ed1fdb366cc2c78d5e275d6b96b3f07e3908c87faeae6090ebdd707",
+      "original_sha256": "f01090134d518d9a62bcfe584d8d0615ab449f2592e3a026240b22d485fea656",
+      "narration_tempo": 1.25
+    },
+    {
+      "scene": 8,
+      "duration": 18.222721088435375,
+      "sha256": "8a29699f0c61e2d3a69d4752ad3c6a5e4fbf4f548468674daa066e266601683d",
+      "original_sha256": "58d0b896d9b22a7819e5a07e6f0e0a872399ce5fb85eda9ba2e09f574f3a2722",
+      "narration_tempo": 1.25
+    },
+    {
+      "scene": 9,
+      "duration": 21.775102040816325,
+      "sha256": "07b00b92e1b80a9a9721fea438796ad61274fb45e781d7199c8b77b4048020aa",
+      "original_sha256": "d942f613b1c81cb73e7f89125af5d83a2049af47a348983f79ee6d2a5b58508b",
+      "narration_tempo": 1.25
+    },
+    {
+      "scene": 10,
+      "duration": 23.34122448979592,
+      "sha256": "7aa64d9e2fe701c2b9975d405668927bc2214a219cecc80ecd889453622c80c3",
+      "original_sha256": "9029748bdebb40fe43e99a4ca0517a2c7daf5aa63e7a98964193efe7c11c8821",
+      "narration_tempo": 1.25
+    },
+    {
+      "scene": 11,
+      "duration": 20.73269841269841,
+      "sha256": "25c68b95e26f385e411e4f43fc34c3c5a87379d887b17301d30be945be2cdc5b",
+      "original_sha256": "56cdb8d836bc38872da0078b78b08a7f3ac93172d17485425187489bd5a345eb",
+      "narration_tempo": 1.25
+    },
+    {
+      "scene": 12,
+      "duration": 21.939501133786848,
+      "sha256": "02031fc9fa80dcbf97fab909f4e0fbfb3181292e9e39dc05f96fba8d295ee4f8",
+      "original_sha256": "133495f160a91242fc0d737cb8639b9c4b8fbd2cf2a7709eb488d26a3739dfde",
+      "narration_tempo": 1.25
+    }
+  ],
+  "storyboard_sha256": "f14bc7aaae28135063b938b675204abd40b34925947eabadec24357095a2b47f",
+  "public_upload": false
+}

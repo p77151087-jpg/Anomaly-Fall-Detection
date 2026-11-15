@@ -1,0 +1,90 @@
+{
+  "diagnostic_id": "ur-fall19-joint-localization-20261013-001",
+  "completed_scope": "original_Validation_RGB_and_Pose_localization_only",
+  "actual_frames_inspected": [
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "joint_rows": 104,
+  "bone_rows": 96,
+  "selected_frames": [
+    44,
+    47,
+    49
+  ],
+  "required_human_joints": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "required_human_decisions": 18,
+  "human_status": "pending_0_of_18_no_attestation_no_export",
+  "synthetic": {
+    "python_tests_passed": 10,
+    "initial_fixture_failures": 6,
+    "initial_failures_preserved": "synthetic-tests.xml",
+    "successful_retry": "synthetic-tests-retry.xml",
+    "offline_VM_assertions_passed": 20,
+    "synthetic_VM_human_payloads": "never_saved_as_real_human_data"
+  },
+  "real_observation_verification": {
+    "original_images": "eight_exact_source_hashes",
+    "original_pose": "all_eight_x13_exact_cached_values",
+    "independent_from_original_npz": "104_joints_and_96_bones_math_and_statistics",
+    "embedded_images": "three_original_bytes_exact"
+  },
+  "real_feature_smoke": "not_run",
+  "real_end_to_end": "not_run",
+  "preservation": {
+    "snapshot_total": 343,
+    "prior_files": 340,
+    "new_locked_files": 3,
+    "new_locked_paths": [
+      "docs/ur-fall19-joint-localization-20261013-plan.md",
+      "scripts/localize_fall19_joints.py",
+      "src/fall_detect/visualization/joint_localization_review.html"
+    ],
+    "old_updated_documents": "prior-contracts bytes retained;only current-progress and acceptance updated",
+    "overwrites_refused": 2,
+    "protected_new_files_at_refusal_checks": 26
+  },
+  "browser": {
+    "url": "http://127.0.0.1:8821/index.html",
+    "http_status": 200,
+    "http_bytes": 1253129,
+    "real_visible_page_verified": true,
+    "real_tests": [
+      "initial0/18 and export disabled",
+      "relocate refused without selected point",
+      "navigation ends at49 and nextdisabled",
+      "raw/overlaytoggle",
+      "reload retains0/18 no reviewer no attestation"
+    ],
+    "screenshot": "review-page.png",
+    "kept_deliverable": true,
+    "initial_issues": [
+      "newtab attach timeout",
+      "sandbox loopback WinError10013",
+      "8820timedout",
+      "error-page dataURL navigation refused",
+      "fullPage screenshot unsupported"
+    ],
+    "resolution": "new tab5 on reviewed local-only server8821; HTTP200 and actual UI verified; viewport screenshot saved; no browser security override"
+  },
+  "training": "not_run",
+  "calibration": "not_run",
+  "coordinate_replacement": 0,
+  "test_image_or_feature_access": "none",
+  "accuracy_change": "not_evaluated_no_improvement_claim",
+  "demo": "unchanged",
+  "formal_notebook_and_video": "paused"
+}

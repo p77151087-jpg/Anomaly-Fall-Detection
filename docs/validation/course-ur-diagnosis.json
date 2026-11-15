@@ -1,0 +1,1650 @@
+{
+  "source_run": "C:\\成大專案\\fall-detection-anomaly\\runs\\caucafall-yolo11-balanced-001",
+  "source_run_frozen": {
+    "autoencoder.pt": "1bfea306667de19f0fd7f91f6c1f3e5df4222e7546f0c880e3fee56b1c235e4b",
+    "scaler.npz": "5ea11a4c3493a902de5ac816abf060045ff60fd13b5503880baa8c153ccaf8a7",
+    "resolved-config.yaml": "1aa26620997f3aad9939915c213b3e525c78b4f29429096ca954c92a838df71f",
+    "split-manifest.json": "8eeae485ce418fde8ca4158ecf1531246c29dbf29f2c945dd60e2232c2952715",
+    "sources.json": "9ce8bccb31a6e6fad295b04564fd77b2bbcc3ad9cb7bac76566805b7558b4a53",
+    "dataset-index.json": "65ddf427a1a2993d2b89d85406c4aaca16f777f0d85a390fe1e9d14fc5b97d6d",
+    "environment.json": "4a92e57f03199592bd664f5db4988de3852c92175d2297854c06ed29a455e652",
+    "training-history.csv": "cda7f5aeeefbea21dd6c58bacd5c1db974b5743ceb52140ce5e31134396e7069",
+    "threshold.json": "8106b449645d5a14007e003ee3c08a83699b13733b10d2d01b937d258fec215b",
+    "calibration.json": "00f94fb7a8866f44a22d527172879acbf870df0279fff66df7ad87e0a438fb8b"
+  },
+  "source_index_sha256": "65ddf427a1a2993d2b89d85406c4aaca16f777f0d85a390fe1e9d14fc5b97d6d",
+  "test_scored": false,
+  "rows": [
+    {
+      "sequence_id": "adl-33",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-33",
+      "sequence_score": 0.08358010649681091,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 35,
+      "n_valid_endpoints": 20,
+      "window_coverage": 0.5714285714285714,
+      "first_alarm_ms": null,
+      "n_features": 20,
+      "n_samples": 201,
+      "quality_counts": {
+        "valid": 20,
+        "track_gap": 49
+      },
+      "track_count": 8,
+      "feature_array_sha256": "656efb11cf655d8ba6214ae2e2655eed7ae0434dc4457c5397428d3ec4ad3a6f",
+      "raw_score_quantiles": [
+        0.010147742927074432,
+        0.022673622705042362,
+        0.035966984927654266,
+        0.0613210117444396,
+        0.13033798336982727
+      ]
+    },
+    {
+      "sequence_id": "adl-08",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-08",
+      "sequence_score": 0.05823216587305069,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 30,
+      "n_valid_endpoints": 28,
+      "window_coverage": 0.9333333333333333,
+      "first_alarm_ms": null,
+      "n_features": 28,
+      "n_samples": 179,
+      "quality_counts": {
+        "track_gap": 2,
+        "valid": 28
+      },
+      "track_count": 1,
+      "feature_array_sha256": "9e4db4b7c3e67a006a36670ccc6b73cab41c418fde7ef117cb1d0bae7321d175",
+      "raw_score_quantiles": [
+        0.009482106193900108,
+        0.022139499429613352,
+        0.046034619212150574,
+        0.054006858728826046,
+        0.08095738291740417
+      ]
+    },
+    {
+      "sequence_id": "adl-40",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-40",
+      "sequence_score": 0.08073700219392776,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 61,
+      "n_valid_endpoints": 39,
+      "window_coverage": 0.639344262295082,
+      "first_alarm_ms": null,
+      "n_features": 39,
+      "n_samples": 334,
+      "quality_counts": {
+        "no_person": 9,
+        "track_gap": 30,
+        "valid": 39
+      },
+      "track_count": 4,
+      "feature_array_sha256": "d90d07ef636278f4695b768bc111454a97090b364ac87d515e83c195fabbc4c0",
+      "raw_score_quantiles": [
+        0.009739497676491737,
+        0.016483666375279427,
+        0.04801255464553833,
+        0.07933086529374123,
+        0.10089670121669769
+      ]
+    },
+    {
+      "sequence_id": "adl-19",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-19",
+      "sequence_score": 0.09604178369045258,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 45,
+      "n_valid_endpoints": 24,
+      "window_coverage": 0.5333333333333333,
+      "first_alarm_ms": null,
+      "n_features": 24,
+      "n_samples": 250,
+      "quality_counts": {
+        "track_gap": 101,
+        "valid": 24
+      },
+      "track_count": 18,
+      "feature_array_sha256": "0080739b8278afa47c7792bbba8292d931b2b58d5d46c8d47a5ef14762f81c16",
+      "raw_score_quantiles": [
+        0.011993572115898132,
+        0.020907134748995304,
+        0.03204346355050802,
+        0.04596448037773371,
+        0.13946188986301422
+      ]
+    },
+    {
+      "sequence_id": "adl-05",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-05",
+      "sequence_score": 0.06371744722127914,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 30,
+      "n_valid_endpoints": 30,
+      "window_coverage": 1.0,
+      "first_alarm_ms": null,
+      "n_features": 30,
+      "n_samples": 179,
+      "quality_counts": {
+        "valid": 30
+      },
+      "track_count": 1,
+      "feature_array_sha256": "949c2c75965dd72dcfaf19b70158172f3a1f75cf06bf04eba9fed044712fdf3f",
+      "raw_score_quantiles": [
+        0.015356142073869705,
+        0.03519716300070286,
+        0.05083448067307472,
+        0.06369303166866302,
+        0.09735442698001862
+      ]
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-38",
+      "sequence_score": 0.07206723093986511,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 64,
+      "n_valid_endpoints": 28,
+      "window_coverage": 0.4375,
+      "first_alarm_ms": null,
+      "n_features": 28,
+      "n_samples": 349,
+      "quality_counts": {
+        "track_gap": 214,
+        "valid": 28
+      },
+      "track_count": 37,
+      "feature_array_sha256": "717ccbe2056e233831705bf9c7b1eb7ee360ce51f375bd7af54af7c881880cec",
+      "raw_score_quantiles": [
+        0.012556367553770542,
+        0.021527432836592197,
+        0.027060837484896183,
+        0.0506872795522213,
+        0.09385854005813599
+      ]
+    },
+    {
+      "sequence_id": "adl-17",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-17",
+      "sequence_score": 0.06464692950248718,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 41,
+      "n_valid_endpoints": 27,
+      "window_coverage": 0.6585365853658537,
+      "first_alarm_ms": null,
+      "n_features": 27,
+      "n_samples": 230,
+      "quality_counts": {
+        "track_gap": 44,
+        "valid": 27
+      },
+      "track_count": 6,
+      "feature_array_sha256": "a9a78a51609759d72099114135621638e34a6c39b028ede195b85ba208643315",
+      "raw_score_quantiles": [
+        0.020976949483156204,
+        0.02857140265405178,
+        0.046761464327573776,
+        0.06301960162818432,
+        0.1049928069114685
+      ]
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-06",
+      "sequence_score": 0.12452385574579239,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 40,
+      "n_valid_endpoints": 38,
+      "window_coverage": 0.95,
+      "first_alarm_ms": null,
+      "n_features": 38,
+      "n_samples": 229,
+      "quality_counts": {
+        "track_gap": 21,
+        "valid": 38
+      },
+      "track_count": 5,
+      "feature_array_sha256": "9b6b68ce0c7a781a875bc2203939afb4f8f7e1904d221c2d3c822a645869c4e4",
+      "raw_score_quantiles": [
+        0.013686975464224815,
+        0.028605399653315544,
+        0.05761159583926201,
+        0.09245436638593674,
+        0.15595537424087524
+      ]
+    },
+    {
+      "sequence_id": "adl-26",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-26",
+      "sequence_score": 0.04975581169128418,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 14,
+      "n_valid_endpoints": 14,
+      "window_coverage": 1.0,
+      "first_alarm_ms": null,
+      "n_features": 14,
+      "n_samples": 95,
+      "quality_counts": {
+        "valid": 14
+      },
+      "track_count": 1,
+      "feature_array_sha256": "28517294cfe4b08abfbd57406067059b7d6e127ee409843f9a15b69af9353fd5",
+      "raw_score_quantiles": [
+        0.018859021365642548,
+        0.038615462370216846,
+        0.04727886989712715,
+        0.06065559387207031,
+        0.0794193372130394
+      ]
+    },
+    {
+      "sequence_id": "adl-29",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-29",
+      "sequence_score": 0.061468370258808136,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 20,
+      "n_valid_endpoints": 20,
+      "window_coverage": 1.0,
+      "first_alarm_ms": null,
+      "n_features": 20,
+      "n_samples": 125,
+      "quality_counts": {
+        "valid": 20
+      },
+      "track_count": 1,
+      "feature_array_sha256": "845e104a896e271138c24c5ef97d36a4c1c74b824b8d8582f52efd9ad172eff0",
+      "raw_score_quantiles": [
+        0.02799559198319912,
+        0.04061926156282425,
+        0.053641779348254204,
+        0.06112923286855221,
+        0.13898512721061707
+      ]
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-22",
+      "sequence_score": 0.08585253357887268,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 43,
+      "n_valid_endpoints": 21,
+      "window_coverage": 0.4883720930232558,
+      "first_alarm_ms": null,
+      "n_features": 21,
+      "n_samples": 240,
+      "quality_counts": {
+        "track_gap": 56,
+        "valid": 21,
+        "no_person": 8
+      },
+      "track_count": 8,
+      "feature_array_sha256": "cc466d94ae5d41d6336d96b7f9765ad9f9e4db8b1b29b55f4e23709746814472",
+      "raw_score_quantiles": [
+        0.031180642545223236,
+        0.04976237565279007,
+        0.05628792941570282,
+        0.0641985535621643,
+        0.13525477051734924
+      ]
+    },
+    {
+      "sequence_id": "adl-21",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-21",
+      "sequence_score": 0.05412432551383972,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 50,
+      "n_valid_endpoints": 20,
+      "window_coverage": 0.4,
+      "first_alarm_ms": null,
+      "n_features": 20,
+      "n_samples": 279,
+      "quality_counts": {
+        "track_gap": 138,
+        "valid": 20
+      },
+      "track_count": 20,
+      "feature_array_sha256": "686023f7064d3404e2d29a41ffc903021752e8fe896a5468e6c5f36974c4cca1",
+      "raw_score_quantiles": [
+        0.011730941012501717,
+        0.019239949993789196,
+        0.028556195087730885,
+        0.038140508346259594,
+        0.08323483169078827
+      ]
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-36",
+      "sequence_score": 0.20554380118846893,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 63,
+      "n_valid_endpoints": 45,
+      "window_coverage": 0.7142857142857143,
+      "first_alarm_ms": null,
+      "n_features": 45,
+      "n_samples": 344,
+      "quality_counts": {
+        "track_gap": 63,
+        "valid": 45
+      },
+      "track_count": 10,
+      "feature_array_sha256": "3552b535c521fdbcb8d32fdc491ae469db2928c092c803ba433188e413c8cf74",
+      "raw_score_quantiles": [
+        0.01365517545491457,
+        0.02657673880457878,
+        0.04258996993303299,
+        0.0947481095790863,
+        0.28308939933776855
+      ]
+    },
+    {
+      "sequence_id": "adl-25",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-25",
+      "sequence_score": 0.046286240220069885,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 17,
+      "n_valid_endpoints": 17,
+      "window_coverage": 1.0,
+      "first_alarm_ms": null,
+      "n_features": 17,
+      "n_samples": 110,
+      "quality_counts": {
+        "valid": 17
+      },
+      "track_count": 1,
+      "feature_array_sha256": "b417140e4f5e2412b6e65982d793fa21fd7a51862b6b923294cd1fa248e26cd9",
+      "raw_score_quantiles": [
+        0.014524067752063274,
+        0.027676083147525787,
+        0.03344220668077469,
+        0.0460868775844574,
+        0.07016129791736603
+      ]
+    },
+    {
+      "sequence_id": "adl-11",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-11",
+      "sequence_score": 0.14507101476192474,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 55,
+      "n_valid_endpoints": 49,
+      "window_coverage": 0.8909090909090909,
+      "first_alarm_ms": null,
+      "n_features": 49,
+      "n_samples": 300,
+      "quality_counts": {
+        "valid": 49,
+        "track_gap": 18
+      },
+      "track_count": 3,
+      "feature_array_sha256": "0bf7253379ac94606c0aac7982c758d001a28c3ae08c912a465a7a39d3984ddc",
+      "raw_score_quantiles": [
+        0.009797293692827225,
+        0.022392695769667625,
+        0.06797591596841812,
+        0.11121109127998352,
+        0.3076493740081787
+      ]
+    },
+    {
+      "sequence_id": "adl-28",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-28",
+      "sequence_score": 0.04279782623052597,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 12,
+      "n_valid_endpoints": 12,
+      "window_coverage": 1.0,
+      "first_alarm_ms": null,
+      "n_features": 12,
+      "n_samples": 85,
+      "quality_counts": {
+        "valid": 12
+      },
+      "track_count": 1,
+      "feature_array_sha256": "c053e13899b2bde3a1a69952936e79d79d6e5cef3fc2e35f42110376f9f88603",
+      "raw_score_quantiles": [
+        0.03195120766758919,
+        0.04135475121438503,
+        0.043820472434163094,
+        0.05408455617725849,
+        0.0633528083562851
+      ]
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-32",
+      "sequence_score": 0.0762157142162323,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 35,
+      "n_valid_endpoints": 19,
+      "window_coverage": 0.5428571428571428,
+      "first_alarm_ms": null,
+      "n_features": 19,
+      "n_samples": 201,
+      "quality_counts": {
+        "valid": 19,
+        "track_gap": 27
+      },
+      "track_count": 4,
+      "feature_array_sha256": "f2f4fa97b571f12576ec5009cffdac4a6cc85169f657c129780ae96ca4726fc2",
+      "raw_score_quantiles": [
+        0.012594204396009445,
+        0.014872551895678043,
+        0.049281857907772064,
+        0.06597418710589409,
+        0.2165854275226593
+      ]
+    },
+    {
+      "sequence_id": "adl-31",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-31",
+      "sequence_score": 0.08538180589675903,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 44,
+      "n_valid_endpoints": 20,
+      "window_coverage": 0.45454545454545453,
+      "first_alarm_ms": null,
+      "n_features": 20,
+      "n_samples": 249,
+      "quality_counts": {
+        "valid": 20,
+        "track_gap": 57,
+        "no_person": 2
+      },
+      "track_count": 8,
+      "feature_array_sha256": "f9c9dff0a45891f706dc583855a888027c468abceafee548aa5916929b69e5f8",
+      "raw_score_quantiles": [
+        0.0118901077657938,
+        0.027424464467912912,
+        0.05745379440486431,
+        0.07624119892716408,
+        0.11098210513591766
+      ]
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-27",
+      "sequence_score": 0.05765815079212189,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 15,
+      "n_valid_endpoints": 15,
+      "window_coverage": 1.0,
+      "first_alarm_ms": null,
+      "n_features": 15,
+      "n_samples": 100,
+      "quality_counts": {
+        "valid": 15
+      },
+      "track_count": 1,
+      "feature_array_sha256": "cc599865164790e49bf5eb3248f7f99f1b8920bea9bb3c388ab09914c81dd39f",
+      "raw_score_quantiles": [
+        0.020404571667313576,
+        0.03942009061574936,
+        0.04672236740589142,
+        0.05976107716560364,
+        0.07551218569278717
+      ]
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-07",
+      "sequence_score": 0.06607860326766968,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 30,
+      "n_valid_endpoints": 30,
+      "window_coverage": 1.0,
+      "first_alarm_ms": null,
+      "n_features": 30,
+      "n_samples": 179,
+      "quality_counts": {
+        "valid": 30
+      },
+      "track_count": 1,
+      "feature_array_sha256": "b640346ba305338fd77856f0a38078b6a37347d2097d4de5503b9bc355867440",
+      "raw_score_quantiles": [
+        0.012713355012238026,
+        0.035802725702524185,
+        0.0417963657528162,
+        0.053623056039214134,
+        0.07747586816549301
+      ]
+    },
+    {
+      "sequence_id": "adl-30",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-30",
+      "sequence_score": 0.11820195615291595,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 76,
+      "n_valid_endpoints": 39,
+      "window_coverage": 0.5131578947368421,
+      "first_alarm_ms": null,
+      "n_features": 39,
+      "n_samples": 405,
+      "quality_counts": {
+        "no_person": 2,
+        "track_gap": 94,
+        "valid": 39
+      },
+      "track_count": 16,
+      "feature_array_sha256": "8fe3a48934c9e346397e4aa40debc0b1023c8953327a38da6a68d7757e0b64c8",
+      "raw_score_quantiles": [
+        0.0079910047352314,
+        0.02152852714061737,
+        0.05355355888605118,
+        0.06902199238538742,
+        0.18389739096164703
+      ]
+    },
+    {
+      "sequence_id": "adl-12",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-12",
+      "sequence_score": 0.14011907577514648,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 44,
+      "n_valid_endpoints": 40,
+      "window_coverage": 0.9090909090909091,
+      "first_alarm_ms": null,
+      "n_features": 40,
+      "n_samples": 249,
+      "quality_counts": {
+        "track_gap": 40,
+        "valid": 40
+      },
+      "track_count": 9,
+      "feature_array_sha256": "4b4d4a1a1327adec4dcfc5586f2452a1dae01173392f211dbc4927e1710bfd8e",
+      "raw_score_quantiles": [
+        0.01772831566631794,
+        0.03035731427371502,
+        0.03832835517823696,
+        0.10954112932085991,
+        0.188312366604805
+      ]
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-24",
+      "sequence_score": 0.0449957400560379,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 9,
+      "n_valid_endpoints": 9,
+      "window_coverage": 1.0,
+      "first_alarm_ms": null,
+      "n_features": 9,
+      "n_samples": 70,
+      "quality_counts": {
+        "valid": 9
+      },
+      "track_count": 1,
+      "feature_array_sha256": "28afd2482ce90dcffe3d854a6dfbc45acdefe0237b94c6132666a04675fd4e8b",
+      "raw_score_quantiles": [
+        0.02907029539346695,
+        0.03867155313491821,
+        0.04199788719415665,
+        0.0449957400560379,
+        0.05804595351219177
+      ]
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-10",
+      "sequence_score": 0.19553464651107788,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 55,
+      "n_valid_endpoints": 55,
+      "window_coverage": 1.0,
+      "first_alarm_ms": null,
+      "n_features": 55,
+      "n_samples": 300,
+      "quality_counts": {
+        "valid": 55,
+        "track_gap": 12
+      },
+      "track_count": 3,
+      "feature_array_sha256": "af5a0a22575c202cf1e2782c8fe6d7c21c4091f1da9d43b71f36d8c08296fb88",
+      "raw_score_quantiles": [
+        0.019028613343834877,
+        0.04645956866443157,
+        0.1172991394996643,
+        0.15839354693889618,
+        0.2552828788757324
+      ]
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-37",
+      "sequence_score": 0.22239021956920624,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 65,
+      "n_valid_endpoints": 42,
+      "window_coverage": 0.6461538461538462,
+      "first_alarm_ms": null,
+      "n_features": 42,
+      "n_samples": 354,
+      "quality_counts": {
+        "track_gap": 88,
+        "valid": 42
+      },
+      "track_count": 15,
+      "feature_array_sha256": "b71e409e655555c9959ee61742e2e67f5f45013b0328810a7ee840597e1bcabf",
+      "raw_score_quantiles": [
+        0.01834290474653244,
+        0.0317253484390676,
+        0.05357464961707592,
+        0.18902990594506264,
+        0.29737088084220886
+      ]
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-23",
+      "sequence_score": 0.0633181482553482,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 39,
+      "n_valid_endpoints": 12,
+      "window_coverage": 0.3076923076923077,
+      "first_alarm_ms": null,
+      "n_features": 12,
+      "n_samples": 220,
+      "quality_counts": {
+        "track_gap": 79,
+        "valid": 12,
+        "no_person": 4
+      },
+      "track_count": 14,
+      "feature_array_sha256": "85f34b830fea92e034bb0e482b1d9a681b6423c49ca598d17097b5a243351eae",
+      "raw_score_quantiles": [
+        0.030685074627399445,
+        0.04600768256932497,
+        0.05699857883155346,
+        0.06045031361281872,
+        0.1441265046596527
+      ]
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-20",
+      "sequence_score": 0.43151283264160156,
+      "prediction": 1,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 48,
+      "n_valid_endpoints": 30,
+      "window_coverage": 0.625,
+      "first_alarm_ms": 8300.0,
+      "n_features": 30,
+      "n_samples": 269,
+      "quality_counts": {
+        "no_person": 1,
+        "track_gap": 97,
+        "valid": 30
+      },
+      "track_count": 14,
+      "feature_array_sha256": "ac9ef40e01fea24bc513e70679d04e90fe9f8d04cef6da452794fee4187bb744",
+      "raw_score_quantiles": [
+        0.019416123628616333,
+        0.024522900581359863,
+        0.0817294754087925,
+        0.22592559456825256,
+        0.4646749496459961
+      ]
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-04",
+      "sequence_score": 0.1523931324481964,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 24,
+      "n_valid_endpoints": 24,
+      "window_coverage": 1.0,
+      "first_alarm_ms": null,
+      "n_features": 24,
+      "n_samples": 149,
+      "quality_counts": {
+        "valid": 24
+      },
+      "track_count": 1,
+      "feature_array_sha256": "ef6d19074ca342e2abccbc7031ba4eaef16b9fe528a3740a1ef84ab6a0b2a383",
+      "raw_score_quantiles": [
+        0.017587311565876007,
+        0.03580576740205288,
+        0.08240705728530884,
+        0.11831924878060818,
+        0.154476135969162
+      ]
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-01",
+      "sequence_score": 0.21210047602653503,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 25,
+      "n_valid_endpoints": 24,
+      "window_coverage": 0.96,
+      "first_alarm_ms": null,
+      "n_features": 24,
+      "n_samples": 150,
+      "quality_counts": {
+        "track_gap": 1,
+        "valid": 24
+      },
+      "track_count": 1,
+      "feature_array_sha256": "fd1ee0fa537e4e99e16c1366ababc8d8bce1a4c7736bec82cf4ceb46cca08b84",
+      "raw_score_quantiles": [
+        0.012411460280418396,
+        0.024402170442044735,
+        0.06599743291735649,
+        0.1659030169248581,
+        0.35579144954681396
+      ]
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-16",
+      "sequence_score": 0.13328967988491058,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 43,
+      "n_valid_endpoints": 19,
+      "window_coverage": 0.4418604651162791,
+      "first_alarm_ms": null,
+      "n_features": 19,
+      "n_samples": 240,
+      "quality_counts": {
+        "track_gap": 106,
+        "valid": 19
+      },
+      "track_count": 17,
+      "feature_array_sha256": "23171660d1b5527c0b5aabd4d93a2308adb9fce2023fc476a4d113ddf3a3e387",
+      "raw_score_quantiles": [
+        0.03743911534547806,
+        0.05613167583942413,
+        0.07539552450180054,
+        0.10912714153528214,
+        0.21003350615501404
+      ]
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-18",
+      "sequence_score": 0.1580159068107605,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 47,
+      "n_valid_endpoints": 24,
+      "window_coverage": 0.5106382978723404,
+      "first_alarm_ms": null,
+      "n_features": 24,
+      "n_samples": 264,
+      "quality_counts": {
+        "no_person": 1,
+        "track_gap": 98,
+        "valid": 24
+      },
+      "track_count": 15,
+      "feature_array_sha256": "0077a339c39402eee12f3d712dafe74a0245d9ba714d097060e1648ceabee9c3",
+      "raw_score_quantiles": [
+        0.02234356477856636,
+        0.030849603470414877,
+        0.04536347649991512,
+        0.09313420578837395,
+        0.39930054545402527
+      ]
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-35",
+      "sequence_score": 0.2021079659461975,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 51,
+      "n_valid_endpoints": 27,
+      "window_coverage": 0.5294117647058824,
+      "first_alarm_ms": null,
+      "n_features": 27,
+      "n_samples": 283,
+      "quality_counts": {
+        "valid": 27,
+        "track_gap": 31,
+        "no_person": 6
+      },
+      "track_count": 5,
+      "feature_array_sha256": "17c8f2bbefd0bb212ad44e2a02f8e239c23b875982ee418cb997de1704da25ac",
+      "raw_score_quantiles": [
+        0.061468638479709625,
+        0.10899849608540535,
+        0.1371990144252777,
+        0.19967317581176758,
+        0.6078281402587891
+      ]
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-22",
+      "sequence_score": 0.38982611894607544,
+      "prediction": 1,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 6,
+      "n_valid_endpoints": 4,
+      "window_coverage": 0.6666666666666666,
+      "first_alarm_ms": 1300.0,
+      "n_features": 4,
+      "n_samples": 56,
+      "quality_counts": {
+        "valid": 4,
+        "track_gap": 17
+      },
+      "track_count": 6,
+      "feature_array_sha256": "0ae1c5c684b3669835fe83f74df6e5675b8dcf0bee548e39286fa480c5c8ac2f",
+      "raw_score_quantiles": [
+        0.2970653176307678,
+        0.36663591861724854,
+        0.39705905318260193,
+        0.4536718726158142,
+        0.6018115282058716
+      ]
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-19",
+      "sequence_score": 0.03734535723924637,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 15,
+      "n_valid_endpoints": 5,
+      "window_coverage": 0.3333333333333333,
+      "first_alarm_ms": null,
+      "n_features": 5,
+      "n_samples": 100,
+      "quality_counts": {
+        "valid": 5,
+        "track_gap": 36
+      },
+      "track_count": 7,
+      "feature_array_sha256": "55841e104b298b8c94dd567fbeeee07526f68d6f74aa0596b5f929ee1281cf22",
+      "raw_score_quantiles": [
+        0.02189622074365616,
+        0.028462911024689674,
+        0.03734535723924637,
+        0.10009703040122986,
+        0.13576212525367737
+      ]
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-16",
+      "sequence_score": 0.4423549771308899,
+      "prediction": 1,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 6,
+      "n_valid_endpoints": 6,
+      "window_coverage": 1.0,
+      "first_alarm_ms": 1633.3333333333335,
+      "n_features": 6,
+      "n_samples": 55,
+      "quality_counts": {
+        "valid": 6
+      },
+      "track_count": 1,
+      "feature_array_sha256": "d91b32bb21d5cf4e12a92fa3cb3e7b770e3c5c5a8be9259965b0761ed8b6f8ce",
+      "raw_score_quantiles": [
+        0.18345612287521362,
+        0.29734110832214355,
+        0.42718955874443054,
+        0.5364968031644821,
+        0.5841479897499084
+      ]
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-18",
+      "sequence_score": 0.20677292346954346,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 8,
+      "n_valid_endpoints": 3,
+      "window_coverage": 0.375,
+      "first_alarm_ms": null,
+      "n_features": 3,
+      "n_samples": 65,
+      "quality_counts": {
+        "valid": 3,
+        "track_gap": 30
+      },
+      "track_count": 11,
+      "feature_array_sha256": "97c6ac11da2b846d6d826019b97b9c78fec1e8580db8e32cf62fd55fb0e951d1",
+      "raw_score_quantiles": [
+        0.20677292346954346,
+        0.28678643703460693,
+        0.3667999505996704,
+        0.43284907937049866,
+        0.4988982081413269
+      ]
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-08",
+      "sequence_score": 0.40131431818008423,
+      "prediction": 1,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 13,
+      "n_valid_endpoints": 8,
+      "window_coverage": 0.6153846153846154,
+      "first_alarm_ms": 1966.6666666666667,
+      "n_features": 8,
+      "n_samples": 91,
+      "quality_counts": {
+        "valid": 8,
+        "track_gap": 14
+      },
+      "track_count": 3,
+      "feature_array_sha256": "a8c3bca4c4d8d505f46f93b12285fe0524226318f783fa7200890088ef025bbc",
+      "raw_score_quantiles": [
+        0.2791506052017212,
+        0.3411511331796646,
+        0.40383751690387726,
+        0.43489518761634827,
+        0.6027448177337646
+      ]
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-13",
+      "sequence_score": 0.13818295300006866,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 12,
+      "n_valid_endpoints": 8,
+      "window_coverage": 0.6666666666666666,
+      "first_alarm_ms": null,
+      "n_features": 16,
+      "n_samples": 85,
+      "quality_counts": {
+        "valid": 16,
+        "track_gap": 22
+      },
+      "track_count": 7,
+      "feature_array_sha256": "058045c168e095ac3c7b475f7c2aee83c74d122fbe39b6454aca707f1a4b99d5",
+      "raw_score_quantiles": [
+        0.02222006395459175,
+        0.06153416261076927,
+        0.12684336304664612,
+        0.14524277299642563,
+        0.16177016496658325
+      ]
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-29",
+      "sequence_score": 0.06387215852737427,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 14,
+      "n_valid_endpoints": 10,
+      "window_coverage": 0.7142857142857143,
+      "first_alarm_ms": null,
+      "n_features": 10,
+      "n_samples": 99,
+      "quality_counts": {
+        "valid": 10,
+        "track_gap": 28
+      },
+      "track_count": 8,
+      "feature_array_sha256": "a4717690083c54ce44f750843a2d9f86a6c181a9e146a27926c40dfac749d2a2",
+      "raw_score_quantiles": [
+        0.013162694871425629,
+        0.014569206396117806,
+        0.023921127431094646,
+        0.06121370755136013,
+        0.24148458242416382
+      ]
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-14",
+      "sequence_score": 0.49226999282836914,
+      "prediction": 1,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 7,
+      "n_valid_endpoints": 7,
+      "window_coverage": 1.0,
+      "first_alarm_ms": 1466.6666666666667,
+      "n_features": 7,
+      "n_samples": 61,
+      "quality_counts": {
+        "valid": 7,
+        "track_gap": 36
+      },
+      "track_count": 11,
+      "feature_array_sha256": "03a9833c7ecf513fd4eb9c6c877eeabb49e59a1ae1907769c1667f002e8c63f8",
+      "raw_score_quantiles": [
+        0.2584226131439209,
+        0.3371153771877289,
+        0.4586666524410248,
+        0.49780482053756714,
+        0.6853466629981995
+      ]
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-09",
+      "sequence_score": 0.16583669185638428,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 32,
+      "n_valid_endpoints": 25,
+      "window_coverage": 0.78125,
+      "first_alarm_ms": null,
+      "n_features": 25,
+      "n_samples": 185,
+      "quality_counts": {
+        "valid": 25,
+        "track_gap": 29
+      },
+      "track_count": 10,
+      "feature_array_sha256": "3ea279a356814fcd70eaf034d4f3058187ccf66f2a4b83b6bb51bfb1cc6b3bd6",
+      "raw_score_quantiles": [
+        0.02819887548685074,
+        0.0632609948515892,
+        0.08400498330593109,
+        0.12079572677612305,
+        0.21243956685066223
+      ]
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-07",
+      "sequence_score": 0.11355744302272797,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 26,
+      "n_valid_endpoints": 20,
+      "window_coverage": 0.7692307692307693,
+      "first_alarm_ms": null,
+      "n_features": 20,
+      "n_samples": 156,
+      "quality_counts": {
+        "valid": 20,
+        "track_gap": 28
+      },
+      "track_count": 5,
+      "feature_array_sha256": "26ca00a750d3c8e8c3caa4c88d36e9cefe7816d3e7be19f954d0d0df484d0891",
+      "raw_score_quantiles": [
+        0.058257974684238434,
+        0.06501043774187565,
+        0.07575608417391777,
+        0.10376730188727379,
+        1.0651063919067383
+      ]
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-11",
+      "sequence_score": 1.000866413116455,
+      "prediction": 1,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 21,
+      "n_valid_endpoints": 21,
+      "window_coverage": 1.0,
+      "first_alarm_ms": 3133.3333333333335,
+      "n_features": 21,
+      "n_samples": 130,
+      "quality_counts": {
+        "valid": 21
+      },
+      "track_count": 1,
+      "feature_array_sha256": "a847deccf71b188939e1241116518980fd143065e18e32bc3bfdd15eb7729bf7",
+      "raw_score_quantiles": [
+        0.05423080176115036,
+        0.08161468058824539,
+        0.33717453479766846,
+        0.8848816752433777,
+        1.2388243675231934
+      ]
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-25",
+      "sequence_score": 0.1310296654701233,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 12,
+      "n_valid_endpoints": 9,
+      "window_coverage": 0.75,
+      "first_alarm_ms": null,
+      "n_features": 9,
+      "n_samples": 85,
+      "quality_counts": {
+        "valid": 9,
+        "track_gap": 16
+      },
+      "track_count": 7,
+      "feature_array_sha256": "662bb927129d439b693814860ecbaec0b4db7566852abe95a31b2a4b66c25847",
+      "raw_score_quantiles": [
+        0.013829530216753483,
+        0.02032739855349064,
+        0.05751476436853409,
+        0.1310296654701233,
+        0.7167384028434753
+      ]
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-06",
+      "sequence_score": 0.6200224161148071,
+      "prediction": 1,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 15,
+      "n_valid_endpoints": 15,
+      "window_coverage": 1.0,
+      "first_alarm_ms": 1633.3333333333335,
+      "n_features": 15,
+      "n_samples": 100,
+      "quality_counts": {
+        "valid": 15
+      },
+      "track_count": 1,
+      "feature_array_sha256": "02abcbe48d38f1dd0134cc3dacf0d48672de12f699528dfe9a24101406c6873d",
+      "raw_score_quantiles": [
+        0.14875194430351257,
+        0.46228715777397156,
+        0.5497898459434509,
+        0.59902024269104,
+        0.835269570350647
+      ]
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-02",
+      "sequence_score": 0.5560555458068848,
+      "prediction": 1,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 17,
+      "n_valid_endpoints": 9,
+      "window_coverage": 0.5294117647058824,
+      "first_alarm_ms": 1300.0,
+      "n_features": 9,
+      "n_samples": 110,
+      "quality_counts": {
+        "valid": 9,
+        "track_gap": 61
+      },
+      "track_count": 11,
+      "feature_array_sha256": "6996432d391dea6dce997ef022496f63c487097a9f560cde656f4e43b67fd29a",
+      "raw_score_quantiles": [
+        0.4874264597892761,
+        0.5314489603042603,
+        0.5642212629318237,
+        0.6215815544128418,
+        0.6525992155075073
+      ]
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-30",
+      "sequence_score": 0.28202274441719055,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 9,
+      "n_valid_endpoints": 5,
+      "window_coverage": 0.5555555555555556,
+      "first_alarm_ms": null,
+      "n_features": 5,
+      "n_samples": 70,
+      "quality_counts": {
+        "valid": 5,
+        "track_gap": 15
+      },
+      "track_count": 5,
+      "feature_array_sha256": "4b7bcdf79f6f64a0ed9585edc037694fbb1d904b3d7c834938ee8356167e083f",
+      "raw_score_quantiles": [
+        0.22385556995868683,
+        0.28202274441719055,
+        0.28433823585510254,
+        0.29530808329582214,
+        0.33738818764686584
+      ]
+    }
+  ],
+  "validation_metrics_at_mixed_threshold": {
+    "metric_unit": "sequence",
+    "TP": 7,
+    "FP": 1,
+    "FN": 8,
+    "TN": 7,
+    "n_total": 23,
+    "n_evaluable": 23,
+    "n_unknown": 0,
+    "sequence_coverage": 1.0,
+    "sequence_accuracy": 0.6086956521739131,
+    "sequence_fall_precision": 0.875,
+    "sequence_fall_recall": 0.4666666666666667,
+    "sequence_fall_f1": 0.6086956521739131,
+    "operational_accuracy": 0.6086956521739131,
+    "end_to_end_fall_recall": 0.4666666666666667,
+    "outcomes_with_unknown": [
+      [
+        7,
+        1,
+        0
+      ],
+      [
+        8,
+        7,
+        0
+      ]
+    ],
+    "outcome_columns": [
+      "normal",
+      "suspected_fall",
+      "unknown"
+    ],
+    "outcome_rows": [
+      "ADL",
+      "Fall"
+    ],
+    "by_class": {
+      "ADL": {
+        "n_total": 8,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "window_coverage": 0.5906432748538012,
+        "n_missing_timelines": 0
+      },
+      "Fall": {
+        "n_total": 15,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "window_coverage": 0.7276995305164319,
+        "n_missing_timelines": 0
+      }
+    },
+    "window_coverage": 0.6432432432432432,
+    "n_missing_timelines": 0
+  },
+  "ur_validation_only_threshold_diagnostics": {
+    "sequence_fall_f1": {
+      "threshold": 0.03734535723924636,
+      "metrics": {
+        "metric_unit": "sequence",
+        "TP": 15,
+        "FP": 8,
+        "FN": 0,
+        "TN": 0,
+        "n_total": 23,
+        "n_evaluable": 23,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "sequence_accuracy": 0.6521739130434783,
+        "sequence_fall_precision": 0.6521739130434783,
+        "sequence_fall_recall": 1.0,
+        "sequence_fall_f1": 0.7894736842105263,
+        "operational_accuracy": 0.6521739130434783,
+        "end_to_end_fall_recall": 1.0,
+        "outcomes_with_unknown": [
+          [
+            0,
+            8,
+            0
+          ],
+          [
+            0,
+            15,
+            0
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.5906432748538012,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.7276995305164319,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.6432432432432432,
+        "n_missing_timelines": 0,
+        "balanced_sequence_accuracy": 0.5
+      }
+    },
+    "balanced_sequence_accuracy": {
+      "threshold": 0.22239021956920624,
+      "metrics": {
+        "metric_unit": "sequence",
+        "TP": 8,
+        "FP": 1,
+        "FN": 7,
+        "TN": 7,
+        "n_total": 23,
+        "n_evaluable": 23,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "sequence_accuracy": 0.6521739130434783,
+        "sequence_fall_precision": 0.8888888888888888,
+        "sequence_fall_recall": 0.5333333333333333,
+        "sequence_fall_f1": 0.6666666666666666,
+        "operational_accuracy": 0.6521739130434783,
+        "end_to_end_fall_recall": 0.5333333333333333,
+        "outcomes_with_unknown": [
+          [
+            7,
+            1,
+            0
+          ],
+          [
+            7,
+            8,
+            0
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.5906432748538012,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.7276995305164319,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.6432432432432432,
+        "n_missing_timelines": 0,
+        "balanced_sequence_accuracy": 0.7041666666666666
+      }
+    }
+  }
+}

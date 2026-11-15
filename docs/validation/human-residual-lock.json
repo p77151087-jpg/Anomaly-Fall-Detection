@@ -1,0 +1,77 @@
+{
+  "created_at": "2026-09-18T08:31:32.629462+00:00",
+  "baseline": "ur-sample-human-s1-001",
+  "candidates": [
+    {
+      "run": "ur-human-residual-channel-001",
+      "mode": "train_channel_mse"
+    },
+    {
+      "run": "ur-human-residual-stream-001",
+      "mode": "train_stream_mse"
+    }
+  ],
+  "fit": "Reuse frozen AE/scaler. Fit mean squared reconstruction residual per channel using all 3638 Train ADL windows only, B=1 float32 residual and float64 accumulation. channel: inverse channel means; stream: inverse means of first/last256 channel means. Floor max(1e-12,0.1*median(positive channel means)); normalize weights to mean1; score mean(weight*squared_residual) float32. No additional AE epochs.",
+  "fixed": "Original30/stride1 Human512 features, observed poses, quality .2/9/.8, K3, same split. Validation balanced_sequence_accuracy threshold, fewer FP then higher threshold.",
+  "selection": "Eligible rows ranked operational_accuracy, sequence_fall_f1, end_to_end_fall_recall, fewer FP; baseline wins ties.",
+  "guard": "No Accuracy/F1 regression, no extra unknown or early coarse event; at least baseline2 coarse phase-hit sequences. Every newly detected original FN must have a valid current-pose visible suspected_fall window inside its prelocked coarse fall phase.",
+  "coarse_intervals": {
+    "fall-09": {
+      "normal_until_ms": 4304,
+      "fall_phase_ms": [
+        4604,
+        5506
+      ]
+    },
+    "fall-19": {
+      "normal_until_ms": 1167,
+      "fall_phase_ms": [
+        1468,
+        2369
+      ]
+    },
+    "fall-29": {
+      "normal_until_ms": 1735,
+      "fall_phase_ms": [
+        2035,
+        2936
+      ]
+    },
+    "fall-25": {
+      "normal_until_ms": 1568,
+      "fall_phase_ms": [
+        1868,
+        2802
+      ]
+    },
+    "fall-18": {
+      "normal_until_ms": 400,
+      "fall_phase_ms": [
+        800,
+        1601
+      ]
+    },
+    "fall-30": {
+      "normal_until_ms": 800,
+      "fall_phase_ms": [
+        1334,
+        1902
+      ]
+    }
+  },
+  "missed": [
+    "fall-19",
+    "fall-18",
+    "fall-30"
+  ],
+  "targets": {
+    "operational_accuracy": 0.9,
+    "sequence_accuracy": 0.9,
+    "sequence_fall_f1": 0.87
+  },
+  "stop": "Exactly two profiles; no additional weighting powers, floors, quantiles or threshold objectives after Validation. Test once only if selected profile passes targets and guard. No post-Test tuning.",
+  "historical_test_seen": true,
+  "repeated_validation_not_independent": true,
+  "before_sha256": "6e19fce83fea05b4fe30dd8b63ca5b579db0058028a32ea1a6469231312cf4c8",
+  "diagnosis_sha256": "df028ca00e6d923732b354c6a8311e43de67e4a4a7e2bd2abf8331148b73f2cb"
+}

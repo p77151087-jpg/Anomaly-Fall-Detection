@@ -1,0 +1,82 @@
+{
+  "source_kind": "real_end_to_end",
+  "run": "ur-stride1-decay-001",
+  "results": [
+    {
+      "sequence_id": "fall-25",
+      "frames": 85,
+      "compared_feature_windows": 42,
+      "max_score_difference": 0,
+      "visible_states_match": true,
+      "events_match": true,
+      "alert_display_times_ms": [
+        2266.666666666667,
+        2300.0,
+        2333.3333333333335
+      ],
+      "video_sha256": "eb5a1f22cbfa19215ed17a07c77ab25a9b192236295254a141d01571dc5a780b",
+      "preview_sha256": "d894a500b937b0bd2afd5bb34f99ac1579a844979a1c77bb2c15a6de94e1307b",
+      "sequence_result": {
+        "sequence_id": "fall-25",
+        "sequence_score": 0.9515190124511719,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 56,
+        "n_valid_endpoints": 45,
+        "window_coverage": 0.8035714285714286,
+        "first_alarm_ms": 2266.666666666667
+      }
+    },
+    {
+      "sequence_id": "fall-09",
+      "frames": 185,
+      "compared_feature_windows": 122,
+      "max_score_difference": 0,
+      "visible_states_match": true,
+      "events_match": true,
+      "alert_display_times_ms": [],
+      "video_sha256": "d2272b6c8028af84c96a2482519633bf308cb0eea1262cf4edfa0e6fb27071a1",
+      "preview_sha256": "273973983e76e458773e69cc3c9f2e029e8b47865fcba4ae8af69aae6c07c350",
+      "sequence_result": {
+        "sequence_id": "fall-09",
+        "sequence_score": 0.4246840476989746,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 156,
+        "n_valid_endpoints": 123,
+        "window_coverage": 0.7884615384615384,
+        "first_alarm_ms": null
+      }
+    },
+    {
+      "sequence_id": "adl-04",
+      "frames": 149,
+      "compared_feature_windows": 120,
+      "max_score_difference": 0,
+      "visible_states_match": true,
+      "events_match": true,
+      "alert_display_times_ms": [],
+      "video_sha256": "86305d142950b1563ce04dbad694ad619f5312e4923b45eacd9db60026188508",
+      "preview_sha256": "1176e1ada6373c265cf5298cff39dea8cb77946ed7d8479753be5adcea15fde7",
+      "sequence_result": {
+        "sequence_id": "adl-04",
+        "sequence_score": 0.36930516362190247,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 120,
+        "n_valid_endpoints": 120,
+        "window_coverage": 1.0,
+        "first_alarm_ms": null
+      }
+    }
+  ],
+  "model_promoted": false,
+  "timing_accuracy_not_claimed": true,
+  "visual_check": {
+    "readability_passed": true,
+    "fall25_alert_2_27s_visible_during_descent": true,
+    "fall09_3_63s_upright_normal": true,
+    "adl04_2_17s_normal": true,
+    "not_official_temporal_ground_truth": true
+  }
+}

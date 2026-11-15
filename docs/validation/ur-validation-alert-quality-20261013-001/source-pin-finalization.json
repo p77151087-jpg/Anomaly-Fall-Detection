@@ -1,0 +1,8 @@
+{
+  "reason": "Only one blank line in new test import block fixed after initial build; original manifest and original test bytes preserved. No runtime implementation or output changes. A first pin update failed on Windows path separator, leaving the manifest unchanged until this correction.",
+  "file": "tests\\test_validation_alert_quality.py",
+  "initial_sha256": "5c812434b3f2317b813a7a78e628c15318bf4b24c5481c40c46bd7cc2925fd2f",
+  "final_sha256": "f136cd903bc3088394855d4c7f138f8eac7ce6950835c0ab9c53827f0999c220",
+  "initial_manifest": "initial-source-manifest.json",
+  "initial_test": "initial-source/tests/test_validation_alert_quality.py"
+}

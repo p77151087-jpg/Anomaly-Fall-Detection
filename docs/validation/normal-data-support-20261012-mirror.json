@@ -1,0 +1,404 @@
+{
+  "created_at": "2026-10-12T04:08:44.863589+00:00",
+  "recipe_hash": "713ee59a0853f20641cb7f664df2920359baa0734807acfa5cf86fb87a4e2f5b",
+  "sequences": {
+    "adl-33": {
+      "original_sha256": "0378fa8ce6a8b0501fc23e2b1575703cdd134fbf2b20fbcd0d69e1d294aff441",
+      "original_count": 119,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-33/mirror-features.npz",
+      "mirror_sha256": "1a53475b755529768068679e0e15620c553b6aedf0f7bd71189b520ca8ecdbbd",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-33/training-matrix.npz",
+      "combined_sha256": "8aea3613deb789599bcd39a9acf22cb225e53a6e8e871fd4014f13fddf72ac47",
+      "combined_count": 238,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 1.0301578044891357
+    },
+    "adl-08": {
+      "original_sha256": "c06f1123eb7192e50e65228656e8bee08a039f2f8fe2682b0b9bc31e9398f7f6",
+      "original_count": 140,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-08/mirror-features.npz",
+      "mirror_sha256": "fa4b978ac479217b52fa17e4f98ac7d908cc9f3b1ca72ca1bcf0e287dedcb1ae",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-08/training-matrix.npz",
+      "combined_sha256": "70a6e61befaeb86fc425c3fbdead4f930bb2a4f6da3953b6901e872fb182dce9",
+      "combined_count": 280,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 0.6916799545288086
+    },
+    "adl-40": {
+      "original_sha256": "91409d2b5f304e28896284e174c26ebc241c43a00ca6613119a1fddcf1086f0d",
+      "original_count": 228,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-40/mirror-features.npz",
+      "mirror_sha256": "7ca5bed36c5a87a49d09090d274bf76746c2dad76c0960d5e5af92b6c0e0857b",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-40/training-matrix.npz",
+      "combined_sha256": "15a67eb409299a8fb03d8d6ab7769d4f035bfdf2a51dd1be4dafd49764d8f9e9",
+      "combined_count": 456,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 1.1751384735107422
+    },
+    "adl-19": {
+      "original_sha256": "2d6b68a146ccb95911cce1da541919c3df696fbb1bc05a7204554ebcefb37169",
+      "original_count": 140,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-19/mirror-features.npz",
+      "mirror_sha256": "a49294f7e3c7b878eb90d7970c638112f0fae9f97ed0169e16e1e2763e329a92",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-19/training-matrix.npz",
+      "combined_sha256": "b4cba31d833edc46aafa4550a2830dbb403b64504d7080dd3486d7e5ebe99b5c",
+      "combined_count": 280,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 0.9505300521850586
+    },
+    "adl-05": {
+      "original_sha256": "03d5f6717437dcba38108f44499839d8fa24c0323bae294d173fea514c6e601c",
+      "original_count": 148,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-05/mirror-features.npz",
+      "mirror_sha256": "4a6992fad4c13e8abcea1df1374070f08266b2195c212f62b461039d4d7b231d",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-05/training-matrix.npz",
+      "combined_sha256": "0e885b3116e6693d24c60102e5c262c89ed11fe865c65adcda757f69bedb1e81",
+      "combined_count": 296,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 0.8597303032875061
+    },
+    "adl-38": {
+      "original_sha256": "01a98baffd9b3485112c2e3fa5809ecc838d68e93ccedccb969cf311564395a7",
+      "original_count": 158,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-38/mirror-features.npz",
+      "mirror_sha256": "74b922d86fa176362f61d44f9160a838ec20f48b0632892ea8b8cdb7d7afe9dc",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-38/training-matrix.npz",
+      "combined_sha256": "c19a9c72e4db08e78c6955773e2bdfc6cd1db476cbaece1e08873c67df437600",
+      "combined_count": 316,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 0.7548957467079163
+    },
+    "adl-17": {
+      "original_sha256": "cda1b4fee2127fba72aeb9dafab6d8b6fd97f615fa6b16fb6cc1bad52adc4040",
+      "original_count": 155,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-17/mirror-features.npz",
+      "mirror_sha256": "5ec2527c02e81eccc55ea5da98caafd1db64488d0da51f6afe2f9ee028dba0a5",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-17/training-matrix.npz",
+      "combined_sha256": "919f312d620b482ffe4b332107eacb1422ad67b2535e2f7ace180b824227cac4",
+      "combined_count": 310,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 1.1624420881271362
+    },
+    "adl-06": {
+      "original_sha256": "2f43d7d0f3552f7ca83b25adbc1e71a26abe9ff8738664637d45f8f396355015",
+      "original_count": 185,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-06/mirror-features.npz",
+      "mirror_sha256": "063e92dff38594ca9fccf2f00d6a3e40341ea2ff07d5777d79390eeecb60d098",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-06/training-matrix.npz",
+      "combined_sha256": "71568f0ae35c046ca2f91822cdb0294b0796970167464161cb687787859c2393",
+      "combined_count": 370,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 1.0902186632156372
+    },
+    "adl-26": {
+      "original_sha256": "aea2325b20cbfbc6aacb8b4fe0371cbe276dcd1084f30b0573714c57dff198e0",
+      "original_count": 63,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-26/mirror-features.npz",
+      "mirror_sha256": "986e42d70e4737f7a1c03933a226c5017aa7553b3fa9ce85e345d88c995415d9",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-26/training-matrix.npz",
+      "combined_sha256": "67ad7132f89423917580bfa85865c3d9f4cf73f3177f73db9e1e2e72fb79d2cc",
+      "combined_count": 126,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 0.49130624532699585
+    },
+    "adl-29": {
+      "original_sha256": "d40e4389db9ecc606574a4717b7c68ad33c95d8daa7ecc9d96cb5b64728fd2d4",
+      "original_count": 93,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-29/mirror-features.npz",
+      "mirror_sha256": "1c4b5a33e7b69c9b08ac51e7ef7be83abc425474b769f0dcf8e46f5be90911ce",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-29/training-matrix.npz",
+      "combined_sha256": "8dfb6416e53f473d7c89167894fa61c60f18a46196d0853e5c25eb8c3e4bb016",
+      "combined_count": 186,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 0.6960605382919312
+    },
+    "adl-22": {
+      "original_sha256": "7876bf621476723d6b01d2d005675fe1aa8ab059c230f042eed5e408104864b1",
+      "original_count": 139,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-22/mirror-features.npz",
+      "mirror_sha256": "856b50ef3e75459b57add32324712131ba0e1904833cc1a75dbbf7d97026909b",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-22/training-matrix.npz",
+      "combined_sha256": "900bebae496df6e72204846d9040d0ddbc4c27705c2ed38498b8a8e3e0923b3a",
+      "combined_count": 278,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 1.795006513595581
+    },
+    "adl-21": {
+      "original_sha256": "b3a76c518982a923454abbe79864512bb4b81d08502a69df3f89aaee12833e69",
+      "original_count": 188,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-21/mirror-features.npz",
+      "mirror_sha256": "ba4bd6f2b2188985818366d2e73137f9bc00af2e4c483fa3b8f6d8a8ee9bc4cf",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-21/training-matrix.npz",
+      "combined_sha256": "b115103ce3f7236fb8d60856ca068ba5e03c05d47e57378950a9382d9ba9d05f",
+      "combined_count": 376,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 1.8432725667953491
+    },
+    "adl-36": {
+      "original_sha256": "37017934a33b5aacfb5b06698135c90c05533f148d671c20d0cc7b9b31026593",
+      "original_count": 291,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-36/mirror-features.npz",
+      "mirror_sha256": "fdb759bd8b206feab7caf8ce87aeaca1b91f40208724fe2548253486fb4ca36a",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-36/training-matrix.npz",
+      "combined_sha256": "349e0098f6e8e76a95b36e4c384fac70ad8eea5aa1803cb3f4999e4949d1709d",
+      "combined_count": 582,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 1.0203206539154053
+    },
+    "adl-25": {
+      "original_sha256": "5da35afd2ae9500874bf281e7d5cc07375fecdaab38c9bbea496fe4f2c8d0186",
+      "original_count": 78,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-25/mirror-features.npz",
+      "mirror_sha256": "e8d610ea70d4afb17e33010188ec0e2b945f09aa0199c1fce42e602b79174603",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-25/training-matrix.npz",
+      "combined_sha256": "0a10212fc83e6913407ffd9896ab7e87ab11fbf54921a7b7c3b9260a111df354",
+      "combined_count": 156,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 0.7554448843002319
+    },
+    "adl-11": {
+      "original_sha256": "9175928da900a3b896a48f602c3516d248773dbdcd3bbcb535be854d0c19a246",
+      "original_count": 268,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-11/mirror-features.npz",
+      "mirror_sha256": "b45102429c141d5bdafc36093bcf312f481e299411dd04abadcb26a6c0ad45f9",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-11/training-matrix.npz",
+      "combined_sha256": "609a955304a891e56fcb4f89c791c8e52742392e4fec0080ebb23b240c4b2d70",
+      "combined_count": 536,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 0.9924845695495605
+    },
+    "adl-28": {
+      "original_sha256": "cd2da7dfd253aa2f917d073d047dcffd7d270b631bb60176673490956ce3b0b2",
+      "original_count": 53,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-28/mirror-features.npz",
+      "mirror_sha256": "6fdf279a30d6244f90ea4c842207a2f92f9c01520c381ec5dc1b3d930535f4fb",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-28/training-matrix.npz",
+      "combined_sha256": "467e447e317518b3aa61350d305eb27d3214e8fd7da35ff68d6655b4d9ea25d2",
+      "combined_count": 106,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 0.6015819311141968
+    },
+    "adl-32": {
+      "original_sha256": "079b0c06e750d6d84e22f8570506044dbdc2bcef9fda5c7056a0b8386a0f089b",
+      "original_count": 129,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-32/mirror-features.npz",
+      "mirror_sha256": "73312f8d163c46ab3c12523df88bd5517d48e8b274c9705a75fbfb40b361ee9a",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-32/training-matrix.npz",
+      "combined_sha256": "8d29e94e1fb87fde84f587f85e0c48d3f7e7f2762f565dee03af3b6aeace5c73",
+      "combined_count": 258,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 0.9375662803649902
+    },
+    "adl-31": {
+      "original_sha256": "4b80909db2a2fdda13f60badcef8a10a9e08440a1f4182c604c91c0eab06ca5b",
+      "original_count": 217,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-31/mirror-features.npz",
+      "mirror_sha256": "f50825b181eb673f5183b83fc49bec6e1695509ffd2159841195c24451e178f0",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-31/training-matrix.npz",
+      "combined_sha256": "c50dbb3514037f1e9e9938675fbfbaaa8c16a28006b445400992034e28e5b622",
+      "combined_count": 434,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 0.9149419069290161
+    },
+    "adl-27": {
+      "original_sha256": "ba69412ca7530a4fc1670f3bfe7df26a1c03f1697b25aa5ad3a9b5aa8c57ad65",
+      "original_count": 68,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-27/mirror-features.npz",
+      "mirror_sha256": "a4c9312ea10ff81d1c0eb94c9c5dd0de2c4016d1833ddb5e03371334769ef5bc",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-27/training-matrix.npz",
+      "combined_sha256": "10dbd8f807f977866269b38ad47fa1d684e81be21bf5a5918323d1df2cee499c",
+      "combined_count": 136,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 0.5295745730400085
+    },
+    "adl-07": {
+      "original_sha256": "4b121c28b3090248d2b2652ed1bf6402170f0f37025fb743419bb2dfe9da887d",
+      "original_count": 148,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-07/mirror-features.npz",
+      "mirror_sha256": "9f085b91eda914a1cb8219d09337c6dc146776a96a44ce27691c834d5d370871",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-07/training-matrix.npz",
+      "combined_sha256": "12964c8f9cac1740c40e020ba8592acf4beeeb895bb85231dc9bfeb197179ecc",
+      "combined_count": 296,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 0.566999614238739
+    },
+    "adl-30": {
+      "original_sha256": "3ea7bfd2802e0ea9b576f0be728a3defb846c258c025df9b1f64d6b9f6467020",
+      "original_count": 178,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-30/mirror-features.npz",
+      "mirror_sha256": "6bee08960aa9f012fe4d3479410a5a43a201fbbea667b5317635623d7d239e3f",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-30/training-matrix.npz",
+      "combined_sha256": "50a0e02096f9db1bfaecfa65fa04fee56464dcdf6493e676fdc64a482d73a818",
+      "combined_count": 356,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 0.8000060319900513
+    },
+    "adl-12": {
+      "original_sha256": "22b22fe32d14df07fd89557f242526dc59b55c927ecfd773d9fd2e230c492cb7",
+      "original_count": 146,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-12/mirror-features.npz",
+      "mirror_sha256": "1504cf20c353df458b7412f873361f94dbec1997600525ea60b7e2219bc4de53",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-12/training-matrix.npz",
+      "combined_sha256": "1999097474ed27813234e713e6cfd02fe4c0b3cc0d84c9b9de72e9bad25153af",
+      "combined_count": 292,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 0.8079169988632202
+    },
+    "adl-24": {
+      "original_sha256": "7716069c3bd0a8954ca8b49b6c26cc87919913374fa7a892bc668e951a0a5ba2",
+      "original_count": 38,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-24/mirror-features.npz",
+      "mirror_sha256": "bec3e957b677f07b14051e76951a3cf0f75d22d05db844f364d1e000c56967ec",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-24/training-matrix.npz",
+      "combined_sha256": "3daeb1f4b410927d7b8d245d62e8c63748ebe1477fa760ff8ca6c4eed73b8a49",
+      "combined_count": 76,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 0.6355257034301758
+    },
+    "adl-10": {
+      "original_sha256": "9343bdeb4281d427a9f55f007e7322f35a94569037b58f2cd62c844cbf095dbe",
+      "original_count": 268,
+      "mirror_path": "data/cache/ur-train-mirror-20261012-001/adl-10/mirror-features.npz",
+      "mirror_sha256": "6ad7f91db3d60bc59cf0c5c700f6fe94f870d7c80941ae25d76411500f9e9aee",
+      "combined_path": "data/cache/ur-train-mirror-20261012-001/adl-10/training-matrix.npz",
+      "combined_sha256": "36e7675bfe4938cf401f7216bbb6e556ed68dc543f82f82988040400432b29e4",
+      "combined_count": 536,
+      "parity_checks": 2,
+      "max_original_parity_difference": 0.0,
+      "max_mirror_difference": 1.0261640548706055
+    }
+  },
+  "strict_weight_load": {
+    "strict": true,
+    "key_conversion": null,
+    "sha256": "1cac9a6da99d5d67da8ab58ee7633c5e923d85fba668673f028792819750a149"
+  },
+  "source_kind": "real observations with explicit derived Train augmentation",
+  "original_video_count": 24,
+  "training_matrix_count": 7276,
+  "feature_accesses": [
+    {
+      "sequence_id": "adl-33",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-08",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-40",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-19",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-05",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-17",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-26",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-29",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-21",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-25",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-11",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-28",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-31",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-30",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-12",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train"
+    }
+  ],
+  "test_feature_arrays_loaded": 0,
+  "new_test_evaluations": 0,
+  "evidence_tier": "real_feature_smoke",
+  "new_original_recordings": 0
+}

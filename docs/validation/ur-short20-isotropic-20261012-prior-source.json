@@ -1,0 +1,21 @@
+{
+  "retirement_lock_sha256": "1b0b46d7d744c23d7bdf2b554663c310564b4770f5b118ada3c7945498a2a62f",
+  "reason": "Authorized Train/Validation-only core implementation. Original core reconstructed by reversing this turn's edits and verified byte-for-byte against preexisting retirement hashes before saving. Old retirement lock/source remain unchanged.",
+  "archived_sources": {
+    "src/fall_detect/cli.py": {
+      "original_sha256": "77fac6fbbf83bd931b5eacae8ebc8541dc603376d5f3a4eedec765aa779e3941",
+      "original_source": "docs/validation/ur-short20-isotropic-20261012-prior-source/src/fall_detect/cli.py",
+      "authorized_current_sha256": "c55cc65118ef05b7c43bdb83f8f041b6372c05ccc169f0b5ae1a2a996b7349a6"
+    },
+    "src/fall_detect/pipeline.py": {
+      "original_sha256": "25cc480f9f642f9c2aae64e88b04ecb2f7cb6d6a0ee0d3c979d779816cc72fd0",
+      "original_source": "docs/validation/ur-short20-isotropic-20261012-prior-source/src/fall_detect/pipeline.py",
+      "authorized_current_sha256": "5e7c09f1c4b5ad685dd9965e62e8b31c697f25d2bc12734f85f3475811230cbf"
+    },
+    "src/fall_detect/training/experiment.py": {
+      "original_sha256": "6899e015b0a4fe5db285ee88267a34aa73e5de117bb45b8520e4cfcda4e9be39",
+      "original_source": "docs/validation/ur-short20-isotropic-20261012-prior-source/src/fall_detect/training/experiment.py",
+      "authorized_current_sha256": "d78339cc26ad276316a3b461d6cf516f78a27071a1ca8d18f2b2411f73077947"
+    }
+  }
+}

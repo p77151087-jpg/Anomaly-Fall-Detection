@@ -1,0 +1,617 @@
+C:\���j�M��\fall-detection-anomaly\third_party\human\Detection\Models.py:121: UserWarning: The torch.cuda.*DtypeTensor constructors are no longer recommended. It's best to use methods such as torch.tensor(data, dtype=*, device='cuda') to create tensors. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\tensor\python_tensor.cpp:80.)
+  self.scaled_anchors = FloatTensor([(a_w / self.stride, a_h / self.stride) for a_w, a_h in self.anchors])
+adl-33: source frame 1, tracks=0
+adl-33: source frame 31, tracks=1
+adl-33: source frame 61, tracks=1
+adl-33: source frame 91, tracks=1
+adl-33: source frame 121, tracks=1
+adl-33: source frame 151, tracks=1
+adl-33: source frame 181, tracks=1
+adl-08: source frame 1, tracks=0
+adl-08: source frame 31, tracks=1
+adl-08: source frame 61, tracks=1
+adl-08: source frame 91, tracks=1
+adl-08: source frame 121, tracks=1
+adl-08: source frame 151, tracks=1
+adl-40: source frame 1, tracks=0
+adl-40: source frame 31, tracks=0
+adl-40: source frame 61, tracks=1
+adl-40: source frame 91, tracks=1
+adl-40: source frame 121, tracks=1
+adl-40: source frame 151, tracks=1
+adl-40: source frame 181, tracks=1
+adl-40: source frame 211, tracks=1
+adl-40: source frame 241, tracks=1
+adl-40: source frame 271, tracks=1
+adl-40: source frame 301, tracks=1
+adl-19: source frame 1, tracks=0
+adl-19: source frame 31, tracks=0
+adl-19: source frame 61, tracks=1
+adl-19: source frame 91, tracks=1
+adl-19: source frame 121, tracks=1
+adl-19: source frame 151, tracks=1
+adl-19: source frame 181, tracks=1
+adl-19: source frame 211, tracks=1
+adl-19: source frame 241, tracks=1
+adl-05: source frame 1, tracks=0
+adl-05: source frame 31, tracks=1
+adl-05: source frame 61, tracks=1
+adl-05: source frame 91, tracks=1
+adl-05: source frame 121, tracks=1
+adl-05: source frame 151, tracks=1
+adl-38: source frame 1, tracks=0
+adl-38: source frame 31, tracks=1
+adl-38: source frame 61, tracks=1
+adl-38: source frame 91, tracks=1
+adl-38: source frame 121, tracks=1
+adl-38: source frame 151, tracks=1
+adl-38: source frame 181, tracks=1
+adl-38: source frame 211, tracks=1
+adl-38: source frame 241, tracks=1
+adl-38: source frame 271, tracks=1
+adl-38: source frame 301, tracks=1
+adl-38: source frame 331, tracks=1
+adl-17: source frame 1, tracks=0
+adl-17: source frame 31, tracks=0
+adl-17: source frame 61, tracks=1
+adl-17: source frame 91, tracks=1
+adl-17: source frame 121, tracks=1
+adl-17: source frame 151, tracks=1
+adl-17: source frame 181, tracks=1
+adl-17: source frame 211, tracks=1
+adl-06: source frame 1, tracks=0
+adl-06: source frame 31, tracks=1
+adl-06: source frame 61, tracks=1
+adl-06: source frame 91, tracks=1
+adl-06: source frame 121, tracks=1
+adl-06: source frame 151, tracks=1
+adl-06: source frame 181, tracks=1
+adl-06: source frame 211, tracks=1
+adl-26: source frame 1, tracks=0
+adl-26: source frame 31, tracks=1
+adl-26: source frame 61, tracks=1
+adl-26: source frame 91, tracks=1
+adl-29: source frame 1, tracks=0
+adl-29: source frame 31, tracks=1
+adl-29: source frame 61, tracks=1
+adl-29: source frame 91, tracks=1
+adl-29: source frame 121, tracks=1
+adl-22: source frame 1, tracks=0
+adl-22: source frame 31, tracks=1
+adl-22: source frame 61, tracks=1
+adl-22: source frame 91, tracks=1
+adl-22: source frame 121, tracks=1
+adl-22: source frame 151, tracks=1
+adl-22: source frame 181, tracks=1
+adl-22: source frame 211, tracks=1
+adl-21: source frame 1, tracks=0
+adl-21: source frame 31, tracks=0
+adl-21: source frame 61, tracks=1
+adl-21: source frame 91, tracks=1
+adl-21: source frame 121, tracks=1
+adl-21: source frame 151, tracks=1
+adl-21: source frame 181, tracks=1
+adl-21: source frame 211, tracks=1
+adl-21: source frame 241, tracks=1
+adl-21: source frame 271, tracks=1
+adl-36: source frame 1, tracks=0
+adl-36: source frame 31, tracks=1
+adl-36: source frame 61, tracks=1
+adl-36: source frame 91, tracks=1
+adl-36: source frame 121, tracks=1
+adl-36: source frame 151, tracks=1
+adl-36: source frame 181, tracks=1
+adl-36: source frame 211, tracks=1
+adl-36: source frame 241, tracks=1
+adl-36: source frame 271, tracks=1
+adl-36: source frame 301, tracks=1
+adl-36: source frame 331, tracks=1
+adl-25: source frame 1, tracks=0
+adl-25: source frame 31, tracks=1
+adl-25: source frame 61, tracks=1
+adl-25: source frame 91, tracks=1
+adl-11: source frame 1, tracks=0
+adl-11: source frame 31, tracks=1
+adl-11: source frame 61, tracks=1
+adl-11: source frame 91, tracks=1
+adl-11: source frame 121, tracks=1
+adl-11: source frame 151, tracks=1
+adl-11: source frame 181, tracks=1
+adl-11: source frame 211, tracks=1
+adl-11: source frame 241, tracks=1
+adl-11: source frame 271, tracks=1
+adl-28: source frame 1, tracks=0
+adl-28: source frame 31, tracks=1
+adl-28: source frame 61, tracks=1
+adl-32: source frame 1, tracks=0
+adl-32: source frame 31, tracks=1
+adl-32: source frame 61, tracks=1
+adl-32: source frame 91, tracks=1
+adl-32: source frame 121, tracks=1
+adl-32: source frame 151, tracks=1
+adl-32: source frame 181, tracks=1
+adl-31: source frame 1, tracks=0
+adl-31: source frame 31, tracks=1
+adl-31: source frame 61, tracks=1
+adl-31: source frame 91, tracks=1
+adl-31: source frame 121, tracks=1
+adl-31: source frame 151, tracks=1
+adl-31: source frame 181, tracks=1
+adl-31: source frame 211, tracks=1
+adl-31: source frame 241, tracks=1
+adl-27: source frame 1, tracks=0
+adl-27: source frame 31, tracks=1
+adl-27: source frame 61, tracks=1
+adl-27: source frame 91, tracks=1
+adl-07: source frame 1, tracks=0
+adl-07: source frame 31, tracks=1
+adl-07: source frame 61, tracks=1
+adl-07: source frame 91, tracks=1
+adl-07: source frame 121, tracks=1
+adl-07: source frame 151, tracks=1
+adl-30: source frame 1, tracks=0
+adl-30: source frame 31, tracks=0
+adl-30: source frame 61, tracks=1
+adl-30: source frame 91, tracks=1
+adl-30: source frame 121, tracks=1
+adl-30: source frame 151, tracks=1
+adl-30: source frame 181, tracks=1
+adl-30: source frame 211, tracks=1
+adl-30: source frame 241, tracks=1
+adl-30: source frame 271, tracks=1
+adl-30: source frame 301, tracks=1
+adl-30: source frame 331, tracks=1
+adl-30: source frame 361, tracks=1
+adl-30: source frame 391, tracks=1
+adl-12: source frame 1, tracks=0
+adl-12: source frame 31, tracks=1
+adl-12: source frame 61, tracks=1
+adl-12: source frame 91, tracks=1
+adl-12: source frame 121, tracks=1
+adl-12: source frame 151, tracks=1
+adl-12: source frame 181, tracks=1
+adl-12: source frame 211, tracks=1
+adl-12: source frame 241, tracks=1
+adl-24: source frame 1, tracks=0
+adl-24: source frame 31, tracks=1
+adl-24: source frame 61, tracks=1
+adl-10: source frame 1, tracks=0
+adl-10: source frame 31, tracks=1
+adl-10: source frame 61, tracks=1
+adl-10: source frame 91, tracks=1
+adl-10: source frame 121, tracks=1
+adl-10: source frame 151, tracks=1
+adl-10: source frame 181, tracks=1
+adl-10: source frame 211, tracks=1
+adl-10: source frame 241, tracks=1
+adl-10: source frame 271, tracks=1
+adl-37: source frame 1, tracks=0
+adl-37: source frame 31, tracks=1
+adl-37: source frame 61, tracks=1
+adl-37: source frame 91, tracks=1
+adl-37: source frame 121, tracks=1
+adl-37: source frame 151, tracks=1
+adl-37: source frame 181, tracks=1
+adl-37: source frame 211, tracks=1
+adl-37: source frame 241, tracks=1
+adl-37: source frame 271, tracks=1
+adl-37: source frame 301, tracks=1
+adl-37: source frame 331, tracks=1
+adl-23: source frame 1, tracks=0
+adl-23: source frame 31, tracks=1
+adl-23: source frame 61, tracks=1
+adl-23: source frame 91, tracks=1
+adl-23: source frame 121, tracks=1
+adl-23: source frame 151, tracks=1
+adl-23: source frame 181, tracks=1
+adl-23: source frame 211, tracks=1
+adl-20: source frame 1, tracks=0
+adl-20: source frame 31, tracks=0
+adl-20: source frame 61, tracks=1
+adl-20: source frame 91, tracks=1
+adl-20: source frame 121, tracks=1
+adl-20: source frame 151, tracks=1
+adl-20: source frame 181, tracks=1
+adl-20: source frame 211, tracks=1
+adl-20: source frame 241, tracks=1
+adl-04: source frame 1, tracks=0
+adl-04: source frame 31, tracks=1
+adl-04: source frame 61, tracks=1
+adl-04: source frame 91, tracks=1
+adl-04: source frame 121, tracks=1
+adl-01: source frame 1, tracks=0
+adl-01: source frame 31, tracks=1
+adl-01: source frame 61, tracks=1
+adl-01: source frame 91, tracks=1
+adl-01: source frame 121, tracks=1
+adl-16: source frame 1, tracks=0
+adl-16: source frame 31, tracks=0
+adl-16: source frame 61, tracks=1
+adl-16: source frame 91, tracks=1
+adl-16: source frame 121, tracks=1
+adl-16: source frame 151, tracks=1
+adl-16: source frame 181, tracks=1
+adl-16: source frame 211, tracks=1
+adl-18: source frame 1, tracks=0
+adl-18: source frame 31, tracks=0
+adl-18: source frame 61, tracks=0
+adl-18: source frame 91, tracks=1
+adl-18: source frame 121, tracks=1
+adl-18: source frame 151, tracks=1
+adl-18: source frame 181, tracks=1
+adl-18: source frame 211, tracks=1
+adl-18: source frame 241, tracks=1
+adl-35: source frame 1, tracks=0
+adl-35: source frame 31, tracks=1
+adl-35: source frame 61, tracks=1
+adl-35: source frame 91, tracks=1
+adl-35: source frame 121, tracks=1
+adl-35: source frame 151, tracks=1
+adl-35: source frame 181, tracks=1
+adl-35: source frame 211, tracks=1
+adl-35: source frame 241, tracks=1
+adl-35: source frame 271, tracks=1
+fall-22: source frame 1, tracks=0
+fall-22: source frame 31, tracks=1
+fall-19: source frame 1, tracks=0
+fall-19: source frame 31, tracks=1
+fall-19: source frame 61, tracks=1
+fall-19: source frame 91, tracks=1
+fall-16: source frame 1, tracks=0
+fall-16: source frame 31, tracks=1
+fall-18: source frame 1, tracks=0
+fall-18: source frame 31, tracks=1
+fall-18: source frame 61, tracks=0
+fall-08: source frame 1, tracks=0
+fall-08: source frame 31, tracks=1
+fall-08: source frame 61, tracks=1
+fall-08: source frame 91, tracks=1
+fall-13: source frame 1, tracks=0
+fall-13: source frame 31, tracks=2
+fall-13: source frame 61, tracks=3
+fall-29: source frame 1, tracks=0
+fall-29: source frame 31, tracks=1
+fall-29: source frame 61, tracks=1
+fall-29: source frame 91, tracks=1
+fall-14: source frame 1, tracks=0
+fall-14: source frame 31, tracks=2
+fall-14: source frame 61, tracks=3
+fall-09: source frame 1, tracks=0
+fall-09: source frame 31, tracks=1
+fall-09: source frame 61, tracks=1
+fall-09: source frame 91, tracks=1
+fall-09: source frame 121, tracks=1
+fall-09: source frame 151, tracks=1
+fall-09: source frame 181, tracks=1
+fall-07: source frame 1, tracks=0
+fall-07: source frame 31, tracks=1
+fall-07: source frame 61, tracks=1
+fall-07: source frame 91, tracks=1
+fall-07: source frame 121, tracks=1
+fall-07: source frame 151, tracks=1
+fall-11: source frame 1, tracks=0
+fall-11: source frame 31, tracks=1
+fall-11: source frame 61, tracks=1
+fall-11: source frame 91, tracks=1
+fall-11: source frame 121, tracks=1
+fall-25: source frame 1, tracks=0
+fall-25: source frame 31, tracks=1
+fall-25: source frame 61, tracks=1
+fall-06: source frame 1, tracks=0
+fall-06: source frame 31, tracks=1
+fall-06: source frame 61, tracks=1
+fall-06: source frame 91, tracks=1
+fall-02: source frame 1, tracks=0
+fall-02: source frame 31, tracks=1
+fall-02: source frame 61, tracks=1
+fall-02: source frame 91, tracks=1
+fall-30: source frame 1, tracks=0
+fall-30: source frame 31, tracks=1
+fall-30: source frame 61, tracks=1
+adl-13: source frame 1, tracks=0
+adl-13: source frame 31, tracks=0
+adl-13: source frame 61, tracks=1
+adl-13: source frame 91, tracks=1
+adl-13: source frame 121, tracks=1
+adl-13: source frame 151, tracks=1
+adl-13: source frame 181, tracks=1
+adl-13: source frame 211, tracks=1
+adl-13: source frame 241, tracks=1
+adl-15: source frame 1, tracks=0
+adl-15: source frame 31, tracks=0
+adl-15: source frame 61, tracks=1
+adl-15: source frame 91, tracks=1
+adl-15: source frame 121, tracks=1
+adl-15: source frame 151, tracks=1
+adl-15: source frame 181, tracks=1
+adl-15: source frame 211, tracks=1
+adl-15: source frame 241, tracks=1
+adl-15: source frame 271, tracks=1
+adl-39: source frame 1, tracks=0
+adl-39: source frame 31, tracks=1
+adl-39: source frame 61, tracks=1
+adl-39: source frame 91, tracks=1
+adl-39: source frame 121, tracks=1
+adl-39: source frame 151, tracks=1
+adl-39: source frame 181, tracks=1
+adl-39: source frame 211, tracks=1
+adl-39: source frame 241, tracks=1
+adl-03: source frame 1, tracks=0
+adl-03: source frame 31, tracks=1
+adl-03: source frame 61, tracks=1
+adl-03: source frame 91, tracks=1
+adl-03: source frame 121, tracks=1
+adl-03: source frame 151, tracks=1
+adl-34: source frame 1, tracks=0
+adl-34: source frame 31, tracks=1
+adl-34: source frame 61, tracks=1
+adl-34: source frame 91, tracks=1
+adl-34: source frame 121, tracks=1
+adl-34: source frame 151, tracks=1
+adl-34: source frame 181, tracks=1
+adl-02: source frame 1, tracks=0
+adl-02: source frame 31, tracks=0
+adl-02: source frame 61, tracks=1
+adl-02: source frame 91, tracks=1
+adl-02: source frame 121, tracks=1
+adl-02: source frame 151, tracks=1
+adl-14: source frame 1, tracks=0
+adl-14: source frame 31, tracks=0
+adl-14: source frame 61, tracks=1
+adl-14: source frame 91, tracks=1
+adl-14: source frame 121, tracks=1
+adl-14: source frame 151, tracks=1
+adl-14: source frame 181, tracks=1
+adl-14: source frame 211, tracks=1
+adl-09: source frame 1, tracks=0
+adl-09: source frame 31, tracks=1
+adl-09: source frame 61, tracks=1
+adl-09: source frame 91, tracks=1
+adl-09: source frame 121, tracks=1
+fall-10: source frame 1, tracks=0
+fall-10: source frame 31, tracks=1
+fall-10: source frame 61, tracks=1
+fall-10: source frame 91, tracks=2
+fall-10: source frame 121, tracks=2
+fall-27: source frame 1, tracks=0
+fall-27: source frame 31, tracks=1
+fall-27: source frame 61, tracks=1
+fall-27: source frame 91, tracks=1
+fall-04: source frame 1, tracks=0
+fall-04: source frame 31, tracks=1
+fall-04: source frame 61, tracks=1
+fall-04: source frame 91, tracks=1
+fall-23: source frame 1, tracks=0
+fall-23: source frame 31, tracks=1
+fall-23: source frame 61, tracks=1
+fall-15: source frame 1, tracks=0
+fall-15: source frame 31, tracks=1
+fall-15: source frame 61, tracks=1
+fall-21: source frame 1, tracks=0
+fall-21: source frame 31, tracks=1
+fall-20: source frame 1, tracks=0
+fall-20: source frame 31, tracks=1
+fall-20: source frame 61, tracks=1
+fall-20: source frame 91, tracks=1
+fall-12: source frame 1, tracks=0
+fall-12: source frame 31, tracks=1
+fall-12: source frame 61, tracks=1
+fall-12: source frame 91, tracks=1
+fall-03: source frame 1, tracks=0
+fall-03: source frame 31, tracks=1
+fall-03: source frame 61, tracks=1
+fall-03: source frame 91, tracks=1
+fall-03: source frame 121, tracks=1
+fall-03: source frame 151, tracks=1
+fall-03: source frame 181, tracks=1
+fall-03: source frame 211, tracks=1
+fall-01: source frame 1, tracks=0
+fall-01: source frame 31, tracks=1
+fall-01: source frame 61, tracks=1
+fall-01: source frame 91, tracks=1
+fall-01: source frame 121, tracks=1
+fall-01: source frame 151, tracks=1
+fall-26: source frame 1, tracks=0
+fall-26: source frame 31, tracks=1
+fall-26: source frame 61, tracks=1
+fall-28: source frame 1, tracks=0
+fall-28: source frame 31, tracks=1
+fall-28: source frame 61, tracks=1
+fall-24: source frame 1, tracks=0
+fall-24: source frame 31, tracks=1
+fall-05: source frame 1, tracks=0
+fall-05: source frame 31, tracks=1
+fall-05: source frame 61, tracks=1
+fall-05: source frame 91, tracks=1
+fall-05: source frame 121, tracks=1
+fall-05: source frame 151, tracks=2
+fall-17: source frame 1, tracks=0
+fall-17: source frame 31, tracks=1
+fall-17: source frame 61, tracks=1
+fall-17: source frame 91, tracks=1
+C:\���j�M��\fall-detection-anomaly\.venv\Lib\site-packages\torch\autograd\graph.py:829: UserWarning: Deterministic behavior was enabled with either `torch.use_deterministic_algorithms(True)` or `at::Context::setDeterministicAlgorithms(true)`, but this operation is not deterministic because it uses CuBLAS and you have CUDA >= 10.2. To enable deterministic behavior in this case, you must set an environment variable before running your PyTorch application: CUBLAS_WORKSPACE_CONFIG=:4096:8 or CUBLAS_WORKSPACE_CONFIG=:16:8. For more information, go to https://docs.nvidia.com/cuda/cublas/index.html#results-reproducibility (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\Context.cpp:233.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+epoch 1: train=0.769763, val_normal=0.893549
+epoch 2: train=0.470913, val_normal=0.626465
+epoch 3: train=0.302902, val_normal=0.455325
+epoch 4: train=0.236463, val_normal=0.386125
+epoch 5: train=0.187059, val_normal=0.304870
+epoch 6: train=0.164834, val_normal=0.275443
+epoch 7: train=0.145195, val_normal=0.266688
+epoch 8: train=0.132379, val_normal=0.229245
+epoch 9: train=0.124471, val_normal=0.214840
+epoch 10: train=0.118126, val_normal=0.216127
+epoch 11: train=0.113347, val_normal=0.205928
+epoch 12: train=0.108380, val_normal=0.200699
+epoch 13: train=0.108179, val_normal=0.196007
+epoch 14: train=0.100395, val_normal=0.195128
+epoch 15: train=0.098381, val_normal=0.187126
+epoch 16: train=0.097891, val_normal=0.184830
+epoch 17: train=0.094595, val_normal=0.185198
+epoch 18: train=0.095375, val_normal=0.185921
+epoch 19: train=0.089516, val_normal=0.177663
+epoch 20: train=0.089076, val_normal=0.177418
+epoch 21: train=0.086162, val_normal=0.174001
+epoch 22: train=0.086338, val_normal=0.178021
+epoch 23: train=0.088366, val_normal=0.171664
+epoch 24: train=0.085953, val_normal=0.171291
+epoch 25: train=0.082765, val_normal=0.164085
+epoch 26: train=0.082450, val_normal=0.166036
+epoch 27: train=0.081236, val_normal=0.170283
+epoch 28: train=0.079650, val_normal=0.164620
+epoch 29: train=0.081625, val_normal=0.167400
+epoch 30: train=0.080713, val_normal=0.164305
+epoch 31: train=0.078058, val_normal=0.160777
+epoch 32: train=0.075817, val_normal=0.162481
+epoch 33: train=0.078715, val_normal=0.159423
+epoch 34: train=0.080918, val_normal=0.159557
+epoch 35: train=0.075168, val_normal=0.163273
+epoch 36: train=0.076276, val_normal=0.159566
+epoch 37: train=0.075060, val_normal=0.163699
+epoch 38: train=0.071950, val_normal=0.162108
+epoch 39: train=0.074619, val_normal=0.157817
+epoch 40: train=0.073203, val_normal=0.154841
+epoch 41: train=0.072332, val_normal=0.157143
+epoch 42: train=0.075862, val_normal=0.158075
+epoch 43: train=0.073028, val_normal=0.161020
+epoch 44: train=0.070788, val_normal=0.158983
+epoch 45: train=0.070337, val_normal=0.154399
+epoch 46: train=0.069941, val_normal=0.153895
+epoch 47: train=0.072310, val_normal=0.155717
+epoch 48: train=0.069981, val_normal=0.153831
+epoch 49: train=0.070871, val_normal=0.154514
+epoch 50: train=0.070687, val_normal=0.151930
+epoch 51: train=0.069641, val_normal=0.151219
+epoch 52: train=0.064820, val_normal=0.153809
+epoch 53: train=0.068352, val_normal=0.153430
+epoch 54: train=0.067221, val_normal=0.150721
+epoch 55: train=0.068264, val_normal=0.151280
+epoch 56: train=0.067764, val_normal=0.156603
+epoch 57: train=0.067912, val_normal=0.149690
+epoch 58: train=0.066364, val_normal=0.153904
+epoch 59: train=0.067212, val_normal=0.152305
+epoch 60: train=0.066448, val_normal=0.152637
+epoch 61: train=0.065034, val_normal=0.157096
+epoch 62: train=0.066090, val_normal=0.146723
+epoch 63: train=0.067358, val_normal=0.148512
+epoch 64: train=0.066480, val_normal=0.153469
+epoch 65: train=0.065390, val_normal=0.147825
+epoch 66: train=0.066019, val_normal=0.152137
+epoch 67: train=0.066772, val_normal=0.148781
+epoch 68: train=0.067222, val_normal=0.148826
+epoch 69: train=0.065849, val_normal=0.150171
+epoch 70: train=0.063390, val_normal=0.148592
+epoch 71: train=0.064530, val_normal=0.147840
+epoch 72: train=0.065941, val_normal=0.147358
+{'run': 'ur-sample-human-s5-001', 'validation': {'metric_unit': 'sequence', 'TP': 7, 'FP': 0, 'FN': 8, 'TN': 8, 'n_total': 23, 'n_evaluable': 23, 'n_unknown': 0, 'sequence_coverage': 1.0, 'sequence_accuracy': 0.6521739130434783, 'sequence_fall_precision': 1.0, 'sequence_fall_recall': 0.4666666666666667, 'sequence_fall_f1': 0.6363636363636364, 'operational_accuracy': 0.6521739130434783, 'end_to_end_fall_recall': 0.4666666666666667, 'outcomes_with_unknown': [[8, 0, 0], [8, 7, 0]], 'outcome_columns': ['normal', 'suspected_fall', 'unknown'], 'outcome_rows': ['ADL', 'Fall'], 'by_class': {'ADL': {'n_total': 8, 'n_unknown': 0, 'sequence_coverage': 1.0, 'window_coverage': 0.8304093567251462, 'n_missing_timelines': 0}, 'Fall': {'n_total': 15, 'n_unknown': 0, 'sequence_coverage': 1.0, 'window_coverage': 0.8028169014084507, 'n_missing_timelines': 0}}, 'window_coverage': 0.8198198198198198, 'n_missing_timelines': 0, 'balanced_sequence_accuracy': 0.7333333333333334}, 'timing_guard_passed': False}
+Rebuilding features from verified observed poses: adl-33
+C:\���j�M��\fall-detection-anomaly\.venv\Lib\site-packages\torch\functional.py:422: UserWarning: Deterministic behavior was enabled with either `torch.use_deterministic_algorithms(True)` or `at::Context::setDeterministicAlgorithms(true)`, but this operation is not deterministic because it uses CuBLAS and you have CUDA >= 10.2. To enable deterministic behavior in this case, you must set an environment variable before running your PyTorch application: CUBLAS_WORKSPACE_CONFIG=:4096:8 or CUBLAS_WORKSPACE_CONFIG=:16:8. For more information, go to https://docs.nvidia.com/cuda/cublas/index.html#results-reproducibility (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\Context.cpp:233.)
+  return _VF.einsum(equation, operands)  # type: ignore[attr-defined]
+Rebuilding features from verified observed poses: adl-08
+Rebuilding features from verified observed poses: adl-40
+Rebuilding features from verified observed poses: adl-19
+Rebuilding features from verified observed poses: adl-05
+Rebuilding features from verified observed poses: adl-38
+Rebuilding features from verified observed poses: adl-17
+Rebuilding features from verified observed poses: adl-06
+Rebuilding features from verified observed poses: adl-26
+Rebuilding features from verified observed poses: adl-29
+Rebuilding features from verified observed poses: adl-22
+Rebuilding features from verified observed poses: adl-21
+Rebuilding features from verified observed poses: adl-36
+Rebuilding features from verified observed poses: adl-25
+Rebuilding features from verified observed poses: adl-11
+Rebuilding features from verified observed poses: adl-28
+Rebuilding features from verified observed poses: adl-32
+Rebuilding features from verified observed poses: adl-31
+Rebuilding features from verified observed poses: adl-27
+Rebuilding features from verified observed poses: adl-07
+Rebuilding features from verified observed poses: adl-30
+Rebuilding features from verified observed poses: adl-12
+Rebuilding features from verified observed poses: adl-24
+Rebuilding features from verified observed poses: adl-10
+Rebuilding features from verified observed poses: adl-37
+Rebuilding features from verified observed poses: adl-23
+Rebuilding features from verified observed poses: adl-20
+Rebuilding features from verified observed poses: adl-04
+Rebuilding features from verified observed poses: adl-01
+Rebuilding features from verified observed poses: adl-16
+Rebuilding features from verified observed poses: adl-18
+Rebuilding features from verified observed poses: adl-35
+Rebuilding features from verified observed poses: fall-22
+Rebuilding features from verified observed poses: fall-19
+Rebuilding features from verified observed poses: fall-16
+Rebuilding features from verified observed poses: fall-18
+Rebuilding features from verified observed poses: fall-08
+Rebuilding features from verified observed poses: fall-13
+Rebuilding features from verified observed poses: fall-29
+Rebuilding features from verified observed poses: fall-14
+Rebuilding features from verified observed poses: fall-09
+Rebuilding features from verified observed poses: fall-07
+Rebuilding features from verified observed poses: fall-11
+Rebuilding features from verified observed poses: fall-25
+Rebuilding features from verified observed poses: fall-06
+Rebuilding features from verified observed poses: fall-02
+Rebuilding features from verified observed poses: fall-30
+Rebuilding features from verified observed poses: adl-13
+Rebuilding features from verified observed poses: adl-15
+Rebuilding features from verified observed poses: adl-39
+Rebuilding features from verified observed poses: adl-03
+Rebuilding features from verified observed poses: adl-34
+Rebuilding features from verified observed poses: adl-02
+Rebuilding features from verified observed poses: adl-14
+Rebuilding features from verified observed poses: adl-09
+Rebuilding features from verified observed poses: fall-10
+Rebuilding features from verified observed poses: fall-27
+Rebuilding features from verified observed poses: fall-04
+Rebuilding features from verified observed poses: fall-23
+Rebuilding features from verified observed poses: fall-15
+Rebuilding features from verified observed poses: fall-21
+Rebuilding features from verified observed poses: fall-20
+Rebuilding features from verified observed poses: fall-12
+Rebuilding features from verified observed poses: fall-03
+Rebuilding features from verified observed poses: fall-01
+Rebuilding features from verified observed poses: fall-26
+Rebuilding features from verified observed poses: fall-28
+Rebuilding features from verified observed poses: fall-24
+Rebuilding features from verified observed poses: fall-05
+Rebuilding features from verified observed poses: fall-17
+epoch 1: train=0.396311, val_normal=0.304739
+epoch 2: train=0.138531, val_normal=0.215730
+epoch 3: train=0.105902, val_normal=0.182226
+epoch 4: train=0.094103, val_normal=0.172088
+epoch 5: train=0.086166, val_normal=0.161342
+epoch 6: train=0.080930, val_normal=0.164076
+epoch 7: train=0.079100, val_normal=0.163524
+epoch 8: train=0.075267, val_normal=0.153106
+epoch 9: train=0.073439, val_normal=0.156510
+epoch 10: train=0.071799, val_normal=0.146818
+epoch 11: train=0.069523, val_normal=0.149694
+epoch 12: train=0.068165, val_normal=0.149122
+epoch 13: train=0.066996, val_normal=0.147465
+epoch 14: train=0.067456, val_normal=0.146550
+epoch 15: train=0.065544, val_normal=0.145741
+epoch 16: train=0.065044, val_normal=0.142722
+epoch 17: train=0.063884, val_normal=0.144842
+epoch 18: train=0.063786, val_normal=0.141840
+epoch 19: train=0.062722, val_normal=0.149566
+epoch 20: train=0.063462, val_normal=0.143489
+epoch 21: train=0.062491, val_normal=0.142590
+epoch 22: train=0.061216, val_normal=0.140590
+epoch 23: train=0.061246, val_normal=0.140145
+epoch 24: train=0.060838, val_normal=0.140794
+epoch 25: train=0.061270, val_normal=0.146903
+epoch 26: train=0.059741, val_normal=0.142132
+epoch 27: train=0.061057, val_normal=0.147294
+epoch 28: train=0.059448, val_normal=0.137535
+epoch 29: train=0.059013, val_normal=0.138907
+epoch 30: train=0.059212, val_normal=0.138827
+epoch 31: train=0.058666, val_normal=0.140892
+epoch 32: train=0.058220, val_normal=0.139487
+epoch 33: train=0.058775, val_normal=0.137886
+epoch 34: train=0.058542, val_normal=0.142183
+epoch 35: train=0.059109, val_normal=0.141416
+epoch 36: train=0.058277, val_normal=0.139685
+epoch 37: train=0.058289, val_normal=0.141101
+epoch 38: train=0.058346, val_normal=0.139647
+{'run': 'ur-sample-human-s1-001', 'validation': {'metric_unit': 'sequence', 'TP': 12, 'FP': 0, 'FN': 3, 'TN': 8, 'n_total': 23, 'n_evaluable': 23, 'n_unknown': 0, 'sequence_coverage': 1.0, 'sequence_accuracy': 0.8695652173913043, 'sequence_fall_precision': 1.0, 'sequence_fall_recall': 0.8, 'sequence_fall_f1': 0.8888888888888888, 'operational_accuracy': 0.8695652173913043, 'end_to_end_fall_recall': 0.8, 'outcomes_with_unknown': [[8, 0, 0], [3, 12, 0]], 'outcome_columns': ['normal', 'suspected_fall', 'unknown'], 'outcome_rows': ['ADL', 'Fall'], 'by_class': {'ADL': {'n_total': 8, 'n_unknown': 0, 'sequence_coverage': 1.0, 'window_coverage': 0.8408956982911019, 'n_missing_timelines': 0}, 'Fall': {'n_total': 15, 'n_unknown': 0, 'sequence_coverage': 1.0, 'window_coverage': 0.8489634748272458, 'n_missing_timelines': 0}}, 'window_coverage': 0.8439114391143911, 'n_missing_timelines': 0, 'balanced_sequence_accuracy': 0.9}, 'timing_guard_passed': True}

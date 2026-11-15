@@ -1,0 +1,10 @@
+{
+  "source_kind": "real_feature_smoke",
+  "split": "train",
+  "n_sequences": 24,
+  "n_sequences_with_features": 24,
+  "normal_train_features": 728,
+  "previous_normal_train_features": 659,
+  "non_normal_train_sequences": 0,
+  "recognition_metrics_not_yet_measured": true
+}

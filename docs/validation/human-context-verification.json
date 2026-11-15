@@ -1,0 +1,357 @@
+{
+  "source_kind": "real_end_to_end",
+  "rows": [
+    {
+      "run": "ur-sample-human-s1-001",
+      "epochs": 38,
+      "validation": {
+        "metric_unit": "sequence",
+        "TP": 12,
+        "FP": 0,
+        "FN": 3,
+        "TN": 8,
+        "n_total": 23,
+        "n_evaluable": 23,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "sequence_accuracy": 0.8695652173913043,
+        "sequence_fall_precision": 1.0,
+        "sequence_fall_recall": 0.8,
+        "sequence_fall_f1": 0.8888888888888888,
+        "operational_accuracy": 0.8695652173913043,
+        "end_to_end_fall_recall": 0.8,
+        "outcomes_with_unknown": [
+          [
+            8,
+            0,
+            0
+          ],
+          [
+            3,
+            12,
+            0
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8408956982911019,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8489634748272458,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.8439114391143911,
+        "n_missing_timelines": 0,
+        "balanced_sequence_accuracy": 0.9
+      },
+      "timing_guard": true
+    },
+    {
+      "run": "ur-human-context20-001",
+      "epochs": 34,
+      "validation": {
+        "metric_unit": "sequence",
+        "TP": 12,
+        "FP": 0,
+        "FN": 3,
+        "TN": 8,
+        "n_total": 23,
+        "n_evaluable": 23,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "sequence_accuracy": 0.8695652173913043,
+        "sequence_fall_precision": 1.0,
+        "sequence_fall_recall": 0.8,
+        "sequence_fall_f1": 0.8888888888888888,
+        "operational_accuracy": 0.8695652173913043,
+        "end_to_end_fall_recall": 0.8,
+        "outcomes_with_unknown": [
+          [
+            8,
+            0,
+            0
+          ],
+          [
+            3,
+            12,
+            0
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8525604952166573,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8650042992261393,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.8574829931972789,
+        "n_missing_timelines": 0,
+        "balanced_sequence_accuracy": 0.9
+      },
+      "timing_guard": true
+    },
+    {
+      "run": "ur-human-context15-001",
+      "epochs": 83,
+      "validation": {
+        "metric_unit": "sequence",
+        "TP": 12,
+        "FP": 1,
+        "FN": 3,
+        "TN": 7,
+        "n_total": 23,
+        "n_evaluable": 23,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "sequence_accuracy": 0.8260869565217391,
+        "sequence_fall_precision": 0.9230769230769231,
+        "sequence_fall_recall": 0.8,
+        "sequence_fall_f1": 0.8571428571428571,
+        "operational_accuracy": 0.8260869565217391,
+        "end_to_end_fall_recall": 0.8,
+        "outcomes_with_unknown": [
+          [
+            7,
+            1,
+            0
+          ],
+          [
+            3,
+            12,
+            0
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8558062740781508,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.8618739903069467,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.858265139116203,
+        "n_missing_timelines": 0,
+        "balanced_sequence_accuracy": 0.8375
+      },
+      "timing_guard": false
+    }
+  ],
+  "new_epochs": 117,
+  "old_runs_preserved": 34,
+  "source_pose_feature_files_unchanged": 280,
+  "full_tests_passed": 169,
+  "full_tests_skipped": 1,
+  "integration_cases": [
+    {
+      "source_kind": "real_end_to_end",
+      "run": "ur-human-context15-001",
+      "adopted": false,
+      "cases": [
+        {
+          "sequence_id": "fall-30",
+          "split": "validation",
+          "outcome": {
+            "sequence_id": "fall-30",
+            "sequence_score": 0.34843796491622925,
+            "prediction": 0,
+            "unknown_reason": null,
+            "n_scheduled_endpoints": 56,
+            "n_valid_endpoints": 38,
+            "window_coverage": 0.6785714285714286,
+            "first_alarm_ms": null
+          },
+          "frames": 70,
+          "compared_windows": 35,
+          "masked_windows": 3,
+          "max_score_difference": 0.0,
+          "legacy_csv_byte_identical": null,
+          "visible_alert_rows": 0,
+          "visible_alert_timestamps_ms": [],
+          "events_match": true,
+          "states_match_where_visible": true,
+          "preview": "C:\\成大專案\\fall-detection-anomaly\\outputs\\human-context-validation\\ur-human-context15-001\\fall-30-preview.mp4",
+          "preview_sha256": "fa0dc334401004edac6f6cae4fb97ea6662be7977c89d5d2c4b22e8a0a4b66ad",
+          "events": []
+        }
+      ],
+      "hashes": {
+        "autoencoder.pt": "b42ebddcfe661d8ed41a78801be5ff12e48909cfad9b89e07ef70360bc7cb9ee",
+        "scaler.npz": "1c00e79e2232d9471119cc4e36a85cadab909518a8baa13fc27ff403cf4ec840",
+        "resolved-config.yaml": "73964fb852c40e60aab3688909da57a7b03ebad6e1fe50ab456ed012d1980517",
+        "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+        "sources.json": "0ff46a7d7e227b265fc70ab31f40dbeeae5d18e98d8480f31391c3db6421cbf2",
+        "dataset-index.json": "6c2fe3245995e53baab7cb5c2b6f6e7efae6847d24c9a8368454de059fd6916d",
+        "environment.json": "1f72e5e261bc66bd9443432706dfcba797105a9b4b4c58a0e06f620baf261693",
+        "training-history.csv": "c6e8558d8fc73c99e6bb610029455271d637aad2df299c3f87cb40b12fc5f2ea",
+        "threshold.json": "4b4c6c98980f1ff1495ffce85c3c9b1db80cb43388d5a92c3de84a88313f9491",
+        "calibration.json": "12fc89ff4306a4858722d03510b37c543ebf51881116d397c702d6bfc2cbac37"
+      },
+      "visual_review": "pending",
+      "not_formal_course_film": true
+    },
+    {
+      "source_kind": "real_end_to_end",
+      "run": "ur-human-context20-001",
+      "adopted": false,
+      "cases": [
+        {
+          "sequence_id": "fall-18",
+          "split": "validation",
+          "outcome": {
+            "sequence_id": "fall-18",
+            "sequence_score": 0.2941383719444275,
+            "prediction": 0,
+            "unknown_reason": null,
+            "n_scheduled_endpoints": 46,
+            "n_valid_endpoints": 26,
+            "window_coverage": 0.5652173913043478,
+            "first_alarm_ms": null
+          },
+          "frames": 65,
+          "compared_windows": 22,
+          "masked_windows": 4,
+          "max_score_difference": 0.0,
+          "legacy_csv_byte_identical": null,
+          "visible_alert_rows": 0,
+          "visible_alert_timestamps_ms": [],
+          "events_match": true,
+          "states_match_where_visible": true,
+          "preview": "C:\\成大專案\\fall-detection-anomaly\\outputs\\human-context-validation\\ur-human-context20-001\\fall-18-preview.mp4",
+          "preview_sha256": "29b6a7310ac84dc09e4ce101754734cebc16bfd346957ad662b68a8bc05d63f1",
+          "events": []
+        }
+      ],
+      "hashes": {
+        "autoencoder.pt": "2d2be7983a4fcf6a78e630e0da946c732f486c8de870d3ec1db3d67db620e9d8",
+        "scaler.npz": "7052598bb5f04cf69a512edcca7e3b70eb515fb8c42b37a8cd07b827932d7302",
+        "resolved-config.yaml": "f3722e097fbbc0b42c7794535b92312c8138b868dd357b15c456a44168ab3d3a",
+        "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+        "sources.json": "aa13f1a2c573b508d5dfb2bdf05bc27f453d03ef6e3efef1445e9a3a516e3df8",
+        "dataset-index.json": "8ec53f8df9aec94ec7f1ebc808aeab51197cefd46c2755ff857c9a04a8d2d9c5",
+        "environment.json": "23d6f9777f255bc537b66c139995feb73eff275bbe90f0a00ee832236f304ab3",
+        "training-history.csv": "aa98260ad37b02d6a5db30fb645e4cd9c8f261df90f20487c4624747cd0ce039",
+        "threshold.json": "8645054cae05a1203f4cd942f4b3ed6769fe9fb07b76db7cf2f536ee3138e875",
+        "calibration.json": "f1201d65fffd56d3368c74404b6527487c5895c5bee89cc4c9de207b579436a7"
+      },
+      "visual_review": "pending",
+      "not_formal_course_film": true
+    },
+    {
+      "source_kind": "real_end_to_end",
+      "run": "ur-sample-human-s1-001",
+      "adopted": true,
+      "cases": [
+        {
+          "sequence_id": "fall-29",
+          "split": "validation",
+          "outcome": {
+            "sequence_id": "fall-29",
+            "sequence_score": 1.9478466510772705,
+            "prediction": 1,
+            "unknown_reason": null,
+            "n_scheduled_endpoints": 70,
+            "n_valid_endpoints": 54,
+            "window_coverage": 0.7714285714285715,
+            "first_alarm_ms": 2633.3333333333335
+          },
+          "frames": 99,
+          "compared_windows": 48,
+          "masked_windows": 6,
+          "max_score_difference": 0.0,
+          "legacy_csv_byte_identical": true,
+          "visible_alert_rows": 2,
+          "visible_alert_timestamps_ms": [
+            2700.0,
+            2733.3333333333335
+          ],
+          "events_match": true,
+          "states_match_where_visible": true,
+          "preview": "C:\\成大專案\\fall-detection-anomaly\\outputs\\human-context-validation\\ur-sample-human-s1-001\\fall-29-preview.mp4",
+          "preview_sha256": "dbd472e638a354f4e0f562e658288f2d1e5741418f99686f06959cbb38a8cd24",
+          "events": [
+            {
+              "sequence_id": "fall-29",
+              "track_id": 1,
+              "confirmed_start_ms": 2633.3333333333335,
+              "last_active_ms": 2800.0,
+              "peak_score": 2.1494598388671875,
+              "end_ms": 2833.3333333333335,
+              "end_reason": "low_confidence"
+            }
+          ]
+        }
+      ],
+      "hashes": {
+        "autoencoder.pt": "96a9deea163c80055f08c0b7001f1b7445db45d3bda3714df2604f2339d55afb",
+        "scaler.npz": "d6660ddb8b6e37729257b3fc4fc62505a2ef77d9a2558de9d06b8716b7a0529c",
+        "resolved-config.yaml": "661b983db7c3147c76a36cec1561180555970444e88309cf246445c1fefcd484",
+        "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+        "sources.json": "dd7c73ba557a57846b2021c82443787cc12131434c3637265b8f590bceb58837",
+        "dataset-index.json": "cd163b0b2eb75044fdfd8127f9e863a06f8039b203a4027a299c7ab11be2e2c6",
+        "environment.json": "d9c1f980cf8c7059656da59eaeebfc4627be9abfd1e8080fcf946aeca8d33361",
+        "training-history.csv": "78afc3939783e3246a1a05ad03a02040ea20f91668e790f9e8cf4a5aabb93873",
+        "threshold.json": "6f8514180fa8ea073048d99b2998ebc871838e3a35e37d7633ac8b9be5bfb05a",
+        "calibration.json": "ea97fa7959d5f38593ab8d9bf286ce23ba5850d87695d69cce6816869c3ead78"
+      },
+      "visual_review": "pending",
+      "not_formal_course_film": true
+    }
+  ],
+  "test_gate_rejected": true,
+  "new_test_scored": false,
+  "selected": "ur-sample-human-s1-001",
+  "recognition_improved": false,
+  "next_independent_hypothesis": "Shared-window coordinate normalization preserves global movement; see human-displacement-diagnosis.json; synthetic numeric demonstration only."
+}

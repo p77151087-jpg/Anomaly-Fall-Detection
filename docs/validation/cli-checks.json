@@ -1,0 +1,138 @@
+[
+  {
+    "command": "python -m fall_detect doctor --config configs/default.yaml --mode core --device cpu --output docs/validation/doctor-core-cpu.json",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "passed": true,
+    "seconds": 2.1246106999969925,
+    "log": "docs\\validation\\01-doctor.log"
+  },
+  {
+    "command": "python -m fall_detect doctor --mode core --device cuda --output docs/validation/doctor-core-cuda.json",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "passed": true,
+    "seconds": 2.2874517000018386,
+    "log": "docs\\validation\\02-doctor.log"
+  },
+  {
+    "command": "python -m fall_detect doctor --mode full --output docs/validation/doctor-full.json",
+    "exit_code": 2,
+    "expected_exit_code": 2,
+    "passed": true,
+    "seconds": 4.425872300002084,
+    "log": "docs\\validation\\03-doctor.log"
+  },
+  {
+    "command": "python -m fall_detect prepare --inventory-only",
+    "exit_code": 2,
+    "expected_exit_code": 2,
+    "passed": true,
+    "seconds": 3.448856599999999,
+    "log": "docs\\validation\\04-prepare.log"
+  },
+  {
+    "command": "python -m fall_detect prepare",
+    "exit_code": 2,
+    "expected_exit_code": 2,
+    "passed": true,
+    "seconds": 1.9962582000007387,
+    "log": "docs\\validation\\05-prepare.log"
+  },
+  {
+    "command": "python -m fall_detect smoke-test --mode real",
+    "exit_code": 2,
+    "expected_exit_code": 2,
+    "passed": true,
+    "seconds": 3.6596133000057307,
+    "log": "docs\\validation\\06-smoke-test.log"
+  },
+  {
+    "command": "python -m fall_detect smoke-test --mode synthetic --output outputs/synthetic/final-validation",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "passed": true,
+    "seconds": 4.191418400005205,
+    "log": "docs\\validation\\07-smoke-test.log"
+  },
+  {
+    "command": "python -m fall_detect train --run-id baseline-001",
+    "exit_code": 2,
+    "expected_exit_code": 2,
+    "passed": true,
+    "seconds": 2.4065537999995286,
+    "log": "docs\\validation\\08-train.log"
+  },
+  {
+    "command": "python -m fall_detect calibrate --run runs/baseline-001",
+    "exit_code": 2,
+    "expected_exit_code": 2,
+    "passed": true,
+    "seconds": 1.9466192000036244,
+    "log": "docs\\validation\\09-calibrate.log"
+  },
+  {
+    "command": "python -m fall_detect evaluate --run runs/baseline-001 --split test",
+    "exit_code": 2,
+    "expected_exit_code": 2,
+    "passed": true,
+    "seconds": 2.2585270999989007,
+    "log": "docs\\validation\\10-evaluate.log"
+  },
+  {
+    "command": "python -m fall_detect demo --run runs/baseline-001 --input data/raw/urfall/fall-02 --output outputs/demo/result.mp4 --no-display",
+    "exit_code": 2,
+    "expected_exit_code": 2,
+    "passed": true,
+    "seconds": 1.9110269000011613,
+    "log": "docs\\validation\\11-demo.log"
+  },
+  {
+    "command": "python -m fall_detect doctor --help",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "passed": true
+  },
+  {
+    "command": "python -m fall_detect fetch-assets --help",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "passed": true
+  },
+  {
+    "command": "python -m fall_detect prepare --help",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "passed": true
+  },
+  {
+    "command": "python -m fall_detect train --help",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "passed": true
+  },
+  {
+    "command": "python -m fall_detect calibrate --help",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "passed": true
+  },
+  {
+    "command": "python -m fall_detect evaluate --help",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "passed": true
+  },
+  {
+    "command": "python -m fall_detect demo --help",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "passed": true
+  },
+  {
+    "command": "python -m fall_detect smoke-test --help",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "passed": true
+  }
+]

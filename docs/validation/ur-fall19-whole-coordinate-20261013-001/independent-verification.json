@@ -1,0 +1,113 @@
+{
+  "id": "ur-fall19-whole-coordinate-20261013-001",
+  "pass": true,
+  "method": "independent_numpy_linear_relu_mse_manual_hold_K3_events",
+  "scores_verified": 69,
+  "windows_verified": 213,
+  "events_verified": 0,
+  "normal_control_scores_verified": 6,
+  "changed_joint_xy_pairs": 6,
+  "old_files_preserved": 209,
+  "affected_legal_windows": 7,
+  "results": {
+    "cached": {
+      "prediction": 0,
+      "raw_max": 0.1839069426059723,
+      "k3_max": 0.13463649153709412,
+      "legal": 23,
+      "scheduled": 71,
+      "unknown_windows": 48,
+      "events": 0,
+      "first_alarm_ms": null,
+      "single_video_confusion_matrix_true_normal_fall_pred_normal_fall": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "single_video_all_accuracy": 0.0,
+      "single_video_decidable_denominator": 1,
+      "single_video_all_denominator": 1,
+      "single_video_unknown": 0,
+      "single_fall_recall": 0.0,
+      "single_fall_f1": 0.0,
+      "precision": null
+    },
+    "sham": {
+      "prediction": 0,
+      "raw_max": 0.1839069426059723,
+      "k3_max": 0.13463649153709412,
+      "legal": 23,
+      "scheduled": 71,
+      "unknown_windows": 48,
+      "events": 0,
+      "first_alarm_ms": null,
+      "single_video_confusion_matrix_true_normal_fall_pred_normal_fall": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "single_video_all_accuracy": 0.0,
+      "single_video_decidable_denominator": 1,
+      "single_video_all_denominator": 1,
+      "single_video_unknown": 0,
+      "single_fall_recall": 0.0,
+      "single_fall_f1": 0.0,
+      "precision": null
+    },
+    "intervention": {
+      "prediction": 0,
+      "raw_max": 0.18380272388458252,
+      "k3_max": 0.14723220467567444,
+      "legal": 23,
+      "scheduled": 71,
+      "unknown_windows": 48,
+      "events": 0,
+      "first_alarm_ms": null,
+      "single_video_confusion_matrix_true_normal_fall_pred_normal_fall": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "single_video_all_accuracy": 0.0,
+      "single_video_decidable_denominator": 1,
+      "single_video_all_denominator": 1,
+      "single_video_unknown": 0,
+      "single_fall_recall": 0.0,
+      "single_fall_f1": 0.0,
+      "precision": null
+    }
+  },
+  "phase_counts_same_original_and_intervention": {
+    "upright": {
+      "legal": 2,
+      "scheduled": 4
+    },
+    "transition": {
+      "legal": 21,
+      "scheduled": 29
+    },
+    "ground": {
+      "legal": 0,
+      "scheduled": 38
+    }
+  },
+  "phase_basis": "whole human posture phase; latest causal source at window endpoint; no exact event GT",
+  "test": "not_loaded_not_evaluated",
+  "fit_calls": 0,
+  "calibration_calls": 0
+}

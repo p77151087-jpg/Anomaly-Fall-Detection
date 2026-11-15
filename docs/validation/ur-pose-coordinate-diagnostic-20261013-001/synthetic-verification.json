@@ -1,0 +1,10 @@
+{
+  "evidence_kind": "synthetic",
+  "passed": 54,
+  "failed": 0,
+  "command": ".venv\\Scripts\\python.exe -X utf8 -m pytest tests/test_pose_coordinates.py tests/test_training_cache.py tests/test_events_metrics.py tests/test_skeleton_timing.py tests/test_human_displacement.py -q --basetemp=.artifacts/pose-coordinate-risk-20261013-003",
+  "ruff_check": "passed",
+  "ruff_format_check": "passed",
+  "source_lock_before_real_inference": true,
+  "limitations": "Does not establish corrected joint ground truth or recognition improvement."
+}

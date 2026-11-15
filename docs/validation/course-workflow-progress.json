@@ -1,0 +1,10 @@
+{
+  "stage": "complete_local",
+  "selected": "course-ur-balanced-001",
+  "CA-01": "complete",
+  "CA-02": "complete_quality_insufficient",
+  "CA-03": "complete",
+  "CA-04": "complete",
+  "CA-05": "complete_local_not_uploaded",
+  "background_training_or_inference": false
+}

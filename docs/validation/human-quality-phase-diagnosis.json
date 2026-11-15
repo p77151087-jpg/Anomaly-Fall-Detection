@@ -1,0 +1,85 @@
+{
+  "rows": [
+    {
+      "sequence_id": "fall-09",
+      "phase_endpoints": 27,
+      "valid_phase_windows": 15,
+      "visible_good_phase_endpoints": 20
+    },
+    {
+      "sequence_id": "fall-19",
+      "phase_endpoints": 27,
+      "valid_phase_windows": 9,
+      "visible_good_phase_endpoints": 7
+    },
+    {
+      "sequence_id": "fall-29",
+      "phase_endpoints": 27,
+      "valid_phase_windows": 23,
+      "visible_good_phase_endpoints": 17
+    },
+    {
+      "sequence_id": "fall-25",
+      "phase_endpoints": 28,
+      "valid_phase_windows": 20,
+      "visible_good_phase_endpoints": 15
+    },
+    {
+      "sequence_id": "fall-18",
+      "phase_endpoints": 20,
+      "valid_phase_windows": 16,
+      "visible_good_phase_endpoints": 14
+    },
+    {
+      "sequence_id": "fall-30",
+      "phase_endpoints": 17,
+      "valid_phase_windows": 16,
+      "visible_good_phase_endpoints": 10
+    }
+  ],
+  "intervals": {
+    "fall-09": {
+      "normal_until_ms": 4304,
+      "fall_phase_ms": [
+        4604,
+        5506
+      ]
+    },
+    "fall-19": {
+      "normal_until_ms": 1167,
+      "fall_phase_ms": [
+        1468,
+        2369
+      ]
+    },
+    "fall-29": {
+      "normal_until_ms": 1735,
+      "fall_phase_ms": [
+        2035,
+        2936
+      ]
+    },
+    "fall-25": {
+      "normal_until_ms": 1568,
+      "fall_phase_ms": [
+        1868,
+        2802
+      ]
+    },
+    "fall-18": {
+      "normal_until_ms": 400,
+      "fall_phase_ms": [
+        800,
+        1601
+      ]
+    },
+    "fall-30": {
+      "normal_until_ms": 800,
+      "fall_phase_ms": [
+        1334,
+        1902
+      ]
+    }
+  },
+  "test_scored": false
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "diagnostic_id": "ur-pose-coordinate-diagnostic-20261013-001",
+  "base_recipe_hash": "713ee59a0853f20641cb7f664df2920359baa0734807acfa5cf86fb87a4e2f5b",
+  "ai_recipe_hash": "3e064d37d0859093e05e36cf04662549eb5c6e6ed33e4a5010a2a65a001b2a2d",
+  "human_coordinates": "pending",
+  "reference_artifacts": {
+    "autoencoder.pt": "afdb6f1a37bb1ada3e13cffe10bc0c23466f0fcf908e567840c46f3bf5ad300b",
+    "scaler.npz": "a6dd9dbb68f85fa3bd6f358998d341d4b7d40317597e35db592f71ee4007eb19",
+    "resolved-config.yaml": "b9757eba646eab8fdead4c0a3f8a13a99f82775b32426c63905f1a1afc313b0a",
+    "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+    "sources.json": "7d44381db98270041702ac868fba6c578ca9938b20065c3878b452a6659e014e",
+    "dataset-index.json": "cdd111c3fd7608e3bfdcd71c569fc03206e60e6fd2518ce937306db19a993562",
+    "environment.json": "34c83940314d2c2651b4180f2154873dfd643ab5d79a135fb860cd4a1d22af3c",
+    "training-history.csv": "e82cee506fd67a0564ad8ea11d63d78829f734393dd284d83b977ad7dbd02091",
+    "threshold.json": "6a554dfc7eff56bbcf18ca9b1772783fb78fb4fe7b578d28fdf45e86f68fc89a",
+    "calibration.json": "81c4cf243ab194f8fe5b65fb905b2d9d6a8acf6fde1f123e03f15e97b44f4ffb"
+  },
+  "human_phase_annotation_sha256": "412e95ec2eac7b2c573297f67c48da1c6d13523606394e4be8cb90a60118b0df",
+  "files": {
+    "scripts/pose_coordinate_diagnostic.py": "1d2e4d13b30a78ab803e297461886ef077615eaf40d7c6e54203a8638df7c014",
+    "scripts/verify_pose_coordinate_diagnostic.py": "4edb7c5175cd76956a0a11d040c2852f7e033dd8e13b34a0be14fea61a4093be",
+    "src/fall_detect/evaluation/pose_coordinates.py": "86bf63447c7c4ce3607c0907659bb391fe9400b3d267019535923abe9776e295",
+    "tests/test_pose_coordinates.py": "2ea2a360e87fd3b0129b89f7cd44ed76d9088b2f3b3ba08b2bac1219f6ca09ff",
+    "src/fall_detect/visualization/pose_coordinate_review.html": "72d8be25e33399aff98440cc74ca7c64361f5e1335e54e2b52d4adb8c377de2c",
+    "docs/ur-pose-coordinate-diagnostic-20261013-plan.md": "91a7740605ffb556cf62abb5cacbae049b8b902c3c01aefb22eb2ccb7de498f4"
+  },
+  "proposal_sha256": "965f7ede5d3ad2d94be31c41b6622e91228c89875fad768babcafcb266df65b8",
+  "old_asset_count": 12710,
+  "test_inference": false
+}

@@ -1,0 +1,160 @@
+{
+  "tier": "Tier 2",
+  "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+  "generation_first": "2026-10-13T07:04:47Z",
+  "generation_latest": "2026-10-13T08:01:46Z",
+  "structural_trace": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "function: C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.pose_coordinate_diagnostic.prepare\ndirection: outbound\ncallees_total: 17\ncallees: 17  (rows: name hop strategy confidence; qn = group prefix + \".\" + name)\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-context-legacy-source.src.fall_detect.config:\n  project_path 1 lsp 0.97\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.human-flip-legacy-source.src.fall_detect.training.experiment:\n  verify_artifacts 1 lsp 0.97\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.docs.validation.resource-fetch:\n  exists 1 heuristic 0.38\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.pose_coordinate_diagnostic:\n  old_inventory 1 lsp 0.85\n  original_inputs 1 lsp 0.85\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.verify_short20_retirement:\n  replace 1 heuristic 0.38\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.evaluation.frame_review:\n  validate_annotation 1 heuristic 0.95\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.evaluation.pose_coordinates:\n  intervention_recipe 1 lsp 0.97\nC-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.src.fall_detect.io_utils:\n  ContractError 1 lsp 0.85\n  read_json 1 lsp 0.97\n  sha256 1 lsp 0.97\n  write_json 1 lsp 0.97\nbuiltins:\n  len 1 lsp 0.92\n  list 1 lsp 0.88\nbuiltins.list:\n  append 1 heuristic 0.38\nbuiltins:\n  print 1 lsp 0.92\n  str 1 lsp 0.88\n"
+        }
+      ],
+      "isError": false
+    }
+  },
+  "snippet": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"name\":\"prepare\",\"qualified_name\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.pose_coordinate_diagnostic.prepare\",\"label\":\"Function\",\"file_path\":\"C:/成大專案/fall-detection-anomaly/scripts/pose_coordinate_diagnostic.py\",\"start_line\":105,\"end_line\":209,\"source\":\"def prepare():\\n    if any(p.exists() for p in (OUT, QA, CACHE, RUN)):\\n        raise ContractError(\\\"Diagnostic directory exists; preparation never overwrites\\\")\\n    for p in (OUT, QA, CACHE, RUN):\\n        p.mkdir(parents=True, exist_ok=False)\\n    for name in MUTABLE:\\n        dest = QA / \\\"prior-contracts\\\" / name\\n        dest.parent.mkdir(parents=True, exist_ok=True)\\n        shutil.copyfile(ROOT / name, dest)\\n    index = read_json(BASE / \\\"dataset-index.json\\\")\\n    verify_artifacts(BASE)\\n    if index[\\\"recipe_hash\\\"] != BASE_RECIPE or index[\\\"source_kind\\\"] != \\\"real\\\":\\n        raise ContractError(\\\"Wrong reference run\\\")\\n    _feature, observations, pose_meta = original_inputs(\\\"fall-19\\\", index)\\n    pose_path = project_path(index[\\\"sequences\\\"][\\\"fall-19\\\"][\\\"pose_path\\\"])\\n    annotation = {\\n        \\\"schema_version\\\": 1,\\n        \\\"diagnostic_id\\\": DIAGNOSTIC,\\n        \\\"sequence_id\\\": \\\"fall-19\\\",\\n        \\\"split\\\": \\\"validation\\\",\\n        \\\"source_hash\\\": pose_meta[\\\"source_hash\\\"],\\n        \\\"base_recipe_hash\\\": BASE_RECIPE,\\n        \\\"pose_array_sha256\\\": sha256(pose_path),\\n        \\\"pose_metadata_sha256\\\": sha256(pose_path.with_suffix(\\\".json\\\")),\\n        \\\"author_kind\\\": \\\"ai_provisional\\\",\\n        \\\"human_confirmed\\\": False,\\n        \\\"coordinate_basis\\\": \\\"original_RGB_visible_elbow_estimate; not joint ground truth\\\",\\n        \\\"points\\\": [],\\n    }\\n    poses, images = [], []\\n    for fid, xy in zip(FRAMES, AI_XY):\\n        frame, records = next((f, p) for f, p in observations if f.source_frame_id == fid)\\n        pose = next(p for p in records if p.track_id == 1)\\n        img = SOURCE / f\\\"fall-19-cam0-rgb-{fid:03d}.png\\\"\\n        annotation[\\\"points\\\"].append(\\n            {\\n                \\\"source_frame_id\\\": fid,\\n                \\\"track_id\\\": 1,\\n                \\\"joint_index\\\": JOINT,\\n                \\\"joint_name\\\": \\\"left_elbow\\\",\\n                \\\"timestamp_ms\\\": frame.timestamp_ms,\\n                \\\"frame_size_wh\\\": [frame.width, frame.height],\\n                \\\"image_sha256\\\": sha256(img),\\n                \\\"original_xy\\\": pose.keypoints[JOINT, :2].astype(float).tolist(),\\n                \\\"original_confidence\\\": float(pose.keypoints[JOINT, 2]),\\n                \\\"visibility\\\": \\\"visible\\\",\\n                \\\"xy\\\": list(xy),\\n            }\\n        )\\n        poses.append(pose.keypoints.astype(float).tolist())\\n        images.append(\\\"data:image/png;base64,\\\" + base64.b64encode(img.read_bytes()).decode())\\n    validate_annotation(annotation, annotation)\\n    write_json(OUT / \\\"ai-provisional-coordinates.json\\\", annotation)\\n    ui = OUT / \\\"review\\\"\\n    ui.mkdir()\\n    data = {\\n        \\\"annotation\\\": annotation,\\n        \\\"original_poses\\\": poses,\\n        \\\"images\\\": images,\\n        \\\"proposal_sha256\\\": sha256(OUT / \\\"ai-provisional-coordinates.json\\\"),\\n    }\\n    template = (ROOT / LOCK_FILES[4]).read_text(encoding=\\\"utf-8\\\")\\n    (ui / \\\"index.html\\\").write_text(\\n        template.replace(\\\"__DATA__\\\", json.dumps(data, ensure_ascii=False)), encoding=\\\"utf-8\\\"\\n    )\\n    shutil.copyfile(BASE / \\\"resolved-config.yaml\\\", RUN / \\\"frozen-reference-config.yaml\\\")\\n    write_json(\\n        RUN / \\\"diagnostic-reference.json\\\",\\n        {\\n            \\\"kind\\\": \\\"frozen_inference_diagnostic_only\\\",\\n            \\\"training\\\": \\\"not_run\\\",\\n            \\\"calibration\\\": \\\"not_run\\\",\\n            \\\"reference_run\\\": str(BASE),\\n            \\\"reference_artifacts\\\": verify_artifacts(BASE),\\n            \\\"train_control\\\": \\\"adl-05\\\",\\n            \\\"validation_diagnosis\\\": \\\"fall-19\\\",\\n            \\\"validation_control\\\": \\\"adl-04\\\",\\n            \\\"test\\\": \\\"not_prepared_not_loaded_not_evaluated\\\",\\n            \\\"formal_validation_metrics_changed\\\": False,\\n        },\\n    )\\n    print(\\\"Snapshotting preserved files (integrity hashes only, no Test inference)...\\\", flush=True)\\n    before = old_inventory()\\n    write_json(QA / \\\"old-assets-before.json\\\", before)\\n    lock = {\\n        \\\"schema_version\\\": 1,\\n        \\\"diagnostic_id\\\": DIAGNOSTIC,\\n        \\\"base_recipe_hash\\\": BASE_RECIPE,\\n        \\\"ai_recipe_hash\\\": intervention_recipe(annotation),\\n        \\\"human_coordinates\\\": \\\"pending\\\",\\n        \\\"reference_artifacts\\\": verify_artifacts(BASE),\\n        \\\"human_phase_annotation_sha256\\\": sha256(HUMAN),\\n        \\\"files\\\": {name: sha256(ROOT / name) for name in LOCK_FILES},\\n        \\\"proposal_sha256\\\": sha256(OUT / \\\"ai-provisional-coordinates.json\\\"),\\n        \\\"old_asset_count\\\": len(before),\\n        \\\"test_inference\\\": False,\\n    }\\n    write_json(QA / \\\"lock.json\\\", lock)\\n    print(\\n        json.dumps(\\n            {\\\"prepared\\\": DIAGNOSTIC, \\\"locked_points\\\": 8, \\\"old_asset_count\\\": len(before)},\\n            ensure_ascii=False,\\n        ),\\n        flush=True,\\n    )\\n\",\"callers\":2,\"callees\":17}"
+        }
+      ],
+      "structuredContent": {
+        "name": "prepare",
+        "qualified_name": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly.scripts.pose_coordinate_diagnostic.prepare",
+        "label": "Function",
+        "file_path": "C:/成大專案/fall-detection-anomaly/scripts/pose_coordinate_diagnostic.py",
+        "start_line": 105,
+        "end_line": 209,
+        "source": "def prepare():\n    if any(p.exists() for p in (OUT, QA, CACHE, RUN)):\n        raise ContractError(\"Diagnostic directory exists; preparation never overwrites\")\n    for p in (OUT, QA, CACHE, RUN):\n        p.mkdir(parents=True, exist_ok=False)\n    for name in MUTABLE:\n        dest = QA / \"prior-contracts\" / name\n        dest.parent.mkdir(parents=True, exist_ok=True)\n        shutil.copyfile(ROOT / name, dest)\n    index = read_json(BASE / \"dataset-index.json\")\n    verify_artifacts(BASE)\n    if index[\"recipe_hash\"] != BASE_RECIPE or index[\"source_kind\"] != \"real\":\n        raise ContractError(\"Wrong reference run\")\n    _feature, observations, pose_meta = original_inputs(\"fall-19\", index)\n    pose_path = project_path(index[\"sequences\"][\"fall-19\"][\"pose_path\"])\n    annotation = {\n        \"schema_version\": 1,\n        \"diagnostic_id\": DIAGNOSTIC,\n        \"sequence_id\": \"fall-19\",\n        \"split\": \"validation\",\n        \"source_hash\": pose_meta[\"source_hash\"],\n        \"base_recipe_hash\": BASE_RECIPE,\n        \"pose_array_sha256\": sha256(pose_path),\n        \"pose_metadata_sha256\": sha256(pose_path.with_suffix(\".json\")),\n        \"author_kind\": \"ai_provisional\",\n        \"human_confirmed\": False,\n        \"coordinate_basis\": \"original_RGB_visible_elbow_estimate; not joint ground truth\",\n        \"points\": [],\n    }\n    poses, images = [], []\n    for fid, xy in zip(FRAMES, AI_XY):\n        frame, records = next((f, p) for f, p in observations if f.source_frame_id == fid)\n        pose = next(p for p in records if p.track_id == 1)\n        img = SOURCE / f\"fall-19-cam0-rgb-{fid:03d}.png\"\n        annotation[\"points\"].append(\n            {\n                \"source_frame_id\": fid,\n                \"track_id\": 1,\n                \"joint_index\": JOINT,\n                \"joint_name\": \"left_elbow\",\n                \"timestamp_ms\": frame.timestamp_ms,\n                \"frame_size_wh\": [frame.width, frame.height],\n                \"image_sha256\": sha256(img),\n                \"original_xy\": pose.keypoints[JOINT, :2].astype(float).tolist(),\n                \"original_confidence\": float(pose.keypoints[JOINT, 2]),\n                \"visibility\": \"visible\",\n                \"xy\": list(xy),\n            }\n        )\n        poses.append(pose.keypoints.astype(float).tolist())\n        images.append(\"data:image/png;base64,\" + base64.b64encode(img.read_bytes()).decode())\n    validate_annotation(annotation, annotation)\n    write_json(OUT / \"ai-provisional-coordinates.json\", annotation)\n    ui = OUT / \"review\"\n    ui.mkdir()\n    data = {\n        \"annotation\": annotation,\n        \"original_poses\": poses,\n        \"images\": images,\n        \"proposal_sha256\": sha256(OUT / \"ai-provisional-coordinates.json\"),\n    }\n    template = (ROOT / LOCK_FILES[4]).read_text(encoding=\"utf-8\")\n    (ui / \"index.html\").write_text(\n        template.replace(\"__DATA__\", json.dumps(data, ensure_ascii=False)), encoding=\"utf-8\"\n    )\n    shutil.copyfile(BASE / \"resolved-config.yaml\", RUN / \"frozen-reference-config.yaml\")\n    write_json(\n        RUN / \"diagnostic-reference.json\",\n        {\n            \"kind\": \"frozen_inference_diagnostic_only\",\n            \"training\": \"not_run\",\n            \"calibration\": \"not_run\",\n            \"reference_run\": str(BASE),\n            \"reference_artifacts\": verify_artifacts(BASE),\n            \"train_control\": \"adl-05\",\n            \"validation_diagnosis\": \"fall-19\",\n            \"validation_control\": \"adl-04\",\n            \"test\": \"not_prepared_not_loaded_not_evaluated\",\n            \"formal_validation_metrics_changed\": False,\n        },\n    )\n    print(\"Snapshotting preserved files (integrity hashes only, no Test inference)...\", flush=True)\n    before = old_inventory()\n    write_json(QA / \"old-assets-before.json\", before)\n    lock = {\n        \"schema_version\": 1,\n        \"diagnostic_id\": DIAGNOSTIC,\n        \"base_recipe_hash\": BASE_RECIPE,\n        \"ai_recipe_hash\": intervention_recipe(annotation),\n        \"human_coordinates\": \"pending\",\n        \"reference_artifacts\": verify_artifacts(BASE),\n        \"human_phase_annotation_sha256\": sha256(HUMAN),\n        \"files\": {name: sha256(ROOT / name) for name in LOCK_FILES},\n        \"proposal_sha256\": sha256(OUT / \"ai-provisional-coordinates.json\"),\n        \"old_asset_count\": len(before),\n        \"test_inference\": False,\n    }\n    write_json(QA / \"lock.json\", lock)\n    print(\n        json.dumps(\n            {\"prepared\": DIAGNOSTIC, \"locked_points\": 8, \"old_asset_count\": len(before)},\n            ensure_ascii=False,\n        ),\n        flush=True,\n    )\n",
+        "callers": 2,
+        "callees": 17
+      },
+      "isError": false
+    }
+  },
+  "coverage": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"project\":\"C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly\",\"signal\":\"best_effort\",\"indexed_at\":\"2026-10-13T07:04:47Z\",\"metadata\":{\"generation\":\"2026-10-13T07:04:47Z\",\"index_mode\":\"full\",\"recorded_at\":\"2026-10-13T07:04:50Z\",\"recording_status\":\"complete\",\"ignored_files_stored\":116,\"ignored_files_total\":116,\"hash_records_complete\":true,\"coverage_version\":3,\"generation_matches\":true},\"paths\":[{\"requested_path\":\"scripts/pose_coordinate_diagnostic.py\",\"path\":\"scripts/pose_coordinate_diagnostic.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/evaluation/pose_coordinates.py\",\"path\":\"src/fall_detect/evaluation/pose_coordinates.py\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"src/fall_detect/visualization/pose_coordinate_review.html\",\"path\":\"src/fall_detect/visualization/pose_coordinate_review.html\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"docs/ur-pose-coordinate-human-20261013.md\",\"path\":\"docs/ur-pose-coordinate-human-20261013.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"docs/current-progress.md\",\"path\":\"docs/current-progress.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"docs/acceptance-results.md\",\"path\":\"docs/acceptance-results.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"AGENTS.md\",\"path\":\"AGENTS.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"Fall_Detection_Codex_Implementation_Spec.md\",\"path\":\"Fall_Detection_Codex_Implementation_Spec.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"docs/course-alignment-plan.md\",\"path\":\"docs/course-alignment-plan.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]},{\"requested_path\":\"docs/ur-pose-coordinate-diagnostic-20261013-plan.md\",\"path\":\"docs/ur-pose-coordinate-diagnostic-20261013-plan.md\",\"status\":\"no_recorded_issue\",\"freshness\":\"metadata_match\",\"recommended_action\":\"use_graph_with_best_effort_caveat\",\"coverage\":[]}],\"scopes\":[],\"caveat\":\"Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable.\"}"
+        }
+      ],
+      "structuredContent": {
+        "project": "C-e68890e5a4a7e5b088e6a188-fall-detection-anomaly",
+        "signal": "best_effort",
+        "indexed_at": "2026-10-13T07:04:47Z",
+        "metadata": {
+          "generation": "2026-10-13T07:04:47Z",
+          "index_mode": "full",
+          "recorded_at": "2026-10-13T07:04:50Z",
+          "recording_status": "complete",
+          "ignored_files_stored": 116,
+          "ignored_files_total": 116,
+          "hash_records_complete": true,
+          "coverage_version": 3,
+          "generation_matches": true
+        },
+        "paths": [
+          {
+            "requested_path": "scripts/pose_coordinate_diagnostic.py",
+            "path": "scripts/pose_coordinate_diagnostic.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/evaluation/pose_coordinates.py",
+            "path": "src/fall_detect/evaluation/pose_coordinates.py",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "src/fall_detect/visualization/pose_coordinate_review.html",
+            "path": "src/fall_detect/visualization/pose_coordinate_review.html",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "docs/ur-pose-coordinate-human-20261013.md",
+            "path": "docs/ur-pose-coordinate-human-20261013.md",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "docs/current-progress.md",
+            "path": "docs/current-progress.md",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "docs/acceptance-results.md",
+            "path": "docs/acceptance-results.md",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "AGENTS.md",
+            "path": "AGENTS.md",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "Fall_Detection_Codex_Implementation_Spec.md",
+            "path": "Fall_Detection_Codex_Implementation_Spec.md",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "docs/course-alignment-plan.md",
+            "path": "docs/course-alignment-plan.md",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          },
+          {
+            "requested_path": "docs/ur-pose-coordinate-diagnostic-20261013-plan.md",
+            "path": "docs/ur-pose-coordinate-diagnostic-20261013-plan.md",
+            "status": "no_recorded_issue",
+            "freshness": "metadata_match",
+            "recommended_action": "use_graph_with_best_effort_caveat",
+            "coverage": []
+          }
+        ],
+        "scopes": [],
+        "caveat": "Best-effort signal only. No recorded issue does not prove graph or source completeness; read flagged source and qualify claims when metadata is changed or unavailable."
+      },
+      "isError": false
+    }
+  },
+  "limitations": [
+    "best effort, not proof of completeness",
+    "trace resolves some callees to historical copies; exact active source/imports read",
+    "raw/outputs/cache excluded by design; exact original files, arrays and SHA read instead",
+    "Get-CimInstance process inventory denied; Get-Process showed no existing Python at preflight",
+    "initial browser attach and sandbox loopback failed; local-only server started under reviewed permission on8821; HTTP200 and actual browser verified"
+  ]
+}

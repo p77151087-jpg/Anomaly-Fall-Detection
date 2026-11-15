@@ -1,0 +1,7 @@
+{
+  "reason": "Windows preservation keys use backslashes; archived-doc membership compared forward slashes, incorrectly checking current updated docs instead of byte-preserved archive. No analysis output or old result changed.",
+  "main_verify_failure": "ContractError: Preserved file changed: docs\\current-progress.md",
+  "independent_verify_failure": "AssertionError: docs\\current-progress.md",
+  "initial_sources_preserved": true,
+  "correction_scope": "Normalize preservation lookup only; retain all SHA equality checks, add tampered-archive tests."
+}

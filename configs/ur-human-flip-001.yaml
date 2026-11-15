@@ -1,0 +1,94 @@
+project:
+  name: fall-detection-anomaly
+  seed: 42
+runtime:
+  device: auto
+  num_workers: 0
+  torch_threads: 4
+data:
+  dataset: urfall
+  raw_dir: data/raw/urfall
+  manifest_dir: data/manifests
+  cache_dir: data/cache/ur-human-flip-001
+  camera: 0
+  modality: rgb
+  protocol_id: urfall-cam0-rgb-sequence-v1
+  split_seed: 42
+  adl_counts:
+  - 24
+  - 8
+  - 8
+  fall_counts:
+  - 0
+  - 15
+  - 15
+  timestamp_policy: prefer_source
+  fallback_fps: 30
+  allow_missing_timestamp_tail: true
+pose:
+  backend: human_alphapose
+  weights_manifest: weights\human-flip-manifest.json
+  upstream_dir: third_party/human
+  backbone: resnet50
+  input_height: 256
+  input_width: 192
+  detector_size: 384
+  detector_confidence: 0.45
+  fallback_detector_confidence: 0.0
+  nms_threshold: 0.2
+  track_max_age: 30
+  track_n_init: 3
+  use_track_proposals: true
+  flip_tta: true
+  track_similarity_joints: 3
+  track_gap_tolerance_ms: 0.0
+  refinement_stages: 3
+  inference_refinement_stage: 1
+  rotation_angles:
+  - 0
+  rotation_policy: always
+skeleton:
+  recipe_id: human_tsstg_coco_cut_v1
+  target_fps: 30
+  window_size: 30
+  temporal_context: original_30
+  coordinate_normalization: per_frame
+  stride: 1
+  missing_frame_policy: invalidate_window
+  span_tolerance: 1.0e-08
+  resampling_hold_policy: bounded_jitter
+  timestamp_tolerance_ms: 0.0
+quality:
+  min_joint_confidence: 0.2
+  min_valid_joints: 9
+  min_good_frame_ratio: 0.8
+features:
+  backend: human_tsstg
+  expected_dim: 512
+  frozen: true
+  upstream_dir: third_party/stgcn
+autoencoder:
+  sampling: sequences
+  hidden_dim: 128
+  latent_dim: 32
+  learning_rate: 0.001
+  weight_decay: 0.001
+  input_noise_std: 0.0
+  batch_size: 32
+  max_epochs: 100
+  patience: 10
+  min_delta: 1.0e-06
+anomaly_score:
+  mode: mse
+calibration:
+  split: validation
+  objective: balanced_sequence_accuracy
+  comparison: gt
+  consecutive_windows: 3
+evaluation:
+  split: test
+  metric_unit: sequence
+demo:
+  display: false
+  output_dir: outputs/demo
+  score_hold_stride_multiplier: 2

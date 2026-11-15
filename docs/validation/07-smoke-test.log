@@ -1,0 +1,100 @@
+epoch 1: train=1.005924, val_normal=0.994331
+epoch 2: train=0.990077, val_normal=0.970796
+epoch 3: train=0.967876, val_normal=0.934522
+epoch 4: train=0.933301, val_normal=0.885494
+epoch 5: train=0.886445, val_normal=0.826629
+epoch 6: train=0.829861, val_normal=0.760341
+{
+  "output": "outputs\\synthetic\\final-validation",
+  "mode": "synthetic",
+  "passed": true,
+  "formal_urfall_metrics": null,
+  "run": "outputs\\synthetic\\final-validation\\run",
+  "evaluation": "outputs\\synthetic\\final-validation\\run\\evaluations\\20260911T104030837604Z",
+  "video": {
+    "codec": "mp4v",
+    "frames": 85,
+    "fps": 30.0,
+    "size_wh": [
+      640,
+      480
+    ],
+    "duration_ms": 2833.3333333333335,
+    "decoded_verified": true
+  },
+  "fixture_metrics": {
+    "metric_unit": "sequence",
+    "TP": 1,
+    "FP": 1,
+    "FN": 0,
+    "TN": 0,
+    "n_total": 3,
+    "n_evaluable": 2,
+    "n_unknown": 1,
+    "sequence_coverage": 0.6666666666666666,
+    "sequence_accuracy": 0.5,
+    "sequence_fall_precision": 0.5,
+    "sequence_fall_recall": 1.0,
+    "sequence_fall_f1": 0.6666666666666666,
+    "operational_accuracy": 0.3333333333333333,
+    "end_to_end_fall_recall": 0.5,
+    "outcomes_with_unknown": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ]
+    ],
+    "outcome_columns": [
+      "normal",
+      "suspected_fall",
+      "unknown"
+    ],
+    "outcome_rows": [
+      "ADL",
+      "Fall"
+    ],
+    "by_class": {
+      "ADL": {
+        "n_total": 1,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "window_coverage": 1.0,
+        "n_missing_timelines": 0
+      },
+      "Fall": {
+        "n_total": 2,
+        "n_unknown": 1,
+        "sequence_coverage": 0.5,
+        "window_coverage": 0.5,
+        "n_missing_timelines": 0
+      }
+    },
+    "window_coverage": 0.6666666666666666,
+    "n_missing_timelines": 0,
+    "protocol_id": "synthetic-sequence-v1",
+    "split_hash": "02da6564668f0be83bbdef7e9266ec57f73e73fe7204fd6d13704ef2fb729952",
+    "recipe_hash": "4adf37d3167472145e4c6fff690350766088f26d5cc8a5941d20ed1d051dbdc2",
+    "source_kind": "synthetic",
+    "artifact_hashes": {
+      "autoencoder.pt": "2ce4b02c047368c78b47dc0648e132307d5e11229dd4fc59de9a91a86d6d6ab4",
+      "scaler.npz": "98c520380e5530677eb81a1f9f8d2b876860462d1f0bb8db1fd991f833a06bb1",
+      "resolved-config.yaml": "4c1ff27e08191a40783966acb1ac15e4f6733c21d575844bc7831ba1e40e5d17",
+      "split-manifest.json": "d96c364b9b917695e15215c4ad191c1044f519977e097709c2e9e9cbda68711e",
+      "sources.json": "a18b8ad2bdeba84638f35fb85523e0201f72ca4bfa92e585d703b639d0fc034c",
+      "dataset-index.json": "941b6f2137971d9f8c28b1f6d3742bebcaa6fb830b6aaf56c41a4ddad0941b11",
+      "environment.json": "2193ab3e851f315b7fe0ad305702d18ad356499de42cd8b2cde3f1c22398a6c7",
+      "training-history.csv": "dfc05479b8370f80c2b8fec043eb6e2e061da37f852b5b3a27eefa67d1d65600",
+      "threshold.json": "14b101dcea983a3ae44ab7da581b8f88f4d58bb95d17c3ca0afe46c825f8dff0",
+      "calibration.json": "bded4e9c2524b8d76bce08cdd250faf6fc4043401fc5e17218e9be3366148801"
+    },
+    "config_hash": "2d2d9119ca29d87ca4187ef8b50844a683c7ee2fa75466c23dc2e33595c9dc23"
+  },
+  "meaning": "software plumbing only; handcrafted features"
+}
+

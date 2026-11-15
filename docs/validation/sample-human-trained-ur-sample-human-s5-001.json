@@ -1,0 +1,181 @@
+{
+  "run": "ur-sample-human-s5-001",
+  "status": {
+    "source_kind": "real",
+    "training": "complete",
+    "calibration": "complete",
+    "epochs": 72,
+    "best_val_normal_loss": 0.1467227270092133
+  },
+  "threshold": 0.7126387357711792,
+  "validation": {
+    "metric_unit": "sequence",
+    "TP": 7,
+    "FP": 0,
+    "FN": 8,
+    "TN": 8,
+    "n_total": 23,
+    "n_evaluable": 23,
+    "n_unknown": 0,
+    "sequence_coverage": 1.0,
+    "sequence_accuracy": 0.6521739130434783,
+    "sequence_fall_precision": 1.0,
+    "sequence_fall_recall": 0.4666666666666667,
+    "sequence_fall_f1": 0.6363636363636364,
+    "operational_accuracy": 0.6521739130434783,
+    "end_to_end_fall_recall": 0.4666666666666667,
+    "outcomes_with_unknown": [
+      [
+        8,
+        0,
+        0
+      ],
+      [
+        8,
+        7,
+        0
+      ]
+    ],
+    "outcome_columns": [
+      "normal",
+      "suspected_fall",
+      "unknown"
+    ],
+    "outcome_rows": [
+      "ADL",
+      "Fall"
+    ],
+    "by_class": {
+      "ADL": {
+        "n_total": 8,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "window_coverage": 0.8304093567251462,
+        "n_missing_timelines": 0
+      },
+      "Fall": {
+        "n_total": 15,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "window_coverage": 0.8028169014084507,
+        "n_missing_timelines": 0
+      }
+    },
+    "window_coverage": 0.8198198198198198,
+    "n_missing_timelines": 0,
+    "balanced_sequence_accuracy": 0.7333333333333334
+  },
+  "hashes": {
+    "autoencoder.pt": "adcab44a0456f2fdd79045916c9f833fe75773362901ce57775aff1fa64dc7b3",
+    "scaler.npz": "cf79528a82a7f053f38323f24bcff2feb76eda046b45db43989713f9d204d1cf",
+    "resolved-config.yaml": "bcff951b050c4377ee6cf01968f8d3c4aa04ade6d06ad4c114a274a231afbc91",
+    "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+    "sources.json": "6e39881b1ac4161ed6c3bb2f75711b4e1d8053833f04d963428313fba87bc6cf",
+    "dataset-index.json": "85d7cb94cf50602f32d435a3f80d65f8ad4d0a2ff5b551cbf6d36bf68ccc601f",
+    "environment.json": "8db27db096955b62d6c765af1e3dce500e7d9f1d8a0c209e9ac4cd6aec9c7e3e",
+    "training-history.csv": "a7ab8ca6b8980b3a603a62730cfa29f90a0d92db69008cec9c6b4128c1136b12",
+    "threshold.json": "bce83df63161b48937a19db749d929ffe3ce463972c4660222af5a2cfd3f8a2f",
+    "calibration.json": "e902c1e4e328778e051e312d7d1be1bbc7d8b20d27da2d5f3b53fe7009aec764"
+  },
+  "index": "C:\\成大專案\\fall-detection-anomaly\\data\\cache\\ur-sample-human-s5-001\\dataset-index.json",
+  "timing": {
+    "scope": "four coarse Validation checks, not formal temporal Accuracy",
+    "fall_phase_sequences": 0,
+    "early_events": 0,
+    "rows": [
+      {
+        "sequence_id": "fall-09",
+        "coarse_phase": {
+          "upright_until_ms": 4304,
+          "fall_phase_ms": [
+            4604,
+            5506
+          ]
+        },
+        "outcome": {
+          "sequence_id": "fall-09",
+          "sequence_score": 0.14854173362255096,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 32,
+          "n_valid_endpoints": 26,
+          "window_coverage": 0.8125,
+          "first_alarm_ms": null
+        },
+        "events": [],
+        "fall_phase_event_starts": [],
+        "early_event_starts": []
+      },
+      {
+        "sequence_id": "fall-19",
+        "coarse_phase": {
+          "upright_until_ms": 1167,
+          "fall_phase_ms": [
+            1468,
+            2369
+          ]
+        },
+        "outcome": {
+          "sequence_id": "fall-19",
+          "sequence_score": 0.06907078623771667,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 15,
+          "n_valid_endpoints": 4,
+          "window_coverage": 0.26666666666666666,
+          "first_alarm_ms": null
+        },
+        "events": [],
+        "fall_phase_event_starts": [],
+        "early_event_starts": []
+      },
+      {
+        "sequence_id": "fall-29",
+        "coarse_phase": {
+          "upright_until_ms": 1735,
+          "fall_phase_ms": [
+            2035,
+            2936
+          ]
+        },
+        "outcome": {
+          "sequence_id": "fall-29",
+          "sequence_score": 0.6087304353713989,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 14,
+          "n_valid_endpoints": 11,
+          "window_coverage": 0.7857142857142857,
+          "first_alarm_ms": null
+        },
+        "events": [],
+        "fall_phase_event_starts": [],
+        "early_event_starts": []
+      },
+      {
+        "sequence_id": "fall-25",
+        "coarse_phase": {
+          "upright_until_ms": 1568,
+          "fall_phase_ms": [
+            1868,
+            2802
+          ]
+        },
+        "outcome": {
+          "sequence_id": "fall-25",
+          "sequence_score": 0.2001316249370575,
+          "prediction": 0,
+          "unknown_reason": null,
+          "n_scheduled_endpoints": 12,
+          "n_valid_endpoints": 9,
+          "window_coverage": 0.75,
+          "first_alarm_ms": null
+        },
+        "events": [],
+        "fall_phase_event_starts": [],
+        "early_event_starts": []
+      }
+    ]
+  },
+  "timing_guard_passed": false
+}

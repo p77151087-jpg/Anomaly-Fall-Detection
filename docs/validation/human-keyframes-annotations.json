@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "annotator": "assistant_visual_review",
+  "official_ground_truth": false,
+  "blinded": false,
+  "method": "Raw contact sheets first, then cached-pose overlays and nine full-resolution 640x480 images. Approximate visible-joint regions are [x,y,radius] in original pixels, with uncertainty from blur/clothing. They are diagnostic regions, not precise GT, training labels or event scoring replacements. All unlisted joints are unassessed, never assumed visible. Anatomical left/right is tentative for side views.",
+  "coarse_phase_review": [
+    {"sequence_id":"fall-19","descent_onset_bracket_ms":[1167,1334],"ground_contact_bracket_ms":[1668,1835],"description":"Moves toward camera then pitches forward. Head/arms leave bottom edge around landing. Onset is approximate; old prelocked scoring intervals remain unchanged."},
+    {"sequence_id":"fall-18","descent_onset_bracket_ms":[500,667],"ground_contact_bracket_ms":[1334,1501],"description":"Starts seated, leans and drops forward. Earlier lean is ambiguous; face and near arm leave bottom edge around landing."},
+    {"sequence_id":"fall-30","descent_onset_bracket_ms":[1001,1167],"ground_contact_bracket_ms":[1668,1835],"description":"Rises/leans from chair then falls forward. Initial rise cannot itself be labelled falling with certainty; head and arms leave bottom edge."}
+  ],
+  "frames": [
+    {"sequence_id":"fall-19","frame_id":36,"phase":"before_clear_descent","visibility":"Whole body in image; face and hip centers approximate under hair/clothing.","approximate_visible_regions":{"nose":[350,205,15],"left_shoulder":[375,227,18],"right_shoulder":[319,227,18],"left_wrist":[369,280,16],"right_wrist":[310,295,16],"left_ankle":[357,380,16],"right_ankle":[335,398,16]}},
+    {"sequence_id":"fall-19","frame_id":46,"phase":"descent","visibility":"Strong blur; face and leg-joint positions uncertain/occluded. Both arms remain partly visible.","approximate_visible_regions":{"left_shoulder":[374,312,22],"right_shoulder":[319,315,22],"left_wrist":[375,407,22],"right_wrist":[349,433,25]}},
+    {"sequence_id":"fall-19","frame_id":56,"phase":"landing","visibility":"Head/nose and parts of arms outside bottom edge; body partly visible but joint identities uncertain. No precise coordinates assigned.","approximate_visible_regions":{}},
+    {"sequence_id":"fall-18","frame_id":16,"phase":"lean_from_sitting","visibility":"Near-side left arm/leg visible; far-side joints overlap; hip centers concealed by clothing.","approximate_visible_regions":{"nose":[407,247,16],"left_shoulder":[476,269,20],"left_elbow":[489,332,18],"left_wrist":[428,368,20],"left_knee":[426,374,18],"left_ankle":[480,451,18]}},
+    {"sequence_id":"fall-18","frame_id":31,"phase":"descent","visibility":"Near left wrist approaches bottom border, lower leg partly overlaps chair. Far shoulder and far leg uncertain.","approximate_visible_regions":{"nose":[309,316,18],"left_shoulder":[377,328,22],"left_elbow":[371,398,22],"left_wrist":[318,467,18],"left_knee":[400,399,20],"left_ankle":[474,446,18]}},
+    {"sequence_id":"fall-18","frame_id":46,"phase":"landing","visibility":"Face/nose and much of upper body outside bottom edge. Shoes visible, but left/right ankle identity uncertain. No coordinates assigned.","approximate_visible_regions":{}},
+    {"sequence_id":"fall-30","frame_id":36,"phase":"descent_onset","visibility":"Most body visible; far arm and hips uncertain through overlap/clothes.","approximate_visible_regions":{"nose":[323,265,18],"left_shoulder":[393,271,22],"left_elbow":[436,329,20],"left_wrist":[402,389,22],"left_ankle":[433,450,18]}},
+    {"sequence_id":"fall-30","frame_id":46,"phase":"descent","visibility":"Motion blur; left wrist has passed bottom edge. Right arm remains visible; hip and far leg partly occluded.","approximate_visible_regions":{"nose":[282,339,22],"left_shoulder":[353,324,24],"left_elbow":[366,413,22],"right_elbow":[247,388,22],"right_wrist":[217,441,22]}},
+    {"sequence_id":"fall-30","frame_id":56,"phase":"landing","visibility":"Head/nose and most arms beyond bottom edge; shoulders clipped; legs visible but identity uncertain. No coordinates assigned.","approximate_visible_regions":{}}
+  ]
+}

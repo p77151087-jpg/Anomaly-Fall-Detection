@@ -1,0 +1,127 @@
+{
+  "passed": true,
+  "input_path": "C:\\Users\\Huayi\\Downloads\\fall-19-left-elbow-human-coordinates.json",
+  "input_sha256": "ec742381a71a775c33621c224348bea6d8bca9bfc5884ae334b3bb5e6b38a193",
+  "input_is_annotation_data_only": true,
+  "recipe_hash": "b01d622686b5d81b6ed4866f6399e9a960862f036880339a5df7fe08c4e3627d",
+  "stage": "human-b01d622686b5",
+  "author_kind": "human_self_reported",
+  "human_confirmed": true,
+  "reviewer": "唐懷毅",
+  "reviewed_at": "2026-10-13T06:53:11.301Z",
+  "reviewed_frames": 8,
+  "visible_points": 7,
+  "uncertain_points": 1,
+  "point_changes": [
+    {
+      "source_frame_id": 44,
+      "visibility": "visible",
+      "original_xy": [
+        377.0285949707031,
+        315.8395080566406
+      ],
+      "human_xy": [
+        376.8224299065421,
+        315.6846473029046
+      ],
+      "xy_shift_px": 0.2578485732522528
+    },
+    {
+      "source_frame_id": 45,
+      "visibility": "visible",
+      "original_xy": [
+        375.394775390625,
+        324.1820068359375
+      ],
+      "human_xy": [
+        374.82866043613706,
+        323.65145228215766
+      ],
+      "xy_shift_px": 0.775870012457891
+    },
+    {
+      "source_frame_id": 46,
+      "visibility": "visible",
+      "original_xy": [
+        377.3612060546875,
+        346.6085205078125
+      ],
+      "human_xy": [
+        376.8224299065421,
+        345.56016597510376
+      ],
+      "xy_shift_px": 1.1786971468792897
+    },
+    {
+      "source_frame_id": 47,
+      "visibility": "visible",
+      "original_xy": [
+        377.4921875,
+        357.9652099609375
+      ],
+      "human_xy": [
+        376.8224299065421,
+        357.5103734439834
+      ],
+      "xy_shift_px": 0.8095995869252234
+    },
+    {
+      "source_frame_id": 48,
+      "visibility": "visible",
+      "original_xy": [
+        378.92474365234375,
+        382.42236328125
+      ],
+      "human_xy": [
+        379.8130841121495,
+        381.41078838174275
+      ],
+      "xy_shift_px": 1.346266151190402
+    },
+    {
+      "source_frame_id": 49,
+      "visibility": "visible",
+      "original_xy": [
+        377.49237060546875,
+        407.5081787109375
+      ],
+      "human_xy": [
+        375.82560601635515,
+        408.298755186722
+      ],
+      "xy_shift_px": 1.8447534685119555
+    },
+    {
+      "source_frame_id": 50,
+      "visibility": "visible",
+      "original_xy": [
+        378.57586669921875,
+        417.82794189453125
+      ],
+      "human_xy": [
+        377.81931464174454,
+        417.2614715702801
+      ],
+      "xy_shift_px": 0.9451241420711196
+    },
+    {
+      "source_frame_id": 51,
+      "visibility": "not_visible_or_uncertain",
+      "original_xy": [
+        379.30517578125,
+        427.9075012207031
+      ],
+      "human_xy": null,
+      "xy_shift_px": null
+    }
+  ],
+  "prior_finalized_artifacts_verified_before": 55,
+  "prior_contract_sha256": {
+    "AGENTS.md": "ca231d2710b8bdb36263d6768d0997ce4e3d885a0bd28ef9a9c10885df656fae",
+    "Fall_Detection_Codex_Implementation_Spec.md": "2ee9bbec9a1c3be305399987cf94ad12bc19d687b0de631d668e36a57078a976",
+    "docs/current-progress.md": "2d570548846d6c1d2b37f41151d181e2d7a2e1c2685f13b8ebcae42b39cc9d2d",
+    "docs/acceptance-results.md": "d56035fdfddc8904896edc5d650e1a51af778aed6f14c414f01f3885546f7561",
+    "docs/course-alignment-plan.md": "3deda3aa9d9cf9633681fe2d4c69daba1e8d960cc6d4bf3d43d4274a262d6a51"
+  },
+  "test_read_or_evaluation": false
+}

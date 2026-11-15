@@ -1,0 +1,543 @@
+{
+  "passed": true,
+  "candidate": "ur-motion-novelty-20261012-001",
+  "sequences": 47,
+  "train_sequences": 24,
+  "train_rows": 3638,
+  "motion_rows": 6001,
+  "three_branch_scores_verified": 18003,
+  "train_leave_video_scores_verified": 3638,
+  "validation_rows": 23,
+  "window_rows": 2917,
+  "events": 14,
+  "metrics": {
+    "TP": 14,
+    "TN": 8,
+    "FP": 0,
+    "FN": 1,
+    "n_total": 23,
+    "n_evaluable": 23,
+    "n_unknown": 0,
+    "sequence_accuracy": 0.9565217391304348,
+    "operational_accuracy": 0.9565217391304348,
+    "sequence_fall_f1": 0.9655172413793104,
+    "sequence_fall_precision": 1.0,
+    "sequence_fall_recall": 0.9333333333333333,
+    "end_to_end_fall_recall": 0.9333333333333333,
+    "outcomes_with_unknown": [
+      [
+        8,
+        0,
+        0
+      ],
+      [
+        1,
+        14,
+        0
+      ]
+    ],
+    "sequence_coverage": 1.0,
+    "window_coverage": 0.8439114391143911
+  },
+  "old_assets_unchanged": 24620,
+  "test_feature_reads": 0,
+  "test_evaluations": 0,
+  "new_neural_epochs": 0,
+  "normal_fit_completed": true,
+  "min_normal_fp_to_recover_fall19_with_same_score": 8,
+  "independent_distance_tolerance": 1e-12,
+  "reloaded_production_scores_exact": true,
+  "original_quality_and_timing_exact": true,
+  "baseline_phases": [
+    {
+      "sequence_id": "fall-09",
+      "interval": {
+        "normal_until_ms": 4304,
+        "fall_phase_ms": [
+          4604,
+          5506
+        ]
+      },
+      "phase_event_starts": [],
+      "early_event_starts": [],
+      "visible_phase_alert_ms": [],
+      "phase_valid_windows": 15,
+      "phase_legal_k3": 15
+    },
+    {
+      "sequence_id": "fall-19",
+      "interval": {
+        "normal_until_ms": 1167,
+        "fall_phase_ms": [
+          1468,
+          2369
+        ]
+      },
+      "phase_event_starts": [],
+      "early_event_starts": [],
+      "visible_phase_alert_ms": [],
+      "phase_valid_windows": 9,
+      "phase_legal_k3": 9
+    },
+    {
+      "sequence_id": "fall-29",
+      "interval": {
+        "normal_until_ms": 1735,
+        "fall_phase_ms": [
+          2035,
+          2936
+        ]
+      },
+      "phase_event_starts": [
+        2566.666666666667
+      ],
+      "early_event_starts": [],
+      "visible_phase_alert_ms": [
+        2566.666666666667,
+        2700.0,
+        2733.3333333333335
+      ],
+      "phase_valid_windows": 23,
+      "phase_legal_k3": 23
+    },
+    {
+      "sequence_id": "fall-25",
+      "interval": {
+        "normal_until_ms": 1568,
+        "fall_phase_ms": [
+          1868,
+          2802
+        ]
+      },
+      "phase_event_starts": [
+        2466.666666666667
+      ],
+      "early_event_starts": [],
+      "visible_phase_alert_ms": [
+        2500.0
+      ],
+      "phase_valid_windows": 20,
+      "phase_legal_k3": 20
+    },
+    {
+      "sequence_id": "fall-18",
+      "interval": {
+        "normal_until_ms": 400,
+        "fall_phase_ms": [
+          800,
+          1601
+        ]
+      },
+      "phase_event_starts": [
+        1433.3333333333335
+      ],
+      "early_event_starts": [],
+      "visible_phase_alert_ms": [],
+      "phase_valid_windows": 16,
+      "phase_legal_k3": 14
+    },
+    {
+      "sequence_id": "fall-30",
+      "interval": {
+        "normal_until_ms": 800,
+        "fall_phase_ms": [
+          1334,
+          1902
+        ]
+      },
+      "phase_event_starts": [
+        1866.6666666666667
+      ],
+      "early_event_starts": [],
+      "visible_phase_alert_ms": [],
+      "phase_valid_windows": 16,
+      "phase_legal_k3": 16
+    }
+  ],
+  "new_phases": [
+    {
+      "sequence_id": "fall-09",
+      "interval": {
+        "normal_until_ms": 4304,
+        "fall_phase_ms": [
+          4604,
+          5506
+        ]
+      },
+      "phase_event_starts": [],
+      "early_event_starts": [],
+      "visible_phase_alert_ms": [],
+      "phase_valid_windows": 15,
+      "phase_legal_k3": 15
+    },
+    {
+      "sequence_id": "fall-19",
+      "interval": {
+        "normal_until_ms": 1167,
+        "fall_phase_ms": [
+          1468,
+          2369
+        ]
+      },
+      "phase_event_starts": [],
+      "early_event_starts": [],
+      "visible_phase_alert_ms": [],
+      "phase_valid_windows": 9,
+      "phase_legal_k3": 9
+    },
+    {
+      "sequence_id": "fall-29",
+      "interval": {
+        "normal_until_ms": 1735,
+        "fall_phase_ms": [
+          2035,
+          2936
+        ]
+      },
+      "phase_event_starts": [
+        2566.666666666667
+      ],
+      "early_event_starts": [],
+      "visible_phase_alert_ms": [
+        2566.666666666667,
+        2700.0,
+        2733.3333333333335
+      ],
+      "phase_valid_windows": 23,
+      "phase_legal_k3": 23
+    },
+    {
+      "sequence_id": "fall-25",
+      "interval": {
+        "normal_until_ms": 1568,
+        "fall_phase_ms": [
+          1868,
+          2802
+        ]
+      },
+      "phase_event_starts": [
+        2466.666666666667
+      ],
+      "early_event_starts": [],
+      "visible_phase_alert_ms": [
+        2500.0
+      ],
+      "phase_valid_windows": 20,
+      "phase_legal_k3": 20
+    },
+    {
+      "sequence_id": "fall-18",
+      "interval": {
+        "normal_until_ms": 400,
+        "fall_phase_ms": [
+          800,
+          1601
+        ]
+      },
+      "phase_event_starts": [
+        1433.3333333333335
+      ],
+      "early_event_starts": [],
+      "visible_phase_alert_ms": [],
+      "phase_valid_windows": 16,
+      "phase_legal_k3": 14
+    },
+    {
+      "sequence_id": "fall-30",
+      "interval": {
+        "normal_until_ms": 800,
+        "fall_phase_ms": [
+          1334,
+          1902
+        ]
+      },
+      "phase_event_starts": [
+        1866.6666666666667
+      ],
+      "early_event_starts": [],
+      "visible_phase_alert_ms": [],
+      "phase_valid_windows": 16,
+      "phase_legal_k3": 16
+    }
+  ],
+  "fall19_phase": [
+    {
+      "row_index": 14,
+      "sample_index": 45,
+      "track_id": 1,
+      "start_ms": 533.3333333333334,
+      "end_ms": 1500.0,
+      "available_at_ms": 1500.0,
+      "frame_size_wh": [
+        640,
+        480
+      ],
+      "quality": "valid",
+      "ae_score": 0.09111574292182922,
+      "motion_score": 0.392909779739471,
+      "ae_scaled": 0.8327103390531284,
+      "motion_scaled": 0.41154861602449616,
+      "fused_score": 0.8327103390531284,
+      "current_good_pose": true,
+      "center_dx_dy_logspan_last": [
+        -0.020849133461016665,
+        0.3281455778660249,
+        -0.508167188912908
+      ]
+    },
+    {
+      "row_index": 15,
+      "sample_index": 46,
+      "track_id": 1,
+      "start_ms": 566.6666666666667,
+      "end_ms": 1533.3333333333335,
+      "available_at_ms": 1533.3333333333335,
+      "frame_size_wh": [
+        640,
+        480
+      ],
+      "quality": "valid",
+      "ae_score": 0.10829463601112366,
+      "motion_score": 0.42972341926332613,
+      "ae_scaled": 0.9897089150425324,
+      "motion_scaled": 0.4501086193079809,
+      "fused_score": 0.9897089150425324,
+      "current_good_pose": true,
+      "center_dx_dy_logspan_last": [
+        -0.011363404387109031,
+        0.43496543416656613,
+        -0.3929599387368849
+      ]
+    },
+    {
+      "row_index": 16,
+      "sample_index": 47,
+      "track_id": 1,
+      "start_ms": 600.0,
+      "end_ms": 1566.6666666666667,
+      "available_at_ms": 1566.6666666666667,
+      "frame_size_wh": [
+        640,
+        480
+      ],
+      "quality": "valid",
+      "ae_score": 0.1367148756980896,
+      "motion_score": 0.4385160574080001,
+      "ae_scaled": 1.2494425973547996,
+      "motion_scaled": 0.4593183622215937,
+      "fused_score": 1.2494425973547996,
+      "current_good_pose": true,
+      "center_dx_dy_logspan_last": [
+        -0.04901487137894868,
+        0.4839091336684716,
+        -0.2732902916430828
+      ]
+    },
+    {
+      "row_index": 17,
+      "sample_index": 48,
+      "track_id": 1,
+      "start_ms": 633.3333333333334,
+      "end_ms": 1600.0,
+      "available_at_ms": 1600.0,
+      "frame_size_wh": [
+        640,
+        480
+      ],
+      "quality": "valid",
+      "ae_score": 0.1236255019903183,
+      "motion_score": 0.5179749989025104,
+      "ae_scaled": 1.1298182989770487,
+      "motion_scaled": 0.5425466733736362,
+      "fused_score": 1.1298182989770487,
+      "current_good_pose": true,
+      "center_dx_dy_logspan_last": [
+        -0.06186464918793263,
+        0.599164813911284,
+        -0.2464891844677517
+      ]
+    },
+    {
+      "row_index": 18,
+      "sample_index": 49,
+      "track_id": 1,
+      "start_ms": 666.6666666666667,
+      "end_ms": 1633.3333333333335,
+      "available_at_ms": 1633.3333333333335,
+      "frame_size_wh": [
+        640,
+        480
+      ],
+      "quality": "valid",
+      "ae_score": 0.11727241426706314,
+      "motion_score": 0.5423447330901712,
+      "ae_scaled": 1.0717571817384528,
+      "motion_scaled": 0.5680724579047995,
+      "fused_score": 1.0717571817384528,
+      "current_good_pose": true,
+      "center_dx_dy_logspan_last": [
+        -0.05037015379601897,
+        0.6546777936014194,
+        -0.4048980702957794
+      ]
+    },
+    {
+      "row_index": 19,
+      "sample_index": 50,
+      "track_id": 1,
+      "start_ms": 700.0,
+      "end_ms": 1666.6666666666667,
+      "available_at_ms": 1666.6666666666667,
+      "frame_size_wh": [
+        640,
+        480
+      ],
+      "quality": "valid",
+      "ae_score": 0.1308436393737793,
+      "motion_score": 0.5739303866144575,
+      "ae_scaled": 1.1957851389014131,
+      "motion_scaled": 0.601156470226327,
+      "fused_score": 1.1957851389014131,
+      "current_good_pose": true,
+      "center_dx_dy_logspan_last": [
+        -0.05746600592821685,
+        0.7218597514322408,
+        -0.5602262830899326
+      ]
+    },
+    {
+      "row_index": 20,
+      "sample_index": 51,
+      "track_id": 1,
+      "start_ms": 733.3333333333334,
+      "end_ms": 1700.0000000000002,
+      "available_at_ms": 1700.0000000000002,
+      "frame_size_wh": [
+        640,
+        480
+      ],
+      "quality": "valid",
+      "ae_score": 0.13463649153709412,
+      "motion_score": 0.6383813033916784,
+      "ae_scaled": 1.2304481632001,
+      "motion_scaled": 0.668664806666217,
+      "fused_score": 1.2304481632001,
+      "current_good_pose": true,
+      "center_dx_dy_logspan_last": [
+        -0.08464076008090164,
+        0.7323229916350601,
+        -0.596291051979726
+      ]
+    },
+    {
+      "row_index": 21,
+      "sample_index": 52,
+      "track_id": 1,
+      "start_ms": 766.6666666666667,
+      "end_ms": 1733.3333333333335,
+      "available_at_ms": 1733.3333333333335,
+      "frame_size_wh": [
+        640,
+        480
+      ],
+      "quality": "valid",
+      "ae_score": 0.13854143023490906,
+      "motion_score": 0.7402637754303523,
+      "ae_scaled": 1.2661355507224614,
+      "motion_scaled": 0.7753803747858834,
+      "fused_score": 1.2661355507224614,
+      "current_good_pose": false,
+      "center_dx_dy_logspan_last": [
+        -0.09304113222422634,
+        0.7727970444033084,
+        -0.5132924326139362
+      ]
+    },
+    {
+      "row_index": 22,
+      "sample_index": 53,
+      "track_id": 1,
+      "start_ms": 800.0,
+      "end_ms": 1766.6666666666667,
+      "available_at_ms": 1766.6666666666667,
+      "frame_size_wh": [
+        640,
+        480
+      ],
+      "quality": "valid",
+      "ae_score": 0.1839069426059723,
+      "motion_score": 0.7839314639460946,
+      "ae_scaled": 1.680732743001696,
+      "motion_scaled": 0.8211195691260165,
+      "fused_score": 1.680732743001696,
+      "current_good_pose": false,
+      "center_dx_dy_logspan_last": [
+        -0.11055625779592082,
+        0.832223918034049,
+        -0.5865225734425128
+      ]
+    }
+  ],
+  "scales": {
+    "ae_p95": 0.10942069366574285,
+    "motion_p95": 0.9547104872686153,
+    "fit_sequences": [
+      "adl-33",
+      "adl-08",
+      "adl-40",
+      "adl-19",
+      "adl-05",
+      "adl-38",
+      "adl-17",
+      "adl-06",
+      "adl-26",
+      "adl-29",
+      "adl-22",
+      "adl-21",
+      "adl-36",
+      "adl-25",
+      "adl-11",
+      "adl-28",
+      "adl-32",
+      "adl-31",
+      "adl-27",
+      "adl-07",
+      "adl-30",
+      "adl-12",
+      "adl-24",
+      "adl-10"
+    ],
+    "fit_split": "train",
+    "normal_only": true,
+    "motion_exclusion": "entire_source_video"
+  },
+  "baseline_metrics": {
+    "TP": 14,
+    "TN": 8,
+    "FP": 0,
+    "FN": 1,
+    "n_total": 23,
+    "n_evaluable": 23,
+    "n_unknown": 0,
+    "sequence_accuracy": 0.9565217391304348,
+    "operational_accuracy": 0.9565217391304348,
+    "sequence_fall_f1": 0.9655172413793104,
+    "sequence_fall_precision": 1.0,
+    "sequence_fall_recall": 0.9333333333333333,
+    "end_to_end_fall_recall": 0.9333333333333333,
+    "outcomes_with_unknown": [
+      [
+        8,
+        0,
+        0
+      ],
+      [
+        1,
+        14,
+        0
+      ]
+    ],
+    "sequence_coverage": 1.0,
+    "window_coverage": 0.8439114391143911
+  }
+}

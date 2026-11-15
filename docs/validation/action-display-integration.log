@@ -1,0 +1,7 @@
+{'case': 'adl-04', 'frames': 149, 'labels': {'UNKNOWN': 4, 'PENDING': 27, 'WALKING': 58, 'STANDING': 60}, 'AE_unchanged': True}
+C:\���j�M��\fall-detection-anomaly\third_party\human\Detection\Models.py:121: UserWarning: The torch.cuda.*DtypeTensor constructors are no longer recommended. It's best to use methods such as torch.tensor(data, dtype=*, device='cuda') to create tensors. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\torch\csrc\tensor\python_tensor.cpp:80.)
+  self.scaled_anchors = FloatTensor([(a_w / self.stride, a_h / self.stride) for a_w, a_h in self.anchors])
+{'case': 'fall-09', 'frames': 185, 'labels': {'UNKNOWN': 31, 'PENDING': 27, 'STANDING': 19, 'WALKING': 91, 'FALLING': 17}, 'AE_unchanged': True}
+{'case': 'fall-29', 'frames': 99, 'labels': {'UNKNOWN': 24, 'PENDING': 27, 'STANDING': 31, 'WALKING': 10, 'FALLING': 7}, 'AE_unchanged': True}
+{'case': 'fall-30', 'frames': 70, 'labels': {'UNKNOWN': 23, 'PENDING': 27, 'SITTING': 7, 'STANDING UP': 13}, 'AE_unchanged': True}
+{"run": "ur-sample-human-s1-001", "frames": 503, "classification_windows_compared": 313, "old_runs_preserved": 37, "old_cache_files_preserved": 1165, "new_test_scored": false}

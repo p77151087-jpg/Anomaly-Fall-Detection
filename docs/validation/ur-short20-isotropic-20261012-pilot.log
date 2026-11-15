@@ -1,0 +1,11 @@
+Rebuilding features from verified observed poses: adl-05
+Rebuilding features from verified observed poses: adl-06
+Rebuilding features from verified observed poses: adl-04
+Rebuilding features from verified observed poses: adl-01
+Rebuilding features from verified observed poses: fall-19
+Rebuilding features from verified observed poses: fall-18
+Rebuilding features from verified observed poses: fall-29
+Rebuilding features from verified observed poses: fall-09
+Rebuilding features from verified observed poses: fall-25
+Rebuilding features from verified observed poses: fall-30
+{'genuine_strict_stgcn': True, 'real_20_forward_head_parity': True, 'finite_512': True, 'pose_hash_parity': True, 'timestamps': True, 'all_legal_k3': True, 'normal_coverage': True, 'phase_coverage': True, 'all_phases': True, 'cache_isolation': True}

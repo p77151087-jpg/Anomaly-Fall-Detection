@@ -1,0 +1,999 @@
+{
+  "schema_version": 1,
+  "source_kind": "real",
+  "recipe_hash": "a7d45d9b16abbb1a95d1fd3ef77f9e669147c4f7879478cf9944ac9d9ca1056b",
+  "weights": {
+    "detector": {
+      "role": "detector",
+      "recipe_id": "human_tsstg_coco_cut_v1",
+      "repository_url": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks",
+      "commit": "7ed2faa4d6147dfd576f58869b6c25545208af35",
+      "source_page": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/blob/7ed2faa4d6147dfd576f58869b6c25545208af35/README.md",
+      "download_url": "https://drive.google.com/uc?id=1GbH6UQpBvOwLO_gozaH9QFnL23j8plPb",
+      "local_path": "weights/pretrained/sample-human/detector.pth",
+      "size_bytes": 34720299,
+      "sha256": "355917fb2f2c05a769f87d7809dc3feeb1e6cf12c72f68fb8bd43d4905418e11",
+      "upstream_expected_sha256": null,
+      "license": "Upstream root has no license; SPPE has separate LICENSE. Research use; redistribution rights unverified.",
+      "status": "downloaded_unverified",
+      "original_download_url": "https://drive.google.com/uc?id=1obEbWBSm9bXeg10FriJ7R2cGLRsg-AfP",
+      "retrieval_source": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/issues/117",
+      "retrieved_at": "2026-09-18T03:29:56.873620+00:00"
+    },
+    "detector_config": {
+      "role": "detector_config",
+      "recipe_id": "human_tsstg_coco_cut_v1",
+      "repository_url": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks",
+      "commit": "7ed2faa4d6147dfd576f58869b6c25545208af35",
+      "source_page": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/blob/7ed2faa4d6147dfd576f58869b6c25545208af35/README.md",
+      "download_url": "https://drive.google.com/uc?id=1f-jEh05PBaHXLRwBvrYgSSPtYLuBeiPm",
+      "local_path": "weights/pretrained/sample-human/yolov3-tiny-onecls.cfg",
+      "size_bytes": 2021,
+      "sha256": "3d0163163313397a9af67b35c7b9479914e941f011529dbb13920a4dcc5d545e",
+      "upstream_expected_sha256": null,
+      "license": "Upstream root has no license; SPPE has separate LICENSE. Research use; redistribution rights unverified.",
+      "status": "downloaded_unverified",
+      "original_download_url": "https://drive.google.com/uc?id=19sPzBZjAjuJQ3emRteHybm2SG25w9Wn5",
+      "retrieval_source": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/issues/117",
+      "retrieved_at": "2026-09-18T03:29:59.292273+00:00"
+    },
+    "pose": {
+      "role": "pose",
+      "recipe_id": "human_tsstg_coco_cut_v1",
+      "repository_url": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks",
+      "commit": "7ed2faa4d6147dfd576f58869b6c25545208af35",
+      "source_page": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/blob/7ed2faa4d6147dfd576f58869b6c25545208af35/README.md",
+      "download_url": "https://drive.google.com/uc?id=1m5tIKH8INJ82GI7q6tWtPPDJ55jgpKfg",
+      "local_path": "weights/pretrained/sample-human/fast_res50_256x192.pth",
+      "size_bytes": 162603012,
+      "sha256": "42808e905aa20133a89a6a2cba073265a2ce35fabe65edffd9f153ef5846b7b0",
+      "upstream_expected_sha256": null,
+      "license": "Upstream root has no license; SPPE has separate LICENSE. Research use; redistribution rights unverified.",
+      "status": "downloaded_unverified",
+      "original_download_url": "https://drive.google.com/uc?id=1IPfCDRwCmQDnQy94nT1V-_NVtTEi4VmU",
+      "retrieval_source": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/issues/117",
+      "retrieved_at": "2026-09-18T03:30:10.436175+00:00"
+    },
+    "stgcn": {
+      "role": "stgcn",
+      "recipe_id": "human_tsstg_coco_cut_v1",
+      "repository_url": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks",
+      "commit": "7ed2faa4d6147dfd576f58869b6c25545208af35",
+      "source_page": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/blob/7ed2faa4d6147dfd576f58869b6c25545208af35/README.md",
+      "download_url": "https://drive.google.com/uc?id=1MAk2v0peCa4Fs9zw9-N3ssuG4Y1MIItO",
+      "local_path": "weights/pretrained/sample-human/tsstg-model.pth",
+      "size_bytes": 24708522,
+      "sha256": "1cac9a6da99d5d67da8ab58ee7633c5e923d85fba668673f028792819750a149",
+      "upstream_expected_sha256": null,
+      "license": "Upstream root has no license; SPPE has separate LICENSE. Research use; redistribution rights unverified.",
+      "status": "downloaded_unverified",
+      "original_download_url": "https://drive.google.com/uc?id=1mQQ4JHe58ylKbBqTjuKzpwN2nwKOWJ9u",
+      "retrieval_source": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/issues/117",
+      "retrieved_at": "2026-09-18T03:30:15.462483+00:00"
+    }
+  },
+  "split_manifest": {
+    "schema_version": 1,
+    "protocol_id": "urfall-cam0-rgb-sequence-v1",
+    "seed": 42,
+    "numpy_version": "2.4.6",
+    "subject_independent": false,
+    "sequences": [
+      {
+        "sequence_id": "adl-33",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-08",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-40",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-19",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-05",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-38",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-17",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-06",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-26",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-29",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-22",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-21",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-36",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-25",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-11",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-28",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-32",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-31",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-27",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-07",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-30",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-12",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-24",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-10",
+        "split": "train",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-37",
+        "split": "validation",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-23",
+        "split": "validation",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-20",
+        "split": "validation",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-04",
+        "split": "validation",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-01",
+        "split": "validation",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-16",
+        "split": "validation",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-18",
+        "split": "validation",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-35",
+        "split": "validation",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-22",
+        "split": "validation",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-19",
+        "split": "validation",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-16",
+        "split": "validation",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-18",
+        "split": "validation",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-08",
+        "split": "validation",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-13",
+        "split": "validation",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-29",
+        "split": "validation",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-14",
+        "split": "validation",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-09",
+        "split": "validation",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-07",
+        "split": "validation",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-11",
+        "split": "validation",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-25",
+        "split": "validation",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-06",
+        "split": "validation",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-02",
+        "split": "validation",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-30",
+        "split": "validation",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-13",
+        "split": "test",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-15",
+        "split": "test",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-39",
+        "split": "test",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-03",
+        "split": "test",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-34",
+        "split": "test",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-02",
+        "split": "test",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-14",
+        "split": "test",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "adl-09",
+        "split": "test",
+        "label": 0,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-10",
+        "split": "test",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-27",
+        "split": "test",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-04",
+        "split": "test",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-23",
+        "split": "test",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-15",
+        "split": "test",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-21",
+        "split": "test",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-20",
+        "split": "test",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-12",
+        "split": "test",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-03",
+        "split": "test",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-01",
+        "split": "test",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-26",
+        "split": "test",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-28",
+        "split": "test",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-24",
+        "split": "test",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-05",
+        "split": "test",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      },
+      {
+        "sequence_id": "fall-17",
+        "split": "test",
+        "label": 1,
+        "camera": 0,
+        "modality": "rgb"
+      }
+    ],
+    "split_hash": "0b9a0f0cf3609c478afcbbe028130c7d519e26b573135fbd739c074c68bc93c5"
+  },
+  "sequences": {
+    "adl-33": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-08": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-40": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-19": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-05": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-38": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-17": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-06": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-26": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-29": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-22": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-21": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-36": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-25": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-11": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-28": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-32": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-31": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-27": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-07": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-30": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-12": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-24": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-10": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-37": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-23": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-20": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-04": {
+      "status": "prepared",
+      "source_hash": "1067c035df58b9048050f954a55c981df83997c91759a90d9c94ae91b45f8777",
+      "feature_path": "data\\cache\\ur-sample-human-s5-001\\real_feature_smoke\\features\\adl-04-881396397c433aebafb9d7b4144f82cfc0fa2f6fbc7e6a6f9d907d8d73f5793e.npz",
+      "pose_path": "data\\cache\\ur-sample-human-s5-001\\real_feature_smoke\\poses\\adl-04-881396397c433aebafb9d7b4144f82cfc0fa2f6fbc7e6a6f9d907d8d73f5793e.npz",
+      "valid_features": 10,
+      "n_samples": 84,
+      "quality_counts": {
+        "track_gap": 1,
+        "valid": 10
+      }
+    },
+    "adl-01": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-16": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-18": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-35": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-22": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-19": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-16": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-18": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-08": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-13": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-29": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-14": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-09": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-07": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-11": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-25": {
+      "status": "prepared",
+      "source_hash": "b0a6733d6273c5d9bbc156e63b441825be91dbdd3a47468e56e8652d9302e185",
+      "feature_path": "data\\cache\\ur-sample-human-s5-001\\real_feature_smoke\\features\\fall-25-e12fe026e808ca8dc8d1d72442d62045f90ad0d2617aad4e0aa912f993f5aedb.npz",
+      "pose_path": "data\\cache\\ur-sample-human-s5-001\\real_feature_smoke\\poses\\fall-25-e12fe026e808ca8dc8d1d72442d62045f90ad0d2617aad4e0aa912f993f5aedb.npz",
+      "valid_features": 8,
+      "n_samples": 85,
+      "quality_counts": {
+        "track_gap": 4,
+        "valid": 8
+      }
+    },
+    "fall-06": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-02": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-30": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-13": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-15": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-39": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-03": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-34": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-02": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-14": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "adl-09": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-10": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-27": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-04": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-23": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-15": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-21": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-20": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-12": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-03": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-01": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-26": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-28": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-24": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-05": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    },
+    "fall-17": {
+      "status": "not_selected",
+      "reason": "not selected for smoke"
+    }
+  },
+  "provenance": {
+    "upstream_commits": {
+      "human": "7ed2faa4d6147dfd576f58869b6c25545208af35"
+    },
+    "source_code_hash": "93c3ca98dfc3d305af96eb332a596bff4d091714623d5082aa589d369df0d8af"
+  },
+  "recipe_id": "human_tsstg_coco_cut_v1",
+  "preparation_config": {
+    "project": {
+      "name": "fall-detection-anomaly",
+      "seed": 42
+    },
+    "runtime": {
+      "device": "auto",
+      "num_workers": 0,
+      "torch_threads": 4
+    },
+    "data": {
+      "dataset": "urfall",
+      "raw_dir": "data/raw/urfall",
+      "manifest_dir": "data/manifests",
+      "cache_dir": "data/cache/ur-sample-human-s5-001",
+      "camera": 0,
+      "modality": "rgb",
+      "protocol_id": "urfall-cam0-rgb-sequence-v1",
+      "split_seed": 42,
+      "adl_counts": [
+        24,
+        8,
+        8
+      ],
+      "fall_counts": [
+        0,
+        15,
+        15
+      ],
+      "timestamp_policy": "prefer_source",
+      "fallback_fps": 30,
+      "allow_missing_timestamp_tail": true
+    },
+    "pose": {
+      "backend": "human_alphapose",
+      "weights_manifest": "weights/sample-human-manifest.json",
+      "upstream_dir": "third_party/human",
+      "backbone": "resnet50",
+      "input_height": 256,
+      "input_width": 192,
+      "detector_size": 384,
+      "detector_confidence": 0.45,
+      "fallback_detector_confidence": 0.0,
+      "nms_threshold": 0.2,
+      "track_max_age": 30,
+      "track_n_init": 3,
+      "track_similarity_joints": 3,
+      "track_gap_tolerance_ms": 0.0,
+      "refinement_stages": 3,
+      "inference_refinement_stage": 1,
+      "rotation_angles": [
+        0
+      ],
+      "rotation_policy": "always"
+    },
+    "skeleton": {
+      "recipe_id": "human_tsstg_coco_cut_v1",
+      "target_fps": 30,
+      "window_size": 30,
+      "stride": 5,
+      "missing_frame_policy": "invalidate_window",
+      "span_tolerance": 1e-08,
+      "resampling_hold_policy": "bounded_jitter",
+      "timestamp_tolerance_ms": 0.0
+    },
+    "quality": {
+      "min_joint_confidence": 0.2,
+      "min_valid_joints": 9,
+      "min_good_frame_ratio": 0.8
+    },
+    "features": {
+      "backend": "human_tsstg",
+      "expected_dim": 512,
+      "frozen": true,
+      "upstream_dir": "third_party/stgcn"
+    },
+    "autoencoder": {
+      "sampling": "sequences",
+      "hidden_dim": 128,
+      "latent_dim": 32,
+      "learning_rate": 0.001,
+      "weight_decay": 0.001,
+      "input_noise_std": 0.0,
+      "batch_size": 32,
+      "max_epochs": 100,
+      "patience": 10,
+      "min_delta": 1e-06
+    },
+    "calibration": {
+      "split": "validation",
+      "objective": "balanced_sequence_accuracy",
+      "comparison": "gt",
+      "consecutive_windows": 3
+    },
+    "evaluation": {
+      "split": "test",
+      "metric_unit": "sequence"
+    },
+    "demo": {
+      "display": false,
+      "output_dir": "outputs/demo",
+      "score_hold_stride_multiplier": 2
+    }
+  },
+  "model_load_reports": {
+    "pose": null,
+    "stgcn": {
+      "strict": true,
+      "key_conversion": null,
+      "sha256": "1cac9a6da99d5d67da8ab58ee7633c5e923d85fba668673f028792819750a149"
+    }
+  },
+  "verification": {
+    "pose_forward": true,
+    "pose_observations_reused": false,
+    "feature_forward": true,
+    "device": "cuda",
+    "refreshed": false
+  }
+}

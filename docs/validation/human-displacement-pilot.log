@@ -1,0 +1,11 @@
+Rebuilding features from verified observed poses: adl-05
+Rebuilding features from verified observed poses: adl-24
+Rebuilding features from verified observed poses: adl-04
+Rebuilding features from verified observed poses: adl-35
+Rebuilding features from verified observed poses: fall-19
+Rebuilding features from verified observed poses: fall-18
+Rebuilding features from verified observed poses: fall-29
+Rebuilding features from verified observed poses: fall-09
+Rebuilding features from verified observed poses: fall-25
+Rebuilding features from verified observed poses: fall-30
+{'pilot': 'ur-human-displacement-001', 'gate': True, 'adl_coverage_ratio': 1.0, 'phase_ratio': 1.0}

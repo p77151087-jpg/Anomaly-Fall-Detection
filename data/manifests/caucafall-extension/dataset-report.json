@@ -1,0 +1,6393 @@
+{
+  "schema_version": 1,
+  "split_hash": "18fe3ea544602523e56f81d2fe7360feb817a6be6d1d2ac7818304f33c03ddf2",
+  "sequences": [
+    {
+      "sequence_id": "adl-33",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-33",
+      "n_images": 200,
+      "first_frame_id": 1,
+      "last_frame_id": 200,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 200,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-08",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-08",
+      "n_images": 180,
+      "first_frame_id": 1,
+      "last_frame_id": 180,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 180,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-40",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-40",
+      "n_images": 330,
+      "first_frame_id": 1,
+      "last_frame_id": 330,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 330,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-19",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-19",
+      "n_images": 250,
+      "first_frame_id": 1,
+      "last_frame_id": 250,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 250,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-05",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-05",
+      "n_images": 180,
+      "first_frame_id": 1,
+      "last_frame_id": 180,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 180,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-38",
+      "n_images": 345,
+      "first_frame_id": 1,
+      "last_frame_id": 345,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 345,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-17",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-17",
+      "n_images": 230,
+      "first_frame_id": 1,
+      "last_frame_id": 230,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 230,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-06",
+      "n_images": 230,
+      "first_frame_id": 1,
+      "last_frame_id": 230,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 230,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-26",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-26",
+      "n_images": 95,
+      "first_frame_id": 1,
+      "last_frame_id": 95,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 95,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-29",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-29",
+      "n_images": 125,
+      "first_frame_id": 1,
+      "last_frame_id": 125,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 125,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-22",
+      "n_images": 240,
+      "first_frame_id": 1,
+      "last_frame_id": 240,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 240,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-21",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-21",
+      "n_images": 280,
+      "first_frame_id": 1,
+      "last_frame_id": 280,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 280,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-36",
+      "n_images": 340,
+      "first_frame_id": 1,
+      "last_frame_id": 340,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 340,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-25",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-25",
+      "n_images": 110,
+      "first_frame_id": 1,
+      "last_frame_id": 110,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 110,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-11",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-11",
+      "n_images": 300,
+      "first_frame_id": 1,
+      "last_frame_id": 300,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 300,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-28",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-28",
+      "n_images": 85,
+      "first_frame_id": 1,
+      "last_frame_id": 85,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 85,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-32",
+      "n_images": 200,
+      "first_frame_id": 1,
+      "last_frame_id": 200,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 200,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-31",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-31",
+      "n_images": 250,
+      "first_frame_id": 1,
+      "last_frame_id": 250,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 250,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-27",
+      "n_images": 100,
+      "first_frame_id": 1,
+      "last_frame_id": 100,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 100,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-07",
+      "n_images": 180,
+      "first_frame_id": 1,
+      "last_frame_id": 180,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 180,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-30",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-30",
+      "n_images": 400,
+      "first_frame_id": 1,
+      "last_frame_id": 400,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 400,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-12",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-12",
+      "n_images": 250,
+      "first_frame_id": 1,
+      "last_frame_id": 250,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 250,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-24",
+      "n_images": 70,
+      "first_frame_id": 1,
+      "last_frame_id": 70,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 70,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-10",
+      "n_images": 300,
+      "first_frame_id": 1,
+      "last_frame_id": 300,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 300,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-37",
+      "n_images": 350,
+      "first_frame_id": 1,
+      "last_frame_id": 350,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 350,
+      "timestamp_source": "source_with_estimated_tail",
+      "estimated_rgb_timestamp_ids": [
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350
+      ],
+      "timestamp_fallback_fps": 30,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-23",
+      "n_images": 220,
+      "first_frame_id": 1,
+      "last_frame_id": 220,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 220,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-20",
+      "n_images": 270,
+      "first_frame_id": 1,
+      "last_frame_id": 270,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 270,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-04",
+      "n_images": 150,
+      "first_frame_id": 1,
+      "last_frame_id": 150,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 150,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-01",
+      "n_images": 150,
+      "first_frame_id": 1,
+      "last_frame_id": 150,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 150,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-16",
+      "n_images": 240,
+      "first_frame_id": 1,
+      "last_frame_id": 240,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 240,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-18",
+      "n_images": 265,
+      "first_frame_id": 1,
+      "last_frame_id": 265,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 265,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-35",
+      "n_images": 280,
+      "first_frame_id": 1,
+      "last_frame_id": 280,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 280,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-22",
+      "n_images": 56,
+      "first_frame_id": 1,
+      "last_frame_id": 56,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 56,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-19",
+      "n_images": 100,
+      "first_frame_id": 1,
+      "last_frame_id": 100,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 100,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-16",
+      "n_images": 55,
+      "first_frame_id": 1,
+      "last_frame_id": 55,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 55,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-18",
+      "n_images": 65,
+      "first_frame_id": 1,
+      "last_frame_id": 65,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 65,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-08",
+      "n_images": 91,
+      "first_frame_id": 1,
+      "last_frame_id": 91,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 91,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-13",
+      "n_images": 85,
+      "first_frame_id": 1,
+      "last_frame_id": 85,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 85,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-29",
+      "n_images": 99,
+      "first_frame_id": 1,
+      "last_frame_id": 99,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 99,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-14",
+      "n_images": 61,
+      "first_frame_id": 1,
+      "last_frame_id": 61,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 61,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-09",
+      "n_images": 185,
+      "first_frame_id": 1,
+      "last_frame_id": 185,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 185,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-07",
+      "n_images": 156,
+      "first_frame_id": 1,
+      "last_frame_id": 156,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 156,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-11",
+      "n_images": 130,
+      "first_frame_id": 1,
+      "last_frame_id": 130,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 130,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-25",
+      "n_images": 85,
+      "first_frame_id": 1,
+      "last_frame_id": 85,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 85,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-06",
+      "n_images": 100,
+      "first_frame_id": 1,
+      "last_frame_id": 100,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 100,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-02",
+      "n_images": 110,
+      "first_frame_id": 1,
+      "last_frame_id": 110,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 110,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-30",
+      "n_images": 70,
+      "first_frame_id": 1,
+      "last_frame_id": 70,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 70,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-13",
+      "split": "test",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-13",
+      "n_images": 265,
+      "first_frame_id": 1,
+      "last_frame_id": 265,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 265,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-15",
+      "split": "test",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-15",
+      "n_images": 275,
+      "first_frame_id": 1,
+      "last_frame_id": 275,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 275,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-39",
+      "split": "test",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-39",
+      "n_images": 270,
+      "first_frame_id": 1,
+      "last_frame_id": 270,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 270,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-03",
+      "split": "test",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-03",
+      "n_images": 180,
+      "first_frame_id": 1,
+      "last_frame_id": 180,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 180,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-34",
+      "split": "test",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-34",
+      "n_images": 191,
+      "first_frame_id": 1,
+      "last_frame_id": 191,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 191,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-02",
+      "split": "test",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-02",
+      "n_images": 180,
+      "first_frame_id": 1,
+      "last_frame_id": 180,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 180,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-14",
+      "split": "test",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-14",
+      "n_images": 235,
+      "first_frame_id": 1,
+      "last_frame_id": 235,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 235,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "adl-09",
+      "split": "test",
+      "label": 0,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/adl-09",
+      "n_images": 150,
+      "first_frame_id": 1,
+      "last_frame_id": 150,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 150,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-10",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-10",
+      "n_images": 130,
+      "first_frame_id": 1,
+      "last_frame_id": 130,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 130,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-27",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-27",
+      "n_images": 92,
+      "first_frame_id": 1,
+      "last_frame_id": 92,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 92,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-04",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-04",
+      "n_images": 96,
+      "first_frame_id": 1,
+      "last_frame_id": 96,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 96,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-23",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-23",
+      "n_images": 75,
+      "first_frame_id": 1,
+      "last_frame_id": 75,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 75,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-15",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-15",
+      "n_images": 71,
+      "first_frame_id": 1,
+      "last_frame_id": 71,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 71,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-21",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-21",
+      "n_images": 55,
+      "first_frame_id": 1,
+      "last_frame_id": 55,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 55,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-20",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-20",
+      "n_images": 110,
+      "first_frame_id": 1,
+      "last_frame_id": 110,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 110,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-12",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-12",
+      "n_images": 110,
+      "first_frame_id": 1,
+      "last_frame_id": 110,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 110,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-03",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-03",
+      "n_images": 215,
+      "first_frame_id": 1,
+      "last_frame_id": 215,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 215,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-01",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-01",
+      "n_images": 160,
+      "first_frame_id": 1,
+      "last_frame_id": 160,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 160,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-26",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-26",
+      "n_images": 61,
+      "first_frame_id": 1,
+      "last_frame_id": 61,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 61,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-28",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-28",
+      "n_images": 66,
+      "first_frame_id": 1,
+      "last_frame_id": 66,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 66,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-24",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-24",
+      "n_images": 60,
+      "first_frame_id": 1,
+      "last_frame_id": 60,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 60,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-05",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-05",
+      "n_images": 151,
+      "first_frame_id": 1,
+      "last_frame_id": 151,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 151,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "fall-17",
+      "split": "test",
+      "label": 1,
+      "camera": 0,
+      "modality": "rgb",
+      "dataset": "urfall",
+      "source_path": "data/raw/urfall/fall-17",
+      "n_images": 95,
+      "first_frame_id": 1,
+      "last_frame_id": 95,
+      "missing_frame_ids": [],
+      "numeric_sort": true,
+      "status": "validated",
+      "decoded_images": 95,
+      "timestamp_source": "source_frame_id",
+      "estimated_rgb_timestamp_ids": [],
+      "timestamp_fallback_fps": null,
+      "posture_labels": "not_used",
+      "event_annotations": "not_available"
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_23",
+      "split": "test",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 1,
+      "subject": 2,
+      "original_video": "Coffee_room_01/video_23",
+      "source_path": "data/raw/le2i/videos/Coffee_room_01/Coffee_room_01/Videos/video (23).avi",
+      "source_sha256": "eefbc8aff62b98c959cedee592b03dccb5c076168ce65117060236f25283a157",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 12.444,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          3695.9
+        ],
+        [
+          3696.0,
+          12444.0
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 311,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_24",
+      "split": "test",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 1,
+      "subject": 2,
+      "original_video": "Coffee_room_01/video_24",
+      "source_path": "data/raw/le2i/videos/Coffee_room_01/Coffee_room_01/Videos/video (24).avi",
+      "source_sha256": "e9645ce399aa8510fceeb06d88fcd44c2194f0f7f43aa5c189e8571f9b1e6037",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 10.692,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          7570.9
+        ],
+        [
+          7571.0,
+          9862.56
+        ],
+        [
+          9863.0,
+          10692.0
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 267,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_25",
+      "split": "test",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 1,
+      "subject": 2,
+      "original_video": "Coffee_room_01/video_25",
+      "source_path": "data/raw/le2i/videos/Coffee_room_01/Coffee_room_01/Videos/video (25).avi",
+      "source_sha256": "9603f901fac3488bbb6dfd8aab7648a6a212b4839ec09a7eac4158e9bf644390",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 10.46173,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          612.56
+        ],
+        [
+          613.0,
+          2820.9
+        ],
+        [
+          2821.0,
+          5195.9
+        ],
+        [
+          5196.0,
+          10461.73
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 262,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_26",
+      "split": "test",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 1,
+      "subject": 2,
+      "original_video": "Coffee_room_01/video_26",
+      "source_path": "data/raw/le2i/videos/Coffee_room_01/Coffee_room_01/Videos/video (26).avi",
+      "source_sha256": "4bb751d39e29343c9add53835f5efd3ac1dfebe0e868c497406d03023abc6c9b",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 11.12673,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          2341.73
+        ],
+        [
+          2342.0,
+          7341.7300000000005
+        ],
+        [
+          7342.0,
+          11126.73
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 278,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_27",
+      "split": "test",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 1,
+      "subject": 2,
+      "original_video": "Coffee_room_01/video_27",
+      "source_path": "data/raw/le2i/videos/Coffee_room_01/Coffee_room_01/Videos/video (27).avi",
+      "source_sha256": "d0f14fb2e4702e088da54166cecd80f535fb8513150d9a5b1a1c47fff9675ebd",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2,
+        4,
+        7,
+        9
+      ],
+      "annotation_end_seconds": 10.1109,
+      "annotation_intervals_ms": [
+        [
+          1.0,
+          1716.73
+        ],
+        [
+          1717.0,
+          3737.5600000000004
+        ],
+        [
+          3738.0,
+          4737.56
+        ],
+        [
+          4738.0,
+          6236.81
+        ],
+        [
+          6237.0,
+          10110.900000000001
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 253,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_28",
+      "split": "test",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 1,
+      "subject": 2,
+      "original_video": "Coffee_room_01/video_28",
+      "source_path": "data/raw/le2i/videos/Coffee_room_01/Coffee_room_01/Videos/video (28).avi",
+      "source_sha256": "8071f2816a4107aa756ecc049ff267b1cdc92447267c34bb9270743e82b1c362",
+      "contains_fall": true,
+      "activity_labels": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 6.98423,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          4112.56
+        ],
+        [
+          4113.0,
+          6984.2300000000005
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 175,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_4",
+      "split": "test",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 1,
+      "subject": 7,
+      "original_video": "Coffee_room_01/video_4",
+      "source_path": "data/raw/le2i/videos/Coffee_room_01/Coffee_room_01/Videos/video (4).avi",
+      "source_sha256": "f2ff88fea0dc7d9d77539dcc247dd636a12d8552377b7e8b8e4fc0e0b80479b5",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2
+      ],
+      "annotation_end_seconds": 8.27423,
+      "annotation_intervals_ms": [
+        [
+          165.0,
+          4591.7300000000005
+        ],
+        [
+          4592.0,
+          6466.7300000000005
+        ],
+        [
+          6467.0,
+          8274.23
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 207,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_42",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 1,
+      "subject": 5,
+      "original_video": "Coffee_room_01/video_42",
+      "source_path": "data/raw/le2i/videos/Coffee_room_01/Coffee_room_01/Videos/video (42).avi",
+      "source_sha256": "b626499da965f99deb90e1543c16ba4f5f02928d4974c914ed9ceaa6f18e3265",
+      "contains_fall": true,
+      "activity_labels": [
+        1,
+        2,
+        7,
+        8
+      ],
+      "annotation_end_seconds": 6.376,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          5612.56
+        ],
+        [
+          5613.0,
+          6376.0
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 159,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_43",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 1,
+      "subject": 5,
+      "original_video": "Coffee_room_01/video_43",
+      "source_path": "data/raw/le2i/videos/Coffee_room_01/Coffee_room_01/Videos/video (43).avi",
+      "source_sha256": "76a50f192009f64c2a8380cd54d0d4d8e8633bab991cec5553cb2d10f774068f",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2,
+        4,
+        7,
+        8
+      ],
+      "annotation_end_seconds": 28.70923,
+      "annotation_intervals_ms": [
+        [
+          1.0,
+          1341.73
+        ],
+        [
+          1342.0,
+          9987.56
+        ],
+        [
+          9988.0,
+          17362.559999999998
+        ],
+        [
+          17363.0,
+          20320.9
+        ],
+        [
+          20321.0,
+          28709.230000000003
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 718,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_44",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 1,
+      "subject": 5,
+      "original_video": "Coffee_room_01/video_44",
+      "source_path": "data/raw/le2i/videos/Coffee_room_01/Coffee_room_01/Videos/video (44).avi",
+      "source_sha256": "c096c2a8d2d76a684003eeaf0e0eafef95deba4a1208dabdda7a0432f386f98d",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2
+      ],
+      "annotation_end_seconds": 5.332,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          5332.0
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 133,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_45",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 1,
+      "subject": 5,
+      "original_video": "Coffee_room_01/video_45",
+      "source_path": "data/raw/le2i/videos/Coffee_room_01/Coffee_room_01/Videos/video (45).avi",
+      "source_sha256": "10729db9031e148736adfe07841b0352a2192321ad6cd0575591fce0deddd7c7",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2
+      ],
+      "annotation_end_seconds": 8.66756,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          3466.73
+        ],
+        [
+          3467.0,
+          8667.56
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 215,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_46",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 1,
+      "subject": 5,
+      "original_video": "Coffee_room_01/video_46",
+      "source_path": "data/raw/le2i/videos/Coffee_room_01/Coffee_room_01/Videos/video (46).avi",
+      "source_sha256": "89ed4d711c61f7d8d815ded391a354b81232793e76f6a9b3ace7411334db76e4",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2,
+        8
+      ],
+      "annotation_end_seconds": 11.81764,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          2632.64
+        ],
+        [
+          2633.0,
+          6132.64
+        ],
+        [
+          6133.0,
+          8507.64
+        ],
+        [
+          8508.0,
+          11817.640000000001
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 292,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_5",
+      "split": "test",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 1,
+      "subject": 7,
+      "original_video": "Coffee_room_01/video_5",
+      "source_path": "data/raw/le2i/videos/Coffee_room_01/Coffee_room_01/Videos/video (5).avi",
+      "source_sha256": "13d709798d746348a5f1088d53aa76589423e0a0eecac2722df6ccc2cf588d17",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2
+      ],
+      "annotation_end_seconds": 7.541,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          4882.64
+        ],
+        [
+          4883.0,
+          7541.0
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 181,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_6",
+      "split": "test",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 1,
+      "subject": 7,
+      "original_video": "Coffee_room_01/video_6",
+      "source_path": "data/raw/le2i/videos/Coffee_room_01/Coffee_room_01/Videos/video (6).avi",
+      "source_sha256": "261d047602cbcd1ac0f47a29542789723648e8ec095a098c04b2b4095aaf1fb8",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2
+      ],
+      "annotation_end_seconds": 9.54597,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          7090.97
+        ],
+        [
+          7091.0,
+          9545.970000000001
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 239,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_7",
+      "split": "test",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 1,
+      "subject": 7,
+      "original_video": "Coffee_room_01/video_7",
+      "source_path": "data/raw/le2i/videos/Coffee_room_01/Coffee_room_01/Videos/video (7).avi",
+      "source_sha256": "352e1484607d03ce8fdb5aa4070730b27fdd1f444de4e77dd8eee33e7cdf6d15",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2
+      ],
+      "annotation_end_seconds": 6.945,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          6945.0
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 174,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_01-video_8",
+      "split": "test",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 1,
+      "subject": 7,
+      "original_video": "Coffee_room_01/video_8",
+      "source_path": "data/raw/le2i/videos/Coffee_room_01/Coffee_room_01/Videos/video (8).avi",
+      "source_sha256": "9e34fbc85e23406c2ac089dba8fb9ecba69ee303d008a40689ddfb29bbec9733",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2,
+        9
+      ],
+      "annotation_end_seconds": 10.323,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          7782.639999999999
+        ],
+        [
+          7783.0,
+          10323.0
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 258,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_54",
+      "split": "test",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 2,
+      "subject": 7,
+      "original_video": "Coffee_room_02/video_54",
+      "source_path": "data/raw/le2i/videos/Coffee_room_02/Coffee_room_02/Videos/video (54).avi",
+      "source_sha256": "dd375f7b9d2f9a826ed088910007647c591f233aa4347b60011bc8bea76d0f6b",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2
+      ],
+      "annotation_end_seconds": 10.04,
+      "annotation_intervals_ms": [
+        [
+          299.0,
+          10040.0
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 251,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_57",
+      "split": "test",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 2,
+      "subject": 2,
+      "original_video": "Coffee_room_02/video_57",
+      "source_path": "data/raw/le2i/videos/Coffee_room_02/Coffee_room_02/Videos/video (57).avi",
+      "source_sha256": "58dc7d8cc560d74b1451b151a2038a63f40eba91a15c5d4804a649b6405a6f5f",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2,
+        4,
+        7,
+        9
+      ],
+      "annotation_end_seconds": 22.50431,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          9132.64
+        ],
+        [
+          9133.0,
+          17215.969999999998
+        ],
+        [
+          17216.0,
+          20090.969999999998
+        ],
+        [
+          20091.0,
+          22504.31
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 563,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_61",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 2,
+      "subject": 0,
+      "original_video": "Coffee_room_02/video_61",
+      "source_path": "data/raw/le2i/videos/Coffee_room_02/Coffee_room_02/Videos/video (61).avi",
+      "source_sha256": "5ee3d4ef0340e32a5b15ba443ac00452576b8adf332c3270b83a5dcc5eba3125",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7,
+        8,
+        9
+      ],
+      "annotation_end_seconds": 52.84597,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          13007.64
+        ],
+        [
+          13008.0,
+          16111.809999999998
+        ],
+        [
+          16111.999999999998,
+          26986.809999999998
+        ],
+        [
+          26987.0,
+          28840.969999999998
+        ],
+        [
+          28841.0,
+          31590.969999999998
+        ],
+        [
+          31591.0,
+          33486.81
+        ],
+        [
+          33487.0,
+          42611.81
+        ],
+        [
+          42612.0,
+          52845.97
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 1314,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_63",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 2,
+      "subject": 0,
+      "original_video": "Coffee_room_02/video_63",
+      "source_path": "data/raw/le2i/videos/Coffee_room_02/Coffee_room_02/Videos/video (63).avi",
+      "source_sha256": "8dcd19ea45f244f3eea898f7d1f9dd8365bcf9f8f19a852d4a7ba22c4fdadde1",
+      "contains_fall": false,
+      "activity_labels": [
+        9
+      ],
+      "annotation_end_seconds": 23.84097,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          23840.969999999998
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 596,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_65",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 2,
+      "subject": 6,
+      "original_video": "Coffee_room_02/video_65",
+      "source_path": "data/raw/le2i/videos/Coffee_room_02/Coffee_room_02/Videos/video (65).avi",
+      "source_sha256": "8eb4a61f20e32f420be076f5b3137ca0c8669d694d9a1427c8954a8817808d5a",
+      "contains_fall": false,
+      "activity_labels": [
+        9
+      ],
+      "annotation_end_seconds": 28.44264,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          28442.64
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 711,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_66",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 2,
+      "subject": 8,
+      "original_video": "Coffee_room_02/video_66",
+      "source_path": "data/raw/le2i/videos/Coffee_room_02/Coffee_room_02/Videos/video (66).avi",
+      "source_sha256": "36e4a8f3962ecbaf39e22054bb843171666b8689633746a530521e46dc0feb84",
+      "contains_fall": false,
+      "activity_labels": [
+        9
+      ],
+      "annotation_end_seconds": 12.04764,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          12047.64
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 298,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_67",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 2,
+      "subject": 1,
+      "original_video": "Coffee_room_02/video_67",
+      "source_path": "data/raw/le2i/videos/Coffee_room_02/Coffee_room_02/Videos/video (67).avi",
+      "source_sha256": "951e3ff57028b894177cfc7ddcc497788954f75cbc34262dccc58461c159b958",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        9
+      ],
+      "annotation_end_seconds": 13.86014,
+      "annotation_intervals_ms": [
+        [
+          487.0,
+          13860.14
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 347,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_68",
+      "split": "test",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 2,
+      "subject": 7,
+      "original_video": "Coffee_room_02/video_68",
+      "source_path": "data/raw/le2i/videos/Coffee_room_02/Coffee_room_02/Videos/video (68).avi",
+      "source_sha256": "faffafc7537d76943ffb38efc320182bf2780432a56cb6ee1154ca7297f327f4",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7,
+        8,
+        9
+      ],
+      "annotation_end_seconds": 64.27597,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          590.97
+        ],
+        [
+          591.0,
+          4153.47
+        ],
+        [
+          5070.0,
+          8111.81
+        ],
+        [
+          8112.0,
+          20611.809999999998
+        ],
+        [
+          20612.0,
+          45132.64
+        ],
+        [
+          45133.0,
+          48257.64
+        ],
+        [
+          48258.0,
+          50840.97
+        ],
+        [
+          50841.0,
+          52236.81
+        ],
+        [
+          52237.0,
+          64275.97
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 1607,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_69",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 2,
+      "subject": 4,
+      "original_video": "Coffee_room_02/video_69",
+      "source_path": "data/raw/le2i/videos/Coffee_room_02/Coffee_room_02/Videos/video (69).avi",
+      "source_sha256": "1674c721a5624386a3e67bbf32ed3431d4a6510414c552755a8c2dfc988b71db",
+      "contains_fall": false,
+      "activity_labels": [
+        9
+      ],
+      "annotation_end_seconds": 51.31514,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          51315.14
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 1283,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Coffee_room_02-video_70",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 2,
+      "subject": 6,
+      "original_video": "Coffee_room_02/video_70",
+      "source_path": "data/raw/le2i/videos/Coffee_room_02/Coffee_room_02/Videos/video (70).avi",
+      "source_sha256": "1c2dca6f85665990b27f2aeff594bebaf07065662eec904dca4332a035b7f341",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        4,
+        7,
+        8,
+        9
+      ],
+      "annotation_end_seconds": 33.54181,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          3215.97
+        ],
+        [
+          3216.0,
+          8486.81
+        ],
+        [
+          12466.0,
+          16965.969999999998
+        ],
+        [
+          16966.0,
+          21861.809999999998
+        ],
+        [
+          21862.0,
+          25757.64
+        ],
+        [
+          25758.0,
+          28465.969999999998
+        ],
+        [
+          28466.0,
+          30840.969999999998
+        ],
+        [
+          30841.0,
+          33541.81
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 839,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_10",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 3,
+      "subject": 5,
+      "original_video": "Home_01/video_10",
+      "source_path": "data/raw/le2i/videos/Home_01/Home_01/Videos/video (10).avi",
+      "source_sha256": "57806fef560e1c6f74d173c5fb7a65b3630bd9609ceca153749873fc28471807",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        7
+      ],
+      "annotation_end_seconds": 12.98264,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          5111.81
+        ],
+        [
+          5112.0,
+          6382.64
+        ],
+        [
+          6383.0,
+          12982.64
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 312,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_11",
+      "split": "test",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 3,
+      "subject": 7,
+      "original_video": "Home_01/video_11",
+      "source_path": "data/raw/le2i/videos/Home_01/Home_01/Videos/video (11).avi",
+      "source_sha256": "2aa727b1cbac07f9139643e956d291fe93f92e4e75ce2f5d38f676657666c1eb",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        7
+      ],
+      "annotation_end_seconds": 12.98264,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          9965.970000000001
+        ],
+        [
+          9966.0,
+          12982.64
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 312,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_13",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 3,
+      "subject": 5,
+      "original_video": "Home_01/video_13",
+      "source_path": "data/raw/le2i/videos/Home_01/Home_01/Videos/video (13).avi",
+      "source_sha256": "70a4ac9e243c15ed282c8a3f422a0dd7dd46bfd12ecadb59f25f20002fbd86e2",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2
+      ],
+      "annotation_end_seconds": 9.98597,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          8361.81
+        ],
+        [
+          8362.0,
+          9985.97
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 240,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_14",
+      "split": "test",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 3,
+      "subject": 7,
+      "original_video": "Home_01/video_14",
+      "source_path": "data/raw/le2i/videos/Home_01/Home_01/Videos/video (14).avi",
+      "source_sha256": "8c3f6e098323d4cf5b4240f8af9ade7af6d1fa91772f85290e469440956985e9",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2
+      ],
+      "annotation_end_seconds": 11.98514,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          11985.14
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 288,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_15",
+      "split": "test",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 3,
+      "subject": 7,
+      "original_video": "Home_01/video_15",
+      "source_path": "data/raw/le2i/videos/Home_01/Home_01/Videos/video (15).avi",
+      "source_sha256": "137d19293eb3290264c8b79ee114f7a36669f060098e92a5e10324d7aeffd74e",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2,
+        8
+      ],
+      "annotation_end_seconds": 9.90181,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          2236.8100000000004
+        ],
+        [
+          2237.0,
+          8007.64
+        ],
+        [
+          8007.999999999999,
+          9901.81
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 238,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_18",
+      "split": "test",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 3,
+      "subject": 7,
+      "original_video": "Home_01/video_18",
+      "source_path": "data/raw/le2i/videos/Home_01/Home_01/Videos/video (18).avi",
+      "source_sha256": "a0678e41afbee070118dc30769b116f9308c6558b699fa654fa6f9a64c5642c5",
+      "contains_fall": true,
+      "activity_labels": [
+        1,
+        2,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 8.98347,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          2507.64
+        ],
+        [
+          2508.0,
+          8983.470000000001
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 216,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_24",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 3,
+      "subject": 5,
+      "original_video": "Home_01/video_24",
+      "source_path": "data/raw/le2i/videos/Home_01/Home_01/Videos/video (24).avi",
+      "source_sha256": "0bce44d17dcc2685fffcaadb869025adfceea3b20252546af4d3649335d5d774",
+      "contains_fall": true,
+      "activity_labels": [
+        1,
+        2,
+        4,
+        7,
+        9
+      ],
+      "annotation_end_seconds": 7.98597,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          1507.64
+        ],
+        [
+          1508.0,
+          4465.97
+        ],
+        [
+          4466.0,
+          7985.97
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 192,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_25",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 3,
+      "subject": 5,
+      "original_video": "Home_01/video_25",
+      "source_path": "data/raw/le2i/videos/Home_01/Home_01/Videos/video (25).avi",
+      "source_sha256": "01c5a58ced6f38a1138b17b824778bd6c08eb41879477153150e9b799b1e8d24",
+      "contains_fall": true,
+      "activity_labels": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        9
+      ],
+      "annotation_end_seconds": 8.875,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          736.81
+        ],
+        [
+          737.0,
+          8090.97
+        ],
+        [
+          8090.999999999999,
+          8875.0
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 213,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_28",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 3,
+      "subject": 5,
+      "original_video": "Home_01/video_28",
+      "source_path": "data/raw/le2i/videos/Home_01/Home_01/Videos/video (28).avi",
+      "source_sha256": "509096806ef1796e70cf68911d331d96f230d6a9bbb14333053411f15415ca93",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 8.98514,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          4757.64
+        ],
+        [
+          4758.0,
+          8985.14
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 216,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_01-video_4",
+      "split": "validation",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 3,
+      "subject": 5,
+      "original_video": "Home_01/video_4",
+      "source_path": "data/raw/le2i/videos/Home_01/Home_01/Videos/video (4).avi",
+      "source_sha256": "8a472cdda2827578ca597780442c04c2e71e7c6a23e560f399243547b884a298",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 9.98347,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          1590.97
+        ],
+        [
+          1591.0,
+          4007.6400000000003
+        ],
+        [
+          4008.0,
+          5882.64
+        ],
+        [
+          5883.0,
+          9983.470000000001
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 240,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_38",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 0,
+      "original_video": "Home_02/video_38",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (38).avi",
+      "source_sha256": "29325295f1aea7e3088dfa36c7165d5ff04438caa8cfac9fa89c73643286a20c",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        8
+      ],
+      "annotation_end_seconds": 7.98347,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          3882.64
+        ],
+        [
+          3883.0,
+          7983.469999999999
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 192,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_39",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 1,
+      "original_video": "Home_02/video_39",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (39).avi",
+      "source_sha256": "07f67843a227589726e8d2433e77b0e7a0fe67da0fc930335946c35fa8a988b3",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 7.985,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          1632.64
+        ],
+        [
+          1633.0,
+          5007.64
+        ],
+        [
+          5008.0,
+          7985.0
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 192,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_40",
+      "split": "test",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 7,
+      "original_video": "Home_02/video_40",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (40).avi",
+      "source_sha256": "25559cd7c3ca960ab575f373d903d34f98e78110380cb7d2c1090db8da64fa98",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 9.999,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          4382.64
+        ],
+        [
+          4383.0,
+          9999.0
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 240,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_41",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 0,
+      "original_video": "Home_02/video_41",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (41).avi",
+      "source_sha256": "1e8d6f39542b20ab17cd0a3911d4c86aa757a36879c67b24756230df7f299bc5",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 9.98597,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          3382.64
+        ],
+        [
+          3383.0,
+          6715.97
+        ],
+        [
+          6716.0,
+          7965.97
+        ],
+        [
+          7966.0,
+          9985.97
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 240,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_42",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 0,
+      "original_video": "Home_02/video_42",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (42).avi",
+      "source_sha256": "7c73cee01e642210bc00e990aedc2a81b12def20acb82c5ce86e68a4862bf013",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        8
+      ],
+      "annotation_end_seconds": 6.98431,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          3090.97
+        ],
+        [
+          3091.0,
+          4965.97
+        ],
+        [
+          4966.0,
+          6984.3099999999995
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 168,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_43",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 0,
+      "original_video": "Home_02/video_43",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (43).avi",
+      "source_sha256": "0a46440b38a067d96c3dd34d8bf6f5e54e4431453cfcde8bb2de8e2e783b33c2",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        8
+      ],
+      "annotation_end_seconds": 6.98514,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          6985.14
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 168,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_44",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 1,
+      "original_video": "Home_02/video_44",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (44).avi",
+      "source_sha256": "c947200276675ae386f6f4bf9e0846de2b9e6bbaab13015bbf70a351b01ba021",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 13.06514,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          840.97
+        ],
+        [
+          841.0,
+          3611.8100000000004
+        ],
+        [
+          3612.0,
+          11361.81
+        ],
+        [
+          11362.0,
+          13065.14
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 314,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_45",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 1,
+      "original_video": "Home_02/video_45",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (45).avi",
+      "source_sha256": "2c5b0f407afc4beb3011462645142a3403f21e65e0164e001fef4b6afa2f49b7",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 8.98264,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          1611.81
+        ],
+        [
+          1612.0,
+          7215.97
+        ],
+        [
+          7216.0,
+          8982.64
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 216,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_46",
+      "split": "validation",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 5,
+      "original_video": "Home_02/video_46",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (46).avi",
+      "source_sha256": "54983faff96ddc5b7fa95bef51ab04b413b85bd3bf2e499f097a61c175c8bba2",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 10.98681,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          3340.97
+        ],
+        [
+          3341.0,
+          9715.970000000001
+        ],
+        [
+          9716.0,
+          10986.81
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 264,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_47",
+      "split": "validation",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 5,
+      "original_video": "Home_02/video_47",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (47).avi",
+      "source_sha256": "fdc2a365b9f3608a1de43d8b42084aa69268ec8895c8ddd9ac8e2fa0ac411432",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7,
+        8
+      ],
+      "annotation_end_seconds": 12.0,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          3340.97
+        ],
+        [
+          3341.0,
+          8632.64
+        ],
+        [
+          8633.0,
+          11382.64
+        ],
+        [
+          11383.0,
+          12000.0
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 288,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_48",
+      "split": "validation",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 5,
+      "original_video": "Home_02/video_48",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (48).avi",
+      "source_sha256": "e09249d07aa21bb8aa92912c733c2696dd4c14c1aac5d0d9e2de2a8e19f9526d",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 10.0,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          1257.64
+        ],
+        [
+          1258.0,
+          7215.97
+        ],
+        [
+          7216.0,
+          10000.0
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 240,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_51",
+      "split": "validation",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 5,
+      "original_video": "Home_02/video_51",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (51).avi",
+      "source_sha256": "55cd15108b675d4ec510d9f29b2cc2482a1613763bb182b7eb775bfd6e75977c",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        4,
+        7,
+        9
+      ],
+      "annotation_end_seconds": 10.98097,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          715.97
+        ],
+        [
+          716.0,
+          7111.81
+        ],
+        [
+          7112.0,
+          10980.97
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 264,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_52",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 0,
+      "original_video": "Home_02/video_52",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (52).avi",
+      "source_sha256": "96e23fe62a5f4938468da963e6dc0d32201e85762084b86bb908a9b31d6d61f9",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 8.98431,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          7507.64
+        ],
+        [
+          7508.0,
+          8984.310000000001
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 216,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_53",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 0,
+      "original_video": "Home_02/video_53",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (53).avi",
+      "source_sha256": "c36313ad85b544c408b5b5d0082cd3c720e5078c998dc8d34b12a01c8f2470f1",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 8.99597,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          736.81
+        ],
+        [
+          737.0,
+          2236.8100000000004
+        ],
+        [
+          2237.0,
+          6632.64
+        ],
+        [
+          6633.0,
+          8995.97
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 216,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_54",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 0,
+      "original_video": "Home_02/video_54",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (54).avi",
+      "source_sha256": "1de31b1cf9ca2aa0268563c400a8e0e9790d0fc430367e9dd734f9bf23c0a738",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 8.98514,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          1986.81
+        ],
+        [
+          1987.0,
+          3111.8100000000004
+        ],
+        [
+          3112.0,
+          7111.81
+        ],
+        [
+          7112.0,
+          8985.14
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 216,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_55",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 0,
+      "original_video": "Home_02/video_55",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (55).avi",
+      "source_sha256": "e8cfed6a9a8f07b6fdc765fed9803c1fdba2dd478c0d24afa7c5138dce91957a",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 8.98264,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          1257.64
+        ],
+        [
+          1258.0,
+          8982.64
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 216,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_56",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 0,
+      "original_video": "Home_02/video_56",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (56).avi",
+      "source_sha256": "6d1b89ad276e275c1e304af3e430deaeb5bd3e1da49133a83a61ed871809cdd0",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7,
+        9
+      ],
+      "annotation_end_seconds": 14.98431,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          5382.64
+        ],
+        [
+          5383.0,
+          8007.64
+        ],
+        [
+          8007.999999999999,
+          13090.970000000001
+        ],
+        [
+          13091.0,
+          14984.310000000001
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 360,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_57",
+      "split": "test",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 7,
+      "original_video": "Home_02/video_57",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (57).avi",
+      "source_sha256": "6b95a1c8e82ba74d0da6a2907d01461be88c0b88962833b972d7f82506314e9e",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 9.98097,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          3382.64
+        ],
+        [
+          3383.0,
+          6632.64
+        ],
+        [
+          6633.0,
+          8486.81
+        ],
+        [
+          8487.0,
+          9980.97
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 240,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_58",
+      "split": "test",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 7,
+      "original_video": "Home_02/video_58",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (58).avi",
+      "source_sha256": "f4f0106a64132a4203b146fb3c207c0888d1da5811aae7c2c8df7234efe80148",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 14.0,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          6340.97
+        ],
+        [
+          6341.0,
+          7986.81
+        ],
+        [
+          7987.0,
+          14000.0
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 336,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_59",
+      "split": "test",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 7,
+      "original_video": "Home_02/video_59",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (59).avi",
+      "source_sha256": "d098b9e1efd365f7ccca800e77bc2e3dbee99ee1b29fd287b68a9b58bc64c90e",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 8.99931,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          2632.64
+        ],
+        [
+          2633.0,
+          8999.31
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 216,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Home_02-video_60",
+      "split": "test",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 4,
+      "subject": 7,
+      "original_video": "Home_02/video_60",
+      "source_path": "data/raw/le2i/videos/Home_02/Home_02/Videos/video (60).avi",
+      "source_sha256": "a752c24e48d9fe53639dc56ad2df675a180c7be626f3c7a7e1bb3dfb2bbed6e8",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7,
+        9
+      ],
+      "annotation_end_seconds": 12.99931,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          4090.9700000000003
+        ],
+        [
+          4091.0,
+          12999.31
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 312,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_15",
+      "split": "test",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 5,
+      "subject": 7,
+      "original_video": "Lecture_room/video_15",
+      "source_path": "data/raw/le2i/videos/Lecture_room/Lecture room/video (15).avi",
+      "source_sha256": "c8cb5cedc555636993be12a843f40c5b128b0dac4a2ee794066a15073a314f3f",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        9
+      ],
+      "annotation_end_seconds": 22.21597,
+      "annotation_intervals_ms": [
+        [
+          3612.0,
+          7840.97
+        ],
+        [
+          7841.0,
+          22215.969999999998
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 593,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_16",
+      "split": "test",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 5,
+      "subject": 7,
+      "original_video": "Lecture_room/video_16",
+      "source_path": "data/raw/le2i/videos/Lecture_room/Lecture room/video (16).avi",
+      "source_sha256": "4a4e0350bc18be4204cdefc1784a0a9ce3d4f352cff5fca7f9cb584600370834",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        9
+      ],
+      "annotation_end_seconds": 31.19514,
+      "annotation_intervals_ms": [
+        [
+          1527.0,
+          3257.64
+        ],
+        [
+          3258.0,
+          6236.81
+        ],
+        [
+          6237.0,
+          10340.970000000001
+        ],
+        [
+          10341.0,
+          15007.64
+        ],
+        [
+          15008.0,
+          23007.64
+        ],
+        [
+          23008.0,
+          25465.969999999998
+        ],
+        [
+          25466.0,
+          31195.14
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 870,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_17",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 5,
+      "subject": 6,
+      "original_video": "Lecture_room/video_17",
+      "source_path": "data/raw/le2i/videos/Lecture_room/Lecture room/video (17).avi",
+      "source_sha256": "b5e90c3add7dea779e98bb1e37161733c8d653b00f345cddc079b9510001d3f8",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        9
+      ],
+      "annotation_end_seconds": 18.59097,
+      "annotation_intervals_ms": [
+        [
+          3863.0,
+          8715.970000000001
+        ],
+        [
+          8716.0,
+          15361.81
+        ],
+        [
+          15362.0,
+          18590.969999999998
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 506,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_18",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 5,
+      "subject": 6,
+      "original_video": "Lecture_room/video_18",
+      "source_path": "data/raw/le2i/videos/Lecture_room/Lecture room/video (18).avi",
+      "source_sha256": "e5c164e253bbe901821a14557d989618c0cf7915c95471492df0bf5a642dadb2",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7,
+        9
+      ],
+      "annotation_end_seconds": 38.96597,
+      "annotation_intervals_ms": [
+        [
+          2945.0,
+          12715.970000000001
+        ],
+        [
+          12716.0,
+          33882.64
+        ],
+        [
+          33883.0,
+          38965.97
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 1052,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_19",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 5,
+      "subject": 1,
+      "original_video": "Lecture_room/video_19",
+      "source_path": "data/raw/le2i/videos/Lecture_room/Lecture room/video (19).avi",
+      "source_sha256": "c667be788499b5c400808d51fb41233af54290d8eb5776609f781ed1738d829e",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7,
+        8,
+        9
+      ],
+      "annotation_end_seconds": 30.54931,
+      "annotation_intervals_ms": [
+        [
+          2236.0,
+          6257.64
+        ],
+        [
+          6258.0,
+          8007.64
+        ],
+        [
+          8007.999999999999,
+          10257.64
+        ],
+        [
+          10258.0,
+          18257.64
+        ],
+        [
+          18258.0,
+          19965.969999999998
+        ],
+        [
+          19966.0,
+          21132.64
+        ],
+        [
+          21133.0,
+          23590.969999999998
+        ],
+        [
+          23591.0,
+          24465.969999999998
+        ],
+        [
+          24466.0,
+          30549.309999999998
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 818,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_20",
+      "split": "test",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 5,
+      "subject": 7,
+      "original_video": "Lecture_room/video_20",
+      "source_path": "data/raw/le2i/videos/Lecture_room/Lecture room/video (20).avi",
+      "source_sha256": "8b3fb5c6b89ce6d2d09d0facda9c30ebbda0d5929922cafedd25ccdae4530568",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        9
+      ],
+      "annotation_end_seconds": 10.13264,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          5090.97
+        ],
+        [
+          5091.0,
+          10132.64
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 298,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_21",
+      "split": "test",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 5,
+      "subject": 7,
+      "original_video": "Lecture_room/video_21",
+      "source_path": "data/raw/le2i/videos/Lecture_room/Lecture room/video (21).avi",
+      "source_sha256": "c5a8f2c69394c920cfcc7b80ac81dc392e37098246228d4486fb0c02c658ff34",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7,
+        9
+      ],
+      "annotation_end_seconds": 40.46597,
+      "annotation_intervals_ms": [
+        [
+          1883.0,
+          7840.97
+        ],
+        [
+          7841.0,
+          12507.64
+        ],
+        [
+          12508.0,
+          28674.309999999998
+        ],
+        [
+          31403.0,
+          40465.97
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 1130,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_22",
+      "split": "test",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 5,
+      "subject": 7,
+      "original_video": "Lecture_room/video_22",
+      "source_path": "data/raw/le2i/videos/Lecture_room/Lecture room/video (22).avi",
+      "source_sha256": "c813f45cc78fcdb17ecb3fd17633864185df4a0c9587dc6afa597254c5090ab7",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        9
+      ],
+      "annotation_end_seconds": 37.98681,
+      "annotation_intervals_ms": [
+        [
+          3644.0,
+          11611.81
+        ],
+        [
+          11612.0,
+          17007.64
+        ],
+        [
+          17008.0,
+          25215.969999999998
+        ],
+        [
+          25216.0,
+          33965.97
+        ],
+        [
+          33966.0,
+          37986.81
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 987,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_23",
+      "split": "test",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 5,
+      "subject": 7,
+      "original_video": "Lecture_room/video_23",
+      "source_path": "data/raw/le2i/videos/Lecture_room/Lecture room/video (23).avi",
+      "source_sha256": "5bd373aa1df83aed1bd1ba78893bd5526d12b615dc5656c33979573c131efe5c",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        9
+      ],
+      "annotation_end_seconds": 21.23681,
+      "annotation_intervals_ms": [
+        [
+          3353.0,
+          10486.81
+        ],
+        [
+          10487.0,
+          12986.81
+        ],
+        [
+          12987.0,
+          15236.81
+        ],
+        [
+          15237.0,
+          21236.809999999998
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 675,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_24",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 5,
+      "subject": 0,
+      "original_video": "Lecture_room/video_24",
+      "source_path": "data/raw/le2i/videos/Lecture_room/Lecture room/video (24).avi",
+      "source_sha256": "ad678d24d3f9154ec8128190680adc266703d57ee0bfd836e8107024272dee72",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        8,
+        9
+      ],
+      "annotation_end_seconds": 52.09097,
+      "annotation_intervals_ms": [
+        [
+          4902.0,
+          9361.81
+        ],
+        [
+          9362.0,
+          21111.809999999998
+        ],
+        [
+          21112.0,
+          30257.64
+        ],
+        [
+          30258.0,
+          37611.81
+        ],
+        [
+          37612.0,
+          42465.97
+        ],
+        [
+          42466.0,
+          48611.81
+        ],
+        [
+          48612.0,
+          52090.97
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 1442,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_25",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 5,
+      "subject": 0,
+      "original_video": "Lecture_room/video_25",
+      "source_path": "data/raw/le2i/videos/Lecture_room/Lecture room/video (25).avi",
+      "source_sha256": "9626d011eb08632c308f7c3f869fb13d21e30e49de4796637ad499b12beaaf99",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        8,
+        9
+      ],
+      "annotation_end_seconds": 12.42431,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          4840.97
+        ],
+        [
+          4841.0,
+          12424.31
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 376,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_26",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 5,
+      "subject": 0,
+      "original_video": "Lecture_room/video_26",
+      "source_path": "data/raw/le2i/videos/Lecture_room/Lecture room/video (26).avi",
+      "source_sha256": "b575fe6ec9dfe8f47f2b3f61a0219b087d4a0196dd984f5d0c187b6ed479f2cf",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        8,
+        9
+      ],
+      "annotation_end_seconds": 57.16,
+      "annotation_intervals_ms": [
+        [
+          2480.0,
+          8382.64
+        ],
+        [
+          8383.0,
+          23340.969999999998
+        ],
+        [
+          23341.0,
+          27465.969999999998
+        ],
+        [
+          27466.0,
+          38799.31
+        ],
+        [
+          46737.0,
+          51090.97
+        ],
+        [
+          51091.0,
+          56486.81
+        ],
+        [
+          56487.0,
+          57160.0
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 1429,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_27",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 5,
+      "subject": 0,
+      "original_video": "Lecture_room/video_27",
+      "source_path": "data/raw/le2i/videos/Lecture_room/Lecture room/video (27).avi",
+      "source_sha256": "3375f9d4529f71529cc15bfee711d85c5800e1b3749fd73ff51e92b4a39f77ee",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        8
+      ],
+      "annotation_end_seconds": 8.65347,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          8653.470000000001
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 259,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_4",
+      "split": "test",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 5,
+      "subject": 7,
+      "original_video": "Lecture_room/video_4",
+      "source_path": "data/raw/le2i/videos/Lecture_room/Lecture room/video (4).avi",
+      "source_sha256": "f416898128fba91c6da47b149cf099ba88a15eb47afbe02d044065e22edfdfd3",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2,
+        9
+      ],
+      "annotation_end_seconds": 16.06764,
+      "annotation_intervals_ms": [
+        [
+          4362.0,
+          9736.81
+        ],
+        [
+          9737.0,
+          16067.640000000001
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 402,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Lecture_room-video_5",
+      "split": "test",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 5,
+      "subject": 7,
+      "original_video": "Lecture_room/video_5",
+      "source_path": "data/raw/le2i/videos/Lecture_room/Lecture room/video (5).avi",
+      "source_sha256": "b55d17a974fad449eb459d3c13f70dfafeea7c0563ea78ed57581e19dd4a5a7f",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2,
+        9
+      ],
+      "annotation_end_seconds": 15.54597,
+      "annotation_intervals_ms": [
+        [
+          3565.0,
+          8465.970000000001
+        ],
+        [
+          8466.0,
+          10486.81
+        ],
+        [
+          10487.0,
+          15545.970000000001
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 389,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Office-video_10",
+      "split": "test",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 6,
+      "subject": 7,
+      "original_video": "Office/video_10",
+      "source_path": "data/raw/le2i/videos/Office/Office/video (10).avi",
+      "source_sha256": "fd16eb635e833fa35689d986242bed4a5b0e5b763275e06ab7111efa337b016e",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2,
+        9
+      ],
+      "annotation_end_seconds": 10.75514,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          2111.8100000000004
+        ],
+        [
+          2112.0,
+          7840.97
+        ],
+        [
+          7841.0,
+          10755.140000000001
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 269,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Office-video_11",
+      "split": "test",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 6,
+      "subject": 7,
+      "original_video": "Office/video_11",
+      "source_path": "data/raw/le2i/videos/Office/Office/video (11).avi",
+      "source_sha256": "a9a740431fc896f8888fc3ff50c164ddc2b5f06257da33504b5ff59e7d41cd88",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2
+      ],
+      "annotation_end_seconds": 7.71181,
+      "annotation_intervals_ms": [
+        [
+          1653.0,
+          3090.97
+        ],
+        [
+          3091.0,
+          7711.8099999999995
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 193,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Office-video_12",
+      "split": "test",
+      "label": 1,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 6,
+      "subject": 7,
+      "original_video": "Office/video_12",
+      "source_path": "data/raw/le2i/videos/Office/Office/video (12).avi",
+      "source_sha256": "a481f6d85f85755e81dfd24002ebe64e3c109018c856dbf116896140ba8c3a8f",
+      "contains_fall": true,
+      "activity_labels": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "annotation_end_seconds": 11.91931,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          6007.64
+        ],
+        [
+          6008.0,
+          8715.970000000001
+        ],
+        [
+          8716.0,
+          11919.31
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 298,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Office-video_18",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 6,
+      "subject": 3,
+      "original_video": "Office/video_18",
+      "source_path": "data/raw/le2i/videos/Office/Office/video (18).avi",
+      "source_sha256": "55beea4bb971f3bf657f9f90cd224bc2d4cfd76f92087ab9c561c719d493c08a",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7,
+        9
+      ],
+      "annotation_end_seconds": 28.69514,
+      "annotation_intervals_ms": [
+        [
+          3206.0,
+          5590.97
+        ],
+        [
+          5591.0,
+          10882.64
+        ],
+        [
+          10883.0,
+          13715.970000000001
+        ],
+        [
+          13716.0,
+          23590.969999999998
+        ],
+        [
+          23591.0,
+          24590.969999999998
+        ],
+        [
+          24591.0,
+          28695.14
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 766,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Office-video_19",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 6,
+      "subject": 1,
+      "original_video": "Office/video_19",
+      "source_path": "data/raw/le2i/videos/Office/Office/video (19).avi",
+      "source_sha256": "a3f22718032a492237b959b36e2bef9baa9bb91412df44956d31489cabd2c91f",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        9
+      ],
+      "annotation_end_seconds": 12.44514,
+      "annotation_intervals_ms": [
+        [
+          1091.0,
+          3236.8100000000004
+        ],
+        [
+          3237.0,
+          9632.64
+        ],
+        [
+          9633.0,
+          12445.14
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 329,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Office-video_20",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 6,
+      "subject": 1,
+      "original_video": "Office/video_20",
+      "source_path": "data/raw/le2i/videos/Office/Office/video (20).avi",
+      "source_sha256": "1a5a180aae178face19b57df164606cba4e67ba26d49ad6193abd2224f1a51d4",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        9
+      ],
+      "annotation_end_seconds": 21.27764,
+      "annotation_intervals_ms": [
+        [
+          633.0,
+          21277.640000000003
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 532,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Office-video_21",
+      "split": "test",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 6,
+      "subject": 7,
+      "original_video": "Office/video_21",
+      "source_path": "data/raw/le2i/videos/Office/Office/video (21).avi",
+      "source_sha256": "2a138696026e57fa9726b660fefeb8fcde2fc64be6cb20262a6b16de5873d312",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7,
+        9
+      ],
+      "annotation_end_seconds": 15.77847,
+      "annotation_intervals_ms": [
+        [
+          508.0,
+          5590.97
+        ],
+        [
+          5591.0,
+          10486.81
+        ],
+        [
+          10487.0,
+          15778.470000000001
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 428,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Office-video_22",
+      "split": "test",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 6,
+      "subject": 7,
+      "original_video": "Office/video_22",
+      "source_path": "data/raw/le2i/videos/Office/Office/video (22).avi",
+      "source_sha256": "6eaacebe3592315eca5be903580f9b43e374602853b8ab9154b4eb700285959b",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        9
+      ],
+      "annotation_end_seconds": 8.485,
+      "annotation_intervals_ms": [
+        [
+          565.0,
+          8485.0
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 221,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Office-video_23",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 6,
+      "subject": 0,
+      "original_video": "Office/video_23",
+      "source_path": "data/raw/le2i/videos/Office/Office/video (23).avi",
+      "source_sha256": "a5c8576fee9f4b43c88927dd789433621ff1a16bdd5a1bb1179eb0d44f8e9619",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7,
+        9
+      ],
+      "annotation_end_seconds": 45.83181,
+      "annotation_intervals_ms": [
+        [
+          5070.0,
+          12382.64
+        ],
+        [
+          12383.0,
+          13486.81
+        ],
+        [
+          13487.0,
+          20715.969999999998
+        ],
+        [
+          20716.0,
+          29215.969999999998
+        ],
+        [
+          29216.0,
+          32611.809999999998
+        ],
+        [
+          32612.000000000004,
+          39132.64
+        ],
+        [
+          39133.0,
+          41611.81
+        ],
+        [
+          41612.0,
+          45831.81
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 1146,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Office-video_24",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 6,
+      "subject": 0,
+      "original_video": "Office/video_24",
+      "source_path": "data/raw/le2i/videos/Office/Office/video (24).avi",
+      "source_sha256": "90293ded95b0d832c491b90381a5306e2de92bf3744effc8ef19c98a492d8341",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        4,
+        7,
+        9
+      ],
+      "annotation_end_seconds": 32.73681,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          20715.969999999998
+        ],
+        [
+          20716.0,
+          26486.809999999998
+        ],
+        [
+          26487.0,
+          30861.809999999998
+        ],
+        [
+          30862.0,
+          32736.809999999998
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 829,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Office-video_25",
+      "split": "test",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 6,
+      "subject": 7,
+      "original_video": "Office/video_25",
+      "source_path": "data/raw/le2i/videos/Office/Office/video (25).avi",
+      "source_sha256": "3a2926d55e935adf5985eb9e0a1818ca0683ba7b2221eb3c0d257d98b22c24fe",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7,
+        9
+      ],
+      "annotation_end_seconds": 39.50264,
+      "annotation_intervals_ms": [
+        [
+          4430.0,
+          7132.64
+        ],
+        [
+          7133.0,
+          10736.81
+        ],
+        [
+          10737.0,
+          20236.809999999998
+        ],
+        [
+          20237.0,
+          26215.969999999998
+        ],
+        [
+          26216.0,
+          29132.64
+        ],
+        [
+          29133.0,
+          34590.97
+        ],
+        [
+          34591.0,
+          36986.81
+        ],
+        [
+          36987.0,
+          39502.64
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 988,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Office-video_26",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 6,
+      "subject": 0,
+      "original_video": "Office/video_26",
+      "source_path": "data/raw/le2i/videos/Office/Office/video (26).avi",
+      "source_sha256": "8c4c180f2917a29bfd7f9412f72ca7ab7a4e57aa6071bb56fb9ffa0d7157c67e",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        8,
+        9
+      ],
+      "annotation_end_seconds": 19.67431,
+      "annotation_intervals_ms": [
+        [
+          1112.0,
+          5611.81
+        ],
+        [
+          5612.0,
+          19674.309999999998
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 499,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Office-video_27",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 6,
+      "subject": 0,
+      "original_video": "Office/video_27",
+      "source_path": "data/raw/le2i/videos/Office/Office/video (27).avi",
+      "source_sha256": "3523206d4f1662952ad15bc6a45bf4494bda7c385228359774920eef6622a805",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7,
+        9
+      ],
+      "annotation_end_seconds": 31.75764,
+      "annotation_intervals_ms": [
+        [
+          1341.0,
+          7465.97
+        ],
+        [
+          7466.0,
+          9132.64
+        ],
+        [
+          9133.0,
+          13486.81
+        ],
+        [
+          13487.0,
+          29632.64
+        ],
+        [
+          29633.0,
+          31757.64
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 811,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Office-video_28",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 6,
+      "subject": 0,
+      "original_video": "Office/video_28",
+      "source_path": "data/raw/le2i/videos/Office/Office/video (28).avi",
+      "source_sha256": "e34cec601517af35183c8a37a06087de23c16a270088dd2cc1a25698edc00fc6",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        8,
+        9
+      ],
+      "annotation_end_seconds": 19.77847,
+      "annotation_intervals_ms": [
+        [
+          966.0,
+          3257.64
+        ],
+        [
+          3258.0,
+          13215.970000000001
+        ],
+        [
+          13216.0,
+          17757.64
+        ],
+        [
+          17758.0,
+          19778.469999999998
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 505,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Office-video_29",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 6,
+      "subject": 0,
+      "original_video": "Office/video_29",
+      "source_path": "data/raw/le2i/videos/Office/Office/video (29).avi",
+      "source_sha256": "931b9f398a15a8da1852299617567cefcc116d415f1557ac5725f53acfecac25",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        8,
+        9
+      ],
+      "annotation_end_seconds": 46.19514,
+      "annotation_intervals_ms": [
+        [
+          0.0,
+          1736.81
+        ],
+        [
+          1737.0,
+          30986.809999999998
+        ],
+        [
+          30987.0,
+          36986.81
+        ],
+        [
+          36987.0,
+          42111.81
+        ],
+        [
+          42112.0,
+          46195.14
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 1221,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Office-video_30",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 6,
+      "subject": 0,
+      "original_video": "Office/video_30",
+      "source_path": "data/raw/le2i/videos/Office/Office/video (30).avi",
+      "source_sha256": "62b2967fee40e228fbb1091aeb52b772aa9841560bc95c3e29d700f6c3605ded",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7,
+        9
+      ],
+      "annotation_end_seconds": 46.53106,
+      "annotation_intervals_ms": [
+        [
+          5591.0,
+          13462.880000000001
+        ],
+        [
+          13463.0,
+          16712.879999999997
+        ],
+        [
+          16713.0,
+          33621.969999999994
+        ],
+        [
+          33622.0,
+          40144.7
+        ],
+        [
+          40145.0,
+          46531.06
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 1247,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Office-video_31",
+      "split": "test",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 6,
+      "subject": 7,
+      "original_video": "Office/video_31",
+      "source_path": "data/raw/le2i/videos/Office/Office/video (31).avi",
+      "source_sha256": "8598fb6c05702b51614886fccde24d667a7b64344d0f77581e773e5d02fffdff",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        8
+      ],
+      "annotation_end_seconds": 7.13264,
+      "annotation_intervals_ms": [
+        [
+          195.0,
+          2382.64
+        ],
+        [
+          2383.0,
+          7132.64
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 203,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Office-video_32",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 6,
+      "subject": 0,
+      "original_video": "Office/video_32",
+      "source_path": "data/raw/le2i/videos/Office/Office/video (32).avi",
+      "source_sha256": "bdcffbf130617085013ba3e32b6e9263ff284f1185a8fa48d36b6209fee1efec",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7,
+        9
+      ],
+      "annotation_end_seconds": 21.38264,
+      "annotation_intervals_ms": [
+        [
+          3653.0,
+          5965.97
+        ],
+        [
+          5966.0,
+          9611.81
+        ],
+        [
+          9612.0,
+          10340.970000000001
+        ],
+        [
+          10341.0,
+          19486.809999999998
+        ],
+        [
+          19487.0,
+          21382.64
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 544,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "le2i-Office-video_33",
+      "split": "train",
+      "label": 0,
+      "dataset": "le2i",
+      "modality": "rgb",
+      "camera": 6,
+      "subject": 0,
+      "original_video": "Office/video_33",
+      "source_path": "data/raw/le2i/videos/Office/Office/video (33).avi",
+      "source_sha256": "ddc10182107bf2fb4a1015ae036f28e5e965d0f22e1cd92bf4a5f78d56be6f2f",
+      "contains_fall": false,
+      "activity_labels": [
+        0,
+        3,
+        4,
+        7,
+        9
+      ],
+      "annotation_end_seconds": 24.92431,
+      "annotation_intervals_ms": [
+        [
+          2612.0,
+          5465.97
+        ],
+        [
+          5466.0,
+          7465.97
+        ],
+        [
+          7466.0,
+          12257.64
+        ],
+        [
+          12258.0,
+          14007.64
+        ],
+        [
+          14008.0,
+          16757.64
+        ],
+        [
+          16758.0,
+          19361.809999999998
+        ],
+        [
+          19362.0,
+          22882.64
+        ],
+        [
+          22883.0,
+          24924.309999999998
+        ]
+      ],
+      "status": "validated",
+      "decoded_images": 639,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S01-Hop",
+      "subject": 1,
+      "activity": "Hop",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.1/Hop/HopS1.avi",
+      "crc32": 850903290,
+      "source_path": "data/raw/caucafall/original/Subject.1/HopS1.avi",
+      "source_sha256": "1f5ecb50d2d454f265d6a3c036dd5b7ca9835cf7492821d68f99ed7d259ecd66",
+      "size_bytes": 1502082,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 182,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S01-Kneel",
+      "subject": 1,
+      "activity": "Kneel",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.1/Kneel/KneelS1.avi",
+      "crc32": 1822750991,
+      "source_path": "data/raw/caucafall/original/Subject.1/KneelS1.avi",
+      "source_sha256": "010f7f6f03908b72e62ef03fe8c96cbf0a7f4fa1f740f5b3c911f66df8edbbbb",
+      "size_bytes": 1529466,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 219,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S01-Pickupobject",
+      "subject": 1,
+      "activity": "Pickupobject",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.1/Pick up object/PickupobjectS1.avi",
+      "crc32": 2560326881,
+      "source_path": "data/raw/caucafall/original/Subject.1/PickupobjectS1.avi",
+      "source_sha256": "507951c796e33524a48d90c05bf340c3d07539b4884a75747ed8470a38d7784f",
+      "size_bytes": 777314,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 117,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S01-SitDown",
+      "subject": 1,
+      "activity": "SitDown",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.1/Sit down/SitDownS1.avi",
+      "crc32": 1279001779,
+      "source_path": "data/raw/caucafall/original/Subject.1/SitDownS1.avi",
+      "source_sha256": "d76e3235b539f61e7e5774d1bfd4324186281bac6d4b894c722869ab3b40b574",
+      "size_bytes": 1295642,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 187,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S01-Walk",
+      "subject": 1,
+      "activity": "Walk",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.1/Walk/WalkS1.avi",
+      "crc32": 1432343596,
+      "source_path": "data/raw/caucafall/original/Subject.1/WalkS1.avi",
+      "source_sha256": "2a1cd10ea795086e8bbdfe50027c0e31fedacc556c7327298bf0f1aa2840b6f1",
+      "size_bytes": 1831252,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 242,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S02-FallBackwards",
+      "subject": 2,
+      "activity": "FallBackwards",
+      "label": 1,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.2/Fall backwards/FallBackwardsS2.avi",
+      "crc32": 4286252857,
+      "source_path": "data/raw/caucafall/original/Subject.2/FallBackwardsS2.avi",
+      "source_sha256": "c854d5d71324a95e0cd02aaa47c390575bbe61d187fcb363e67ed202ffb02d77",
+      "size_bytes": 895398,
+      "split": "test",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 119,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S02-FallForward",
+      "subject": 2,
+      "activity": "FallForward",
+      "label": 1,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.2/Fall forward/FallForwardS2.avi",
+      "crc32": 2023626496,
+      "source_path": "data/raw/caucafall/original/Subject.2/FallForwardS2.avi",
+      "source_sha256": "90bdeb79af92bcfc2d1e5907ece58760f43700ad1d65e8d2d9d7ce80f2bad2cb",
+      "size_bytes": 744926,
+      "split": "test",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 106,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S02-FallLeft",
+      "subject": 2,
+      "activity": "FallLeft",
+      "label": 1,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.2/Fall left/FallLeftS2.avi",
+      "crc32": 732466065,
+      "source_path": "data/raw/caucafall/original/Subject.2/FallLeftS2.avi",
+      "source_sha256": "f0b7a67ef05d4df030247c4b46d7a59983a2c2d3d3ef0c3153978f5875ce062b",
+      "size_bytes": 862334,
+      "split": "test",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 109,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S02-FallRight",
+      "subject": 2,
+      "activity": "FallRight",
+      "label": 1,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.2/Fall right/FallRightS2.avi",
+      "crc32": 1007854791,
+      "source_path": "data/raw/caucafall/original/Subject.2/FallRightS2.avi",
+      "source_sha256": "fd6cafd10426e7e63a8e2571f2779fc6554db39c46d5e6b477a90ccddcfcd7e1",
+      "size_bytes": 1094286,
+      "split": "test",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 146,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S02-FallSitting",
+      "subject": 2,
+      "activity": "FallSitting",
+      "label": 1,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.2/Fall sitting/FallSittingS2.avi",
+      "crc32": 3883903375,
+      "source_path": "data/raw/caucafall/original/Subject.2/FallSittingS2.avi",
+      "source_sha256": "908a88acd5f8fd08b10fa7cb9a14e0472e03c4434cfe068a2b57f48832716333",
+      "size_bytes": 1377284,
+      "split": "test",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 157,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S02-Hop",
+      "subject": 2,
+      "activity": "Hop",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.2/Hop/HopS2.avi",
+      "crc32": 1654880834,
+      "source_path": "data/raw/caucafall/original/Subject.2/HopS2.avi",
+      "source_sha256": "741630c13a1ef6bd058c40f1759296d792d070a67cb4452774edffcac7f2335f",
+      "size_bytes": 1472860,
+      "split": "test",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 171,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S02-Kneel",
+      "subject": 2,
+      "activity": "Kneel",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.2/Kneel/KneelS2.avi",
+      "crc32": 1792977866,
+      "source_path": "data/raw/caucafall/original/Subject.2/KneelS2.avi",
+      "source_sha256": "b2fba26f4789dab8425dc8c995a67fff0aa98c90e619bc2c4897c8dba1b44ca7",
+      "size_bytes": 970104,
+      "split": "test",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 130,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S02-Pickupobject",
+      "subject": 2,
+      "activity": "Pickupobject",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.2/Pick up object/PickupobjectS2.avi",
+      "crc32": 1609040567,
+      "source_path": "data/raw/caucafall/original/Subject.2/PickupobjectS2.avi",
+      "source_sha256": "fd7f3a1e42185b6ce58d74095085bf06a35909454a0c99dae42f18cb8b62949f",
+      "size_bytes": 1279114,
+      "split": "test",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 166,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S02-SitDown",
+      "subject": 2,
+      "activity": "SitDown",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.2/Sit down/SitDownS2.avi",
+      "crc32": 3675574248,
+      "source_path": "data/raw/caucafall/original/Subject.2/SitDownS2.avi",
+      "source_sha256": "e5cb284651fddc54c844116cacad043a769f965932d5e2eb2f98e8cfba1ef310",
+      "size_bytes": 922116,
+      "split": "test",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 112,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S02-Walk",
+      "subject": 2,
+      "activity": "Walk",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.2/Walk/WalkS2.avi",
+      "crc32": 2532358668,
+      "source_path": "data/raw/caucafall/original/Subject.2/WalkS2.avi",
+      "source_sha256": "dd87d6d2b7dad7c12623ed6b148f5fff8ce2665651b03ba5829a6a1192d9f162",
+      "size_bytes": 1554174,
+      "split": "test",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 244,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S03-Hop",
+      "subject": 3,
+      "activity": "Hop",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.3/Hop/HopS3.avi",
+      "crc32": 1139960369,
+      "source_path": "data/raw/caucafall/original/Subject.3/HopS3.avi",
+      "source_sha256": "2bc573a7c6c058eb92a642c4c3ebd9180e8ebf84efbeb7b0d72129ff1b082ce6",
+      "size_bytes": 1435362,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 162,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S03-Kneel",
+      "subject": 3,
+      "activity": "Kneel",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.3/Kneel/KneelS3.avi",
+      "crc32": 1000073697,
+      "source_path": "data/raw/caucafall/original/Subject.3/KneelS3.avi",
+      "source_sha256": "226a3a8deda52e09a87eb712cdd5a4948677fbbd14be9489e1a38433559857d1",
+      "size_bytes": 1640662,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 213,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S03-Pickupobject",
+      "subject": 3,
+      "activity": "Pickupobject",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.3/Pick up object/PickupobjectS3.avi",
+      "crc32": 657134929,
+      "source_path": "data/raw/caucafall/original/Subject.3/PickupobjectS3.avi",
+      "source_sha256": "b33eff62ba3a0d84c7df2c1de51f197d5146ac509a95c63297ba926301105b88",
+      "size_bytes": 1345388,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 186,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S03-SitDown",
+      "subject": 3,
+      "activity": "SitDown",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.3/Sit down/SitDownS3.avi",
+      "crc32": 1203125344,
+      "source_path": "data/raw/caucafall/original/Subject.3/SitDownS3.avi",
+      "source_sha256": "8f1ef95774f6df9acfe2074eeea4e2aa395b65142628f31c84e456127714fcbb",
+      "size_bytes": 2127766,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 261,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S03-Walk",
+      "subject": 3,
+      "activity": "Walk",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.3/Walk/WalkS3.avi",
+      "crc32": 1281416260,
+      "source_path": "data/raw/caucafall/original/Subject.3/WalkS3.avi",
+      "source_sha256": "f27c01974837f3421ad6585dc107943259755898f295d1b675243cdf971ae639",
+      "size_bytes": 1472410,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 176,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S04-Hop",
+      "subject": 4,
+      "activity": "Hop",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.4/Hop/HopS4.avi",
+      "crc32": 536783893,
+      "source_path": "data/raw/caucafall/original/Subject.4/HopS4.avi",
+      "source_sha256": "5622c3637c069569ab55bf70168033a347c5219e05116ce53f610b942b7c60c6",
+      "size_bytes": 1220880,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 144,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S04-Kneel",
+      "subject": 4,
+      "activity": "Kneel",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.4/Kneel/KneelS4.avi",
+      "crc32": 987243034,
+      "source_path": "data/raw/caucafall/original/Subject.4/KneelS4.avi",
+      "source_sha256": "db3178cf245f16114e3be698e9b6a8f033f1d6ab83692fb38851c7989b9f80b2",
+      "size_bytes": 1665648,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 222,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S04-Pickupobject",
+      "subject": 4,
+      "activity": "Pickupobject",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.4/Pick up object/PickupobjectS4.avi",
+      "crc32": 1996700411,
+      "source_path": "data/raw/caucafall/original/Subject.4/PickupobjectS4.avi",
+      "source_sha256": "20ec67d9d0f94e7d2209a8ac00b3cd2833856d5c055a3367a430a0c15de74c13",
+      "size_bytes": 800142,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 179,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S04-SitDown",
+      "subject": 4,
+      "activity": "SitDown",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.4/Sit down/SitDownS4.avi",
+      "crc32": 2109606163,
+      "source_path": "data/raw/caucafall/original/Subject.4/SitDownS4.avi",
+      "source_sha256": "33fff11f0b7a652265c94d3ba440215fc68fe24af05e296aba9ebeab6d593941",
+      "size_bytes": 1782556,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 199,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S04-Walk",
+      "subject": 4,
+      "activity": "Walk",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.4/Walk/WalkS4.avi",
+      "crc32": 962936477,
+      "source_path": "data/raw/caucafall/original/Subject.4/WalkS4.avi",
+      "source_sha256": "aebd7de624439b199b4aaa2a72e613dd7cfb59be5badd63a3b9f9a8005b0d1bd",
+      "size_bytes": 1970540,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 240,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S05-FallBackwards",
+      "subject": 5,
+      "activity": "FallBackwards",
+      "label": 1,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.5/Fall backwards/FallBackwardsS5.avi",
+      "crc32": 1040701893,
+      "source_path": "data/raw/caucafall/original/Subject.5/FallBackwardsS5.avi",
+      "source_sha256": "4134c44369c712337e273d5b8fa133f0c2a7718c4bfe2600fcb6ac3f97b265a8",
+      "size_bytes": 1613478,
+      "split": "validation",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 214,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S05-FallForward",
+      "subject": 5,
+      "activity": "FallForward",
+      "label": 1,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.5/Fall forward/FallForwardS5.avi",
+      "crc32": 1127439386,
+      "source_path": "data/raw/caucafall/original/Subject.5/FallForwardS5.avi",
+      "source_sha256": "40bc4b138ef15245926eb765348a1e045adc7a36ab66b91eed2d3b786bfdbe14",
+      "size_bytes": 1479262,
+      "split": "validation",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 200,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S05-FallLeft",
+      "subject": 5,
+      "activity": "FallLeft",
+      "label": 1,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.5/Fall left/FallLeftS5.avi",
+      "crc32": 1527889491,
+      "source_path": "data/raw/caucafall/original/Subject.5/FallLeftS5.avi",
+      "source_sha256": "cf6e087654c44d0108d728dfe6d1ecdf1b49231496aed4278cdb6656c272be36",
+      "size_bytes": 1747054,
+      "split": "validation",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 247,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S05-FallRight",
+      "subject": 5,
+      "activity": "FallRight",
+      "label": 1,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.5/Fall right/FallRightS5.avi",
+      "crc32": 985419398,
+      "source_path": "data/raw/caucafall/original/Subject.5/FallRightS5.avi",
+      "source_sha256": "0fc750f08f9e78fad22a9e80a298d7bdf4060a376aa5d721a18ceb195e4806a4",
+      "size_bytes": 1626096,
+      "split": "validation",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 219,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S05-FallSitting",
+      "subject": 5,
+      "activity": "FallSitting",
+      "label": 1,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.5/Fall sitting/FallSittingS5.avi",
+      "crc32": 631449708,
+      "source_path": "data/raw/caucafall/original/Subject.5/FallSittingS5.avi",
+      "source_sha256": "bd2df0f8c185335fa71811d947e5dbbed572c6af4d959d3e9dca59671af47222",
+      "size_bytes": 1652816,
+      "split": "validation",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 229,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S05-Hop",
+      "subject": 5,
+      "activity": "Hop",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.5/Hop/HopS5.avi",
+      "crc32": 2487381018,
+      "source_path": "data/raw/caucafall/original/Subject.5/HopS5.avi",
+      "source_sha256": "243e44f0708921b1eebf7910c9145bc4c2b8cdc344532cc9e470b33b811592e8",
+      "size_bytes": 1241294,
+      "split": "validation",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 122,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S05-Kneel",
+      "subject": 5,
+      "activity": "Kneel",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.5/Kneel/KneelS5.avi",
+      "crc32": 1928393364,
+      "source_path": "data/raw/caucafall/original/Subject.5/KneelS5.avi",
+      "source_sha256": "0f73541402f4d432f5ad5808d9fba188d66dde8bc8ac130c8b79149c3b9a5a55",
+      "size_bytes": 1638980,
+      "split": "validation",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 208,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S05-Pickupobject",
+      "subject": 5,
+      "activity": "Pickupobject",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.5/Pick up object/PickupobjectS5.avi",
+      "crc32": 1368655922,
+      "source_path": "data/raw/caucafall/original/Subject.5/PickupobjectS5.avi",
+      "source_sha256": "60512bf30f1da6e46accd087eea35af32d57984dd1c5e7e326b7b259bfb14b1c",
+      "size_bytes": 2043534,
+      "split": "validation",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 271,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S05-SitDown",
+      "subject": 5,
+      "activity": "SitDown",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.5/Sit down/SitDownS5.avi",
+      "crc32": 964614836,
+      "source_path": "data/raw/caucafall/original/Subject.5/SitDownS5.avi",
+      "source_sha256": "150230d34b5e3822eab4350e14e404f7736a894c16840138e41255fb16b4f21a",
+      "size_bytes": 1977642,
+      "split": "validation",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 260,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S05-Walk",
+      "subject": 5,
+      "activity": "Walk",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.5/Walk/WalkS5.avi",
+      "crc32": 1643354521,
+      "source_path": "data/raw/caucafall/original/Subject.5/WalkS5.avi",
+      "source_sha256": "0aa4741cfb9523fca778f0bc06739c832fe70089b37d0b0b9968e97ee9c61555",
+      "size_bytes": 1878826,
+      "split": "validation",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 226,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S06-Hop",
+      "subject": 6,
+      "activity": "Hop",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.6/Hop/HopS6.avi",
+      "crc32": 4154232656,
+      "source_path": "data/raw/caucafall/original/Subject.6/HopS6.avi",
+      "source_sha256": "93567068cd33b20675120ea6e60a5368526e9aaf615979ab6f776bb2ff0a8d1f",
+      "size_bytes": 630762,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 162,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S06-Kneel",
+      "subject": 6,
+      "activity": "Kneel",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.6/Kneel/KneelS6.avi",
+      "crc32": 3962390901,
+      "source_path": "data/raw/caucafall/original/Subject.6/KneelS6.avi",
+      "source_sha256": "ff7ae813f7cec881e0a0e548806c63c367e8e10e6aeb327077641ee3d567cbee",
+      "size_bytes": 633196,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 189,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S06-Pickupobject",
+      "subject": 6,
+      "activity": "Pickupobject",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.6/Pick up object/PickupobjectS6.avi",
+      "crc32": 1924688198,
+      "source_path": "data/raw/caucafall/original/Subject.6/PickupobjectS6.avi",
+      "source_sha256": "23de7908d3b531b51714130327a97639cd2117bbbf0516afe42cb3d64301ad06",
+      "size_bytes": 746362,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 202,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S06-SitDown",
+      "subject": 6,
+      "activity": "SitDown",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.6/Sit down/SitDownS6.avi",
+      "crc32": 2707136933,
+      "source_path": "data/raw/caucafall/original/Subject.6/SitDownS6.avi",
+      "source_sha256": "bba4fc0196747a66e6b540b4baafaf870a7951d90f1146752982470189e84acc",
+      "size_bytes": 633078,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 189,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S06-Walk",
+      "subject": 6,
+      "activity": "Walk",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.6/Walk/WalkS6.avi",
+      "crc32": 2053864719,
+      "source_path": "data/raw/caucafall/original/Subject.6/WalkS6.avi",
+      "source_sha256": "c49a3305d31e2ba72a7d71dda9ba5c7475fe008a9c8f4efed34c51405bcb2101",
+      "size_bytes": 1019362,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 266,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S07-Hop",
+      "subject": 7,
+      "activity": "Hop",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.7/Hop/HopS7.avi",
+      "crc32": 2518461226,
+      "source_path": "data/raw/caucafall/original/Subject.7/HopS7.avi",
+      "source_sha256": "51d195f516cb58b0bcb62f74cc9a1d96af11544895d1b304d29bb31e7b73c6e8",
+      "size_bytes": 1884964,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 198,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S07-Kneel",
+      "subject": 7,
+      "activity": "Kneel",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.7/Kneel/KneelS7.avi",
+      "crc32": 1247006215,
+      "source_path": "data/raw/caucafall/original/Subject.7/KneelS7.avi",
+      "source_sha256": "d5372ed4ec9793ef6525afc229668470c86c35f220a08bb39865b5a3638eb333",
+      "size_bytes": 1592226,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 202,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S07-Pickupobject",
+      "subject": 7,
+      "activity": "Pickupobject",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.7/Pick up object/PickupobjectS7.avi",
+      "crc32": 3719352951,
+      "source_path": "data/raw/caucafall/original/Subject.7/PickupobjectS7.avi",
+      "source_sha256": "2a365ba3d1cc79350b1c245309c567b783d1ce1a1747a63826cffc797516d14e",
+      "size_bytes": 1254724,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 153,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S07-SitDown",
+      "subject": 7,
+      "activity": "SitDown",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.7/Sit down/SitDownS7.avi",
+      "crc32": 3708319257,
+      "source_path": "data/raw/caucafall/original/Subject.7/SitDownS7.avi",
+      "source_sha256": "dcaab5988cd5b5ff4cafaa7b9bd2fdb5331687c23eb0673803f4df92c1efcd0b",
+      "size_bytes": 1513468,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 193,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S07-Walk",
+      "subject": 7,
+      "activity": "Walk",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.7/Walk/WalkS7.avi",
+      "crc32": 915119637,
+      "source_path": "data/raw/caucafall/original/Subject.7/WalkS7.avi",
+      "source_sha256": "006033704c9c155c70730ca0750cff8e94a319954ab00b3b6574cb189c3ea8db",
+      "size_bytes": 1740084,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 193,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S08-Hop",
+      "subject": 8,
+      "activity": "Hop",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.8/Hop/HopS8.avi",
+      "crc32": 1610784999,
+      "source_path": "data/raw/caucafall/original/Subject.8/HopS8.avi",
+      "source_sha256": "c364f028b1bd32a969ac805cfb5607043855d9ea1d387eefbc7e1952eb36abfe",
+      "size_bytes": 542952,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 166,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S08-Kneel",
+      "subject": 8,
+      "activity": "Kneel",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.8/Kneel/KneelS8.avi",
+      "crc32": 111813271,
+      "source_path": "data/raw/caucafall/original/Subject.8/KneelS8.avi",
+      "source_sha256": "703c93ca053d76c8455d8a9b0907865d9c928e98c12705e71201b873a354ad9d",
+      "size_bytes": 682532,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 256,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S08-Pickupobject",
+      "subject": 8,
+      "activity": "Pickupobject",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.8/Pick up object/PickupobjectS8.avi",
+      "crc32": 343849834,
+      "source_path": "data/raw/caucafall/original/Subject.8/PickupobjectS8.avi",
+      "source_sha256": "12d35a769f0500ad45624570e346f8884e34c96f8c96a946952074d60794e711",
+      "size_bytes": 686120,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 266,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S08-SitDown",
+      "subject": 8,
+      "activity": "SitDown",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.8/Sit down/SitDownS8.avi",
+      "crc32": 573850737,
+      "source_path": "data/raw/caucafall/original/Subject.8/SitDownS8.avi",
+      "source_sha256": "6ee18eec4616fb37daf886f8426804b30520c53e6f8ae22d11c452d5743a4a82",
+      "size_bytes": 594834,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 212,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S08-Walk",
+      "subject": 8,
+      "activity": "Walk",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.8/Walk/WalkS8.avi",
+      "crc32": 969452356,
+      "source_path": "data/raw/caucafall/original/Subject.8/WalkS8.avi",
+      "source_sha256": "4399912b9588d8b33151d528694b627dfda2ae95821499951719e73b214161b1",
+      "size_bytes": 614226,
+      "split": "train",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 216,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S09-FallBackwards",
+      "subject": 9,
+      "activity": "FallBackwards",
+      "label": 1,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.9/Fall backwards/FallBackwardsS9.avi",
+      "crc32": 2094096707,
+      "source_path": "data/raw/caucafall/original/Subject.9/FallBackwardsS9.avi",
+      "source_sha256": "2f6058978ef5bc097767f612e4945885d86e3d823c9e09574d32664ae37ec3b0",
+      "size_bytes": 2078274,
+      "split": "test",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 252,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S09-FallForward",
+      "subject": 9,
+      "activity": "FallForward",
+      "label": 1,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.9/Fall forward/FallForwardS9.avi",
+      "crc32": 3633832140,
+      "source_path": "data/raw/caucafall/original/Subject.9/FallForwardS9.avi",
+      "source_sha256": "79516c87fba3c8eb1f3d1fb6608d84d40fd169258c426b2395e66c195c76a61d",
+      "size_bytes": 1206382,
+      "split": "test",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 148,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S09-FallLeft",
+      "subject": 9,
+      "activity": "FallLeft",
+      "label": 1,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.9/Fall left/FallLeftS9.avi",
+      "crc32": 1814873931,
+      "source_path": "data/raw/caucafall/original/Subject.9/FallLeftS9.avi",
+      "source_sha256": "c4fa50b461e4e2cf1a511ce6925fdc03c44de0a54ba2505cc0cf451a7e9b6da3",
+      "size_bytes": 1653918,
+      "split": "test",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 207,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S09-FallRight",
+      "subject": 9,
+      "activity": "FallRight",
+      "label": 1,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.9/Fall right/FallRightS9.avi",
+      "crc32": 2959199923,
+      "source_path": "data/raw/caucafall/original/Subject.9/FallRightS9.avi",
+      "source_sha256": "db4040ba2934980413adc82a37a0630d25a18003cf212cf2b93c3d91f4cf8631",
+      "size_bytes": 1525842,
+      "split": "test",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 189,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S09-FallSitting",
+      "subject": 9,
+      "activity": "FallSitting",
+      "label": 1,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.9/Fall sitting/FallSittingS9.avi",
+      "crc32": 273411727,
+      "source_path": "data/raw/caucafall/original/Subject.9/FallSittingS9.avi",
+      "source_sha256": "d531f4785f188f6dd94ef354557be1abf6715065f0431ee7fd65c72f55108a58",
+      "size_bytes": 1538776,
+      "split": "test",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 216,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S09-Hop",
+      "subject": 9,
+      "activity": "Hop",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.9/Hop/HopS9.avi",
+      "crc32": 3253754079,
+      "source_path": "data/raw/caucafall/original/Subject.9/HopS9.avi",
+      "source_sha256": "2ef5d7cfdc7ea842ffd88ee94a00299b273cc9d00b27dbaca6ab3488dea59959",
+      "size_bytes": 2176174,
+      "split": "test",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 212,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S09-Kneel",
+      "subject": 9,
+      "activity": "Kneel",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.9/Kneel/KneelS9.avi",
+      "crc32": 2488194322,
+      "source_path": "data/raw/caucafall/original/Subject.9/KneelS9.avi",
+      "source_sha256": "56e26721f9866bf514d7f412ef84261cab0690a816695b7ff048f04ae6a874f2",
+      "size_bytes": 1787964,
+      "split": "test",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 216,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S09-Pickupobject",
+      "subject": 9,
+      "activity": "Pickupobject",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.9/Pick up object/PickupobjectS9.avi",
+      "crc32": 1837554633,
+      "source_path": "data/raw/caucafall/original/Subject.9/PickupobjectS9.avi",
+      "source_sha256": "e394dd8361318ba6a11537b182119d33c1a42d7339721492bfc542f108e70b4c",
+      "size_bytes": 1932986,
+      "split": "test",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 220,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S09-SitDown",
+      "subject": 9,
+      "activity": "SitDown",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.9/Sit down/SitDownS9.avi",
+      "crc32": 3923469001,
+      "source_path": "data/raw/caucafall/original/Subject.9/SitDownS9.avi",
+      "source_sha256": "8e096744e202f837cd1c1f02b52068d5816e5ec81822eea1b68bbe8653f10069",
+      "size_bytes": 2009704,
+      "split": "test",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 238,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S09-Walk",
+      "subject": 9,
+      "activity": "Walk",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.9/Walk/WalkS9.avi",
+      "crc32": 1733588946,
+      "source_path": "data/raw/caucafall/original/Subject.9/WalkS9.avi",
+      "source_sha256": "5116084849067721c58bf18cd449a01122062fe88f5dedc338eaeb9f252e55a3",
+      "size_bytes": 2243030,
+      "split": "test",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 234,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S10-FallBackwards",
+      "subject": 10,
+      "activity": "FallBackwards",
+      "label": 1,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.10/Fall backwards/FallBackwardsS10.avi",
+      "crc32": 3087770488,
+      "source_path": "data/raw/caucafall/original/Subject.10/FallBackwardsS10.avi",
+      "source_sha256": "620d7f1d44a1df3ed19ea9cf1051f68fd40aa3b722fe45420790d42709d91b07",
+      "size_bytes": 2205544,
+      "split": "validation",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 274,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S10-FallForward",
+      "subject": 10,
+      "activity": "FallForward",
+      "label": 1,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.10/Fall forward/FallForwardS10.avi",
+      "crc32": 1384038290,
+      "source_path": "data/raw/caucafall/original/Subject.10/FallForwardS10.avi",
+      "source_sha256": "4f46775795f223c8434901c7d6be83a6ace590369da13b697b3aaf4635a58d9e",
+      "size_bytes": 1894428,
+      "split": "validation",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 243,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S10-FallLeft",
+      "subject": 10,
+      "activity": "FallLeft",
+      "label": 1,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.10/Fall left/FallLeftS10.avi",
+      "crc32": 747579653,
+      "source_path": "data/raw/caucafall/original/Subject.10/FallLeftS10.avi",
+      "source_sha256": "75b35738c8fc821ed8fdca773790cb3b35a4c8e47d882f0f93499229dc97e7a4",
+      "size_bytes": 1681204,
+      "split": "validation",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 212,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S10-FallRight",
+      "subject": 10,
+      "activity": "FallRight",
+      "label": 1,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.10/Fall right/FallRightS10.avi",
+      "crc32": 4049670223,
+      "source_path": "data/raw/caucafall/original/Subject.10/FallRightS10.avi",
+      "source_sha256": "661abb9452bcf0e28cbea14ffc24c7271cf7202ddf0efa57538b53a2d22d5817",
+      "size_bytes": 1608054,
+      "split": "validation",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 202,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S10-FallSitting",
+      "subject": 10,
+      "activity": "FallSitting",
+      "label": 1,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.10/Fall sitting/FallSittingS10.avi",
+      "crc32": 2397067799,
+      "source_path": "data/raw/caucafall/original/Subject.10/FallSittingS10.avi",
+      "source_sha256": "c66f46cda1eb979303a805d186ea6a514e1c81cc08c00fe0a80b0f08ab79dd17",
+      "size_bytes": 2198276,
+      "split": "validation",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 288,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S10-Hop",
+      "subject": 10,
+      "activity": "Hop",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.10/Hop/HopS10.avi",
+      "crc32": 4048156325,
+      "source_path": "data/raw/caucafall/original/Subject.10/HopS10.avi",
+      "source_sha256": "1a9c205f4596d2fe2bb715454b26bb43dbe112a840f7dae55bb3b57e85b3a9cb",
+      "size_bytes": 2401002,
+      "split": "validation",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 248,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S10-Kneel",
+      "subject": 10,
+      "activity": "Kneel",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.10/Kneel/KneelS10.avi",
+      "crc32": 965996959,
+      "source_path": "data/raw/caucafall/original/Subject.10/KneelS10.avi",
+      "source_sha256": "0bfd527d1930a1fd7faad1076c1cde187eb1f858bf74f80d4aa9b7e8fc501194",
+      "size_bytes": 2136742,
+      "split": "validation",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 261,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S10-Pickupobject",
+      "subject": 10,
+      "activity": "Pickupobject",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.10/Pick up object/PickupobjectS10.avi",
+      "crc32": 3217736196,
+      "source_path": "data/raw/caucafall/original/Subject.10/PickupobjectS10.avi",
+      "source_sha256": "7d0ef1fccb87f752252bceda2ae9e648dde933efd56b338767a3a7ab7f2e3726",
+      "size_bytes": 2355892,
+      "split": "validation",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 292,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S10-SitDown",
+      "subject": 10,
+      "activity": "SitDown",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.10/Sit down/SitDownS10.avi",
+      "crc32": 1009990421,
+      "source_path": "data/raw/caucafall/original/Subject.10/SitDownS10.avi",
+      "source_sha256": "7b50d78ea70228e6dd123a467b8d77a38b691c7b8516123ddfce5353d2cb9f32",
+      "size_bytes": 1920924,
+      "split": "validation",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 234,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    },
+    {
+      "sequence_id": "caucafall-S10-Walk",
+      "subject": 10,
+      "activity": "Walk",
+      "label": 0,
+      "archive_member": "Dataset CAUCAFall/CAUCAFall/Subject.10/Walk/WalkS10.avi",
+      "crc32": 2619941080,
+      "source_path": "data/raw/caucafall/original/Subject.10/WalkS10.avi",
+      "source_sha256": "709bd4c4b4f320079d8cbe2e15915c27ba53005cbdc572dbde2bef732e81c5c9",
+      "size_bytes": 2060734,
+      "split": "validation",
+      "dataset": "caucafall",
+      "camera": 0,
+      "modality": "rgb",
+      "status": "validated",
+      "decoded_images": 224,
+      "timestamp_source": "video_pts_or_fps",
+      "estimated_timestamps": 0
+    }
+  ],
+  "n_planned": 231,
+  "n_validated": 231
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "recipe_id": "human_tsstg_coco_cut_v1",
+  "resources": [
+    {
+      "role": "detector",
+      "recipe_id": "human_tsstg_coco_cut_v1",
+      "repository_url": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks",
+      "commit": "7ed2faa4d6147dfd576f58869b6c25545208af35",
+      "source_page": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/blob/7ed2faa4d6147dfd576f58869b6c25545208af35/README.md",
+      "download_url": "https://drive.google.com/uc?id=1GbH6UQpBvOwLO_gozaH9QFnL23j8plPb",
+      "local_path": "weights/pretrained/sample-human/detector.pth",
+      "size_bytes": 34720299,
+      "sha256": "355917fb2f2c05a769f87d7809dc3feeb1e6cf12c72f68fb8bd43d4905418e11",
+      "upstream_expected_sha256": null,
+      "license": "Upstream root has no license; SPPE has separate LICENSE. Research use; redistribution rights unverified.",
+      "status": "usable",
+      "original_download_url": "https://drive.google.com/uc?id=1obEbWBSm9bXeg10FriJ7R2cGLRsg-AfP",
+      "retrieval_source": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/issues/117",
+      "retrieved_at": "2026-09-18T03:29:56.873620+00:00",
+      "verification": {
+        "strict_load": true,
+        "real_forward": true,
+        "device": "cuda",
+        "devices": [
+          "cuda"
+        ],
+        "evidence": "C:\\成大專案\\fall-detection-anomaly\\data\\cache\\ur-human-flip-001\\real_feature_smoke\\dataset-index.json"
+      }
+    },
+    {
+      "role": "detector_config",
+      "recipe_id": "human_tsstg_coco_cut_v1",
+      "repository_url": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks",
+      "commit": "7ed2faa4d6147dfd576f58869b6c25545208af35",
+      "source_page": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/blob/7ed2faa4d6147dfd576f58869b6c25545208af35/README.md",
+      "download_url": "https://drive.google.com/uc?id=1f-jEh05PBaHXLRwBvrYgSSPtYLuBeiPm",
+      "local_path": "weights/pretrained/sample-human/yolov3-tiny-onecls.cfg",
+      "size_bytes": 2021,
+      "sha256": "3d0163163313397a9af67b35c7b9479914e941f011529dbb13920a4dcc5d545e",
+      "upstream_expected_sha256": null,
+      "license": "Upstream root has no license; SPPE has separate LICENSE. Research use; redistribution rights unverified.",
+      "status": "usable",
+      "original_download_url": "https://drive.google.com/uc?id=19sPzBZjAjuJQ3emRteHybm2SG25w9Wn5",
+      "retrieval_source": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/issues/117",
+      "retrieved_at": "2026-09-18T03:29:59.292273+00:00",
+      "verification": {
+        "strict_load": false,
+        "real_forward": true,
+        "device": "cuda",
+        "devices": [
+          "cuda"
+        ],
+        "evidence": "C:\\成大專案\\fall-detection-anomaly\\data\\cache\\ur-human-flip-001\\real_feature_smoke\\dataset-index.json"
+      }
+    },
+    {
+      "role": "pose",
+      "recipe_id": "human_tsstg_coco_cut_v1",
+      "repository_url": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks",
+      "commit": "7ed2faa4d6147dfd576f58869b6c25545208af35",
+      "source_page": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/blob/7ed2faa4d6147dfd576f58869b6c25545208af35/README.md",
+      "download_url": "https://drive.google.com/uc?id=1m5tIKH8INJ82GI7q6tWtPPDJ55jgpKfg",
+      "local_path": "weights/pretrained/sample-human/fast_res50_256x192.pth",
+      "size_bytes": 162603012,
+      "sha256": "42808e905aa20133a89a6a2cba073265a2ce35fabe65edffd9f153ef5846b7b0",
+      "upstream_expected_sha256": null,
+      "license": "Upstream root has no license; SPPE has separate LICENSE. Research use; redistribution rights unverified.",
+      "status": "usable",
+      "original_download_url": "https://drive.google.com/uc?id=1IPfCDRwCmQDnQy94nT1V-_NVtTEi4VmU",
+      "retrieval_source": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/issues/117",
+      "retrieved_at": "2026-09-18T03:30:10.436175+00:00",
+      "verification": {
+        "strict_load": true,
+        "real_forward": true,
+        "device": "cuda",
+        "devices": [
+          "cuda"
+        ],
+        "evidence": "C:\\成大專案\\fall-detection-anomaly\\data\\cache\\ur-human-flip-001\\real_feature_smoke\\dataset-index.json"
+      }
+    },
+    {
+      "role": "stgcn",
+      "recipe_id": "human_tsstg_coco_cut_v1",
+      "repository_url": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks",
+      "commit": "7ed2faa4d6147dfd576f58869b6c25545208af35",
+      "source_page": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/blob/7ed2faa4d6147dfd576f58869b6c25545208af35/README.md",
+      "download_url": "https://drive.google.com/uc?id=1MAk2v0peCa4Fs9zw9-N3ssuG4Y1MIItO",
+      "local_path": "weights/pretrained/sample-human/tsstg-model.pth",
+      "size_bytes": 24708522,
+      "sha256": "1cac9a6da99d5d67da8ab58ee7633c5e923d85fba668673f028792819750a149",
+      "upstream_expected_sha256": null,
+      "license": "Upstream root has no license; SPPE has separate LICENSE. Research use; redistribution rights unverified.",
+      "status": "usable",
+      "original_download_url": "https://drive.google.com/uc?id=1mQQ4JHe58ylKbBqTjuKzpwN2nwKOWJ9u",
+      "retrieval_source": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/issues/117",
+      "retrieved_at": "2026-09-18T03:30:15.462483+00:00",
+      "verification": {
+        "strict_load": true,
+        "real_forward": true,
+        "device": "cuda",
+        "devices": [
+          "cuda"
+        ],
+        "evidence": "C:\\成大專案\\fall-detection-anomaly\\data\\cache\\ur-human-flip-001\\real_feature_smoke\\dataset-index.json"
+      }
+    }
+  ],
+  "retrieval_source": "https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/issues/117",
+  "mirror_folder": "https://drive.google.com/drive/folders/1lrTI56k9QiIfMJhG9kzNjBzJh98KCIIO",
+  "provenance_limit": "Community mirror; author-published checksum unavailable. Strict architecture and local hash checks do not establish byte identity to the original release."
+}

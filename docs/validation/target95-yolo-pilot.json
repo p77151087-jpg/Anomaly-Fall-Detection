@@ -1,0 +1,147 @@
+{
+  "evidence": "real_feature_smoke; zero inputs for coverage diagnostic only, no AE classification",
+  "pass_gate": true,
+  "rows": [
+    {
+      "sequence_id": "adl-05",
+      "comparisons": {
+        "timestamp": {
+          "valid_features": 30,
+          "evaluable": true,
+          "coverage": 1.0
+        },
+        "yolo": {
+          "valid_features": 30,
+          "evaluable": true,
+          "coverage": 1.0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-16",
+      "comparisons": {
+        "timestamp": {
+          "valid_features": 0,
+          "evaluable": false,
+          "coverage": 0.0
+        },
+        "yolo": {
+          "valid_features": 0,
+          "evaluable": false,
+          "coverage": 0.0
+        }
+      }
+    },
+    {
+      "sequence_id": "adl-18",
+      "comparisons": {
+        "timestamp": {
+          "valid_features": 1,
+          "evaluable": false,
+          "coverage": 0.02127659574468085
+        },
+        "yolo": {
+          "valid_features": 1,
+          "evaluable": false,
+          "coverage": 0.02127659574468085
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-22",
+      "comparisons": {
+        "timestamp": {
+          "valid_features": 2,
+          "evaluable": false,
+          "coverage": 0.3333333333333333
+        },
+        "yolo": {
+          "valid_features": 4,
+          "evaluable": true,
+          "coverage": 0.6666666666666666
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-14",
+      "comparisons": {
+        "timestamp": {
+          "valid_features": 10,
+          "evaluable": true,
+          "coverage": 0.8571428571428571
+        },
+        "yolo": {
+          "valid_features": 7,
+          "evaluable": true,
+          "coverage": 1.0
+        }
+      }
+    },
+    {
+      "sequence_id": "fall-02",
+      "comparisons": {
+        "timestamp": {
+          "valid_features": 11,
+          "evaluable": true,
+          "coverage": 0.6470588235294118
+        },
+        "yolo": {
+          "valid_features": 9,
+          "evaluable": true,
+          "coverage": 0.5294117647058824
+        }
+      }
+    },
+    {
+      "sequence_id": "caucafall-S05-FallForward",
+      "comparisons": {
+        "timestamp": {
+          "valid_features": 19,
+          "evaluable": true,
+          "coverage": 0.35185185185185186
+        },
+        "yolo": {
+          "valid_features": 45,
+          "evaluable": true,
+          "coverage": 0.8333333333333334
+        }
+      }
+    },
+    {
+      "sequence_id": "caucafall-S05-Walk",
+      "comparisons": {
+        "timestamp": {
+          "valid_features": 62,
+          "evaluable": true,
+          "coverage": 1.0
+        },
+        "yolo": {
+          "valid_features": 62,
+          "evaluable": true,
+          "coverage": 1.0
+        }
+      }
+    }
+  ],
+  "verification": {
+    "pose_forward": true,
+    "pose_observations_reused": false,
+    "feature_forward": true,
+    "device": "cuda",
+    "refreshed": false
+  },
+  "model_load_reports": {
+    "pose": {
+      "strict": true,
+      "key_conversion": null,
+      "sha256": "9ed4d6879c271b554149ea93ec71c9531da17863a64e0e80945d9c11c668ad3d",
+      "package_version": "8.3.228",
+      "state_keys": 691
+    },
+    "stgcn": {
+      "strict": true,
+      "key_conversion": null,
+      "sha256": "12c56ed5535dd28a075e7d04dec96f572f8b1dc87548004761157e15b7d9e12e"
+    }
+  }
+}

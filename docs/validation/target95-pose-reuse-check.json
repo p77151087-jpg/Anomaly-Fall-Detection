@@ -1,0 +1,14 @@
+{
+  "evidence": "real cached observed poses",
+  "identical_pose_arrays": 231,
+  "unchanged_track_ids": "verified by reuse helper: metadata copied; keypoints/boxes hash unchanged",
+  "source_index_sha256": "deabca9182ead97009ca79b22ee9e9f3904d25e7f4408cbd381887917a9250ec",
+  "jitter_index_sha256": "65ddf427a1a2993d2b89d85406c4aaca16f777f0d85a390fe1e9d14fc5b97d6d",
+  "verification": {
+    "pose_forward": false,
+    "pose_observations_reused": true,
+    "feature_forward": true,
+    "device": "cuda",
+    "refreshed": false
+  }
+}

@@ -1,0 +1,920 @@
+{
+  "schema_version": 1,
+  "sequence_id": "fall-19",
+  "split": "validation",
+  "manifest_sha256": "848cd3b58b3e925f491db4652be16dcb0f8e696162d8ac377806a4580a74fa14",
+  "annotation_origin": "human_self_reported",
+  "reviewer": "唐懷毅",
+  "human_attested": true,
+  "onset_bounds_frame_ids": [
+    33,
+    61
+  ],
+  "impact_bounds_frame_ids": [
+    62,
+    100
+  ],
+  "notes": "跌倒過程有遮擋、出框",
+  "frames": [
+    {
+      "source_frame_id": 1,
+      "timestamp_ms": 0,
+      "source_sha256": "4e6bf37c274946f6cef208c5019089fd8e8309a388f2ddca268e831af0f08480",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 2,
+      "timestamp_ms": 33,
+      "source_sha256": "67b587bc004f9d8d64ea4750f9411ff7557e6b3fc738e4c1c2808d17e4c4862c",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 3,
+      "timestamp_ms": 66,
+      "source_sha256": "7df44fdc8d1ecd11ecfe8ece74092f567c15c22b1d812d1bc8b37af958209a4f",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 4,
+      "timestamp_ms": 100,
+      "source_sha256": "3edb40acd47cf410104e0e1fb934de9dfe9f6c24acbc5beb040df3d4fd361e1a",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 5,
+      "timestamp_ms": 133,
+      "source_sha256": "efd801a457c8bae6128e522d61d3f330741660c9eabe37c9170321707c36d940",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 6,
+      "timestamp_ms": 166,
+      "source_sha256": "fdb9f116928c2513a0287c43bb8bdde0fc895ed90d3d15c1f88a0a8fc9bbd1ee",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 7,
+      "timestamp_ms": 200,
+      "source_sha256": "7df386a22657a85f7b4eb73d70bc5f474a67302735d90b012a294d5f8fc1b796",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 8,
+      "timestamp_ms": 233,
+      "source_sha256": "e0e2d495e0b44e5a187dda3dea6b76e84c4a45772e64080534b12dffbb0c1469",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 9,
+      "timestamp_ms": 266,
+      "source_sha256": "4f7a2ab2d5cc81dadf61061068e5f655e9b0ec99350be0b1a41bc07f7cc00169",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 10,
+      "timestamp_ms": 300,
+      "source_sha256": "f625a49e7f501fce73ad176e187a247f2ef614affea29444dee6f1b6cabf194a",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 11,
+      "timestamp_ms": 333,
+      "source_sha256": "96bc12481d3fd6182cd7f39f9bb76e5fc79e28f26f45a869cc9bf32fb9be6524",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 12,
+      "timestamp_ms": 367,
+      "source_sha256": "f8301d39ed3c6fdff29c7b3833399f3e66f043e0d5759a761d1b42dce273cda5",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 13,
+      "timestamp_ms": 400,
+      "source_sha256": "f9217058d055d0581206f442b27acdea00f9c478d03b5f2725156a96415f6590",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 14,
+      "timestamp_ms": 433,
+      "source_sha256": "51df64e10bc097c1378f66ab51edc39162b440ac2cce086681917715c5d35e9e",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 15,
+      "timestamp_ms": 467,
+      "source_sha256": "a9ceaf00396faed30263d5a8caf1be52438796392e8ecac0f7a50af6b2122ac6",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 16,
+      "timestamp_ms": 500,
+      "source_sha256": "d922c2fa79a1a3af36670b04715d32f790e950100736100064541f7db1a009a1",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 17,
+      "timestamp_ms": 533,
+      "source_sha256": "dc75b61307e6546edd6f8c7bac13179f851eeba1d6dbacb3e66b5f95d28f9cab",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 18,
+      "timestamp_ms": 567,
+      "source_sha256": "78323a2f9e0986625742009af5b3d0a7586c82bb32b81bf778cd470515954849",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 19,
+      "timestamp_ms": 600,
+      "source_sha256": "228851e6ed2608ea1151a244853246d58940e424ec08bccf1fc07aa1be84d911",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 20,
+      "timestamp_ms": 634,
+      "source_sha256": "191af7ff029bd19bfcc9f894f7a8cd1024400949c52f97f10a8b8542102c722f",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 21,
+      "timestamp_ms": 667,
+      "source_sha256": "30c1deed85124285f2059c4f4164ef08f3e2bccd7170f856a7cca308f80f8096",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 22,
+      "timestamp_ms": 700,
+      "source_sha256": "555d7870019038b751febb84de49a4382c8f9c2fbbeda343be5977c6ee781ac0",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 23,
+      "timestamp_ms": 734,
+      "source_sha256": "5f87b6dcac6bc4855ad0049d58611b8d8f7718a0430738e8d15628c514581c7f",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 24,
+      "timestamp_ms": 767,
+      "source_sha256": "877f780c9259284d196a73633b0c025b07dc7ae5ae1689ffa825b41be9b097f3",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 25,
+      "timestamp_ms": 800,
+      "source_sha256": "bfa519f5ec5ba4ca24dd16fa9ac8d1326b27e80d2b7bfddb5fc52a95ff5fafec",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 26,
+      "timestamp_ms": 834,
+      "source_sha256": "10d8dd4bd2551b33f47b166a1cb0871892832b7d6bf4daa85e188277d1017269",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 27,
+      "timestamp_ms": 867,
+      "source_sha256": "ac659aeead2741adac6cce1c21babdc7f3d4f15295a63cec0a6c0d49ea29e5a5",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 28,
+      "timestamp_ms": 900,
+      "source_sha256": "83c6616dd1fb4d1b05cdf27689dc3e5a7eb741e382a63cd62edfc4ea4fe16ab0",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 29,
+      "timestamp_ms": 934,
+      "source_sha256": "df76d47a53fd96ae6777114b8d458ce2f9de7d0cf61c35a688feb8ce374d18af",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 30,
+      "timestamp_ms": 967,
+      "source_sha256": "a078aacd3e94800ca285e47d9f7c4497bfb089f529b011b252a7ea9e4be6ed7c",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 31,
+      "timestamp_ms": 1001,
+      "source_sha256": "58820303248ffe1ee86eedc46206e9a051eebb213cf9dfff350d6e8e1e752a91",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 32,
+      "timestamp_ms": 1034,
+      "source_sha256": "e6d73cca065627a67692ecd71f7a99d4f032d59b60b8198d14abfb3cea443c18",
+      "phase": "upright",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 33,
+      "timestamp_ms": 1067,
+      "source_sha256": "fb8cde8fb5a63cb91593aa686aa04b2e2819a1caa4fb249f0e00e635317e9c3e",
+      "phase": "transition",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 34,
+      "timestamp_ms": 1101,
+      "source_sha256": "c8825ab16271a985160041736ee7ee55e45732ee227e48e21568e7cff0ef2663",
+      "phase": "transition",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 35,
+      "timestamp_ms": 1134,
+      "source_sha256": "31f8b10aec84cab48880c5034fbaa9579591325c306dabb841430fb3f276ef6c",
+      "phase": "transition",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 36,
+      "timestamp_ms": 1167,
+      "source_sha256": "4f5a0150ae166d8a41b98220ec5c62cf4d92a4a3a83754cf8a7d121c31d34789",
+      "phase": "transition",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 37,
+      "timestamp_ms": 1201,
+      "source_sha256": "32b29c1dec25d0e37158571e6db37af41b55779d89e6ea67f763d160f50accc6",
+      "phase": "transition",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 38,
+      "timestamp_ms": 1234,
+      "source_sha256": "69c3ba85cc13d9a6df67c181b41838851320a796b0b825c1dd477b7b64e5601e",
+      "phase": "transition",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 39,
+      "timestamp_ms": 1268,
+      "source_sha256": "debae581ca266675964c47e9ac0a14fdd5d3034d2f7df53d3a2c107e7dc62674",
+      "phase": "transition",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 40,
+      "timestamp_ms": 1301,
+      "source_sha256": "03f2e231f3a3b84094ed9ef01c23f58128bf2c7fb044c176b0a46035c1911579",
+      "phase": "transition",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 41,
+      "timestamp_ms": 1334,
+      "source_sha256": "39c713f692543654b0741c6c81143a83b4c565553290eda2817319f11c8205dc",
+      "phase": "transition",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 42,
+      "timestamp_ms": 1368,
+      "source_sha256": "4b5aca9254b2008161d05f2f80bcf6756b3aef25ef8ced3898b4ef150a2affa9",
+      "phase": "transition",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 43,
+      "timestamp_ms": 1401,
+      "source_sha256": "6c7cf7c8bb226bf6426029b9a613065a99c3c19911923f61b3dc2330d0ce343c",
+      "phase": "transition",
+      "visibility": "full",
+      "pose_check": "matches_person",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 44,
+      "timestamp_ms": 1434,
+      "source_sha256": "23e8e824c0d52b5ecbff0901fa2ad88fe62215b5862b0378c9fae9b52c8deb92",
+      "phase": "transition",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 45,
+      "timestamp_ms": 1468,
+      "source_sha256": "554f8f8410e9a00f250723d23bfef4f203f62264487b49b14f75cfff55a9874e",
+      "phase": "transition",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 46,
+      "timestamp_ms": 1501,
+      "source_sha256": "e3de1b4cb79feb36fd1960ce716dea95e16acd0b0ebef7c11746d4a457caa1c0",
+      "phase": "transition",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 47,
+      "timestamp_ms": 1534,
+      "source_sha256": "4b3b2dcdc937094d2b0a9ebee5b3af699a0d1d0760e8006c2b55004af29fb15f",
+      "phase": "transition",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 48,
+      "timestamp_ms": 1568,
+      "source_sha256": "ac6cc8f30b3cae852bea7f6b3813e55ebab8ff6328946a536ddda75ebc5f8a92",
+      "phase": "transition",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 49,
+      "timestamp_ms": 1601,
+      "source_sha256": "41e3ee40098a69da4be493378508827fb7f3ca68e40638482bf2e5bd5b808830",
+      "phase": "transition",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 50,
+      "timestamp_ms": 1635,
+      "source_sha256": "8ea0586135f1d9298d0bc3a5cf304a2673cbe2dfade82fbb3e6269fa365ddde6",
+      "phase": "transition",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 51,
+      "timestamp_ms": 1668,
+      "source_sha256": "f383b385d7a4891316d2bf645a9a5805b4032992c0b9975e5350cd1ce0ef500b",
+      "phase": "transition",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 52,
+      "timestamp_ms": 1701,
+      "source_sha256": "a5d4546e2369b6cb72c1842996fddd822f52978cec1d770bafb4a0e28c20d484",
+      "phase": "transition",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 53,
+      "timestamp_ms": 1735,
+      "source_sha256": "092415d8eb821c29357789402aee2bffa471f119c8b65155c38853b5a7aae218",
+      "phase": "transition",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 54,
+      "timestamp_ms": 1768,
+      "source_sha256": "2596706ea59b19bf70c0e17ecafce6e57feb6385b8ee8f4caa1900e71066787c",
+      "phase": "transition",
+      "visibility": "partial",
+      "pose_check": "missing",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 55,
+      "timestamp_ms": 1801,
+      "source_sha256": "d52b6942e5edfe00877fd468ce6d39f97276fe37459fa52f3ba2eb277b8b09b5",
+      "phase": "transition",
+      "visibility": "partial",
+      "pose_check": "missing",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 56,
+      "timestamp_ms": 1835,
+      "source_sha256": "ed91e1147a5f5a1a7900ded44a006443562c28f259a7455ac6afbd7f0cd4c1fd",
+      "phase": "transition",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 57,
+      "timestamp_ms": 1868,
+      "source_sha256": "3d053029e7d76eeedf3ac5a0b23baa9e20100f98a3aed017b1f7f3c712192ac9",
+      "phase": "transition",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 58,
+      "timestamp_ms": 1902,
+      "source_sha256": "4f94ec4d9737c7a82d3804a6a9aa09fcd2d33579619b6e85ee1ff8acd810e851",
+      "phase": "transition",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 59,
+      "timestamp_ms": 1935,
+      "source_sha256": "29b6b6566ef9c7ee4f3a14e53b8f25cb0281bf36600eca5aeb5dd869019ab84c",
+      "phase": "transition",
+      "visibility": "partial",
+      "pose_check": "missing",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 60,
+      "timestamp_ms": 1968,
+      "source_sha256": "42c12e91d8aa9cc20f3b847009735cd42275a9b4d3b693a00bef8c2bfd52c939",
+      "phase": "transition",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 61,
+      "timestamp_ms": 2002,
+      "source_sha256": "76d3f1952753a2c0c5ccb7cecfb405e8f0a5a4817db05e2b8aca8de2f0a78676",
+      "phase": "transition",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 62,
+      "timestamp_ms": 2035,
+      "source_sha256": "0060fa7e722e4aea0d499a00f418f7d080f6698842a38991a636fe7f71fff3ed",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 63,
+      "timestamp_ms": 2068,
+      "source_sha256": "6bc5b5e62a8f5aa359e54242c00c9ae5082f39ac5efd0e1a0db318a523b8353a",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 64,
+      "timestamp_ms": 2102,
+      "source_sha256": "225964eefbb1739b97f644bd3aec6992d6b38351854f96252887732962cfa0ce",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 65,
+      "timestamp_ms": 2135,
+      "source_sha256": "563e2f28ef715a6df44f56904cd9607ed5ec9524d49a8abb34079e9476cc95c8",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 66,
+      "timestamp_ms": 2168,
+      "source_sha256": "9bf6a4590a53dcf4dec35926ea75acc8edef15a3a4ee1e56b40b7b5903ddbc6a",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 67,
+      "timestamp_ms": 2202,
+      "source_sha256": "df86aed55c9f2e435e2a93704411e0e0336d74c8d28a4f3fdf87f6f1774d4e99",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 68,
+      "timestamp_ms": 2235,
+      "source_sha256": "d2092de0c83869a373f508c79d95b7c5853409fff8de9ff0ccf08f06e095a59a",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 69,
+      "timestamp_ms": 2269,
+      "source_sha256": "8b61992342c4b90c4909077f6227f59582e084551038c4afff518f9e1f4777ee",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 70,
+      "timestamp_ms": 2302,
+      "source_sha256": "78682882254a13b9b50e8014e8a57957598334acb9e5bd4da99a22a9541889c2",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 71,
+      "timestamp_ms": 2335,
+      "source_sha256": "bd148f391c1fb4965ac23d932aa24156f66046dd393b67cc8875ad56b35b8633",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 72,
+      "timestamp_ms": 2369,
+      "source_sha256": "ce20f4bfb4ce4ee4b79a58728b1e229071982b08e9afb578bda0f569b0104dbf",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 73,
+      "timestamp_ms": 2402,
+      "source_sha256": "81ec5067f096e4109eb2e69f7ca18f9a97eced129996bf9e2392572d9dd9075e",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 74,
+      "timestamp_ms": 2435,
+      "source_sha256": "fc3a00c33c6b6f9579ebdbba06f68ed0281eea5e2c27833325cb6c51df83a367",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 75,
+      "timestamp_ms": 2469,
+      "source_sha256": "b5ded1f57e9fbed6f2018b88cdd64aa8327ec90d83b5da41faa31932c69ff288",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 76,
+      "timestamp_ms": 2502,
+      "source_sha256": "026d39868ec7af6d54c4706072c32feb68b7d1512fb7e9a84e292abe6b94d302",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 77,
+      "timestamp_ms": 2536,
+      "source_sha256": "700dec16490019c748e7efdb8378cac41971d06790a4d32c5fe3ace7524ea6db",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 78,
+      "timestamp_ms": 2569,
+      "source_sha256": "ab290f5c3ae3fcb6dc8a227b8024844608389aac1e399786a22bf82a3e638b35",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 79,
+      "timestamp_ms": 2602,
+      "source_sha256": "f0be1232d76bafb364e84ef3f1b344708f2f92de558f6e021d4c0d317861d517",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 80,
+      "timestamp_ms": 2636,
+      "source_sha256": "f46c5e9647b45c29b3a0cfa56bb93b0e1fa8b8417efb07b9e3cfd32291be288b",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 81,
+      "timestamp_ms": 2669,
+      "source_sha256": "fc4401da80940a371afd24ca42dcf3ddbec3b7a29b3f956734b5240e5fdb492f",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 82,
+      "timestamp_ms": 2702,
+      "source_sha256": "cc3264effbf58a37aa1d32b0cf4034dcbd8e17d9884cb77bed01de759d42e37b",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 83,
+      "timestamp_ms": 2736,
+      "source_sha256": "a7c9d0df4eac0a359478e526366e4eeaf2c918e63784fec4bd4bf5d73a897ee3",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 84,
+      "timestamp_ms": 2769,
+      "source_sha256": "fb058669fc1716ee0d0b04192b2ba9da9f2b68a66d20fe5c8a426f1942c18a34",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 85,
+      "timestamp_ms": 2802,
+      "source_sha256": "8655df475c6808524b2f156cb95151909e01f2096ed15d94afb19db19491f6e9",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 86,
+      "timestamp_ms": 2836,
+      "source_sha256": "da474378311d9ecafe354a6191084edcdee14e703415635530aec57bcc18a9fc",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 87,
+      "timestamp_ms": 2869,
+      "source_sha256": "e6075830b076667b1efb297818857c01be62f4ddb9636ab5ec0e01295f3fe11c",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 88,
+      "timestamp_ms": 2903,
+      "source_sha256": "31e1b5a90b93413f3a7578cdbda598665e3cf0630a53427afcacb890e6190667",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 89,
+      "timestamp_ms": 2936,
+      "source_sha256": "1d68adf7fe8ff96a16ff5525302bc2d76ebf8cda3a9d94e104da73c2f1433cfd",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 90,
+      "timestamp_ms": 2969,
+      "source_sha256": "bf52d8914ebfaef599a10b895db8278470912365705003d95cf3bbd4521ea6c5",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 91,
+      "timestamp_ms": 3003,
+      "source_sha256": "75f44009f2fd7b69bdeeb4963e7b8b0fae3c74db98c11bae2af1d274ff567b52",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 92,
+      "timestamp_ms": 3036,
+      "source_sha256": "cf74485baefd992bb7285bf58f9bd97087d0ed313f1b121295e95d6e084fbe6f",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 93,
+      "timestamp_ms": 3069,
+      "source_sha256": "e533a2b9d0a8f20f9880540adbdf477137d65bed8e38f7eeade0a148d6e650cb",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 94,
+      "timestamp_ms": 3103,
+      "source_sha256": "17d47228eff69fdf8bbc14c7952d7e541a9b0ea449ee20ebecc439cedc36f0df",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 95,
+      "timestamp_ms": 3136,
+      "source_sha256": "0f21df3221c6c47c4ab70b4eee04ac33483af470cebd17208f719dde15b4dfcf",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 96,
+      "timestamp_ms": 3170,
+      "source_sha256": "8413a3e0002eda94562d4463434a007eaf0db15556623d9ce68bc14bab5a5610",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 97,
+      "timestamp_ms": 3203,
+      "source_sha256": "d271b957f636275cba6411bb199675f2eb612cb430d7dac0a0d082603e7e1daf",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 98,
+      "timestamp_ms": 3236,
+      "source_sha256": "8a11dbd4bb78c15ab2d099aecba8ca0ce21a5cf42ac5a39d812ee138efd8eb20",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 99,
+      "timestamp_ms": 3270,
+      "source_sha256": "5d97d7f1945a7f4a672073ab3b04a79dcedf357a7a2d97200b97558afcc85f12",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    },
+    {
+      "source_frame_id": 100,
+      "timestamp_ms": 3303,
+      "source_sha256": "82444e58cc9770ba4dbc6d005fa269649030d5ef1814959f20a1cd1f98b183e9",
+      "phase": "ground",
+      "visibility": "partial",
+      "pose_check": "wrong_or_drift",
+      "reviewed": true
+    }
+  ]
+}

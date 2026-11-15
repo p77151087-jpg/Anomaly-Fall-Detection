@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "scope": "Three bounded AE candidates on identical real cached features. No further candidates this round.",
+  "index": "data\\cache\\le2i-source-interval\\dataset-index.json",
+  "index_sha256": "12d42c4201325dfc5e97f56f78625fe84f70e7709a6af93c138c52f8eceb5628",
+  "configs": [
+    {
+      "run": "le2i-long-001",
+      "config": "configs\\le2i-long-001.yaml",
+      "config_sha256": "30f2f66c7ec04fddacbceee52d38bd65ba4ebebe5f0d5149a57a2126e1afde34",
+      "sampling": "windows",
+      "latent_dim": 32,
+      "learning_rate": 0.0003,
+      "max_epochs": 250,
+      "patience": 30,
+      "initialization": "seed 42 from scratch; independent experiment, not checkpoint resume"
+    },
+    {
+      "run": "le2i-seqbalanced-001",
+      "config": "configs\\le2i-seqbalanced-001.yaml",
+      "config_sha256": "d3c6f16e2f6fb72f75301c47442a2f3270ebdbd0d5b80d3b2c0ff4a02d7993d1",
+      "sampling": "sequences",
+      "latent_dim": 32,
+      "learning_rate": 0.0003,
+      "max_epochs": 250,
+      "patience": 30,
+      "initialization": "seed 42 from scratch; independent experiment, not checkpoint resume"
+    },
+    {
+      "run": "le2i-seqcompact-001",
+      "config": "configs\\le2i-seqcompact-001.yaml",
+      "config_sha256": "20be1067056a4afbc7893b2a8b86833cc6a19b36fbb21a567dc9ccdc1a717ea1",
+      "sampling": "sequences",
+      "latent_dim": 16,
+      "learning_rate": 0.0003,
+      "max_epochs": 250,
+      "patience": 30,
+      "initialization": "seed 42 from scratch; independent experiment, not checkpoint resume"
+    }
+  ],
+  "checkpoint_selection": "lowest normal Validation MSE within each run",
+  "calibration": "Preserve specification F1 calibration for each model; derive explicit balanced_sequence_accuracy alternatives using identical AE/scaler/history.",
+  "model_comparison": "Compare all three balanced alternatives with le2i-timing-balanced-001. Rank by balanced_sequence_accuracy including unknown, then operational_accuracy, then end_to_end_fall_recall, then fewer FP. Ties retain the earlier baseline. Candidate model selection uses Validation and is exploratory, not independent evaluation.",
+  "test_evaluation_performed": false,
+  "no_test_feature_scoring": true,
+  "unchanged": [
+    "split",
+    "raw data",
+    "poses",
+    "ST-GCN weights and feature recipe",
+    "quality",
+    "causal windows",
+    "event K=3",
+    "Train-only scaler fit"
+  ],
+  "caveat": "Same known Validation reused; optimistic selection possible. No promised accuracy target."
+}

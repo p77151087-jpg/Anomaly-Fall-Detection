@@ -1,0 +1,1715 @@
+{
+  "lock_sha256": "250da33370b99da23a2cadccb515000bbb4c3682da28e49045db71e541a8665e",
+  "reference": {
+    "run": "ur-isotropic-wide-20261012-001",
+    "metrics": {
+      "metric_unit": "sequence",
+      "TP": 14,
+      "FP": 0,
+      "FN": 1,
+      "TN": 8,
+      "n_total": 23,
+      "n_evaluable": 23,
+      "n_unknown": 0,
+      "sequence_coverage": 1.0,
+      "sequence_accuracy": 0.9565217391304348,
+      "sequence_fall_precision": 1.0,
+      "sequence_fall_recall": 0.9333333333333333,
+      "sequence_fall_f1": 0.9655172413793104,
+      "operational_accuracy": 0.9565217391304348,
+      "end_to_end_fall_recall": 0.9333333333333333,
+      "outcomes_with_unknown": [
+        [
+          8,
+          0,
+          0
+        ],
+        [
+          1,
+          14,
+          0
+        ]
+      ],
+      "outcome_columns": [
+        "normal",
+        "suspected_fall",
+        "unknown"
+      ],
+      "outcome_rows": [
+        "ADL",
+        "Fall"
+      ],
+      "by_class": {
+        "ADL": {
+          "n_total": 8,
+          "n_unknown": 0,
+          "sequence_coverage": 1.0,
+          "window_coverage": 0.8408956982911019,
+          "n_missing_timelines": 0
+        },
+        "Fall": {
+          "n_total": 15,
+          "n_unknown": 0,
+          "sequence_coverage": 1.0,
+          "window_coverage": 0.8489634748272458,
+          "n_missing_timelines": 0
+        }
+      },
+      "window_coverage": 0.8439114391143911,
+      "n_missing_timelines": 0
+    },
+    "predictions": [
+      {
+        "sequence_id": "adl-37",
+        "sequence_score": 0.43130481243133545,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 325,
+        "n_valid_endpoints": 296,
+        "window_coverage": 0.9107692307692308,
+        "first_alarm_ms": null,
+        "label": 0
+      },
+      {
+        "sequence_id": "adl-23",
+        "sequence_score": 0.1718352884054184,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 191,
+        "n_valid_endpoints": 168,
+        "window_coverage": 0.8795811518324608,
+        "first_alarm_ms": null,
+        "label": 0
+      },
+      {
+        "sequence_id": "adl-20",
+        "sequence_score": 0.18222187459468842,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 240,
+        "n_valid_endpoints": 184,
+        "window_coverage": 0.7666666666666667,
+        "first_alarm_ms": null,
+        "label": 0
+      },
+      {
+        "sequence_id": "adl-04",
+        "sequence_score": 0.17383751273155212,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 120,
+        "n_valid_endpoints": 118,
+        "window_coverage": 0.9833333333333333,
+        "first_alarm_ms": null,
+        "label": 0
+      },
+      {
+        "sequence_id": "adl-01",
+        "sequence_score": 0.13784216344356537,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 121,
+        "n_valid_endpoints": 114,
+        "window_coverage": 0.9421487603305785,
+        "first_alarm_ms": null,
+        "label": 0
+      },
+      {
+        "sequence_id": "adl-16",
+        "sequence_score": 0.14347408711910248,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 211,
+        "n_valid_endpoints": 124,
+        "window_coverage": 0.5876777251184834,
+        "first_alarm_ms": null,
+        "label": 0
+      },
+      {
+        "sequence_id": "adl-18",
+        "sequence_score": 0.24466033279895782,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 235,
+        "n_valid_endpoints": 171,
+        "window_coverage": 0.7276595744680852,
+        "first_alarm_ms": null,
+        "label": 0
+      },
+      {
+        "sequence_id": "adl-35",
+        "sequence_score": 0.5341113805770874,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 254,
+        "n_valid_endpoints": 252,
+        "window_coverage": 0.9921259842519685,
+        "first_alarm_ms": null,
+        "label": 0
+      },
+      {
+        "sequence_id": "fall-22",
+        "sequence_score": 1.2459911108016968,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 27,
+        "n_valid_endpoints": 25,
+        "window_coverage": 0.9259259259259259,
+        "first_alarm_ms": 1100.0,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-19",
+        "sequence_score": 0.13463649153709412,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 71,
+        "n_valid_endpoints": 23,
+        "window_coverage": 0.323943661971831,
+        "first_alarm_ms": null,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-16",
+        "sequence_score": 2.7522170543670654,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 26,
+        "n_valid_endpoints": 24,
+        "window_coverage": 0.9230769230769231,
+        "first_alarm_ms": 1433.3333333333335,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-18",
+        "sequence_score": 0.5474465489387512,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 36,
+        "n_valid_endpoints": 16,
+        "window_coverage": 0.4444444444444444,
+        "first_alarm_ms": 1433.3333333333335,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-08",
+        "sequence_score": 0.6176121234893799,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 62,
+        "n_valid_endpoints": 60,
+        "window_coverage": 0.967741935483871,
+        "first_alarm_ms": 2533.3333333333335,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-13",
+        "sequence_score": 3.2248432636260986,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 56,
+        "n_valid_endpoints": 54,
+        "window_coverage": 0.9642857142857143,
+        "first_alarm_ms": 2300.0,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-29",
+        "sequence_score": 2.1001062393188477,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 70,
+        "n_valid_endpoints": 54,
+        "window_coverage": 0.7714285714285715,
+        "first_alarm_ms": 2566.666666666667,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-14",
+        "sequence_score": 1.2261343002319336,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 32,
+        "n_valid_endpoints": 30,
+        "window_coverage": 0.9375,
+        "first_alarm_ms": 1533.3333333333335,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-09",
+        "sequence_score": 1.4481908082962036,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 156,
+        "n_valid_endpoints": 133,
+        "window_coverage": 0.8525641025641025,
+        "first_alarm_ms": 5900.0,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-07",
+        "sequence_score": 7.401638031005859,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 127,
+        "n_valid_endpoints": 125,
+        "window_coverage": 0.984251968503937,
+        "first_alarm_ms": 3766.666666666667,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-11",
+        "sequence_score": 0.8046911358833313,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 101,
+        "n_valid_endpoints": 96,
+        "window_coverage": 0.9504950495049505,
+        "first_alarm_ms": 3100.0,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-25",
+        "sequence_score": 3.1309218406677246,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 56,
+        "n_valid_endpoints": 46,
+        "window_coverage": 0.8214285714285714,
+        "first_alarm_ms": 2466.666666666667,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-06",
+        "sequence_score": 2.5593862533569336,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 71,
+        "n_valid_endpoints": 69,
+        "window_coverage": 0.971830985915493,
+        "first_alarm_ms": 1566.6666666666667,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-02",
+        "sequence_score": 1.5078258514404297,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 81,
+        "n_valid_endpoints": 79,
+        "window_coverage": 0.9753086419753086,
+        "first_alarm_ms": 2533.3333333333335,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-30",
+        "sequence_score": 0.5785617828369141,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 41,
+        "n_valid_endpoints": 26,
+        "window_coverage": 0.6341463414634146,
+        "first_alarm_ms": 1866.6666666666667,
+        "label": 1
+      }
+    ],
+    "phases": [
+      {
+        "sequence_id": "fall-19",
+        "phase_event_starts": [],
+        "early_event_starts": [],
+        "visible_phase_alert_ms": []
+      },
+      {
+        "sequence_id": "fall-18",
+        "phase_event_starts": [
+          1433.3333333333335
+        ],
+        "early_event_starts": [],
+        "visible_phase_alert_ms": []
+      },
+      {
+        "sequence_id": "fall-29",
+        "phase_event_starts": [
+          2566.666666666667
+        ],
+        "early_event_starts": [],
+        "visible_phase_alert_ms": [
+          2566.666666666667,
+          2700.0,
+          2733.3333333333335
+        ]
+      },
+      {
+        "sequence_id": "fall-09",
+        "phase_event_starts": [],
+        "early_event_starts": [],
+        "visible_phase_alert_ms": []
+      },
+      {
+        "sequence_id": "fall-25",
+        "phase_event_starts": [
+          2466.666666666667
+        ],
+        "early_event_starts": [],
+        "visible_phase_alert_ms": [
+          2500.0
+        ]
+      },
+      {
+        "sequence_id": "fall-30",
+        "phase_event_starts": [
+          1866.6666666666667
+        ],
+        "early_event_starts": [],
+        "visible_phase_alert_ms": []
+      }
+    ],
+    "recovered_fn": [],
+    "visible_recovered_fn": [],
+    "phase_hits": 4,
+    "early_events": 0,
+    "adoption_checks": {
+      "accuracy_strictly_higher": false,
+      "f1_not_lower": true,
+      "no_more_fp": true,
+      "no_more_unknown": true,
+      "phase_hits_not_lower": true,
+      "no_early_events": true,
+      "recovered_fn_current_pose_alert": true
+    },
+    "eligible": false,
+    "threshold": 0.5341113805770874,
+    "status": {
+      "source_kind": "real",
+      "training": "complete",
+      "calibration": "complete",
+      "epochs": 34,
+      "best_val_normal_loss": 0.11561636645647096
+    },
+    "artifact_hashes": {
+      "autoencoder.pt": "afdb6f1a37bb1ada3e13cffe10bc0c23466f0fcf908e567840c46f3bf5ad300b",
+      "scaler.npz": "a6dd9dbb68f85fa3bd6f358998d341d4b7d40317597e35db592f71ee4007eb19",
+      "resolved-config.yaml": "b9757eba646eab8fdead4c0a3f8a13a99f82775b32426c63905f1a1afc313b0a",
+      "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+      "sources.json": "7d44381db98270041702ac868fba6c578ca9938b20065c3878b452a6659e014e",
+      "dataset-index.json": "cdd111c3fd7608e3bfdcd71c569fc03206e60e6fd2518ce937306db19a993562",
+      "environment.json": "34c83940314d2c2651b4180f2154873dfd643ab5d79a135fb860cd4a1d22af3c",
+      "training-history.csv": "e82cee506fd67a0564ad8ea11d63d78829f734393dd284d83b977ad7dbd02091",
+      "threshold.json": "6a554dfc7eff56bbcf18ca9b1772783fb78fb4fe7b578d28fdf45e86f68fc89a",
+      "calibration.json": "81c4cf243ab194f8fe5b65fb905b2d9d6a8acf6fde1f123e03f15e97b44f4ffb"
+    }
+  },
+  "candidate": {
+    "run": "ur-short20-isotropic-20261012-001",
+    "metrics": {
+      "metric_unit": "sequence",
+      "TP": 12,
+      "FP": 0,
+      "FN": 3,
+      "TN": 8,
+      "n_total": 23,
+      "n_evaluable": 23,
+      "n_unknown": 0,
+      "sequence_coverage": 1.0,
+      "sequence_accuracy": 0.8695652173913043,
+      "sequence_fall_precision": 1.0,
+      "sequence_fall_recall": 0.8,
+      "sequence_fall_f1": 0.8888888888888888,
+      "operational_accuracy": 0.8695652173913043,
+      "end_to_end_fall_recall": 0.8,
+      "outcomes_with_unknown": [
+        [
+          8,
+          0,
+          0
+        ],
+        [
+          3,
+          12,
+          0
+        ]
+      ],
+      "outcome_columns": [
+        "normal",
+        "suspected_fall",
+        "unknown"
+      ],
+      "outcome_rows": [
+        "ADL",
+        "Fall"
+      ],
+      "by_class": {
+        "ADL": {
+          "n_total": 8,
+          "n_unknown": 0,
+          "sequence_coverage": 1.0,
+          "window_coverage": 0.8525604952166573,
+          "n_missing_timelines": 0
+        },
+        "Fall": {
+          "n_total": 15,
+          "n_unknown": 0,
+          "sequence_coverage": 1.0,
+          "window_coverage": 0.8650042992261393,
+          "n_missing_timelines": 0
+        }
+      },
+      "window_coverage": 0.8574829931972789,
+      "n_missing_timelines": 0
+    },
+    "predictions": [
+      {
+        "sequence_id": "adl-37",
+        "sequence_score": 0.4238913059234619,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 335,
+        "n_valid_endpoints": 306,
+        "window_coverage": 0.9134328358208955,
+        "first_alarm_ms": null,
+        "label": 0
+      },
+      {
+        "sequence_id": "adl-23",
+        "sequence_score": 0.19688332080841064,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 201,
+        "n_valid_endpoints": 176,
+        "window_coverage": 0.8756218905472637,
+        "first_alarm_ms": null,
+        "label": 0
+      },
+      {
+        "sequence_id": "adl-20",
+        "sequence_score": 0.1537379026412964,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 250,
+        "n_valid_endpoints": 194,
+        "window_coverage": 0.776,
+        "first_alarm_ms": null,
+        "label": 0
+      },
+      {
+        "sequence_id": "adl-04",
+        "sequence_score": 0.23954840004444122,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 130,
+        "n_valid_endpoints": 128,
+        "window_coverage": 0.9846153846153847,
+        "first_alarm_ms": null,
+        "label": 0
+      },
+      {
+        "sequence_id": "adl-01",
+        "sequence_score": 0.1549297273159027,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 131,
+        "n_valid_endpoints": 124,
+        "window_coverage": 0.9465648854961832,
+        "first_alarm_ms": null,
+        "label": 0
+      },
+      {
+        "sequence_id": "adl-16",
+        "sequence_score": 0.18447928130626678,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 221,
+        "n_valid_endpoints": 144,
+        "window_coverage": 0.6515837104072398,
+        "first_alarm_ms": null,
+        "label": 0
+      },
+      {
+        "sequence_id": "adl-18",
+        "sequence_score": 0.21823763847351074,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 245,
+        "n_valid_endpoints": 181,
+        "window_coverage": 0.7387755102040816,
+        "first_alarm_ms": null,
+        "label": 0
+      },
+      {
+        "sequence_id": "adl-35",
+        "sequence_score": 0.3955822288990021,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 264,
+        "n_valid_endpoints": 262,
+        "window_coverage": 0.9924242424242424,
+        "first_alarm_ms": null,
+        "label": 0
+      },
+      {
+        "sequence_id": "fall-22",
+        "sequence_score": 0.6407454013824463,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 37,
+        "n_valid_endpoints": 35,
+        "window_coverage": 0.9459459459459459,
+        "first_alarm_ms": 1066.6666666666667,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-19",
+        "sequence_score": 0.23524624109268188,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 81,
+        "n_valid_endpoints": 33,
+        "window_coverage": 0.4074074074074074,
+        "first_alarm_ms": null,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-16",
+        "sequence_score": 2.1624531745910645,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 36,
+        "n_valid_endpoints": 34,
+        "window_coverage": 0.9444444444444444,
+        "first_alarm_ms": 1366.6666666666667,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-18",
+        "sequence_score": 0.4077760577201843,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 46,
+        "n_valid_endpoints": 26,
+        "window_coverage": 0.5652173913043478,
+        "first_alarm_ms": null,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-08",
+        "sequence_score": 0.6853697299957275,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 72,
+        "n_valid_endpoints": 70,
+        "window_coverage": 0.9722222222222222,
+        "first_alarm_ms": 2500.0,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-13",
+        "sequence_score": 1.8678984642028809,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 66,
+        "n_valid_endpoints": 64,
+        "window_coverage": 0.9696969696969697,
+        "first_alarm_ms": 2133.3333333333335,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-29",
+        "sequence_score": 1.3695502281188965,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 80,
+        "n_valid_endpoints": 62,
+        "window_coverage": 0.775,
+        "first_alarm_ms": 2566.666666666667,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-14",
+        "sequence_score": 0.8134891986846924,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 42,
+        "n_valid_endpoints": 40,
+        "window_coverage": 0.9523809523809523,
+        "first_alarm_ms": 1466.6666666666667,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-09",
+        "sequence_score": 1.6767135858535767,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 166,
+        "n_valid_endpoints": 146,
+        "window_coverage": 0.8795180722891566,
+        "first_alarm_ms": 5633.333333333334,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-07",
+        "sequence_score": 4.21953821182251,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 137,
+        "n_valid_endpoints": 135,
+        "window_coverage": 0.9854014598540146,
+        "first_alarm_ms": 3533.3333333333335,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-11",
+        "sequence_score": 0.798162579536438,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 111,
+        "n_valid_endpoints": 106,
+        "window_coverage": 0.954954954954955,
+        "first_alarm_ms": 3066.666666666667,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-25",
+        "sequence_score": 0.6545190811157227,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 66,
+        "n_valid_endpoints": 53,
+        "window_coverage": 0.803030303030303,
+        "first_alarm_ms": 2200.0,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-06",
+        "sequence_score": 2.1905128955841064,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 81,
+        "n_valid_endpoints": 79,
+        "window_coverage": 0.9753086419753086,
+        "first_alarm_ms": 1466.6666666666667,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-02",
+        "sequence_score": 0.9605494141578674,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 91,
+        "n_valid_endpoints": 89,
+        "window_coverage": 0.978021978021978,
+        "first_alarm_ms": 2533.3333333333335,
+        "label": 1
+      },
+      {
+        "sequence_id": "fall-30",
+        "sequence_score": 0.3551778793334961,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 51,
+        "n_valid_endpoints": 34,
+        "window_coverage": 0.6666666666666666,
+        "first_alarm_ms": null,
+        "label": 1
+      }
+    ],
+    "phases": [
+      {
+        "sequence_id": "fall-19",
+        "phase_event_starts": [],
+        "early_event_starts": [],
+        "visible_phase_alert_ms": []
+      },
+      {
+        "sequence_id": "fall-18",
+        "phase_event_starts": [],
+        "early_event_starts": [],
+        "visible_phase_alert_ms": []
+      },
+      {
+        "sequence_id": "fall-29",
+        "phase_event_starts": [
+          2566.666666666667
+        ],
+        "early_event_starts": [],
+        "visible_phase_alert_ms": [
+          2566.666666666667,
+          2700.0,
+          2733.3333333333335
+        ]
+      },
+      {
+        "sequence_id": "fall-09",
+        "phase_event_starts": [],
+        "early_event_starts": [],
+        "visible_phase_alert_ms": []
+      },
+      {
+        "sequence_id": "fall-25",
+        "phase_event_starts": [
+          2200.0,
+          2433.3333333333335
+        ],
+        "early_event_starts": [],
+        "visible_phase_alert_ms": [
+          2200.0,
+          2233.3333333333335
+        ]
+      },
+      {
+        "sequence_id": "fall-30",
+        "phase_event_starts": [],
+        "early_event_starts": [],
+        "visible_phase_alert_ms": []
+      }
+    ],
+    "recovered_fn": [],
+    "visible_recovered_fn": [],
+    "phase_hits": 2,
+    "early_events": 0,
+    "adoption_checks": {
+      "accuracy_strictly_higher": false,
+      "f1_not_lower": false,
+      "no_more_fp": true,
+      "no_more_unknown": true,
+      "phase_hits_not_lower": false,
+      "no_early_events": true,
+      "recovered_fn_current_pose_alert": true,
+      "window_coverage_not_lower": true,
+      "no_video_regression": false,
+      "no_phase_hit_loss": false,
+      "no_visible_phase_loss": true
+    },
+    "eligible": false,
+    "threshold": 0.4238913059234619,
+    "status": {
+      "source_kind": "real",
+      "training": "complete",
+      "calibration": "complete",
+      "epochs": 39,
+      "best_val_normal_loss": 0.11289029724330399
+    },
+    "artifact_hashes": {
+      "autoencoder.pt": "a354aa70d921bc90b3efeae056b552d92c616205df632ff32056e21519b6779c",
+      "scaler.npz": "056d59c1b203b131ca7e04e26a5c62773c0b44bb843324c5a325306eb06d1413",
+      "resolved-config.yaml": "fa4bdaaadb10e1d21f137dca7e4c369de96c3757d1268150a12f423ac188392b",
+      "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+      "sources.json": "bd5a675d70abe5bf146043311a0c5ae70cca1cca9db42777d1dcc51e758f5e87",
+      "dataset-index.json": "06d6157f38d050ade071f86317424d0d20519b8c9faae637fc98786ae419dc35",
+      "environment.json": "3ffd0d1159c8d8c50722f5f507efd8972a66583bf996757afc48ddd43051ac5f",
+      "training-history.csv": "508ecff525833b6405e77507cc761ba93a8d3713be45f0ab10c347ef204fcf29",
+      "threshold.json": "b200cfd75a20a2e769c990b8b9b9825f9595a32307e2c8554feabfe06e694e5d",
+      "calibration.json": "2bca5ed2a213bf347466a6f8d341c1feb0207195ada9a834c603186b4ed57b75"
+    },
+    "regressions": [
+      "fall-18",
+      "fall-30"
+    ],
+    "fall19_diagnosis": {
+      "sequence_id": "fall-19",
+      "sequence_score": 0.23524624109268188,
+      "prediction": 0,
+      "unknown_reason": null,
+      "n_scheduled_endpoints": 81,
+      "n_valid_endpoints": 33,
+      "window_coverage": 0.4074074074074074,
+      "first_alarm_ms": null,
+      "valid_features": 33,
+      "feature_shape": [
+        33,
+        512
+      ],
+      "finite": true,
+      "quality_counts": {
+        "track_gap": 27,
+        "valid": 33,
+        "low_confidence": 21
+      },
+      "window_size": 20,
+      "stride": 1,
+      "duration_ms_range": [
+        633.333333333333,
+        633.3333333333335
+      ],
+      "phase_scheduled_endpoints": 27,
+      "phase_valid_endpoints": 9,
+      "phase_legal_k3": 9,
+      "phase_max_raw_score": 0.29374006390571594,
+      "phase_max_event_score": 0.23524624109268188,
+      "phase_windows": [
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 45,
+          "window_id": 26,
+          "start_ms": 866.6666666666667,
+          "end_ms": 1500.0,
+          "available_at_ms": 1500.0,
+          "raw_score": 0.15565437078475952,
+          "event_score": 0.15565437078475952,
+          "state": "normal",
+          "reason": null
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 46,
+          "window_id": 27,
+          "start_ms": 900.0000000000001,
+          "end_ms": 1533.3333333333335,
+          "available_at_ms": 1533.3333333333335,
+          "raw_score": 0.1749037504196167,
+          "event_score": 0.15565437078475952,
+          "state": "normal",
+          "reason": null
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 47,
+          "window_id": 28,
+          "start_ms": 933.3333333333334,
+          "end_ms": 1566.6666666666667,
+          "available_at_ms": 1566.6666666666667,
+          "raw_score": 0.27266669273376465,
+          "event_score": 0.15565437078475952,
+          "state": "normal",
+          "reason": null
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 48,
+          "window_id": 29,
+          "start_ms": 966.6666666666667,
+          "end_ms": 1600.0,
+          "available_at_ms": 1600.0,
+          "raw_score": 0.23072421550750732,
+          "event_score": 0.1749037504196167,
+          "state": "normal",
+          "reason": null
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 49,
+          "window_id": 30,
+          "start_ms": 1000.0000000000001,
+          "end_ms": 1633.3333333333335,
+          "available_at_ms": 1633.3333333333335,
+          "raw_score": 0.1908646821975708,
+          "event_score": 0.1908646821975708,
+          "state": "normal",
+          "reason": null
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 50,
+          "window_id": 31,
+          "start_ms": 1033.3333333333335,
+          "end_ms": 1666.6666666666667,
+          "available_at_ms": 1666.6666666666667,
+          "raw_score": 0.1924852728843689,
+          "event_score": 0.1908646821975708,
+          "state": "normal",
+          "reason": null
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 51,
+          "window_id": 32,
+          "start_ms": 1066.6666666666667,
+          "end_ms": 1700.0000000000002,
+          "available_at_ms": 1700.0000000000002,
+          "raw_score": 0.2355603277683258,
+          "event_score": 0.1908646821975708,
+          "state": "normal",
+          "reason": null
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 52,
+          "window_id": 33,
+          "start_ms": 1100.0,
+          "end_ms": 1733.3333333333335,
+          "available_at_ms": 1733.3333333333335,
+          "raw_score": 0.23524624109268188,
+          "event_score": 0.1924852728843689,
+          "state": "normal",
+          "reason": null
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 53,
+          "window_id": 34,
+          "start_ms": 1133.3333333333335,
+          "end_ms": 1766.6666666666667,
+          "available_at_ms": 1766.6666666666667,
+          "raw_score": 0.29374006390571594,
+          "event_score": 0.23524624109268188,
+          "state": "normal",
+          "reason": null
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 54,
+          "window_id": 35,
+          "start_ms": 1166.6666666666667,
+          "end_ms": 1800.0000000000002,
+          "available_at_ms": 1800.0000000000002,
+          "raw_score": null,
+          "event_score": null,
+          "state": "unknown",
+          "reason": "track_gap"
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 55,
+          "window_id": 36,
+          "start_ms": 1200.0,
+          "end_ms": 1833.3333333333335,
+          "available_at_ms": 1833.3333333333335,
+          "raw_score": null,
+          "event_score": null,
+          "state": "unknown",
+          "reason": "track_gap"
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 56,
+          "window_id": 37,
+          "start_ms": 1233.3333333333335,
+          "end_ms": 1866.6666666666667,
+          "available_at_ms": 1866.6666666666667,
+          "raw_score": null,
+          "event_score": null,
+          "state": "unknown",
+          "reason": "track_gap"
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 57,
+          "window_id": 38,
+          "start_ms": 1266.6666666666667,
+          "end_ms": 1900.0000000000002,
+          "available_at_ms": 1900.0000000000002,
+          "raw_score": null,
+          "event_score": null,
+          "state": "unknown",
+          "reason": "track_gap"
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 58,
+          "window_id": 39,
+          "start_ms": 1300.0,
+          "end_ms": 1933.3333333333335,
+          "available_at_ms": 1933.3333333333335,
+          "raw_score": null,
+          "event_score": null,
+          "state": "unknown",
+          "reason": "track_gap"
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 59,
+          "window_id": 40,
+          "start_ms": 1333.3333333333335,
+          "end_ms": 1966.6666666666667,
+          "available_at_ms": 1966.6666666666667,
+          "raw_score": null,
+          "event_score": null,
+          "state": "unknown",
+          "reason": "track_gap"
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 60,
+          "window_id": 41,
+          "start_ms": 1366.6666666666667,
+          "end_ms": 2000.0000000000002,
+          "available_at_ms": 2000.0000000000002,
+          "raw_score": null,
+          "event_score": null,
+          "state": "unknown",
+          "reason": "track_gap"
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 61,
+          "window_id": 42,
+          "start_ms": 1400.0,
+          "end_ms": 2033.3333333333335,
+          "available_at_ms": 2033.3333333333335,
+          "raw_score": null,
+          "event_score": null,
+          "state": "unknown",
+          "reason": "track_gap"
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 62,
+          "window_id": 43,
+          "start_ms": 1433.3333333333335,
+          "end_ms": 2066.666666666667,
+          "available_at_ms": 2066.666666666667,
+          "raw_score": null,
+          "event_score": null,
+          "state": "unknown",
+          "reason": "track_gap"
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 63,
+          "window_id": 44,
+          "start_ms": 1466.6666666666667,
+          "end_ms": 2100.0,
+          "available_at_ms": 2100.0,
+          "raw_score": null,
+          "event_score": null,
+          "state": "unknown",
+          "reason": "track_gap"
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 64,
+          "window_id": 45,
+          "start_ms": 1500.0,
+          "end_ms": 2133.3333333333335,
+          "available_at_ms": 2133.3333333333335,
+          "raw_score": null,
+          "event_score": null,
+          "state": "unknown",
+          "reason": "track_gap"
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 65,
+          "window_id": 46,
+          "start_ms": 1533.3333333333335,
+          "end_ms": 2166.666666666667,
+          "available_at_ms": 2166.666666666667,
+          "raw_score": null,
+          "event_score": null,
+          "state": "unknown",
+          "reason": "track_gap"
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 66,
+          "window_id": 47,
+          "start_ms": 1566.6666666666667,
+          "end_ms": 2200.0,
+          "available_at_ms": 2200.0,
+          "raw_score": null,
+          "event_score": null,
+          "state": "unknown",
+          "reason": "track_gap"
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 67,
+          "window_id": 48,
+          "start_ms": 1600.0,
+          "end_ms": 2233.3333333333335,
+          "available_at_ms": 2233.3333333333335,
+          "raw_score": null,
+          "event_score": null,
+          "state": "unknown",
+          "reason": "track_gap"
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 68,
+          "window_id": 49,
+          "start_ms": 1633.3333333333335,
+          "end_ms": 2266.666666666667,
+          "available_at_ms": 2266.666666666667,
+          "raw_score": null,
+          "event_score": null,
+          "state": "unknown",
+          "reason": "track_gap"
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 69,
+          "window_id": 50,
+          "start_ms": 1666.6666666666667,
+          "end_ms": 2300.0,
+          "available_at_ms": 2300.0,
+          "raw_score": null,
+          "event_score": null,
+          "state": "unknown",
+          "reason": "track_gap"
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 70,
+          "window_id": 51,
+          "start_ms": 1700.0000000000002,
+          "end_ms": 2333.3333333333335,
+          "available_at_ms": 2333.3333333333335,
+          "raw_score": null,
+          "event_score": null,
+          "state": "unknown",
+          "reason": "track_gap"
+        },
+        {
+          "sequence_id": "fall-19",
+          "track_id": 1,
+          "sample_index": 71,
+          "window_id": 52,
+          "start_ms": 1733.3333333333335,
+          "end_ms": 2366.666666666667,
+          "available_at_ms": 2366.666666666667,
+          "raw_score": null,
+          "event_score": null,
+          "state": "unknown",
+          "reason": "track_gap"
+        }
+      ],
+      "pose_sha256": "9f793ef74565c96209cb379a48750b34cf49573b714b339e1e91957ac76ef0b3",
+      "feature_sha256": "fa7fa4e0499539c7f29d8d50be13a72cdabc8f85acd9e3d5a453f9a872599199",
+      "causal_timestamps_verified": true
+    },
+    "exports": {
+      "outputs/ur-short20-isotropic-20261012/ur-short20-isotropic-20261012-001/confusion-matrix.png": "0342481715e11fd194f9be217f26519b1f1baf835b52e89b33ad1ff3775295d3",
+      "outputs/ur-short20-isotropic-20261012/ur-short20-isotropic-20261012-001/evaluation-summary.md": "7d84ab3bae48dc1fc84c9fa2d1b21793c5ef8f65659ce6c3c871acd6f1ce74e5",
+      "outputs/ur-short20-isotropic-20261012/ur-short20-isotropic-20261012-001/events.csv": "6973a1e86dfc0d7084ebe9e70b42bfc68ba0e1244761564c165a1c4d1a702fa2",
+      "outputs/ur-short20-isotropic-20261012/ur-short20-isotropic-20261012-001/metrics.json": "6e2c8bdffc300b335786f23350eac3632f1ed0442616eb02971adeb825f9276d",
+      "outputs/ur-short20-isotropic-20261012/ur-short20-isotropic-20261012-001/outcomes-with-unknown.csv": "47c087b4519b34663c74f3819dceb6dfece978bca2b1ac6ce1afe53114879440",
+      "outputs/ur-short20-isotropic-20261012/ur-short20-isotropic-20261012-001/sequence-results.csv": "1935031a849019ab04034e3b2f866e2c21da106667bf088b741c329bcc1799ff",
+      "outputs/ur-short20-isotropic-20261012/ur-short20-isotropic-20261012-001/window-results.csv": "6a81e80af14ec0ac3f16f6e66f833e04001bb2603de55a397ecbb2f5b82fc444"
+    }
+  },
+  "selected_candidate": null,
+  "default_run": "ur-sample-human-s1-001",
+  "feature_accesses": [
+    {
+      "sequence_id": "adl-33",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-08",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-40",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-19",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-05",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-38",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-17",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-06",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-26",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-29",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-22",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-21",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-36",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-25",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-11",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-28",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-32",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-31",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-27",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-07",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-30",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-12",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-24",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-10",
+      "split": "train"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-37",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-23",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-20",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-04",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-01",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "adl-35",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-22",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-16",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-18",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-08",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-13",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-29",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-14",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-07",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-11",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-06",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-02",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-30",
+      "split": "validation"
+    },
+    {
+      "sequence_id": "fall-19",
+      "split": "validation"
+    }
+  ],
+  "evidence_tier": "real_feature_smoke",
+  "real_end_to_end": "not_run",
+  "test_feature_reads": 0,
+  "test_evaluations": 0,
+  "test_prepared": false
+}

@@ -1,0 +1,249 @@
+{
+  "created_at": "2026-09-18T00:00:41.537835+00:00",
+  "selected_run": "course-ur-balanced-001",
+  "candidates": [
+    {
+      "run": "course-ur-baseline-001",
+      "status": {
+        "source_kind": "real",
+        "training": "complete",
+        "calibration": "complete",
+        "epochs": 100,
+        "best_val_normal_loss": 0.19873356395908218
+      },
+      "threshold": 0.4859340786933899,
+      "validation_metrics": {
+        "metric_unit": "sequence",
+        "TP": 8,
+        "FP": 1,
+        "FN": 7,
+        "TN": 7,
+        "n_total": 23,
+        "n_evaluable": 23,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "sequence_accuracy": 0.6521739130434783,
+        "sequence_fall_precision": 0.8888888888888888,
+        "sequence_fall_recall": 0.5333333333333333,
+        "sequence_fall_f1": 0.6666666666666666,
+        "operational_accuracy": 0.6521739130434783,
+        "end_to_end_fall_recall": 0.5333333333333333,
+        "outcomes_with_unknown": [
+          [
+            7,
+            1,
+            0
+          ],
+          [
+            7,
+            8,
+            0
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.5906432748538012,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.7276995305164319,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.6432432432432432,
+        "n_missing_timelines": 0,
+        "balanced_sequence_accuracy": 0.7041666666666666
+      },
+      "frozen_artifacts": {
+        "autoencoder.pt": "631d810473168cd6fb27aecd294842d20ec6111c5f6c8a94fe5b254851663733",
+        "scaler.npz": "502b564d881dafb95c143512fa0eb43806cb345f746ab6469988ee2f06fe1866",
+        "resolved-config.yaml": "7655c00085a9f89ea5dbd64359febd95d947cf2aadbae9fab6bfa902283cc467",
+        "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+        "sources.json": "761c04c7b4cfcaadb4f0f2389b9ae83018789bfe04de4d4620f5cccf7552997f",
+        "dataset-index.json": "e235c07ce1de28a8ee8ec402db584af91c4fe511a0b57f526b3b1edf5766efd6",
+        "environment.json": "4d926502991821d3aa8df3e61fb94007d967209d189f910a69c67beb1ac2132e",
+        "training-history.csv": "de2d91129358da95aa10a9a79ab798b62dbf69fa77488dc76efe352488f433e5",
+        "threshold.json": "a28347405fcb32bd9f15d4a3f4bf03c64032978b2b29f290685e51dd67d3c49f",
+        "calibration.json": "11cf01c899ba0158f2f883f33d21d0d872627c33a04af5648fd29bc16d1f7355"
+      }
+    },
+    {
+      "run": "course-ur-balanced-001",
+      "status": {
+        "source_kind": "real",
+        "training": "complete",
+        "calibration": "complete",
+        "epochs": 100,
+        "best_val_normal_loss": 0.20671235331988866
+      },
+      "threshold": 0.33556345105171204,
+      "validation_metrics": {
+        "metric_unit": "sequence",
+        "TP": 11,
+        "FP": 3,
+        "FN": 4,
+        "TN": 5,
+        "n_total": 23,
+        "n_evaluable": 23,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "sequence_accuracy": 0.6956521739130435,
+        "sequence_fall_precision": 0.7857142857142857,
+        "sequence_fall_recall": 0.7333333333333333,
+        "sequence_fall_f1": 0.7586206896551724,
+        "operational_accuracy": 0.6956521739130435,
+        "end_to_end_fall_recall": 0.7333333333333333,
+        "outcomes_with_unknown": [
+          [
+            5,
+            3,
+            0
+          ],
+          [
+            4,
+            11,
+            0
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.5906432748538012,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.7276995305164319,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.6432432432432432,
+        "n_missing_timelines": 0,
+        "balanced_sequence_accuracy": 0.6791666666666667
+      },
+      "frozen_artifacts": {
+        "autoencoder.pt": "af38f41eac11c2ec805ec8c13be0f3db8bc9d3a94da5e1ec8d8a9dcac3902fa7",
+        "scaler.npz": "502b564d881dafb95c143512fa0eb43806cb345f746ab6469988ee2f06fe1866",
+        "resolved-config.yaml": "2c9bf179b45d635cf18cdd9afb095c08724a6e8db3f1f7989398313c2481f432",
+        "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+        "sources.json": "01d3cdc22ffc2da768e9ecd9ccab793db0a015b144ea003b1afad17fbfc6c8a5",
+        "dataset-index.json": "e235c07ce1de28a8ee8ec402db584af91c4fe511a0b57f526b3b1edf5766efd6",
+        "environment.json": "ddaf66749bd034db089ee855bf7dadd06320a3ef468ae2af96add7125d9b6538",
+        "training-history.csv": "af903895f39bd851b1758fc4ebe080f90183c05f9cf109bb41781634a068b5d1",
+        "threshold.json": "9a2579d7002271648c4fd3914eabbdb3e2cfba295a092ac1d8d24b3ae29ef05c",
+        "calibration.json": "3f906b9720e21461f6e439da87e7fcd91425ccbf139d0f4494a5fe313ee1ee93"
+      }
+    },
+    {
+      "run": "course-ur-compact-001",
+      "status": {
+        "source_kind": "real",
+        "training": "complete",
+        "calibration": "complete",
+        "epochs": 97,
+        "best_val_normal_loss": 0.27859536068292684
+      },
+      "threshold": 0.6748496294021606,
+      "validation_metrics": {
+        "metric_unit": "sequence",
+        "TP": 7,
+        "FP": 1,
+        "FN": 8,
+        "TN": 7,
+        "n_total": 23,
+        "n_evaluable": 23,
+        "n_unknown": 0,
+        "sequence_coverage": 1.0,
+        "sequence_accuracy": 0.6086956521739131,
+        "sequence_fall_precision": 0.875,
+        "sequence_fall_recall": 0.4666666666666667,
+        "sequence_fall_f1": 0.6086956521739131,
+        "operational_accuracy": 0.6086956521739131,
+        "end_to_end_fall_recall": 0.4666666666666667,
+        "outcomes_with_unknown": [
+          [
+            7,
+            1,
+            0
+          ],
+          [
+            8,
+            7,
+            0
+          ]
+        ],
+        "outcome_columns": [
+          "normal",
+          "suspected_fall",
+          "unknown"
+        ],
+        "outcome_rows": [
+          "ADL",
+          "Fall"
+        ],
+        "by_class": {
+          "ADL": {
+            "n_total": 8,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.5906432748538012,
+            "n_missing_timelines": 0
+          },
+          "Fall": {
+            "n_total": 15,
+            "n_unknown": 0,
+            "sequence_coverage": 1.0,
+            "window_coverage": 0.7276995305164319,
+            "n_missing_timelines": 0
+          }
+        },
+        "window_coverage": 0.6432432432432432,
+        "n_missing_timelines": 0,
+        "balanced_sequence_accuracy": 0.6708333333333334
+      },
+      "frozen_artifacts": {
+        "autoencoder.pt": "f2c0b4aa51658d391621568eef5b84ba8279ca034c6ca88d052db8d78509ee45",
+        "scaler.npz": "502b564d881dafb95c143512fa0eb43806cb345f746ab6469988ee2f06fe1866",
+        "resolved-config.yaml": "9e6d0d68150f60e29d3eaf7f54d8496927ce814de427d9ae05873ace8751b7b2",
+        "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+        "sources.json": "01d3cdc22ffc2da768e9ecd9ccab793db0a015b144ea003b1afad17fbfc6c8a5",
+        "dataset-index.json": "e235c07ce1de28a8ee8ec402db584af91c4fe511a0b57f526b3b1edf5766efd6",
+        "environment.json": "7e1bc045d4f616f5f681882eeee5f790ceb3f644a089c58c94c8eb8c93233f60",
+        "training-history.csv": "a3f2008c8b1db4d9618b4aac28cfd9a547f661cd5fd3001463638cb438508944",
+        "threshold.json": "2dc9a316cbf10de07b1750aaecae285f3403fd44baee4b9d4bacac46ba7f15c9",
+        "calibration.json": "6da38b422f3c40b9e02c4f163f20980b97c1643aff9590f1f42e8e5033008a79"
+      }
+    }
+  ],
+  "selection_split": "validation",
+  "test_scored": false,
+  "lock_sha256": "bed111c0efa9a397c2deca11e1903baacb1d8a9afdd8fadf759751faf0326072"
+}

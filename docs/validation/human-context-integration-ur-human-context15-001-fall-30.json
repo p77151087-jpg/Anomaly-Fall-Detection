@@ -1,0 +1,47 @@
+{
+  "source_kind": "real_end_to_end",
+  "run": "ur-human-context15-001",
+  "adopted": false,
+  "cases": [
+    {
+      "sequence_id": "fall-30",
+      "split": "validation",
+      "outcome": {
+        "sequence_id": "fall-30",
+        "sequence_score": 0.34843796491622925,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 56,
+        "n_valid_endpoints": 38,
+        "window_coverage": 0.6785714285714286,
+        "first_alarm_ms": null
+      },
+      "frames": 70,
+      "compared_windows": 35,
+      "masked_windows": 3,
+      "max_score_difference": 0.0,
+      "legacy_csv_byte_identical": null,
+      "visible_alert_rows": 0,
+      "visible_alert_timestamps_ms": [],
+      "events_match": true,
+      "states_match_where_visible": true,
+      "preview": "C:\\成大專案\\fall-detection-anomaly\\outputs\\human-context-validation\\ur-human-context15-001\\fall-30-preview.mp4",
+      "preview_sha256": "fa0dc334401004edac6f6cae4fb97ea6662be7977c89d5d2c4b22e8a0a4b66ad",
+      "events": []
+    }
+  ],
+  "hashes": {
+    "autoencoder.pt": "b42ebddcfe661d8ed41a78801be5ff12e48909cfad9b89e07ef70360bc7cb9ee",
+    "scaler.npz": "1c00e79e2232d9471119cc4e36a85cadab909518a8baa13fc27ff403cf4ec840",
+    "resolved-config.yaml": "73964fb852c40e60aab3688909da57a7b03ebad6e1fe50ab456ed012d1980517",
+    "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+    "sources.json": "0ff46a7d7e227b265fc70ab31f40dbeeae5d18e98d8480f31391c3db6421cbf2",
+    "dataset-index.json": "6c2fe3245995e53baab7cb5c2b6f6e7efae6847d24c9a8368454de059fd6916d",
+    "environment.json": "1f72e5e261bc66bd9443432706dfcba797105a9b4b4c58a0e06f620baf261693",
+    "training-history.csv": "c6e8558d8fc73c99e6bb610029455271d637aad2df299c3f87cb40b12fc5f2ea",
+    "threshold.json": "4b4c6c98980f1ff1495ffce85c3c9b1db80cb43388d5a92c3de84a88313f9491",
+    "calibration.json": "12fc89ff4306a4858722d03510b37c543ebf51881116d397c702d6bfc2cbac37"
+  },
+  "visual_review": "pending",
+  "not_formal_course_film": true
+}

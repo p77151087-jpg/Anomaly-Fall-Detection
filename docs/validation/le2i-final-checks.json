@@ -1,0 +1,17 @@
+{
+  "test_evidence": "docs/validation/pytest-le2i.xml",
+  "passed": 69,
+  "skipped": 1,
+  "skip_reason": "original Human four external resources missing",
+  "ruff_check": true,
+  "ruff_format_check": true,
+  "compileall": true,
+  "static_checks_scope": "src/tests; executed after final source changes, before full preparation/training; only documentation/evidence changed afterwards",
+  "test_metrics_by_dataset_sum_to_total": true,
+  "frozen_artifacts_unchanged": [
+    "openpose18-baseline-001",
+    "le2i-extension-001"
+  ],
+  "final_graph_generation": "2026-09-17T04:02:26Z",
+  "source_kind": "real"
+}

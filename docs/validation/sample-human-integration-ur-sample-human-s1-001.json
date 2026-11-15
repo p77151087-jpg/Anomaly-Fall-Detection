@@ -1,0 +1,110 @@
+{
+  "source_kind": "real_end_to_end",
+  "run": "ur-sample-human-s1-001",
+  "adopted": true,
+  "cases": [
+    {
+      "sequence_id": "adl-04",
+      "split": "validation",
+      "outcome": {
+        "sequence_id": "adl-04",
+        "sequence_score": 0.26237407326698303,
+        "prediction": 0,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 120,
+        "n_valid_endpoints": 118,
+        "window_coverage": 0.9833333333333333,
+        "first_alarm_ms": null
+      },
+      "frames": 149,
+      "compared_windows": 118,
+      "masked_windows": 0,
+      "max_score_difference": 0.0,
+      "events_match": true,
+      "states_match_where_visible": true,
+      "preview": "C:\\成大專案\\fall-detection-anomaly\\outputs\\sample-human-validation\\ur-sample-human-s1-001\\adl-04-preview.mp4",
+      "preview_sha256": "a8a947c381ce3804fe8761e1ec82270959968bc11a9f7249e67508972462d7d7",
+      "events": []
+    },
+    {
+      "sequence_id": "fall-09",
+      "split": "validation",
+      "outcome": {
+        "sequence_id": "fall-09",
+        "sequence_score": 1.8518779277801514,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 156,
+        "n_valid_endpoints": 133,
+        "window_coverage": 0.8525641025641025,
+        "first_alarm_ms": 5900.0
+      },
+      "frames": 185,
+      "compared_windows": 127,
+      "masked_windows": 6,
+      "max_score_difference": 0.0,
+      "events_match": true,
+      "states_match_where_visible": true,
+      "preview": "C:\\成大專案\\fall-detection-anomaly\\outputs\\sample-human-validation\\ur-sample-human-s1-001\\fall-09-preview.mp4",
+      "preview_sha256": "7e36236060332aa40e4e08a1a05d79ed943a16309e75dfc721175fa777d8a766",
+      "events": [
+        {
+          "sequence_id": "fall-09",
+          "track_id": 1,
+          "confirmed_start_ms": 5900.0,
+          "last_active_ms": 6133.333333333334,
+          "peak_score": 2.435713768005371,
+          "end_ms": 6139.0,
+          "end_reason": "sequence_end"
+        }
+      ]
+    },
+    {
+      "sequence_id": "fall-25",
+      "split": "validation",
+      "outcome": {
+        "sequence_id": "fall-25",
+        "sequence_score": 2.4257869720458984,
+        "prediction": 1,
+        "unknown_reason": null,
+        "n_scheduled_endpoints": 56,
+        "n_valid_endpoints": 46,
+        "window_coverage": 0.8214285714285714,
+        "first_alarm_ms": 2466.666666666667
+      },
+      "frames": 85,
+      "compared_windows": 40,
+      "masked_windows": 6,
+      "max_score_difference": 0.0,
+      "events_match": true,
+      "states_match_where_visible": true,
+      "preview": "C:\\成大專案\\fall-detection-anomaly\\outputs\\sample-human-validation\\ur-sample-human-s1-001\\fall-25-preview.mp4",
+      "preview_sha256": "e2e9092172b3be7aca5a9b2bba8e2e624ce84b575fc1e0be88512aef39423ad3",
+      "events": [
+        {
+          "sequence_id": "fall-25",
+          "track_id": 1,
+          "confirmed_start_ms": 2466.666666666667,
+          "last_active_ms": 2533.3333333333335,
+          "peak_score": 4.064888000488281,
+          "end_ms": 2566.666666666667,
+          "end_reason": "low_confidence"
+        }
+      ]
+    }
+  ],
+  "hashes": {
+    "autoencoder.pt": "96a9deea163c80055f08c0b7001f1b7445db45d3bda3714df2604f2339d55afb",
+    "scaler.npz": "d6660ddb8b6e37729257b3fc4fc62505a2ef77d9a2558de9d06b8716b7a0529c",
+    "resolved-config.yaml": "661b983db7c3147c76a36cec1561180555970444e88309cf246445c1fefcd484",
+    "split-manifest.json": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+    "sources.json": "dd7c73ba557a57846b2021c82443787cc12131434c3637265b8f590bceb58837",
+    "dataset-index.json": "cd163b0b2eb75044fdfd8127f9e863a06f8039b203a4027a299c7ab11be2e2c6",
+    "environment.json": "d9c1f980cf8c7059656da59eaeebfc4627be9abfd1e8080fcf946aeca8d33361",
+    "training-history.csv": "78afc3939783e3246a1a05ad03a02040ea20f91668e790f9e8cf4a5aabb93873",
+    "threshold.json": "6f8514180fa8ea073048d99b2998ebc871838e3a35e37d7633ac8b9be5bfb05a",
+    "calibration.json": "ea97fa7959d5f38593ab8d9bf286ce23ba5850d87695d69cce6816869c3ead78"
+  },
+  "visual_review": "pending",
+  "not_formal_course_film": true
+}

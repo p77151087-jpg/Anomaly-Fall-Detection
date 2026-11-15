@@ -1,0 +1,16 @@
+{
+  "id": "ur-fall19-whole-coordinate-20261013-001",
+  "synthetic": {"coordinate_and_localization":79,"core_event_cache_train_isolation":13,"total_passed":92,"initial_temp_setup_errors":4},
+  "real_feature_smoke": {"executed":true,"strict_real_stgcn":true,"shape":[23,512],"finite":true,"sham_max_abs_delta":0,"normal_control_windows":6,"control_delta":0},
+  "real_end_to_end": {"executed_scope":"cached Pose -> ST-GCN -> frozen AE / K3 for fall-19","full_rgb_pose":false,"full_validation_candidate":false,"test":false,"demo":false},
+  "independent": {"scores":69,"windows":213,"events":0,"normal_control_scores":6,"formal_baseline_csv_rows":23,"old_files":209,"actual_repeated_actions_refused":2,"new_output_cache_files_unchanged":22},
+  "adopted":false,
+  "accuracy_improved":false,
+  "fall19_false_negative_resolved":false,
+  "human_review_stage":"completed_self_reported_6_visible_corrections_7_uncertain",
+  "figure_visually_checked":true,
+  "lint":"5 new Python files passed",
+  "fit_calls":0,
+  "calibration_calls":0,
+  "test":"not_loaded_not_evaluated"
+}
