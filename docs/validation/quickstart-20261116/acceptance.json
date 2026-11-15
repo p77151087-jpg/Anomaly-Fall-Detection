@@ -1,8 +1,9 @@
 {
   "date": "2026-11-16",
   "unit_tests": {
-    "passed": 21,
-    "junit_local": ".artifacts/quickstart-unit-final-21.xml"
+    "passed": 24,
+    "command": ".venv/Scripts/python.exe -B -m pytest tests/test_quickstart.py -q",
+    "coverage": "Includes bounded three-attempt source retry, completion reuse and modified-file preservation"
   },
   "ruff": "passed",
   "windows_powershell_51_parse_and_environment_probe": "passed",
@@ -26,7 +27,7 @@
     "fps": 30.0,
     "score_log_rows": 110
   },
-  "saved_runtime_and_pretrained_hashes": "passed; existing artifacts preserved",
+  "saved_runtime_and_pretrained_hashes": "passed in original project and remote clone; existing artifacts preserved",
   "fresh_environment": {
     "status": "passed",
     "location": ".artifacts/quickstart-clean",
@@ -42,15 +43,26 @@
     "different_physical_computer_tested": false
   },
   "publication": {
-    "status": "authorized_publication_pending",
-    "reason": "User explicitly authorized updating GitHub and publicly releasing the trained-model package on 2026-11-16",
+    "status": "published_and_verified",
+    "reason": "Explicit user authorization on 2026-11-16; public Release and main published and verified",
     "repository": "https://github.com/p77151087-jpg/Anomaly-Fall-Detection",
     "planned_runtime_tag": "teammate-runtime-v1",
     "runtime_sha256": "b3790d3b4e17d36fc239d4a5e62ad4ce4c9e85e98d573450cf7eba175014a1fc",
     "runtime_size_bytes": 2057242,
-    "upload_performed": false,
-    "push_performed": false,
-    "user_authorized_public_models": true
+    "upload_performed": true,
+    "push_performed": true,
+    "user_authorized_public_models": true,
+    "release_url": "https://github.com/p77151087-jpg/Anomaly-Fall-Detection/releases/tag/teammate-runtime-v1",
+    "asset_url": "https://github.com/p77151087-jpg/Anomaly-Fall-Detection/releases/download/teammate-runtime-v1/fall-detection-runtime-v1.zip",
+    "source_commit": "27839752d5da31cf341539235ed42fd50a584d92",
+    "anonymous_download": {
+      "status": 200,
+      "sha256_match": true,
+      "size_bytes": 2057242,
+      "authorization_header_sent": false
+    },
+    "launcher_commit": "2d2f3f29444cba81be542970baa703fadc032edf",
+    "release_source_commit": "27839752d5da31cf341539235ed42fd50a584d92"
   },
   "scope": "No training, calibration, Test features/images or Test evaluation. Model inference only on existing Validation fall-02.",
   "project_local_python_install": {
@@ -74,5 +86,38 @@
     "members": 39,
     "zip_member_names": "Exactly match manifest relative paths",
     "crc_and_member_hashes": "passed"
+  },
+  "github_clone_validation": {
+    "status": "passed",
+    "clone_url": "https://github.com/p77151087-jpg/Anomaly-Fall-Detection.git",
+    "location": ".artifacts/github-clone-verify",
+    "tested_launcher_commit": "2d2f3f29444cba81be542970baa703fadc032edf",
+    "environment_preseeded": false,
+    "model_bundle_preseeded": false,
+    "pretrained_weights_or_raw_preseeded": false,
+    "shared_dependency_wheel_cache": true,
+    "different_physical_computer": false,
+    "runtime_download": "Actual anonymous GitHub Release download; SHA256 and39member hashes passed",
+    "other_downloads": "Standalone uv and Python, pinned Human Git checkout, four pretrained resources and both original demo sequences acquired automatically",
+    "first_success_command": "start.cmd -Device cpu -NoOpen",
+    "repeat_latest_command": "start.cmd -NoOpen (automatic CPU fallback with CPU wheel)",
+    "videos": [
+      {
+        "video": ".artifacts/github-clone-verify/outputs/demo/quickstart-20261116-005704-094938.mp4",
+        "decoded_frames": 110,
+        "fps": 30.0,
+        "log_rows": 110,
+        "sha256": "94edea75660c63d5a70b1ed13293ea390bc2037612e627e61084018da5d2fe37"
+      },
+      {
+        "video": ".artifacts/github-clone-verify/outputs/demo/quickstart-20261116-005917-693094.mp4",
+        "decoded_frames": 110,
+        "fps": 30.0,
+        "log_rows": 110,
+        "sha256": "94edea75660c63d5a70b1ed13293ea390bc2037612e627e61084018da5d2fe37"
+      }
+    ],
+    "startup_compatibility_fix": "PS7 to CMD to PS5 now uses built-in Windows PowerShell modules; prior missing Get-FileHash reproduced and corrected",
+    "network_recovery": "Official adl-05 stream interrupted once; retry recovered. Latest helper adds up to3automatic attempts validated by24unit tests."
   }
 }

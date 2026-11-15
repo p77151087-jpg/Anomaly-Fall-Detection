@@ -1,12 +1,12 @@
 <!-- course-alignment-next -->
 
-## Git 一鍵建置與公開模型套件（2026-11-16）
+## Git 一鍵建置與公開模型已發布（2026-11-16）
 
-新增 `start.cmd`：Windows x64 可自動準備專案內 uv／Python 3.11.16／固定套件、取得既有模型與兩段範例，再執行並開啟 demo；支援自己的影片、CPU／CUDA、只建置及離線只讀檢查。資源清單固定 39 個既有 runtime 檔、4 份預訓練資源及 Train adl-05／Validation fall-02 的逐幀檢查值。Git 不放權重、raw、快取或環境；模型套件規劃由 Release 自動下載。
+Windows x64 現在可從 GitHub clone 後直接執行 `start.cmd`，自動安裝專案內 uv／Python 3.11.16／固定套件，取得既有模型、四份預訓練資源與 Train adl-05／Validation fall-02，再產生並開啟 demo。原 baseline 與研究設定保留，支援自己的影片、CPU／CUDA、只建置與離線只讀檢查。Git 不放權重、raw、快取或環境；使用者已明確授權的模型套件發布於 [teammate-runtime-v1](https://github.com/p77151087-jpg/Anomaly-Fall-Detection/releases/tag/teammate-runtime-v1)，匿名下載 HTTP200／SHA256 與 39 個相對路徑逐檔核對通過，套件 2,057,242 bytes。
 
-21 項資源下載／ZIP／完整性／中斷接續／防覆寫測試與 Ruff 通過，PowerShell 5.1 語法及環境探測通過；原環境完整 46 項只讀檢查 ready。真實 `start.cmd -Device cuda -NoOpen` 完成 Validation fall-02，110 幀影片全部解碼，舊模型與權重 hash 不變。這是建置與展示驗收，不是新的 Accuracy／F1；未訓練、校準或讀取／評估 Test。
+24 項資源契約／ZIP／防覆寫／中斷接續測試與 Ruff 通過。實際從 GitHub 重新 clone，僅共用套件下載快取，沒有預置環境、模型套件、上游、預訓練權重或 raw；首次自動安裝與原始來源下載完成。更新後 `start.cmd -NoOpen` 自動選 CPU，重用環境與資源，兩支成品皆 110 幀／30 FPS 全部解碼且影片 SHA 相同；原環境 CUDA demo 與 46 項只讀檢查亦通過。這是建置與展示驗收，未訓練、校準或讀取／評估 Test，不新增 Accuracy／F1 成績。
 
-乾淨 CPU 環境另建於 `.artifacts/quickstart-clean`，已自動下載並安裝全部套件、上游程式、四份預訓練資源及兩段範例；重複啟動後完成 CPU demo 的 110 幀完整解碼。模型 ZIP 僅在本機預置，未驗證公開 Release 下載。新獨立資料夾的修正後 Python 安裝已確認 bin／payload 留在專案內、既有登錄值不變；暫存上游淺層 checkout 實跑亦通過。初次 uv 測試引起 managed Python 路徑遷移及暫存 Python 註冊，已恢復原環境路徑與原專案註冊；啟動器已加專案內 bin／禁止註冊設定，接續安裝不再重跑 Python install。使用者已於 2026-11-16 明確授權更新 GitHub 並公開模型套件。模型套件固定 2,057,242 bytes／39 檔，SHA256 為 `b3790d3b4e17d36fc239d4a5e62ad4ce4c9e85e98d573450cf7eba175014a1fc`；遠端 Release 與 Git clone 驗證結果接續記錄在驗收檔。
+實測修正 PS7→CMD→PS5 的模組路徑相容性，啟動器只調整自身子程序；專案內 bin／禁止 Python 註冊及暫存淺層上游 checkout 亦已驗證。官方資料下載曾中斷，實際重跑恢復，並加入最多三次自動重試與完整性保護。完整發布、測試範圍與先前環境相容修復紀錄保存於驗收檔。
 
 [組員指南](teammate-setup.md)｜[驗收紀錄](validation/quickstart-20261116/acceptance.json)。
 

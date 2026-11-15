@@ -10,7 +10,7 @@ cd Anomaly-Fall-Detection
 .\start.cmd
 ```
 
-第一次會自動建立專案專用 Python 環境、安裝套件、下載既有 AE 模型、預訓練權重與兩段範例，再產生並開啟示範影片。之後直接執行 `start.cmd`，既有環境與資源會重用，不需手動啟用 venv 或先重新訓練。首次需連網，CUDA 套件下載量較大；自動選擇可用 NVIDIA GPU，否則使用 CPU。
+第一次會自動建立專案專用 Python 環境、安裝套件、從[公開模型 Release](https://github.com/p77151087-jpg/Anomaly-Fall-Detection/releases/tag/teammate-runtime-v1)取得既有 AE 模型，下載預訓練權重與兩段範例，再產生並開啟示範影片。之後直接執行 `start.cmd`，既有環境與資源會重用，不需手動啟用 venv 或先重新訓練。首次需連網，CUDA 套件下載量較大；自動選擇可用 NVIDIA GPU，否則使用 CPU。
 
 自己的影片：`.\start.cmd -Input "D:\videos\my-video.mp4"`。只建置：`.\start.cmd -SetupOnly`。詳細選項見[組員使用指南](docs/teammate-setup.md)。下方保留歷次研究紀錄與手動安裝方式。
 

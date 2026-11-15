@@ -44,7 +44,7 @@ Git 保存程式、設定與檢查值，啟動程式自動取得其他必要資�
 | 資源 | 取得方式 |
 | --- | --- |
 | Python 3.11.16、固定版本 Torch／Torchvision 與套件 | 專案內 uv 自動安裝 |
-| 完整 baseline／wide AE run、雙肩候選必要紀錄 | 本專案 GitHub Release，下載後核對逐檔 SHA256 |
+| 完整 baseline／wide AE run、雙肩候選必要紀錄 | [公開 GitHub Release](https://github.com/p77151087-jpg/Anomaly-Fall-Detection/releases/tag/teammate-runtime-v1)，下載後核對逐檔 SHA256 |
 | 固定版本 Human 程式與四份預訓練資源 | 原有下載器及 [上游 Issue 117 的社群鏡像](https://github.com/GajuuzZ/Human-Falling-Detect-Tracks/issues/117) |
 | Train `adl-05`、Validation `fall-02` 兩段 RGB | [UR Fall 官方頁](https://fenix.ur.edu.pl/~mkepski/ds/uf.html) |
 
@@ -54,7 +54,7 @@ Git 保存程式、設定與檢查值，啟動程式自動取得其他必要資�
 
 ## 若遇到問題
 
-- **網路中斷：** 恢復後再執行同一個命令，已完成的資源會重用。
+- **網路中斷：** 資源下載最多自動重試 3 次，已完成的資源會重用；仍未完成時，網路恢復後再執行同一個命令。
 - **既有環境不相容：** 程式保留它並停止。首次使用以新的 clone 為宜，不直接複製另一台電腦的 `.venv`。
 - **資源 hash 不同或上游程式被改過：** 程式保留檔案並指出路徑，不會自動蓋掉研究成果。可使用另一份乾淨的 clone。
 - **GPU 不可用：** 自動模式改用 CPU，也可加 `-Device cpu`。CPU 處理影片可能較慢。
