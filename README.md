@@ -1,5 +1,19 @@
 # 跌倒異常偵測
 
+## 從 Git 抓下來直接使用（Windows x64）
+
+安裝 Git 後，在 PowerShell 執行：
+
+```powershell
+git clone https://github.com/p77151087-jpg/Anomaly-Fall-Detection.git
+cd Anomaly-Fall-Detection
+.\start.cmd
+```
+
+第一次會自動建立專案專用 Python 環境、安裝套件、下載既有 AE 模型、預訓練權重與兩段範例，再產生並開啟示範影片。之後直接執行 `start.cmd`，既有環境與資源會重用，不需手動啟用 venv 或先重新訓練。首次需連網，CUDA 套件下載量較大；自動選擇可用 NVIDIA GPU，否則使用 CPU。
+
+自己的影片：`.\start.cmd -Input "D:\videos\my-video.mp4"`。只建置：`.\start.cmd -SetupOnly`。詳細選項見[組員使用指南](docs/teammate-setup.md)。下方保留歷次研究紀錄與手動安裝方式。
+
 **最新UR-only方向（2026-10-12）：外部輸入已退出；Train資料增強可行，但本輪未提高Accuracy。** 原外部raw／cache封存data/retired，原模型／結果／hash保留。僅24UR Train ADL產生1%關節位置擾動，3,638原＋3,638增強列、無新增原影片；單一AE實跑29epochs，Val21/23＝91.30%／F1 .9286，低於原最高95.65%／.9655，不採用。36風險測試、48原特徵parity差0、Train-only Scaler／23支K3、1,435舊檔保全與8次拒絕通過，無新Test。[結果、限制與只讀操作](docs/ur-only-shift-20261012.md)。以下外部資料結果為已退出的歷史比較。
 
 **最新新增真實正常資料（2026-10-12）：32支下載、21支可用，Accuracy未提高。** Train24／3,638窗增至45／7,469，真實Pose／ST-GCN抽取13,270新RGB幀。47支Train／Val有340圖AI取樣可見性及15段跌倒不確定區間，尚非人工完整GT。固定2AE實跑95epochs，皆Val21/23＝91.30%／F1 .9333，低於原最高95.65%／.9655，不採用。36風險測試、Train-only Scaler／46支次K3、1,160舊檔hash與10次覆寫拒絕通過，無新Test。[來源、結果、標註與命令](docs/external-normal-20261012.md)｜[影像標註檢視](outputs/external-normal-20261012-report/annotation-review.html)。

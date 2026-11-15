@@ -1,0 +1,1361 @@
+{
+  "schema_version": 1,
+  "runtime_id": "teammate-runtime-v1",
+  "url": "https://github.com/p77151087-jpg/Anomaly-Fall-Detection/releases/download/teammate-runtime-v1/fall-detection-runtime-v1.zip",
+  "sha256": "b3790d3b4e17d36fc239d4a5e62ad4ce4c9e85e98d573450cf7eba175014a1fc",
+  "archive_size_bytes": 2057242,
+  "max_download_bytes": 16777216,
+  "max_extract_bytes": 67108864,
+  "files": {
+    "outputs/ur-fall19-shoulder-descent-20261107-001/artifact-manifest.json": {
+      "sha256": "d7f5a663372207dcd9935e3d60e00c0fbc99dfd26f51f4c5342634c8d70c782c",
+      "size_bytes": 786
+    },
+    "outputs/ur-fall19-shoulder-descent-20261107-001/branch-windows.csv": {
+      "sha256": "76b4ec38a9418bc0df5d2c51919d4993484228128aafcadded3940ed4aa1a21c",
+      "size_bytes": 846489
+    },
+    "outputs/ur-fall19-shoulder-descent-20261107-001/display-grid.csv": {
+      "sha256": "90cfbd234c2e68dab1c310777009124787580b71d423c94277afcf6113dfec00",
+      "size_bytes": 148619
+    },
+    "outputs/ur-fall19-shoulder-descent-20261107-001/lock.json": {
+      "sha256": "b9274721fa689f5ec0eb823833856584720d0a5447d8c7dd56d6c8d065d57701",
+      "size_bytes": 58679
+    },
+    "outputs/ur-fall19-shoulder-descent-20261107-001/normal-calibration.json": {
+      "sha256": "0281da8a1af3644fff8c599ff82c18eae9e82639968736aa8aab42d3caeb41b1",
+      "size_bytes": 2895
+    },
+    "outputs/ur-fall19-shoulder-descent-20261107-001/summary.json": {
+      "sha256": "79444c34754e877d9f3c50986b69fa0ed7cbaabbe1271bf65efcf12a8aabb8b7",
+      "size_bytes": 8904
+    },
+    "outputs/ur-fall19-shoulder-descent-20261107-001/validation-comparison.csv": {
+      "sha256": "c0227e35bf943d4d5b5ccc745eb675c2c6b550ad48e056794972c69e77c56aa7",
+      "size_bytes": 1959
+    },
+    "outputs/ur-fall19-shoulder-descent-20261107-001/validation-events.csv": {
+      "sha256": "d4867f36b28bbcf975bdb09c51143c69e79762d595e982b321d666e165c7893d",
+      "size_bytes": 2275
+    },
+    "outputs/ur-fall19-shoulder-descent-20261107-001/validation-windows.csv": {
+      "sha256": "555883be63d9661e98fd83593324d000d86f85736e38106e30cdab1aaec402b2",
+      "size_bytes": 358600
+    },
+    "runs/ur-isotropic-wide-20261012-001/autoencoder.pt": {
+      "sha256": "afdb6f1a37bb1ada3e13cffe10bc0c23466f0fcf908e567840c46f3bf5ad300b",
+      "size_bytes": 1187213
+    },
+    "runs/ur-isotropic-wide-20261012-001/calibration.json": {
+      "sha256": "81c4cf243ab194f8fe5b65fb905b2d9d6a8acf6fde1f123e03f15e97b44f4ffb",
+      "size_bytes": 45553
+    },
+    "runs/ur-isotropic-wide-20261012-001/dataset-index.json": {
+      "sha256": "cdd111c3fd7608e3bfdcd71c569fc03206e60e6fd2518ce937306db19a993562",
+      "size_bytes": 60102
+    },
+    "runs/ur-isotropic-wide-20261012-001/environment.json": {
+      "sha256": "34c83940314d2c2651b4180f2154873dfd643ab5d79a135fb860cd4a1d22af3c",
+      "size_bytes": 802
+    },
+    "runs/ur-isotropic-wide-20261012-001/frozen-artifacts.json": {
+      "sha256": "93d78a0a46aceca010fb61fa759471f0fd05ec085016f476eef1c65ef0dc4335",
+      "size_bytes": 902
+    },
+    "runs/ur-isotropic-wide-20261012-001/resolved-config.yaml": {
+      "sha256": "b9757eba646eab8fdead4c0a3f8a13a99f82775b32426c63905f1a1afc313b0a",
+      "size_bytes": 2010
+    },
+    "runs/ur-isotropic-wide-20261012-001/scaler.npz": {
+      "sha256": "a6dd9dbb68f85fa3bd6f358998d341d4b7d40317597e35db592f71ee4007eb19",
+      "size_bytes": 8152
+    },
+    "runs/ur-isotropic-wide-20261012-001/sources.json": {
+      "sha256": "7d44381db98270041702ac868fba6c578ca9938b20065c3878b452a6659e014e",
+      "size_bytes": 9959
+    },
+    "runs/ur-isotropic-wide-20261012-001/split-manifest.json": {
+      "sha256": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+      "size_bytes": 9405
+    },
+    "runs/ur-isotropic-wide-20261012-001/status.json": {
+      "sha256": "5e8c51d93df36c64596b4c464da72341c50b2998503d1bb4219b7722e515cd77",
+      "size_bytes": 146
+    },
+    "runs/ur-isotropic-wide-20261012-001/threshold.json": {
+      "sha256": "6a554dfc7eff56bbcf18ca9b1772783fb78fb4fe7b578d28fdf45e86f68fc89a",
+      "size_bytes": 2498
+    },
+    "runs/ur-isotropic-wide-20261012-001/training-artifacts.json": {
+      "sha256": "917083edc4e28bcc6b6c6f9adbd9a577ea4766b186c005a680d08aab98420594",
+      "size_bytes": 724
+    },
+    "runs/ur-isotropic-wide-20261012-001/training-curve.png": {
+      "sha256": "9c0a74d18e9e8faa84b5b17d58487e8786b7e0d3206ea2722d10e340ce569560",
+      "size_bytes": 38924
+    },
+    "runs/ur-isotropic-wide-20261012-001/training-history.csv": {
+      "sha256": "e82cee506fd67a0564ad8ea11d63d78829f734393dd284d83b977ad7dbd02091",
+      "size_bytes": 2191
+    },
+    "runs/ur-isotropic-wide-20261012-001/training-progress.json": {
+      "sha256": "f245b86d415bb629e849b96f87a37b76545ffcc0c2d54a6581ef736d63fa61e6",
+      "size_bytes": 5346
+    },
+    "runs/ur-sample-human-s1-001/autoencoder.pt": {
+      "sha256": "96a9deea163c80055f08c0b7001f1b7445db45d3bda3714df2604f2339d55afb",
+      "size_bytes": 563469
+    },
+    "runs/ur-sample-human-s1-001/calibration.json": {
+      "sha256": "ea97fa7959d5f38593ab8d9bf286ce23ba5850d87695d69cce6816869c3ead78",
+      "size_bytes": 45404
+    },
+    "runs/ur-sample-human-s1-001/dataset-index.json": {
+      "sha256": "cd163b0b2eb75044fdfd8127f9e863a06f8039b203a4027a299c7ab11be2e2c6",
+      "size_bytes": 59929
+    },
+    "runs/ur-sample-human-s1-001/environment.json": {
+      "sha256": "d9c1f980cf8c7059656da59eaeebfc4627be9abfd1e8080fcf946aeca8d33361",
+      "size_bytes": 802
+    },
+    "runs/ur-sample-human-s1-001/frozen-artifacts.json": {
+      "sha256": "8a7280c95155c2128d029858805056ec9c52dd00b33a7862773f47db06e8afb3",
+      "size_bytes": 902
+    },
+    "runs/ur-sample-human-s1-001/resolved-config.yaml": {
+      "sha256": "661b983db7c3147c76a36cec1561180555970444e88309cf246445c1fefcd484",
+      "size_bytes": 1885
+    },
+    "runs/ur-sample-human-s1-001/scaler.npz": {
+      "sha256": "d6660ddb8b6e37729257b3fc4fc62505a2ef77d9a2558de9d06b8716b7a0529c",
+      "size_bytes": 8162
+    },
+    "runs/ur-sample-human-s1-001/sources.json": {
+      "sha256": "dd7c73ba557a57846b2021c82443787cc12131434c3637265b8f590bceb58837",
+      "size_bytes": 9959
+    },
+    "runs/ur-sample-human-s1-001/split-manifest.json": {
+      "sha256": "406c764b52cc191b980cd8f68809d2fa6f24c16dd178ce222e5173a512c25f3e",
+      "size_bytes": 9405
+    },
+    "runs/ur-sample-human-s1-001/status.json": {
+      "sha256": "677e1d090629a9c0551c726979021b58fa8610d36f05cd347f31318e7e1acf95",
+      "size_bytes": 146
+    },
+    "runs/ur-sample-human-s1-001/threshold.json": {
+      "sha256": "6f8514180fa8ea073048d99b2998ebc871838e3a35e37d7633ac8b9be5bfb05a",
+      "size_bytes": 2498
+    },
+    "runs/ur-sample-human-s1-001/training-artifacts.json": {
+      "sha256": "baae16a23bacd4399ed29836d07c717ba2d4c22bf0267c45abe08589615be99d",
+      "size_bytes": 724
+    },
+    "runs/ur-sample-human-s1-001/training-curve.png": {
+      "sha256": "c2c7ce6e56d9207d469c746504a1ddbe476203bcb96795b9a1f0fda17b814655",
+      "size_bytes": 41159
+    },
+    "runs/ur-sample-human-s1-001/training-history.csv": {
+      "sha256": "78afc3939783e3246a1a05ad03a02040ea20f91668e790f9e8cf4a5aabb93873",
+      "size_bytes": 2420
+    },
+    "runs/ur-sample-human-s1-001/training-progress.json": {
+      "sha256": "6783adda9d45810fb1919ead9e55b3d3f7dde784a662099dac49826989b6345c",
+      "size_bytes": 5943
+    }
+  },
+  "pretrained_weights": {
+    "weights/pretrained/sample-human/detector.pth": {
+      "sha256": "355917fb2f2c05a769f87d7809dc3feeb1e6cf12c72f68fb8bd43d4905418e11",
+      "size_bytes": 34720299
+    },
+    "weights/pretrained/sample-human/yolov3-tiny-onecls.cfg": {
+      "sha256": "3d0163163313397a9af67b35c7b9479914e941f011529dbb13920a4dcc5d545e",
+      "size_bytes": 2021
+    },
+    "weights/pretrained/sample-human/fast_res50_256x192.pth": {
+      "sha256": "42808e905aa20133a89a6a2cba073265a2ce35fabe65edffd9f153ef5846b7b0",
+      "size_bytes": 162603012
+    },
+    "weights/pretrained/sample-human/tsstg-model.pth": {
+      "sha256": "1cac9a6da99d5d67da8ab58ee7633c5e923d85fba668673f028792819750a149",
+      "size_bytes": 24708522
+    }
+  },
+  "sample_sequences": {
+    "adl-05": {
+      "archive_sha256": "28111ad5c6a77e6fcfd73d10f7e76d0d00e67ce6fdbd52c36ccf79bd0f9e3498",
+      "sync_sha256": "7676888f9cfc727df84926b30d7b1516eb8f63b552d769a19f566c53f8c33118",
+      "png_count": 180,
+      "frames": {
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-001.png": {
+          "sha256": "cfc0faa16c6f6b67a66cdc3ea7d019eba1feae2521a6dfa374510dffa98748cd",
+          "size_bytes": 452986
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-002.png": {
+          "sha256": "03fadc0ad821f3fee2795b4888a80f57636ba2924ef3b0e89021a22c763aaa3c",
+          "size_bytes": 454066
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-003.png": {
+          "sha256": "a7dabb40eacbe77cab471dffc4f49306bacdafcedafd4cf7d42d8bfe6821d550",
+          "size_bytes": 454464
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-004.png": {
+          "sha256": "34feda5167960ff62b596b7ef2077aeaac035446db5b36527913d418a23ce854",
+          "size_bytes": 454351
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-005.png": {
+          "sha256": "4cbd43bcd940c83e1835c8b0990c87d04288dbd9c388daf87662c24b66a6751e",
+          "size_bytes": 454976
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-006.png": {
+          "sha256": "cf1de597acf96437716eadf0cf2e0c59a9de53957ef492e953653f40d0d7d8ab",
+          "size_bytes": 454713
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-007.png": {
+          "sha256": "2ba5c503e702bc263799b5ded742826ba319d679a8f3d5f729bcdf031128f60f",
+          "size_bytes": 455448
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-008.png": {
+          "sha256": "13472b78244720c80982c8fcdc3ef880bfbf349acc435705fb4f9ce20260b44d",
+          "size_bytes": 454965
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-009.png": {
+          "sha256": "75c969a41397417e0c057249c0b6e0cf69f630a946b015d25b0ba3d6d8fc21b8",
+          "size_bytes": 455224
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-010.png": {
+          "sha256": "796f007400b522f212fd4da091a310d22cfc5eec468f8603aa59e6e1cf72d5f7",
+          "size_bytes": 455149
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-011.png": {
+          "sha256": "8e1599bfa6f8ac0e7b3e322ea4ccb9f75c3f19f9b7847a9d4919a0391c2725aa",
+          "size_bytes": 456690
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-012.png": {
+          "sha256": "6cc0230b58b7fe29609107046480bfc92a7473bca03f164c418515f3793ce0fb",
+          "size_bytes": 456779
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-013.png": {
+          "sha256": "d8b0ab21f31eea3df1126615e2a027cfb4384186e10313a694656e35c7a89ac1",
+          "size_bytes": 456264
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-014.png": {
+          "sha256": "2dca9bc2070c2e9ae13b4c96cfc12790684e08d3090e9c1878734eb0e3be0f22",
+          "size_bytes": 458366
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-015.png": {
+          "sha256": "8d3ae8316c152a652533d8e0730b34d3c8fa0ea04cc533803115cc0c3859b4bc",
+          "size_bytes": 457060
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-016.png": {
+          "sha256": "bd8d73bca576232defb1906319a748f2152bd239f3bf8f8dea6c32384805eb0b",
+          "size_bytes": 457097
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-017.png": {
+          "sha256": "25fbbbd16c8008ccfbc9557cf8ae93b86e3394ed7a93c142dbcb493c09d72b92",
+          "size_bytes": 457884
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-018.png": {
+          "sha256": "003c2aa7f89e8ffce154d1a5ca013b6f10421bff6802c2c69c5b2443468f8a32",
+          "size_bytes": 458431
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-019.png": {
+          "sha256": "902a2326488de94a436e9adf3f5a2a8534ae43a89b593bd3e7d2c2b9e7da41f9",
+          "size_bytes": 457325
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-020.png": {
+          "sha256": "dfd73d560a3204f3cfdfcad28fa3b806287b349dd0e7101a0971613339f3839e",
+          "size_bytes": 458514
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-021.png": {
+          "sha256": "bd455ee699874ddf731f1be9805714094745303c8e4eef89778e7ff8e82bd808",
+          "size_bytes": 458042
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-022.png": {
+          "sha256": "7e6fd1ab8d4c189f1c214c2aa0102971d11a317583d2163d1f369c392ac12ed7",
+          "size_bytes": 458395
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-023.png": {
+          "sha256": "debed53cf8d88bb469d63ec51d3f265637f6dd16a3cdf8c41e278537bd451d1b",
+          "size_bytes": 458385
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-024.png": {
+          "sha256": "ff56aee50157101a935e2437870c9229108985f0aa64a55527551a5d60e7be23",
+          "size_bytes": 458942
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-025.png": {
+          "sha256": "1166b0dd9e006bc140b65a6bc8da58eb11152444eb363b5c5a78c1a69202cea0",
+          "size_bytes": 458692
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-026.png": {
+          "sha256": "ecf60442d75cdb92e41f41107524c9cc75754aa1d2b5b69b90344de6236d23b5",
+          "size_bytes": 459190
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-027.png": {
+          "sha256": "6bc9cf2be00ec92ff2122e90f7455760b6a6ff1939c05a36b4ab56a9b304d03e",
+          "size_bytes": 458879
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-028.png": {
+          "sha256": "806be1233a1eb15f18bbc05f2aeac71e384e7723353c6211b0095c1aa4a4be70",
+          "size_bytes": 460736
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-029.png": {
+          "sha256": "8b1fabee95ad281da1e6b3f703dc259c95aadc31df7deae94726d2ca1e60191f",
+          "size_bytes": 459341
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-030.png": {
+          "sha256": "29a1a3481ed35ed7d089050e7809990687c199eea276497b4fb14ed066766a7b",
+          "size_bytes": 459775
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-031.png": {
+          "sha256": "6f62573017fc16fc27e019be2d09fc5498169330e157e26ea443c58af878fda5",
+          "size_bytes": 460302
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-032.png": {
+          "sha256": "84ba1e05fe9cb31a45f2f31f72c6be5633550420c98ee959cf2438a05d8511ac",
+          "size_bytes": 459584
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-033.png": {
+          "sha256": "9eef008fec11f42f1ab412cac34d6a7d4b9d6b4e68503aca6abd1bbdc91054ef",
+          "size_bytes": 459749
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-034.png": {
+          "sha256": "5b2ba7576cdb05a57ec141cd8bdbf85a5b2acb318beb1cad7617f09fb9843a52",
+          "size_bytes": 460481
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-035.png": {
+          "sha256": "a0819313be7268c0b0962f79d4d330d2ba82f957a5c0d307c9d05bb2c59e7b00",
+          "size_bytes": 460981
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-036.png": {
+          "sha256": "592abde0f701cab8e8c39071ac231d0bc9e524633bdd810ab883de09b9764404",
+          "size_bytes": 459467
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-037.png": {
+          "sha256": "ef9289b9bd3831061c02b075b94ffcfee62977988aa4ed0db29b43a6c063fa23",
+          "size_bytes": 460372
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-038.png": {
+          "sha256": "e86d59bd4666d8ba59afc2cbca80d42365b7ee16567807d6c1a16b1fc9737b0a",
+          "size_bytes": 459415
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-039.png": {
+          "sha256": "de5203169d717935fda1a77317ebfdd76dfbfdc4369871541e8533b01d564615",
+          "size_bytes": 459504
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-040.png": {
+          "sha256": "a9840b11354d434f9008970bafd5f02ac3c76a11f6536aa390fcb3f74e052bda",
+          "size_bytes": 460483
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-041.png": {
+          "sha256": "62973c7db7f1d355154d8fe79c73fc29f3db37d32b472c3c2834c039fe333321",
+          "size_bytes": 460517
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-042.png": {
+          "sha256": "c343aa15fc41cdfa6119593b5fc9823d06a5bff6fe96582d696a0b9c130bb407",
+          "size_bytes": 460306
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-043.png": {
+          "sha256": "f3b9322dd36716425bab1e7a23062800616a09c4cdd291e04f4d4b2bed508668",
+          "size_bytes": 460975
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-044.png": {
+          "sha256": "4a2e28e502373685f9c1bd3dfadb05ec305254674024ac4665b164bf3eb2a2a5",
+          "size_bytes": 461004
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-045.png": {
+          "sha256": "58959a4b35eff51f57a7e34dd13d404be67b2847ad36e2c89bd13ead7e32b9df",
+          "size_bytes": 460696
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-046.png": {
+          "sha256": "87e8bd97ef131314538a7cc834f9a7026abbab5b8e6e08f8562889f75c4c91ea",
+          "size_bytes": 460754
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-047.png": {
+          "sha256": "45323deedfe4cabf5463f18a6a1b46cf673c94d762c231cb2cb7e109549c18de",
+          "size_bytes": 461064
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-048.png": {
+          "sha256": "b199f9212fff36b275fa13cbdaf448decd544514e9da0c7397a2fced2a0d2137",
+          "size_bytes": 461579
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-049.png": {
+          "sha256": "319d8a5ec6b9f7d99fb58f4b20ba4f4bf76d7dbb37c4afdbcfda2192d6ae8b1a",
+          "size_bytes": 461131
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-050.png": {
+          "sha256": "d5c0ed62c63e7ccb2fd461da62d60159a433c9da0827be3c26380d55d1eebc06",
+          "size_bytes": 461204
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-051.png": {
+          "sha256": "2848a6a0ef5eef57a2048c1d24672f42f33beb45f28619563143edb2ecc34a97",
+          "size_bytes": 475877
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-052.png": {
+          "sha256": "fe857e7d9c7b4df9038db000dd5870b8806eb72cf785041a22c87188ef34b7df",
+          "size_bytes": 472631
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-053.png": {
+          "sha256": "6b83d2f99adfb91c0fb9b0aeec7baa4978a828392ac48c97871ea65b0f7a01e0",
+          "size_bytes": 472812
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-054.png": {
+          "sha256": "81ca0acf8e869d798799db01ee1d16413460554dd6dcafb3f15e757834b2d39b",
+          "size_bytes": 472755
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-055.png": {
+          "sha256": "003f24eeaf97e8706f0a2c075af3ba8e1c7a2c4bd3438e1c0575b3d8523b2327",
+          "size_bytes": 473889
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-056.png": {
+          "sha256": "38a9933cf69af746b946c061917f9d67ef1df6c8636449a327cc302e8ba8c972",
+          "size_bytes": 474346
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-057.png": {
+          "sha256": "da03594e38198b0474057fee64085065329302010081f3e4ba3964fe8a4915b2",
+          "size_bytes": 474725
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-058.png": {
+          "sha256": "9d6a341b53c7892160d4ecd1eb5931329b8a2d852f4071e24e2865da14b8cb21",
+          "size_bytes": 475187
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-059.png": {
+          "sha256": "151bb71b3980916c86be2e3ec8c96a9a27a65f3c59e1fad565df0a489fa75b82",
+          "size_bytes": 477068
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-060.png": {
+          "sha256": "7720c03c632bde1b0c79901a7c87ce69b3341e81da58dd587264507540b8c6d9",
+          "size_bytes": 476927
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-061.png": {
+          "sha256": "3147a2baf4f8be49e9e7fe0fcb67690d234407488ddcfece95820a27e4f2187d",
+          "size_bytes": 477344
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-062.png": {
+          "sha256": "e0103931e30fcc21d7596d287e9cbbe58dd714b3e26e8b0e75c21f5fd75cfc9d",
+          "size_bytes": 477009
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-063.png": {
+          "sha256": "9e0ff3ed574fec1cded846b7b4ab2a132f248a70ce5e95d538033aa138d112e9",
+          "size_bytes": 478890
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-064.png": {
+          "sha256": "1cde2be3a608776a41aa23f836e95aa4e0b8c3f421c77940ca22f22ccb725d4c",
+          "size_bytes": 480189
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-065.png": {
+          "sha256": "2960792c2f66675743cf1920ed20b7059c2eda6efa24ec5100e4ac0c5bf8a7bf",
+          "size_bytes": 480672
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-066.png": {
+          "sha256": "6ed82101cd8e2dc65639fd602df00e699627b48df6631d60ce47b9d7ef9d3566",
+          "size_bytes": 481083
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-067.png": {
+          "sha256": "6d007b349156d12c35363b68562bb04ef8287ef8fd4df5dd79e93a3eb9fc2046",
+          "size_bytes": 493779
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-068.png": {
+          "sha256": "99a83cfc0d53f71d144e6928fb01df8857dceb6126c7773fad1ef440a1faa46f",
+          "size_bytes": 490989
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-069.png": {
+          "sha256": "f7a20f872513572d4647ebe35dc8fbff037fb37240be91051599bda4e5a066ff",
+          "size_bytes": 491260
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-070.png": {
+          "sha256": "4efa764f91ddaf3884a76e2c8502540d63506579353131fe0438188727ef760b",
+          "size_bytes": 492644
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-071.png": {
+          "sha256": "f8ac6dfbbece7aa4fd26964484cdaea00b35f12b7a0c84085c64cf96bd00541d",
+          "size_bytes": 492867
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-072.png": {
+          "sha256": "d68c02943436cbc3cc4f52cbb17bbb9e5f6b464e5b13d40271aea0569d2ecd92",
+          "size_bytes": 493980
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-073.png": {
+          "sha256": "812e8596df72e617249a9df8d2de641c6d5f0401fd6cc18e1108302f0911ffc4",
+          "size_bytes": 493384
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-074.png": {
+          "sha256": "27f0aa4e7fa8fd6d787443fca13ddc71f2ce6afac248b29f1be0afd6a7dffb97",
+          "size_bytes": 494860
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-075.png": {
+          "sha256": "ef672b2be36aef3b290b73fc43e41706b30c1dab10c08f5fefb001cdf2a6022c",
+          "size_bytes": 494631
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-076.png": {
+          "sha256": "d7d19317a918d030b0f31c3c69bd73f7705b6a3dc95b1c33ba8fbc6c467a9c7e",
+          "size_bytes": 494501
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-077.png": {
+          "sha256": "085ab3f434b15938fc98778dcf6c111e5508409bd9572e5312f7d57d45b1c04a",
+          "size_bytes": 493940
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-078.png": {
+          "sha256": "7bfb2f8a199e0781ff7d3743a7ebdb7f9854f2cdfb94cc187d8ea3172e809d05",
+          "size_bytes": 494206
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-079.png": {
+          "sha256": "c4780196cf01af220a89f16a9adbbbf505a27d9e50d48694690d436ec456e357",
+          "size_bytes": 493003
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-080.png": {
+          "sha256": "24047a1333a04cfe10ee5fc7195db3281be1103928c8ce8cd3828c1cb14670ae",
+          "size_bytes": 491257
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-081.png": {
+          "sha256": "ee9d448a9acdc94bcd7365b9b1a24ebf14e878670cc4b74c40464ae2e37d8e98",
+          "size_bytes": 489236
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-082.png": {
+          "sha256": "80acf9cd0749a50618ca19849c9fad30365f172ff632014b8efdb6bbafdfaf44",
+          "size_bytes": 487728
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-083.png": {
+          "sha256": "be96ec50d39d64dc5472e692d62627379a71c9fd894b9dad44e4eab3f4e4c2bc",
+          "size_bytes": 485321
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-084.png": {
+          "sha256": "3962fb5ba1ee083cf62c1f4080fdeae9c145434b29d4c431e170b345dfe70ddb",
+          "size_bytes": 484203
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-085.png": {
+          "sha256": "7dc1a1fbe2b2a6d4418accc5649e079677c43733845c6cff435809d8f9cb4c94",
+          "size_bytes": 482771
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-086.png": {
+          "sha256": "236d6eece6e6f262f005421e2ad68fe04e5013af251a98b0ee7d8d3bd068a187",
+          "size_bytes": 482817
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-087.png": {
+          "sha256": "7bd237cab34959299c340690612b4cca037a4715689615fae0db742acd621f6c",
+          "size_bytes": 483076
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-088.png": {
+          "sha256": "3e5fd9f72e11be9c9518cf7bad61aece82b8a94070039059cfd1b313d01edd1c",
+          "size_bytes": 482868
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-089.png": {
+          "sha256": "7dc460991ffb101dc95797b1dcf2efba19935b21bd3a1c0e3caee96df3823a99",
+          "size_bytes": 482615
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-090.png": {
+          "sha256": "cf1985ac1b188b24ba93c4a7801ad9d45b220fc65d782e32effce22918fb56fe",
+          "size_bytes": 480802
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-091.png": {
+          "sha256": "d4e4c631d64678d88e171114bd6ab38561a7f95f833bbb02fc07ba0389cfde14",
+          "size_bytes": 480469
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-092.png": {
+          "sha256": "fbed9db0cbd9c71d4ae4d05ce81cd93bc4d43ebbf54e7794becc75d95f4bb5a9",
+          "size_bytes": 480237
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-093.png": {
+          "sha256": "2d7a8165fd36acf9f237b669c0d00946a7e453250c7ffab424be85b36e486b19",
+          "size_bytes": 480125
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-094.png": {
+          "sha256": "a129a20a0201e00749ce401c09d6a958518c5a5c623799cf5bff77201a08886b",
+          "size_bytes": 479652
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-095.png": {
+          "sha256": "e8f42a3b528a85219b2fce6b6f4eb67afb6442a098a09dbf0db3cc1006bcd122",
+          "size_bytes": 480426
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-096.png": {
+          "sha256": "3da84f8c906c906460c1433ed57e7e03383060964bf001f3b9a91bb272becfba",
+          "size_bytes": 479892
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-097.png": {
+          "sha256": "54994e449203be3c840d9a0138a28537db74ac49259f7d936ae7e2c0c7ddc3dd",
+          "size_bytes": 479480
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-098.png": {
+          "sha256": "a74851d43f1e4d84e054c0d3641aff35fa6486809f6d000a48c7263093e233e0",
+          "size_bytes": 479828
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-099.png": {
+          "sha256": "36f014c1baf7b0956293fdf780b49ef644eec8a49196cfd2b07d2bf9c3441f4f",
+          "size_bytes": 479989
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-100.png": {
+          "sha256": "b8fc20b1e6e732fcbb5156c7b35d737767aa32b83f4f68e99846615966609f90",
+          "size_bytes": 479569
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-101.png": {
+          "sha256": "c0d635c49b7dbd62178d9d8dee6ffd34a5c0b7e8a9697493ef882e594e5be77c",
+          "size_bytes": 480445
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-102.png": {
+          "sha256": "30782e13105f96e0a6823f411ebf51b437e0453bab4325cf95c31618c550ee2e",
+          "size_bytes": 478071
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-103.png": {
+          "sha256": "7f861814c00d4105174519ea32bebde31866149e4474c12873f033cd27d8b638",
+          "size_bytes": 477048
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-104.png": {
+          "sha256": "e5641f7446ccb8c4746443fdca8476f4c5182402d948f8dba6d0144b784793ac",
+          "size_bytes": 477187
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-105.png": {
+          "sha256": "7e3b9f561887e74f693016d370d1fe5c0e9b6ef60e83d667599cf99b0a4f4646",
+          "size_bytes": 476705
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-106.png": {
+          "sha256": "bc30b08d6d16d32b6356a1fa672a5130b3f1411fd49525d10f67476473552076",
+          "size_bytes": 476270
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-107.png": {
+          "sha256": "172506301f0b3551b63c7637f6a7d595012bf238712b5460d56e7052ee8605c3",
+          "size_bytes": 475974
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-108.png": {
+          "sha256": "7bf2b55e61df16a34d4625628afcf8e2915637a6a3d072ddd9b200ea22023772",
+          "size_bytes": 476426
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-109.png": {
+          "sha256": "12a49982535c982e2ec1a43755a28d7cba4a61351bbbda84e76ecb03975e0dcb",
+          "size_bytes": 476957
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-110.png": {
+          "sha256": "7207801b4a1dbdb9995e5e0ad11a942083607424a52a957e1c9f1f6e4730729a",
+          "size_bytes": 476196
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-111.png": {
+          "sha256": "257404f45a57ce6114b90d5cd966d9e6cfc18e43b96f9a8a385bd3035ac882af",
+          "size_bytes": 475937
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-112.png": {
+          "sha256": "1bf8314a2d57257644d1987b205b106569ea750f0d0c35b12a6d3a06dc07c0da",
+          "size_bytes": 475470
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-113.png": {
+          "sha256": "e9bb11ac1a7644b7693f8bdfcc3144a6463552a00522350556aabc23000a4e8a",
+          "size_bytes": 476004
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-114.png": {
+          "sha256": "b62002003305adbad8220c1ef2b34f5239cc4560d4b0949db00703c256d975b5",
+          "size_bytes": 476133
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-115.png": {
+          "sha256": "12a1dad8390148cc4afbe0a80eb27e5868448fcc64f5fb82f37c4e3fe2c2628a",
+          "size_bytes": 476200
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-116.png": {
+          "sha256": "3abffef546f4f7aa39c5e812b7a13413506470b1dfef1f1b42eb6a4251b8a0bd",
+          "size_bytes": 475619
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-117.png": {
+          "sha256": "ef758c81fa2af469bf7a618d592d6bc4368d223c119d25cd9d53e5b93cdacba9",
+          "size_bytes": 475268
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-118.png": {
+          "sha256": "9a8221cb1d0577ac3ef4fd27a1fda7b94c80f16d9ad08d752d5311611a6251d1",
+          "size_bytes": 476248
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-119.png": {
+          "sha256": "7ee326564e21d8ebc87f6cdc92a84daf26f19fdccc60696a4d0b208741649baf",
+          "size_bytes": 474502
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-120.png": {
+          "sha256": "d90144d7a3d3688c279ce0d6cf4e4d5045332e94e001c1e0a934d47ae36a9d4f",
+          "size_bytes": 475420
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-121.png": {
+          "sha256": "e4ec840b9bb861488cc37e06bc1859f08281a312721176f66b661c2099ff5f80",
+          "size_bytes": 475124
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-122.png": {
+          "sha256": "a7c6a98b535264586aaf5ff79942bbaea9ce7c4f7c5bcf5d4d8182b5b199128b",
+          "size_bytes": 474619
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-123.png": {
+          "sha256": "86a4b09127cb0039c9cd798e24ebdcb98277cc2a10f6dc7c3b50bb902556483f",
+          "size_bytes": 475631
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-124.png": {
+          "sha256": "8ed6a6af476b3d8f18596434674c45ab8426d3da77c17a368b8390cdb4d67c28",
+          "size_bytes": 474683
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-125.png": {
+          "sha256": "e29836e2cd88447e1190253a41e77aa805a2bd3614b179dff0b1bd9fce68b6b2",
+          "size_bytes": 474153
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-126.png": {
+          "sha256": "f56119170188f36ca5489896860475f8bf2887dfe0e485c74a054aceb77912e2",
+          "size_bytes": 475083
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-127.png": {
+          "sha256": "8b9634aa5c284710efa15abe62d29b665bb6ba8b8467c5fe1fc713346d4a7ebb",
+          "size_bytes": 474488
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-128.png": {
+          "sha256": "f6315f68a3011a3bc0af15ea839332abed21c0ad1fa81e8575658f1ea5274e3f",
+          "size_bytes": 473662
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-129.png": {
+          "sha256": "642eb29796e496343d93bb7662997eff0cbc8f3aade666ab22afbd987e5cf87c",
+          "size_bytes": 474237
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-130.png": {
+          "sha256": "1885fb436e58d461ad3b215c34a5d2918d1fa3d90d76fe06b9cda82edcc2c8f1",
+          "size_bytes": 474469
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-131.png": {
+          "sha256": "27ec57cbd584cee54777dc6dd2f005de50427f9213dc6df78ff95267b9b5be53",
+          "size_bytes": 474368
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-132.png": {
+          "sha256": "b4ca80149ccd1b94b00272c2d90a1345468865a9b166681cc25064cd1cb7bd0e",
+          "size_bytes": 473871
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-133.png": {
+          "sha256": "56d0ca3de786adfbf66d7947c334f2bfb5908ba920a24a3d6e2a8b735b61f193",
+          "size_bytes": 474250
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-134.png": {
+          "sha256": "614272c2a9c9e45730e98d19eeb08e35e56f757d22cf8578ef36cb16cfb43516",
+          "size_bytes": 474443
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-135.png": {
+          "sha256": "df9de1a054944e94c0300517cb24db0baad0d093b17bedec36dd62f5a3c5ea3d",
+          "size_bytes": 474453
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-136.png": {
+          "sha256": "c45e4750dc844de3d339bce01b10ec3fc45bf752027ef05a5b71e89315b55e13",
+          "size_bytes": 473265
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-137.png": {
+          "sha256": "5848848b0c2dd04249eac1bc61dd660147ae974ee69d392da76fb543726e63fc",
+          "size_bytes": 473242
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-138.png": {
+          "sha256": "fb52c0023c073833287acd53f7b4bd4277c33ae5977bdf6ee1970d7b8a4a66b2",
+          "size_bytes": 474100
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-139.png": {
+          "sha256": "056c8979cf006c64f413a04d9bde87b653e4c6e641dd4754b8e4fc1c95562f82",
+          "size_bytes": 473371
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-140.png": {
+          "sha256": "ea7f3ef9a9ffb4061311efb9c2d6184bacb498ba5b973d971caabae7f1caf1c3",
+          "size_bytes": 474641
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-141.png": {
+          "sha256": "590d881285c69b9d54d9c2cd2e9659f7a9b7e8c4be6b824995beef4ee61bf0a2",
+          "size_bytes": 474790
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-142.png": {
+          "sha256": "1f7603d5697bb0f25697393378012a7894bf4efb3ef8dda382c7ebde2ca2ada9",
+          "size_bytes": 475178
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-143.png": {
+          "sha256": "d759d726f8440556c7149e3eb4ff54f77f29275e15a160d95d06d482afe27b77",
+          "size_bytes": 475930
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-144.png": {
+          "sha256": "0b9d1b6957bda71052e7e4c3927c7d08ab07650b7ea16fdfdc6f5bb2fe2fbaec",
+          "size_bytes": 476198
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-145.png": {
+          "sha256": "48e46cc10389568d2915d7f6bcd262235fad87e044c7a304838df3d0a9306ed7",
+          "size_bytes": 475169
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-146.png": {
+          "sha256": "ce2f998985ef511c86f9d407847a65ce6fa622e6eedbe765ffe0742990a4046b",
+          "size_bytes": 476634
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-147.png": {
+          "sha256": "9e015af38453a954e36ef392cf6afb44da8c4292d6af18ede3326f2c9026754e",
+          "size_bytes": 477067
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-148.png": {
+          "sha256": "4bbf1a7a27657948d93ddc28f5a2406fe7058a37f56dffcae86df757fb17d27e",
+          "size_bytes": 476651
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-149.png": {
+          "sha256": "e8da42df028f45151061442a259dd2113f190972bc96b583983ae425e5b5942f",
+          "size_bytes": 477701
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-150.png": {
+          "sha256": "45558e6d61ff00317db27db9f8fba244d050ade4751a6df3fe4e0e23cf5a0422",
+          "size_bytes": 477860
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-151.png": {
+          "sha256": "f855556d22af2e93fc1f56b8f832f09bf494fc5044c8df390c10689d77696e81",
+          "size_bytes": 479015
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-152.png": {
+          "sha256": "8fd99ddf2beb2d445ba18ca7af5b752eb6b5b17bd2bc8c12df08f87ceb836ed6",
+          "size_bytes": 478671
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-153.png": {
+          "sha256": "5cca247df5b583384d091d45802e41640b8f59d8c41944d709b27228b904f3e9",
+          "size_bytes": 479106
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-154.png": {
+          "sha256": "c2468ef01514c8318af31f9b837f68686c1791e50fa55ef525c44f5e0877bba5",
+          "size_bytes": 479338
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-155.png": {
+          "sha256": "40c7c080023ed4577abc25c7219fff5d5f4b4d02ea2f998780134b1ea91a5a6f",
+          "size_bytes": 479448
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-156.png": {
+          "sha256": "e96af69020796d7c70f40b7b22abc8d89556fd7686eb48764fa9c6d880a70ab6",
+          "size_bytes": 480081
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-157.png": {
+          "sha256": "4cd9f5ac40ffefefeed675420d1e7cda589ee887a63d485b22822c4e820ff25a",
+          "size_bytes": 480496
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-158.png": {
+          "sha256": "40e1b3ee8a3d000c9568e2920e2765eb97f8a31f895f81c21d530ba22f5198bf",
+          "size_bytes": 479481
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-159.png": {
+          "sha256": "b1f947f75e015b63f82f8aa70209f5f6aa0e520b5937a6f26bba9b054b541a0b",
+          "size_bytes": 480661
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-160.png": {
+          "sha256": "1a30dc1b193cd8ac7b9b3df122b9fa47f902e7efa031a72e4fd1f7e947f6c558",
+          "size_bytes": 480516
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-161.png": {
+          "sha256": "dd32253384384c508258bdcbdfd590dab0f6cc4c3e90a83e3b53840880b38e9f",
+          "size_bytes": 479716
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-162.png": {
+          "sha256": "5863381484cea2aa182baf091a351d7ad8f01bef69f13fff3b3625c5e3cdd833",
+          "size_bytes": 480797
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-163.png": {
+          "sha256": "58098ed6a65b505b873d413ca2d9d533d526dcef3da3d3ba8cc95182899af483",
+          "size_bytes": 480877
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-164.png": {
+          "sha256": "513b837a0f7ddf894ae58f49569bbf606f50189cb1e4c86c26781846f1324da7",
+          "size_bytes": 480039
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-165.png": {
+          "sha256": "d0a89287f2713b0b987c8f3cf6a1f561c22c020a34999f03d61662726d5f3fca",
+          "size_bytes": 481390
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-166.png": {
+          "sha256": "4120a31139301dd23d571bd6ed76f5560db4ad4b81ae086b3409abe9c6be7c31",
+          "size_bytes": 480711
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-167.png": {
+          "sha256": "bb9aecbda95425746b56c1d453111cf428200c1dd44701ecbd443f0b339d42b7",
+          "size_bytes": 480366
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-168.png": {
+          "sha256": "9b50fb6e4e76b35d0302cb19f25995e6322506df9399e7080b96e361e394a12e",
+          "size_bytes": 481711
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-169.png": {
+          "sha256": "4894ec8f93546ae2d90fdb8d98a7bd144c88486d3b5743d932a9ce3494863048",
+          "size_bytes": 480487
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-170.png": {
+          "sha256": "c936bea471606b6e400f27d09a2addc84480059c3cd5aca86f2c311b87e4091a",
+          "size_bytes": 481639
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-171.png": {
+          "sha256": "76e6f3c02fdb44667b994d143cb445a1d98b3e3f6976c848f4ddd8315bf3a04a",
+          "size_bytes": 481992
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-172.png": {
+          "sha256": "00bce353c9e74fd6a8270403a67fd5cf345bc43abfc527d416418a8a72440cd8",
+          "size_bytes": 481719
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-173.png": {
+          "sha256": "e30201cfd4e2a5cde60584b7beae788ad27df410859a7dc35ed3c1622dc0c368",
+          "size_bytes": 481938
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-174.png": {
+          "sha256": "2b407389202e1a34811717c30c2f2ad69612ea796b9a4a969312567bff1b2c34",
+          "size_bytes": 481976
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-175.png": {
+          "sha256": "c9b45552184a675fe73ccca797b5c6b1546598f9d37e0e6ae90d7630dd6c08e5",
+          "size_bytes": 481851
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-176.png": {
+          "sha256": "04f066db6c6e8f8ac4307e2635d844ec33935c7193ac51fecd340a01b41d9268",
+          "size_bytes": 482435
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-177.png": {
+          "sha256": "9bb9bf7f687e676867f7f4e6f8ad6f9995d80defd982078d5de5bdd1cdfe82e8",
+          "size_bytes": 481264
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-178.png": {
+          "sha256": "8a88c8db53ee10f98c67b8a78f404fa50767b52911197c16c5a9b222ddfaa79b",
+          "size_bytes": 482025
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-179.png": {
+          "sha256": "3346bef0e9a746fbdfb65ca3c1f85eb6f50714b26934378b1a019c01b4850b3f",
+          "size_bytes": 481743
+        },
+        "adl-05-cam0-rgb/adl-05-cam0-rgb-180.png": {
+          "sha256": "b00d22b800d44b461f7c356fec5b9575a5774d5946acd5f4d3858f60445b4921",
+          "size_bytes": 481694
+        }
+      }
+    },
+    "fall-02": {
+      "archive_sha256": "8918e078c85f821ae897b8041ae789bdec7ba2f264a3e83b4fb22cf9443180e7",
+      "sync_sha256": "a254fe2a53402149db758c9048a971eaa5149772fda9992bcb835f4edcb069fa",
+      "png_count": 110,
+      "frames": {
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-001.png": {
+          "sha256": "3b25fd258866d8cb88775ff94badb29767e774a217f2a3f5045e14f94bd11e85",
+          "size_bytes": 372633
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-002.png": {
+          "sha256": "029573a99db1589bd33b6fbe6cb8e7a887e7adaca4b8c5e9e6ddece286c8c1be",
+          "size_bytes": 373724
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-003.png": {
+          "sha256": "6010e1d204356ab103060e7bae08bc55afc811346b9efc9675975b520078a760",
+          "size_bytes": 373067
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-004.png": {
+          "sha256": "b836c72b080ced86475f28a029c17ca0a7e5a20adf19223b261ca7f62f951fbb",
+          "size_bytes": 374576
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-005.png": {
+          "sha256": "d354d6f4f06cd083b574e851cacef5c1631425a1e48cebe9d3b3927ee0666e45",
+          "size_bytes": 373972
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-006.png": {
+          "sha256": "1b0d09fa3cb246800d5e2998ec5fd189b770ea0efa5bc6cb02ac17d6dccd23ee",
+          "size_bytes": 375788
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-007.png": {
+          "sha256": "bb80a9b9c2bc2c8b979e3b87c4d1c91d59643ed7d0896db391c1321593241c31",
+          "size_bytes": 374104
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-008.png": {
+          "sha256": "72f9fa7e0fb22ccf176f861fc337bb88a47d75b8c5cb694b7dcd9eea0fce6c3c",
+          "size_bytes": 374325
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-009.png": {
+          "sha256": "67802aa77f0f4e8aa73834d4c79a2d5c7ed84847fd851923d52ffd6dd53e5831",
+          "size_bytes": 374991
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-010.png": {
+          "sha256": "e5164a58121afc32c72937061af6a15a8428a8d273e5864057bf1e822c7c4b3e",
+          "size_bytes": 374377
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-011.png": {
+          "sha256": "9e4f3f21bee371810e1619acba41436f6244fdd4e2119434116f713e7a27de4b",
+          "size_bytes": 373736
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-012.png": {
+          "sha256": "0c2122919829314808d5ecd5aa3a1587772c2afe0b77c1ad4d59fa6d3ca49dca",
+          "size_bytes": 375478
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-013.png": {
+          "sha256": "9805d058ebff9594fc4632604c50de5226d00dffca833dd0b932a75e490bd4b1",
+          "size_bytes": 374476
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-014.png": {
+          "sha256": "51590f581c1552b9bfdfcd392a39ca047111031a18936bdb0c414a4c38efa7bb",
+          "size_bytes": 374492
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-015.png": {
+          "sha256": "7e39027c8c840840d82125524f1adb984d36c52a684e1e6fe8ced23723596774",
+          "size_bytes": 373687
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-016.png": {
+          "sha256": "deb179cfa309b8cd2ffc92c19e5b99ad9defddb40c85b194e6156a49725b7651",
+          "size_bytes": 374947
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-017.png": {
+          "sha256": "7c7f6db9bbb053bdff6e2e0cffea8221d0f5d1140a6a4200fceb1959101f76dc",
+          "size_bytes": 373609
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-018.png": {
+          "sha256": "5336b01fad67284feb5ab846470dde33d6bfc6f65025aa54d7f86e8b3b840c98",
+          "size_bytes": 375456
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-019.png": {
+          "sha256": "3ac47d9674d94c6f6a21edddcb1961fa8d38ceb9f1701a68416880ad7223bbf7",
+          "size_bytes": 375369
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-020.png": {
+          "sha256": "b36524a086beceac5c7ac19545ae171325974c7373ed19c1c98a68355bfd3a5f",
+          "size_bytes": 375759
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-021.png": {
+          "sha256": "9d6fb2a0b83852ff5da541cabe748db0d2c4887d7f818f8b9b5121d83e45fca8",
+          "size_bytes": 374634
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-022.png": {
+          "sha256": "41fef86b6c23c7adb4fb15b528181605f9e5e2d338d34d9701381028079e9ee0",
+          "size_bytes": 374903
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-023.png": {
+          "sha256": "2a75e2c514f1ba2955ad648ffc31797fa0685e1562eeefe49a22483be3f0ec89",
+          "size_bytes": 374611
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-024.png": {
+          "sha256": "cd810081f8fb9d5611c588212351866159730451c20b5f50bf49b0655069582a",
+          "size_bytes": 373358
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-025.png": {
+          "sha256": "dc450c7350c3a10d05e0248e2786410aaac3a8b44800c1c97485e0ff549ca59b",
+          "size_bytes": 373733
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-026.png": {
+          "sha256": "b99179c2dc83dfbcf723e9863a01b19dd59ca46b46de73a14e0611839e16ce8c",
+          "size_bytes": 375319
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-027.png": {
+          "sha256": "e0668ff414d7c07a460c900c19dbe0fd967eb1ed723d31bb8e784a9ad44ef3db",
+          "size_bytes": 373031
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-028.png": {
+          "sha256": "b7d6cc238f9ee7654a29698d22fcf023ac644fd52208aa3e8f3ca7759cc96a61",
+          "size_bytes": 374684
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-029.png": {
+          "sha256": "f9d0cadf43bda072b6b967aadd8703bd6bd2a3eee10d5781795b27a75df8928e",
+          "size_bytes": 374487
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-030.png": {
+          "sha256": "395202711bf369d5055851283cea6f27169d21a9dee3fa449f5fe7f5cc3565d2",
+          "size_bytes": 374554
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-031.png": {
+          "sha256": "2c7fbfc7000454228439ca9719aa88011a916f5be91db4f32d58bbcbdff931cf",
+          "size_bytes": 374594
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-032.png": {
+          "sha256": "3c369e1f27e4d7382444ddd5f0d47f99ce23499d376a745fec66805ecd28e48f",
+          "size_bytes": 373296
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-033.png": {
+          "sha256": "268bbc78a0b66d01b15d6df3ab9f710a41cd0d3f3dabb9ba384476d26328ab63",
+          "size_bytes": 373130
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-034.png": {
+          "sha256": "093fd64233c37171ffbde9bf2a75b3ba2958c9259d286568a365fb7c3877dc6d",
+          "size_bytes": 374841
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-035.png": {
+          "sha256": "1e6f95775498768c9ee4bfa65e9fca9ce2a151dd89f7552a49c475012ad1fd1e",
+          "size_bytes": 374382
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-036.png": {
+          "sha256": "c417a497909312f7ea7d0b9d575cc4168f62bcd468ad72f24a15f67d52c9982d",
+          "size_bytes": 372699
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-037.png": {
+          "sha256": "0d5e6a2ba65c85675ca5e460a42a4dc06bd7d8cf5f3788f3ce8529b69c1b3cc1",
+          "size_bytes": 374083
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-038.png": {
+          "sha256": "fb6da04a22c543ddfc04cc8e1f738a716a4a0ee049ac5c9f4019adf9596ba75c",
+          "size_bytes": 372924
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-039.png": {
+          "sha256": "5f4cf042d85c306ee8fcbcea7c38751addb0ccc89d52dff6a88df667a35894cc",
+          "size_bytes": 372685
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-040.png": {
+          "sha256": "9c772074958d1df536df68f420254b08954f13a55c921030556441dd55e7977a",
+          "size_bytes": 373475
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-041.png": {
+          "sha256": "8bbd96ff0fe761f43950b6039f2a798ceb9be22df98fbb285357b637e27d41f8",
+          "size_bytes": 371969
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-042.png": {
+          "sha256": "f3a5948eb6f4997c212ad0b4b85d5588c6c4735e69f6c9378ddbba5bd83a090a",
+          "size_bytes": 372118
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-043.png": {
+          "sha256": "5fcffaf1d3df68b778ba4d960f67a16fa2f42ec035ade36564ade118fa22baf5",
+          "size_bytes": 372907
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-044.png": {
+          "sha256": "8df9c6eac49a69bfc8aad0a97c453ec3b702b6af6f7a597c24f3b9da09fb7c6f",
+          "size_bytes": 374235
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-045.png": {
+          "sha256": "1be134c13902d0854c6841e20945aa7386720206928dad49e0988cca195615c7",
+          "size_bytes": 371551
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-046.png": {
+          "sha256": "b558b69928ad592fb4e34622d203019451da30ec29268cd37908ac8b5c4c5562",
+          "size_bytes": 372260
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-047.png": {
+          "sha256": "f2c5a88eb490caf80a81db19a86921139e07b73405bb29f5efc8f80b046a7b24",
+          "size_bytes": 372386
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-048.png": {
+          "sha256": "83126dcd167a5a819c8aff8a27c122971f239976a23b22855cfe8869124de17e",
+          "size_bytes": 369346
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-049.png": {
+          "sha256": "70136c188b477545a3affd830cf5363a3facbc192d0a5cfa6a6829be6a8c1576",
+          "size_bytes": 369741
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-050.png": {
+          "sha256": "f2fa7a55523aac90336789784ddcc962f802fa7280bda01fada23c5f484094a8",
+          "size_bytes": 369533
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-051.png": {
+          "sha256": "3e6f5ccd46d6a8ec691eed996ed4e60e480b04a46f3b2a141a4c71f4e06279f9",
+          "size_bytes": 366987
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-052.png": {
+          "sha256": "82ee270eb98af794b2798171eb689ffb4d37c8203f332dfb2d16e4994e08a751",
+          "size_bytes": 365009
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-053.png": {
+          "sha256": "81210f05c183ba501391011090bed7a04506b6e5514dcb8c26ac69089d8e645f",
+          "size_bytes": 365125
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-054.png": {
+          "sha256": "8e90437647c06c7056f8470c9c02b5878a6e47af17d6081881086a46a3d0eb2c",
+          "size_bytes": 364212
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-055.png": {
+          "sha256": "012be0648ee747a2c49fa3049e74d6ec93d848c0fe3455aa43e9caf63cee8e3a",
+          "size_bytes": 364072
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-056.png": {
+          "sha256": "e896ca87667414a6a04881a48667302845e4c03b867affcb0ac99d755c86bdaa",
+          "size_bytes": 364373
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-057.png": {
+          "sha256": "793be7d78d05f783693dbff03cefb10802fde90928b9625793b9128a43b3240b",
+          "size_bytes": 363648
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-058.png": {
+          "sha256": "b1a9b4b3300e600c1bac0b75a99d3ea96a094aaed8b32e43352838a5d8ac8e2f",
+          "size_bytes": 362430
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-059.png": {
+          "sha256": "b46bdd9d91f50fb2850aeb77bfc7b24b813e9f5422a7d8e32b372450d18fcfef",
+          "size_bytes": 361135
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-060.png": {
+          "sha256": "8db62cee0e547a53199fd096bdb20c9d0a0cb77aaa6882bd34355119f5ea63c2",
+          "size_bytes": 359173
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-061.png": {
+          "sha256": "be2c759c1981340f870091a5f33175a497a4993d532ea0e3481d0aa9003effd0",
+          "size_bytes": 358750
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-062.png": {
+          "sha256": "466dc20493afd385a81c312baeface81a9401b439f0a2b4ffbc75f2b9bba42e7",
+          "size_bytes": 358279
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-063.png": {
+          "sha256": "7dcc37cd20b32131ffef110a9b2788e960e2163a112a98373ef156f72497c04b",
+          "size_bytes": 359042
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-064.png": {
+          "sha256": "7cc5348085b001a69c76312fdb55369417da464c9576aecf6ac9f486667f6ede",
+          "size_bytes": 360258
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-065.png": {
+          "sha256": "eee9e0c92606e210afd01e2d6c844685e1a5cd773bc639298b38fe059fd82383",
+          "size_bytes": 361467
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-066.png": {
+          "sha256": "80b5d81de6baf5597c577bbed6a410f362f4f1c0f48e01e130196f940f5a1ecb",
+          "size_bytes": 364197
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-067.png": {
+          "sha256": "253ba74980996140b5ca500e9a63e2aeec2fe0dcbb112c09565c3f634198cbf4",
+          "size_bytes": 365164
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-068.png": {
+          "sha256": "645ee4e72dd63ba2d7b3ffebf102694a443cf7ad2b3b63a489c118fc54f8f49b",
+          "size_bytes": 369576
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-069.png": {
+          "sha256": "439a677b9ba1f3f1ff3fb7483151845b8244b1cfd4db7b28c1c718d72cd1925d",
+          "size_bytes": 373427
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-070.png": {
+          "sha256": "440c132e905e346f66adea4753bfb55a7798ce91ba14c3ae289296bf3f9c8bdb",
+          "size_bytes": 372992
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-071.png": {
+          "sha256": "a07f400980d5b10ad39ac9dc51ff3b2a4de13831dc5095becf1855b154e795f1",
+          "size_bytes": 372741
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-072.png": {
+          "sha256": "ac2d61ae51e1a9b4715c10c12b7fc2e6f2765a105a8b6af3fa93896678116940",
+          "size_bytes": 371809
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-073.png": {
+          "sha256": "40b232f604d0aef3a3807e6a130ce373191c37f34040dc28db790829c3ca8a60",
+          "size_bytes": 372165
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-074.png": {
+          "sha256": "056ceb4e81103cc2247168f86bea97b8c006b78e59c97f119e6c764503be37d5",
+          "size_bytes": 371448
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-075.png": {
+          "sha256": "8d8bb54890597ae79de03909c783cd250fb30bae215ea096cad21c29280d832e",
+          "size_bytes": 371209
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-076.png": {
+          "sha256": "b5b438f81c0d29985898d161a20773a3ebb83e0401cf7489da8d91d16e18b0cc",
+          "size_bytes": 370322
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-077.png": {
+          "sha256": "15bae3404a6f6ba21738d1705eea4cc76235060a2430fb7983679050a41b815f",
+          "size_bytes": 374614
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-078.png": {
+          "sha256": "b406c0b40281b5bc09d05805d0057ebb7dbc5d0f30296e2e3cb2d3d78dc05728",
+          "size_bytes": 378106
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-079.png": {
+          "sha256": "4a71ec9f9a783479bfcccf1212e973f54ebb1a126450a24b619a990192d24295",
+          "size_bytes": 379396
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-080.png": {
+          "sha256": "35af64fead6f3931658020fe7fe1a9773ff1f98b01028a1d313d9a20d5277c2c",
+          "size_bytes": 377411
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-081.png": {
+          "sha256": "82e4370aedd0208dd397c70157c7dd6091836c89acff7040cddfa439e279eb26",
+          "size_bytes": 376229
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-082.png": {
+          "sha256": "a9b4ed162102d86da069c5455787e9956ea12fa45199393dbfac72df3e62f1d5",
+          "size_bytes": 377559
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-083.png": {
+          "sha256": "0ef797018d7c3bf18831fd17a3f883577b9649d8793615b3791ca8446846fbb4",
+          "size_bytes": 377695
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-084.png": {
+          "sha256": "22ecef0a6bb796dd48c6959491e6747d37123a2f854420647c3f09210f6c292b",
+          "size_bytes": 376438
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-085.png": {
+          "sha256": "8ac3258d7a118c96d0d95336b24d4c0c1cb63442ae369a30e764f5c644be4179",
+          "size_bytes": 376455
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-086.png": {
+          "sha256": "6d3a2f262d435e3df3684aff47a6efe5d001f411fd1d5c3f549bfbe180769257",
+          "size_bytes": 377200
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-087.png": {
+          "sha256": "79bdad6305c025313f85f830094eabbc07e9bb882a0db03fa5fe248456e4036d",
+          "size_bytes": 378789
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-088.png": {
+          "sha256": "4bc8fdea3d6acc7ecaf954cecba227f54e2a804976f309a09ae4cd8a3a400073",
+          "size_bytes": 379563
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-089.png": {
+          "sha256": "bdf7c95bc1329e418d044a7f7573e2b89085b0eff9374679465516d3cbb31cbd",
+          "size_bytes": 378862
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-090.png": {
+          "sha256": "d1b0af64cde27458477316945e43116fdbbb19b23797248ccb9e2f2006c89fe5",
+          "size_bytes": 378798
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-091.png": {
+          "sha256": "7060cdb4e956453a869f4e3f9a923552485f7ce5b9dcf223cbaabbd7dd48b24f",
+          "size_bytes": 379913
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-092.png": {
+          "sha256": "aab46e044584487dc685a76f28c8122da4befb92a636559d9b2d3ba8d184e37d",
+          "size_bytes": 380091
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-093.png": {
+          "sha256": "59c2e1e05748b85573c8a76faa64d8ed6eb6728162dcea3378ec4f93fe799720",
+          "size_bytes": 381268
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-094.png": {
+          "sha256": "af77ffb66e01c7051dfee4aef2ecd7155cd8166608d2a55dd2a874f57aac9ce3",
+          "size_bytes": 382100
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-095.png": {
+          "sha256": "7baf82ace27e77ff9c337147290a928c462b8757dc9db84eb31b0b14884656cb",
+          "size_bytes": 381634
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-096.png": {
+          "sha256": "c58d3f968cd2513332563ea1d50c77c5767c47415bf6172da0e04586b68c0980",
+          "size_bytes": 382366
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-097.png": {
+          "sha256": "68c3636529edbacfb451a060ce9bd3e7c9d63eeb97c19deaf64cac70d17342cd",
+          "size_bytes": 380800
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-098.png": {
+          "sha256": "a0a10579a8288386d12e1c0abbd9750e95204c6ce151124443aa640116cb8e0f",
+          "size_bytes": 381795
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-099.png": {
+          "sha256": "92bff6c7a83c59462fa5e9de1fb5afb0bb2e6ba06e27822ef71e2b0111e01b75",
+          "size_bytes": 381109
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-100.png": {
+          "sha256": "51cfe48d292f6246c8b1f142492a9019a251d4ff875cc4c8d0bb009896623671",
+          "size_bytes": 381610
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-101.png": {
+          "sha256": "31d8ef04d8dbacc86d879027833d9a38096161b38ea1f0df4dccbb068f582adb",
+          "size_bytes": 381416
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-102.png": {
+          "sha256": "b48b9b5d6e198da55f4a713356bd9acee089447a16280149af8c554a5e6d12ce",
+          "size_bytes": 381870
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-103.png": {
+          "sha256": "192003d0ab3c39ab7c602a8f71970409d6dd104af50dbdcce9d251da689b7353",
+          "size_bytes": 381171
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-104.png": {
+          "sha256": "90f9d556a7b1507ec12dc16da0e04d82bdc7c7788019e9d798b3be95ff4c69ae",
+          "size_bytes": 382230
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-105.png": {
+          "sha256": "570435b10742fa91a30e3f2349e62eee538016108e56bc02a4d12d364de13793",
+          "size_bytes": 381614
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-106.png": {
+          "sha256": "97a58ff9fe705bf051eb23da524a192a531cfb8c2dbce5284c925db3de3191a3",
+          "size_bytes": 381817
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-107.png": {
+          "sha256": "fe928fc32cf7646ffdffda9017db652111465bbf15e83c7cd67a31dc2fd544e8",
+          "size_bytes": 382677
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-108.png": {
+          "sha256": "4e84f27a949323ce9136cafba45fdfa13a6fb208b59c88f41f48da6870d12628",
+          "size_bytes": 381730
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-109.png": {
+          "sha256": "c172e1c660ec46c70c630881bc4280edc9b2e628c3e932ee65ea4faf9a3b6c76",
+          "size_bytes": 381357
+        },
+        "fall-02-cam0-rgb/fall-02-cam0-rgb-110.png": {
+          "sha256": "875bb56b1f6190b8256d94c930305772a6577eb38bc7cfc119e8cebf6417c47e",
+          "size_bytes": 382069
+        }
+      }
+    }
+  }
+}

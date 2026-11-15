@@ -1,5 +1,14 @@
 # 驗收結果
 
+## Git 一鍵建置（2026-11-16）
+
+- 新入口 `start.cmd`／`scripts/bootstrap.ps1` 自動管理專案內工具、Python、套件；`scripts/quickstart.py` 管理固定模型與兩段示範資料。21 個 synthetic／資源契約測試、Ruff、PowerShell 5.1 語法與正常／不相容環境探測通過。
+- 原環境 `start.cmd -Device cpu -CheckOnly` 的 46 項資源全部 ready；`start.cmd -Device cuda -NoOpen` 真實處理 Validation fall-02 成功，成品 110 幀／30 FPS 完整解碼。39 個 runtime 檔及四份預訓練資源 SHA256 與原值相同。沒有重新訓練、校準或 Test 存取／評估，也不宣稱 Accuracy 改善。
+- 乾淨 CPU 安裝另建在忽略的 `.artifacts/quickstart-clean`，全部套件、上游程式、四份預訓練資源及兩段範例自動下載成功，重複啟動後 CPU demo 的 110 幀完整解碼。Release ZIP 僅本機預置，此測試不代表 GitHub Release 已可用。另一次全新 Python 安裝確認專案內 bin／payload 與既有登錄值不變；暫存淺層 checkout 真實抓取亦通過。原 Python 路徑及測試影響的 uv 註冊已恢復；往後啟動器使用專案內 bin、禁止 Python 註冊，既有不相容環境不自動覆寫。
+- 模型套件 2,057,242 bytes／39 檔已核對；使用者於 2026-11-16 明確授權更新 GitHub 並公開模型套件，遠端發布與 clone 驗收接續紀錄。Notebook／期末影片公開上傳仍維持暫緩。
+
+完整範圍與限制見 [acceptance.json](validation/quickstart-20261116/acceptance.json)。
+
 ## 四段雙肩 demo 單頁人工覆核工具（2026-11-12）
 
 - 已另建`ur-shoulder-display-review-20261112-002`，四片H.264逐位元複本、原標註唯讀、每片一筆、單JSON帶回原參照與來源SHA。未完成不能正式匯出，負面／不確定可匯出；草稿可保存／下載／匯入，重新載入須再做全域本人確認。
